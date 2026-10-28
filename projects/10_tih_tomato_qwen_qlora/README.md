@@ -30,6 +30,13 @@ The private dataset is found automatically on the TIH workstation; elsewhere add
 `--dataset-root <folder with the 11 class folders>`. Reports land in `reports/`, adapters in `checkpoints/`.
 The July MLX (Apple Silicon) work is the same `plantdx` package — see `../09_plantdx_mlx_knowledge_grounded`.
 
+Good to know:
+- `evaluate --split test` always runs all 649 test images (about 4 min); `--limit` is refused on the test split on
+  purpose so the reported number can't come from a subset. For a quick check use `--split validation --limit 10`.
+- Running `evaluate` again overwrites the reports in `reports/tih_tomato_moreaccurate/`; pass `--run-name <new>` to
+  keep them (it needs that run's `artifacts/company/<run>/dataset`, so copy the folder first).
+- The PEFT "Unexpected keyword arguments ... LoraConfig" warning is harmless: the adapter was saved with a newer PEFT.
+
 ---
 
 *Original project README:*
