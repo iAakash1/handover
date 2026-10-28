@@ -1,0 +1,104 @@
+VALIDATION REPORT — Crop Disease Caption Dataset
+=================================================
+Generated: 2026-06-23
+Source archive: caption.zip (16 usable images; macOS metadata files and
+.DS_Store entries were excluded — these are not real data)
+
+METHOD
+------
+Every image was opened and visually inspected directly before any caption
+was written. Folder/filename labels (e.g. "Curl Virus", "lateblight",
+"bacterial spot") were treated only as a starting hint, per the brief.
+Where the image did not clearly support the labeled symptom, the caption
+describes only what is actually visible rather than assuming the label.
+
+PER-IMAGE NOTES
+----------------
+
+COTTON (5 images)
+- augmented_Curl Virus0005.jpg: Filename says Curl Virus. The leaf is
+  mostly green; curling is barely present (slight waviness at the tip
+  only). What IS clearly visible is yellow vein clearing along the
+  midrib — a recognized early CLCuV sign. Captions reflect the vein
+  symptom rather than overstating curling that isn't really there.
+  Rated Mild.
+- augmented_Curl Virus0033.jpg: Curling/cupping is much more visible here
+  (both lobes pull inward), consistent with the folder label. Rated
+  Moderate.
+- augmented_Leaf Redding0085.jpg: Strong match to "Leaf Reddening" —
+  extensive magenta patches with yellow halos and dark necrotic centers
+  are unambiguous in the image. Rated Severe.
+- augmented_Leaf Variegation0045.jpg / 0058.jpg: Both strongly match
+  "Leaf Variegation" — irregular white/cream sectors crossing vein lines,
+  consistent with chlorophyll loss rather than a uniform yellowing
+  pattern. These two images appear to be the same plant/leaf photographed
+  from slightly different angles; captions were written independently
+  per image and were checked against each other to avoid them reading
+  identically (see similarity report — no flagged duplicates).
+
+POTATO / LATE BLIGHT (3 images)
+- All three leaflets are photographed against a plain neutral background
+  (lab-style, not field) rather than in situ. Lesion presentation is
+  mild-to-moderate in all three (small to medium grayish-brown to
+  tan-brown necrotic blotches), not the large-scale blighting sometimes
+  associated with advanced late blight. Visible appearance is consistent
+  with an early/localized stage of the labeled disease — no conflict
+  with the folder label, but severity was kept conservative (Mild/Mild/
+  Moderate) rather than assumed from the label alone.
+
+TOMATO / LEAF MOLD (4 images)
+- All four are single leaflets on a neutral background. Symptom pattern
+  (patchy yellow chlorosis on the upper leaf surface, sometimes with a
+  faintly fuzzy texture) is consistent with Leaf Mold (Passalora fulva),
+  which characteristically shows yellow blotching on top with fungal
+  growth on the underside — the underside isn't visible in any of these
+  four photos, so captions describe only the upper-surface yellowing
+  that's actually visible, not the underside growth, which cannot be
+  confirmed from the image.
+
+BELL PEPPER / BACTERIAL SPOT (4 images)
+- 0b27c03f (1799) and 2b562d10 (3256): Classic presentation — leaf stays
+  mostly dark green with a scatter of small discrete tan/brown raised
+  spots. Strong match to label. Rated Mild–Moderate and Mild.
+- 0fdb66e8 (9058) and 1b589f92 (3239): These two show overall yellow-
+  green chlorosis across most of the leaf plus darker necrotic patches,
+  with fewer of the small discrete "dot-like" spots typical of the
+  mildest cases. This is still a plausible advanced presentation of
+  bacterial spot (heavy infection causes generalized yellowing and
+  leaf drop), but it's a different visual pattern from the other two
+  images carrying the same folder label. Flagged here per the brief's
+  instruction to surface label/appearance conflicts — visual appearance
+  was prioritized, and severity was rated Severe / Moderate–Severe based
+  on what's shown rather than treated as identical to the milder pair.
+
+GLOBAL CHECKS
+-------------
+1. Repetition check: see duplicate_similarity_report.txt. 80 captions
+   compared pairwise (3,160 pairs); 0 pairs exceeded the 0.80 similarity
+   threshold.
+2. Phrase frequency check: see caption_statistics.txt. No content word
+   or opening bigram dominates the dataset. The single most frequent
+   opening token is the article "the" (18/80 = 22.5%), which the stats
+   script flags automatically — this is expected for English prose and
+   each instance is followed by a different noun/subject ("the veins...",
+   "the margin...", "the contrast...", "the upper-right lobe...", etc.),
+   so it isn't a templated-phrase problem in practice, just a property of
+   the naive single-word metric. No banned boilerplate phrases ("the
+   image shows", "displaying symptoms", "infected leaf", etc.) appear
+   anywhere in the dataset — checked manually against the full caption
+   list.
+3. Symptom-consistency check: see per-image notes above. One genuine
+   conflict area was found and documented (the two bell pepper images
+   with generalized chlorosis vs. the two with discrete spotting) —
+   resolved in favor of visual appearance, not the shared folder label.
+
+LIMITATIONS
+-----------
+- Sample size is small (16 images) — this is a caption-quality pilot for
+  the existing crop subset in caption.zip, not a full-dataset run.
+- Disease identification is based on visual pattern-matching to common,
+  well-documented presentations (consistent with general plant pathology
+  references such as PlantVillage-style symptom descriptions for these
+  same crop/disease classes); it is not a substitute for expert
+  pathologist confirmation, which the brief itself flags as the next
+  step.

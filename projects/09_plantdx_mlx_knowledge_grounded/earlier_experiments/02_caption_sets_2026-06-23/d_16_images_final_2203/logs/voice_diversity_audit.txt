@@ -1,0 +1,88 @@
+VOICE DIVERSITY AUDIT (round 3)
+================================
+Trigger: feedback that round 2 passed all its own checks (0 flagged
+similarity pairs, 0 banned phrases) but still read as one careful
+observer rather than many independent ones. The point made — "low
+cosine similarity does not imply human diversity" — is correct, and
+this round was built around taking that seriously rather than just
+re-running the same checks harder.
+
+WHAT CHANGED IN APPROACH
+-------------------------
+Round 2 fixed individual flagged phrases but kept a fixed rhetorical
+shape per image: caption 1 = color, 2 = shape, 3 = distribution,
+4 = overall, 5 = comparison, in that order, every time, for all 16
+images. That fixed shape is itself a fingerprint — a human annotator
+wouldn't organize every single note the same way. Round 3 dropped the
+fixed slotting. Each image's 5 captions still cover different angles
+(no two captions in a set repeat the same fact), but which angle gets
+a telegraphic fragment, a casual aside, a structural note, an implicit
+comparison, or a longer descriptive sentence varies image to image.
+
+A FIRST DRAFT CAUGHT ITS OWN PROBLEM
+--------------------------------------
+While writing the "comparison" angle for the milder cases (faint vein
+yellowing, small lesions, light speckling), a first internal draft
+produced five different captions across five different images that
+all used the same underlying template:
+  "A healthy/clean/unaffected leaf wouldn't have/carry/show this X."
+Different words each time (healthy/clean/unaffected, have/carry/show),
+so a phrase-match or cosine-similarity check would have passed this
+cleanly — which is exactly the failure mode flagged. It was caught by
+re-reading the comparison-style captions together rather than each in
+isolation, and four of the five were rewritten into genuinely different
+constructions (an imperative aside, a within-batch ranking, a flat
+juxtaposition, a "you'd expect X but" frame) before this draft was
+finalized. Only one instance of that comparison shape was kept, and it
+is the only one in the final 80.
+
+STRUCTURAL N-GRAM CHECK (the actual new tool here)
+----------------------------------------------------
+To catch this kind of thing without relying on manual re-reading alone,
+every 3-word and 4-word sequence in each caption was extracted and
+counted across the dataset — see phrase_frequency_report.txt for the
+full method and current results. This is a cruder, more literal check
+than semantic similarity, and that's the point: it catches repeated
+*shapes* (an opening clause, a clause order) that paraphrase-detection
+tools are specifically designed to see past.
+
+This pass caught two more real issues that the phrase/banned-word audit
+had missed entirely:
+  - Three different captions (across three different images) opened
+    with "Held..." while describing a hand-held leaf — same opening
+    move, different leaves. Two of the three were rewritten.
+  - Four captions led with "on the gray backdrop / background / surface"
+    — accurate (11 of these 16 images really are shot on a neutral gray
+    background), but the lead-in phrase had become a tic regardless of
+    which synonym followed it. Reduced to one remaining instance; the
+    others either restructured the sentence or dropped the background
+    mention where it wasn't adding anything the caption needed.
+  - One image ("1799" bell pepper) and one other ("8802" tomato, "3256"
+    bell pepper) had internal repeats — two of a single image's own 5
+    captions reusing the same phrase ("a couple of", "upper-left edge").
+    Both fixed.
+
+After fixes: 0 four-word sequences and only one three-word sequence
+("the other two") appear in 3+ different captions — and that one is a
+generic counting phrase ("two of the three lobes/leaflets are X") used
+in different grammatical contexts across cotton, potato, and tomato
+images, not a stylistic signature. Full detail in
+phrase_frequency_report.txt.
+
+WHAT THIS DOESN'T CLAIM
+-------------------------
+This is a real, computed structural check, not a guarantee of "human
+indistinguishability" — there's no ground-truth multi-author corpus to
+test against, so the honest claim is narrower: the obvious mechanical
+tells (fixed per-caption role ordering, repeated opening clauses,
+repeated lead-in phrases across paraphrases) that survived round 2's
+similarity/banned-phrase checks were found and removed in round 3.
+Whether the result clears the "many different people, several years"
+bar is a judgment call for you to make on a read-through — that's
+explicitly outside what an automated check can certify.
+
+All 80 captions were re-verified against the full cumulative
+banned-phrase and banned-verb list from rounds 1-3: 0 hits. Pairwise
+SequenceMatcher similarity: 0 pairs above 0.80 (also checked down to
+0.50 for context — see duplicate_similarity_report.txt). No symptom
+content was changed from round 2 — only wording and sentence structure.

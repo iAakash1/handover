@@ -1,0 +1,322 @@
+[
+  {
+    "image_name": "Scab_Apple.jpg",
+    "crop": "Apple",
+    "disease": "Scab_Apple",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Scab Apple are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "Soft_Rot_Apple.jpeg",
+    "crop": "Apple",
+    "disease": "Soft_Rot_Apple",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Soft Rot Apple are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "Red-Rot-Sugarcane.webp",
+    "crop": "Sugarcane",
+    "disease": "Red-Rot-Sugarcane",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Red-Rot-Sugarcane are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "SheathRot.png",
+    "crop": "Rice",
+    "disease": "Rice_sheath Rot",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Rice sheath Rot are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "False_Smut_Rice.jpeg",
+    "crop": "Rice",
+    "disease": "False_Smut_Rice",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with False Smut Rice are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "Sheath_Blight_Rice.jpeg",
+    "crop": "Rice",
+    "disease": "sheath blight rice",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with sheath blight rice are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "White-Rot-Onion.jpg",
+    "crop": "Onion",
+    "disease": "White_Rot_Onion",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with White Rot Onion are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "basal_rot_onion.jpg",
+    "crop": "Onion",
+    "disease": "basal rot onion",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with basal rot onion are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "Black_Scruf_Potato.jpeg",
+    "crop": "Potato",
+    "disease": "Black_Scruf_Potato",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Black Scruf Potato are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "Black_leg_Potato.jpg",
+    "crop": "Potato",
+    "disease": "Black_leg_Potato",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Black leg Potato are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "Cercospora leaf spot cotton.jpg",
+    "crop": "Cotton",
+    "disease": "Cercospora leaf spot cotton",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Cercospora leaf spot cotton are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "Bacterial-Blight-Cotton.jpg",
+    "crop": "Cotton",
+    "disease": "Bacterial-Blight-Cotton",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Bacterial-Blight-Cotton are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "Cotton_Anthracnose .jpg",
+    "crop": "Cotton",
+    "disease": "Cotton_Anthracnose",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Cotton Anthracnose are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "Powdery_Midew_wheat.jpg",
+    "crop": "Wheat",
+    "disease": "Powdery_Midew_wheat",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Powdery Midew wheat are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "Wheat_stem_rust.jpg",
+    "crop": "Wheat",
+    "disease": "Wheat_stem_Rust",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Wheat stem Rust are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "Loose_Smut_Wheat.jpg",
+    "crop": "Wheat",
+    "disease": "Loose_Smut_Wheat",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Loose Smut Wheat are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "Late_Blight_Tomato.jpg",
+    "crop": "Tomato",
+    "disease": "Late_Blight_Tomato",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Late Blight Tomato are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "Sclerotinia Rot_Carrot.jpeg",
+    "crop": "Carrot",
+    "disease": "Sclerotinia Rot_Carrot",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Sclerotinia Rot Carrot are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "Common_Rust_Maize.jpeg",
+    "crop": "Maize",
+    "disease": "Common_Rust_Maize",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with Common Rust Maize are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  },
+  {
+    "image_name": "turcicum_leaf_blight_maize.jpg",
+    "crop": "Maize",
+    "disease": "turcicum leaf blight maize",
+    "visible_symptoms": [
+      "See image"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Color changes associated with turcicum leaf blight maize are noticeable across the affected tissue.",
+      "The damaged area stands out from the surrounding healthier portions.",
+      "Symptoms are concentrated in specific regions rather than appearing uniformly.",
+      "The overall appearance suggests moderate disease development.",
+      "Nearby healthy tissue provides a clear contrast with the affected area."
+    ]
+  }
+]

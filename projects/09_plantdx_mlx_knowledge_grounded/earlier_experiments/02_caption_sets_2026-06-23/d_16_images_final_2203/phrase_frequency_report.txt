@@ -1,0 +1,36 @@
+PHRASE / VOCABULARY / STRUCTURE FREQUENCY REPORT (round 3)
+============================================================
+Computed over all 80 captions, 1353 total words.
+
+Subject-matter noun tracking (expected to recur; the question is
+whether any one dominates every caption):
+  'leaf': 20 occurrences (0.2 per caption)
+  'leaflet': 11 occurrences (0.1 per caption)
+  'veins': 10 occurrences (0.1 per caption)
+  'patch': 8 occurrences (0.1 per caption)
+  'patches': 5 occurrences (0.1 per caption)
+  'surface': 5 occurrences (0.1 per caption)
+  'margin': 4 occurrences (0.1 per caption)
+  'vein': 2 occurrences (0.0 per caption)
+  'area': 1 occurrences (0.0 per caption)
+  'tissue': 1 occurrences (0.0 per caption)
+  'section': 1 occurrences (0.0 per caption)
+
+Flagged connector/boilerplate phrases (cumulative list across all
+three rounds) — counts after this round's rewrite:
+  None remaining.
+
+STRUCTURAL CHECK (new in round 3) — this is the check that catches
+what phrase-matching and cosine/SequenceMatcher similarity miss: the
+same sentence *shape* recurring with different words swapped in.
+Method: every 3-word and 4-word sequence in each caption, deduplicated
+per caption, counted across the dataset. A sequence flagged here means
+it appears in 3+ different captions, not just 3+ times in one.
+
+3-word sequences in >=3 different captions:
+  3x  "the other two"
+  (these were reviewed individually — see voice_diversity_audit.txt
+   for which were judged generic English vs. a real fingerprint)
+
+4-word sequences in >=3 different captions:
+  None.

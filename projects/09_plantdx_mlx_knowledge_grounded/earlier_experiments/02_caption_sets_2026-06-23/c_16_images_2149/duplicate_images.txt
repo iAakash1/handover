@@ -1,0 +1,15 @@
+DUPLICATE / NEAR-DUPLICATE IMAGE CHECK
+============================================================
+Method: perceptual hash (pHash, 64-bit) + Hamming distance.
+Threshold: <=12 bits different out of 64 flagged as near-duplicate.
+
+  No pairs found within the near-duplicate threshold.
+
+Total flagged pairs: 0
+
+Note: the two cotton 'Leaf Variegation' images (0045, 0058) were
+noted in validation_report.txt as visually similar (same plant,
+different angle) based on direct inspection. Whether they also
+register as near-duplicates by hash depends on how much the crop/
+angle changed the pixel layout — see the result above rather than
+assuming a match.

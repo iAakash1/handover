@@ -1,0 +1,12 @@
+DUPLICATE / SIMILARITY REPORT
+============================================================
+Total captions compared: 80 (pairwise: 3160)
+Similarity metric: difflib.SequenceMatcher ratio (0-1)
+Threshold for 'flagged duplicate': > 0.80
+
+Flagged pairs (>0.80 similarity): 0
+  None found.
+
+Notable pairs in the 0.60-0.80 range (worth a human glance, not necessarily a problem):
+  [0.77] tomato/7a8f225e-a87c-47ca-a49d-27b620951a4e___Crnl_L.Mold 6497.JPG | caption_4  <->  tomato/8bc3ccca-a312-4d14-a412-4c1726cdace9___Crnl_L.Mold 8802.JPG | caption_4
+  [0.64] tomato/7d40d29e-ba53-49bb-93be-e19d63855f60___Crnl_L.Mold 6994.JPG | caption_3  <->  tomato/7de0d9b9-6d4f-4375-85c4-a64da65937d8___Crnl_L.Mold 7077.JPG | caption_3

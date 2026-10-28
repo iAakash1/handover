@@ -1,0 +1,300 @@
+[
+  {
+    "image_name": "cotton/augmented_Curl Virus0005.jpg",
+    "crop": "Cotton",
+    "disease": "Cotton Leaf Curl Virus",
+    "visible_symptoms": [
+      "faint yellow vein clearing along the midrib and lateral veins",
+      "slight upward waviness at the leaf tip margin",
+      "leaf blade otherwise predominantly green",
+      "small reddish mark at the petiole junction"
+    ],
+    "severity_estimate": "Mild",
+    "captions": [
+      "Faint yellow tracing along the main veins. Tip edge slightly wavy. No other discoloration visible.",
+      "The leaf tip curls upward just slightly, barely enough to notice unless you're looking for it.",
+      "Hard to tell much is wrong here — just some pale lines tracking the veins.",
+      "Strip out the vein tracing and you're left with a leaf that reads as clean.",
+      "Held between two fingers with a stretch of dirt and green blurred out behind it, the leaf's only flaw is the faint yellow lines running along its veins."
+    ]
+  },
+  {
+    "image_name": "cotton/augmented_Curl Virus0033.jpg",
+    "crop": "Cotton",
+    "disease": "Cotton Leaf Curl Virus",
+    "visible_symptoms": [
+      "both side lobes curl/cup upward, leaving the leaf non-flat",
+      "fine dark stippling across the leaf surface",
+      "faint pale tracing along the main veins"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Both lobes curled inward. Surface dotted with fine dark specks.",
+      "The blade doesn't sit flat — it dips toward the center where the lobes pull up on either side.",
+      "This one's definitely cupped, not flat like it should be.",
+      "Where an unaffected leaf would lie flat in your hand, this one bows upward at both edges.",
+      "Pinched at the stem between thumb and finger, the blade keeps its upward curl even from this angle, and a faint yellow line still traces each main vein beneath the speckling."
+    ]
+  },
+  {
+    "image_name": "cotton/augmented_Leaf Redding0085.jpg",
+    "crop": "Cotton",
+    "disease": "Cotton Leaf Reddening",
+    "visible_symptoms": [
+      "extensive magenta/crimson patches between major veins",
+      "yellow chlorotic halo ringing the red patches",
+      "dark brownish-purple necrotic speckling inside several red patches",
+      "veins remain green while surrounding tissue is discolored",
+      "leaf margin tinged red-brown"
+    ],
+    "severity_estimate": "Severe",
+    "captions": [
+      "Deep red-pink blotches between most veins. Yellow rims around each one. A few centers gone dark and gritty.",
+      "The discoloration follows the spaces between major veins almost exactly, like it's tracing the leaf's own architecture.",
+      "This leaf's seen better days — barely any plain green left on it.",
+      "A few patches near the margin have gone past red into a darker, almost burnt color.",
+      "Pink and magenta spread across nearly every section of the blade, each patch ringed in yellow; the veins themselves keep their normal green color running straight through the damage."
+    ]
+  },
+  {
+    "image_name": "cotton/augmented_Leaf Variegation0045.jpg",
+    "crop": "Cotton",
+    "disease": "Cotton Leaf Variegation",
+    "visible_symptoms": [
+      "irregular pale cream/white blotches across multiple lobes",
+      "one lobe almost entirely white",
+      "blotch borders cut across veins rather than following them",
+      "reddish petiole base visible"
+    ],
+    "severity_estimate": "Severe",
+    "captions": [
+      "Right lobe: nearly all white. Middle lobe: pale, green only along the veins. Left lobe: mixed green and cream.",
+      "The cream patches cut straight across the veins in several spots, ignoring them completely.",
+      "One side of this leaf has basically lost its color.",
+      "Out in the same patch of soil, the neighboring leaves are a normal solid green — this one clearly isn't.",
+      "Still rooted in the soil with grass pressing in around it, the leaf splits unevenly into a near-white lobe, a half-pale one, and a third that's only lightly mottled."
+    ]
+  },
+  {
+    "image_name": "cotton/augmented_Leaf Variegation0058.jpg",
+    "crop": "Cotton",
+    "disease": "Cotton Leaf Variegation",
+    "visible_symptoms": [
+      "one lobe nearly all white/cream",
+      "middle lobe partly pale",
+      "third lobe more mottled with green dominant",
+      "irregular cream patches not bound by veins"
+    ],
+    "severity_estimate": "Severe",
+    "captions": [
+      "Three lobes. Right one cream-colored. Middle half pale. Left mostly green with light spotting.",
+      "Pale sectors spread unevenly, heaviest toward the tip of the right lobe and fading out toward the base.",
+      "From above, you can see exactly where the color starts dropping out.",
+      "A small bud nearby in the soil furrow is a plain green, nothing like the lobe right above it.",
+      "Looking down at the plant, the narrow right lobe reads almost paper-white next to the darker soil furrow beside it; the other two lobes keep more of their green."
+    ]
+  },
+  {
+    "image_name": "potato/lateblight/0acdc2b2-0dde-4073-8542-6fca275ab974___RS_LB 4857.JPG",
+    "crop": "Potato",
+    "disease": "Late Blight",
+    "visible_symptoms": [
+      "two small grayish-brown necrotic blotches near the upper-right area",
+      "irregular lesion edges",
+      "remainder of the leaflet uniformly green"
+    ],
+    "severity_estimate": "Mild",
+    "captions": [
+      "Two gray-brown spots, upper right. Nothing else visible.",
+      "Both lesions have ragged, uneven edges rather than a clean circular shape.",
+      "Just a couple of small marks — easy to miss if you weren't looking closely.",
+      "Two blotches are the whole story here — everything else on the leaflet is plain green.",
+      "Photographed on a plain gray background, the leaflet's green is broken only at one corner, where two small lesions sit close together."
+    ]
+  },
+  {
+    "image_name": "potato/lateblight/0d8346e1-4624-4979-84e6-1353ca59007a___RS_LB 4079.JPG",
+    "crop": "Potato",
+    "disease": "Late Blight",
+    "visible_symptoms": [
+      "one central grayish-brown lesion mid-leaf",
+      "tiny additional dark speck lower-right",
+      "slightly rugose leaf surface with prominent veins",
+      "remainder of leaflet green"
+    ],
+    "severity_estimate": "Mild",
+    "captions": [
+      "One lesion, just above the midrib. Small dark fleck lower right.",
+      "The surface has a slightly wrinkled texture, with veins standing out more than usual.",
+      "Not much going on here besides that one gray patch.",
+      "One gray mark above the midrib, one tiny fleck below — that's the entire list of complaints.",
+      "The leaflet's texture looks slightly puckered around the main veins, almost rippled, with just one lesion interrupting the green elsewhere on the blade."
+    ]
+  },
+  {
+    "image_name": "potato/lateblight/1b8f80ae-38a2-4d08-ae92-f80ff4459a73___RS_LB 2554.JPG",
+    "crop": "Potato",
+    "disease": "Late Blight",
+    "visible_symptoms": [
+      "larger tan-brown lesion at the lower tip reaching the leaf margin",
+      "darker brown/black specks embedded within the lesion",
+      "couple of tiny additional dark dots elsewhere",
+      "remainder of leaflet glossy green"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Large tan-brown lesion at the tip. Dark flecks inside it. A couple of tiny dots elsewhere.",
+      "The lesion reaches all the way to the leaf edge, where the tissue looks dried rather than just discolored.",
+      "This one's worse than the other two potato leaflets — bigger damage, darker center.",
+      "This lesion is in a different league entirely than a leaflet carrying just one or two pinprick marks.",
+      "The leaflet keeps a glossy shine across nearly all of it, but the lower tip has dried into a brown patch flecked with darker specks, right where the blade comes to a point."
+    ]
+  },
+  {
+    "image_name": "tomato/7a8f225e-a87c-47ca-a49d-27b620951a4e___Crnl_L.Mold 6497.JPG",
+    "crop": "Tomato",
+    "disease": "Leaf Mold",
+    "visible_symptoms": [
+      "yellow chlorotic mottling across the left/lower-left half of the leaflet",
+      "slightly fuzzy texture within the affected zone",
+      "right half remains green",
+      "serrated leaf margin intact"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Left half: dull yellow. Right half: green. Split is roughly down the middle.",
+      "The serrated edge stays intact on both sides — only the color changes.",
+      "Half of this leaflet just isn't green anymore.",
+      "The line between yellow and green here is sharper than you'd expect — almost a clean cut down the middle of the leaflet.",
+      "There's a faint fuzziness to the yellowed patch that you don't feel on the green side, like the texture itself has changed along with the color."
+    ]
+  },
+  {
+    "image_name": "tomato/7d40d29e-ba53-49bb-93be-e19d63855f60___Crnl_L.Mold 6994.JPG",
+    "crop": "Tomato",
+    "disease": "Leaf Mold",
+    "visible_symptoms": [
+      "subtle yellow speckling near the center-right close to the midrib",
+      "remainder of leaflet mostly green",
+      "short petiole visible"
+    ],
+    "severity_estimate": "Mild",
+    "captions": [
+      "Light yellow speckling, just right of the midrib. Everything else green.",
+      "The leaflet's pointed tip and serrated edge are both undisturbed — the only change is in color.",
+      "You'd probably walk past this one without noticing anything.",
+      "Out of the four tomato leaflets in this set, this is the lightest case by a clear margin.",
+      "With its short stem intact, the leaflet lies flat on a neutral gray surface, and the faint mottling near the midrib only becomes obvious up close."
+    ]
+  },
+  {
+    "image_name": "tomato/7de0d9b9-6d4f-4375-85c4-a64da65937d8___Crnl_L.Mold 7077.JPG",
+    "crop": "Tomato",
+    "disease": "Leaf Mold",
+    "visible_symptoms": [
+      "faint pale/tan blotching near the mid-left margin",
+      "remainder of leaflet dark green and glossy"
+    ],
+    "severity_estimate": "Mild",
+    "captions": [
+      "One faded patch, left margin. Dark green everywhere else.",
+      "The lobed shape of the leaflet is clean and undistorted — no curling, no folding.",
+      "Barely anything to flag on this one.",
+      "This is about as mild as the mold gets in this group of tomato leaflets.",
+      "A tiny dark speck floats on the gray background near the leaflet's edge — just debris, not a symptom; the leaf itself stays dark green and glossy except for one faded patch."
+    ]
+  },
+  {
+    "image_name": "tomato/8bc3ccca-a312-4d14-a412-4c1726cdace9___Crnl_L.Mold 8802.JPG",
+    "crop": "Tomato",
+    "disease": "Leaf Mold",
+    "visible_symptoms": [
+      "sharp yellow chlorotic patch covering the upper-right lobe",
+      "lower-left lobes remain green",
+      "slightly textured/fuzzy yellowed area",
+      "small petiole and stem visible"
+    ],
+    "severity_estimate": "Moderate",
+    "captions": [
+      "Upper-right lobe: yellow. Lower lobes: green. Sharp line between them.",
+      "Each of the three lobes in this little cluster is doing something different color-wise.",
+      "One lobe is a completely different color from the other two.",
+      "The lower two lobes match the green you'd expect on a healthy tomato plant; the top one clearly doesn't.",
+      "The yellowed lobe has a slightly rougher feel to it than the smooth green ones below, like the surface itself thickened along with the color shift."
+    ]
+  },
+  {
+    "image_name": "bellpepper/bacterial spot/0b27c03f-b3bc-4d96-9b76-6fbd779404b9___NREC_B.Spot 1799.JPG",
+    "crop": "Bell Pepper",
+    "disease": "Bacterial Spot",
+    "visible_symptoms": [
+      "small tan-brown raised spots along the upper-right margin and near the midrib",
+      "lower half of the leaf clean",
+      "remainder dark glossy green"
+    ],
+    "severity_estimate": "Mild to Moderate",
+    "captions": [
+      "A handful of small brown spots, upper right and near the midrib. Lower half clean.",
+      "Each spot sits just slightly raised, not flush with the blade surface.",
+      "Pretty minor, honestly — nearly all of this leaf is still its normal dark green.",
+      "No spotting anywhere near the lower half — whatever's affecting this leaf so far is staying near the top.",
+      "The leaf's deep green barely changes anywhere except for a scatter of small lesions clustered toward the upper right and along the midrib."
+    ]
+  },
+  {
+    "image_name": "bellpepper/bacterial spot/0fdb66e8-b17d-42c2-bc6d-30dcfab8fcae___JR_B.Spot 9058.JPG",
+    "crop": "Bell Pepper",
+    "disease": "Bacterial Spot",
+    "visible_symptoms": [
+      "overall yellow-green chlorosis across the whole leaf",
+      "scattered small dark brown/black speckled spots lower-center",
+      "one larger tan blotch near the center",
+      "small notch missing from the margin (likely incidental, not disease-related)"
+    ],
+    "severity_estimate": "Severe",
+    "captions": [
+      "Whole leaf: pale yellow-green. Dark speckles lower-center. One bigger tan blotch near the middle.",
+      "There's a notch missing from the right edge — probably an insect bite, not part of the infection.",
+      "This is the roughest-looking pepper leaf in the set, no question.",
+      "A pepper leaf this color wouldn't be mistaken for a healthy one from across a field.",
+      "Pale yellow-green has taken over what should be a darker leaf, and a loose scatter of dark spots, including one larger tan patch, sits in the lower-middle area."
+    ]
+  },
+  {
+    "image_name": "bellpepper/bacterial spot/1b589f92-a658-4e58-96de-db41acc411ce___JR_B.Spot 3239.JPG",
+    "crop": "Bell Pepper",
+    "disease": "Bacterial Spot",
+    "visible_symptoms": [
+      "overall yellow-green leaf color",
+      "darker brown/black necrotic patches along the upper-left and lower-left margins",
+      "scattered tiny dark specks across the surface",
+      "margin slightly curled and dried near the necrotic patches"
+    ],
+    "severity_estimate": "Moderate to Severe",
+    "captions": [
+      "Yellow-green overall. Dark necrotic patches, top-left and bottom-left. Tiny specks scattered between.",
+      "The margin curls slightly and looks dried right where the darker patches sit.",
+      "Color's gone wrong on basically this whole leaf.",
+      "Brown-black necrosis at two edges, lighter speckling everywhere between — this leaf is past the point of looking like simple spotting.",
+      "Necrotic brown-black patches sit at both the upper-left and lower-left edges, with finer dark specks scattered more thinly elsewhere on the blade."
+    ]
+  },
+  {
+    "image_name": "bellpepper/bacterial spot/2b562d10-5ccf-4f20-aadc-2e1480bd303e___JR_B.Spot 3256.JPG",
+    "crop": "Bell Pepper",
+    "disease": "Bacterial Spot",
+    "visible_symptoms": [
+      "mostly healthy dark green glossy leaf",
+      "small brown lesions concentrated near the upper-left margin",
+      "one tiny dark mark near the lower-right edge"
+    ],
+    "severity_estimate": "Mild",
+    "captions": [
+      "A few brown marks near the upper-left edge. One tiny mark lower right. Green everywhere else.",
+      "The leaf keeps its rounded shape and glossy finish without any curling or distortion.",
+      "Among the pepper leaves here, this one's barely touched.",
+      "The more advanced cases in this batch make this one look like nothing happened at all.",
+      "Deep green and glossy across the blade, with just a few small lesions tucked near the top edge and a single dark mark down by the opposite corner."
+    ]
+  }
+]

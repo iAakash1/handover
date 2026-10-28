@@ -1,0 +1,53 @@
+GENERATION LOG
+==============
+Run date: 2026-06-23
+Input: /mnt/user-data/uploads/caption.zip
+
+STEP 1 — Extraction
+  Unzipped caption.zip. Archive contained 45 entries total; after
+  excluding __MACOSX/ metadata and .DS_Store files, 16 genuine images
+  remained across 4 crop folders:
+    cotton/                 5 images
+    potato/lateblight/      3 images
+    tomato/                 4 images
+    bellpepper/bacterial spot/  4 images
+
+STEP 2 — Direct visual inspection
+  Each of the 16 images was opened and examined individually before any
+  caption text was written. Notes on color, shape/texture, distribution,
+  and background context were recorded per image. Filename/folder labels
+  were treated as secondary hints only, per the task brief.
+
+STEP 3 — Caption authoring
+  5 captions were written per image (80 total), varying length, focus
+  (color / shape / distribution / overall impression / comparison-
+  context), and sentence style, grounded in the Step 2 notes. Captions
+  were checked against the brief's banned-phrase list ("the image
+  shows", "displaying symptoms", "infected leaf", etc.) — none appear
+  in the final dataset.
+
+STEP 4 — Structured output
+  captions.json and captions.csv were generated programmatically from
+  the authored records (image_name, crop, disease, visible_symptoms,
+  severity_estimate, 5 captions).
+
+STEP 5 — Dataset-level validation
+  - Pairwise similarity computed across all 80 captions
+    (difflib.SequenceMatcher) — see duplicate_similarity_report.txt.
+  - Opening-word/bigram frequency computed — see
+    caption_statistics.txt.
+  - Manual cross-check of folder label vs. visible symptoms per image,
+    with one genuine conflict documented — see validation_report.txt.
+
+STEP 6 — Packaging
+  All outputs placed under dataset/ and zipped for delivery:
+    dataset/captions.json
+    dataset/captions.csv
+    dataset/validation_report.txt
+    dataset/duplicate_similarity_report.txt
+    dataset/caption_statistics.txt
+    dataset/logs/generation_log.txt
+
+NOTES ON SCOPE
+  This run covers all 16 images present in the uploaded caption.zip.
+  No images were skipped or sampled.

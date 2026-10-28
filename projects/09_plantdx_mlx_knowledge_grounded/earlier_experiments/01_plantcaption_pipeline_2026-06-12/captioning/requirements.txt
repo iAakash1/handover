@@ -1,0 +1,21 @@
+# PlantCaption pipeline requirements
+# Install into your existing VLM venv:
+#   ..\venv\Scripts\activate
+#   pip install -r requirements.txt
+
+# --- core (always needed) ---
+pillow>=10.0.0
+
+# --- local Qwen2.5-VL backend (VISUAL_BACKEND="qwen", the default) ---
+# You almost certainly already have compatible versions from PlantDx.
+# transformers must be recent enough to expose Qwen2.5-VL.
+torch>=2.1.0
+transformers>=4.49.0
+accelerate>=0.30.0
+# Qwen vision preprocessing helper (optional but recommended):
+qwen-vl-utils>=0.0.8
+
+# --- review console ---
+# Pinned per your earlier finding: >=1.45 triggers Object.hasOwn JS errors
+# on Python 3.10 / Windows.
+streamlit>=1.40.0,<1.45.0

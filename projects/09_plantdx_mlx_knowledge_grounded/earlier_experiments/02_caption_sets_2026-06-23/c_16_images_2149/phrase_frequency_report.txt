@@ -1,0 +1,29 @@
+PHRASE / VOCABULARY FREQUENCY REPORT
+============================================================
+Computed over all 80 captions, 1363 total words.
+
+Dataset 'favorite word' tracking (counts, not flags by themselves —
+these nouns are expected to recur since they're the subject matter;
+the question is whether any single one dominates every caption):
+  'leaf': 24 occurrences (0.3 per caption on average)
+  'leaflet': 10 occurrences (0.1 per caption on average)
+  'surface': 10 occurrences (0.1 per caption on average)
+  'veins': 9 occurrences (0.1 per caption on average)
+  'margin': 9 occurrences (0.1 per caption on average)
+  'patches': 7 occurrences (0.1 per caption on average)
+  'patch': 4 occurrences (0.1 per caption on average)
+  'vein': 3 occurrences (0.0 per caption on average)
+  'margins': 2 occurrences (0.0 per caption on average)
+  'area': 2 occurrences (0.0 per caption on average)
+  'tissue': 2 occurrences (0.0 per caption on average)
+  'sections': 2 occurrences (0.0 per caption on average)
+  'section': 2 occurrences (0.0 per caption on average)
+
+Flagged connector/boilerplate phrases (brief specifically asked to
+limit these) — counts after the rewrite pass:
+  None remaining — all zero after the rewrite pass.
+
+Method note: plain substring/word-boundary counting over the final
+caption text. Not a semantic check — see duplicate_similarity_report.txt
+for the SequenceMatcher-based similarity pass, which catches
+paraphrased repetition that word counts alone would miss.

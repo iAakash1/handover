@@ -1,0 +1,120 @@
+GENERATION LOG
+==============
+Run date: 2026-06-23 (round 1, initial captioning)
+Input: /mnt/user-data/uploads/caption.zip
+
+STEP 1 — Extraction
+  Unzipped caption.zip. Archive contained 45 entries total; after
+  excluding __MACOSX/ metadata and .DS_Store files, 16 genuine images
+  remained across 4 crop folders:
+    cotton/                 5 images
+    potato/lateblight/      3 images
+    tomato/                 4 images
+    bellpepper/bacterial spot/  4 images
+
+STEP 2 — Direct visual inspection
+  Each of the 16 images was opened and examined individually before any
+  caption text was written. Notes on color, shape/texture, distribution,
+  and background context were recorded per image. Filename/folder labels
+  were treated as secondary hints only, per the task brief.
+
+STEP 3 — Caption authoring
+  5 captions were written per image (80 total), varying length, focus
+  (color / shape / distribution / overall impression / comparison-
+  context), and sentence style, grounded in the Step 2 notes.
+
+STEP 4 — Structured output
+  captions.json and captions.csv generated from the authored records.
+
+STEP 5 — Dataset-level validation (round 1)
+  Pairwise similarity + opening-word frequency + manual label-vs-visual
+  cross-check. See validation_report.txt.
+
+==============================================================
+Run date: 2026-06-23 (round 2, re-audit + technical QC + rewrite)
+Input: same caption.zip, re-uploaded with an expanded brief
+
+STEP 6 — Phrase audit against the expanded brief
+  Scanned all 80 round-1 captions against the brief's banned-phrase and
+  banned-verb lists, plus a new "avoid excessive use of" watch list
+  (while, against the, at a glance, most of, could pass for, etc.).
+  Found 20 hits across 14 captions (all carried over from round 1,
+  before this stricter check existed). Rewrote all 14 — full before/
+  after text in rewrite_log.txt. Re-scanned: 0 hits remaining.
+
+STEP 7 — Real technical image QC (new in round 2)
+  - Blur/sharpness: variance-of-Laplacian per image -> low_quality_images.txt
+  - Near-duplicate detection: 64-bit perceptual hash, Hamming distance
+    -> duplicate_images.txt
+  - Per-image metadata (dimensions, format, size, hashes) -> metadata.csv
+  - Dataset-wide summary (crop/disease counts, augmented-file detection,
+    class balance note) -> dataset_analysis.txt
+  Method and results documented in full in quality_control_log.txt.
+
+STEP 8 — Internet image expansion: NOT attempted
+  The round-2 brief asked for additional images to be sourced from
+  PlantVillage/APS/ICAR/FAO/Wikimedia Commons/government portals, with
+  a download_sources.csv tracking real URLs. This sandbox has no access
+  to those domains and no web-search tool was available in this
+  conversation. Rather than fabricate source URLs or invent images,
+  this step was skipped entirely — external_images/ and
+  download_sources.csv are not part of this delivery. Flagged to the
+  user directly in-chat before doing the rest of the work.
+
+STEP 9 — Repackaging
+  All outputs placed under dataset/ and zipped for delivery:
+    dataset/captions.json
+    dataset/captions.csv
+    dataset/metadata.csv
+    dataset/dataset_analysis.txt
+    dataset/validation_report.txt
+    dataset/duplicate_similarity_report.txt
+    dataset/phrase_frequency_report.txt
+    dataset/caption_statistics.txt
+    dataset/low_quality_images.txt
+    dataset/duplicate_images.txt
+    dataset/logs/generation_log.txt
+    dataset/logs/rewrite_log.txt
+    dataset/logs/quality_control_log.txt
+  No "final_dataset.zip nested inside dataset/" was created — see
+  quality_control_log.txt for why.
+
+NOTES ON SCOPE
+  This run covers all 16 images present in the uploaded caption.zip.
+  No images were skipped or sampled. No external images were added.
+
+==============================================================
+Run date: 2026-06-23 (round 3, voice diversity rewrite)
+Trigger: feedback that round 2 still read as one author despite passing
+its own similarity/banned-phrase checks.
+
+STEP 10 — Full caption rewrite for author diversity
+  All 80 captions rewritten from scratch from the same underlying visual
+  notes (no new symptoms, no re-inspection needed — the images didn't
+  change). Dropped the fixed per-caption role ordering used in round 2
+  (color/shape/distribution/overall/comparison, always in that order)
+  in favor of varying which angle gets which tone/length per image.
+
+STEP 11 — Structural n-gram audit (new check, not used in rounds 1-2)
+  Counted repeated 3- and 4-word sequences across captions, not just
+  exact-phrase or cosine-style similarity. Caught a self-authored
+  template ("A healthy/clean leaf wouldn't have/carry/show this X")
+  that had crept into a first draft across 5 different images, plus
+  repeated opening clauses ("Held...") and lead-ins ("on the gray
+  backdrop/background/surface") that wording variation alone hadn't
+  removed. Full account in logs/voice_diversity_audit.txt.
+
+STEP 12 — Re-verification
+  Cumulative banned-phrase/verb list (rounds 1-3): 0 hits across all 80.
+  Pairwise similarity: 0 pairs above 0.80. Structural n-grams: 0 four-
+  word repeats, 1 three-word repeat judged generic (not a fingerprint).
+  See phrase_frequency_report.txt and duplicate_similarity_report.txt.
+
+STEP 13 — Repackaging
+  Same file list as round 2, with captions.json, captions.csv,
+  duplicate_similarity_report.txt, caption_statistics.txt, and
+  phrase_frequency_report.txt regenerated; logs/voice_diversity_audit.txt
+  added. Image-level files (metadata.csv, dataset_analysis.txt,
+  low_quality_images.txt, duplicate_images.txt) are unchanged from round
+  2 since the underlying images didn't change.
+

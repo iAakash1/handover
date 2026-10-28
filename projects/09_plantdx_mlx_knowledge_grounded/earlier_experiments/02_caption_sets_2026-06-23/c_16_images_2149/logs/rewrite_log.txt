@@ -1,0 +1,123 @@
+REWRITE LOG
+===========
+14 of 80 captions were rewritten to remove phrases the brief explicitly
+asked to avoid (most carried over from round 1, where the dataset-wide
+phrase audit hadn't been run yet). Listed as before -> after.
+
+cotton/augmented_Curl Virus0005.jpg
+  [caption 1] BEFORE: "The veins running through this leaf carry a faint
+    yellow halo, while the surrounding tissue stays a healthy green."
+    AFTER: "Faint yellow tracing follows the veins; the tissue between
+    them keeps a steady green."
+    Reason: removed "while".
+  [caption 4] BEFORE: "Held up against the dirt and grass behind it,
+    this cotton leaf looks mostly healthy at a glance, and it's only on
+    closer inspection that the pale tracing along the veins gives away
+    an early infection."
+    AFTER: "Someone's fingers hold the stem steady against a blurred
+    backdrop of soil and grass, and the leaf itself gives little away
+    until you focus on the pale lines running along its veins."
+    Reason: removed "mostly healthy" and "at a glance"; restructured to
+    keep the hand/background detail without those phrases.
+  [caption 5] BEFORE: "Aside from the vein yellowing, this leaf could
+    pass for an unaffected one."
+    AFTER: "Take away the vein yellowing and there'd be nothing else
+    here to flag."
+    Reason: removed "could pass for".
+
+cotton/augmented_Leaf Redding0085.jpg
+  [caption 3] BEFORE: "...leaving the veins themselves a clean green
+    while everything around them shifts..."
+    AFTER: "...the veins themselves stay a clean green even as
+    everything around them shifts..."
+    Reason: removed "while".
+  [caption 4] BEFORE: "This leaf has lost most of its uniform green..."
+    AFTER: "Very little uniform green is left on this leaf..."
+    Reason: removed "most of".
+
+potato/lateblight/0acdc2b2...4857.JPG
+  [caption 4] BEFORE: "...this leaflet looks entirely healthy, with even
+    coloring..."
+    AFTER: "...the rest of the leaflet holds a uniform color..."
+    Reason: removed "looks entirely healthy".
+
+potato/lateblight/0d8346e1...4079.JPG
+  [caption 4] BEFORE: "Most of the leaflet keeps its deep green
+    color..."
+    AFTER: "The deep green color and slightly textured surface carry
+    through nearly the whole leaflet..."
+    Reason: removed "most of" opener.
+  [caption 5] BEFORE: "Photographed flat against a plain gray surface,
+    which makes the one lesion easy to pick out against the otherwise
+    even green."
+    AFTER: "Laid flat on a plain gray surface for the photo, the one
+    lesion is easy to spot in an otherwise even green leaflet."
+    Reason: removed double "against the".
+
+tomato/7a8f225e...6497.JPG
+  [caption 1] BEFORE: "...has turned a dull yellow, while the right half
+    holds onto its green."
+    AFTER: "...has turned a dull yellow; the right half still holds its
+    green."
+    Reason: removed "while".
+
+tomato/7d40d29e...6994.JPG
+  [caption 3] BEFORE: "Faint yellow speckling shows up just right of the
+    midrib."
+    AFTER: "Faint yellow speckling sits just right of the midrib."
+    Reason: removed banned verb "shows".
+  [caption 4] BEFORE: "...this leaflet looks healthy from a distance..."
+    AFTER: "...this leaflet reads as plain green from a distance..."
+    Reason: removed "looks healthy".
+
+tomato/7de0d9b9...7077.JPG
+  [caption 4] BEFORE: "Dark green and glossy across most of its
+    surface, this leaflet only shows its trouble in a small faded
+    patch..."
+    AFTER: "Dark green and glossy across nearly its whole surface, this
+    leaflet keeps its trouble confined to a small faded patch..."
+    Reason: removed "most of" and banned verb "shows".
+
+tomato/8bc3ccca...8802.JPG
+  [caption 1] BEFORE: "...contrasting sharply against the green lobes
+    below it."
+    AFTER: "...a sharp contrast next to the green lobes below it."
+    Reason: removed "against the".
+  [caption 5] BEFORE: "...confined to one lobe while the two lower ones
+    stay a healthy green..."
+    AFTER: "...confined to one lobe; the two lower ones stay green..."
+    Reason: removed "while".
+
+bellpepper/bacterial spot/0b27c03f...1799.JPG
+  [caption 2] BEFORE: "...slightly raised rather than flat against the
+    leaf surface."
+    AFTER: "...slightly raised rather than flat on the leaf surface."
+    Reason: removed "against the".
+  [caption 3] BEFORE: "Most of the spotting clusters... while the lower
+    half stays completely clean."
+    AFTER: "The spotting clusters...; the lower half stays completely
+    clean."
+    Reason: removed "most of" and "while" (both in one sentence).
+
+bellpepper/bacterial spot/0fdb66e8...9058.JPG
+  [caption 4] BEFORE: "...this one has lost most of its color along
+    with picking up the dark spotting."
+    AFTER: "...this one has faded considerably on top of picking up the
+    dark spotting."
+    Reason: removed "most of".
+
+bellpepper/bacterial spot/1b589f92...3239.JPG
+  [caption 3] BEFORE: "...top-left and bottom-left edges, while small
+    dark specks..."
+    AFTER: "...top-left and bottom-left edges; small dark specks..."
+    Reason: removed "while".
+  [caption 5] BEFORE: "...very little of this leaf still looks
+    healthy."
+    AFTER: "...very little of the original green is left."
+    Reason: removed "looks healthy".
+
+VERIFICATION
+  Re-ran the full banned-phrase + watch-phrase scan after all edits:
+  0 hits across all 80 captions. Re-ran pairwise similarity check:
+  0 pairs above 0.80 (unchanged from before the rewrite — the edits
+  didn't introduce new repetition).

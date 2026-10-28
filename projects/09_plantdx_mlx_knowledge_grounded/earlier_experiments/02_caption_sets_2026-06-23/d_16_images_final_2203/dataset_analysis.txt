@@ -1,0 +1,30 @@
+DATASET ANALYSIS
+============================================================
+Total images: 16
+
+Crop folders found:
+  bellpepper: 4 images
+  cotton: 5 images
+  potato: 3 images
+  tomato: 4 images
+
+Images with 'augmented' in the filename: 5
+  - cotton/augmented_Curl Virus0005.jpg
+  - cotton/augmented_Curl Virus0033.jpg
+  - cotton/augmented_Leaf Redding0085.jpg
+  - cotton/augmented_Leaf Variegation0045.jpg
+  - cotton/augmented_Leaf Variegation0058.jpg
+
+Class balance: with only 16 images spread across 4 crops and 6
+disease labels, the set is small and uneven by design (it's a
+caption-quality pilot batch, not a training-scale split). Cotton
+has 5 images across 3 disease labels (1-2 each); potato, tomato,
+and bell pepper each have 3-4 images of a single disease label.
+No rebalancing was attempted — see brief's own instruction not to
+force equal class sizes.
+
+Image dimensions: 2 distinct size(s) -> [(256, 256), (800, 800)]
+
+See low_quality_images.txt for blur/sharpness ranking.
+See duplicate_images.txt for perceptual-hash duplicate check.
+See metadata.csv for full per-image technical metadata.

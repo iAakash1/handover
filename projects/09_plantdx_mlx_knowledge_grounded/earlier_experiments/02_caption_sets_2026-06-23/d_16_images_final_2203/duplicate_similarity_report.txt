@@ -1,0 +1,19 @@
+DUPLICATE / SIMILARITY REPORT (round 3)
+============================================================
+Total captions compared: 80 (pairwise: 3160)
+Similarity metric: difflib.SequenceMatcher ratio (0-1)
+Threshold for 'flagged duplicate': > 0.80
+
+Flagged pairs (>0.80 similarity): 0
+  None found.
+
+Top pairs in the 0.50-0.80 range (for context, not flags):
+  [0.62] tomato/7a8f225e-a87c-47ca-a49d-27b620951a4e___Crnl_L.Mold 6497.JPG  <->  tomato/8bc3ccca-a312-4d14-a412-4c1726cdace9___Crnl_L.Mold 8802.JPG
+  [0.55] tomato/7de0d9b9-6d4f-4375-85c4-a64da65937d8___Crnl_L.Mold 7077.JPG  <->  bellpepper/bacterial spot/2b562d10-5ccf-4f20-aadc-2e1480bd303e___JR_B.Spot 3256.JPG
+  [0.52] tomato/7a8f225e-a87c-47ca-a49d-27b620951a4e___Crnl_L.Mold 6497.JPG  <->  tomato/7d40d29e-ba53-49bb-93be-e19d63855f60___Crnl_L.Mold 6994.JPG
+  [0.52] tomato/7a8f225e-a87c-47ca-a49d-27b620951a4e___Crnl_L.Mold 6497.JPG  <->  tomato/8bc3ccca-a312-4d14-a412-4c1726cdace9___Crnl_L.Mold 8802.JPG
+  [0.51] potato/lateblight/0d8346e1-4624-4979-84e6-1353ca59007a___RS_LB 4079.JPG  <->  potato/lateblight/0d8346e1-4624-4979-84e6-1353ca59007a___RS_LB 4079.JPG
+  [0.51] potato/lateblight/0acdc2b2-0dde-4073-8542-6fca275ab974___RS_LB 4857.JPG  <->  bellpepper/bacterial spot/0b27c03f-b3bc-4d96-9b76-6fbd779404b9___NREC_B.Spot 1799.JPG
+  [0.51] bellpepper/bacterial spot/0b27c03f-b3bc-4d96-9b76-6fbd779404b9___NREC_B.Spot 1799.JPG  <->  bellpepper/bacterial spot/2b562d10-5ccf-4f20-aadc-2e1480bd303e___JR_B.Spot 3256.JPG
+  [0.51] tomato/7d40d29e-ba53-49bb-93be-e19d63855f60___Crnl_L.Mold 6994.JPG  <->  bellpepper/bacterial spot/0b27c03f-b3bc-4d96-9b76-6fbd779404b9___NREC_B.Spot 1799.JPG
+  [0.51] tomato/7de0d9b9-6d4f-4375-85c4-a64da65937d8___Crnl_L.Mold 7077.JPG  <->  bellpepper/bacterial spot/2b562d10-5ccf-4f20-aadc-2e1480bd303e___JR_B.Spot 3256.JPG

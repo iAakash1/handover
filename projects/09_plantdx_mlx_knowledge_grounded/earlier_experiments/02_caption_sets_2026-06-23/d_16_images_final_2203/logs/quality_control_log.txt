@@ -1,0 +1,51 @@
+QUALITY CONTROL LOG
+====================
+Run date: 2026-06-23
+
+1. PER-CAPTION TEXT QC
+   - Manually authored 5 captions per image (80 total), each grounded in
+     direct visual inspection of the source image (see generation_log.txt).
+   - Scanned all 80 captions against the brief's banned-phrase list
+     ("the image shows", "an infected leaf", "this leaf displays", etc.)
+     and banned descriptor verbs (showing/displaying/exhibiting/
+     revealing/presenting and their inflected forms). Result: 0 hits.
+   - Scanned against the brief's "avoid excessive use of" watch list
+     (while, whereas, against the, at a glance, mostly healthy, appears
+     healthy, otherwise normal, could pass for, most of, large patches,
+     bright red, scattered areas). First pass had 20 hits across 14
+     captions. All 20 were individually rewritten — see rewrite_log.txt
+     for the before/after text. Second pass: 0 hits remaining.
+   - Pairwise similarity computed across all 80 captions using
+     difflib.SequenceMatcher (3,160 pairs). 0 pairs exceeded the 0.80
+     "likely duplicate" threshold, both before and after the rewrite
+     pass — see duplicate_similarity_report.txt.
+   - Dataset-wide vocabulary frequency computed for the specific nouns
+     the brief named (leaf, patches, regions, surface, veins, margins,
+     areas, tissue, sections) — see phrase_frequency_report.txt. No
+     single word exceeds 0.3 occurrences per caption on average, so no
+     word reads as a recurring author "tic."
+
+2. IMAGE TECHNICAL QC (real, computed — not estimated)
+   - Sharpness: variance-of-Laplacian on grayscale for each of the 16
+     images. 5 images flagged as relatively blurry vs. the within-set
+     median (threshold = median / 3). See low_quality_images.txt for
+     the full ranked list and exact scores.
+   - Duplicates: 64-bit perceptual hash (pHash) + Hamming distance,
+     all 120 pairs checked, threshold <=12 bits different. Result: 0
+     pairs flagged. The two cotton "Leaf Variegation" images, which
+     looked similar on direct visual inspection (likely the same plant,
+     different angle), did NOT register as near-duplicates by hash —
+     reported as-is in duplicate_images.txt rather than overridden.
+   - Metadata (dimensions, format, file size, aspect ratio, both hash
+     types) recorded per image in metadata.csv.
+
+3. WHAT WAS NOT DONE (and why)
+   - No internet search or external image download was attempted —
+     this sandbox has no access to PlantVillage/APS/ICAR/FAO/Wikimedia
+     or general web search, and fabricating source URLs to fill
+     download_sources.csv was rejected as a research-integrity risk
+     rather than attempted. external_images/ and download_sources.csv
+     are not included in this delivery.
+   - "final_dataset.zip nested inside dataset/" was not created — a zip
+     containing a zip of itself isn't a meaningful artifact; the whole
+     dataset/ folder is delivered as a single zip instead.

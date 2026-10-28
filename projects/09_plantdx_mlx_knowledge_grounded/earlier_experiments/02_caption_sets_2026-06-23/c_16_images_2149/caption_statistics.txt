@@ -1,0 +1,53 @@
+CAPTION DATASET STATISTICS
+============================================================
+Images: 16
+Total captions: 80 (5 per image)
+
+Caption length (words): min=7, max=45, avg=17.0
+
+Crop distribution:
+  Cotton: 5 images
+  Potato: 3 images
+  Tomato: 4 images
+  Bell Pepper: 4 images
+
+Disease distribution:
+  Cotton Leaf Curl Virus: 2 images
+  Cotton Leaf Reddening: 1 images
+  Cotton Leaf Variegation: 2 images
+  Late Blight: 3 images
+  Leaf Mold: 4 images
+  Bacterial Spot: 4 images
+
+Severity distribution:
+  Mild: 6 images
+  Moderate: 4 images
+  Severe: 4 images
+  Mild to Moderate: 1 images
+  Moderate to Severe: 1 images
+
+Most common opening words across all 80 captions:
+  'the': 19
+  'a': 10
+  'just': 4
+  'faint': 2
+  'both': 2
+  'compared': 2
+  'out': 2
+  'there's': 2
+  'dark': 2
+  'each': 2
+
+Most common opening bigrams (first 2 words):
+  'faint yellow': 2
+  'just the': 2
+  'compared to': 2
+  'out of': 2
+  'a small': 2
+  'there's a': 2
+  'vein clearing': 1
+  'someone's fingers': 1
+  'take away': 1
+  'both side': 1
+
+Dominant single-word-opening share: 23.8% (WARNING: check for repetition)
