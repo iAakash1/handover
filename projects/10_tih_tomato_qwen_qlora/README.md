@@ -12,6 +12,21 @@ healthy leaf / fruit) in the private TIH `Tomato_12thAug26` images. This is the 
 | `tih_tomato_moreaccurate` (paper) | 16 Sep 2026 | r64 / 532 px | **92.76%** | 0.9378 |
 | moreaccurate on 176 images from another source | 17 Sep 2026 | – | 69.32% | 0.7195 |
 
+## ⭐ Open the app
+
+From the repository root: `python run_app.py 1`, or from this folder:
+
+```powershell
+..\..\.venvs\tih\Scripts\python -m streamlit run streamlit_app.py
+```
+
+**Diagnose** tab: upload tomato leaf or fruit photos; you get the class, confidence and a history. The first photo
+takes about a minute (it loads the 4-bit model). The app serves the adapter recorded in
+`artifacts/runtime/active_adapter.json`, which is set to `tih_tomato_moreaccurate` (the paper model). To switch, run
+`company activate --config <config> --adapter checkpoints/<run>` (`company status` lists the runs). The app reads
+the image size from that run's own config, so moreaccurate gets the 532 px it was trained with. Uploaded photos
+and results are written to `uploads/`, `predictions/` and `logs/predictions.jsonl` (not in git).
+
 ## Handover quick start (run from this folder)
 
 ```powershell

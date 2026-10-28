@@ -59,13 +59,15 @@ All numbers below come from the evaluation reports in this repository (`evaluati
 - **Results:** BLIP-2 OPT-2.7B + LoRA **89.00%** (March) and 89.00% (June 1-epoch re-run; its own June script had
   reported 0% because of a scoring bug); LLaVA-1.6-Mistral-7B + LoRA r64 2.00% (generic answers). LLaVA-1.5
   stopped at a batch-collation error.
+- **Code:** March BLIP-2 scripts in `blip2_march/` (recovered from git), June pipeline in `blip2_rerun_june/`;
+  LLaVA training script (rebuilt from its saved adapter) in `failed_experiments/02_llava16_mistral_lora/`.
 - **Where:** `projects/04_llava_blip2` · reports `evaluation/blip2_march`, `blip2_june`, `llava_v16`.
 
-## 05 · Florence-2 (Apr, Jun 2026)
+## 05 · Florence-2 (Apr, Jun 2026) — did not work
 
 - Fine-tuning failed on five successive incompatibilities with transformers 5.3. Zero-shot with transformers
   4.46.3: 0% (scene captions, no disease names). Dropped.
-- **Where:** `projects/05_florence2` · report `evaluation/florence_zeroshot`.
+- **Where:** `failed_experiments/01_florence2_finetuning` · report `evaluation/florence_zeroshot`.
 
 ## 06 · Qwen2.5-VL-7B + LoRA (Apr 2026) — the VLM that worked
 
@@ -96,8 +98,9 @@ All numbers below come from the evaluation reports in this repository (`evaluati
 - Captions compiled from a cited Disease Knowledge Base (ontology → vocabulary → templates, 1,966 captions);
   Qwen2.5-VL-7B-Instruct-4bit + QLoRA r16 with `mlx-vlm` on an Apple M4 Pro (24 GB).
 - **Results:** tomato 7.3% → **93.7%** (macro-F1 0.919, 910 test images); mango 17.5% → **82.0%** (0.811, 200).
-- MLX = Apple's framework for Apple Silicon; the adapters stayed on the Mac. Results, configs and Mac commands:
-  `projects/09_plantdx_mlx_knowledge_grounded`.
+- MLX = Apple's framework for Apple Silicon; the adapters stayed on the Mac. The code is the `plantdx` package of
+  project 10 (`src/plantdx/training/mlx_runner.py`, tag v1.0.0 of github.com/iAakash1/experimentation). Results,
+  configs and Mac commands: `projects/09_plantdx_mlx_knowledge_grounded`.
 
 ## 10 · TIH tomato, 11 classes, Qwen2.5-VL QLoRA (Aug – Sep 2026) — ICAIN 2026 paper
 
@@ -107,14 +110,39 @@ All numbers below come from the evaluation reports in this repository (`evaluati
   532 px, micro-batch 1 × grad-accum 8, class-balanced sampling, answer-only loss; 2.9 epochs, 193 min, 10.6 GB.
 - **Results:** test **92.76%**, macro-F1 0.9378 (0.327 s/image); earlier 'strong' run 87.98%. Cross-domain set
   of 176 images from another source: **69.32%** (macro-F1 0.7195); Late Blight is the weak class there (F1 14.29%).
+- **App:** `streamlit_app.py` (`python run_app.py 1`): diagnose, training, adapter and evaluation pages; serves the
+  paper adapter `tih_tomato_moreaccurate`.
+- **Paper:** `docs/publication/ICAIN2026_paper953_camera_ready.pdf`.
 - **Where:** `projects/10_tih_tomato_qwen_qlora` (`reports/`, `checkpoints/`, `RESULTS.md`).
 
-## 11 · SigLIP / OpenCLIP prototype (Aug 2026)
+## 11 · SigLIP / OpenCLIP prototype (Aug 2026) — not trained
 
 - Contrastive image–text classification pipeline for the TIH data; written, not trained (Qwen QLoRA was chosen).
-- **Where:** `projects/11_siglip_openclip_prototype`.
+- **Where:** `failed_experiments/09_siglip_openclip_prototype`.
 
 ---
+
+## What did not work
+
+Full write-ups with code in `failed_experiments/` (index: `failed_experiments/README.md`).
+
+| Experiment | Result | Why / lesson |
+|---|---|---|
+| Florence-2 fine-tuning (Apr, Jun) | never finished; 0% zero-shot | remote code incompatible with transformers 5.3 |
+| LLaVA-1.6-Mistral-7B LoRA (Mar) | 2.00% | long generic answers; replaced by BLIP-2, then Qwen2.5-VL |
+| LLaVA-1.5-7B LoRA (Mar) | stopped | batch-collation error (variable image tiles) |
+| BLIP-2 June re-run (Jun) | 0% by its own script | scoring problem: 89.00% with the April protocol |
+| First Qwen2.5-VL run (Apr) | crashed | 256-token limit, truncation, padding, Flash-Attention: fixed by `fix_*.py` |
+| Zero-shot VLMs (Apr – Sep) | 8.50% / 8.47% / 0% | general VLMs don't know plant diseases |
+| PlantVLM on 30 images (Aug) | 2 of 6 | too few images |
+| Automatic TIH training run (Sep) | stopped at step ~40 | no adapter; zero-shot baseline kept |
+| SigLIP / OpenCLIP prototype (Aug) | not trained | QLoRA chosen instead |
+| Keras EfficientNet on SoyNet (Jan) | did not build | PyTorch versions trained (93.93%, 93.39%) |
+
+## Demo apps
+
+`python run_app.py` starts any Streamlit app with the right environment: 1 TIH tomato (paper model), 2 crop
+disease app (CLIP + GradCAM), 3 every model on one page (`demo_app.py`), 4 PlantDx, 5 Qwen April, 6–7 BLIP-2.
 
 ## Evaluation protocol in one place
 

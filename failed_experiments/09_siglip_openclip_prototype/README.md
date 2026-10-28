@@ -12,4 +12,4 @@ alternative to generative VLMs.
 
 ## Status
 The pipeline was written but not trained. The team chose Qwen2.5-VL with QLoRA for the TIH dataset instead
-(see `2026-09_September/plantdx_and_tih_tomato`: 92.76% test accuracy).
+(see `projects/10_tih_tomato_qwen_qlora`: 92.76% test accuracy).

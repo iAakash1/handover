@@ -21,3 +21,11 @@ projects/08_plantvlm_expert_captions/1stJuly/Dataset/
 # Local outputs from evaluate.py / vlm_eval.py runs
 eval_out/
 evaluation/out_*/
+
+# TIH tomato app: uploaded photos and per-prediction output
+projects/10_tih_tomato_qwen_qlora/uploads/
+projects/10_tih_tomato_qwen_qlora/predictions/
+projects/10_tih_tomato_qwen_qlora/logs/predictions.jsonl
+# retraining output of the failed-experiment scripts
+failed_experiments/02_llava16_mistral_lora/outputs/
+projects/04_llava_blip2/blip2_march/outputs/

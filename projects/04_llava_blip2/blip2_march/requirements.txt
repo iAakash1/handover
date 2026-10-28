@@ -1,0 +1,23 @@
+# VLM PlantVillage — requirements.txt
+# Install with: pip install -r requirements.txt
+
+# Core ML
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.40.0
+peft>=0.10.0
+accelerate>=0.28.0
+
+# Data & image
+Pillow>=10.0.0
+datasets>=2.18.0
+
+# Evaluation
+nltk>=3.8.1
+rouge-score>=0.1.2
+
+# Streamlit — pin to 1.40.x; 1.45+ has Object.hasOwn JS errors on Python 3.10 / Windows
+streamlit>=1.40.0,<1.45.0
+
+# Utilities
+tqdm>=4.66.0

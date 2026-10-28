@@ -12,7 +12,7 @@ Environments and the projects that use them:
     keras     01_cnn_keras_tomato                          (TensorFlow 2.20 / Keras 3, CPU)
     soynet    03_soybean_soynet                            (TensorFlow 2.10 + PyTorch, CUDA 12.1)
     vlm       02, 04, 06, 07, 08, evaluation              (PyTorch 2.5.1 CUDA 12.1, transformers 5.3)
-    florence  05_florence2                                (same as vlm but transformers 4.46.3)
+    florence  failed_experiments/01_florence2_finetuning                              (same as vlm but transformers 4.46.3)
     tih       10_tih_tomato_qwen_qlora                     (PyTorch 2.7.1 CUDA 11.8, plantdx package)
 """
 import os

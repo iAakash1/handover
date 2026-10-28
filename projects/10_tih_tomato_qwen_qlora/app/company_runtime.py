@@ -79,7 +79,11 @@ def get_handle(adapter_dir: str | None) -> CompanyHandle:
     from plantdx.company.config import load_company_train_config
     from plantdx.company.modeling import load_for_inference
 
-    cfg = load_company_train_config()
+    # Use the training config of the active run, so the image size matches what the adapter was trained on
+    # (moreaccurate was trained at 532 px; the default config says 448).
+    entry = active_entry()
+    run_cfg = Path(__file__).resolve().parents[1] / "configs" / "train" / f"qwen25vl_{entry.run_name}.yaml" if entry else None
+    cfg = load_company_train_config(run_cfg if run_cfg is not None and run_cfg.is_file() else None)
     dataset = load_company_dataset(cfg.data.profile)
     started = time.perf_counter()
     loaded = load_for_inference(cfg, adapter_dir)

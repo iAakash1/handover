@@ -14,6 +14,12 @@ also run on CPU.
 
 ## 2. Run any model
 
+**Easiest:** `python run_app.py` and pick a number. 1 = TIH tomato (ICAIN paper model), 2 = crop disease app
+(CLIP check + GradCAM), 3 = every model on one page. It starts Streamlit with the right environment and prints the
+address to open (normally http://localhost:8501).
+
+From the command line:
+
 Always `cd` into the project folder first; every README shows the exact command. The pattern is:
 
 ```powershell
@@ -27,7 +33,9 @@ cd projects\<project>
 | Same, best CNN (PyTorch) | `cd projects\02_cnn_pytorch_convnext; ..\..\.venvs\vlm\Scripts\python predict.py --image <photo>` |
 | Soybean healthy vs diseased | `cd projects\03_soybean_soynet; ..\..\.venvs\soynet\Scripts\python predict_soynet.py --image <photo>` |
 | Get a written diagnosis from a VLM | `cd evaluation; ..\.venvs\vlm\Scripts\python vlm_predict.py --model qwen_april --image <photo>` |
-| Open the diagnosis web app | `cd projects\06_qwen25vl_plantvillage\crop_disease_app; ..\..\..\.venvs\vlm\Scripts\python -m streamlit run app.py` |
+| Open the diagnosis web app | `python run_app.py 2` (or `cd projects\06_qwen25vl_plantvillage\crop_disease_app; ..\..\..\.venvs\vlm\Scripts\python -m streamlit run app.py`) |
+| Open the TIH tomato app | `python run_app.py 1` (or `cd projects\10_tih_tomato_qwen_qlora; ..\..\.venvs\tih\Scripts\python -m streamlit run streamlit_app.py`) |
+| Try every model on one photo | `python run_app.py 3` |
 | TIH tomato (11 classes) | `cd projects\10_tih_tomato_qwen_qlora; ..\..\.venvs\tih\Scripts\python -m plantdx.cli company predict --config configs/train/qwen25vl_tih_tomato_moreaccurate.yaml --adapter checkpoints/tih_tomato_moreaccurate --image <photo>` |
 | Re-create an evaluation number | each project has `evaluate.py` / `04_evaluate.py`; VLMs: `cd evaluation; ..\.venvs\vlm\Scripts\python vlm_eval.py <kind> <out_dir> <adapter>` |
 

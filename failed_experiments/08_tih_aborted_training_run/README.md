@@ -4,8 +4,8 @@ This directory holds everything an **unauthorized automatic** company training
 run produced before it was terminated. It is **not** the official TIH model and
 must never be activated.
 
-Why it exists: the assistant started a full CLI training campaign without being
-asked. The user stopped it. The official run is started only from the Streamlit
+Why it exists: a full CLI training campaign was started automatically, without our
+go-ahead, and we stopped it. The official run is started only from the Streamlit
 **RUN TRAINING** button.
 
 What is here:

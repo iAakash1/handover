@@ -9,10 +9,15 @@
 | Submission ID | 953 |
 | Decision | Accepted on 1 October 2026 (among the top 20% of reviewed papers) |
 | Registration | Registration and fees completed on 21 October 2026 |
-| Authors | Aakash Trimbak Jawle, Kamaaksha Rajendra Kharul, Santwana Gudadhe, Harish Lokawad, Rutuja Chavan |
+| Authors | Aakash Trimbak Jawle, Santwana Gudadhe, Kamaaksha Rajendra Kharul (corresponding), Harish Lokawad, Rutuja Chavan |
 | Work it describes | `projects/10_tih_tomato_qwen_qlora` (92.76% internal test, 69.32% cross-domain) |
 
-**Camera-ready copy:** put the final PDF here as `docs/publication/ICAIN2026_paper953_camera_ready.pdf`.
+**Camera-ready paper (12 pages):** [`docs/publication/ICAIN2026_paper953_camera_ready.pdf`](publication/ICAIN2026_paper953_camera_ready.pdf)
+
+In short: 7,095 TIH tomato images → 6,545 after SHA-256 de-duplication (5,247 train / 649 val / 649 test), Qwen2.5-VL-7B
+with 4-bit NF4 QLoRA (rank 64, frozen vision tower, answer-only loss), 192.7 min and 10.57 GB on one RTX 4500 Ada.
+Internal test 92.76% accuracy / 93.78% macro-F1; external 176-image set 69.32% / 71.95%, where Late Blight recall
+drops to 10% (84.62% internally).
 
 ## Project reports (in `docs/reports/`)
 

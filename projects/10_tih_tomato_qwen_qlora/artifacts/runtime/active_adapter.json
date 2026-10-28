@@ -1,1 +1,29 @@
-{}
+{
+  "tomato": {
+    "crop": "tomato",
+    "run_name": "tih_tomato_moreaccurate",
+    "adapter_path": "checkpoints/tih_tomato_moreaccurate",
+    "base_model": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "dataset": "Tomato_12thAug26",
+    "backend": "transformers_cuda",
+    "classes": [
+      "Aphid",
+      "Early Blight Fruit",
+      "Fruit Borer",
+      "Healthy Fruit",
+      "Healthy Leaf",
+      "Late Blight",
+      "Leaf Curl",
+      "Leaf Miner",
+      "Mealy Bugs",
+      "Target Leaf Spot",
+      "White Fly"
+    ],
+    "metrics": {
+      "accuracy": 0.9276,
+      "f1_macro": 0.9378,
+      "f1_weighted": 0.9286
+    },
+    "activated_at": "2026-10-28T10:48:33+00:00"
+  }
+}

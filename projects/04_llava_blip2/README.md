@@ -45,8 +45,20 @@ cd projects\04_llava_blip2\blip2_rerun_june
 ..\..\..\.venvs\vlm\Scripts\python 04_evaluate.py          # BLEU / ROUGE / CLIP + classification
 ```
 
-There is no separate LLaVA training script in our folders; only its trained adapter survived
-(`outputs/llava_plantvillage/best`).
+The March BLIP-2 scripts (recovered from our git history, commit of 1 April 2026) are in `blip2_march/`. They use
+the March adapter in `outputs/blip2_plantvillage/best`; a retrain writes its own `blip2_march/outputs/`:
+
+```powershell
+cd projects\04_llava_blip2\blip2_march
+..\..\..\.venvs\vlm\Scripts\python 03_inference.py              # one image per class -> inference_results.json
+..\..\..\.venvs\vlm\Scripts\python -m streamlit run 05_app.py   # March demo app (or from the root: python run_app.py 7)
+..\..\..\.venvs\vlm\Scripts\python 01_prepare_dataset.py        # retrain: captions.json, then
+..\..\..\.venvs\vlm\Scripts\python 02_finetune_blip2.py         # LoRA r32, 5 epochs
+```
+
+LLaVA-1.6 did not work out (2%). Its adapter stays in `outputs/llava_plantvillage/`. The training script (rebuilt
+from the saved adapter, because the original was not kept) and the full story are in
+`../../failed_experiments/02_llava16_mistral_lora/`.
 
 ## Files
 

@@ -1,4 +1,4 @@
-# 05 · Florence-2 (April and June 2026) — tried and dropped
+# 01 · Florence-2 (April and June 2026) — tried and dropped
 
 Microsoft's Florence-2-base-ft (232 M parameters) was the third VLM we tried. Fine-tuning never finished: with
 transformers 5.3 the model's remote code hit five different incompatibilities one after another
