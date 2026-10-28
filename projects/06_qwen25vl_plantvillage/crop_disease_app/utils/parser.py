@@ -10,15 +10,16 @@ from typing import Dict, Optional
 
 logger = logging.getLogger(__name__)
 
-# Fields to extract and their regex patterns.
+# Fields to extract and their regex patterns. The model sometimes writes "Condition; X"
+# instead of "Condition: X", so ; is accepted as a separator too.
 # Symptoms and Explanation allow longer values (up to the next field header or end of string).
 _FIELD_PATTERNS: Dict[str, str] = {
-    "Plant":       r"Plant\s*[:\-]\s*([^.\n]+)",
-    "Condition":   r"Condition\s*[:\-]\s*([^.\n]+)",
-    "Severity":    r"Severity\s*[:\-]\s*([^.\n]+)",
-    "Pathogen":    r"Pathogen\s*[:\-]\s*([^.\n]+)",
-    "Symptoms":    r"Symptoms\s*[:\-]\s*(.+?)(?=\n[A-Z][a-z]+\s*[:\-]|\Z)",
-    "Explanation": r"Explanation\s*[:\-]\s*(.+?)(?=\n[A-Z][a-z]+\s*[:\-]|\Z)",
+    "Plant":       r"Plant\s*[:;\-]\s*([^.\n]+)",
+    "Condition":   r"Condition\s*[:;\-]\s*([^.\n]+)",
+    "Severity":    r"Severity\s*[:;\-]\s*([^.\n]+)",
+    "Pathogen":    r"Pathogen\s*[:;\-]\s*([^.\n]+)",
+    "Symptoms":    r"Symptoms\s*[:;\-]\s*(.+?)(?=\n[A-Z][a-z]+\s*[:;\-]|\Z)",
+    "Explanation": r"Explanation\s*[:;\-]\s*(.+?)(?=\n[A-Z][a-z]+\s*[:;\-]|\Z)",
 }
 
 

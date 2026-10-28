@@ -24,6 +24,10 @@ cd projects\08_plantvlm_expert_captions
 ..\..\.venvs\vlm\Scripts\python scripts/02_train.py                            # retrain (~20 min)
 ```
 
+Note: `03_infer.py` samples (temperature 0.7), so each run writes slightly different text into
+`runs/run_002_fold0/predictions/`. The predictions behind the published report are the ones in git — restore them
+with `git checkout -- runs/run_002_fold0/predictions`.
+
 The 30 images live in `1stJuly/Dataset/` (not in git; copied on the TIH workstation) and the captions in
 `1stJuly/Revised_captions.xlsx`.
 
