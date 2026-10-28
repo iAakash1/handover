@@ -1,0 +1,32 @@
+{
+  "resnet50": {
+    "metrics": {
+      "accuracy": 0.9516129032258065,
+      "precision": 0.7692307692307693,
+      "recall": 0.963855421686747,
+      "f1_score": 0.8556149732620321,
+      "roc_auc": 0.9902726696258719
+    },
+    "training_time_seconds": 261.365606546402,
+    "model_size_mb": 244.81372833251953,
+    "model_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\resnet50\\soynet_resnet50_best.keras"
+  },
+  "efficientnetb0": {
+    "error": "Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>."
+  },
+  "efficientnetb3": {
+    "error": "Unable to serialize [2.0896919 2.1128857 2.1081853] to JSON. Unrecognized type <class 'tensorflow.python.framework.ops.EagerTensor'>."
+  },
+  "mobilenetv2": {
+    "metrics": {
+      "accuracy": 0.8906810035842294,
+      "precision": 0.7291666666666666,
+      "recall": 0.42168674698795183,
+      "f1_score": 0.5343511450381679,
+      "roc_auc": 0.8747748890298035
+    },
+    "training_time_seconds": 166.39502239227295,
+    "model_size_mb": 26.984039306640625,
+    "model_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\mobilenetv2\\soynet_mobilenetv2_best.keras"
+  }
+}

@@ -1,0 +1,4 @@
+2026-01-27 14:30:37 | INFO     | SoyNet | Log file created: C:\Users\Admin\Desktop\latest\SoyNet\logs\soynet_20260127_143037.log
+2026-01-27 14:30:37 | INFO     | SoyNet.GradCAM | Grad-CAM initialized with layer: out_relu
+2026-01-27 14:30:38 | ERROR    | SoyNet.XAI | Error generating Grad-CAM for C:\Users\Admin\Desktop\latest\SoyNet\Preprocessing_SoyNet_Data\Camera Clicks_256_256\Healthy_Preprocessing data\soy (214).JPG: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\resize.cpp:4086: error: (-215:Assertion failed) func != 0 in function 'cv::hal::resize'
+

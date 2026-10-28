@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "detail": "2 optimizer step(s) on 22 images; adapter written and validated",
+  "steps": 2,
+  "final_loss": 6.576704978942871,
+  "seconds": 23.2,
+  "peak_memory_gb": 9.79,
+  "adapter_dir": ""
+}

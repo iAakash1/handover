@@ -1,0 +1,1602 @@
+[
+  {
+    "image": "b3ce350d-9052-44d2-82cd-af671d1d4141___Com.G_TgS_FL 0772.JPG",
+    "class": "Tomato__Target_Spot",
+    "reference": "Plant: Tomato. Condition: Target Spot. Severity: Moderate. Pathogen: Corynespora cassiicola. Brown circular lesions with concentric rings and yellow surrounding tissue form a distinct target pattern on the leaf.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small holes in the leaf. The ground is gray. There is a shadow under the leaves.",
+    "true_condition": "Target Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "bf014d78-5f3a-4748-a026-dc80d95cbc3f___GHLB2 Leaf 164.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Progressive dark lesions with pale halos and wilted tissue edges show moderate to severe late blight progression.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "7b6f5f09-cea5-4b1c-91c7-18207527c837___JR_HL 8652.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. This Pepper bell leaf appears completely healthy showing consistent green pigmentation, smooth texture, and no abnormalities whatsoever.",
+    "generated": "A single green leaf is laying on the ground. The ground is a light gray color. The leaf has a thin green stem on it.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "31d40792-f720-42ba-b669-7947fcbc6594___UF.GRC_YLCV_Lab 02077.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). The leaf shows severe yellowing and upward curling with reduced size from TYLCV infection.",
+    "generated": "This is an image of a leaf. The leaf is large and green. The leaves are large and leafy. The green leaf has a thin stem. The stem is dark green. There is a small black hole in the middle of the leaf. There are small black dots on the leaf as well. The surface the leaf is on is gray.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "6d58d2a2-75c7-453a-bcce-9816065f6eba___YLCV_NREC 2670.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Strong upward leaf rolling with intense yellowing and stunted growth characterize this TYLCV infection.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. The shadow is black. There are many lines on the leaves.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "a58d9924-0f70-44f3-ac76-1c2d7fc238e1___RS_Late.B 5086.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Progressive dark lesions with pale halos and wilted tissue edges show moderate to severe late blight progression.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is dirt on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "0792af40-147c-400a-84e6-a0eeb25ac381___Com.G_SpM_FL 9381.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Fine stippling and yellow speckling cover the leaf surface with delicate webbing possibly visible between leaf structures.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "3c742482-6056-42ff-a846-7df3a5d97fc9___GCREC_Bact.Sp 3156.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. The leaf displays numerous irregular brown spots surrounded by yellow margins, consistent with Xanthomonas infection.",
+    "generated": "The image is of a leaf. The leaf is large and green. There are small brown spots on the leaf. There is a small yellow dot on the left side of the leaves. The leaves are on a gray surface. The stem of the leaf is green.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "8e4af6b9-0f8a-48ad-ade6-4e1fff6d4bbf___RS_HL 0606.JPG",
+    "class": "Tomato_healthy",
+    "reference": "Plant: Tomato. Condition: Healthy. Severity: None. Pathogen: None. Full leaf blade with uniform chlorophyll-rich coloration, intact margins, and no evidence of pathogen activity or mechanical damage.",
+    "generated": "There is a leaf on the ground. The leaf is green. The leaves are big and leafy. There is a shadow under the leaf. The ground is gray. The shadow is black. There are small white dots on the gray ground.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "bb04f738-1848-4dda-8834-384a48b335cd___RS_HL 1765.JPG",
+    "class": "Potato___healthy",
+    "reference": "Plant: Potato. Condition: Healthy. Severity: None. Pathogen: None. No pathological symptoms observed. The leaf exhibits vigorous healthy appearance with uniform coloration and no structural damage.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a small stem on the leaf. The ground is gray. There are small cracks in the leaves.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "990e1cbf-b978-478e-b332-d12b3855fd57___GCREC_Bact.Sp 6223.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Scattered dark brown spots with yellow surrounding tissue and irregular shapes cover portions of this Tomato leaf.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground is gray. There is a small stem on the leaves.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "4fd3f0e7-cdd9-4151-8734-5f0ad1f52614___RS_Erly.B 9564.JPG",
+    "class": "Tomato_Early_blight",
+    "reference": "Plant: Tomato. Condition: Early Blight. Severity: Mild to Moderate. Pathogen: Alternaria solani. Irregular brown spots with lighter concentric zones and yellow surrounding tissue distributed across the leaf.",
+    "generated": "There is a piece of food on the ground. The ground is gray. There is a leaf on top of the food. The leaf is green.",
+    "true_condition": "Early Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "884c2da1-3b43-46aa-85bb-0f72ed25c266___JR_B.Spot 8906.JPG",
+    "class": "Pepper__bell___Bacterial_spot",
+    "reference": "Plant: Pepper bell. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. The leaf shows small raised dark lesions with water-soaked centers and chlorotic halos caused by Xanthomonas infection.",
+    "generated": "There is a large green leaf on the ground. There are small brown spots on the leaf. There is a white wall behind the leaf on it.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "a5fbcb1e-c1f2-4cc9-b69b-24ce89f7ec7a___RS_Late.B 5585.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Irregular black-brown lesions spreading inward from the leaf margins typify P. infestans infection.",
+    "generated": "The image is of an object that looks like a mushroom. The mushroom is green and has some brown spots on it. It is on a gray surface. There is a shadow under the mushroom.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "19e29a5d-897d-4ff0-8aab-8562d74b0eb8___GCREC_Bact.Sp 6031.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Water-soaked spots transitioning to brown necrotic lesions with yellow halos indicate bacterial spot across the leaf.",
+    "generated": "A leaf is laying on the ground. The leaf is green. There are small brown spots on the leaf. The leaves are laying on a gray surface.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "bb3dc68f-0ade-4bb8-8c27-e2ff3529a20d___JR_Sept.L.S 2671.JPG",
+    "class": "Tomato_Septoria_leaf_spot",
+    "reference": "Plant: Tomato. Condition: Septoria Leaf Spot. Severity: Moderate. Pathogen: Septoria lycopersici. The Tomato leaf displays numerous small round lesions with dark borders and lighter centers showing black fruiting bodies.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is dirt on the top of the leaf. The ground is gray. There are shadows on the wall.",
+    "true_condition": "Septoria Leaf Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "e56aa8e4-cb6f-4333-816b-3494fc4fe25e___GHLB2 Leaf 8764.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Water-soaked spots transitioning to dark necrotic tissue with pale margins dominate the leaf.",
+    "generated": "There is a small green plant on the ground. There is dirt on the bottom of the plant. The plant is on a gray surface.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "28ac876e-4b48-4486-b40a-d4fad31f6880___Keller.St_CG 1805.JPG",
+    "class": "Tomato_Septoria_leaf_spot",
+    "reference": "Plant: Tomato. Condition: Septoria Leaf Spot. Severity: Moderate. Pathogen: Septoria lycopersici. Small circular spots with dark brown borders, lighter tan centers, and tiny black pycnidia dots are scattered across the leaf.",
+    "generated": "A leaf is laying on the ground. The leaf is green. There are small brown spots on the leaf. The ground under the leaf is purple.",
+    "true_condition": "Septoria Leaf Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "866d57df-74c8-4546-9f82-d03b3c554556___Crnl_L.Mold 8981.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. Chlorotic areas on the adaxial surface with corresponding abaxial fungal sporulation are visible on this Tomato leaf.",
+    "generated": "The image is of a leaf on a blue surface. The leaf appears to be dried up and is green in color. There are small holes in the center of the leaf. The surface under the leaf is a light blue color.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "70125561-7733-494a-a3e4-3d1674a89b04___Crnl_L.Mold 6717.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. Pale yellow spots on the upper leaf surface correspond to olive-green velvety fungal growth on the underside.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a small yellow patch on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "ac277fa0-5af6-4fb6-bd56-9f8229b62d9a___GCREC_Bact.Sp 5633.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Scattered dark brown spots with yellow surrounding tissue and irregular shapes cover portions of this Tomato leaf.",
+    "generated": "The image is of a piece of broccoli. The broccoli is green and has brown spots on it. The leaf is laying on a gray surface.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "17bcc3fa-9905-4fcf-938b-c5e63e214718___GCREC_Bact.Sp 6329.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. The leaf displays numerous irregular brown spots surrounded by yellow margins, consistent with Xanthomonas infection.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small brown spots on the top of the leaf. There is a small yellow patch on the bottom of the leaves.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "164d5472-31c5-4145-b30a-93198436539d___RS_HL 0103.JPG",
+    "class": "Tomato_healthy",
+    "reference": "Plant: Tomato. Condition: Healthy. Severity: None. Pathogen: None. The leaf surface is clean and uniformly green with no visible fungal growth, bacterial lesions, or viral symptoms present.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "c614b0c3-79eb-4818-ae01-336c79a27780___Com.G_SpM_FL 1618.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Extensive stippling creates a silvery mottled pattern across the Tomato leaf from sustained spider mite feeding.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. There are small black spots on the leaves.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "68b7d7af-1071-42db-80b7-2d46261b9dff___GCREC_Bact.Sp 6132.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. The Tomato leaf exhibits irregularly shaped dark spots with greasy margins and surrounding yellowing from bacterial infection.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small black spots on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "8d5d586c-35ad-4cf2-99f7-a8d92f56a306___GCREC_Bact.Sp 3145.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Scattered dark brown spots with yellow surrounding tissue and irregular shapes cover portions of this Tomato leaf.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "4d142800-be82-4dfb-a550-6fa08fb19984___Com.G_SpM_FL 1306.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Fine yellow dots and possible webbing from two-spotted spider mites distributed across this Tomato leaf.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. The shadow is black. The leaves have a little bit of green on them. There are lines on the leaves.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "b190b148-9621-404b-a3a1-e697d2d40f42___Crnl_L.Mold 8656.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. Pale yellow patches visible from above and dense fungal sporulation beneath indicate moderate leaf mold infection.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small holes in the leaf. The ground is gray. There is a shadow under the leaves.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "320a66eb-2f38-4db4-bd2f-3fbb298a43bf___Com.G_TgS_FL 8025.JPG",
+    "class": "Tomato__Target_Spot",
+    "reference": "Plant: Tomato. Condition: Target Spot. Severity: Moderate. Pathogen: Corynespora cassiicola. Ringed brown spots with chlorotic margins indicate target spot disease caused by Corynespora cassiicola.",
+    "generated": "The image is of a leaf on a surface. The surface is a light purple color. The leaf is dark green with lighter green leaves. The leaves have small white dots on them. There is a shadow on the surface behind the leaf. The shadow is darker on the right side of the leaf and on the left side.",
+    "true_condition": "Target Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "563dc24f-a75e-4bde-8667-135ba74541e6___RS_Late.B 5319.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Collapsed water-soaked tissue forming dark patches with pale surrounding zones and wilting leaf edges indicate active late blight.",
+    "generated": "There is a head of lettuce on the ground. The lettuce is dark green and has some brown spots on it. There is a shadow of the head of the lettuce. The ground under the lettuce is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "d131dbb4-2255-496a-8e01-fb68f2e6db44___Crnl_L.Mold 6553.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. Prominent chlorotic lesions on the leaf top with a velvet-textured grayish-green fungal coating on the reverse indicate leaf mold.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. The shadow is black. The leaves are big and leafy.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "a06d18d4-0c8d-4ebc-ba9b-19f004a67eea___GHLB2ES Leaf 63.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Water-soaked spots transitioning to dark necrotic tissue with pale margins dominate the leaf.",
+    "generated": "A leaf is laying on the ground. The leaf is green and has some brown spots on it. The ground is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "22372e33-7f94-48f7-b394-421d1489328a___Com.G_SpM_FL 8697.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Fine stippling and yellow speckling cover the leaf surface with delicate webbing possibly visible between leaf structures.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. There are small black dots on the floor.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "def9c9e1-fd12-44d9-92ae-18c5ff0f52da___RS_LB 2605.JPG",
+    "class": "Potato___Late_blight",
+    "reference": "Plant: Potato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. The leaf shows irregular water-soaked to necrotic lesions with a characteristic oil-stained appearance from late blight.",
+    "generated": "A leaf is laying on the ground. The leaf is green. There is a brown patch on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "3350cc79-a559-4204-aade-92eb31916006___JR_HL 8901.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. No disease symptoms are visible. Normal healthy growth is indicated by even green color and intact, undamaged leaf structure.",
+    "generated": "There is a large green leaf on the ground. The ground is gray. There is a small black object under the leaf.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "594d63cf-a655-4d53-a5e4-d38857d91a67___JR_HL 7853.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. This Pepper bell leaf is free from any disease symptoms, showing normal venation, deep green pigmentation, and intact margins.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small white lines on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "a1182087-7d2d-439f-917f-26c63fc7ee3d___Com.G_SpM_FL 9473.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Thousands of tiny puncture marks cause a speckled yellow-bronze discoloration across the upper leaf surface.",
+    "generated": "There is a single leaf on the ground. The leaf is green. There are small white specks on the leaf. The ground is a light gray color.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "2d37debb-8e09-4461-8e58-a23a06b4722a___Crnl_L.Mold 8896.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. Irregular yellow blotches on the upper leaf surface and velvety olive-green growth on the lower surface indicate leaf mold.",
+    "generated": "There is a leaf on the ground. The leaf is dark green. There are small yellow spots on the leaf. The ground is gray. There is a shadow on the left side of the leaves.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "416458ca-7db6-4383-ae0b-21ae2860af1b___RS_HL 0535.JPG",
+    "class": "Tomato_healthy",
+    "reference": "Plant: Tomato. Condition: Healthy. Severity: None. Pathogen: None. The leaf surface is clean and uniformly green with no visible fungal growth, bacterial lesions, or viral symptoms present.",
+    "generated": "There is a leaf on the ground. The leaf is small and green. There is a shadow under the leaf. The ground is gray. There are no other objects in the image.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "7f3c64bd-1c01-4e6e-b794-6f9c2a5e2ba9___Crnl_L.Mold 6760.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. Irregular pale green to yellow patches on the upper leaf and densely sporulating olive mold on the lower surface.",
+    "generated": "There is a large green leaf on the ground. There is a white surface under the leaf. There are small black shadows on the surface.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "06806ed4-adf5-4de2-9d93-6123645c566a___YLCV_GCREC 1898.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Strong upward leaf rolling with intense yellowing and stunted growth characterize this TYLCV infection.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small droplets of water on the leaf. The ground is gray. There is a shadow under the leaves.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "122577a3-0f69-45f0-9e73-48528f9dea1c___Com.G_TgS_FL 8179.JPG",
+    "class": "Tomato__Target_Spot",
+    "reference": "Plant: Tomato. Condition: Target Spot. Severity: Moderate. Pathogen: Corynespora cassiicola. The leaf displays target-like spots with alternating dark and light concentric bands surrounded by yellowing tissue.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a small brown patch on the top of the leaf. The ground under the leaf is gray.",
+    "true_condition": "Target Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "392df5d9-0383-4ce9-a6fa-17d09cdc3c62___RS_Erly.B 9497.JPG",
+    "class": "Tomato_Early_blight",
+    "reference": "Plant: Tomato. Condition: Early Blight. Severity: Mild to Moderate. Pathogen: Alternaria solani. Target-shaped dark brown spots with concentric rings and yellow halos are scattered across the Tomato leaf surface.",
+    "generated": "A leaf is laying on the ground. The leaf is green. There are small brown spots on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Early Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "a3938779-9d9f-4e45-a397-7b5abd13f6ba___JR_Sept.L.S 2700.JPG",
+    "class": "Tomato_Septoria_leaf_spot",
+    "reference": "Plant: Tomato. Condition: Septoria Leaf Spot. Severity: Moderate. Pathogen: Septoria lycopersici. Dense spots with dark rings and pale centers scattered across the leaf surface indicate Septoria lycopersici infection.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is purple. The shadow is black.",
+    "true_condition": "Septoria Leaf Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "b7369ccc-8bb8-462f-a915-d0737d1c87c2___GCREC_Bact.Sp 5646.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Angular vein-delimited lesions with dark centers and chlorotic halos distributed across this infected Tomato leaf.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small black spots on the top of the leaf. The ground is gray. There is a small patch of dirt on the tip of the green leaf.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "7828bbde-4f60-441e-be89-6cedd12f1c1c___RS_Erly.B 7830.JPG",
+    "class": "Tomato_Early_blight",
+    "reference": "Plant: Tomato. Condition: Early Blight. Severity: Mild to Moderate. Pathogen: Alternaria solani. Circular necrotic areas with concentric dark and light banding surrounded by chlorosis indicate early blight.",
+    "generated": "There is a large green leaf on the ground. There is dirt on the top of the leaf. There are small black spots on the leaves.",
+    "true_condition": "Early Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "1ae5cf7c-f03a-4591-93e9-61d9784763e0___RS_HL 0043.JPG",
+    "class": "Tomato_healthy",
+    "reference": "Plant: Tomato. Condition: Healthy. Severity: None. Pathogen: None. The leaf displays uniform vibrant green coloration with no visible lesions, spots, discoloration, or any signs of disease or stress.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are shadows under the leaf. The ground is gray.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "b6c68639-ad01-41f9-a10c-4233423ea2b0___RS_Early.B 8573.JPG",
+    "class": "Potato___Early_blight",
+    "reference": "Plant: Potato. Condition: Early Blight. Severity: Mild to Moderate. Pathogen: Alternaria solani. Circular necrotic areas with concentric dark and light banding surrounded by chlorosis indicate early blight.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small brown spots on the leaf. There is a shadow under the leaf on a gray surface.",
+    "true_condition": "Early Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "9c0e8576-642f-47a6-a053-c52e9025b7f6___RS_LB 4134.JPG",
+    "class": "Potato___Late_blight",
+    "reference": "Plant: Potato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Dark irregular greasy blotches with water-soaked margins are spreading across the leaf surface.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small brown spots on the leaf. There is a small stick sticking out of the leaf in the middle of it. The ground under the leaf is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "43dde1e0-8c73-45af-8fbf-d500e450a154___RS_LB 3270.JPG",
+    "class": "Potato___Late_blight",
+    "reference": "Plant: Potato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Significant necrotic patches with pale chlorotic borders dominate the leaf; white sporulation may be visible on the underside.",
+    "generated": "A leaf is laying on the ground. The leaf is large and green. There is a brown patch on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "8154ab08-737d-49c5-83f3-b01cb6aa767a___YLCV_GCREC 2646.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Extreme chlorosis and upward leaf cupping with crinkled texture indicate yellow leaf curl viral infection.",
+    "generated": "A piece of broccoli is laying on the ground. The broccoli is a vibrant green color. The ground is a light gray color. There is a shadow under the broccoli.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "7df39eb0-7372-4386-a09f-d04e446296da___Keller.St_CG 1783.JPG",
+    "class": "Tomato_Septoria_leaf_spot",
+    "reference": "Plant: Tomato. Condition: Septoria Leaf Spot. Severity: Moderate. Pathogen: Septoria lycopersici. Abundant small lesions with sooty black pycnidia embedded in tan interiors and dark raised margins cover the leaf.",
+    "generated": "The image is of a leaf on a surface. The surface is a light purple color. The leaf on the surface appears to be a dying leaf. There are small black spots on the top of the leaf.",
+    "true_condition": "Septoria Leaf Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "385e730c-e1f9-4f46-b8b0-42bfa13866d7___RS_Late.B 4965.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Irregular black-brown lesions spreading inward from the leaf margins typify P. infestans infection.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is dirt on the leaf. The dirt is brown. The shadow of the leaf is on the floor. The floor is gray. The leaves are casting a shadow on the wall. The sun is shining on the leaves. There are shadows on the white wall.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "53583056-c427-4687-b89f-e0507471c8b2___Crnl_L.Mold 9077.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. The leaf displays yellow irregular spots on top and velvety dark sporulation beneath, consistent with leaf mold disease.",
+    "generated": "A leaf is laying on the ground. The leaf is green and has brown spots on it. There is a shadow under the leaf.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "eccf8abf-a178-464f-ba55-1d203f5f8a47___RS_Erly.B 6395.JPG",
+    "class": "Tomato_Early_blight",
+    "reference": "Plant: Tomato. Condition: Early Blight. Severity: Mild to Moderate. Pathogen: Alternaria solani. Target-pattern lesions with dark brown rings and chlorotic halos are hallmark early blight symptoms on this leaf.",
+    "generated": "This is an image of a leaf. The leaf is very large and green. The leaves are very leafy. There are small black spots on the leaf. There is a gray surface under the leaves. The surface is textured. The green leaf has a shadow on it. The shadow is black. The stem of the leaf is a light green.",
+    "true_condition": "Early Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "f4accacc-f839-4bc4-b365-4a021c00c944___JR_HL 8833.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. No pathological symptoms observed. The leaf exhibits vigorous healthy appearance with uniform coloration and no structural damage.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. There are small cracks on the leaves.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "8e8933e9-9e30-4d9a-8514-4f9ad71e51cd___UF.GRC_YLCV_Lab 01685.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). The leaf displays intense yellowing and strong upward rolling with distorted surface texture from TYLCV.",
+    "generated": "This is an image of a leaf. The leaf looks like a cabbage. The cabbage is green. The leaves are large and leafy. The stem of the cabbage is yellow. There is a shadow on the gray surface. The surface is gray. The shadow is black. There are small white lines on the leaves.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "cdf3b1b8-c0dd-45dc-98dd-3a95be77e0a3___Com.G_SpM_FL 9538.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Mite feeding has caused a characteristic salt-and-pepper stippled pattern with overall leaf bronzing visible.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "2312305e-c167-4730-a07a-db5c9956077a___RS_Erly.B 7752.JPG",
+    "class": "Tomato_Early_blight",
+    "reference": "Plant: Tomato. Condition: Early Blight. Severity: Mild to Moderate. Pathogen: Alternaria solani. Target-pattern lesions with dark brown rings and chlorotic halos are hallmark early blight symptoms on this leaf.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow on the wall behind the leaf. The ground under the leaf is gray.",
+    "true_condition": "Early Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "efd2cbd0-24dc-4c09-92b1-37963ae84721___PSU_CG 2379.JPG",
+    "class": "Tomato__Tomato_mosaic_virus",
+    "reference": "Plant: Tomato. Condition: Mosaic Virus. Severity: Severe. Pathogen: Tomato Mosaic Virus (ToMV). The blade shows a blistered mosaic surface with interveinal chlorosis and dark-green virus-infected islands.",
+    "generated": "There is a single leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is a light gray color.",
+    "true_condition": "Mosaic Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "b634ad06-3f68-47c5-bc70-01c2c690be27___Matt.S_CG 7488.JPG",
+    "class": "Tomato_Septoria_leaf_spot",
+    "reference": "Plant: Tomato. Condition: Septoria Leaf Spot. Severity: Moderate. Pathogen: Septoria lycopersici. The Tomato leaf displays numerous small round lesions with dark borders and lighter centers showing black fruiting bodies.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground is gray. There is a shadow on the floor.",
+    "true_condition": "Septoria Leaf Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "7a44481e-a02a-4174-9927-b2ded2888da9___JR_HL 7966.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. This Pepper bell leaf is free from any disease symptoms, showing normal venation, deep green pigmentation, and intact margins.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a shadow under the leaf.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "3e03aa27-3c0c-447c-87da-c3375ef47ead___RS_HL 9899.JPG",
+    "class": "Tomato_healthy",
+    "reference": "Plant: Tomato. Condition: Healthy. Severity: None. Pathogen: None. The Tomato leaf shows excellent health with rich green coloration, no spots or lesions, and normal leaf morphology throughout.",
+    "generated": "A leaf is laying on the ground. The leaf is large and green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "592b2a4c-326c-4fe3-a658-c4b97bd6c783___JR_HL 8217.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. The leaf surface is clean and uniformly green with no visible fungal growth, bacterial lesions, or viral symptoms present.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "3af16e88-1b4d-46d5-a099-7450600f11e8___RS_Erly.B 9545.JPG",
+    "class": "Tomato_Early_blight",
+    "reference": "Plant: Tomato. Condition: Early Blight. Severity: Mild to Moderate. Pathogen: Alternaria solani. The leaf shows circular brown lesions with distinctive concentric rings forming a target-like pattern surrounded by yellow chlorotic zones.",
+    "generated": "There is a large green leaf on the ground. There are small brown bugs on the leaf. The leaf is laying on a white surface.",
+    "true_condition": "Early Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "4a077dcb-30be-4f8d-9dc9-00f3874b1676___GH_HL Leaf 465.JPG",
+    "class": "Tomato_healthy",
+    "reference": "Plant: Tomato. Condition: Healthy. Severity: None. Pathogen: None. Healthy leaf tissue is indicated by consistent green pigmentation and a smooth surface with no necrotic or chlorotic areas visible.",
+    "generated": "There is a small green leaf on the ground. The ground is gray. There are small white specks on the leaf.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "4fb1b62d-f244-4198-8643-27a14678180c___Com.G_SpM_FL 8642.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. The leaf surface displays pale stippling and slight bronzing consistent with moderate to heavy spider mite damage.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "cea4dd89-8d2b-4910-a037-3c6a8d3def20___Com.G_SpM_FL 9644.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Fine yellow dots and possible webbing from two-spotted spider mites distributed across this Tomato leaf.",
+    "generated": "There is a small green leaf on the ground. The ground is a light gray color. There are small specks of grass on the leaf.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "c6ecc36c-1886-4d2d-89aa-0e9e9dc7ba32___RS_LB 4997.JPG",
+    "class": "Potato___Late_blight",
+    "reference": "Plant: Potato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Water-soaked spots transitioning to dark necrotic tissue with pale margins dominate the leaf.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. There are small black specks on the leaves.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "db467743-857b-42b3-ab2a-a80e90467a99___RS_HL 0570.JPG",
+    "class": "Tomato_healthy",
+    "reference": "Plant: Tomato. Condition: Healthy. Severity: None. Pathogen: None. This Tomato leaf appears completely healthy showing consistent green pigmentation, smooth texture, and no abnormalities whatsoever.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "4ae82355-6885-40e7-9807-dabe46ed3441___RS_HL 5410.JPG",
+    "class": "Potato___healthy",
+    "reference": "Plant: Potato. Condition: Healthy. Severity: None. Pathogen: None. Well-developed healthy Potato leaf with symmetrical structure, rich green color, and absence of any disease-associated visual abnormalities.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "41c041c0-d17a-4be1-b2b8-a46a816fbda5___NREC_B.Spot 9192.JPG",
+    "class": "Pepper__bell___Bacterial_spot",
+    "reference": "Plant: Pepper bell. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Angular brown spots bounded by leaf veins with surrounding yellowing indicate bacterial spot disease.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small brown spots on the leaf. There is a shadow under the leaf on a gray surface.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "3c435f7e-e3cf-4a74-805b-b679ae96e25e___JR_Sept.L.S 2463.JPG",
+    "class": "Tomato_Septoria_leaf_spot",
+    "reference": "Plant: Tomato. Condition: Septoria Leaf Spot. Severity: Moderate. Pathogen: Septoria lycopersici. Circular spots with very dark margins, pale tan centers, and prominent pycnidia densely distributed across the Tomato leaf.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small yellow spots on the leaf. There is a shadow on the wall.",
+    "true_condition": "Septoria Leaf Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "8abdbac6-0685-400e-94bd-436f1424dcca___YLCV_NREC 2957.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). The leaf is severely distorted with upward cupping edges and prominent chlorosis typical of TYLCV infection.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is dirt on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "938a5ed3-127f-4e05-8e96-9d2225d094c7___GHLB2 Leaf 8784.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Dark necrotic regions with a greasy sheen and indistinct margins are spreading rapidly across this diseased Tomato leaf.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground is gray. The leaves are wrinkled. There is a small piece of dirt on the top of the leaves.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "fbf93d24-8df5-4361-9cb3-af61baf177f9___RS_Late.B 4943.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Significant necrotic patches with pale chlorotic borders dominate the leaf; white sporulation may be visible on the underside.",
+    "generated": "A leafy vegetable is laying on the ground. There is a shadow of the vegetable on the left side of the image. The vegetable is green and looks like it has been cut in half. The ground under the vegetable is a light beige color.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "83afa77a-0593-41f4-a395-63d59df33d5d___UF.GRC_YLCV_Lab 01606.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Strong upward leaf rolling with intense yellowing and stunted growth characterize this TYLCV infection.",
+    "generated": "There is a large leaf on the ground. The leaf is bright green. There are small black lines on the leaf. The leaves are on a gray surface.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "76709325-888a-4972-b171-b78e3fb2bfe5___JR_HL 8036.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. Well-developed healthy Pepper bell leaf with symmetrical structure, rich green color, and absence of any disease-associated visual abnormalities.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are two thin leaves on the leaf. The leaves are on a gray surface.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "6b0af08c-3f98-4077-94ab-5a35527fbf08___JR_HL 7589.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. The Pepper bell leaf is in optimal health showing deep green color, no discoloration, and complete absence of disease indicators.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is white.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "ed72f0b8-cd69-41fd-99a8-ae792c6fa16f___GCREC_Bact.Sp 3186.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Water-soaked spots transitioning to brown necrotic lesions with yellow halos indicate bacterial spot across the leaf.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "31d8e0ad-c71a-47de-aa56-81a5f0910f0a___Com.G_SpM_FL 9291.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. The Tomato leaf shows chlorotic stippling and bronzing from Tetranychus urticae feeding across the leaf surface.",
+    "generated": "A single green leaf is laying on the ground. The leaf is casting a shadow on the floor. The floor is a light gray color.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "45fcccdf-10bc-44f7-a3d0-6e0fb2e29960___UF.GRC_YLCV_Lab 03104.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Upward leaf curl and bright yellow discoloration with crinkled texture indicate severe yellow leaf curl virus.",
+    "generated": "This is a zoomed in picture of a leaf. The leaf appears to be a type of plant. The leaves are large and green. The stem of the leaf is visible. The background of the image is gray. There is a shadow on the ground behind the leaf.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "d3732d4c-b7a5-4a11-9290-d3faf28c204b___Com.G_SpM_FL 9023.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. The leaf shows a bronzed dusty appearance with tiny yellow feeding dots from two-spotted spider mite damage.",
+    "generated": "There is a leaf on the ground. The leaf is green. The shadow of the leaf is on the wall. The wall is made of gray sand. There is a shadow under the leaf.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "605aacc9-f599-4bef-a53c-01e56dde4892___Crnl_L.Mold 8679.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. Irregular pale green to yellow patches on the upper leaf and densely sporulating olive mold on the lower surface.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The shadow is black. The ground is gray. The leaves are casting a shadow on it. There are small black dots on the leaves.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "1732045f-a451-4325-aa86-717a8cbdaf02___RS_HL 9698.JPG",
+    "class": "Tomato_healthy",
+    "reference": "Plant: Tomato. Condition: Healthy. Severity: None. Pathogen: None. No disease symptoms are visible. Normal healthy growth is indicated by even green color and intact, undamaged leaf structure.",
+    "generated": "There is a small leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "7d92aa59-82fc-4c93-9d0e-728c0a944055___RS_Early.B 6965.JPG",
+    "class": "Potato___Early_blight",
+    "reference": "Plant: Potato. Condition: Early Blight. Severity: Mild to Moderate. Pathogen: Alternaria solani. Irregular brown spots with lighter concentric zones and yellow surrounding tissue distributed across the leaf.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are brown spots on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Early Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "bfc55b79-3f3b-4884-b5ec-b66c02b9cabb___JR_B.Spot 3260.JPG",
+    "class": "Pepper__bell___Bacterial_spot",
+    "reference": "Plant: Pepper bell. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Angular brown spots bounded by leaf veins with surrounding yellowing indicate bacterial spot disease.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "10671d95-f882-4e19-994f-b35917d2c763___Crnl_L.Mold 9098.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. Prominent chlorotic lesions on the leaf top with a velvet-textured grayish-green fungal coating on the reverse indicate leaf mold.",
+    "generated": "A leaf is laying on a purple surface. The leaf is green and has some brown spots on it. There is a shadow under the leaf on the surface.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "40860ca0-2ec2-43be-817d-ef19ae1c10af___GCREC_Bact.Sp 6097.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Scattered dark brown spots with yellow surrounding tissue and irregular shapes cover portions of this Tomato leaf.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small holes in the leaf. The ground under the leaf is gray.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "1fef5c8b-7d83-45b5-9031-f636c3dc44ae___Crnl_L.Mold 8953.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. The leaf displays yellow irregular spots on top and velvety dark sporulation beneath, consistent with leaf mold disease.",
+    "generated": "This is an image of a leaf. The leaf is green. The leaves are large and leafy. There is a stem under the leaf. There are small buds on the stem. The stem is green and thin. The background is a light blue color. The buds are small and dark brown. The sun is shining on the leaves.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "82dc2c64-2489-49d7-b199-f8c6a04c1649___RS_Late.B 6282.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Large coalescing dark patches with pale to yellow borders indicate severe Phytophthora infection.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground is gray. The leaves have a thin stem on it.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "a9fbf5e6-bec9-4845-9659-237d9c67f8eb___Crnl_L.Mold 8624.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. Irregular yellow blotches on the upper leaf surface and velvety olive-green growth on the lower surface indicate leaf mold.",
+    "generated": "A leaf is laying on a gray surface. The leaf is green with yellow spots on it. The shadow of the leaf is on the surface.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "18488cdf-a5d7-43ff-8dfe-8250e1a04820___Crnl_L.Mold 6939.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. The Tomato leaf exhibits chlorotic spots above with a felt-like olive-brown fungal coating on the corresponding lower surface.",
+    "generated": "A single leaf is laying on the ground. The leaf is green and has some brown spots on it. The ground under the leaf is gray.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "722e5aaa-dce9-4962-879d-6f23992e58d0___Com.G_TgS_FL 9769.JPG",
+    "class": "Tomato__Target_Spot",
+    "reference": "Plant: Tomato. Condition: Target Spot. Severity: Moderate. Pathogen: Corynespora cassiicola. The Tomato leaf shows circular necrotic spots with ring patterns and yellow margins from Corynespora infection.",
+    "generated": "There is a small green leaf on the ground. The ground is a light gray color. There is a shadow under the leaf.",
+    "true_condition": "Target Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "7a6e4837-d63d-465a-abae-ef857bf43e2d___PSU_CG 2117.JPG",
+    "class": "Tomato__Tomato_mosaic_virus",
+    "reference": "Plant: Tomato. Condition: Mosaic Virus. Severity: Severe. Pathogen: Tomato Mosaic Virus (ToMV). The leaf displays irregular green mosaic patterning with alternating chlorotic patches from viral mosaic infection.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Mosaic Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "50726baf-e64e-4fea-91f5-f5c908aa9737___GCREC_Bact.Sp 2947.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Angular vein-delimited lesions with dark centers and chlorotic halos distributed across this infected Tomato leaf.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small brown spots on the leaf. The leaves are on a white surface.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "8c1a0a73-26c9-405e-8957-8dd58df6bdf4___GCREC_Bact.Sp 3738.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. The leaf displays numerous irregular brown spots surrounded by yellow margins, consistent with Xanthomonas infection.",
+    "generated": "There is a large green leaf on the ground. There is a small brown patch on the leaf. The leaf is laying on a gray surface.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "74291371-261f-4908-b791-79af20fae776___Com.G_TgS_FL 8212.JPG",
+    "class": "Tomato__Target_Spot",
+    "reference": "Plant: Tomato. Condition: Target Spot. Severity: Moderate. Pathogen: Corynespora cassiicola. The Tomato leaf shows circular necrotic spots with ring patterns and yellow margins from Corynespora infection.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Target Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "51bd05fe-a50b-4bc1-aa3d-096a5621531d___UF.GRC_YLCV_Lab 01719.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Extreme chlorosis and upward leaf cupping with crinkled texture indicate yellow leaf curl viral infection.",
+    "generated": "A large green leaf is on the ground. There is a gray surface under the leaf. There are small white spots on the leaf on the stem.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "9721c76f-52cc-4a63-a465-4cc32974806c___GH_HL Leaf 431.1.JPG",
+    "class": "Tomato_healthy",
+    "reference": "Plant: Tomato. Condition: Healthy. Severity: None. Pathogen: None. No disease symptoms are visible. Normal healthy growth is indicated by even green color and intact, undamaged leaf structure.",
+    "generated": "There is a small green leaf on the ground. The ground is gray. The leaf has a stem on it. The stem is a light green color.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "d96c3244-39ec-4188-9870-a6e32aad81d6___RS_Erly.B 7540.JPG",
+    "class": "Tomato_Early_blight",
+    "reference": "Plant: Tomato. Condition: Early Blight. Severity: Mild to Moderate. Pathogen: Alternaria solani. Target-pattern lesions with dark brown rings and chlorotic halos are hallmark early blight symptoms on this leaf.",
+    "generated": "There is a large leaf on the ground. There is dirt on the leaf. The leaf is green. The leaves are wrinkled. The ground under the leaf is gray.",
+    "true_condition": "Early Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "915bab07-9a79-4144-9e60-4e65d44c4294___YLCV_NREC 2783.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Leaf margins curl upward severely with chlorotic discoloration and distorted crinkled surface from viral infection.",
+    "generated": "There is a large green leaf on the ground. There is a white surface under the leaf. There are small green pebbles on top of the leaves.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "76d235a2-a493-41f8-b1a6-f0d610773c2b___JR_HL 7741.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. This Pepper bell leaf appears completely healthy showing consistent green pigmentation, smooth texture, and no abnormalities whatsoever.",
+    "generated": "There is a large green leaf on the ground. There is a gray wall behind the leaf. There are small black spots on the leaves.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "b7883606-5157-4dc1-b965-fc10f8fe1796___RS_Early.B 7598.JPG",
+    "class": "Potato___Early_blight",
+    "reference": "Plant: Potato. Condition: Early Blight. Severity: Mild to Moderate. Pathogen: Alternaria solani. Target-shaped dark brown spots with concentric rings and yellow halos are scattered across the Potato leaf surface.",
+    "generated": "A leaf is laying on a gray surface. The leaf is large and green. There are small brown spots on the leaf.",
+    "true_condition": "Early Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "fdc86644-2491-4ace-b7e3-190e1d68ebba___RS_LB 5129.JPG",
+    "class": "Potato___Late_blight",
+    "reference": "Plant: Potato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Water-soaked spots transitioning to dark necrotic tissue with pale margins dominate the leaf.",
+    "generated": "A leaf is laying on the ground. The leaf is large and green. There are small brown spots on the leaf. There is a long thin leaf on the larger leaf. The ground under the leaf is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "e4136455-c279-44f4-9996-c553e4f11245___Com.G_SpM_FL 8557.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. The leaf surface displays pale stippling and slight bronzing consistent with moderate to heavy spider mite damage.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. The shadow is black. There are small black spots on the leaves. The leaves have a stem. The stem is short. The tip of the leaf is brown. The sun is shining on the leaf and it is casting a shadow.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "34bd18fa-d898-40d4-83ed-665caabed7d0___RS_Late.B 5113.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Large coalescing dark patches with pale to yellow borders indicate severe Phytophthora infection.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a brown leaf on top of the leaf. The ground under the leaf is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "70009c19-7424-4ce8-96e8-9eef439e4c9e___UF.GRC_YLCV_Lab 02056.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Entire leaf shows interveinal yellowing and strong inward rolling of the margin from systemic TYLCV infection.",
+    "generated": "This is an image of a leaf. The leaf is bright green. There are small black seeds in the middle of the leaf. There is a gray background behind the leaf and leaf.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "65bab626-51a1-4d16-ab9c-ddd25f4e2e33___RS_LB 4927.JPG",
+    "class": "Potato___Late_blight",
+    "reference": "Plant: Potato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Rapidly expanding brown-black lesions with faint green halos and collapsed tissue indicate advanced late blight.",
+    "generated": "The image is of a piece of broccoli. The broccoli is green and has some brown spots on it. There is a shadow of the broccoli on the white surface.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "8168a850-1360-49cf-8ecc-77730cc24ac5___RS_Late.B 4979.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Irregular black-brown lesions spreading inward from the leaf margins typify P. infestans infection.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a brown patch on the top of the leaf.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "475356f2-a707-4b3d-b2ac-8029f060b621___UF.GRC_YLCV_Lab 01804.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Extreme chlorosis and upward leaf cupping with crinkled texture indicate yellow leaf curl viral infection.",
+    "generated": "A leaf is laying on the ground. The leaf is bright green. The leaves are large and leafy. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "6b30245b-6c88-4cdb-b170-96bcba1212c4___UF.GRC_BS_Lab Leaf 8765.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Dark necrotic spots with yellow borders and irregular margins are characteristic of bacterial spot on this Tomato leaf.",
+    "generated": "There is a leaf on the ground. The leaf is bright green. There are small black spots on the leaf. The leaves are on a gray surface.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "07dfb451-4378-49d1-b699-33a5fc49ff07___RS_HL 5399.JPG",
+    "class": "Potato___healthy",
+    "reference": "Plant: Potato. Condition: Healthy. Severity: None. Pathogen: None. Uniform green coloration and absence of any lesions, spots, or discoloration confirm this Potato leaf is in a healthy condition.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "ee3205cd-bafb-416b-b560-caef5586b96c___JR_Sept.L.S 2540.JPG",
+    "class": "Tomato_Septoria_leaf_spot",
+    "reference": "Plant: Tomato. Condition: Septoria Leaf Spot. Severity: Moderate. Pathogen: Septoria lycopersici. Small circular spots with dark brown borders, lighter tan centers, and tiny black pycnidia dots are scattered across the leaf.",
+    "generated": "There is a large green leaf on the ground. There are small yellow spots on the top of the leaf. The ground under the leaf is gray.",
+    "true_condition": "Septoria Leaf Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "ad05c94b-3432-4776-99ff-a5735e52cf7a___Crnl_L.Mold 7162.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. Irregular pale green to yellow patches on the upper leaf and densely sporulating olive mold on the lower surface.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground is gray. There is a shadow on the floor.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "4999cf5b-f352-4a35-bf69-be772073b916___Com.G_SpM_FL 9485.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. The leaf surface displays pale stippling and slight bronzing consistent with moderate to heavy spider mite damage.",
+    "generated": "A single leaf is laying on the ground. The leaf is green and has some brown spots on it. The ground is a light purple color.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "ae5b08fa-25b7-4006-8b1b-2415356b3847___RS_LB 5453.JPG",
+    "class": "Potato___Late_blight",
+    "reference": "Plant: Potato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Progressive dark lesions with pale halos and wilted tissue edges show moderate to severe late blight progression.",
+    "generated": "There is a large leaf on the ground. There is dirt on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "3c8199f8-aa54-47f8-9d70-1bf6cdd2e97b___Com.G_SpM_FL 9277.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Extensive stippling creates a silvery mottled pattern across the Tomato leaf from sustained spider mite feeding.",
+    "generated": "A single green leaf is on the ground. The leaf has a thin green stem. The ground is a light purple color. There are small white specks on the leaf.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "d150fcab-c23c-4dd3-869f-961d3104d850___GCREC_Bact.Sp 3194.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. The leaf displays numerous irregular brown spots surrounded by yellow margins, consistent with Xanthomonas infection.",
+    "generated": "A leaf is laying on the ground. The leaf is green. There are small brown spots on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "6bf84091-27ed-4be6-9ee1-f031e02ed719___GCREC_Bact.Sp 6343.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Angular vein-delimited lesions with dark centers and chlorotic halos distributed across this infected Tomato leaf.",
+    "generated": "The image is of a leaf on a gray surface. The leaf is yellow and green. There are small black specks on the leaf. The leaves appear to be wet.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "500ac3b7-1e92-4cd1-8c80-9e5270cf02d4___GCREC_Bact.Sp 6210.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Scattered dark brown spots with yellow surrounding tissue and irregular shapes cover portions of this Tomato leaf.",
+    "generated": "There is a leaf on the ground. The leaf is green and yellow. There are small black spots on the leaf. The ground is gray.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "0ff32a4f-e1d2-4ab4-98ae-41ef143c56b1___Com.G_TgS_FL 1084.JPG",
+    "class": "Tomato__Target_Spot",
+    "reference": "Plant: Tomato. Condition: Target Spot. Severity: Moderate. Pathogen: Corynespora cassiicola. Characteristic ringed lesions resembling a target with brown bands and yellow halos cover portions of this leaf.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Target Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "bc54f201-4a3b-446f-af60-ea26285893c8___UF.GRC_BS_Lab Leaf 8951.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Angular vein-delimited lesions with dark centers and chlorotic halos distributed across this infected Tomato leaf.",
+    "generated": "There is a leaf on the ground. The leaf is bright green. There are small black spots on the leaf. The ground is gray. There is a shadow on the gray ground.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "0d55ad70-9d84-46ef-a515-1291d27997ac___YLCV_GCREC 5242.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). The leaf shows severe yellowing and upward curling with reduced size from TYLCV infection.",
+    "generated": "A large green leafy vegetable is laying on the ground. There is a shadow of the vegetable on the floor behind it. The ground under the vegetable is gray.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "7a31833f-807e-4c54-951f-3c8c1d5b78d7___GHLB2 Leaf 8939.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. The leaf shows large water-soaked lesions with dark brown necrotic centers and pale green halos, indicating rapid tissue collapse.",
+    "generated": "There is a piece of food on the ground. The ground is gray. The food looks like lettuce. The lettuce is green. There is a little bit of dirt on the side of the leaf. The leaf is wrinkled. There are small cracks on the leaf as well. The leaves look dirty. The surface of the ground is smooth. The sun is shining on the leaves.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "ce3f895d-e031-4ed9-ac40-7f6550894bff___GHLB_PS Leaf 52.1 Day 18.jpg",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Dark irregular greasy blotches with water-soaked margins are spreading across the leaf surface.",
+    "generated": "This is an image of a leaf. The leaf is large and green. The leaves are large and leafy. There is a dark background behind the leaf.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "89d1eade-c42d-410d-a9c3-d37ad7bb60c6___RS_HL 9679.JPG",
+    "class": "Tomato_healthy",
+    "reference": "Plant: Tomato. Condition: Healthy. Severity: None. Pathogen: None. Uniform green coloration and absence of any lesions, spots, or discoloration confirm this Tomato leaf is in a healthy condition.",
+    "generated": "There is a leaf on the ground. The leaf is casting a shadow on it. The leaves are green. The ground is gray. The shadow is black. There is a shadow under the leaf. There are lines on the leaves.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "07d7ad48-0740-4cf5-9a26-91fd9296d6b3___RS_Late.B 5464.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Significant necrotic patches with pale chlorotic borders dominate the leaf; white sporulation may be visible on the underside.",
+    "generated": "There is a moth on the ground. The moth has green wings. There is a brown piece of paper next to the moth. The ground under the moth is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "6c9b50d5-1210-471c-8b4d-deb3f24a9209___Com.G_TgS_FL 8116.JPG",
+    "class": "Tomato__Target_Spot",
+    "reference": "Plant: Tomato. Condition: Target Spot. Severity: Moderate. Pathogen: Corynespora cassiicola. Brown circular lesions with concentric rings and yellow surrounding tissue form a distinct target pattern on the leaf.",
+    "generated": "There is a leaf on the ground. The leaf is large and green. There are small holes in the center of the leaf. The ground is gray. There is a shadow on the floor. The shadow is black. The leaves have a thin stem on the bottom. The stem is a light green color. The sun is shining on the leaves.",
+    "true_condition": "Target Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "a87fefe4-6f62-46e2-90b9-273ba9997ed1___JR_HL 8292.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. Healthy leaf tissue is indicated by consistent green pigmentation and a smooth surface with no necrotic or chlorotic areas visible.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a shadow on the wall behind the leaf. The wall is gray in color.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "f2b739b9-a463-4ee1-96bf-b5cfe6acb66d___JR_HL 5844.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. No disease symptoms are visible. Normal healthy growth is indicated by even green color and intact, undamaged leaf structure.",
+    "generated": "A leaf is laying on the ground. The leaf is green and has a few small holes in it. The ground under the leaf is white.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "4648b0c8-1c09-4cb9-b0dc-67515432d802___GHLB2ES Leaf 69.3.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Rapidly expanding brown-black lesions with faint green halos and collapsed tissue indicate advanced late blight.",
+    "generated": "This is an image of a leaf. The leaf is large and green. The leaves are wrinkled. The stem of the leaf is dark green. There are small brown spots on the leaf. There is a gray surface under the leaf on the table. The table is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "1120ddb9-d30f-4683-adf6-a30779648b49___GCREC_Bact.Sp 3408.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Multiple dark lesions with a water-soaked greasy appearance and chlorotic halos are distributed across this Tomato leaf.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small brown spots on the leaf. There is a small yellow patch on the bottom of the leaves.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "baf28c1c-ff4a-4245-842f-dafdb5c43826___Com.G_SpM_FL 1650.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. The Tomato leaf shows chlorotic stippling and bronzing from Tetranychus urticae feeding across the leaf surface.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "ffb50767-1893-4379-ba42-8af6d8030057___Com.G_SpM_FL 8854.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. The upper leaf surface appears pale and stippled with yellow dots while fine silk webbing may be present beneath.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. The shadow is black. The leaves are big and leafy.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "c933f19c-7b00-4dca-b2c4-94d3b9212f92___GHLB2 Leaf 8985.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Irregular black-brown lesions spreading inward from the leaf margins typify P. infestans infection.",
+    "generated": "There is a small piece of food on the ground. The ground is gray. The food looks like it has been eaten by a person. There is a lot of dirt on the side of the food.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "58e1f4fa-eb41-4224-a915-fa5fc4cafd7c___Com.G_SpM_FL 1207.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Diffuse yellow speckling and a dusty bronzed appearance across the leaf indicate significant spider mite infestation.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. There are small black spots on the leaves.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "90391022-d47a-49fa-a95b-48612ec23288___YLCV_NREC 2509.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Leaf margins curl upward severely with chlorotic discoloration and distorted crinkled surface from viral infection.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. There are small black lines on the leaves.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "c8a729fb-fd3d-44b1-8a70-c492cfc6d09f___Com.G_SpM_FL 1158.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Heavy stippling producing a sand-blasted appearance on the leaf upper surface indicates severe T. urticae infestation.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. The shadow is black. There are small holes in the leaves. The leaves have a stem on it. The stem is a light green color.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "16b806ef-3637-4c15-ae52-4f433cb4d433___Crnl_L.Mold 6865.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. The leaf displays yellow irregular spots on top and velvety dark sporulation beneath, consistent with leaf mold disease.",
+    "generated": "There is a leaf on the ground. The leaf is dark green. There are small brown spots on the leaf. The ground is gray. There is a shadow on the top of the leaves.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "fe079adb-1a16-4c71-822d-bbb25a21314f___JR_B.Spot 3276.JPG",
+    "class": "Pepper__bell___Bacterial_spot",
+    "reference": "Plant: Pepper bell. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Multiple small angular lesions with dark centers and chlorotic margins indicate bacterial spot infection on this leaf.",
+    "generated": "There is a large green leaf on the ground. There are small brown spots on the top of the leaf. There is a white wall behind the leaf on it.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "fd192f6d-f764-43aa-8ab9-9c1578d55200___JR_Sept.L.S 8466.JPG",
+    "class": "Tomato_Septoria_leaf_spot",
+    "reference": "Plant: Tomato. Condition: Septoria Leaf Spot. Severity: Moderate. Pathogen: Septoria lycopersici. Circular spots with very dark margins, pale tan centers, and prominent pycnidia densely distributed across the Tomato leaf.",
+    "generated": "A leaf is laying on the ground. The leaf is green and has some brown spots on it. There is a shadow under the leaf.",
+    "true_condition": "Septoria Leaf Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "1812a48c-9d53-464d-ab42-2089895036ab___UF.GRC_YLCV_Lab 01984.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Uniformly yellowed leaf with strongly upward-curled margins and reduced leaf size from begomovirus TYLCV.",
+    "generated": "This is an image of a piece of cloth. The cloth is bright green. There are small black lines on the cloth. There is a dark gray background behind the cloth or cloth.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "6bda3c80-915c-4dcc-ae83-2829b6edb41b___UF.GRC_YLCV_Lab 02313.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Entire leaf shows interveinal yellowing and strong inward rolling of the margin from systemic TYLCV infection.",
+    "generated": "This is an image of a leaf. The leaf is green. The leaves are large and leafy. The stem of the leaf is dark green. There is a black tip at the bottom of the leaves. The background of the image is gray. The image is blurry. There are small black lines on the leaf.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "5a6ed509-461a-4ad4-bf52-fe967df0fc09___JR_HL 8598.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. The leaf displays uniform vibrant green coloration with no visible lesions, spots, discoloration, or any signs of disease or stress.",
+    "generated": "There is a large green leaf on the ground. The ground is gray. There is a small line in the middle of the leaf.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "31290247-3f4f-445d-8bad-20d7dccbf979___RS_Early.B 7019.JPG",
+    "class": "Potato___Early_blight",
+    "reference": "Plant: Potato. Condition: Early Blight. Severity: Mild to Moderate. Pathogen: Alternaria solani. Dark brown lesions with concentric banding and yellow margins characterize this early blight infection on the Potato leaf.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are brown spots on the leaf. There is a gray wall behind the leaf on it.",
+    "true_condition": "Early Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "eac1d76c-1faf-4abb-b3f6-a4b2fff350d2___JR_B.Spot 3119.JPG",
+    "class": "Pepper__bell___Bacterial_spot",
+    "reference": "Plant: Pepper bell. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. The leaf shows small raised dark lesions with water-soaked centers and chlorotic halos caused by Xanthomonas infection.",
+    "generated": "There is a large leaf on the ground. The leaf is yellow. There are small black spots on the leaf. The ground is purple. There is a black tip on the tip of the leaves.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "41b94c99-7063-42dc-9ce7-22ff087317e9___JR_HL 7696.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. Uniform green coloration and absence of any lesions, spots, or discoloration confirm this Pepper bell leaf is in a healthy condition.",
+    "generated": "There is a large leaf on the ground. The leaf is green and has a thin leaf on it. There is a gray surface under the leaf.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "bd7932fa-8fda-4370-baaf-c3b7cef2ac13___JR_Sept.L.S 2572.JPG",
+    "class": "Tomato_Septoria_leaf_spot",
+    "reference": "Plant: Tomato. Condition: Septoria Leaf Spot. Severity: Moderate. Pathogen: Septoria lycopersici. Characteristic septoria spots appear as small circles with dark brown margins and gray centers dotted with pycnidia.",
+    "generated": "A green leaf is laying on the ground. There are small brown spots on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Septoria Leaf Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "b0fc7984-f1bf-4d50-b495-0a363445158f___UF.GRC_BS_Lab Leaf 9102.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Angular vein-delimited lesions with dark centers and chlorotic halos distributed across this infected Tomato leaf.",
+    "generated": "The image is of a butterfly. The butterfly is green with yellow specks on it. The wings of the butterfly are a darker shade of green. There are small black holes in the center of the leaf. The background of the image is a light gray color.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "b9b67eab-9463-495d-88c2-cfad41c15848___Com.G_TgS_FL 0885.JPG",
+    "class": "Tomato__Target_Spot",
+    "reference": "Plant: Tomato. Condition: Target Spot. Severity: Moderate. Pathogen: Corynespora cassiicola. Concentric ring lesions with dry brown interiors and chlorotic halos scattered across this Tomato leaf indicate Corynespora infection.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small holes in the leaf. The ground under the leaf is gray.",
+    "true_condition": "Target Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "5553c138-0dd3-440b-b6b7-06847298450e___Com.G_TgS_FL 0977.JPG",
+    "class": "Tomato__Target_Spot",
+    "reference": "Plant: Tomato. Condition: Target Spot. Severity: Moderate. Pathogen: Corynespora cassiicola. Multiple ringed lesions with dark centers and lighter concentric zones surrounded by chlorosis indicate target spot.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. The shadow is black. There are small white dots on the leaves. The leaves have small cracks on them. The tip of the leaf has a small yellow line on it.",
+    "true_condition": "Target Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "a91408f9-9d46-4f96-b020-06690c45eaef___Com.G_TgS_FL 9824.JPG",
+    "class": "Tomato__Target_Spot",
+    "reference": "Plant: Tomato. Condition: Target Spot. Severity: Moderate. Pathogen: Corynespora cassiicola. Concentric ring lesions with dry brown interiors and chlorotic halos scattered across this Tomato leaf indicate Corynespora infection.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a small yellow patch on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Target Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "4541dd58-9728-4492-8729-f4f174d774ac___Crnl_L.Mold 8992.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. The leaf shows chlorotic patches above with a distinctive olive-colored mold coating beneath, indicating Passalora leaf mold.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground under the leaf is a light blue color.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "98efaa2d-7587-48e8-8c19-4f7483e395cb___RS_Early.B 6982.JPG",
+    "class": "Potato___Early_blight",
+    "reference": "Plant: Potato. Condition: Early Blight. Severity: Mild to Moderate. Pathogen: Alternaria solani. Angular to circular lesions with target-like ring patterns and yellowing surrounding tissue indicate Alternaria infection.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small brown bugs on the leaf. There is a shadow under the leaf on a gray surface.",
+    "true_condition": "Early Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "2d3f0833-4493-456b-a333-610ec35c92d0___JR_Sept.L.S 2705.JPG",
+    "class": "Tomato_Septoria_leaf_spot",
+    "reference": "Plant: Tomato. Condition: Septoria Leaf Spot. Severity: Moderate. Pathogen: Septoria lycopersici. Multiple circular spots with pycnidia at their centers are spread across the leaf, consistent with Septoria lycopersici.",
+    "generated": "A leaf is laying on the ground. The leaf is dark green. There is dirt on the leaf. The ground is gray. The shadow of the leaf is black.",
+    "true_condition": "Septoria Leaf Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "1dd207c1-1fbe-454a-b63f-8051bb26aea8___Com.G_SpM_FL 1161.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Thousands of tiny puncture marks cause a speckled yellow-bronze discoloration across the upper leaf surface.",
+    "generated": "A single green leaf is laying on the ground. The ground is gray. The leaf has small green spots on it. There is a shadow under the leaf.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "7b5a2c96-f276-477a-8e7e-3325b02719a7___RS_LB 4613.JPG",
+    "class": "Potato___Late_blight",
+    "reference": "Plant: Potato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Large coalescing dark patches with pale to yellow borders indicate severe Phytophthora infection.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a small brown patch on the top of the leaf. The ground is gray. There are small black spots on the leaves.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "79fa18a3-cf77-4211-b105-893ea4eb7498___UF.GRC_YLCV_Lab 02978.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Extreme chlorosis and upward leaf cupping with crinkled texture indicate yellow leaf curl viral infection.",
+    "generated": "There is a small green leaf on the ground. The ground is gray. The leaf has small white lines on it. There is a shadow under the leaf.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "71048e39-6d6e-4381-9113-f2b4bd71ab93___Com.G_SpM_FL 8749.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Thousands of tiny puncture marks cause a speckled yellow-bronze discoloration across the upper leaf surface.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. The shadow is black.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "01cc37b3-ab08-44bc-be70-7f14b610f011___UF.GRC_YLCV_Lab 09617.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Strong upward leaf rolling with intense yellowing and stunted growth characterize this TYLCV infection.",
+    "generated": "This is an image of a plant. The plant is a leafy vegetable. The leaf is green. The stem is long and thin. The leaves are a light green color. There is a shadow on the ground. The ground is gray. The shadow is black. There are lines on the leaves. The lines are dark gray.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "5570ebc8-d307-41c8-8320-65b641bab13c___YLCV_GCREC 2251.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Leaf margins curl upward severely with chlorotic discoloration and distorted crinkled surface from viral infection.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "1d466431-007d-4b3b-bd45-b09f1a6f7bad___RS_Early.B 8932.JPG",
+    "class": "Potato___Early_blight",
+    "reference": "Plant: Potato. Condition: Early Blight. Severity: Mild to Moderate. Pathogen: Alternaria solani. Target-shaped dark brown spots with concentric rings and yellow halos are scattered across the Potato leaf surface.",
+    "generated": "There is a large leaf on the ground. The leaf is green and brown. There are small holes in the leaf. The ground under the leaf is gray.",
+    "true_condition": "Early Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "88614302-e6d2-4327-a4fb-a3db9c9ea72e___YLCV_NREC 2861.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Severe chlorosis combined with upward leaf curling and reduced blade size visible on this infected leaf.",
+    "generated": "There is a small green leaf on the ground. The ground is a light gray color. The leaf has a few small holes in it.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "cc4dfd3c-fca5-43ce-8532-dc78020d9f62___Crnl_L.Mold 9156.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. The leaf displays yellow irregular spots on top and velvety dark sporulation beneath, consistent with leaf mold disease.",
+    "generated": "A leaf is laying on a purple surface. The leaf is green and has some brown spots on it. The surface under the leaf is a light purple color.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "d437fbb3-cfb7-4a81-b6b7-36bca6748f02___GCREC_Bact.Sp 3454.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Small to medium raised lesions with dark necrotic cores and yellow halos indicate moderate Xanthomonas infection.",
+    "generated": "There is a leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground is a light gray color.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "2e8198eb-5d36-4eae-9ec7-43a28e394079___YLCV_GCREC 5285.JPG",
+    "class": "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "reference": "Plant: Tomato. Condition: Yellow Leaf Curl Virus. Severity: Severe. Pathogen: Tomato Yellow Leaf Curl Virus (TYLCV). Uniformly yellowed leaf with strongly upward-curled margins and reduced leaf size from begomovirus TYLCV.",
+    "generated": "There is a small green leaf on the ground. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Yellow Leaf Curl Virus",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "79c394e7-b18a-4f3a-afbb-6d41bdf55660___GCREC_Bact.Sp 3062.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Small water-soaked lesions have turned dark brown with distinct yellow halos scattered irregularly across the leaf surface.",
+    "generated": "A leaf is laying on the ground. The leaf is green. There are small brown spots on the leaf. The ground is gray. There is dirt on the leaves.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "824cf247-344d-446f-9f9c-09d24a0da04c___Com.G_TgS_FL 9735.JPG",
+    "class": "Tomato__Target_Spot",
+    "reference": "Plant: Tomato. Condition: Target Spot. Severity: Moderate. Pathogen: Corynespora cassiicola. Characteristic ringed lesions resembling a target with brown bands and yellow halos cover portions of this leaf.",
+    "generated": "There is a large leaf on the ground. The leaf is dark green. There are small black spots on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Target Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "902b00e9-f2b1-45e3-bd13-4f4428fd0833___Com.G_TgS_FL 0871.JPG",
+    "class": "Tomato__Target_Spot",
+    "reference": "Plant: Tomato. Condition: Target Spot. Severity: Moderate. Pathogen: Corynespora cassiicola. Brown circular lesions with concentric rings and yellow surrounding tissue form a distinct target pattern on the leaf.",
+    "generated": "There is a large leaf on the ground. The leaf is dark green. There are small holes in the leaf. The ground under the leaf is gray.",
+    "true_condition": "Target Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "2d135819-8bf4-4d5a-a503-c184ed800d0c___GCREC_Bact.Sp 6015.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. The leaf shows small raised dark lesions with water-soaked centers and chlorotic halos caused by Xanthomonas infection.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "4d6e773b-af80-461b-b682-962579767e6b___Com.G_TgS_FL 8210.JPG",
+    "class": "Tomato__Target_Spot",
+    "reference": "Plant: Tomato. Condition: Target Spot. Severity: Moderate. Pathogen: Corynespora cassiicola. Circular brown spots with concentric lighter zones and chlorotic halos are scattered on this leaf surface.",
+    "generated": "A leaf is laying on the ground. The leaf is large and green. There are small brown spots on the leaf. The ground is gray.",
+    "true_condition": "Target Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "c6583f61-77e9-4417-aed3-44198e567580___Crnl_L.Mold 8947.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. Upper leaf surface shows faint yellowing while the underside displays characteristic olive-green mold growth from Passalora fulva.",
+    "generated": "There is a green leaf on the ground. The ground is a light blue color. There is a small bud under the leaf.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "74d51dd6-7990-4d3a-95c6-5d67fac5cdad___RS_LB 2578.JPG",
+    "class": "Potato___Late_blight",
+    "reference": "Plant: Potato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Progressive dark lesions with pale halos and wilted tissue edges show moderate to severe late blight progression.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a small brown patch on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "90e48fa5-fa6d-4408-84db-cc5a53315b1f___JR_HL 7902.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. No disease symptoms are visible. Normal healthy growth is indicated by even green color and intact, undamaged leaf structure.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "d6f59cb7-f433-4a67-ba8a-44379a2f889f___Com.G_SpM_FL 1365.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Uniform bronzed stippling from mite punctures spread across the blade with chlorotic speckles and slight crinkling.",
+    "generated": "The image is of a green leaf on a gray surface. The leaf is wrinkled and has a few small spots on it. There is a shadow of the leaf on the surface behind the leaf.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "e435f5af-a994-46b5-a5c8-d721dd1788f8___RS_HL 0100.JPG",
+    "class": "Tomato_healthy",
+    "reference": "Plant: Tomato. Condition: Healthy. Severity: None. Pathogen: None. The Tomato leaf is in optimal health showing deep green color, no discoloration, and complete absence of disease indicators.",
+    "generated": "There is a leaf on the ground. The leaf is green. The leaves are big and leafy. The shadow of the leaf is visible on the left side of the image. The ground is a light gray color.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "9e979a65-61bf-4d07-a444-7c22ae1a58b1___RS_LB 4886.JPG",
+    "class": "Potato___Late_blight",
+    "reference": "Plant: Potato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Dark irregular greasy blotches with water-soaked margins are spreading across the leaf surface.",
+    "generated": "A leaf is laying on the ground. The leaf is green and has some brown spots on it. There is a black tip on the top of the leaf.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "f42d69f6-2f43-4f5f-9363-a8c8d3264336___Com.G_TgS_FL 7988.JPG",
+    "class": "Tomato__Target_Spot",
+    "reference": "Plant: Tomato. Condition: Target Spot. Severity: Moderate. Pathogen: Corynespora cassiicola. Circular brown spots with concentric lighter zones and chlorotic halos are scattered on this leaf surface.",
+    "generated": "A large leaf is laying on the ground. There is a shadow behind the leaf. The leaf is large and green.",
+    "true_condition": "Target Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "8579043f-4082-47cc-80d4-a6fd37ebc9af___Matt.S_CG 6003.JPG",
+    "class": "Tomato_Septoria_leaf_spot",
+    "reference": "Plant: Tomato. Condition: Septoria Leaf Spot. Severity: Moderate. Pathogen: Septoria lycopersici. Abundant small lesions with sooty black pycnidia embedded in tan interiors and dark raised margins cover the leaf.",
+    "generated": "The image is of a leaf on a gray surface. The leaf is green and has small brown spots on it. The surface under the leaf is a light gray color.",
+    "true_condition": "Septoria Leaf Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "98a806fd-2839-4069-b40b-08522c34ccdc___RS_LB 3032.JPG",
+    "class": "Potato___Late_blight",
+    "reference": "Plant: Potato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Significant necrotic patches with pale chlorotic borders dominate the leaf; white sporulation may be visible on the underside.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is dirt on the top of the leaf. The ground under the leaf is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "ce5152ad-92fb-4187-80f6-eef2524bf131___GCREC_Bact.Sp 3432.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. The Tomato leaf exhibits irregularly shaped dark spots with greasy margins and surrounding yellowing from bacterial infection.",
+    "generated": "The image is of a leaf. The leaf is shaped like a triangle. The leaves are green with brown spots on it. The tips of the leaf are sharp. The background of the image is gray.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "bf97c963-b3cd-480a-be10-b8b2c539973f___Crnl_L.Mold 6982.JPG",
+    "class": "Tomato_Leaf_Mold",
+    "reference": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. Pathogen: Passalora fulva. Pale yellow patches visible from above and dense fungal sporulation beneath indicate moderate leaf mold infection.",
+    "generated": "A leaf is laying on the ground. The leaf is large and green. There are small holes in the ground around the leaf. The ground under the leaf is gray.",
+    "true_condition": "Leaf Mold",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "7fa16659-42cf-4bac-b0fc-41162212f6a9___GHLB2 Leaf 8620.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Dark necrotic regions with a greasy sheen and indistinct margins are spreading rapidly across this diseased Tomato leaf.",
+    "generated": "The image is of a leaf on a gray surface. The leaf appears to have been cut in half. The leaves are a dark green color. The surface is a light gray color.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "36650fc3-00a3-42b2-b016-8692046c5199___RS_Late.B 5107.JPG",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Large coalescing dark patches with pale to yellow borders indicate severe Phytophthora infection.",
+    "generated": "A cat is sitting on top of a leaf. The leaf is green. The cat is brown and black. There is a shadow under the leaf on the ground.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "f9c0c883-e492-417c-94ac-f57bd6db1b78___JR_HL 8480.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. The leaf surface is clean and uniformly green with no visible fungal growth, bacterial lesions, or viral symptoms present.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a shadow next to the leaf. The ground under the leaf is gray.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "62b151e8-3ff6-444f-aa56-af06e198d9ed___GCREC_Bact.Sp 5971.JPG",
+    "class": "Tomato_Bacterial_spot",
+    "reference": "Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe. Pathogen: Xanthomonas spp. Multiple small angular lesions with dark centers and chlorotic margins indicate bacterial spot infection on this leaf.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground is gray. There is a small patch on the tip of the leaves.",
+    "true_condition": "Bacterial Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "7dfb162c-0384-46b3-bbf7-f0929bd00921___RS_LB 5235.JPG",
+    "class": "Potato___Late_blight",
+    "reference": "Plant: Potato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. The leaf shows irregular water-soaked to necrotic lesions with a characteristic oil-stained appearance from late blight.",
+    "generated": "A leaf is laying on a gray surface. The leaf is large and green. There is a yellow line on the leaf.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "f60cdc34-0ab9-4551-ac24-e9e0d5affd6a___JR_HL 7931.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. The Pepper bell leaf shows excellent health with rich green coloration, no spots or lesions, and normal leaf morphology throughout.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. The shadow is black. The leaves are big and leafy. There are no other objects in the picture. The picture was taken in the day time. The day is sunny. The sun is shining on the leaves.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "69d1a3dc-54cd-4917-99b7-a315d7932edf___GH_HL Leaf 347.1.JPG",
+    "class": "Tomato_healthy",
+    "reference": "Plant: Tomato. Condition: Healthy. Severity: None. Pathogen: None. The leaf surface is clean and uniformly green with no visible fungal growth, bacterial lesions, or viral symptoms present.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There is a small patch of dirt on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "673bfa4d-54b5-4fee-86d3-1ada11adca40___Com.G_SpM_FL 9498.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. The leaf surface displays pale stippling and slight bronzing consistent with moderate to heavy spider mite damage.",
+    "generated": "There is a single leaf on the ground. The leaf is green. There are small specks on the leaf. The ground is a light gray color.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "069e7256-c9ac-4544-a89c-54a1ebf4ed23___Matt.S_CG 2434.JPG",
+    "class": "Tomato_Septoria_leaf_spot",
+    "reference": "Plant: Tomato. Condition: Septoria Leaf Spot. Severity: Moderate. Pathogen: Septoria lycopersici. Abundant small lesions with sooty black pycnidia embedded in tan interiors and dark raised margins cover the leaf.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground is gray. There is a shadow on the floor.",
+    "true_condition": "Septoria Leaf Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "b68b50e0-52b1-4ba0-98df-8080ffaf3a70___GHLB_PS Leaf 26 Day 16.jpg",
+    "class": "Tomato_Late_blight",
+    "reference": "Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Dark necrotic regions with a greasy sheen and indistinct margins are spreading rapidly across this diseased Tomato leaf.",
+    "generated": "This is an image of a plant. The plant has large green leaves. The leaves are wrinkled. The background of the image is black.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "486a0017-35ff-4326-9f2a-f33edc9fc31c___Com.G_SpM_FL 8426.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Uniform bronzed stippling from mite punctures spread across the blade with chlorotic speckles and slight crinkling.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a shadow under the leaf. The ground is gray. The shadow is black. There are small specks on the leaves.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "bc622d59-72a1-4220-b75d-b91651d8b53d___Com.G_SpM_FL 9411.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Diffuse yellow speckling and a dusty bronzed appearance across the leaf indicate significant spider mite infestation.",
+    "generated": "A single leaf is laying on the ground. The leaf is green. The ground under the leaf is gray. There is a shadow on the right side of the leaf.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "ca892e94-6f92-4676-bf0c-a81ee6eb8997___JR_HL 5827.JPG",
+    "class": "Pepper__bell___healthy",
+    "reference": "Plant: Pepper bell. Condition: Healthy. Severity: None. Pathogen: None. The leaf surface is clean and uniformly green with no visible fungal growth, bacterial lesions, or viral symptoms present.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is a small hole in the middle of the leaf. The leaves are on a white surface.",
+    "true_condition": "Healthy",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "5caecfc6-8e1d-401b-8014-763dec01cb98___RS_Early.B 8063.JPG",
+    "class": "Potato___Early_blight",
+    "reference": "Plant: Potato. Condition: Early Blight. Severity: Mild to Moderate. Pathogen: Alternaria solani. Bull-eye patterned lesions with dark centers and lighter concentric bands surrounded by yellowing tissue indicate Alternaria early blight.",
+    "generated": "There is a leaf on the ground. The leaf is green and brown. There are small brown spots on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Early Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "a5aabda7-209a-4e1e-966c-de2a1ccc7869___RS_LB 5046.JPG",
+    "class": "Potato___Late_blight",
+    "reference": "Plant: Potato. Condition: Late Blight. Severity: Moderate to Severe. Pathogen: Phytophthora infestans. Dark irregular greasy blotches with water-soaked margins are spreading across the leaf surface.",
+    "generated": "A leaf is laying on the ground. The leaf is green. There are small brown spots on the leaf. The ground under the leaf is gray.",
+    "true_condition": "Late Blight",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "867fb710-fcd0-407b-ae58-1f04eb1db822___JR_Sept.L.S 2535.JPG",
+    "class": "Tomato_Septoria_leaf_spot",
+    "reference": "Plant: Tomato. Condition: Septoria Leaf Spot. Severity: Moderate. Pathogen: Septoria lycopersici. Round lesions with dark brown edges and grayish centers with visible black pycnidia spread across this leaf.",
+    "generated": "There is a large leaf on the ground. The leaf is green. There are small brown spots on the leaf. The ground is gray. There is a shadow of the leaf on to the right.",
+    "true_condition": "Septoria Leaf Spot",
+    "pred_condition": "Unknown"
+  },
+  {
+    "image": "b4a5b3a6-b725-425a-a695-4507de7fd09a___Com.G_SpM_FL 1722.JPG",
+    "class": "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "reference": "Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate. Pathogen: Tetranychus urticae. Heavy stippling producing a sand-blasted appearance on the leaf upper surface indicates severe T. urticae infestation.",
+    "generated": "There is a leaf on the ground. The leaf is green. There is dirt on the leaf. The ground under the leaf is gray. There are shadows in the ground next to the leaves.",
+    "true_condition": "Spider Mite Damage",
+    "pred_condition": "Unknown"
+  }
+]

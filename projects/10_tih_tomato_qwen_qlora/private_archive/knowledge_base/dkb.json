@@ -1,0 +1,2122 @@
+{
+  "metadata": {
+    "project": "PlantDx",
+    "artifact": "Disease Knowledge Base (DKB)",
+    "version": "2.0",
+    "compiled": "2026-08-12",
+    "role": "single source of truth for caption generation, caption validation, instruction-dataset construction, fine-tuning, evaluation, and paper",
+    "provenance": "Rebuilt from the original PlantDx DKB for the new tomato-only dataset. Scientific descriptions are curated from authoritative plant-pathology and extension sources. Contains no image analysis, synthetic labels, or VLM-generated content.",
+    "observability_constraint": "Captions must describe ONLY features visibly present in the image. This dataset contains both leaf and fruit classes, so the constraint is image-grounded rather than leaf-only. Do not infer unseen organs, symptoms, severity, causal agents, vector transmission, internal tissue damage, yield effects, or management outcomes.",
+    "pest_vs_pathogen_note": "Aphid, Fruit Borer, Leaf Miner, Mealy Bugs, and White Fly are pest classes. Use feeding/mechanical-damage vocabulary rather than infection/pathogen/lesion vocabulary. Leaf_Curl is a visual phenotype and must not automatically be mapped to a specific virus.",
+    "datasets": {
+      "tomato": {
+        "name": "Tomato_12thAug26",
+        "classes": 11,
+        "class_labels": [
+          "Aphid",
+          "Early_Blight_Fruit",
+          "Fruit_Borer",
+          "Healthy_Fruit",
+          "Healthy_Leaf",
+          "Late_Blight",
+          "Leaf_Curl",
+          "Leaf_Miner",
+          "Mealy_Bugs",
+          "Target_Leaf_Spot",
+          "White_Fly"
+        ]
+      }
+    },
+    "target_models": [
+      "Qwen3-VL-8B-Instruct",
+      "Qwen2.5-VL-7B-Instruct",
+      "InternVL3-8B",
+      "Gemma-3-12B"
+    ],
+    "documented_taxonomic_disagreements": [
+      "Early blight is associated with closely related Alternaria taxa; the dataset class remains disease-level.",
+      "Target spot is retained at the dataset disease level and is not over-resolved beyond the class label.",
+      "Leaf_Curl is intentionally treated as a visual phenotype rather than automatically assigned to TYLCV.",
+      "Pest classes represent visible infestation or feeding damage rather than pathogen disease.",
+      "Fruit Borer is documented with Helicoverpa armigera as the principal Indian tomato reference, but the image class itself does not prove species identity."
+    ],
+    "reference_registry": {
+      "UCIPM-Tomato": {
+        "citation": "UC Statewide IPM Program (UC ANR). Pest Management Guidelines: Tomato.",
+        "url": "https://ipm.ucanr.edu/agriculture/tomato/"
+      },
+      "UCIPM-EarlyBlight": {
+        "citation": "UC Statewide IPM Program. Early Blight / Tomato.",
+        "url": "https://ipm.ucanr.edu/agriculture/tomato/early-blight/"
+      },
+      "UCIPM-LateBlight": {
+        "citation": "UC Statewide IPM Program. Late Blight / Tomato.",
+        "url": "https://ipm.ucanr.edu/agriculture/tomato/late-blight/"
+      },
+      "UCIPM-Whiteflies": {
+        "citation": "UC Statewide IPM Program. Whiteflies / Tomato.",
+        "url": "https://ipm.ucanr.edu/agriculture/tomato/whiteflies/"
+      },
+      "UCIPM-Aphids": {
+        "citation": "UC Statewide IPM Program. Potato Aphid / Tomato.",
+        "url": "https://ipm.ucanr.edu/agriculture/tomato/potato-aphid/"
+      },
+      "UFIFAS-PP351": {
+        "citation": "UF/IFAS EDIS. Target Spot of Tomato in Florida, PP351.",
+        "url": "https://edis.ifas.ufl.edu/publication/PP351"
+      },
+      "UMN-EarlyBlight": {
+        "citation": "University of Minnesota Extension. Early blight in tomato and potato.",
+        "url": "https://extension.umn.edu/disease-management/early-blight-tomato-and-potato"
+      },
+      "TNAU-FruitBorer": {
+        "citation": "Tamil Nadu Agricultural University Agritech Portal. Tomato Crop Protection — Fruit Borer.",
+        "url": "https://agritech.tnau.ac.in/crop_protection/tomato/tomato_1.html"
+      },
+      "TNAU-LeafMiner": {
+        "citation": "Tamil Nadu Agricultural University Agritech Portal. Tomato Crop Protection — Serpentine Leaf Miner.",
+        "url": "https://www.agritech.tnau.ac.in/crop_protection/tomato/tomato_2.html"
+      },
+      "TNAU-TomatoPests": {
+        "citation": "Tamil Nadu Agricultural University Agritech Portal. Organic Farming — Tomato Pest Management.",
+        "url": "https://agritech.tnau.ac.in/org_farm/orgfarm_tomato_pest.html"
+      },
+      "APS-CompTomato": {
+        "citation": "Jones J.B., Zitter T.A., Momol M.T., Miller S.A. (eds.). Compendium of Tomato Diseases and Pests, 2nd ed. APS Press.",
+        "url": ""
+      },
+      "Agrios2005": {
+        "citation": "Agrios G.N. Plant Pathology, 5th ed. Elsevier Academic Press.",
+        "url": ""
+      }
+    }
+  },
+  "diseases": [
+    {
+      "id": "tomato_aphid",
+      "crop": "tomato",
+      "dataset": "Tomato_12thAug26",
+      "class_label": "Aphid",
+      "is_pathogen_disease": false,
+      "agent_category": "insect_pest",
+      "disease": "Aphid damage (tomato)",
+      "common_name": "Aphid damage (tomato)",
+      "scientific_name": "Aphididae spp.",
+      "scientific_name_synonyms": [],
+      "taxonomy_note": "Pest category rather than a single resolved species. Do not infer aphid species from the dataset label alone.",
+      "pathogen_type": "Insect pest (Hemiptera: Aphididae)",
+      "pathogen_family": "Aphididae",
+      "host_plant": "Solanum lycopersicum",
+      "environmental_conditions": [
+        "tender/new growth",
+        "warm conditions",
+        "lush nitrogen-rich growth can favor buildup"
+      ],
+      "disease_progression": "Small colonies feed on soft tissue; heavy feeding can cause distortion/curling and yellowing. Honeydew may accumulate and support superficial sooty mold.",
+      "primary_symptoms": [
+        "small soft-bodied pear-shaped aphids when visible",
+        "clustered feeding on tender growth or leaf undersides",
+        "fine feeding-related distortion"
+      ],
+      "secondary_symptoms": [
+        "leaf curling or puckering",
+        "yellowing under heavier feeding",
+        "sticky honeydew or superficial dark coating when visible"
+      ],
+      "leaf_color": [
+        "green",
+        "yellow",
+        "pale",
+        "brown"
+      ],
+      "lesion_morphology": [
+        "NOT pathogen lesions; diffuse feeding injury and/or visible insect colonies"
+      ],
+      "lesion_shape": [
+        "clustered",
+        "diffuse",
+        "irregular"
+      ],
+      "lesion_size": "usually a few millimeters or less; image-dependent",
+      "lesion_distribution": [
+        "young leaves",
+        "shoot tips",
+        "leaf undersides",
+        "around veins"
+      ],
+      "leaf_margin_changes": [
+        "curling/distortion may occur in tender growth"
+      ],
+      "leaf_curling": [
+        "curling or puckering when feeding is heavy"
+      ],
+      "necrosis": [
+        "not characteristic; secondary tissue darkening may occur"
+      ],
+      "chlorosis": [
+        "yellowing may develop with heavy feeding"
+      ],
+      "texture_changes": [
+        "soft-bodied insects",
+        "sticky honeydew when visible",
+        "waxy coating in some aphids"
+      ],
+      "severity_indicators": [
+        "colony density",
+        "extent of distortion",
+        "visible honeydew accumulation"
+      ],
+      "severity": {
+        "mild": [
+          "few aphids or limited feeding"
+        ],
+        "moderate": [
+          "clustered colonies with visible distortion"
+        ],
+        "severe": [
+          "dense colonies with extensive distortion/yellowing"
+        ]
+      },
+      "confused_with": [
+        "whitefly",
+        "mealybugs",
+        "spider mites",
+        "thrips"
+      ],
+      "key_differentiating_features": [
+        "visible aphid colonies",
+        "pear-shaped bodies when resolved",
+        "feeding concentrated on tender growth"
+      ],
+      "diagnostic_visual_features": [
+        "clustered aphids and associated leaf distortion"
+      ],
+      "forbidden_symptoms_not_leaf_observable": [
+        "unseen root/stem/fruit effects",
+        "virus transmission unless independently established",
+        "pathogen lesions"
+      ],
+      "recommended_controlled_vocabulary": [
+        "aphid",
+        "colony",
+        "feeding",
+        "honeydew",
+        "curling",
+        "distortion"
+      ],
+      "recommended_synonyms": [
+        "aphid feeding injury",
+        "aphid colony"
+      ],
+      "recommended_adjectives": [
+        "small",
+        "clustered",
+        "soft-bodied",
+        "green",
+        "pale",
+        "distorted"
+      ],
+      "forbidden_adjectives": [
+        "infected",
+        "pathogen-caused",
+        "confirmed virus"
+      ],
+      "recommended_caption_vocabulary": [
+        "a tomato leaf or shoot with visible aphid colonies and feeding-related distortion"
+      ],
+      "severity_vocabulary": [
+        "few",
+        "scattered",
+        "numerous",
+        "dense"
+      ],
+      "color_vocabulary": [
+        "green",
+        "yellow",
+        "pale",
+        "brown"
+      ],
+      "shape_vocabulary": [
+        "clustered",
+        "irregular",
+        "diffuse"
+      ],
+      "texture_vocabulary": [
+        "soft-bodied",
+        "sticky",
+        "waxy"
+      ],
+      "forbidden_terms": [
+        "infection",
+        "lesion",
+        "pycnidia",
+        "mosaic",
+        "confirmed virus"
+      ],
+      "management_practices": [
+        "routine scouting",
+        "conserve natural enemies",
+        "avoid unnecessary broad-spectrum insecticides"
+      ],
+      "treatment_recommendations": [
+        "Use locally registered aphid-management options only after scouting confirms a damaging population."
+      ],
+      "prevention_recommendations": [
+        "monitor tender growth",
+        "weed/host management",
+        "avoid excessive nitrogen"
+      ],
+      "references": {
+        "recent_research": [],
+        "extension_service": [
+          "UCIPM-Aphids",
+          "UCIPM-Tomato"
+        ],
+        "textbook": [
+          "APS-CompTomato"
+        ]
+      }
+    },
+    {
+      "id": "tomato_early_blight_fruit",
+      "crop": "tomato",
+      "dataset": "Tomato_12thAug26",
+      "class_label": "Early_Blight_Fruit",
+      "is_pathogen_disease": true,
+      "agent_category": "fungus",
+      "disease": "Early Blight (tomato fruit)",
+      "common_name": "Early Blight (tomato fruit)",
+      "scientific_name": "Alternaria solani",
+      "scientific_name_synonyms": [
+        "Alternaria tomatophila",
+        "Alternaria linariae"
+      ],
+      "taxonomy_note": "Early blight is associated with closely related Alternaria taxa; the dataset class remains at disease level.",
+      "pathogen_type": "Fungus",
+      "pathogen_family": "Pleosporaceae",
+      "host_plant": "Tomato and other solanaceous hosts",
+      "environmental_conditions": [
+        "moderate to warm temperatures",
+        "high humidity",
+        "rain/dew or free moisture",
+        "infected crop residue",
+        "plant stress"
+      ],
+      "disease_progression": "Fruit lesions are typically sunken, dry/leathery and dark, often with concentric patterning; early blight can also affect leaves and stems.",
+      "primary_symptoms": [
+        "dark brown to black sunken fruit lesions",
+        "dry or leathery lesion surface",
+        "concentric ridges/ring pattern may be visible",
+        "lesions often near the calyx/stem end"
+      ],
+      "secondary_symptoms": [
+        "lesions enlarge and coalesce",
+        "deeper sunken tissue",
+        "fruit deterioration or drop in advanced disease"
+      ],
+      "leaf_color": [
+        "green",
+        "red",
+        "orange",
+        "brown",
+        "black"
+      ],
+      "lesion_morphology": [
+        "sunken, dry/leathery necrotic fruit tissue",
+        "concentric zonation may be visible"
+      ],
+      "lesion_shape": [
+        "circular",
+        "concentric",
+        "irregular when coalesced"
+      ],
+      "lesion_size": "several millimeters to >1 cm; image-dependent",
+      "lesion_distribution": [
+        "often near calyx/stem end",
+        "may occur on other fruit surfaces"
+      ],
+      "leaf_margin_changes": [
+        "not applicable to fruit surface"
+      ],
+      "leaf_curling": [
+        "not applicable"
+      ],
+      "necrosis": [
+        "dark necrotic tissue"
+      ],
+      "chlorosis": [
+        "not a defining fruit symptom"
+      ],
+      "texture_changes": [
+        "dry",
+        "leathery",
+        "sunken",
+        "cracked when advanced"
+      ],
+      "severity_indicators": [
+        "lesion number",
+        "lesion diameter",
+        "depth",
+        "coalescence"
+      ],
+      "severity": {
+        "mild": [
+          "one or a few small dark spots"
+        ],
+        "moderate": [
+          "enlarging sunken lesions with concentric ridges"
+        ],
+        "severe": [
+          "large coalesced sunken necrotic areas"
+        ]
+      },
+      "confused_with": [
+        "late blight fruit lesions",
+        "black mold",
+        "anthracnose",
+        "sunscald",
+        "mechanical injury"
+      ],
+      "key_differentiating_features": [
+        "dry/leathery sunken lesion",
+        "concentric pattern",
+        "frequent calyx-end location",
+        "less water-soaked than late blight"
+      ],
+      "diagnostic_visual_features": [
+        "sunken dark lesion with dry surface and concentric pattern"
+      ],
+      "forbidden_symptoms_not_leaf_observable": [
+        "unseen leaf symptoms",
+        "unseen stem symptoms",
+        "whole-plant defoliation unless visible"
+      ],
+      "recommended_controlled_vocabulary": [
+        "sunken fruit lesion",
+        "concentric",
+        "leathery",
+        "dark",
+        "calyx-end"
+      ],
+      "recommended_synonyms": [
+        "early blight fruit lesion",
+        "Alternaria fruit spot"
+      ],
+      "recommended_adjectives": [
+        "sunken",
+        "dark",
+        "brown",
+        "leathery",
+        "concentric"
+      ],
+      "forbidden_adjectives": [
+        "water-soaked",
+        "greasy",
+        "powdery",
+        "mosaic",
+        "webbed"
+      ],
+      "recommended_caption_vocabulary": [
+        "a tomato fruit with a dark sunken dry lesion, optionally showing concentric ridges near the calyx"
+      ],
+      "severity_vocabulary": [
+        "small",
+        "enlarging",
+        "coalescing",
+        "extensive"
+      ],
+      "color_vocabulary": [
+        "brown",
+        "dark-brown",
+        "black",
+        "green",
+        "red"
+      ],
+      "shape_vocabulary": [
+        "circular",
+        "concentric",
+        "irregular"
+      ],
+      "texture_vocabulary": [
+        "dry",
+        "leathery",
+        "sunken",
+        "cracked"
+      ],
+      "forbidden_terms": [
+        "water-soaked",
+        "greasy",
+        "webbing",
+        "mosaic",
+        "pycnidia"
+      ],
+      "management_practices": [
+        "crop rotation",
+        "remove infected residue",
+        "manage volunteer tomato and solanaceous hosts",
+        "avoid prolonged wetness"
+      ],
+      "treatment_recommendations": [
+        "Use locally registered fungicide recommendations when disease is confirmed; do not prescribe from an image alone."
+      ],
+      "prevention_recommendations": [
+        "sanitation",
+        "rotation",
+        "clean transplants",
+        "canopy airflow"
+      ],
+      "references": {
+        "recent_research": [],
+        "extension_service": [
+          "UCIPM-EarlyBlight"
+        ],
+        "textbook": [
+          "UMN-EarlyBlight",
+          "APS-CompTomato"
+        ]
+      }
+    },
+    {
+      "id": "tomato_fruit_borer",
+      "crop": "tomato",
+      "dataset": "Tomato_12thAug26",
+      "class_label": "Fruit_Borer",
+      "is_pathogen_disease": false,
+      "agent_category": "insect_pest",
+      "disease": "Fruit borer damage (tomato)",
+      "common_name": "Fruit borer damage (tomato)",
+      "scientific_name": "Helicoverpa armigera",
+      "scientific_name_synonyms": [],
+      "taxonomy_note": "TNAU identifies Helicoverpa armigera as a major tomato fruit borer in India. The broader dataset class does not prove species identity for every image.",
+      "pathogen_type": "Insect pest (Lepidoptera: Noctuidae)",
+      "pathogen_family": "Noctuidae",
+      "host_plant": "Solanum lycopersicum",
+      "environmental_conditions": [
+        "flowering and fruiting stages",
+        "warm conditions",
+        "adult moth activity and egg laying"
+      ],
+      "disease_progression": "Larvae feed on tender foliage initially and then bore into fruit. Characteristic damage is a circular bore hole with internal feeding; frass may accumulate around the opening.",
+      "primary_symptoms": [
+        "circular bore holes in tomato fruit",
+        "chewed or missing tissue",
+        "frass/fecal pellets around openings when visible",
+        "larva partly protruding when visible"
+      ],
+      "secondary_symptoms": [
+        "multiple feeding holes",
+        "secondary decay around damaged tissue",
+        "fruit deformation or loss of marketable tissue"
+      ],
+      "leaf_color": [
+        "green",
+        "red",
+        "orange",
+        "brown",
+        "dark"
+      ],
+      "lesion_morphology": [
+        "NOT pathogen lesions; mechanical feeding holes and chewed tissue"
+      ],
+      "lesion_shape": [
+        "circular",
+        "irregular",
+        "ragged"
+      ],
+      "lesion_size": "bore holes commonly several millimeters or larger; image-dependent",
+      "lesion_distribution": [
+        "fruit surface",
+        "near calyx or other feeding sites"
+      ],
+      "leaf_margin_changes": [
+        "irregular chewed margins around holes"
+      ],
+      "leaf_curling": [
+        "not characteristic"
+      ],
+      "necrosis": [
+        "secondary darkening around damaged tissue may occur"
+      ],
+      "chlorosis": [
+        "not characteristic"
+      ],
+      "texture_changes": [
+        "chewed",
+        "hollow/open",
+        "ragged",
+        "frass-covered when visible"
+      ],
+      "severity_indicators": [
+        "number of holes",
+        "hole diameter",
+        "amount of missing tissue",
+        "visible larval presence"
+      ],
+      "severity": {
+        "mild": [
+          "single small feeding hole"
+        ],
+        "moderate": [
+          "multiple holes or clear frass"
+        ],
+        "severe": [
+          "extensive feeding damage with multiple openings and tissue loss"
+        ]
+      },
+      "confused_with": [
+        "mechanical injury",
+        "fruit rot",
+        "early blight fruit",
+        "late blight fruit"
+      ],
+      "key_differentiating_features": [
+        "circular feeding opening",
+        "chewed/ragged tissue",
+        "frass",
+        "larva may be partly inserted"
+      ],
+      "diagnostic_visual_features": [
+        "bore hole with surrounding feeding damage"
+      ],
+      "forbidden_symptoms_not_leaf_observable": [
+        "unseen foliage damage",
+        "unseen flowers",
+        "yield loss unless documented"
+      ],
+      "recommended_controlled_vocabulary": [
+        "fruit borer",
+        "feeding hole",
+        "chewed tissue",
+        "frass",
+        "larval feeding"
+      ],
+      "recommended_synonyms": [
+        "tomato fruit borer",
+        "Helicoverpa feeding damage"
+      ],
+      "recommended_adjectives": [
+        "circular",
+        "chewed",
+        "ragged",
+        "damaged"
+      ],
+      "forbidden_adjectives": [
+        "pathogenic",
+        "infected",
+        "fungal",
+        "confirmed pathogen"
+      ],
+      "recommended_caption_vocabulary": [
+        "a tomato fruit showing a circular feeding hole or chewed tissue associated with fruit borer damage"
+      ],
+      "severity_vocabulary": [
+        "single",
+        "multiple",
+        "extensive"
+      ],
+      "color_vocabulary": [
+        "green",
+        "red",
+        "orange",
+        "brown",
+        "dark"
+      ],
+      "shape_vocabulary": [
+        "circular",
+        "irregular",
+        "ragged"
+      ],
+      "texture_vocabulary": [
+        "chewed",
+        "damaged",
+        "open"
+      ],
+      "forbidden_terms": [
+        "infection",
+        "lesion",
+        "pycnidia",
+        "mold",
+        "confirmed pathogen"
+      ],
+      "management_practices": [
+        "field scouting",
+        "collect and destroy damaged fruit and visible larvae",
+        "pheromone monitoring",
+        "integrated pest management"
+      ],
+      "treatment_recommendations": [
+        "Follow current local IPM and pesticide-label guidance; treatment should be based on scouting and pest identification."
+      ],
+      "prevention_recommendations": [
+        "monitor flowering/fruiting",
+        "pheromone traps",
+        "conservation of natural enemies"
+      ],
+      "references": {
+        "recent_research": [],
+        "extension_service": [
+          "TNAU-FruitBorer",
+          "TNAU-TomatoPests"
+        ],
+        "textbook": []
+      }
+    },
+    {
+      "id": "tomato_healthy_fruit",
+      "crop": "tomato",
+      "dataset": "Tomato_12thAug26",
+      "class_label": "Healthy_Fruit",
+      "is_pathogen_disease": false,
+      "agent_category": "none",
+      "disease": "Healthy tomato fruit",
+      "common_name": "Healthy tomato fruit",
+      "scientific_name": "None",
+      "scientific_name_synonyms": [],
+      "taxonomy_note": "No pathogen or pest is assigned to the healthy class.",
+      "pathogen_type": "N/A",
+      "pathogen_family": "N/A",
+      "host_plant": "Solanum lycopersicum",
+      "environmental_conditions": [
+        "normal cultivar-dependent fruit development"
+      ],
+      "disease_progression": "N/A",
+      "primary_symptoms": [
+        "intact fruit surface",
+        "uniform cultivar-appropriate color",
+        "normal visible shape",
+        "absence of visible lesions, holes, rot, or abnormal surface damage"
+      ],
+      "secondary_symptoms": [],
+      "leaf_color": [
+        "green",
+        "yellow",
+        "orange",
+        "red",
+        "cultivar-dependent"
+      ],
+      "lesion_morphology": [
+        "none"
+      ],
+      "lesion_shape": [
+        "none"
+      ],
+      "lesion_size": "none",
+      "lesion_distribution": [
+        "none"
+      ],
+      "leaf_margin_changes": [
+        "not applicable"
+      ],
+      "leaf_curling": [
+        "not applicable"
+      ],
+      "necrosis": [
+        "none"
+      ],
+      "chlorosis": [
+        "none"
+      ],
+      "texture_changes": [
+        "normal smooth or naturally textured fruit surface"
+      ],
+      "severity_indicators": [
+        "absence of visible disease, pest, feeding, cracking, rot, or abnormal discoloration"
+      ],
+      "severity": {
+        "mild": [
+          "not applicable"
+        ],
+        "moderate": [
+          "not applicable"
+        ],
+        "severe": [
+          "not applicable"
+        ]
+      },
+      "confused_with": [
+        "very early disease",
+        "minor physiological variation",
+        "lighting/color artifacts",
+        "cultivar-specific morphology"
+      ],
+      "key_differentiating_features": [
+        "intact surface",
+        "normal visible coloration",
+        "no obvious pathological or pest damage"
+      ],
+      "diagnostic_visual_features": [
+        "clean intact fruit surface"
+      ],
+      "forbidden_symptoms_not_leaf_observable": [
+        "unseen internal defects",
+        "unseen leaf/stem/root health"
+      ],
+      "recommended_controlled_vocabulary": [
+        "healthy",
+        "intact",
+        "unblemished",
+        "normal",
+        "clean"
+      ],
+      "recommended_synonyms": [
+        "healthy fruit",
+        "normal tomato fruit"
+      ],
+      "recommended_adjectives": [
+        "healthy",
+        "intact",
+        "uniform",
+        "unblemished",
+        "normal"
+      ],
+      "forbidden_adjectives": [
+        "diseased",
+        "infected",
+        "necrotic",
+        "rotted",
+        "pest-damaged"
+      ],
+      "recommended_caption_vocabulary": [
+        "an intact healthy tomato fruit with a normal visible surface"
+      ],
+      "severity_vocabulary": [
+        "not applicable"
+      ],
+      "color_vocabulary": [
+        "green",
+        "yellow",
+        "orange",
+        "red"
+      ],
+      "shape_vocabulary": [
+        "round",
+        "oval",
+        "oblong"
+      ],
+      "texture_vocabulary": [
+        "smooth",
+        "firm",
+        "intact"
+      ],
+      "forbidden_terms": [
+        "diseased",
+        "infected",
+        "lesion",
+        "rot",
+        "hole",
+        "mold"
+      ],
+      "management_practices": [
+        "routine scouting",
+        "standard crop care"
+      ],
+      "treatment_recommendations": [
+        "none required for the healthy class"
+      ],
+      "prevention_recommendations": [
+        "standard sanitation",
+        "appropriate irrigation and nutrition"
+      ],
+      "references": {
+        "recent_research": [],
+        "extension_service": [
+          "UCIPM-Tomato"
+        ],
+        "textbook": [
+          "APS-CompTomato"
+        ]
+      }
+    },
+    {
+      "id": "tomato_healthy_leaf",
+      "crop": "tomato",
+      "dataset": "Tomato_12thAug26",
+      "class_label": "Healthy_Leaf",
+      "is_pathogen_disease": false,
+      "agent_category": "none",
+      "disease": "Healthy tomato leaf",
+      "common_name": "Healthy tomato leaf",
+      "scientific_name": "None",
+      "scientific_name_synonyms": [],
+      "taxonomy_note": "No pathogen or pest is assigned to the healthy class.",
+      "pathogen_type": "N/A",
+      "pathogen_family": "N/A",
+      "host_plant": "Solanum lycopersicum",
+      "environmental_conditions": [
+        "unstressed, healthy foliage"
+      ],
+      "disease_progression": "N/A",
+      "primary_symptoms": [
+        "uniform green intact pinnately compound leaf",
+        "serrated/lobed leaflet margins",
+        "prominent midrib and pinnate venation",
+        "slight surface pubescence may be visible"
+      ],
+      "secondary_symptoms": [],
+      "leaf_color": [
+        "uniform medium-to-deep green",
+        "slightly paler underside"
+      ],
+      "lesion_morphology": [
+        "none"
+      ],
+      "lesion_shape": [
+        "none"
+      ],
+      "lesion_size": "none",
+      "lesion_distribution": [
+        "none"
+      ],
+      "leaf_margin_changes": [
+        "intact, normally serrated"
+      ],
+      "leaf_curling": [
+        "none"
+      ],
+      "necrosis": [
+        "none"
+      ],
+      "chlorosis": [
+        "none"
+      ],
+      "texture_changes": [
+        "normal turgid, slightly pubescent surface"
+      ],
+      "severity_indicators": [
+        "absence of spots, lesions, yellowing, mottling, webbing, coating, galls, cutting, or distortion"
+      ],
+      "severity": {
+        "mild": [
+          "not applicable"
+        ],
+        "moderate": [
+          "not applicable"
+        ],
+        "severe": [
+          "not applicable"
+        ]
+      },
+      "confused_with": [
+        "very early disease",
+        "mild nutrient deficiency",
+        "lighting artifacts"
+      ],
+      "key_differentiating_features": [
+        "uniform green lamina",
+        "intact margins",
+        "clean surface"
+      ],
+      "diagnostic_visual_features": [
+        "uniform green foliage",
+        "normal venation",
+        "intact serrated margins"
+      ],
+      "forbidden_symptoms_not_leaf_observable": [
+        "unseen fruit/stem/root symptoms",
+        "whole-plant health not visible"
+      ],
+      "recommended_controlled_vocabulary": [
+        "healthy",
+        "green",
+        "uniform",
+        "intact",
+        "unblemished",
+        "normal venation"
+      ],
+      "recommended_synonyms": [
+        "healthy leaf",
+        "disease-free foliage",
+        "normal leaf"
+      ],
+      "recommended_adjectives": [
+        "green",
+        "uniform",
+        "healthy",
+        "intact",
+        "unblemished",
+        "smooth",
+        "turgid"
+      ],
+      "forbidden_adjectives": [
+        "diseased",
+        "infected",
+        "necrotic",
+        "chlorotic",
+        "spotted",
+        "blighted",
+        "mottled",
+        "curled",
+        "webbed",
+        "coated",
+        "galled"
+      ],
+      "recommended_caption_vocabulary": [
+        "a healthy tomato leaflet with uniform green coloration, intact serrated margins, and normal venation"
+      ],
+      "severity_vocabulary": [
+        "not applicable"
+      ],
+      "color_vocabulary": [
+        "green",
+        "deep green",
+        "medium green"
+      ],
+      "shape_vocabulary": [
+        "serrated",
+        "lobed",
+        "pinnate"
+      ],
+      "texture_vocabulary": [
+        "smooth",
+        "pubescent",
+        "turgid"
+      ],
+      "forbidden_terms": [
+        "diseased",
+        "infected",
+        "necrotic",
+        "chlorotic",
+        "spotted",
+        "lesion",
+        "pycnidia",
+        "mosaic"
+      ],
+      "management_practices": [
+        "standard cultural practice",
+        "routine scouting"
+      ],
+      "treatment_recommendations": [
+        "none required"
+      ],
+      "prevention_recommendations": [
+        "standard sanitation and monitoring"
+      ],
+      "references": {
+        "recent_research": [],
+        "extension_service": [
+          "UCIPM-Tomato"
+        ],
+        "textbook": [
+          "APS-CompTomato",
+          "Agrios2005"
+        ]
+      }
+    },
+    {
+      "id": "tomato_late_blight",
+      "crop": "tomato",
+      "dataset": "Tomato_12thAug26",
+      "class_label": "Late_Blight",
+      "is_pathogen_disease": true,
+      "agent_category": "oomycete",
+      "disease": "Late Blight (tomato)",
+      "common_name": "Late Blight (tomato)",
+      "scientific_name": "Phytophthora infestans",
+      "scientific_name_synonyms": [],
+      "taxonomy_note": "Oomycete pathogen. Disease-level identification is appropriate for the dataset class.",
+      "pathogen_type": "Oomycete",
+      "pathogen_family": "Peronosporaceae",
+      "host_plant": "Tomato and potato",
+      "environmental_conditions": [
+        "high relative humidity",
+        "prolonged leaf wetness",
+        "mild temperatures",
+        "rain/fog/dew"
+      ],
+      "disease_progression": "Small water-soaked areas rapidly enlarge into irregular purple-brown/oily blotches. Grayish-white sporulation may occur on the underside; tissue collapses rapidly.",
+      "primary_symptoms": [
+        "large irregular water-soaked or greasy blotches",
+        "grayish-green to purple-brown discoloration",
+        "white to grayish downy sporulation on the underside when visible"
+      ],
+      "secondary_symptoms": [
+        "rapid expansion and coalescence",
+        "leaf collapse and necrosis",
+        "defoliation in severe cases"
+      ],
+      "leaf_color": [
+        "grayish-green",
+        "purple-brown",
+        "brown-black",
+        "white sporulation"
+      ],
+      "lesion_morphology": [
+        "water-soaked, greasy, diffuse necrotic blotches",
+        "downy sporulation on underside"
+      ],
+      "lesion_shape": [
+        "irregular",
+        "diffuse",
+        "blotchy"
+      ],
+      "lesion_size": "large and rapidly expanding; image-dependent",
+      "lesion_distribution": [
+        "margins/tips may be affected first",
+        "broad lamina areas",
+        "underside sporulation around lesions"
+      ],
+      "leaf_margin_changes": [
+        "water-soaked margins may occur"
+      ],
+      "leaf_curling": [
+        "affected tissue collapses/wilts"
+      ],
+      "necrosis": [
+        "extensive brown-black necrosis"
+      ],
+      "chlorosis": [
+        "pale yellow-green border may occur"
+      ],
+      "texture_changes": [
+        "greasy",
+        "water-soaked",
+        "oily",
+        "downy underside growth"
+      ],
+      "severity_indicators": [
+        "blotch size",
+        "coalescence",
+        "visible sporulation",
+        "degree of collapse"
+      ],
+      "severity": {
+        "mild": [
+          "small water-soaked pale-green spots"
+        ],
+        "moderate": [
+          "enlarging greasy blotches with underside sporulation"
+        ],
+        "severe": [
+          "large coalesced dark blotches, collapse and defoliation"
+        ]
+      },
+      "confused_with": [
+        "early blight",
+        "bacterial spot",
+        "gray mold"
+      ],
+      "key_differentiating_features": [
+        "water-soaked/greasy diffuse blotches",
+        "lack of concentric target rings",
+        "white underside sporulation when present"
+      ],
+      "diagnostic_visual_features": [
+        "oily blotches",
+        "water-soaked tissue",
+        "white underside sporulation"
+      ],
+      "forbidden_symptoms_not_leaf_observable": [
+        "unseen fruit/stem symptoms",
+        "whole-plant collapse unless visible"
+      ],
+      "recommended_controlled_vocabulary": [
+        "water-soaked",
+        "greasy",
+        "oily",
+        "grayish-green",
+        "blotch",
+        "downy sporulation",
+        "irregular",
+        "necrotic"
+      ],
+      "recommended_synonyms": [
+        "Phytophthora leaf blight"
+      ],
+      "recommended_adjectives": [
+        "water-soaked",
+        "greasy",
+        "oily",
+        "grayish-green",
+        "brown-black",
+        "irregular",
+        "downy"
+      ],
+      "forbidden_adjectives": [
+        "concentric",
+        "target-like",
+        "powdery",
+        "pycnidial",
+        "mosaic",
+        "webbed"
+      ],
+      "recommended_caption_vocabulary": [
+        "large irregular water-soaked grayish-green blotches, sometimes with white downy growth on the underside"
+      ],
+      "severity_vocabulary": [
+        "early",
+        "spreading",
+        "collapsing",
+        "extensive"
+      ],
+      "color_vocabulary": [
+        "grayish-green",
+        "brown-black",
+        "white"
+      ],
+      "shape_vocabulary": [
+        "irregular",
+        "diffuse",
+        "blotchy"
+      ],
+      "texture_vocabulary": [
+        "water-soaked",
+        "greasy",
+        "oily",
+        "downy"
+      ],
+      "forbidden_terms": [
+        "concentric",
+        "target-like",
+        "powdery",
+        "pycnidia",
+        "mosaic",
+        "webbing"
+      ],
+      "management_practices": [
+        "remove infected material",
+        "avoid prolonged leaf wetness",
+        "improve airflow",
+        "forecasting where applicable"
+      ],
+      "treatment_recommendations": [
+        "Use locally labeled late-blight management products and resistance-management guidance; image alone is not a treatment prescription."
+      ],
+      "prevention_recommendations": [
+        "clean planting material",
+        "scouting",
+        "airflow",
+        "avoid prolonged wetness"
+      ],
+      "references": {
+        "recent_research": [],
+        "extension_service": [
+          "UCIPM-LateBlight",
+          "UCIPM-Tomato"
+        ],
+        "textbook": [
+          "APS-CompTomato",
+          "Agrios2005"
+        ]
+      }
+    },
+    {
+      "id": "tomato_leaf_curl",
+      "crop": "tomato",
+      "dataset": "Tomato_12thAug26",
+      "class_label": "Leaf_Curl",
+      "is_pathogen_disease": false,
+      "agent_category": "unspecified_condition",
+      "disease": "Tomato leaf curl symptoms",
+      "common_name": "Tomato leaf curl symptoms",
+      "scientific_name": "Not specified by dataset label",
+      "scientific_name_synonyms": [],
+      "taxonomy_note": "The class name describes a visual phenotype and does not by itself identify TYLCV or another virus.",
+      "pathogen_type": "N/A / unspecified",
+      "pathogen_family": "N/A",
+      "host_plant": "Solanum lycopersicum",
+      "environmental_conditions": [
+        "varies with causal factor",
+        "biotic or abiotic stress may produce curl"
+      ],
+      "disease_progression": "Leaves become curled, cupped, crumpled or distorted. Yellowing may accompany deformation, but the class remains visually defined.",
+      "primary_symptoms": [
+        "upward or downward curling",
+        "cupping",
+        "leaflet distortion",
+        "yellowing when visible"
+      ],
+      "secondary_symptoms": [
+        "reduced apparent leaflet expansion",
+        "crumpling",
+        "brittleness or thickening when visible"
+      ],
+      "leaf_color": [
+        "green",
+        "yellow",
+        "pale-green"
+      ],
+      "lesion_morphology": [
+        "deformation rather than a defined lesion"
+      ],
+      "lesion_shape": [
+        "curled",
+        "cupped",
+        "distorted",
+        "puckered"
+      ],
+      "lesion_size": "not applicable",
+      "lesion_distribution": [
+        "often most visible on young growth when present"
+      ],
+      "leaf_margin_changes": [
+        "rolled or distorted margins"
+      ],
+      "leaf_curling": [
+        "pronounced curling/cupping"
+      ],
+      "necrosis": [
+        "none characteristic unless secondary tissue death is visible"
+      ],
+      "chlorosis": [
+        "yellowing may occur"
+      ],
+      "texture_changes": [
+        "crumpled",
+        "thickened",
+        "brittle when visible"
+      ],
+      "severity_indicators": [
+        "degree of curl",
+        "degree of cupping",
+        "extent of distortion",
+        "visible yellowing"
+      ],
+      "severity": {
+        "mild": [
+          "slight curling or cupping"
+        ],
+        "moderate": [
+          "distinct curling with leaflet distortion"
+        ],
+        "severe": [
+          "pronounced curling, crumpling and marked deformation"
+        ]
+      },
+      "confused_with": [
+        "physiological leaf roll",
+        "TYLCV",
+        "other viral disorders",
+        "herbicide injury",
+        "nutrient stress"
+      ],
+      "key_differentiating_features": [
+        "visible deformation is the defining feature",
+        "do not infer causal virus from curl alone"
+      ],
+      "diagnostic_visual_features": [
+        "curled margins",
+        "cupped leaflets",
+        "crumpled distortion"
+      ],
+      "forbidden_symptoms_not_leaf_observable": [
+        "unseen vector transmission",
+        "unseen stunting",
+        "unseen fruit symptoms",
+        "specific virus unless independently established"
+      ],
+      "recommended_controlled_vocabulary": [
+        "curling",
+        "cupping",
+        "distortion",
+        "crumpling",
+        "yellowing"
+      ],
+      "recommended_synonyms": [
+        "leaf-curl symptoms",
+        "tomato leaf curl"
+      ],
+      "recommended_adjectives": [
+        "curled",
+        "cupped",
+        "distorted",
+        "crumpled",
+        "yellowing"
+      ],
+      "forbidden_adjectives": [
+        "confirmed virus",
+        "TYLCV",
+        "infected",
+        "lesioned"
+      ],
+      "recommended_caption_vocabulary": [
+        "tomato leaflets showing visible curling, cupping, or crumpled distortion"
+      ],
+      "severity_vocabulary": [
+        "slight",
+        "distinct",
+        "pronounced"
+      ],
+      "color_vocabulary": [
+        "green",
+        "yellow",
+        "pale-green"
+      ],
+      "shape_vocabulary": [
+        "curled",
+        "cupped",
+        "distorted",
+        "puckered"
+      ],
+      "texture_vocabulary": [
+        "crumpled",
+        "brittle",
+        "thickened"
+      ],
+      "forbidden_terms": [
+        "confirmed virus",
+        "TYLCV",
+        "lesion",
+        "pycnidia",
+        "mosaic",
+        "infection"
+      ],
+      "management_practices": [
+        "scouting",
+        "compare affected and unaffected growth",
+        "investigate pest/vector presence if relevant"
+      ],
+      "treatment_recommendations": [
+        "Treatment depends on the underlying cause; do not prescribe a virus treatment from the image alone."
+      ],
+      "prevention_recommendations": [
+        "clean planting material",
+        "vector monitoring where relevant",
+        "weed/host management"
+      ],
+      "references": {
+        "recent_research": [],
+        "extension_service": [
+          "UCIPM-Tomato"
+        ],
+        "textbook": [
+          "APS-CompTomato"
+        ]
+      }
+    },
+    {
+      "id": "tomato_leaf_miner",
+      "crop": "tomato",
+      "dataset": "Tomato_12thAug26",
+      "class_label": "Leaf_Miner",
+      "is_pathogen_disease": false,
+      "agent_category": "insect_pest",
+      "disease": "Leaf miner damage (tomato)",
+      "common_name": "Leaf miner damage (tomato)",
+      "scientific_name": "Liriomyza trifolii",
+      "scientific_name_synonyms": [],
+      "taxonomy_note": "TNAU identifies Liriomyza trifolii as serpentine leaf miner on tomato in India.",
+      "pathogen_type": "Insect pest (Diptera: Agromyzidae)",
+      "pathogen_family": "Agromyzidae",
+      "host_plant": "Solanum lycopersicum",
+      "environmental_conditions": [
+        "warm conditions",
+        "active foliage growth"
+      ],
+      "disease_progression": "Larvae tunnel within leaf tissue, producing pale serpentine mines. Mines widen as larvae grow; heavy infestations can dry and drop leaves.",
+      "primary_symptoms": [
+        "serpentine winding mines",
+        "pale/translucent feeding trails",
+        "larva or pupa may be visible at suitable resolution"
+      ],
+      "secondary_symptoms": [
+        "mine widening",
+        "coalescing mines",
+        "drying and leaf drop under heavy infestation"
+      ],
+      "leaf_color": [
+        "green",
+        "pale",
+        "yellow",
+        "brown"
+      ],
+      "lesion_morphology": [
+        "internal feeding mine; not a pathogen lesion"
+      ],
+      "lesion_shape": [
+        "serpentine",
+        "winding",
+        "linear"
+      ],
+      "lesion_size": "narrow trail that widens along its course",
+      "lesion_distribution": [
+        "within leaf lamina",
+        "irregular paths between veins"
+      ],
+      "leaf_margin_changes": [
+        "not usually margin-specific; larva may exit through a slit"
+      ],
+      "leaf_curling": [
+        "not characteristic"
+      ],
+      "necrosis": [
+        "mined tissue may dry/brown"
+      ],
+      "chlorosis": [
+        "pale translucent mine tissue"
+      ],
+      "texture_changes": [
+        "translucent",
+        "papery",
+        "dry"
+      ],
+      "severity_indicators": [
+        "mine number",
+        "mine length",
+        "mine density",
+        "degree of leaf drying"
+      ],
+      "severity": {
+        "mild": [
+          "one or a few narrow mines"
+        ],
+        "moderate": [
+          "multiple visible serpentine mines"
+        ],
+        "severe": [
+          "dense/coalescing mines with drying or defoliation"
+        ]
+      },
+      "confused_with": [
+        "mechanical injury",
+        "vein damage",
+        "other leaf-chewing pests"
+      ],
+      "key_differentiating_features": [
+        "serpentine internal trail",
+        "pale translucent mine",
+        "progressive widening"
+      ],
+      "diagnostic_visual_features": [
+        "serpentine translucent feeding mines"
+      ],
+      "forbidden_symptoms_not_leaf_observable": [
+        "unseen adult population",
+        "unseen root/fruit effects"
+      ],
+      "recommended_controlled_vocabulary": [
+        "leaf mine",
+        "serpentine trail",
+        "feeding trail",
+        "translucent mine"
+      ],
+      "recommended_synonyms": [
+        "serpentine leaf miner",
+        "leaf miner damage"
+      ],
+      "recommended_adjectives": [
+        "serpentine",
+        "winding",
+        "linear",
+        "translucent",
+        "pale"
+      ],
+      "forbidden_adjectives": [
+        "infected",
+        "fungal",
+        "pycnidial",
+        "mosaic"
+      ],
+      "recommended_caption_vocabulary": [
+        "serpentine translucent feeding mines winding through the tomato leaf"
+      ],
+      "severity_vocabulary": [
+        "few",
+        "multiple",
+        "dense",
+        "coalescing"
+      ],
+      "color_vocabulary": [
+        "green",
+        "pale",
+        "yellow",
+        "brown"
+      ],
+      "shape_vocabulary": [
+        "serpentine",
+        "linear",
+        "winding"
+      ],
+      "texture_vocabulary": [
+        "translucent",
+        "papery",
+        "dry"
+      ],
+      "forbidden_terms": [
+        "infection",
+        "lesion",
+        "pycnidia",
+        "mold",
+        "mosaic",
+        "virus"
+      ],
+      "management_practices": [
+        "scouting",
+        "remove heavily mined leaves where appropriate",
+        "integrated pest management"
+      ],
+      "treatment_recommendations": [
+        "Use locally registered pest-management recommendations based on scouting and pest identification."
+      ],
+      "prevention_recommendations": [
+        "regular scouting",
+        "weed/host management",
+        "protect natural enemies"
+      ],
+      "references": {
+        "recent_research": [],
+        "extension_service": [
+          "TNAU-LeafMiner",
+          "TNAU-TomatoPests"
+        ],
+        "textbook": []
+      }
+    },
+    {
+      "id": "tomato_mealy_bugs",
+      "crop": "tomato",
+      "dataset": "Tomato_12thAug26",
+      "class_label": "Mealy_Bugs",
+      "is_pathogen_disease": false,
+      "agent_category": "insect_pest",
+      "disease": "Mealybug damage (tomato)",
+      "common_name": "Mealybug damage (tomato)",
+      "scientific_name": "Pseudococcidae spp.",
+      "scientific_name_synonyms": [],
+      "taxonomy_note": "Pest family-level visual category; species should not be inferred from the class label alone.",
+      "pathogen_type": "Insect pest (Hemiptera: Pseudococcidae)",
+      "pathogen_family": "Pseudococcidae",
+      "host_plant": "Solanum lycopersicum",
+      "environmental_conditions": [
+        "warm conditions",
+        "protected plant parts",
+        "dense growth"
+      ],
+      "disease_progression": "Mealybugs colonize protected surfaces and feed on sap. Waxy/cottony material and honeydew may accumulate; heavy feeding can distort or yellow foliage.",
+      "primary_symptoms": [
+        "small pale insects when visible",
+        "cottony/waxy clusters",
+        "clustered feeding on protected surfaces or leaf undersides"
+      ],
+      "secondary_symptoms": [
+        "leaf distortion or curling",
+        "yellowing under heavy feeding",
+        "sticky honeydew and superficial sooty coating when visible"
+      ],
+      "leaf_color": [
+        "white",
+        "cream",
+        "pale-yellow",
+        "green",
+        "brown"
+      ],
+      "lesion_morphology": [
+        "NOT pathogen lesions; visible pest colonies and feeding-associated surface changes"
+      ],
+      "lesion_shape": [
+        "clustered",
+        "irregular"
+      ],
+      "lesion_size": "usually a few millimeters or less",
+      "lesion_distribution": [
+        "leaf undersides",
+        "petioles",
+        "protected growth"
+      ],
+      "leaf_margin_changes": [
+        "distortion may occur"
+      ],
+      "leaf_curling": [
+        "curling may occur"
+      ],
+      "necrosis": [
+        "not characteristic"
+      ],
+      "chlorosis": [
+        "yellowing may occur"
+      ],
+      "texture_changes": [
+        "waxy",
+        "cottony",
+        "sticky when honeydew is visible"
+      ],
+      "severity_indicators": [
+        "colony density",
+        "wax coverage",
+        "degree of visible feeding damage"
+      ],
+      "severity": {
+        "mild": [
+          "few visible insects"
+        ],
+        "moderate": [
+          "clustered waxy colonies"
+        ],
+        "severe": [
+          "dense colonies with extensive wax/honeydew and distortion"
+        ]
+      },
+      "confused_with": [
+        "aphids",
+        "whiteflies",
+        "scale insects",
+        "sooty mold"
+      ],
+      "key_differentiating_features": [
+        "waxy/cottony colonies",
+        "small pale insects",
+        "clustered protected feeding sites"
+      ],
+      "diagnostic_visual_features": [
+        "pale mealybugs and waxy/cottony colonies"
+      ],
+      "forbidden_symptoms_not_leaf_observable": [
+        "unseen root/stem/fruit effects",
+        "virus transmission unless independently established"
+      ],
+      "recommended_controlled_vocabulary": [
+        "mealybug",
+        "cottony",
+        "waxy",
+        "colony",
+        "honeydew",
+        "feeding damage"
+      ],
+      "recommended_synonyms": [
+        "mealybug damage",
+        "mealybug colony"
+      ],
+      "recommended_adjectives": [
+        "white",
+        "waxy",
+        "cottony",
+        "clustered",
+        "small"
+      ],
+      "forbidden_adjectives": [
+        "infected",
+        "pathogen",
+        "lesioned",
+        "viral"
+      ],
+      "recommended_caption_vocabulary": [
+        "a tomato plant surface showing visible pale mealybugs or cottony waxy colonies"
+      ],
+      "severity_vocabulary": [
+        "few",
+        "clustered",
+        "numerous",
+        "dense"
+      ],
+      "color_vocabulary": [
+        "white",
+        "cream",
+        "pale-yellow",
+        "green",
+        "brown"
+      ],
+      "shape_vocabulary": [
+        "clustered",
+        "irregular"
+      ],
+      "texture_vocabulary": [
+        "waxy",
+        "cottony",
+        "sticky"
+      ],
+      "forbidden_terms": [
+        "infection",
+        "lesion",
+        "pycnidia",
+        "mosaic",
+        "confirmed virus"
+      ],
+      "management_practices": [
+        "routine scouting",
+        "remove heavily infested material",
+        "integrated pest management"
+      ],
+      "treatment_recommendations": [
+        "Use locally registered mealybug-management options after pest identification and scouting."
+      ],
+      "prevention_recommendations": [
+        "clean planting material",
+        "weed/host management",
+        "monitor protected plant parts"
+      ],
+      "references": {
+        "recent_research": [],
+        "extension_service": [
+          "UCIPM-Tomato"
+        ],
+        "textbook": [
+          "APS-CompTomato"
+        ]
+      }
+    },
+    {
+      "id": "tomato_target_leaf_spot",
+      "crop": "tomato",
+      "dataset": "Tomato_12thAug26",
+      "class_label": "Target_Leaf_Spot",
+      "is_pathogen_disease": true,
+      "agent_category": "fungus",
+      "disease": "Target Leaf Spot (tomato)",
+      "common_name": "Target Leaf Spot (tomato)",
+      "scientific_name": "Corynespora cassiicola",
+      "scientific_name_synonyms": [],
+      "taxonomy_note": "Highly polyphagous fungus; retain the dataset disease label rather than over-resolving taxonomy.",
+      "pathogen_type": "Fungus",
+      "pathogen_family": "Corynesporaceae",
+      "host_plant": "Tomato and many other hosts",
+      "environmental_conditions": [
+        "warm temperatures",
+        "high humidity",
+        "prolonged leaf wetness"
+      ],
+      "disease_progression": "Small dark spots enlarge into brown lesions with subtle concentric rings and lighter centers. Lesions can coalesce, causing blighting and defoliation.",
+      "primary_symptoms": [
+        "brown to dark-brown lesions",
+        "subtle/fine concentric rings",
+        "light-brown to gray centers",
+        "diffuse yellow halo may occur"
+      ],
+      "secondary_symptoms": [
+        "coalescence into larger necrotic areas",
+        "leaf blighting",
+        "defoliation under severe disease"
+      ],
+      "leaf_color": [
+        "brown",
+        "dark-brown",
+        "gray",
+        "yellow halo"
+      ],
+      "lesion_morphology": [
+        "dry necrotic lesions with subtle concentric zonation"
+      ],
+      "lesion_shape": [
+        "circular",
+        "concentric",
+        "irregular when coalesced"
+      ],
+      "lesion_size": "pinpoint early spots to larger coalescing lesions",
+      "lesion_distribution": [
+        "scattered across lamina",
+        "may become numerous and coalesce"
+      ],
+      "leaf_margin_changes": [
+        "not margin-specific"
+      ],
+      "leaf_curling": [
+        "not a defining feature"
+      ],
+      "necrosis": [
+        "brown necrotic centers may enlarge"
+      ],
+      "chlorosis": [
+        "diffuse yellow halo may occur"
+      ],
+      "texture_changes": [
+        "dry",
+        "cracked-center when advanced"
+      ],
+      "severity_indicators": [
+        "spot count",
+        "ring visibility",
+        "coalescence",
+        "affected leaf area"
+      ],
+      "severity": {
+        "mild": [
+          "small pinpoint brown/black flecks"
+        ],
+        "moderate": [
+          "enlarging lesions with subtle concentric rings and pale centers"
+        ],
+        "severe": [
+          "coalesced necrosis and extensive blighting"
+        ]
+      },
+      "confused_with": [
+        "early blight",
+        "bacterial spot",
+        "Septoria leaf spot",
+        "late blight"
+      ],
+      "key_differentiating_features": [
+        "fine/subtle rings",
+        "pale centers",
+        "absence of pycnidia as defining feature"
+      ],
+      "diagnostic_visual_features": [
+        "fine concentric-ring lesions with pale centers"
+      ],
+      "forbidden_symptoms_not_leaf_observable": [
+        "unseen fruit lesions",
+        "unseen stem lesions",
+        "pycnidia unless actually visible"
+      ],
+      "recommended_controlled_vocabulary": [
+        "target-like",
+        "concentric rings",
+        "pale center",
+        "brown lesion",
+        "chlorotic halo"
+      ],
+      "recommended_synonyms": [
+        "Corynespora leaf spot"
+      ],
+      "recommended_adjectives": [
+        "concentric",
+        "target-like",
+        "brown",
+        "ringed",
+        "pale-centered"
+      ],
+      "forbidden_adjectives": [
+        "water-soaked",
+        "greasy",
+        "pycnidial",
+        "powdery",
+        "velvety",
+        "webbed",
+        "mosaic"
+      ],
+      "recommended_caption_vocabulary": [
+        "brown lesions with subtle concentric rings and pale centers scattered across the tomato leaf"
+      ],
+      "severity_vocabulary": [
+        "pinpoint",
+        "enlarging",
+        "coalescing",
+        "blighting"
+      ],
+      "color_vocabulary": [
+        "brown",
+        "dark-brown",
+        "gray",
+        "yellow"
+      ],
+      "shape_vocabulary": [
+        "concentric",
+        "target-like",
+        "circular",
+        "irregular"
+      ],
+      "texture_vocabulary": [
+        "dry",
+        "cracked-center"
+      ],
+      "forbidden_terms": [
+        "water-soaked",
+        "greasy",
+        "pycnidia",
+        "powdery",
+        "mosaic",
+        "webbing"
+      ],
+      "management_practices": [
+        "rotation",
+        "sanitation",
+        "airflow/spacing",
+        "residue management"
+      ],
+      "treatment_recommendations": [
+        "Use locally registered fungicide recommendations and resistance-management guidance; image alone is not a treatment prescription."
+      ],
+      "prevention_recommendations": [
+        "remove residue",
+        "reduce prolonged leaf wetness",
+        "routine scouting"
+      ],
+      "references": {
+        "recent_research": [],
+        "extension_service": [
+          "UFIFAS-PP351"
+        ],
+        "textbook": [
+          "APS-CompTomato"
+        ]
+      }
+    },
+    {
+      "id": "tomato_white_fly",
+      "crop": "tomato",
+      "dataset": "Tomato_12thAug26",
+      "class_label": "White_Fly",
+      "is_pathogen_disease": false,
+      "agent_category": "insect_pest",
+      "disease": "Whitefly damage (tomato)",
+      "common_name": "Whitefly damage (tomato)",
+      "scientific_name": "Bemisia tabaci / Trialeurodes vaporariorum",
+      "scientific_name_synonyms": [],
+      "taxonomy_note": "Several whitefly species infest tomato; retain the class at the visual pest level rather than inferring species from an image alone.",
+      "pathogen_type": "Insect pest (Hemiptera: Aleyrodidae)",
+      "pathogen_family": "Aleyrodidae",
+      "host_plant": "Solanum lycopersicum",
+      "environmental_conditions": [
+        "warm conditions",
+        "tender growth",
+        "leaf undersides",
+        "nearby host crops/weeds"
+      ],
+      "disease_progression": "Adults and nymphs feed on phloem. Feeding can cause yellowing and curling; honeydew can make surfaces shiny and support superficial sooty mold. Some whiteflies vector viruses, but transmission must not be inferred from visible insects.",
+      "primary_symptoms": [
+        "tiny white-winged adults when visible",
+        "pale/oval nymphs on leaf undersides",
+        "fine yellowing or stippling from feeding"
+      ],
+      "secondary_symptoms": [
+        "leaf curling",
+        "yellowing",
+        "sticky honeydew",
+        "black superficial sooty mold when visible"
+      ],
+      "leaf_color": [
+        "white",
+        "yellow",
+        "pale green",
+        "black"
+      ],
+      "lesion_morphology": [
+        "NOT pathogen lesions; feeding damage and/or visible whitefly stages"
+      ],
+      "lesion_shape": [
+        "clustered",
+        "speckled",
+        "diffuse"
+      ],
+      "lesion_size": "adults about 1.5 mm; nymphs smaller",
+      "lesion_distribution": [
+        "undersides of leaves",
+        "tender growth",
+        "field margins"
+      ],
+      "leaf_margin_changes": [
+        "curling may occur"
+      ],
+      "leaf_curling": [
+        "curling may occur"
+      ],
+      "necrosis": [
+        "not characteristic"
+      ],
+      "chlorosis": [
+        "yellowing may occur"
+      ],
+      "texture_changes": [
+        "waxy white wings",
+        "sticky honeydew",
+        "superficial sooty coating"
+      ],
+      "severity_indicators": [
+        "adult/nymph density",
+        "extent of yellowing",
+        "honeydew accumulation"
+      ],
+      "severity": {
+        "mild": [
+          "few visible adults or nymphs"
+        ],
+        "moderate": [
+          "clustered whitefly stages with visible yellowing"
+        ],
+        "severe": [
+          "dense infestation with extensive yellowing/honeydew"
+        ]
+      },
+      "confused_with": [
+        "aphids",
+        "mealybugs",
+        "spider mites",
+        "leaf miner"
+      ],
+      "key_differentiating_features": [
+        "white adults or pale nymphs on underside",
+        "clustered underside feeding",
+        "whitefly adults fly readily when disturbed"
+      ],
+      "diagnostic_visual_features": [
+        "whitefly adults/nymphs and fine feeding-related yellowing"
+      ],
+      "forbidden_symptoms_not_leaf_observable": [
+        "virus infection",
+        "fruit ripening effects",
+        "unseen whole-plant damage unless documented"
+      ],
+      "recommended_controlled_vocabulary": [
+        "whitefly",
+        "nymph",
+        "adult",
+        "feeding damage",
+        "honeydew",
+        "stippling"
+      ],
+      "recommended_synonyms": [
+        "whitefly damage",
+        "whitefly infestation"
+      ],
+      "recommended_adjectives": [
+        "white",
+        "pale",
+        "small",
+        "clustered",
+        "speckled"
+      ],
+      "forbidden_adjectives": [
+        "infected",
+        "viral",
+        "confirmed transmission",
+        "lesioned"
+      ],
+      "recommended_caption_vocabulary": [
+        "small whiteflies or pale nymphs visible on the tomato leaf, with fine feeding-related yellowing when present"
+      ],
+      "severity_vocabulary": [
+        "few",
+        "scattered",
+        "numerous",
+        "dense"
+      ],
+      "color_vocabulary": [
+        "white",
+        "pale",
+        "green",
+        "yellow",
+        "black"
+      ],
+      "shape_vocabulary": [
+        "clustered",
+        "speckled",
+        "diffuse"
+      ],
+      "texture_vocabulary": [
+        "waxy",
+        "sticky",
+        "fine"
+      ],
+      "forbidden_terms": [
+        "infection",
+        "lesion",
+        "pycnidia",
+        "mosaic",
+        "confirmed virus"
+      ],
+      "management_practices": [
+        "routine scouting",
+        "monitor leaf undersides and field margins",
+        "conserve natural enemies",
+        "weed/host management"
+      ],
+      "treatment_recommendations": [
+        "Use locally registered whitefly-management options after scouting; do not assume virus transmission from visible whiteflies alone."
+      ],
+      "prevention_recommendations": [
+        "clean planting material",
+        "regular monitoring",
+        "manage alternate hosts",
+        "reflective mulch where appropriate"
+      ],
+      "references": {
+        "recent_research": [],
+        "extension_service": [
+          "UCIPM-Whiteflies",
+          "UCIPM-Tomato"
+        ],
+        "textbook": [
+          "APS-CompTomato"
+        ]
+      }
+    }
+  ]
+}

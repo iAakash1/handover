@@ -1,0 +1,14 @@
+{
+  "description": "Instruction paraphrases paired with each image at training time. Pure task prompts (leaf disease description); they carry NO disease knowledge and assert no symptom. The response text always comes verbatim from the frozen caption corpus.",
+  "task": "leaf_condition_description",
+  "instructions": [
+    "Describe the visible condition of this mango leaf.",
+    "What can you observe on this mango leaf?",
+    "Examine this mango leaf and describe any symptoms present.",
+    "Provide a diagnostic description of this mango leaf.",
+    "Report the visible signs on this mango leaf.",
+    "Describe what is shown on this mango leaf image.",
+    "Assess this mango leaf and summarize its visible symptoms.",
+    "Give a concise description of this mango leaf's appearance."
+  ]
+}

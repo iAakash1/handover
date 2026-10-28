@@ -1,0 +1,50 @@
+# run_id: tih_tomato_qwen_qlora-20260911-154447
+$ C:\Program Files\Python310\python.exe -m plantdx company train --config configs/train/qwen25vl_tih_tomato.yaml --run-name tih_tomato_qwen_qlora --epochs 3.0 --learning-rate 5e-05 --lora-rank 16 --lora-alpha 32 --gradient-accumulation-steps 8 --image-max-side 448 --seed 20260911
+Preparing dataset...
+  {'train': 5247, 'validation': 649, 'test': 649}
+Training tih_tomato_qwen_qlora...
+  loading base model
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/729 [00:00<?, ?it/s]Loading weights:   0%|          | 1/729 [00:00<04:26,  2.73it/s]Loading weights:   0%|          | 2/729 [00:00<03:56,  3.07it/s]Loading weights:   1%|          | 5/729 [00:00<01:26,  8.35it/s]Loading weights:   2%|2         | 17/729 [00:00<00:22, 31.05it/s]Loading weights:   4%|3         | 28/729 [00:01<00:14, 48.83it/s]Loading weights:   5%|4         | 36/729 [00:01<00:12, 56.42it/s]Loading weights:   6%|6         | 44/729 [00:01<00:11, 60.16it/s]Loading weights:   7%|7         | 53/729 [00:01<00:10, 66.97it/s]Loading weights:   9%|8         | 64/729 [00:01<00:08, 78.50it/s]Loading weights:  10%|#         | 73/729 [00:01<00:08, 79.82it/s]Loading weights:  11%|#1        | 82/729 [00:01<00:08, 75.50it/s]Loading weights:  12%|#2        | 90/729 [00:01<00:09, 66.92it/s]Loading weights:  14%|#3        | 101/729 [00:01<00:08, 75.62it/s]Loading weights:  15%|#5        | 112/729 [00:02<00:07, 82.03it/s]Loading weights:  17%|#6        | 123/729 [00:02<00:06, 89.20it/s]Loading weights:  18%|#8        | 133/729 [00:02<00:07, 84.32it/s]Loading weights:  19%|#9        | 142/729 [00:02<00:07, 80.90it/s]Loading weights:  21%|##        | 151/729 [00:02<00:07, 79.38it/s]Loading weights:  22%|##2       | 162/729 [00:02<00:06, 81.14it/s]Loading weights:  24%|##3       | 173/729 [00:02<00:06, 88.09it/s]Loading weights:  25%|##5       | 184/729 [00:02<00:05, 93.30it/s]Loading weights:  27%|##6       | 194/729 [00:02<00:05, 95.10it/s]Loading weights:  28%|##7       | 204/729 [00:03<00:05, 88.18it/s]Loading weights:  29%|##9       | 213/729 [00:03<00:06, 83.15it/s]Loading weights:  30%|###       | 222/729 [00:03<00:06, 76.93it/s]Loading weights:  32%|###2      | 234/729 [00:03<00:06, 80.42it/s]Loading weights:  34%|###3      | 246/729 [00:03<00:05, 83.26it/s]Loading weights:  35%|###5      | 258/729 [00:03<00:05, 84.57it/s]Loading weights:  37%|###6      | 269/729 [00:03<00:05, 89.65it/s]Loading weights:  38%|###8      | 280/729 [00:03<00:04, 94.03it/s]Loading weights:  40%|####      | 292/729 [00:04<00:04, 92.90it/s]Loading weights:  41%|####1     | 302/729 [00:04<00:04, 92.48it/s]Loading weights:  43%|####2     | 312/729 [00:04<00:04, 86.52it/s]Loading weights:  44%|####4     | 321/729 [00:04<00:04, 82.61it/s]Loading weights:  45%|####5     | 330/729 [00:04<00:05, 76.41it/s]Loading weights:  56%|#####5    | 407/729 [00:04<00:01, 249.00it/s]Loading weights:  68%|######7   | 493/729 [00:04<00:00, 409.29it/s]Loading weights:  80%|########  | 585/729 [00:04<00:00, 545.07it/s]Loading weights:  92%|#########1| 669/729 [00:05<00:00, 625.54it/s]Loading weights: 100%|##########| 729/729 [00:05<00:00, 142.34it/s]
+  adapter attached (10,092,544 trainable / 4,702,350,336 params)
+C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\bitsandbytes\backends\cuda\ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+  step 1/1968 epoch 0.00/3 loss 5.9945 lr 0.00e+00 mem 9.77GB 5s
+{'loss': '5.995', 'grad_norm': '6.306', 'learning_rate': '0', 'epoch': '0.001525'}
+  step 10/1968 epoch 0.02/3 loss 5.8711 lr 7.63e-06 mem 9.79GB 45s
+{'loss': '5.871', 'grad_norm': '5.637', 'learning_rate': '7.627e-06', 'epoch': '0.01525'}
+  step 20/1968 epoch 0.03/3 loss 5.9201 lr 1.61e-05 mem 9.79GB 91s
+{'loss': '5.92', 'grad_norm': '7.028', 'learning_rate': '1.61e-05', 'epoch': '0.03049'}
+Traceback (most recent call last):
+  File "C:\Program Files\Python310\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files\Python310\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\experimentation\src\plantdx\__main__.py", line 8, in <module>
+    raise SystemExit(main())
+  File "C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\experimentation\src\plantdx\cli.py", line 910, in main
+    return company_cli.run(args)
+  File "C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\experimentation\src\plantdx\company\cli.py", line 136, in run
+    return handler(args)
+  File "C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\experimentation\src\plantdx\company\cli.py", line 298, in _train
+    result = run_training(
+  File "C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\experimentation\src\plantdx\company\train.py", line 241, in run_training
+    result = trainer.train(resume_from_checkpoint=_resume_target(target) if resume else None)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\transformers\trainer.py", line 1458, in train
+    return inner_training_loop(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\transformers\trainer.py", line 1540, in _inner_training_loop
+    self._run_epoch(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\transformers\trainer.py", line 1768, in _run_epoch
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\transformers\trainer.py", line 1970, in training_step
+    self.accelerator.backward(loss, **kwargs)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\accelerate\accelerator.py", line 2861, in backward
+    loss.backward(**kwargs)
+  File "C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\torch\_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\torch\autograd\__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\torch\autograd\graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

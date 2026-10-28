@@ -1,0 +1,12 @@
+# PlantDx demo — Streamlit configuration.
+#
+# The demo is a fixed app, not something you hot-edit while it runs, so the
+# file watcher is disabled. Beyond avoiding needless reloads, this stops
+# Streamlit from trying to enumerate the __path__ of C-extension modules like
+# `torch` and `transformers` (which mlx-vlm pulls in) — a well-known source of
+# noisy, harmless tracebacks that are unrelated to this application.
+[server]
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false

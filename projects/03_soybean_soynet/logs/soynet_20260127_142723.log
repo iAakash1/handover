@@ -1,0 +1,25 @@
+2026-01-27 14:27:23 | INFO     | SoyNet | Log file created: C:\Users\Admin\Desktop\latest\SoyNet\logs\soynet_20260127_142723.log
+2026-01-27 14:27:23 | INFO     | SoyNet.Evaluation | 
+Evaluation Metrics:
+2026-01-27 14:27:23 | INFO     | SoyNet.Evaluation | ----------------------------------------
+2026-01-27 14:27:23 | INFO     | SoyNet.Evaluation |   accuracy: 0.9516
+2026-01-27 14:27:23 | INFO     | SoyNet.Evaluation |   precision: 0.7692
+2026-01-27 14:27:23 | INFO     | SoyNet.Evaluation |   recall: 0.9639
+2026-01-27 14:27:23 | INFO     | SoyNet.Evaluation |   f1_score: 0.8556
+2026-01-27 14:27:23 | INFO     | SoyNet.Evaluation |   roc_auc: 0.9903
+2026-01-27 14:27:23 | INFO     | SoyNet.Evaluation | 
+Classification Report:
+2026-01-27 14:27:23 | INFO     | SoyNet.Evaluation | ----------------------------------------
+2026-01-27 14:27:23 | INFO     | SoyNet.Evaluation | 
+                            precision    recall  f1-score   support
+
+Disease_Preprocessing data       0.99      0.95      0.97       475
+Healthy_Preprocessing data       0.77      0.96      0.86        83
+
+                  accuracy                           0.95       558
+                 macro avg       0.88      0.96      0.91       558
+              weighted avg       0.96      0.95      0.95       558
+
+2026-01-27 14:27:24 | INFO     | SoyNet.Evaluation | Confusion matrix saved to: C:\Users\Admin\Desktop\latest\SoyNet\results\experiments\resnet50\plots\confusion_matrix_20260127_142723.png
+2026-01-27 14:27:24 | INFO     | SoyNet.Evaluation | Evaluation plots saved to: C:\Users\Admin\Desktop\latest\SoyNet\results\experiments\resnet50\plots
+2026-01-27 14:27:24 | INFO     | SoyNet.resnet50 | Generating Grad-CAM outputs...

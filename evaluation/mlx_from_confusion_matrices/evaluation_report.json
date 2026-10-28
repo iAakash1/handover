@@ -1,0 +1,10 @@
+{
+  "source": "Counts read from 04_jul_sep2026_plantdx_mlx_and_tih_tomato/research/mlx_pipeline/graphs/{tomato,mango}_confusion_matrix.png (fine-tuned Qwen2.5-VL-7B-Instruct-4bit, QLoRA r16, MLX). Diagonal sums reproduce the published accuracies exactly (tomato 853/910, mango 164/200).",
+  "evaluated_on": "2026-10-21",
+  "tomato": {"n": 910, "unparsed": 2, "accuracy": 0.9374, "macro_precision": 0.9367, "macro_recall": 0.9123, "macro_f1": 0.9206, "weighted_f1": 0.9382,
+             "published": {"accuracy": 0.937, "macro_f1": 0.919, "weighted_f1": 0.937},
+             "note": "per-class recall uses the classified rows as support; the 2 unparsed outputs explain the 0.002 macro-F1 difference"},
+  "mango": {"n": 200, "unparsed": 18, "accuracy": 0.82, "macro_precision": 0.9198, "macro_recall": 0.82, "macro_f1": 0.8112, "weighted_f1": 0.8112,
+            "published": {"accuracy": 0.82, "macro_f1": 0.811, "weighted_f1": 0.811},
+            "note": "18 of 25 Die Back images produced no parsable class; Die Back recall 0.04, precision 1.0"}
+}

@@ -1,0 +1,13 @@
+# QLoRA: LoRA adapters trained on top of the 4-bit quantized base.
+# This is the recommended method here — the base model is already 4-bit MLX,
+# so LoRA-over-quantized-base is QLoRA by construction. Lowest memory footprint.
+method: qlora
+rank: 16
+alpha: 32
+dropout: 0.05
+# Freeze the vision tower; adapt the language model only (memory-friendly,
+# standard for caption fine-tuning). Set true to also train vision layers.
+train_vision: false
+# Advisory: mlx-vlm 0.6.3 auto-selects the adapted linear layers; recorded here
+# to document intent and for the run report.
+target_modules: [q_proj, k_proj, v_proj, o_proj]

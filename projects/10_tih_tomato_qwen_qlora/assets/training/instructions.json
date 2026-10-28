@@ -1,0 +1,14 @@
+{
+  "description": "Instruction paraphrases paired with each image at training time. Pure task prompts (leaf disease description); they carry NO disease knowledge and assert no symptom. The response text always comes verbatim from the frozen caption corpus.",
+  "task": "leaf_condition_description",
+  "instructions": [
+    "Describe the visible condition of this tomato leaf.",
+    "What can you observe on this tomato leaf?",
+    "Examine this tomato leaf and describe any symptoms present.",
+    "Provide a diagnostic description of this tomato leaf.",
+    "Report the visible signs on this tomato leaf.",
+    "Describe what is shown on this tomato leaf image.",
+    "Assess this tomato leaf and summarize its visible symptoms.",
+    "Give a concise description of this tomato leaf's appearance."
+  ]
+}

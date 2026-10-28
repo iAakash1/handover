@@ -1,0 +1,20 @@
+{
+  "log_id": "e1331f97-092a-459d-b8a9-4634fa1b7a57",
+  "timestamp": "2026-05-18T06:48:31Z",
+  "image": {
+    "uuid": "52ef8e3c-f01d-4cbe-bf0e-78eb90c16e02",
+    "original_name": "tomato_2025-12-09_leaf_curl_1772282266.jpg",
+    "saved_as": "2026-05-18_52ef8e3c-f01d-4cbe-bf0e-78eb90c16e02.jpg",
+    "path": "C:\\Users\\Admin\\Desktop\\VLM\\PlantDx\\data\\raw\\uploads\\2026-05-18_52ef8e3c-f01d-4cbe-bf0e-78eb90c16e02.jpg",
+    "timestamp": "2026-05-18T06:48:01Z"
+  },
+  "instruction": "Analyze this plant leaf image and provide a structured diagnosis. State: Plant name, Disease condition, Severity level, Causal pathogen, and visible symptoms observed on the leaf.",
+  "status": "ok",
+  "is_plant": true,
+  "ood_score": 0.5242,
+  "prediction": "Plant: Pepper bell. Condition: Healthy. Severity: None. The leaf surface is clean and uniformly green with no visible fungal growth, bacterial lesions, or viral symptoms present.",
+  "confidence_pct": 99.0,
+  "condition": "Healthy",
+  "severity": "None",
+  "device": "cuda"
+}

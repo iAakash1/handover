@@ -1,0 +1,328 @@
+{
+  "run_name": "tih_tomato_qwen_qlora_strong",
+  "split": "validation",
+  "adapter": "C:\\Users\\Admin\\Desktop\\TIH_IITB_August_2026\\Tomato_12thAug26\\experimentation\\checkpoints\\tih_tomato_qwen_qlora_strong",
+  "base_model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "samples": 649,
+  "accuracy": 0.8059,
+  "precision_macro": 0.8624,
+  "recall_macro": 0.8886,
+  "f1_macro": 0.8576,
+  "precision_weighted": 0.8641,
+  "recall_weighted": 0.8059,
+  "f1_weighted": 0.7982,
+  "unparseable": 0,
+  "seconds": 194.1,
+  "seconds_per_sample": 0.299,
+  "labels": [
+    "aphid",
+    "early_blight_fruit",
+    "fruit_borer",
+    "healthy_fruit",
+    "healthy_leaf",
+    "late_blight",
+    "leaf_curl",
+    "leaf_miner",
+    "mealy_bugs",
+    "target_leaf_spot",
+    "white_fly"
+  ],
+  "per_class": [
+    {
+      "class_id": "aphid",
+      "label": "Aphid",
+      "support": 68,
+      "precision": 0.8395061728395061,
+      "recall": 1.0,
+      "f1": 0.912751677852349
+    },
+    {
+      "class_id": "early_blight_fruit",
+      "label": "Early Blight Fruit",
+      "support": 27,
+      "precision": 0.96,
+      "recall": 0.8888888888888888,
+      "f1": 0.9230769230769231
+    },
+    {
+      "class_id": "fruit_borer",
+      "label": "Fruit Borer",
+      "support": 43,
+      "precision": 0.9333333333333333,
+      "recall": 0.9767441860465116,
+      "f1": 0.9545454545454546
+    },
+    {
+      "class_id": "healthy_fruit",
+      "label": "Healthy Fruit",
+      "support": 9,
+      "precision": 1.0,
+      "recall": 0.8888888888888888,
+      "f1": 0.9411764705882353
+    },
+    {
+      "class_id": "healthy_leaf",
+      "label": "Healthy Leaf",
+      "support": 39,
+      "precision": 0.9,
+      "recall": 0.9230769230769231,
+      "f1": 0.9113924050632911
+    },
+    {
+      "class_id": "late_blight",
+      "label": "Late Blight",
+      "support": 195,
+      "precision": 1.0,
+      "recall": 0.49230769230769234,
+      "f1": 0.6597938144329897
+    },
+    {
+      "class_id": "leaf_curl",
+      "label": "Leaf Curl",
+      "support": 52,
+      "precision": 0.6103896103896104,
+      "recall": 0.9038461538461539,
+      "f1": 0.7286821705426356
+    },
+    {
+      "class_id": "leaf_miner",
+      "label": "Leaf Miner",
+      "support": 95,
+      "precision": 0.6158940397350994,
+      "recall": 0.9789473684210527,
+      "f1": 0.7560975609756098
+    },
+    {
+      "class_id": "mealy_bugs",
+      "label": "Mealy Bugs",
+      "support": 40,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "class_id": "target_leaf_spot",
+      "label": "Target Leaf Spot",
+      "support": 33,
+      "precision": 0.6521739130434783,
+      "recall": 0.9090909090909091,
+      "f1": 0.759493670886076
+    },
+    {
+      "class_id": "white_fly",
+      "label": "White Fly",
+      "support": 48,
+      "precision": 0.975,
+      "recall": 0.8125,
+      "f1": 0.8863636363636364
+    }
+  ],
+  "confusion_matrix": [
+    [
+      68,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      24,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      42,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      36,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      1,
+      0,
+      1,
+      96,
+      29,
+      52,
+      0,
+      13,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      47,
+      2,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      93,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      40,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      30,
+      0,
+      0
+    ],
+    [
+      7,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      39,
+      0
+    ]
+  ],
+  "confusions": [
+    {
+      "true": "late_blight",
+      "predicted": "leaf_miner",
+      "count": 52
+    },
+    {
+      "true": "late_blight",
+      "predicted": "leaf_curl",
+      "count": 29
+    },
+    {
+      "true": "late_blight",
+      "predicted": "target_leaf_spot",
+      "count": 13
+    },
+    {
+      "true": "white_fly",
+      "predicted": "aphid",
+      "count": 7
+    },
+    {
+      "true": "healthy_leaf",
+      "predicted": "aphid",
+      "count": 3
+    },
+    {
+      "true": "target_leaf_spot",
+      "predicted": "leaf_miner",
+      "count": 3
+    },
+    {
+      "true": "early_blight_fruit",
+      "predicted": "fruit_borer",
+      "count": 2
+    },
+    {
+      "true": "late_blight",
+      "predicted": "aphid",
+      "count": 2
+    },
+    {
+      "true": "leaf_curl",
+      "predicted": "healthy_leaf",
+      "count": 2
+    },
+    {
+      "true": "leaf_curl",
+      "predicted": "leaf_miner",
+      "count": 2
+    }
+  ]
+}

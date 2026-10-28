@@ -1,0 +1,651 @@
+{
+  "schema_version": "1.0.0",
+  "template_set_version": "T1",
+  "description": "Caption templates: syntax only, no disease knowledge. Slots name concept ids (plantdx.core.enums.ConceptId). Segment kinds: {lit} literal text, {slot} required concept, {opt,glue} optional concept (dropped if unselected), {list,conj} Oxford-comma list of selected concepts. Families mirror caption_framework/02_template_spec.md; the Caption Generator normalizes whitespace/punctuation/articles/capitalization so dropping any optional slot stays grammatical.",
+  "families": [
+    "short",
+    "single_sentence",
+    "two_sentence",
+    "clinical",
+    "descriptive",
+    "educational",
+    "dense",
+    "long"
+  ],
+  "templates": [
+    {
+      "id": "T-S-01",
+      "family": "short",
+      "register": "visual",
+      "length_band": "short",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["primary_sign", "host"],
+      "optional": [],
+      "segments": [
+        {"slot": "primary_sign"},
+        {"lit": " on a "},
+        {"slot": "host"},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-S-02",
+      "family": "short",
+      "register": "visual",
+      "length_band": "short",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["host", "disease_identity"],
+      "optional": [],
+      "segments": [
+        {"lit": "A "},
+        {"slot": "host"},
+        {"lit": " with "},
+        {"slot": "disease_identity"},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-S-03",
+      "family": "short",
+      "register": "visual",
+      "length_band": "short",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["primary_sign"],
+      "optional": ["extent", "leaf_location"],
+      "segments": [
+        {"opt": "extent", "glue": ""},
+        {"lit": " "},
+        {"slot": "primary_sign"},
+        {"opt": "leaf_location", "glue": " on the "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-S-04",
+      "family": "short",
+      "register": "visual",
+      "length_band": "short",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["disease_identity", "primary_sign"],
+      "optional": [],
+      "segments": [
+        {"slot": "disease_identity"},
+        {"lit": ": "},
+        {"slot": "primary_sign"},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-S-05",
+      "family": "short",
+      "register": "visual",
+      "length_band": "short",
+      "hedged": false,
+      "sign_type_allow": ["healthy"],
+      "required": ["host", "healthy_state"],
+      "optional": [],
+      "segments": [
+        {"lit": "A healthy "},
+        {"slot": "host"},
+        {"lit": " with "},
+        {"slot": "healthy_state"},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-SS-01",
+      "family": "single_sentence",
+      "register": "descriptive",
+      "length_band": "short",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["host", "disease_identity", "primary_sign"],
+      "optional": ["leaf_location"],
+      "segments": [
+        {"lit": "This "},
+        {"slot": "host"},
+        {"lit": " is affected by "},
+        {"slot": "disease_identity"},
+        {"lit": ", showing "},
+        {"slot": "primary_sign"},
+        {"opt": "leaf_location", "glue": " on the "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-SS-02",
+      "family": "single_sentence",
+      "register": "descriptive",
+      "length_band": "medium",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["host", "primary_sign", "disease_identity"],
+      "optional": ["chlorosis"],
+      "segments": [
+        {"lit": "The "},
+        {"slot": "host"},
+        {"lit": " exhibits "},
+        {"slot": "primary_sign"},
+        {"opt": "chlorosis", "glue": ", with "},
+        {"lit": ", consistent with "},
+        {"slot": "disease_identity"},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-SS-03",
+      "family": "single_sentence",
+      "register": "visual",
+      "length_band": "short",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["disease_identity", "primary_sign"],
+      "optional": ["extent"],
+      "segments": [
+        {"lit": "Signs of "},
+        {"slot": "disease_identity"},
+        {"lit": " are present, marked by "},
+        {"opt": "extent", "glue": ""},
+        {"lit": " "},
+        {"slot": "primary_sign"},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-SS-04",
+      "family": "single_sentence",
+      "register": "descriptive",
+      "length_band": "medium",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["disease_identity", "primary_sign", "host"],
+      "optional": ["lesion_distribution"],
+      "segments": [
+        {"lit": "Symptoms of "},
+        {"slot": "disease_identity"},
+        {"lit": " appear on this "},
+        {"slot": "host"},
+        {"lit": " as "},
+        {"slot": "primary_sign"},
+        {"opt": "lesion_distribution", "glue": ", "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-SS-05",
+      "family": "single_sentence",
+      "register": "clinical",
+      "length_band": "medium",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["host", "disease_identity", "primary_sign"],
+      "optional": ["agent_category_descriptor"],
+      "segments": [
+        {"lit": "This "},
+        {"slot": "host"},
+        {"lit": " shows "},
+        {"slot": "disease_identity"},
+        {"opt": "agent_category_descriptor", "glue": ", "},
+        {"lit": ", producing "},
+        {"slot": "primary_sign"},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-SS-06",
+      "family": "single_sentence",
+      "register": "descriptive",
+      "length_band": "short",
+      "hedged": false,
+      "sign_type_allow": ["healthy"],
+      "required": ["host", "healthy_state"],
+      "optional": [],
+      "segments": [
+        {"lit": "This "},
+        {"slot": "host"},
+        {"lit": " appears healthy, with "},
+        {"slot": "healthy_state"},
+        {"lit": " and no visible symptoms."}
+      ]
+    },
+    {
+      "id": "T-TS-01",
+      "family": "two_sentence",
+      "register": "descriptive",
+      "length_band": "medium",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["host", "disease_identity", "primary_sign"],
+      "optional": ["leaf_location", "chlorosis"],
+      "segments": [
+        {"lit": "This is a "},
+        {"slot": "host"},
+        {"lit": " affected by "},
+        {"slot": "disease_identity"},
+        {"lit": ". "},
+        {"slot": "primary_sign"},
+        {"lit": " can be seen"},
+        {"opt": "leaf_location", "glue": " on the "},
+        {"opt": "chlorosis", "glue": ", with "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-TS-02",
+      "family": "two_sentence",
+      "register": "descriptive",
+      "length_band": "medium",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["host", "disease_identity", "primary_sign"],
+      "optional": ["extent", "lesion_distribution"],
+      "segments": [
+        {"lit": "The "},
+        {"slot": "host"},
+        {"lit": " shows "},
+        {"slot": "disease_identity"},
+        {"lit": ". "},
+        {"opt": "extent", "glue": ""},
+        {"lit": " "},
+        {"slot": "primary_sign"},
+        {"opt": "lesion_distribution", "glue": ", "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-TS-03",
+      "family": "two_sentence",
+      "register": "descriptive",
+      "length_band": "medium",
+      "hedged": true,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["host", "disease_identity", "primary_sign"],
+      "optional": ["secondary_sign"],
+      "segments": [
+        {"lit": "This "},
+        {"slot": "host"},
+        {"lit": " shows "},
+        {"slot": "disease_identity"},
+        {"lit": ". "},
+        {"slot": "primary_sign"},
+        {"lit": " can be seen"},
+        {"opt": "secondary_sign", "glue": ", and the leaf may later develop "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-TS-04",
+      "family": "two_sentence",
+      "register": "descriptive",
+      "length_band": "medium",
+      "hedged": false,
+      "sign_type_allow": ["healthy"],
+      "required": ["host", "healthy_state"],
+      "optional": [],
+      "segments": [
+        {"lit": "This "},
+        {"slot": "host"},
+        {"lit": " is healthy. It has "},
+        {"slot": "healthy_state"},
+        {"lit": ", with no lesions, discoloration, or deformation."}
+      ]
+    },
+    {
+      "id": "T-CL-01",
+      "family": "clinical",
+      "register": "clinical",
+      "length_band": "medium",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["disease_identity", "primary_sign"],
+      "optional": ["agent_reference", "lesion_distribution"],
+      "segments": [
+        {"lit": "Diagnosis: "},
+        {"slot": "disease_identity"},
+        {"opt": "agent_reference", "glue": " (", "suffix": ")"},
+        {"lit": ". Findings: "},
+        {"slot": "primary_sign"},
+        {"opt": "lesion_distribution", "glue": "; "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-CL-02",
+      "family": "clinical",
+      "register": "clinical",
+      "length_band": "medium",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["host", "disease_identity", "primary_sign"],
+      "optional": ["leaf_location", "chlorosis"],
+      "segments": [
+        {"slot": "host"},
+        {"lit": ", "},
+        {"slot": "disease_identity"},
+        {"lit": ". "},
+        {"slot": "primary_sign"},
+        {"opt": "leaf_location", "glue": "; on the "},
+        {"opt": "chlorosis", "glue": "; "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-CL-03",
+      "family": "clinical",
+      "register": "clinical",
+      "length_band": "medium",
+      "hedged": false,
+      "sign_type_allow": ["healthy"],
+      "required": ["host", "healthy_state"],
+      "optional": [],
+      "segments": [
+        {"slot": "host"},
+        {"lit": ", no pathology. "},
+        {"slot": "healthy_state"},
+        {"lit": "; margins intact."}
+      ]
+    },
+    {
+      "id": "T-DS-01",
+      "family": "descriptive",
+      "register": "descriptive",
+      "length_band": "medium",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["host", "disease_identity", "primary_sign"],
+      "optional": ["leaf_location"],
+      "segments": [
+        {"lit": "Looking at this "},
+        {"slot": "host"},
+        {"lit": ", "},
+        {"slot": "disease_identity"},
+        {"lit": " is evident from "},
+        {"slot": "primary_sign"},
+        {"opt": "leaf_location", "glue": " on the "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-DS-02",
+      "family": "descriptive",
+      "register": "descriptive",
+      "length_band": "long",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling"],
+      "required": ["host", "disease_identity", "primary_sign"],
+      "optional": ["lesion_color", "lesion_shape", "texture", "extent"],
+      "segments": [
+        {"lit": "The "},
+        {"slot": "host"},
+        {"lit": " is affected by "},
+        {"slot": "disease_identity"},
+        {"lit": ", recognizable by "},
+        {"slot": "primary_sign"},
+        {"list": ["lesion_color", "lesion_shape", "texture", "extent"], "glue": ", ", "conj": "and"},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-DS-03",
+      "family": "descriptive",
+      "register": "descriptive",
+      "length_band": "medium",
+      "hedged": false,
+      "sign_type_allow": ["cut", "gall", "stippling", "deformation"],
+      "required": ["host", "disease_identity", "primary_sign"],
+      "optional": ["leaf_location", "agent_category_descriptor"],
+      "segments": [
+        {"lit": "This "},
+        {"slot": "host"},
+        {"lit": " has been damaged by "},
+        {"slot": "disease_identity"},
+        {"opt": "agent_category_descriptor", "glue": ", "},
+        {"lit": ", leaving "},
+        {"slot": "primary_sign"},
+        {"opt": "leaf_location", "glue": " along the "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-DS-04",
+      "family": "descriptive",
+      "register": "descriptive",
+      "length_band": "long",
+      "hedged": false,
+      "sign_type_allow": ["healthy"],
+      "required": ["host", "healthy_state"],
+      "optional": [],
+      "segments": [
+        {"lit": "This "},
+        {"slot": "host"},
+        {"lit": " looks healthy and vigorous, with "},
+        {"slot": "healthy_state"},
+        {"lit": " and no signs of disease or pests."}
+      ]
+    },
+    {
+      "id": "T-ED-01",
+      "family": "educational",
+      "register": "educational",
+      "length_band": "long",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["host", "disease_identity", "primary_sign", "differential"],
+      "optional": [],
+      "segments": [
+        {"lit": "This "},
+        {"slot": "host"},
+        {"lit": " shows "},
+        {"slot": "disease_identity"},
+        {"lit": ". The diagnostic sign is "},
+        {"slot": "primary_sign"},
+        {"lit": ", which helps distinguish it from "},
+        {"slot": "differential"},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-ED-02",
+      "family": "educational",
+      "register": "educational",
+      "length_band": "long",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["disease_identity", "host", "primary_sign", "differential"],
+      "optional": [],
+      "segments": [
+        {"slot": "disease_identity"},
+        {"lit": " can be identified on this "},
+        {"slot": "host"},
+        {"lit": " by "},
+        {"slot": "primary_sign"},
+        {"lit": ", unlike "},
+        {"slot": "differential"},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-ED-03",
+      "family": "educational",
+      "register": "educational",
+      "length_band": "long",
+      "hedged": true,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["host", "disease_identity", "primary_sign"],
+      "optional": ["secondary_sign", "differential"],
+      "segments": [
+        {"lit": "On this "},
+        {"slot": "host"},
+        {"lit": ", "},
+        {"slot": "disease_identity"},
+        {"lit": " presents as "},
+        {"slot": "primary_sign"},
+        {"opt": "secondary_sign", "glue": ", and may later show "},
+        {"opt": "differential", "glue": "; this differs from "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-DN-01",
+      "family": "dense",
+      "register": "descriptive",
+      "length_band": "long",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling"],
+      "required": ["host", "disease_identity", "primary_sign"],
+      "optional": ["lesion_color", "lesion_shape", "texture", "extent", "lesion_distribution", "chlorosis", "necrosis"],
+      "segments": [
+        {"lit": "This "},
+        {"slot": "host"},
+        {"lit": " is affected by "},
+        {"slot": "disease_identity"},
+        {"lit": ", showing "},
+        {"slot": "primary_sign"},
+        {"list": ["lesion_color", "lesion_shape", "texture"], "glue": ", ", "conj": "and"},
+        {"opt": "lesion_distribution", "glue": ", distributed "},
+        {"opt": "chlorosis", "glue": ", with "},
+        {"opt": "necrosis", "glue": " and "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-DN-02",
+      "family": "dense",
+      "register": "clinical",
+      "length_band": "long",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "deformation", "mottle"],
+      "required": ["host", "disease_identity", "primary_sign"],
+      "optional": ["leaf_location", "extent", "chlorosis", "necrosis"],
+      "segments": [
+        {"slot": "disease_identity"},
+        {"lit": " on this "},
+        {"slot": "host"},
+        {"lit": ": "},
+        {"opt": "extent", "glue": ""},
+        {"lit": " "},
+        {"slot": "primary_sign"},
+        {"opt": "leaf_location", "glue": " on the "},
+        {"opt": "chlorosis", "glue": ", accompanied by "},
+        {"opt": "necrosis", "glue": " and "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-LN-01",
+      "family": "long",
+      "register": "descriptive",
+      "length_band": "long",
+      "hedged": false,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["host", "disease_identity", "primary_sign"],
+      "optional": ["leaf_location", "extent", "chlorosis"],
+      "segments": [
+        {"lit": "This is a "},
+        {"slot": "host"},
+        {"lit": ". It is affected by "},
+        {"slot": "disease_identity"},
+        {"lit": ", evident from "},
+        {"slot": "primary_sign"},
+        {"opt": "leaf_location", "glue": " on the "},
+        {"lit": ". "},
+        {"opt": "extent", "glue": ""},
+        {"lit": " signs are present"},
+        {"opt": "chlorosis", "glue": ", with "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-LN-02",
+      "family": "long",
+      "register": "educational",
+      "length_band": "long",
+      "hedged": true,
+      "sign_type_allow": ["lesion", "coating", "gall", "stippling", "cut", "deformation", "mottle"],
+      "required": ["host", "disease_identity", "primary_sign"],
+      "optional": ["secondary_sign", "differential"],
+      "segments": [
+        {"lit": "Here is a "},
+        {"slot": "host"},
+        {"lit": " displaying "},
+        {"slot": "disease_identity"},
+        {"lit": ". Characteristic signs include "},
+        {"slot": "primary_sign"},
+        {"opt": "secondary_sign", "glue": ". The leaf may also develop "},
+        {"opt": "differential", "glue": ". This can be told apart from "},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-LN-03",
+      "family": "long",
+      "register": "descriptive",
+      "length_band": "long",
+      "hedged": false,
+      "sign_type_allow": ["healthy"],
+      "required": ["host", "healthy_state"],
+      "optional": [],
+      "segments": [
+        {"lit": "This is a "},
+        {"slot": "host"},
+        {"lit": ". The leaf appears healthy, with "},
+        {"slot": "healthy_state"},
+        {"lit": ". No lesions, discoloration, coatings, galls, or deformation are present."}
+      ]
+    },
+    {
+      "id": "T-S-06",
+      "family": "short",
+      "register": "visual",
+      "length_band": "short",
+      "hedged": false,
+      "sign_type_allow": ["healthy"],
+      "required": ["host", "healthy_state"],
+      "optional": [],
+      "segments": [
+        {"slot": "healthy_state"},
+        {"lit": " on a healthy "},
+        {"slot": "host"},
+        {"lit": "."}
+      ]
+    },
+    {
+      "id": "T-SS-07",
+      "family": "single_sentence",
+      "register": "descriptive",
+      "length_band": "medium",
+      "hedged": false,
+      "sign_type_allow": ["healthy"],
+      "required": ["host", "healthy_state"],
+      "optional": [],
+      "segments": [
+        {"lit": "The "},
+        {"slot": "host"},
+        {"lit": " shows "},
+        {"slot": "healthy_state"},
+        {"lit": ", with no visible signs of disease."}
+      ]
+    },
+    {
+      "id": "T-DS-05",
+      "family": "descriptive",
+      "register": "descriptive",
+      "length_band": "long",
+      "hedged": false,
+      "sign_type_allow": ["healthy"],
+      "required": ["host", "healthy_state"],
+      "optional": [],
+      "segments": [
+        {"lit": "A vigorous "},
+        {"slot": "host"},
+        {"lit": " with "},
+        {"slot": "healthy_state"},
+        {"lit": " and an absence of lesions, chlorosis, or necrosis."}
+      ]
+    }
+  ]
+}

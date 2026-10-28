@@ -1,0 +1,177 @@
+image,ground_truth_label,ground_truth_class_id,predicted_label,predicted_class_id,confidence,latency_seconds,generated
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1786101110.jpg,Aphid,aphid,Aphid,aphid,0.9661,0.669,Aphid
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1785912061.jpg,Early Blight Fruit,early_blight_fruit,Early Blight Fruit,early_blight_fruit,0.9989,0.324,Early Blight Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1785912054.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,1.0,0.326,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1785912329.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.9957,0.247,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1785906631.jpg,Late Blight,late_blight,Target Leaf Spot,target_leaf_spot,0.9955,0.397,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1785860481.jpg,Leaf Curl,leaf_curl,Leaf Curl,leaf_curl,0.9999,0.354,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1786436582.jpg,Leaf Miner,leaf_miner,Leaf Miner,leaf_miner,0.9996,0.353,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Mealy_bugs\tomato__1786885112.jpg,Mealy Bugs,mealy_bugs,Mealy Bugs,mealy_bugs,0.9953,0.393,Mealy Bugs
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786010439.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9994,0.397,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\White_Fly\tomato__1785908127.jpg,White Fly,white_fly,White Fly,white_fly,0.985,0.355,White Fly
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1786162364.jpg,Aphid,aphid,Aphid,aphid,0.9278,0.395,Aphid
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1785915680.jpg,Early Blight Fruit,early_blight_fruit,Fruit Borer,fruit_borer,0.9847,0.432,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1785915637.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,0.9999,0.432,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1785999812.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.9995,0.354,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1785907023.jpg,Late Blight,late_blight,Late Blight,late_blight,0.915,0.395,Late Blight
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1785865418.jpg,Leaf Curl,leaf_curl,Leaf Curl,leaf_curl,0.9999,0.353,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1786438550.jpg,Leaf Miner,leaf_miner,Target Leaf Spot,target_leaf_spot,0.8592,0.393,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Mealy_bugs\tomato__1787506298.jpg,Mealy Bugs,mealy_bugs,Mealy Bugs,mealy_bugs,0.9997,0.371,Mealy Bugs
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786358376.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9996,0.397,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\White_Fly\tomato__1786439835.jpg,White Fly,white_fly,Late Blight,late_blight,0.9898,0.396,Late Blight
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1786162369.jpg,Aphid,aphid,Fruit Borer,fruit_borer,0.9976,0.432,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1785915785.jpg,Early Blight Fruit,early_blight_fruit,Early Blight Fruit,early_blight_fruit,0.998,0.431,Early Blight Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1785917336.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,0.9999,0.436,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1786014938.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.9993,0.354,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1785908003.jpg,Late Blight,late_blight,Target Leaf Spot,target_leaf_spot,0.9341,0.543,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1785932298.jpg,Leaf Curl,leaf_curl,Leaf Curl,leaf_curl,0.9999,0.325,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1786439413.jpg,Leaf Miner,leaf_miner,Leaf Miner,leaf_miner,0.9997,0.353,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Mealy_bugs\tomato__1787688381.jpg,Mealy Bugs,mealy_bugs,Mealy Bugs,mealy_bugs,0.9998,0.366,Mealy Bugs
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786422451.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9997,0.398,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\White_Fly\tomato__1786453683.jpg,White Fly,white_fly,Fruit Borer,fruit_borer,0.979,0.435,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1786162370.jpg,Aphid,aphid,Fruit Borer,fruit_borer,0.9996,0.432,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1785915833.jpg,Early Blight Fruit,early_blight_fruit,Early Blight Fruit,early_blight_fruit,0.9998,0.437,Early Blight Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786003975.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,0.9992,0.434,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1786082494.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.9997,0.353,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1785911578.jpg,Late Blight,late_blight,Target Leaf Spot,target_leaf_spot,0.9991,0.396,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786081961.jpg,Leaf Curl,leaf_curl,Leaf Curl,leaf_curl,0.9999,0.351,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1786517840.jpg,Leaf Miner,leaf_miner,Leaf Miner,leaf_miner,0.9999,0.353,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Mealy_bugs\tomato__1788012664.jpg,Mealy Bugs,mealy_bugs,Mealy Bugs,mealy_bugs,0.9995,0.389,Mealy Bugs
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786422452.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9996,0.435,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\White_Fly\tomato__1787287473.jpg,White Fly,white_fly,White Fly,white_fly,0.9994,0.355,White Fly
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1786162383.jpg,Aphid,aphid,Aphid,aphid,0.9994,0.397,Aphid
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1785988399.jpg,Early Blight Fruit,early_blight_fruit,Early Blight Fruit,early_blight_fruit,0.9438,0.433,Early Blight Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786005080.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,0.9999,0.434,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1786087994.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.971,0.349,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1785917329.jpg,Late Blight,late_blight,Target Leaf Spot,target_leaf_spot,0.9995,0.394,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786103213.jpg,Leaf Curl,leaf_curl,Late Blight,late_blight,0.8417,0.393,Late Blight
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1786526717.jpg,Leaf Miner,leaf_miner,Leaf Miner,leaf_miner,0.9999,0.247,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Mealy_bugs\tomato__1788152278.jpg,Mealy Bugs,mealy_bugs,Mealy Bugs,mealy_bugs,0.9997,0.395,Mealy Bugs
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786422460.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9996,0.394,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\White_Fly\tomato__1787295030.jpg,White Fly,white_fly,White Fly,white_fly,0.9985,0.243,White Fly
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1786170109.jpg,Aphid,aphid,Fruit Borer,fruit_borer,0.9867,0.329,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1786036883.jpg,Early Blight Fruit,early_blight_fruit,Target Leaf Spot,target_leaf_spot,0.9242,0.427,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786010447.jpg,Fruit Borer,fruit_borer,Target Leaf Spot,target_leaf_spot,0.9996,0.393,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1786087995.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.9995,0.352,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1785995194.jpg,Late Blight,late_blight,Late Blight,late_blight,0.9917,0.39,Late Blight
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786105978.jpg,Leaf Curl,leaf_curl,Leaf Curl,leaf_curl,0.9545,0.356,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1786585817.jpg,Leaf Miner,leaf_miner,Leaf Miner,leaf_miner,0.9999,0.354,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Mealy_bugs\tomato__1788155428.jpg,Mealy Bugs,mealy_bugs,Mealy Bugs,mealy_bugs,0.9992,0.364,Mealy Bugs
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786422462.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9996,0.364,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\White_Fly\tomato__1787369727.jpg,White Fly,white_fly,White Fly,white_fly,0.9993,0.35,White Fly
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1786439893.jpg,Aphid,aphid,Mealy Bugs,mealy_bugs,0.9997,0.395,Mealy Bugs
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1786088006.jpg,Early Blight Fruit,early_blight_fruit,Early Blight Fruit,early_blight_fruit,0.9915,0.437,Early Blight Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786091303.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,0.9999,0.402,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1786279085.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.802,0.353,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1786097881.jpg,Late Blight,late_blight,Leaf Curl,leaf_curl,0.8946,0.355,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786170635.jpg,Leaf Curl,leaf_curl,Leaf Curl,leaf_curl,0.9958,0.329,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1786605482.jpg,Leaf Miner,leaf_miner,Leaf Miner,leaf_miner,0.9998,0.355,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Mealy_bugs\tomato__1788167027.jpg,Mealy Bugs,mealy_bugs,Mealy Bugs,mealy_bugs,0.9998,0.365,Mealy Bugs
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786424574.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9988,0.395,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\White_Fly\tomato__1787492692.jpg,White Fly,white_fly,White Fly,white_fly,0.9357,0.328,White Fly
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1786607032.jpg,Aphid,aphid,Late Blight,late_blight,0.9953,0.392,Late Blight
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1786107011.jpg,Early Blight Fruit,early_blight_fruit,Early Blight Fruit,early_blight_fruit,0.9879,0.434,Early Blight Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786172006.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,1.0,0.438,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1786279086.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.9995,0.35,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1786099640.jpg,Late Blight,late_blight,Leaf Miner,leaf_miner,0.9998,0.351,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786259247.jpg,Leaf Curl,leaf_curl,Healthy Leaf,healthy_leaf,0.9694,0.325,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1786686327.jpg,Leaf Miner,leaf_miner,Leaf Miner,leaf_miner,0.9999,0.322,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786424705.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9985,0.391,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\White_Fly\tomato__1787574922.jpg,White Fly,white_fly,White Fly,white_fly,0.9989,0.354,White Fly
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1786685135.jpg,Aphid,aphid,Aphid,aphid,1.0,0.393,Aphid
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1786277272.jpg,Early Blight Fruit,early_blight_fruit,Early Blight Fruit,early_blight_fruit,0.9994,0.436,Early Blight Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786172738.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,0.9967,0.438,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1786425541.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.9983,0.351,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1786099802.jpg,Late Blight,late_blight,Leaf Miner,leaf_miner,0.9873,0.354,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786277692.jpg,Leaf Curl,leaf_curl,Leaf Curl,leaf_curl,0.9994,0.353,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1787036464.jpg,Leaf Miner,leaf_miner,Leaf Miner,leaf_miner,0.9955,0.328,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786430744.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9971,0.39,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\White_Fly\tomato__1787650138.jpg,White Fly,white_fly,White Fly,white_fly,0.9995,0.247,White Fly
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1786697267.jpg,Aphid,aphid,Aphid,aphid,1.0,0.39,Aphid
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1786428702.jpg,Early Blight Fruit,early_blight_fruit,Early Blight Fruit,early_blight_fruit,0.9999,0.433,Early Blight Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786183572.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,0.9995,0.431,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1786426955.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.9996,0.352,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1786099813.jpg,Late Blight,late_blight,Leaf Curl,leaf_curl,0.8135,0.359,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786284716.jpg,Leaf Curl,leaf_curl,Leaf Curl,leaf_curl,0.8835,0.247,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1787042243.jpg,Leaf Miner,leaf_miner,Leaf Miner,leaf_miner,0.9386,0.24,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786433854.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9996,0.394,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\White_Fly\tomato__1787850953.jpg,White Fly,white_fly,White Fly,white_fly,0.9997,0.353,White Fly
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1786875757.jpg,Aphid,aphid,Aphid,aphid,1.0,0.399,Aphid
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1786430743.jpg,Early Blight Fruit,early_blight_fruit,Early Blight Fruit,early_blight_fruit,0.9997,0.433,Early Blight Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786191861.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,1.0,0.433,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1786430316.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.9994,0.355,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1786099818.jpg,Late Blight,late_blight,Target Leaf Spot,target_leaf_spot,0.9102,0.394,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786341167.jpg,Leaf Curl,leaf_curl,Leaf Curl,leaf_curl,1.0,0.354,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1787049794.jpg,Leaf Miner,leaf_miner,Target Leaf Spot,target_leaf_spot,0.8854,0.394,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786443192.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9997,0.402,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\White_Fly\tomato__1787903369.jpg,White Fly,white_fly,White Fly,white_fly,0.9994,0.356,White Fly
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1787135451.jpg,Aphid,aphid,Aphid,aphid,0.9998,0.396,Aphid
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1786437768.jpg,Early Blight Fruit,early_blight_fruit,Early Blight Fruit,early_blight_fruit,0.9995,0.436,Early Blight Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786191863.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,1.0,0.429,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1786430727.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.9995,0.351,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1786099823.jpg,Late Blight,late_blight,Target Leaf Spot,target_leaf_spot,0.9709,0.393,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786358373.jpg,Leaf Curl,leaf_curl,Late Blight,late_blight,0.9974,0.391,Late Blight
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1787066004.jpg,Leaf Miner,leaf_miner,Leaf Curl,leaf_curl,0.902,0.246,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786518433.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9997,0.397,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\White_Fly\tomato__1787903370.jpg,White Fly,white_fly,White Fly,white_fly,0.9995,0.357,White Fly
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1787208319.jpg,Aphid,aphid,Aphid,aphid,0.9997,0.391,Aphid
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1786530711.jpg,Early Blight Fruit,early_blight_fruit,Early Blight Fruit,early_blight_fruit,0.9999,0.435,Early Blight Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786377331.jpg,Fruit Borer,fruit_borer,Leaf Curl,leaf_curl,0.9965,0.352,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1786433748.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.9995,0.353,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1786099828.jpg,Late Blight,late_blight,Leaf Curl,leaf_curl,0.8071,0.354,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786375102.jpg,Leaf Curl,leaf_curl,Leaf Curl,leaf_curl,0.9916,0.352,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1787121129.jpg,Leaf Miner,leaf_miner,Leaf Miner,leaf_miner,0.9954,0.349,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786518435.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9995,0.396,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\White_Fly\tomato__1787974271.jpg,White Fly,white_fly,White Fly,white_fly,0.9995,0.356,White Fly
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1787208538.jpg,Aphid,aphid,Aphid,aphid,1.0,0.392,Aphid
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1786608242.jpg,Early Blight Fruit,early_blight_fruit,Healthy Fruit,healthy_fruit,0.998,0.351,Healthy Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786425811.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,0.9756,0.432,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1786443453.jpg,Healthy Leaf,healthy_leaf,Healthy Fruit,healthy_fruit,0.855,0.354,Healthy Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1786099841.jpg,Late Blight,late_blight,Target Leaf Spot,target_leaf_spot,0.9122,0.393,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786418325.jpg,Leaf Curl,leaf_curl,Leaf Curl,leaf_curl,0.9999,0.325,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1787127540.jpg,Leaf Miner,leaf_miner,Leaf Miner,leaf_miner,0.9992,0.352,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786526475.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9992,0.392,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1787208690.jpg,Aphid,aphid,Aphid,aphid,1.0,0.398,Aphid
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1786612335.jpg,Early Blight Fruit,early_blight_fruit,Early Blight Fruit,early_blight_fruit,0.9999,0.425,Early Blight Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786428704.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,1.0,0.438,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1786533527.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.9994,0.246,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1786347066.jpg,Late Blight,late_blight,Leaf Curl,leaf_curl,0.9946,0.366,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786426601.jpg,Leaf Curl,leaf_curl,Healthy Leaf,healthy_leaf,0.9324,0.245,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1787127989.jpg,Leaf Miner,leaf_miner,Target Leaf Spot,target_leaf_spot,0.8652,0.395,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786530223.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9996,0.397,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1787243251.jpg,Aphid,aphid,Aphid,aphid,0.943,0.365,Aphid
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1786680543.jpg,Early Blight Fruit,early_blight_fruit,Early Blight Fruit,early_blight_fruit,0.9977,0.433,Early Blight Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786428946.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,0.9998,0.329,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1786694351.jpg,Healthy Leaf,healthy_leaf,Healthy Fruit,healthy_fruit,0.9822,0.361,Healthy Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1786347736.jpg,Late Blight,late_blight,Leaf Curl,leaf_curl,0.9952,0.328,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786428782.jpg,Leaf Curl,leaf_curl,Leaf Curl,leaf_curl,0.8638,0.351,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1787208232.jpg,Leaf Miner,leaf_miner,Late Blight,late_blight,0.8745,0.393,Late Blight
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786530224.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9997,0.394,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1787127463.jpg,Early Blight Fruit,early_blight_fruit,Target Leaf Spot,target_leaf_spot,0.9979,0.398,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786430740.jpg,Fruit Borer,fruit_borer,Target Leaf Spot,target_leaf_spot,0.9991,0.396,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1787118738.jpg,Healthy Leaf,healthy_leaf,Healthy Leaf,healthy_leaf,0.8727,0.35,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1786348586.jpg,Late Blight,late_blight,Target Leaf Spot,target_leaf_spot,0.9904,0.368,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786439425.jpg,Leaf Curl,leaf_curl,Healthy Leaf,healthy_leaf,0.9999,0.354,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1787212191.jpg,Leaf Miner,leaf_miner,Leaf Miner,leaf_miner,0.9957,0.251,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786538174.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9997,0.394,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1787487808.jpg,Early Blight Fruit,early_blight_fruit,Healthy Fruit,healthy_fruit,0.944,0.237,Healthy Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786430800.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,0.9958,0.433,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1787126978.jpg,Healthy Leaf,healthy_leaf,Healthy Fruit,healthy_fruit,0.9898,0.355,Healthy Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1786614362.jpg,Late Blight,late_blight,Target Leaf Spot,target_leaf_spot,0.9991,0.397,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1786440402.jpg,Leaf Curl,leaf_curl,Healthy Leaf,healthy_leaf,0.9974,0.324,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1787220575.jpg,Leaf Miner,leaf_miner,Late Blight,late_blight,0.9438,0.365,Late Blight
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786539660.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9994,0.39,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1787638872.jpg,Early Blight Fruit,early_blight_fruit,Fruit Borer,fruit_borer,0.9999,0.326,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1786436446.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,0.9987,0.434,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1787987337.jpg,Healthy Leaf,healthy_leaf,Healthy Fruit,healthy_fruit,0.9851,0.248,Healthy Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1787200802.jpg,Late Blight,late_blight,Target Leaf Spot,target_leaf_spot,0.9995,0.431,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1787043944.jpg,Leaf Curl,leaf_curl,Healthy Leaf,healthy_leaf,0.9352,0.324,Healthy Leaf
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1787228028.jpg,Leaf Miner,leaf_miner,Leaf Miner,leaf_miner,0.9996,0.247,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786556091.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9996,0.397,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1787639328.jpg,Early Blight Fruit,early_blight_fruit,Fruit Borer,fruit_borer,1.0,0.433,Fruit Borer
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1788160630.jpg,Fruit Borer,fruit_borer,Target Leaf Spot,target_leaf_spot,0.9991,0.389,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Healthy\tomato__1788061768.jpg,Healthy Leaf,healthy_leaf,Healthy Fruit,healthy_fruit,0.8452,0.324,Healthy Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Late_Blight\tomato__1787399863.jpg,Late Blight,late_blight,Target Leaf Spot,target_leaf_spot,0.996,0.395,Target Leaf Spot
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Curl\tomato__1787211365.jpg,Leaf Curl,leaf_curl,Leaf Curl,leaf_curl,0.9999,0.352,Leaf Curl
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Leaf_Miner\tomato__1787317421.jpg,Leaf Miner,leaf_miner,Leaf Miner,leaf_miner,0.9999,0.249,Leaf Miner
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Target_Leaf_Spot\tomato__1786607345.jpg,Target Leaf Spot,target_leaf_spot,Target Leaf Spot,target_leaf_spot,0.9771,0.281,Target Leaf Spot

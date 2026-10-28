@@ -1,0 +1,35 @@
+{
+  "n_samples": 200,
+  "caption": {
+    "bleu1": 0.5669680705765704,
+    "bleu4": 0.3863940202666532,
+    "rougeL": 0.5347274165030472
+  },
+  "classification": {
+    "accuracy": 0.98,
+    "macro_f1": 0.9776742081447963,
+    "precision": 0.9865934065934067,
+    "recall": 0.9714285714285715,
+    "per_class_f1": {
+      "Bacterial Spot": 1.0,
+      "Early Blight": 0.9230769230769231,
+      "Healthy": 1.0,
+      "Late Blight": 0.9705882352941176,
+      "Leaf Mold": 1.0,
+      "Mosaic Virus": 1.0,
+      "Septoria Leaf Spot": 1.0,
+      "Spider Mite Damage": 0.96,
+      "Target Spot": 0.9230769230769231,
+      "Tomato YellowLeaf Curl Virus": 1.0
+    }
+  },
+  "severity": {
+    "r2": 0.9661576208807479,
+    "mae": 0.04
+  },
+  "clip": {
+    "mean": 0.9223293027281761,
+    "median": 0.9316816329956055,
+    "std": 0.04857646586781258
+  }
+}

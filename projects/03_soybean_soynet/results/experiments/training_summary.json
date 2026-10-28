@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-01-27T16:28:22.527775",
+  "models_trained": [
+    "resnet50",
+    "efficientnet_b0",
+    "efficientnet_b3",
+    "mobilenetv2"
+  ],
+  "dataset_info": {
+    "num_classes": 2,
+    "class_names": [
+      "Disease_Preprocessing data",
+      "Healthy_Preprocessing data"
+    ],
+    "class_to_idx": {
+      "Disease_Preprocessing data": 0,
+      "Healthy_Preprocessing data": 1
+    },
+    "train_size": 2603,
+    "val_size": 557,
+    "test_size": 560,
+    "class_weights": [
+      0.587850034236908,
+      3.3457584381103516
+    ]
+  },
+  "results": {
+    "resnet50": {
+      "accuracy": 0.9160714285714285,
+      "f1_score": 0.7813953488372093,
+      "roc_auc": 0.9865821328531413,
+      "output_dir": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\resnet50"
+    },
+    "efficientnet_b0": {
+      "accuracy": 0.9339285714285714,
+      "f1_score": 0.8195121951219512,
+      "roc_auc": 0.9896583633453382,
+      "output_dir": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\efficientnet_b0"
+    },
+    "efficientnet_b3": {
+      "accuracy": 0.9392857142857143,
+      "f1_score": 0.8316831683168316,
+      "roc_auc": 0.9874824929971988,
+      "output_dir": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\efficientnet_b3"
+    },
+    "mobilenetv2": {
+      "accuracy": 0.925,
+      "f1_score": 0.8,
+      "roc_auc": 0.9889330732292917,
+      "output_dir": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\mobilenetv2"
+    }
+  }
+}

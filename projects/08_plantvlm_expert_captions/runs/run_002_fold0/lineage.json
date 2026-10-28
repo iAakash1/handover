@@ -1,0 +1,150 @@
+{
+  "run": "run_002_fold0",
+  "created": "2026-08-05T07:39:52+00:00",
+  "config_file": "C:\\Users\\Admin\\Desktop\\VLM\\newpipe\\configs\\qwen25vl_lora_tomato.yaml",
+  "instruction": "Describe the visible condition of this tomato leaf.",
+  "source": {
+    "type": "excel",
+    "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Revised_captions.xlsx",
+    "sha256": "71e812cd76b857635e3a35d20102b272df2f56741ed141655615074d4942c1c9"
+  },
+  "split": {
+    "strategy": "grouped_rotation",
+    "fold": 0,
+    "train": {
+      "n_images": 18,
+      "n_rows": 90,
+      "images": [
+        "bacterial_spot__img1",
+        "bacterial_spot__img2",
+        "bacterial_spot__img3",
+        "early_blight__img1",
+        "early_blight__img2",
+        "early_blight__img3",
+        "leaf_mold__img1",
+        "leaf_mold__img2",
+        "leaf_mold__img3",
+        "mosaic_virus__img1",
+        "mosaic_virus__img2",
+        "mosaic_virus__img3",
+        "target_spot__img1",
+        "target_spot__img2",
+        "target_spot__img3",
+        "yellowleaf_curl_virus__img1",
+        "yellowleaf_curl_virus__img2",
+        "yellowleaf_curl_virus__img3"
+      ],
+      "images_per_class": {
+        "Bacterial spot": 3,
+        "Early Blight": 3,
+        "Leaf Mold": 3,
+        "Mosaic Virus": 3,
+        "Target Spot": 3,
+        "Yellow Leaf Curl Virus": 3
+      }
+    },
+    "val": {
+      "n_images": 6,
+      "n_rows": 30,
+      "images": [
+        "bacterial_spot__img4",
+        "early_blight__img4",
+        "leaf_mold__img4",
+        "mosaic_virus__img4",
+        "target_spot__img4",
+        "yellowleaf_curl_virus__img4"
+      ],
+      "images_per_class": {
+        "Bacterial spot": 1,
+        "Early Blight": 1,
+        "Leaf Mold": 1,
+        "Mosaic Virus": 1,
+        "Target Spot": 1,
+        "Yellow Leaf Curl Virus": 1
+      }
+    },
+    "test": {
+      "n_images": 6,
+      "n_rows": 30,
+      "images": [
+        "bacterial_spot__img5",
+        "early_blight__img5",
+        "leaf_mold__img5",
+        "mosaic_virus__img5",
+        "target_spot__img5",
+        "yellowleaf_curl_virus__img5"
+      ],
+      "images_per_class": {
+        "Bacterial spot": 1,
+        "Early Blight": 1,
+        "Leaf Mold": 1,
+        "Mosaic Virus": 1,
+        "Target Spot": 1,
+        "Yellow Leaf Curl Virus": 1
+      }
+    }
+  },
+  "n_images": 30,
+  "n_pairs": 150,
+  "image_hashes": {
+    "bacterial_spot__img1": "847986b04db52704897297565b62cac9653ea1ef0425f644a1070e7d1bd9baf1",
+    "bacterial_spot__img2": "04658ef2dcceabf609f52008f552d478b290fe3a93cf325f39b4bc4320120eb2",
+    "bacterial_spot__img3": "c14a71e095076c9df9c7b1f61f8e69f773292cd0a3ef7bfcdbb0dedc487525db",
+    "bacterial_spot__img4": "2e001949013eb06b64692decd1d4e66541f1eb074018775a12cafa2143e8666f",
+    "bacterial_spot__img5": "34714995c8f496d38e005ce0ac0bdd5f4803e07496eb628f9582a17a878765bc",
+    "early_blight__img1": "bb8cf07350baac37f7fdfa2a9e54587363c8a8806a28e8d0b085c1de9ab4a3cb",
+    "early_blight__img2": "a464236bc9ea8dc87b7d77863893056d8b8db696be6db66469bbc46d008b6e1f",
+    "early_blight__img3": "c2b813db2ca460894280bc0decf1df940dbe64085b81d1c54568f74d155d5a3c",
+    "early_blight__img4": "f44b6342cac8316b34a4fd23209d0100b9a19e803b3c94b8d09595a5f0d4f0bf",
+    "early_blight__img5": "243cd5f9e2dc37d1a45a058deb89c921767e588c4d1443227065ecfff9da099e",
+    "leaf_mold__img1": "33063ecffbdddcb0ca01d1838b32e22eaa0fb7c207db670c58e9f16ca01b47ea",
+    "leaf_mold__img2": "acc36b61dc9729b5169afa45f7b62eb86530c47ffb943a75e37e4991b908046b",
+    "leaf_mold__img3": "d1ed653c6e67c1ea5f6776b5833e8ac4ac4b446df738e46c80bccff59eed59df",
+    "leaf_mold__img4": "c9ecbab9f17925d20b8014e646dc6b40d76a309b143ab867394fef27e5fef8c9",
+    "leaf_mold__img5": "14cb1c129a409db12d630eec6709960a23c6c9adaa0fb90a74b0a87f984a9e40",
+    "mosaic_virus__img1": "77487780b04b7f71301f5252247e7580a59bba179d4e2373d80ad7ecd326f904",
+    "mosaic_virus__img2": "478ead03f1f962f60ae3455b90affd170c8b6a5cca95a60d1cf5e32b68f8bd0c",
+    "mosaic_virus__img3": "0b9f951849b9b676253328474ae2143dea472e3832156dab51e595beffa9f402",
+    "mosaic_virus__img4": "f17385882c3f1f3343b50e25f41f0640729f45a4a0fefb30ced2441dde8ebc5d",
+    "mosaic_virus__img5": "a48fd8bd48810917768d7f655c8503598089e80ed29a6124141ea118d33b5cc5",
+    "target_spot__img1": "4bbc310f179679d83d9ceac8decf6180b234f3e4c263cbeb094469a3fa0b8a8e",
+    "target_spot__img2": "896f66f0c12091d3e72f1d760d22ad58ef848d0198582562daaad8631def0c59",
+    "target_spot__img3": "b9b20509c41742e2b574f7ad37d3235271d01c06907959ffbc5506597084c1ab",
+    "target_spot__img4": "c3c9efa88a2550a369268c21fa35e1ef74596ee40ea749ce17982f412888ffa1",
+    "target_spot__img5": "3f82e1d895ddcaad3f42e51d7d6f6db04b731dafe7c87c4604db01a8a258286c",
+    "yellowleaf_curl_virus__img1": "6df2838c482139b8c75c6cac397d02773f122ab26c42982a8f827fe34d691579",
+    "yellowleaf_curl_virus__img2": "707c27effbeb3c8bb9a8e1160fc0e6b0de2169d52219a893ed5f35262f4b4f4e",
+    "yellowleaf_curl_virus__img3": "c08724d4d1b72aba0b2e68baeccffb5cd8715ed7417c1711cba554bacc920cb0",
+    "yellowleaf_curl_virus__img4": "c9c0669af67a454196b8496d6c941aaa8b0545696dad03961427f7e3648b5ae8",
+    "yellowleaf_curl_virus__img5": "61293d08367e296731c1764af9cf4cd41918cbb89d444cb2199d1135d09b3f39"
+  },
+  "environment": {
+    "python": "3.10.8",
+    "platform": "Windows-10-10.0.19044-SP0",
+    "torch": "2.5.1+cu121",
+    "transformers": "5.3.0",
+    "peft": "0.18.1",
+    "accelerate": "1.13.0",
+    "gpu": "NVIDIA RTX 4500 Ada Generation",
+    "cuda": "12.1"
+  },
+  "code_sha256": {
+    "__init__.py": "3752cba75b5cbd83",
+    "config.py": "cde7bff86d47043b",
+    "data/__init__.py": "9323747fe8f45016",
+    "data/pairs.py": "dfb08a4bd84086ed",
+    "data/sources.py": "e5d0ee0586377c3f",
+    "data/splits.py": "7db6d6dcbf680233",
+    "data/verify.py": "c2963ef877112f67",
+    "evaluation.py": "9a26776f416d50e9",
+    "inference.py": "0081d021157b76a5",
+    "io.py": "0b749140830b5348",
+    "models/__init__.py": "3b2573492503a6ef",
+    "models/base.py": "301afcf8e39ea3a2",
+    "models/qwen2_5_vl.py": "9bf8a8f733591f48",
+    "training/__init__.py": "4c443c6dda849d37",
+    "training/dataset.py": "ea1fba10d629ba72",
+    "training/run.py": "d408c8e93dcac24f",
+    "training/trainer.py": "e6686ae76967c53c"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "raw_counts": [
+    [
+      442,
+      34
+    ],
+    [
+      0,
+      84
+    ]
+  ],
+  "normalized": [
+    [
+      0.9285714285714286,
+      0.07142857142857142
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "class_names": [
+    "Disease_Preprocessing data",
+    "Healthy_Preprocessing data"
+  ],
+  "labels": {
+    "true_positive": 84,
+    "true_negative": 442,
+    "false_positive": 34,
+    "false_negative": 0
+  }
+}

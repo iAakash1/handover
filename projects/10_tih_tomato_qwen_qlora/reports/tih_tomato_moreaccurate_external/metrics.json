@@ -1,0 +1,43 @@
+{
+  "accuracy": 0.6931818181818182,
+  "adapter": "C:\\Users\\Admin\\Desktop\\TIH_IITB_August_2026\\Tomato_12thAug26\\experimentation\\checkpoints\\tih_tomato_moreaccurate",
+  "average_latency": 0.3727840909090908,
+  "average_latency_seconds": 0.3727840909090908,
+  "dataset": "C:\\Users\\Admin\\Desktop\\TIH_IITB_August_2026\\Tomato_12thAug26\\Dataset\\testing",
+  "detected_classes": [
+    "aphid",
+    "early_blight_fruit",
+    "fruit_borer",
+    "healthy_leaf",
+    "late_blight",
+    "leaf_curl",
+    "leaf_miner",
+    "mealy_bugs",
+    "target_leaf_spot",
+    "white_fly"
+  ],
+  "folder_mapping": {
+    "Aphid": "aphid",
+    "Early_blight_fruit": "early_blight_fruit",
+    "Fruit_Borer": "fruit_borer",
+    "Healthy": "healthy_leaf",
+    "Late_Blight": "late_blight",
+    "Leaf_Curl": "leaf_curl",
+    "Leaf_Miner": "leaf_miner",
+    "Mealy_bugs": "mealy_bugs",
+    "Target_Leaf_Spot": "target_leaf_spot",
+    "White_Fly": "white_fly"
+  },
+  "ignored_folders": [
+    "correct",
+    "wrong"
+  ],
+  "macro_f1": 0.7195480671535066,
+  "macro_precision": 0.7608472686733556,
+  "macro_recall": 0.7183653846153846,
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "number_of_classes": 10,
+  "total_images": 176,
+  "unparseable_predictions": 0,
+  "weighted_f1": 0.6937520123377391
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "early_blight__img5__c3",
+    "origin": "E11",
+    "disease": "Early Blight",
+    "image_no": 5,
+    "caption_index": 3,
+    "flags": [
+      "CROSS_IMAGE_REFERENCE:other leaves",
+      "CROSS_IMAGE_REFERENCE:this group",
+      "CROSS_IMAGE_REFERENCE:compared with the other"
+    ],
+    "caption": "Compared with the other leaves in this group, this one contains a greater number of distinct darkened areas. The spots vary noticeably in size and shape, creating a more crowded appearance. No single patch dominates the entire leaf."
+  },
+  {
+    "id": "target_spot__img3__c3",
+    "origin": "E24",
+    "disease": "Target Spot",
+    "image_no": 3,
+    "caption_index": 3,
+    "flags": [
+      "CROSS_IMAGE_REFERENCE:other leaves",
+      "CROSS_IMAGE_REFERENCE:unlike some of"
+    ],
+    "caption": "Unlike some of the other leaves, this one contains numerous tiny scattered marks rather than a few larger patches. Most of the discoloration is subtle, although a denser cluster appears close to the stem. The leaf shape is unchanged."
+  },
+  {
+    "id": "yellowleaf_curl_virus__img2__c4",
+    "origin": "F28",
+    "disease": "Yellow Leaf Curl Virus",
+    "image_no": 2,
+    "caption_index": 4,
+    "flags": [
+      "META_IMAGE_QUALITY"
+    ],
+    "caption": "Small leaf with a bright outer border and darker center. The color pattern is easy to see despite the image being slightly soft. The overall outline remains visible."
+  },
+  {
+    "id": "yellowleaf_curl_virus__img4__c1",
+    "origin": "C30",
+    "disease": "Yellow Leaf Curl Virus",
+    "image_no": 4,
+    "caption_index": 1,
+    "flags": [
+      "CROSS_IMAGE_REFERENCE:this set"
+    ],
+    "caption": "The leaf appears much lighter overall than the others in this set. Yellow-green coloring covers most of the surface, with only a few darker areas remaining near the veins. Small dark specks are scattered across the leaf."
+  },
+  {
+    "id": "yellowleaf_curl_virus__img4__c3",
+    "origin": "E30",
+    "disease": "Yellow Leaf Curl Virus",
+    "image_no": 4,
+    "caption_index": 3,
+    "flags": [
+      "CROSS_IMAGE_REFERENCE:previous leaves"
+    ],
+    "caption": "The color is fairly uniform compared with the previous leaves, though slightly darker patches remain around some veins. The surface looks smooth, with only mild folding along the edges. The leaf maintains its overall shape. Green veins remain visible within the chlorotic tissue."
+  },
+  {
+    "id": "yellowleaf_curl_virus__img4__c5",
+    "origin": "G30",
+    "disease": "Yellow Leaf Curl Virus",
+    "image_no": 4,
+    "caption_index": 5,
+    "flags": [
+      "CROSS_IMAGE_REFERENCE:rest of the group"
+    ],
+    "caption": "The leaf has a washed-out look because much of the darker green color is missing. Only scattered areas near the vein network remain noticeably darker. The overall appearance is lighter than the rest of the group. Chlorosis is distributed across most of the leaf surface."
+  },
+  {
+    "id": "yellowleaf_curl_virus__img5__c1",
+    "origin": "C31",
+    "disease": "Yellow Leaf Curl Virus",
+    "image_no": 5,
+    "caption_index": 1,
+    "flags": [
+      "TRUNCATED_no_terminal_punctuation"
+    ],
+    "caption": "This leaf has an irregular shape with several lobes and noticeable color variation. Bright yellow-green bands run along parts of the leaf, while darker green remains in the center. A brown patch is visible near one of the upper edges. Marginal chlorosis is visible along the leaf"
+  }
+]

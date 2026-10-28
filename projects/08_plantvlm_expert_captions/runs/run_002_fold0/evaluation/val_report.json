@@ -1,0 +1,145 @@
+{
+  "finetuned": {
+    "predictions_file": "val_finetuned.json",
+    "model": "finetuned",
+    "n_images": 6,
+    "n_classes": 6,
+    "retrieval_accuracy": "2/6",
+    "retrieval_accuracy_value": 0.3333333333333333,
+    "human_ceiling": {
+      "correct": 7,
+      "total": 30,
+      "value": 0.23333333333333334
+    },
+    "chance": 0.16666666666666666,
+    "caption_scores_mean": {
+      "bleu1": 0.5896,
+      "bleu2": 0.3249,
+      "bleu3": 0.1238,
+      "bleu4": 0.0452,
+      "rougeL_max": 0.2624,
+      "rougeL_mean": 0.2194
+    },
+    "caption_length_mean": 44.0,
+    "memorised_captions": [],
+    "cross_image_artefacts": [],
+    "confusion": {
+      "Bacterial spot": {
+        "Bacterial spot": 1
+      },
+      "Early Blight": {
+        "Bacterial spot": 1
+      },
+      "Leaf Mold": {
+        "Mosaic Virus": 1
+      },
+      "Mosaic Virus": {
+        "Leaf Mold": 1
+      },
+      "Target Spot": {
+        "Mosaic Virus": 1
+      },
+      "Yellow Leaf Curl Virus": {
+        "Yellow Leaf Curl Virus": 1
+      }
+    },
+    "per_image": [
+      {
+        "image_id": "bacterial_spot__img4",
+        "true_class": "Bacterial spot",
+        "predicted_class": "Bacterial spot",
+        "correct": true,
+        "scores": {
+          "bleu1": 0.566,
+          "bleu2": 0.3614,
+          "bleu3": 0.1724,
+          "bleu4": 0.0566,
+          "rougeL_max": 0.2381,
+          "rougeL_mean": 0.2195
+        },
+        "generated": "The discoloration is confined to one side of the leaf, while the opposite side remains green. The upper margin shows the most noticeable color change, with pale yellow-green tissue near the tip and gradually darker green along the rest of the edge. The central vein divides the leaf into two roughly symmetrical halves.",
+        "n_words": 53
+      },
+      {
+        "image_id": "early_blight__img4",
+        "true_class": "Early Blight",
+        "predicted_class": "Bacterial spot",
+        "correct": false,
+        "scores": {
+          "bleu1": 0.56,
+          "bleu2": 0.3024,
+          "bleu3": 0.0575,
+          "bleu4": 0.0252,
+          "rougeL_max": 0.2381,
+          "rougeL_mean": 0.2058
+        },
+        "generated": "The leaf contains several brown patches of varying sizes spread across much of the surface. The central vein divides the leaf into two halves, and the damage follows the shape of the leaf rather than being concentrated in one spot. The edges remain darker green compared to the affected areas.",
+        "n_words": 50
+      },
+      {
+        "image_id": "leaf_mold__img4",
+        "true_class": "Leaf Mold",
+        "predicted_class": "Mosaic Virus",
+        "correct": false,
+        "scores": {
+          "bleu1": 0.5306,
+          "bleu2": 0.2351,
+          "bleu3": 0.049,
+          "bleu4": 0.0225,
+          "rougeL_max": 0.2326,
+          "rougeL_mean": 0.1774
+        },
+        "generated": "The color change is not limited to one section but appears across multiple sections throughout the leaf. Yellow-green patches interrupt the otherwise dark green surface, creating an uneven appearance. The yellow areas are concentrated near the margins and spread across several sections rather than being isolated in one place.",
+        "n_words": 49
+      },
+      {
+        "image_id": "mosaic_virus__img4",
+        "true_class": "Mosaic Virus",
+        "predicted_class": "Leaf Mold",
+        "correct": false,
+        "scores": {
+          "bleu1": 0.725,
+          "bleu2": 0.409,
+          "bleu3": 0.2065,
+          "bleu4": 0.0698,
+          "rougeL_max": 0.3333,
+          "rougeL_mean": 0.2779
+        },
+        "generated": "The most noticeable feature is the pale yellow-green color between the veins. The lighter region appears to follow the path of the leaf structure, creating a pattern that extends across much of the surface. The outer margins remain darker green.",
+        "n_words": 40
+      },
+      {
+        "image_id": "target_spot__img4",
+        "true_class": "Target Spot",
+        "predicted_class": "Mosaic Virus",
+        "correct": false,
+        "scores": {
+          "bleu1": 0.5312,
+          "bleu2": 0.2618,
+          "bleu3": 0.0611,
+          "bleu4": 0.0298,
+          "rougeL_max": 0.254,
+          "rougeL_mean": 0.1931
+        },
+        "generated": "The upper half is darker green than the lower portion, where a faded patch is present near the middle. The edges remain mostly intact. The leaf shape is broad and slightly asymmetrical.",
+        "n_words": 32
+      },
+      {
+        "image_id": "yellowleaf_curl_virus__img4",
+        "true_class": "Yellow Leaf Curl Virus",
+        "predicted_class": "Yellow Leaf Curl Virus",
+        "correct": true,
+        "scores": {
+          "bleu1": 0.625,
+          "bleu2": 0.3798,
+          "bleu3": 0.1965,
+          "bleu4": 0.0673,
+          "rougeL_max": 0.2785,
+          "rougeL_mean": 0.2426
+        },
+        "generated": "Most of the surface is covered with bright green tissue, but faded yellow-green areas appear near the middle and upper regions. The color change creates a patchy appearance across the leaf. A few brown spots are visible near the edges.",
+        "n_words": 40
+      }
+    ]
+  }
+}

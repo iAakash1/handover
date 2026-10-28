@@ -1,0 +1,128 @@
+# ============================================================================
+#  PlantVLM — Qwen2.5-VL + LoRA on manually validated tomato leaf captions
+#
+#  This file is the experiment. Everything the pipeline does is determined here,
+#  and a copy is frozen into every run directory so a result can always be traced
+#  back to the settings that produced it.
+#
+#  Override anything from the command line without editing this file:
+#      python scripts/02_train.py --set train.epochs=12 --set lora.r=8
+# ============================================================================
+
+project: plantvlm
+seed: 42
+runs_dir: runs
+
+# ── Supervision ─────────────────────────────────────────────────────────────
+data:
+  source:
+    type: excel
+    excel_path: 1stJuly/Revised_captions.xlsx
+    sheet: revised_captions
+    image_root: 1stJuly/Dataset
+    disease_column: Disease
+    image_column: Image No
+    caption_columns: ["Caption 1", "Caption 2", "Caption 3", "Caption 4", "Caption 5"]
+    # Classes are never auto-discovered. A class absent from this map is a hard
+    # error, so a stray spreadsheet row can never silently enter training.
+    class_map:
+      Bacterial spot: bacterial_spot
+      Early Blight: early_blight
+      Leaf Mold: leaf_mold
+      Mosaic Virus: mosaic_virus
+      Target Spot: target_spot
+      Yellow Leaf Curl Virus: yellowleaf_curl_virus
+
+  # One fixed question on every row, at training and at inference. It asks for a
+  # description because that is exactly what the validated captions are; it never
+  # asks for a diagnosis, because no caption contains one.
+  instruction: "Describe the visible condition of this tomato leaf."
+
+  expected_images_per_class: 5
+  expected_captions_per_image: 5
+  output_dir: data
+
+  # Optional provenance: proves each image is byte-identical to its public
+  # dataset original. Slow (hashes thousands of files) — enable with
+  # `01_build_dataset.py --verify-provenance`.
+  provenance_root: ../PlantVillage
+  provenance_map:
+    Bacterial spot: Tomato_Bacterial_spot
+    Early Blight: Tomato_Early_blight
+    Leaf Mold: Tomato_Leaf_Mold
+    Mosaic Virus: Tomato__Tomato_mosaic_virus
+    Target Spot: Tomato__Target_Spot
+    Yellow Leaf Curl Virus: Tomato__Tomato_YellowLeaf__Curl_Virus
+
+# ── Split ───────────────────────────────────────────────────────────────────
+# Grouped by image so all five captions of a leaf stay together, stratified by
+# class. fold 0..4 rotates which image is held out; running every fold tests all
+# 30 images exactly once.
+split:
+  strategy: grouped_rotation
+  fold: 0
+  train_per_class: 3
+  val_per_class: 1
+  test_per_class: 1
+
+# ── Model ───────────────────────────────────────────────────────────────────
+model:
+  adapter: qwen2_5_vl
+  name: Qwen/Qwen2.5-VL-7B-Instruct
+  dtype: bfloat16
+  # Vision resolution in 28x28 patches. Source images are 256x256; at the
+  # processor default that is ~81 visual tokens, too coarse for captions that say
+  # "near the upper left section". 256 -> ~448x448 -> ~256 visual tokens.
+  min_pixels_factor: 256
+  max_pixels_factor: 512
+  max_length: 512
+
+# ── LoRA ────────────────────────────────────────────────────────────────────
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_suffixes: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+  # The vision tower is never adapted — an image encoder cannot be learned from
+  # 18 images. The trainer asserts this before the first forward pass.
+  exclude_substring: visual
+
+# ── Training ────────────────────────────────────────────────────────────────
+# Sized for 90 training rows on an RTX 4500 Ada (24 GB), Windows.
+train:
+  epochs: 8
+  micro_batch: 2
+  grad_accum: 4            # effective batch 8
+  learning_rate: 1.0e-4
+  weight_decay: 0.01
+  warmup_ratio: 0.10
+  grad_clip: 1.0
+  patience: 2
+  num_workers: 0           # Windows: dataloader workers + PIL is unstable
+  augment: false           # captions make absolute spatial claims — do not enable
+  save_every_epoch: true
+
+# ── Generation ──────────────────────────────────────────────────────────────
+# Sampling, not beam search: the model was trained on five valid descriptions per
+# image and beam search collapses that to one.
+generate:
+  max_new_tokens: 120
+  do_sample: true
+  temperature: 0.7
+  top_p: 0.9
+  repetition_penalty: 1.05
+  num_samples: 1
+
+# ── Evaluation ──────────────────────────────────────────────────────────────
+eval:
+  memorisation_threshold: 0.85
+  retrieval_ngram_max: 2
+  retrieval_stop_words: english
+  cross_image_phrases:
+    - "other leaves"
+    - "previous leaves"
+    - "this group"
+    - "this set"
+    - "rest of the group"
+    - "compared with the other"
+    - "unlike some of"

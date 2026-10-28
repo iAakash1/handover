@@ -1,0 +1,129 @@
+# Disease-Aware Multimodal Prompt Bank for Tomato Health & Pathology Classification
+
+# Dataset-discovered classes
+Aphid:
+  - "a tomato leaf infested with small green and black aphids clustering along the veins"
+  - "a tomato plant foliage showing sap-sucking aphid pests and honeydew secretions"
+  - "aphids causing curling and yellowing on a tomato leaf surface"
+  - "a diseased tomato leaf exhibiting aphid colonies and stunted growth"
+
+Early_Blight_Fruit:
+  - "a tomato fruit displaying dark sunken concentric lesions caused by early blight"
+  - "a tomato fruit infected with Alternaria solani showing dark leathery rot"
+  - "early blight disease symptoms with dark target-like spots on a tomato fruit"
+  - "a rotting tomato fruit with concentric rings characteristic of early blight"
+
+Fruit_Borer:
+  - "a tomato fruit damaged with bore holes and larval entry wounds from fruit borer"
+  - "a tomato fruit infested with fruit borer caterpillar damage and internal feeding cavities"
+  - "fruit borer pest damage with visible holes and excreta on a tomato fruit"
+  - "a damaged tomato fruit with burrowing insect marks from Helicoverpa armigera"
+
+Healthy_Fruit:
+  - "a healthy, ripe, blemish-free tomato fruit"
+  - "a fresh clean tomato fruit without any lesions or disease symptoms"
+  - "a flawless healthy tomato fruit growing on the vine"
+  - "a pristine tomato fruit free from fungal, bacterial, or pest damage"
+
+Healthy_Leaf:
+  - "a healthy green tomato leaf with vibrant foliage"
+  - "a disease-free tomato leaf with normal clean leaf margins and no spots"
+  - "a pristine green tomato plant leaf with no visible pathology"
+  - "a healthy vigorous tomato leaflet without chlorosis or necrosis"
+
+Late_Blight:
+  - "a tomato leaf showing large water-soaked dark lesions caused by late blight Phytophthora infestans"
+  - "a tomato leaf infected with late blight displaying grayish-green to dark brown necrotic patches"
+  - "late blight disease with pale white fungal growth and brown lesions on a tomato leaf"
+  - "a severely blighted tomato leaf with rapid necrotic tissue decay from late blight"
+
+Leaf_Curl:
+  - "a tomato leaf exhibiting upward curling, crumpling, and chlorotic margins from leaf curl virus"
+  - "a tomato plant leaf with severe viral leaf curl symptoms and reduced leaf area"
+  - "chlorotic yellowing and upward curling on a tomato leaf caused by Tomato Leaf Curl Virus"
+  - "a stunted tomato leaflet showing wrinkling, thickening, and upward leaf curling"
+
+Leaf_Miner:
+  - "a tomato leaf showing winding serpentine white and translucent tunnels caused by leaf miner larvae"
+  - "a tomato leaflet with winding serpentine chlorotic mining trails from Liriomyza leaf miners"
+  - "leaf miner pest damage showing winding silvery larval tunnels through the leaf mesophyll"
+  - "a tomato leaf heavily marked with twisting bleached tracks from leaf miner feeding"
+
+Mealy_Bugs:
+  - "a tomato leaf infested with white cottony wax-covered mealybugs along the petioles and veins"
+  - "mealybug pest colony with white waxy powdery secretions on a tomato leaf surface"
+  - "a tomato plant leaf suffering from sap depletion by clustered mealybugs"
+  - "white oval soft-bodied mealybugs adhering to a diseased tomato leaflet"
+
+Target_Leaf_Spot:
+  - "a tomato leaf with circular brown target spots featuring dark concentric rings caused by Corynespora cassiicola"
+  - "a tomato leaflet displaying target spot lesions with necrotic centers and chlorotic halos"
+  - "target leaf spot fungal infection with pinpoint brown necrotic specks expanding into zoned lesions"
+  - "a diseased tomato leaf with discrete concentric circular spots from target spot pathogen"
+
+White_Fly:
+  - "a tomato leaf with tiny powdery whiteflies swarming on the underside and causing chlorosis"
+  - "whitefly insect infestation causing irregular chlorosis and silvering on a tomato leaf"
+  - "a tomato foliage displaying nymph and adult whitefly pests causing leaf yellowing"
+  - "a diseased tomato leaf weakened by sap-feeding whiteflies and sooty mold"
+
+# Standard PlantVillage class aliases for full compatibility
+Tomato___Bacterial_spot:
+  - "a tomato leaf with small water-soaked dark brown circular spots from bacterial spot Xanthomonas"
+  - "a tomato leaflet showing bacterial spot lesions with yellow chlorotic halos"
+  - "a diseased tomato leaf suffering from bacterial spot infection"
+  - "dark scabby necrotic spots on a tomato leaf caused by bacterial spot"
+
+Tomato___Early_blight:
+  - "a tomato leaf affected by early blight showing brown concentric ring lesions"
+  - "a tomato plant leaf with dark target-like spots caused by Alternaria solani"
+  - "early blight disease on a tomato leaf with yellowing surrounding brown concentric lesions"
+  - "a diseased tomato leaf displaying classical early blight target lesions on lower foliage"
+
+Tomato___Late_blight:
+  - "a tomato leaf with large dark water-soaked lesions from late blight Phytophthora infestans"
+  - "a diseased tomato leaf showing rapid brown necrosis and pale fungal margins from late blight"
+  - "late blight symptoms with greasy dark green-brown lesions on a tomato leaf"
+  - "a blighted tomato leaflet with extensive tissue collapse caused by late blight"
+
+Tomato___Leaf_Mold:
+  - "a tomato leaf with pale green to yellowish spots on the upper surface and olive-green velvety mold underneath"
+  - "a diseased tomato leaf suffering from leaf mold Passalora fulva with yellow chlorotic patches"
+  - "olive velvety fungal sporulation on the underside of a diseased tomato leaf"
+  - "tomato leaf mold infection showing distinct chlorotic blotches across the upper leaf surface"
+
+Tomato___Septoria_leaf_spot:
+  - "a tomato leaf covered with small circular gray spots with dark borders caused by Septoria lycopersici"
+  - "a tomato leaflet with numerous tiny speckled lesions characteristic of Septoria leaf spot"
+  - "Septoria leaf spot disease showing circular spots with tiny dark pycnidia fungal fruiting bodies"
+  - "a heavily spotted tomato leaf showing progressive defoliation from Septoria leaf spot"
+
+Tomato___Spider_mites Two-spotted_spider_mite:
+  - "a tomato leaf with fine chlorotic stippling, yellowing, and delicate webbing from spider mites"
+  - "two-spotted spider mite damage showing yellow speckled bleaching across the tomato leaf blade"
+  - "a dry bronzed tomato leaf with fine silk webbing and micro-stippling from spider mites"
+  - "a tomato leaflet suffering from severe chlorotic speckling caused by spider mite colonies"
+
+Tomato___Target_Spot:
+  - "a tomato leaf with target-like brown zoned circular lesions from Corynespora cassiicola"
+  - "a diseased tomato leaf displaying necrotic target spots with concentric rings and yellow halos"
+  - "target spot disease lesions on a tomato leaflet causing premature foliage senescence"
+  - "circular necrotic lesions with dark rings characteristic of tomato target spot"
+
+Tomato___Tomato_Yellow_Leaf_Curl_Virus:
+  - "a tomato leaf with severe upward curling, stunted cupped leaflets, and bright yellow margins"
+  - "Tomato Yellow Leaf Curl Virus symptoms with cupped pale leaves and bushy stunted growth"
+  - "a diseased tomato leaf showing pronounced upward curling and interveinal chlorosis from TYLCV"
+  - "severely distorted and yellowed upward curled tomato leaflets caused by viral infection"
+
+Tomato___Tomato_mosaic_virus:
+  - "a tomato leaf displaying mottled light and dark green mosaic patterns with blistered distortion"
+  - "Tomato Mosaic Virus infection with shoestring distortion, mottled chlorosis, and stunted leaf blades"
+  - "a diseased tomato leaf showing alternating dark green and pale yellow mosaic patterns"
+  - "mottled green blistering and fern-like deformation on a tomato leaf caused by mosaic virus"
+
+Tomato___healthy:
+  - "a healthy green tomato leaf with no disease symptoms"
+  - "a pristine, vigorous tomato leaflet with vibrant green color and smooth margins"
+  - "a disease-free tomato plant leaf showing clean, unblemished foliage"
+  - "a healthy tomato leaf free from fungal, bacterial, viral, or pest pathogens"

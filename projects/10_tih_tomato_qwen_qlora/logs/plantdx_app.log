@@ -1,0 +1,4 @@
+2026-09-11 15:32:01 INFO    company model loaded adapter=C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\experimentation\artifacts\company\tih_tomato_qwen_qlora\_smoke\adapter in 18.8s
+2026-09-11 15:32:02 INFO    company prediction class=unparseable conf=0.816 status=unknown 1.25s raw='The image shows a tomato plant with leaves that appear to be wilting and showing'
+2026-09-11 15:32:03 INFO    company prediction class=unparseable conf=0.789 status=unknown 0.97s raw='The image shows a tomato plant with what appears to be mealybugs, which are smal'
+2026-09-11 15:32:04 INFO    company prediction class=unparseable conf=0.777 status=unknown 0.97s raw='The image shows a tomato plant with leaves that appear to have brown edges and s'

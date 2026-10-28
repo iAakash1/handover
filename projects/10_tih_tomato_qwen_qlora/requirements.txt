@@ -1,0 +1,13 @@
+# PlantDx — runtime dependencies (pinned loosely; authoritative source is pyproject.toml).
+# Install the package instead for a resolved environment:  pip install -e ".[dev]"
+#
+# Heavy/optional stacks are NOT listed here — use extras:
+#   Caption generation / diversity : pip install -e ".[generate]"
+#   NLP grammar validation         : pip install -e ".[nlp]"
+#   Training (Apple/MLX)           : pip install -e ".[train]"
+#   Documentation                  : pip install -e ".[docs]"
+
+pyyaml>=6.0
+pydantic>=2.6
+rich>=13.7
+pillow>=10.2

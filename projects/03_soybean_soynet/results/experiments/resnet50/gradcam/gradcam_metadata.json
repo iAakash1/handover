@@ -1,0 +1,80 @@
+{
+  "model_name": "resnet50",
+  "num_samples_per_class": 5,
+  "class_names": [
+    "Disease_Preprocessing data",
+    "Healthy_Preprocessing data"
+  ],
+  "samples": [
+    {
+      "class_name": "Disease_Preprocessing data",
+      "class_idx": 0,
+      "sample_idx": 0,
+      "source_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Disease_Preprocessing data\\Soy  (218).JPG",
+      "output_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\resnet50\\gradcam\\images\\Disease_Preprocessing data\\sample_0.png"
+    },
+    {
+      "class_name": "Disease_Preprocessing data",
+      "class_idx": 0,
+      "sample_idx": 1,
+      "source_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Disease_Preprocessing data\\Soy  (2470).JPG",
+      "output_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\resnet50\\gradcam\\images\\Disease_Preprocessing data\\sample_1.png"
+    },
+    {
+      "class_name": "Disease_Preprocessing data",
+      "class_idx": 0,
+      "sample_idx": 2,
+      "source_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Disease_Preprocessing data\\Soy  (1494).JPG",
+      "output_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\resnet50\\gradcam\\images\\Disease_Preprocessing data\\sample_2.png"
+    },
+    {
+      "class_name": "Disease_Preprocessing data",
+      "class_idx": 0,
+      "sample_idx": 3,
+      "source_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Disease_Preprocessing data\\Soy  (3148).JPG",
+      "output_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\resnet50\\gradcam\\images\\Disease_Preprocessing data\\sample_3.png"
+    },
+    {
+      "class_name": "Disease_Preprocessing data",
+      "class_idx": 0,
+      "sample_idx": 4,
+      "source_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Disease_Preprocessing data\\Soy  (382).JPG",
+      "output_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\resnet50\\gradcam\\images\\Disease_Preprocessing data\\sample_4.png"
+    },
+    {
+      "class_name": "Healthy_Preprocessing data",
+      "class_idx": 1,
+      "sample_idx": 0,
+      "source_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Healthy_Preprocessing data\\soy (23).JPG",
+      "output_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\resnet50\\gradcam\\images\\Healthy_Preprocessing data\\sample_0.png"
+    },
+    {
+      "class_name": "Healthy_Preprocessing data",
+      "class_idx": 1,
+      "sample_idx": 1,
+      "source_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Healthy_Preprocessing data\\soy (195).JPG",
+      "output_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\resnet50\\gradcam\\images\\Healthy_Preprocessing data\\sample_1.png"
+    },
+    {
+      "class_name": "Healthy_Preprocessing data",
+      "class_idx": 1,
+      "sample_idx": 2,
+      "source_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Healthy_Preprocessing data\\soy (493).JPG",
+      "output_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\resnet50\\gradcam\\images\\Healthy_Preprocessing data\\sample_2.png"
+    },
+    {
+      "class_name": "Healthy_Preprocessing data",
+      "class_idx": 1,
+      "sample_idx": 3,
+      "source_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Healthy_Preprocessing data\\soy (348).JPG",
+      "output_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\resnet50\\gradcam\\images\\Healthy_Preprocessing data\\sample_3.png"
+    },
+    {
+      "class_name": "Healthy_Preprocessing data",
+      "class_idx": 1,
+      "sample_idx": 4,
+      "source_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\Preprocessing_SoyNet_Data\\Camera Clicks_256_256\\Healthy_Preprocessing data\\soy (354).JPG",
+      "output_path": "C:\\Users\\Admin\\Desktop\\latest\\SoyNet\\results\\experiments\\resnet50\\gradcam\\images\\Healthy_Preprocessing data\\sample_4.png"
+    }
+  ]
+}

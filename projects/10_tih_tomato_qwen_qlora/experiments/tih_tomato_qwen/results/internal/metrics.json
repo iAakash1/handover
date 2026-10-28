@@ -1,0 +1,15 @@
+{
+  "accuracy": 0.9276,
+  "adapter": "checkpoints/tih_tomato_moreaccurate",
+  "average_latency_seconds": 0.327,
+  "macro_f1": 0.9378,
+  "macro_precision": 0.9271,
+  "macro_recall": 0.9557,
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "number_of_classes": 11,
+  "run_name": "tih_tomato_moreaccurate",
+  "split": "test",
+  "total_images": 649,
+  "unparseable_predictions": 0,
+  "weighted_f1": 0.9286
+}

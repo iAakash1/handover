@@ -1,0 +1,69 @@
+
+=============== 1/5 base model, validation split ===============
+Fri Sep 11 15:05:53 IST 2026
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\bitsandbytes\backends\cuda\ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+  50/649
+  100/649
+  150/649
+  200/649
+  250/649
+  300/649
+  350/649
+  400/649
+  450/649
+  500/649
+  550/649
+  600/649
+  649/649
+
+Split           : validation (649 images)
+Model           : base model (no adapter)
+Accuracy        : 0.0847
+Macro F1        : 0.0766
+Weighted F1     : 0.1162
+Macro precision : 0.1364
+Macro recall    : 0.0553
+Unparseable     : 587
+Latency         : 0.76 s/image
+
+class                     support    prec  recall      f1
+aphid                          68   0.500   0.103   0.171
+early_blight_fruit             27   0.000   0.000   0.000
+fruit_borer                    43   0.000   0.000   0.000
+healthy_fruit                   9   0.000   0.000   0.000
+healthy_leaf                   39   0.000   0.000   0.000
+late_blight                   195   0.000   0.000   0.000
+leaf_curl                      52   0.000   0.000   0.000
+leaf_miner                     95   1.000   0.505   0.671
+mealy_bugs                     40   0.000   0.000   0.000
+target_leaf_spot               33   0.000   0.000   0.000
+white_fly                      48   0.000   0.000   0.000
+
+Most confused pairs:
+  late_blight -> unparseable: 195
+  aphid -> unparseable: 61
+  leaf_curl -> unparseable: 52
+  leaf_miner -> unparseable: 47
+  fruit_borer -> unparseable: 43
+
+=============== 2/5 QLoRA fine-tune ===============
+Fri Sep 11 15:14:28 IST 2026
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Preparing dataset...
+  {'train': 5247, 'validation': 649, 'test': 649}
+Training tih_tomato_qwen_qlora...
+  loading base model
+C:\Users\Admin\AppData\Roaming\Python\Python310\site-packages\bitsandbytes\backends\cuda\ops.py:957: UserWarning: inner dimension (3420) is not aligned for fast kernel with blocksize=64, falling back to slower implementation.
+  warn(
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+
+=============== 3/5 fine-tuned, validation split ===============
+Fri Sep 11 15:20:22 IST 2026
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+plantdx company: missing adapter_config.json in C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\experimentation\checkpoints\tih_tomato_qwen_qlora
+
+=============== 4/5 base model, test split ===============
+Fri Sep 11 15:20:42 IST 2026
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.

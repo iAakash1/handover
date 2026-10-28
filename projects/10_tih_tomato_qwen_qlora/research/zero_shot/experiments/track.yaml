@@ -1,0 +1,8 @@
+track: zero_shot_exploration
+purpose: establish_unadapted_vlm_baselines
+method: deterministic_greedy_inference
+relationship: independent_research_baseline
+reported_datasets:
+  - tomato
+  - mango
+source: published repository evaluation summaries

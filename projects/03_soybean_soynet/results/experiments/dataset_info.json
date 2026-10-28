@@ -1,0 +1,18 @@
+{
+  "num_classes": 2,
+  "class_names": [
+    "Disease_Preprocessing data",
+    "Healthy_Preprocessing data"
+  ],
+  "class_to_idx": {
+    "Disease_Preprocessing data": 0,
+    "Healthy_Preprocessing data": 1
+  },
+  "train_size": 2603,
+  "val_size": 557,
+  "test_size": 560,
+  "class_weights": [
+    0.587850034236908,
+    3.3457584381103516
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.9160714285714285,
+  "precision": 0.6412213740458015,
+  "recall": 1.0,
+  "f1_score": 0.7813953488372093,
+  "roc_auc": 0.9865821328531413,
+  "total_samples": 560,
+  "class_names": [
+    "Disease_Preprocessing data",
+    "Healthy_Preprocessing data"
+  ]
+}

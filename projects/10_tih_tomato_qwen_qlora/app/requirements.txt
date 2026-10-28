@@ -1,0 +1,14 @@
+# PlantDx demo app (Streamlit) — extra dependency beyond the core `plantdx` package.
+#
+#   pip install -e .            # the plantdx package (Pillow, etc.)
+#   pip install -r app/requirements.txt
+#
+# Model inference additionally needs mlx-vlm on Apple Silicon:
+#   pip install -e ".[train]"
+#
+# Without mlx-vlm the app still runs (upload/history/UI); it shows a friendly
+# message instead of a prediction.
+#
+# 1.59+ is required for the current `width="stretch"` widget API (the old
+# `use_container_width` was deprecated for removal after 2025-12-31).
+streamlit>=1.59

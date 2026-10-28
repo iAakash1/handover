@@ -1,0 +1,20 @@
+{
+  "log_id": "c88f6bd6-a6bb-443d-bb49-279f8eace55d",
+  "timestamp": "2026-05-18T06:49:43Z",
+  "image": {
+    "uuid": "d05fa9fe-bed4-4485-b5cc-00268058781a",
+    "original_name": "0a31e630-0d98-416b-b0e4-88a88aad1dc5___RS_HL 9653.JPG",
+    "saved_as": "2026-05-18_d05fa9fe-bed4-4485-b5cc-00268058781a.jpg",
+    "path": "C:\\Users\\Admin\\Desktop\\VLM\\PlantDx\\data\\raw\\uploads\\2026-05-18_d05fa9fe-bed4-4485-b5cc-00268058781a.jpg",
+    "timestamp": "2026-05-18T06:49:33Z"
+  },
+  "instruction": "Analyze this plant leaf image and provide a structured diagnosis. State: Plant name, Disease condition, Severity level, Causal pathogen, and visible symptoms observed on the leaf.",
+  "status": "ok",
+  "is_plant": true,
+  "ood_score": 0.3566,
+  "prediction": "Plant: Tomato. Condition: Healthy. Severity: None. The Tomato leaf is in optimal health showing deep green color, no discoloration, and complete absence of disease indicators.",
+  "confidence_pct": 99.0,
+  "condition": "Healthy",
+  "severity": "None",
+  "device": "cuda"
+}

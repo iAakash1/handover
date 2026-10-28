@@ -1,0 +1,12 @@
+include README.md LICENSE NOTICE CITATION.cff
+recursive-include src/plantdx py.typed
+recursive-include configs *.yaml
+recursive-include assets *.json *.yaml *.txt *.md
+graft caption_framework
+graft knowledge_base
+
+# Never ship generated artifacts, datasets, or caches.
+prune artifacts
+prune tomato
+prune mango
+global-exclude __pycache__ *.py[cod] .DS_Store

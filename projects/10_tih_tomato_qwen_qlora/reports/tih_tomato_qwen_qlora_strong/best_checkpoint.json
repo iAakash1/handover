@@ -1,0 +1,11 @@
+{
+  "eval_f1_macro": 0.9344,
+  "eval_accuracy": 0.923,
+  "eval_loss": 0.024408645927906036,
+  "epoch": 2.0,
+  "step": 1312,
+  "checkpoint": "C:\\Users\\Admin\\Desktop\\TIH_IITB_August_2026\\Tomato_12thAug26\\experimentation\\checkpoints\\tih_tomato_qwen_qlora_strong\\checkpoint-1312",
+  "selection_metric": "validation macro F1",
+  "early_stopping_metric": "eval_loss",
+  "training_loss": 0.004607446491718292
+}

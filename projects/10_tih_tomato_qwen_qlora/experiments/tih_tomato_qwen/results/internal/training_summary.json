@@ -1,0 +1,13 @@
+{
+  "epochs": 2.909,
+  "final_loss": 8.116164826788008e-05,
+  "peak_memory_gb": 10.57,
+  "run_name": "tih_tomato_moreaccurate",
+  "steps": 1908,
+  "test_samples": 649,
+  "total_params": 4732627968,
+  "train_samples": 5247,
+  "train_seconds": 11562.6,
+  "trainable_params": 40370176,
+  "validation_samples": 649
+}

@@ -1,0 +1,14 @@
+# Qwen2.5-VL-7B-Instruct, 4-bit MLX quantization (already downloaded).
+# model_path is a Hugging Face repo id; mlx-vlm resolves it from the local
+# HF cache (~/.cache/huggingface/hub) — it does NOT re-download when present.
+name: qwen2_5_vl
+model_path: mlx-community/Qwen2.5-VL-7B-Instruct-4bit
+family: qwen2_5_vl
+max_seq_length: 2048
+quantization_bits: 4
+# Qwen chat assistant-marker token id. Used when train_on_completions masks the
+# prompt so loss is computed on the caption only. 77091 is Qwen2.5's marker.
+assistant_id: 77091
+# Square-resize each image before the vision tower. Bounds visual-token count
+# and peak memory on 24 GB unified RAM (Qwen2.5-VL is otherwise dynamic-res).
+image_resize: 448

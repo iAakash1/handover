@@ -1,0 +1,21 @@
+# =============================================================================
+# PlantDx — dataset audit engine configuration (Milestone 2)
+# =============================================================================
+# The audit is CPU-only. Datasets and the reports directory come from paths.yaml;
+# this file holds the audit's tunables. No magic constants live in code.
+# =============================================================================
+
+audit:
+  workers: 8                       # thread-pool size for image inspection (I/O bound)
+  supported_extensions:            # file types treated as images; others are "unsupported"
+    - .jpg
+    - .jpeg
+    - .png
+    - .bmp
+    - .gif
+    - .tif
+    - .tiff
+    - .webp
+  near_duplicates: false           # enable average-hash near-dup detection (decodes images; slower)
+  ahash_size: 8                    # average-hash grid NxN; 8 => 64-bit hash
+  imbalance_warn_ratio: 10.0       # flag class imbalance when max/min class count exceeds this

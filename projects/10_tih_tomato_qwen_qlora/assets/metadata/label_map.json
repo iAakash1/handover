@@ -1,0 +1,18 @@
+{
+  "description": "Normalized processed-folder name -> DKB condition_id.",
+  "crops": {
+    "tomato": {
+      "aphid": "tomato_aphid",
+      "early_blight_fruit": "tomato_early_blight_fruit",
+      "fruit_borer": "tomato_fruit_borer",
+      "healthy_fruit": "tomato_healthy_fruit",
+      "healthy_leaf": "tomato_healthy_leaf",
+      "late_blight": "tomato_late_blight",
+      "leaf_curl": "tomato_leaf_curl",
+      "leaf_miner": "tomato_leaf_miner",
+      "mealy_bugs": "tomato_mealy_bugs",
+      "target_leaf_spot": "tomato_target_leaf_spot",
+      "white_fly": "tomato_white_fly"
+    }
+  }
+}

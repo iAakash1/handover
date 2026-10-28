@@ -1,0 +1,36 @@
+{
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct (zero-shot, no adapter)",
+  "protocol": "VLM/qwen/04_evaluate.py protocol: captions.json val[:200], seed-42 90/10 split, BLEU (nltk corpus, smoothing 1), ROUGE-L, CLIP ViT-B/32 image-text cosine, condition parsed from generated text",
+  "n_eval": 200,
+  "evaluated_on": "2026-10-21",
+  "seconds_per_image": 7.786,
+  "caption_quality": {
+    "bleu1": 0.0588,
+    "bleu4": 0.0018,
+    "rougeL": 0.1152,
+    "clip_similarity": 0.327
+  },
+  "classification": {
+    "accuracy": 0.085,
+    "macro_f1": 0.08,
+    "precision": 0.1288,
+    "recall": 0.0997,
+    "unparsed_predictions": 154
+  },
+  "severity": {
+    "r2": 0.0384,
+    "mae": 0.8625
+  },
+  "per_class_f1": {
+    "Bacterial Spot": 0.0,
+    "Early Blight": 0.0,
+    "Healthy": 0.3881,
+    "Late Blight": 0.1622,
+    "Leaf Mold": 0.0,
+    "Mosaic Virus": 0.25,
+    "Septoria Leaf Spot": 0.0,
+    "Spider Mite Damage": 0.0,
+    "Target Spot": 0.0,
+    "Yellow Leaf Curl Virus": 0.0
+  }
+}

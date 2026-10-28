@@ -1,0 +1,4 @@
+2026-01-27 14:22:59 | INFO     | SoyNet | Log file created: C:\Users\Admin\Desktop\latest\SoyNet\logs\soynet_20260127_142259.log
+2026-01-27 14:23:00 | INFO     | SoyNet.Models | Loaded resnet50 backbone with frozen layers
+2026-01-27 14:23:00 | INFO     | SoyNet.Models | Model compiled successfully
+2026-01-27 14:23:00 | INFO     | SoyNet.resnet50 | Starting training...

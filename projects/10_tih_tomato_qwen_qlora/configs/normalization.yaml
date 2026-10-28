@@ -1,0 +1,33 @@
+# =============================================================================
+# PlantDx — dataset normalization configuration
+# =============================================================================
+# The normalization engine copies the configured tomato classes from the raw
+# dataset into the canonical structure under paths.processed_dir.
+# The raw dataset is never modified.
+#
+# class_map maps each raw folder name to a canonical class name.
+# =============================================================================
+
+normalization:
+  mode: copy
+  disambiguate_on_collision: true
+
+  sources:
+    tomato:
+      dataset: Tomato_12thAug26
+      license: "Dataset provided for this project"
+      citation: ""
+      url: ""
+
+      class_map:
+        "Aphid": aphid
+        "Early_Blight_Fruit": early_blight_fruit
+        "Fruit_Borer": fruit_borer
+        "Healthy_Fruit": healthy_fruit
+        "Healthy_Leaf": healthy_leaf
+        "Late_Blight": late_blight
+        "Leaf_Curl": leaf_curl
+        "Leaf_Miner": leaf_miner
+        "Mealy_Bugs": mealy_bugs
+        "Target_Leaf_Spot": target_leaf_spot
+        "White_Fly": white_fly

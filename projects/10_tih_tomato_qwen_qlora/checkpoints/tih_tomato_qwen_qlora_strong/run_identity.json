@@ -1,0 +1,125 @@
+{
+  "runtime": {
+    "packages": {
+      "torch": "2.6.0+cu124",
+      "transformers": "5.16.1",
+      "peft": "0.20.0",
+      "accelerate": "1.15.0",
+      "bitsandbytes": "0.50.2",
+      "safetensors": "0.8.0"
+    },
+    "gpu": "NVIDIA RTX 4500 Ada Generation",
+    "cuda": "12.4"
+  },
+  "run_name": "tih_tomato_qwen_qlora_strong",
+  "seed": 20260911,
+  "model": {
+    "model_id": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "load_in_4bit": true,
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_use_double_quant": true,
+    "compute_dtype": "bfloat16",
+    "image_max_side": 392,
+    "max_seq_length": 1024
+  },
+  "lora": {
+    "rank": 32,
+    "alpha": 64,
+    "dropout": 0.05,
+    "train_vision": false,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ]
+  },
+  "optim": {
+    "learning_rate": 5e-05,
+    "epochs": 3.0,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "weight_decay": 0.0,
+    "warmup_ratio": 0.03,
+    "scheduler": "cosine",
+    "grad_clip": 1.0,
+    "grad_checkpoint": true,
+    "optimizer": "paged_adamw_8bit"
+  },
+  "data": {
+    "profile": "configs/company_tomato_classes.yaml",
+    "instruction": "Classify this tomato plant image into exactly one of these categories: Aphid, Early Blight Fruit, Fruit Borer, Healthy Fruit, Healthy Leaf, Late Blight, Leaf Curl, Leaf Miner, Mealy Bugs, Target Leaf Spot, White Fly. Return only the category name.",
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "split_seed": 20260911,
+    "deduplicate": true
+  },
+  "evaluation": {
+    "max_new_tokens": 24,
+    "limit": null
+  },
+  "classes": [
+    {
+      "raw": "Aphid",
+      "class_id": "aphid",
+      "label": "Aphid"
+    },
+    {
+      "raw": "Early_Blight_Fruit",
+      "class_id": "early_blight_fruit",
+      "label": "Early Blight Fruit"
+    },
+    {
+      "raw": "Fruit_Borer",
+      "class_id": "fruit_borer",
+      "label": "Fruit Borer"
+    },
+    {
+      "raw": "Healthy_Fruit",
+      "class_id": "healthy_fruit",
+      "label": "Healthy Fruit"
+    },
+    {
+      "raw": "Healthy_Leaf",
+      "class_id": "healthy_leaf",
+      "label": "Healthy Leaf"
+    },
+    {
+      "raw": "Late_Blight",
+      "class_id": "late_blight",
+      "label": "Late Blight"
+    },
+    {
+      "raw": "Leaf_Curl",
+      "class_id": "leaf_curl",
+      "label": "Leaf Curl"
+    },
+    {
+      "raw": "Leaf_Miner",
+      "class_id": "leaf_miner",
+      "label": "Leaf Miner"
+    },
+    {
+      "raw": "Mealy_Bugs",
+      "class_id": "mealy_bugs",
+      "label": "Mealy Bugs"
+    },
+    {
+      "raw": "Target_Leaf_Spot",
+      "class_id": "target_leaf_spot",
+      "label": "Target Leaf Spot"
+    },
+    {
+      "raw": "White_Fly",
+      "class_id": "white_fly",
+      "label": "White Fly"
+    }
+  ],
+  "splits": {
+    "train": "b7a4dc386413f13a42dc3a0045d314e9c7b1bf66b037f634ba16799258cc9b7a",
+    "validation": "5e8d0c9c3312385747089a7f8e656baafee3e1abe48246ef3265b8a1f161130c",
+    "test": "aab007e30e939b1f3a6e6527044e8ce4169779e7c02877e3dc56d2c4ef2c2ea9"
+  },
+  "implementation": "ca39937ea167b6e227c093b6bfac3f8f9c46e1520e8635692ea901b62ebe15da"
+}

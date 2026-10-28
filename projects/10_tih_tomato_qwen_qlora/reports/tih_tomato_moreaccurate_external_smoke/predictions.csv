@@ -1,0 +1,4 @@
+image,ground_truth_label,ground_truth_class_id,predicted_label,predicted_class_id,confidence,latency_seconds,generated
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Aphid\tomato__1786101110.jpg,Aphid,aphid,Aphid,aphid,0.9661,1.12,Aphid
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Early_blight_fruit\tomato__1785912061.jpg,Early Blight Fruit,early_blight_fruit,Early Blight Fruit,early_blight_fruit,0.9989,0.331,Early Blight Fruit
+C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset\testing\Fruit_Borer\tomato__1785912054.jpg,Fruit Borer,fruit_borer,Fruit Borer,fruit_borer,1.0,0.322,Fruit Borer

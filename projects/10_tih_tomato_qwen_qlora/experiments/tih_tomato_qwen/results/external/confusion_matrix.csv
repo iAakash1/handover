@@ -1,0 +1,12 @@
+true/predicted,Aphid,Early Blight Fruit,Fruit Borer,Healthy Fruit,Healthy Leaf,Late Blight,Leaf Curl,Leaf Miner,Mealy Bugs,Target Leaf Spot,White Fly
+Aphid,11,0,3,0,0,1,0,0,1,0,0
+Early Blight Fruit,0,13,3,2,0,0,0,0,0,2,0
+Fruit Borer,0,0,16,0,0,0,1,0,0,3,0
+Healthy Fruit,0,0,0,0,0,0,0,0,0,0,0
+Healthy Leaf,0,0,0,5,15,0,0,0,0,0,0
+Late Blight,0,0,0,0,0,2,5,2,0,11,0
+Leaf Curl,0,0,0,0,5,2,13,0,0,0,0
+Leaf Miner,0,0,0,0,0,2,1,14,0,3,0
+Mealy Bugs,0,0,0,0,0,0,0,0,7,0,0
+Target Leaf Spot,0,0,0,0,0,0,0,0,0,20,0
+White Fly,0,0,1,0,0,1,0,0,0,0,11

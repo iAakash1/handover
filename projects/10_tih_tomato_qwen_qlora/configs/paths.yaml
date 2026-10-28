@@ -1,0 +1,73 @@
+# =============================================================================
+# PlantDx — path configuration (the single mapping layer)
+# =============================================================================
+# Maps the logical artifact layout of the specification
+# (caption_framework/06_folder_structure_spec.md) onto the physical repository.
+#
+# All paths are relative to the repository root unless absolute. Set
+# `artifact_root: "."` to reproduce the literal doc-06 root-level layout.
+# The default nests generated outputs under artifacts/ for repo hygiene;
+# subdirectory names and semantics are IDENTICAL to the spec.
+#
+# Everything here lives under the top-level `paths:` key so it maps onto
+# PlantDxConfig.paths when the config files are composed by the loader.
+# =============================================================================
+
+paths:
+  # --- Immutable inputs -------------------------------------------------------
+  knowledge_base:
+    dkb_json: knowledge_base/dkb.json          # Stage 1 single source of truth (read-only)
+    dkb_report: knowledge_base/DKB_report.md   # human-readable DKB (used by QA review UI)
+
+  datasets:
+    tomato:
+      name: Tomato_12thAug26
+      root: tomato/raw/Tomato_12thAug26/Dataset
+      image_glob: "*"
+      classes: 11
+
+  # --- Authored assets (version-controlled inputs) ----------------------------
+  assets:
+    root: assets
+    templates: assets/templates/templates.json
+    instructions: assets/templates/instructions.json
+    scaffold_lexicon: assets/templates/scaffold_lexicon.json
+    synonyms: assets/vocabulary/synonyms.json
+    modifiers: assets/vocabulary/modifiers.json
+    severity_axis: assets/vocabulary/severity_axis.json
+    location_axis: assets/vocabulary/location_axis.json
+    sign_type_map: assets/vocabulary/sign_type_map.json
+    hedges: assets/vocabulary/hedges.json
+    function_words: assets/vocabulary/function_words.txt
+    label_map: assets/metadata/label_map.json
+    ontology_overrides_dir: assets/ontology_overrides
+
+  # --- Generated artifacts (outputs; gitignored) ------------------------------
+  # Subtree names mirror caption_framework/06_folder_structure_spec.md §1 exactly.
+  artifact_root: artifacts
+
+  artifacts:
+    ontology_dir: ontology                      # caption_ontology.json, concept_schema.json, build report
+    vocabulary_dir: vocabulary                  # derived allowed_terms/, never_appear/, symptom_lexicon.json
+    concepts_dir: concepts                      # concept_models.json (Caption Concept Model, component A)
+    templates_dir: templates                    # template_index.json (derived index)
+    corpus_dir: corpus                          # captions.json/jsonl/csv (disease-level caption corpus)
+    exports_dir: exports                        # per-format dataset exports (<format>/data.jsonl)
+    generation_dir: generation                  # provenance/<library_version>/
+    validators_dir: validators                  # reports/<library_version>/
+    captions_dir: captions                      # raw/, caption_library.jsonl
+    captions_library: captions/caption_library.jsonl
+    datasets_dir: datasets                      # splits/, <model>/ converted train files
+    metadata_dir: metadata                      # manifest.json, dataset_card.md, stats/
+    qa_dir: qa                                  # review_samples/, review_results/, acceptance_*.md
+
+  # --- Audit reports (Milestone 2) --------------------------------------------
+  reports_dir: reports                          # dataset audit reports (dataset_card.md, *.csv, *.json, audit.log)
+
+  # --- Normalized datasets (Milestone 2.1) ------------------------------------
+  processed_dir: datasets                        # canonical normalized data: datasets/<crop>/processed/<class>/
+
+  # --- Training outputs -------------------------------------------------------
+  # (Evaluation report dir is owned by training.yaml: evaluation.report_dir.)
+  outputs:
+    checkpoints_dir: checkpoints                # QLoRA adapters (gitignored)

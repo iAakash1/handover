@@ -1,0 +1,37 @@
+# =============================================================================
+# PlantDx — validation configuration (validators/rules.yaml equivalent)
+# =============================================================================
+# The 12-stage validator battery. See caption_framework/03_validation_spec.md.
+# Each validator is blocking unless marked soft. Blocking failures trigger
+# reseeded regeneration (up to generation.max_attempts) then a minimal fallback.
+# =============================================================================
+
+validation:
+  # `max_attempts` is single-sourced from generation.yaml (generation.max_attempts).
+  fallback_templates: ["T-S-02", "T-SS-10", "T-S-06"]   # minimal safe templates (doc 03 §4)
+
+  # Matching behavior for lexicon-based validators.
+  matching:
+    lemmatize: true
+    case_insensitive: true
+    word_boundary: true
+    longest_match_first: true      # multiword phrases matched as units (e.g. "tear-stain")
+
+  # The 12 blocking validators V1..V12 are code-defined and always-on in fixed
+  # order (see plantdx.validation.validators.ORDERED_VALIDATORS); no per-validator
+  # toggles — they are not a research requirement.
+
+  # Soft checks (recorded, non-blocking). doc 03 §3.
+  soft_checks: [S1_length_band, S2_opening_trigram, S3_readability, S4_hedge_presence]
+
+  # Grammar validator (V11) backend. doc 03 §2 V11.
+  grammar:
+    backend: language_tool          # language_tool | none (none => structural checks only)
+    language: en-US
+    profile_version: "1.0"
+    blocking_categories: [agreement, article, verb_form, run_on, capitalization, double_punctuation]
+
+  # Run-level acceptance gate (doc 03 §5).
+  run_gates:
+    max_fallback_rate: 0.02         # per disease
+    max_hard_errors: 0

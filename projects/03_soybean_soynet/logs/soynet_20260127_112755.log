@@ -1,0 +1,21 @@
+2026-01-27 11:27:55 | INFO     | SoyNet | Log file created: /Users/aakashjawle/Desktop/latest/SoyNet/logs/soynet_20260127_112755.log
+2026-01-27 11:27:55 | INFO     | SoyNet.Data | Split sizes - Train: 2604, Val: 558, Test: 558
+2026-01-27 11:27:55 | INFO     | SoyNet.Data | Class weights: {0: 0.5878103837471783, 1: 3.347043701799486}
+2026-01-27 11:27:56 | INFO     | SoyNet.Data | Dataset loaded successfully
+2026-01-27 11:27:56 | INFO     | SoyNet.Data | DatasetInfo(
+  num_classes=2,
+  class_names=['Disease_Preprocessing data', 'Healthy_Preprocessing data'],
+  train_size=2604,
+  val_size=558,
+  test_size=558
+)
+2026-01-27 11:27:56 | INFO     | SoyNet.Main | Dataset loaded: DatasetInfo(
+  num_classes=2,
+  class_names=['Disease_Preprocessing data', 'Healthy_Preprocessing data'],
+  train_size=2604,
+  val_size=558,
+  test_size=558
+)
+2026-01-27 11:27:56 | INFO     | SoyNet.Main | Classes: ['Disease_Preprocessing data', 'Healthy_Preprocessing data']
+2026-01-27 11:27:56 | INFO     | SoyNet.Main | Train: 2604, Val: 558, Test: 558
+2026-01-27 11:27:56 | INFO     | SoyNet.Main | Building model: resnet50

@@ -1,0 +1,429 @@
+{
+  "config_file": "C:\\Users\\Admin\\Desktop\\VLM\\newpipe\\configs\\qwen25vl_lora_tomato.yaml",
+  "instruction": "Describe the visible condition of this tomato leaf.",
+  "source": {
+    "type": "excel",
+    "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Revised_captions.xlsx",
+    "sha256": "71e812cd76b857635e3a35d20102b272df2f56741ed141655615074d4942c1c9"
+  },
+  "classes": [
+    "Bacterial spot",
+    "Early Blight",
+    "Leaf Mold",
+    "Mosaic Virus",
+    "Target Spot",
+    "Yellow Leaf Curl Virus"
+  ],
+  "n_images": 30,
+  "n_pairs": 150,
+  "captions_per_image": 5,
+  "split": {
+    "strategy": "grouped_rotation",
+    "fold": 0,
+    "train": {
+      "n_images": 18,
+      "n_rows": 90,
+      "images": [
+        "bacterial_spot__img1",
+        "bacterial_spot__img2",
+        "bacterial_spot__img3",
+        "early_blight__img1",
+        "early_blight__img2",
+        "early_blight__img3",
+        "leaf_mold__img1",
+        "leaf_mold__img2",
+        "leaf_mold__img3",
+        "mosaic_virus__img1",
+        "mosaic_virus__img2",
+        "mosaic_virus__img3",
+        "target_spot__img1",
+        "target_spot__img2",
+        "target_spot__img3",
+        "yellowleaf_curl_virus__img1",
+        "yellowleaf_curl_virus__img2",
+        "yellowleaf_curl_virus__img3"
+      ],
+      "images_per_class": {
+        "Bacterial spot": 3,
+        "Early Blight": 3,
+        "Leaf Mold": 3,
+        "Mosaic Virus": 3,
+        "Target Spot": 3,
+        "Yellow Leaf Curl Virus": 3
+      }
+    },
+    "val": {
+      "n_images": 6,
+      "n_rows": 30,
+      "images": [
+        "bacterial_spot__img4",
+        "early_blight__img4",
+        "leaf_mold__img4",
+        "mosaic_virus__img4",
+        "target_spot__img4",
+        "yellowleaf_curl_virus__img4"
+      ],
+      "images_per_class": {
+        "Bacterial spot": 1,
+        "Early Blight": 1,
+        "Leaf Mold": 1,
+        "Mosaic Virus": 1,
+        "Target Spot": 1,
+        "Yellow Leaf Curl Virus": 1
+      }
+    },
+    "test": {
+      "n_images": 6,
+      "n_rows": 30,
+      "images": [
+        "bacterial_spot__img5",
+        "early_blight__img5",
+        "leaf_mold__img5",
+        "mosaic_virus__img5",
+        "target_spot__img5",
+        "yellowleaf_curl_virus__img5"
+      ],
+      "images_per_class": {
+        "Bacterial spot": 1,
+        "Early Blight": 1,
+        "Leaf Mold": 1,
+        "Mosaic Virus": 1,
+        "Target Spot": 1,
+        "Yellow Leaf Curl Virus": 1
+      }
+    }
+  },
+  "flagged_captions": 7,
+  "images": {
+    "bacterial_spot__img1": {
+      "image_id": "bacterial_spot__img1",
+      "disease": "Bacterial spot",
+      "image_no": 1,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/bacterial_spot/1.JPG",
+      "sha256": "847986b04db52704897297565b62cac9653ea1ef0425f644a1070e7d1bd9baf1",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "bacterial_spot__img2": {
+      "image_id": "bacterial_spot__img2",
+      "disease": "Bacterial spot",
+      "image_no": 2,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/bacterial_spot/2.JPG",
+      "sha256": "04658ef2dcceabf609f52008f552d478b290fe3a93cf325f39b4bc4320120eb2",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "bacterial_spot__img3": {
+      "image_id": "bacterial_spot__img3",
+      "disease": "Bacterial spot",
+      "image_no": 3,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/bacterial_spot/3.JPG",
+      "sha256": "c14a71e095076c9df9c7b1f61f8e69f773292cd0a3ef7bfcdbb0dedc487525db",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "bacterial_spot__img4": {
+      "image_id": "bacterial_spot__img4",
+      "disease": "Bacterial spot",
+      "image_no": 4,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/bacterial_spot/4.JPG",
+      "sha256": "2e001949013eb06b64692decd1d4e66541f1eb074018775a12cafa2143e8666f",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "bacterial_spot__img5": {
+      "image_id": "bacterial_spot__img5",
+      "disease": "Bacterial spot",
+      "image_no": 5,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/bacterial_spot/5.JPG",
+      "sha256": "34714995c8f496d38e005ce0ac0bdd5f4803e07496eb628f9582a17a878765bc",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "early_blight__img1": {
+      "image_id": "early_blight__img1",
+      "disease": "Early Blight",
+      "image_no": 1,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/early_blight/1.JPG",
+      "sha256": "bb8cf07350baac37f7fdfa2a9e54587363c8a8806a28e8d0b085c1de9ab4a3cb",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "early_blight__img2": {
+      "image_id": "early_blight__img2",
+      "disease": "Early Blight",
+      "image_no": 2,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/early_blight/2.JPG",
+      "sha256": "a464236bc9ea8dc87b7d77863893056d8b8db696be6db66469bbc46d008b6e1f",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "early_blight__img3": {
+      "image_id": "early_blight__img3",
+      "disease": "Early Blight",
+      "image_no": 3,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/early_blight/3.JPG",
+      "sha256": "c2b813db2ca460894280bc0decf1df940dbe64085b81d1c54568f74d155d5a3c",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "early_blight__img4": {
+      "image_id": "early_blight__img4",
+      "disease": "Early Blight",
+      "image_no": 4,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/early_blight/4.JPG",
+      "sha256": "f44b6342cac8316b34a4fd23209d0100b9a19e803b3c94b8d09595a5f0d4f0bf",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "early_blight__img5": {
+      "image_id": "early_blight__img5",
+      "disease": "Early Blight",
+      "image_no": 5,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/early_blight/5.JPG",
+      "sha256": "243cd5f9e2dc37d1a45a058deb89c921767e588c4d1443227065ecfff9da099e",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "leaf_mold__img1": {
+      "image_id": "leaf_mold__img1",
+      "disease": "Leaf Mold",
+      "image_no": 1,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/leaf_mold/1.JPG",
+      "sha256": "33063ecffbdddcb0ca01d1838b32e22eaa0fb7c207db670c58e9f16ca01b47ea",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "leaf_mold__img2": {
+      "image_id": "leaf_mold__img2",
+      "disease": "Leaf Mold",
+      "image_no": 2,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/leaf_mold/2.JPG",
+      "sha256": "acc36b61dc9729b5169afa45f7b62eb86530c47ffb943a75e37e4991b908046b",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "leaf_mold__img3": {
+      "image_id": "leaf_mold__img3",
+      "disease": "Leaf Mold",
+      "image_no": 3,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/leaf_mold/3.JPG",
+      "sha256": "d1ed653c6e67c1ea5f6776b5833e8ac4ac4b446df738e46c80bccff59eed59df",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "leaf_mold__img4": {
+      "image_id": "leaf_mold__img4",
+      "disease": "Leaf Mold",
+      "image_no": 4,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/leaf_mold/4.JPG",
+      "sha256": "c9ecbab9f17925d20b8014e646dc6b40d76a309b143ab867394fef27e5fef8c9",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "leaf_mold__img5": {
+      "image_id": "leaf_mold__img5",
+      "disease": "Leaf Mold",
+      "image_no": 5,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/leaf_mold/5.JPG",
+      "sha256": "14cb1c129a409db12d630eec6709960a23c6c9adaa0fb90a74b0a87f984a9e40",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "mosaic_virus__img1": {
+      "image_id": "mosaic_virus__img1",
+      "disease": "Mosaic Virus",
+      "image_no": 1,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/mosaic_virus/1.JPG",
+      "sha256": "77487780b04b7f71301f5252247e7580a59bba179d4e2373d80ad7ecd326f904",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "mosaic_virus__img2": {
+      "image_id": "mosaic_virus__img2",
+      "disease": "Mosaic Virus",
+      "image_no": 2,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/mosaic_virus/2.JPG",
+      "sha256": "478ead03f1f962f60ae3455b90affd170c8b6a5cca95a60d1cf5e32b68f8bd0c",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "mosaic_virus__img3": {
+      "image_id": "mosaic_virus__img3",
+      "disease": "Mosaic Virus",
+      "image_no": 3,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/mosaic_virus/3.JPG",
+      "sha256": "0b9f951849b9b676253328474ae2143dea472e3832156dab51e595beffa9f402",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "mosaic_virus__img4": {
+      "image_id": "mosaic_virus__img4",
+      "disease": "Mosaic Virus",
+      "image_no": 4,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/mosaic_virus/4.JPG",
+      "sha256": "f17385882c3f1f3343b50e25f41f0640729f45a4a0fefb30ced2441dde8ebc5d",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "mosaic_virus__img5": {
+      "image_id": "mosaic_virus__img5",
+      "disease": "Mosaic Virus",
+      "image_no": 5,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/mosaic_virus/5.JPG",
+      "sha256": "a48fd8bd48810917768d7f655c8503598089e80ed29a6124141ea118d33b5cc5",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "target_spot__img1": {
+      "image_id": "target_spot__img1",
+      "disease": "Target Spot",
+      "image_no": 1,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/target_spot/1.JPG",
+      "sha256": "4bbc310f179679d83d9ceac8decf6180b234f3e4c263cbeb094469a3fa0b8a8e",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "target_spot__img2": {
+      "image_id": "target_spot__img2",
+      "disease": "Target Spot",
+      "image_no": 2,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/target_spot/2.JPG",
+      "sha256": "896f66f0c12091d3e72f1d760d22ad58ef848d0198582562daaad8631def0c59",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "target_spot__img3": {
+      "image_id": "target_spot__img3",
+      "disease": "Target Spot",
+      "image_no": 3,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/target_spot/3.JPG",
+      "sha256": "b9b20509c41742e2b574f7ad37d3235271d01c06907959ffbc5506597084c1ab",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "target_spot__img4": {
+      "image_id": "target_spot__img4",
+      "disease": "Target Spot",
+      "image_no": 4,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/target_spot/4.JPG",
+      "sha256": "c3c9efa88a2550a369268c21fa35e1ef74596ee40ea749ce17982f412888ffa1",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "target_spot__img5": {
+      "image_id": "target_spot__img5",
+      "disease": "Target Spot",
+      "image_no": 5,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/target_spot/5.JPG",
+      "sha256": "3f82e1d895ddcaad3f42e51d7d6f6db04b731dafe7c87c4604db01a8a258286c",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "yellowleaf_curl_virus__img1": {
+      "image_id": "yellowleaf_curl_virus__img1",
+      "disease": "Yellow Leaf Curl Virus",
+      "image_no": 1,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/yellowleaf_curl_virus/1.JPG",
+      "sha256": "6df2838c482139b8c75c6cac397d02773f122ab26c42982a8f827fe34d691579",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "yellowleaf_curl_virus__img2": {
+      "image_id": "yellowleaf_curl_virus__img2",
+      "disease": "Yellow Leaf Curl Virus",
+      "image_no": 2,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/yellowleaf_curl_virus/2.JPG",
+      "sha256": "707c27effbeb3c8bb9a8e1160fc0e6b0de2169d52219a893ed5f35262f4b4f4e",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "yellowleaf_curl_virus__img3": {
+      "image_id": "yellowleaf_curl_virus__img3",
+      "disease": "Yellow Leaf Curl Virus",
+      "image_no": 3,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/yellowleaf_curl_virus/3.JPG",
+      "sha256": "c08724d4d1b72aba0b2e68baeccffb5cd8715ed7417c1711cba554bacc920cb0",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "yellowleaf_curl_virus__img4": {
+      "image_id": "yellowleaf_curl_virus__img4",
+      "disease": "Yellow Leaf Curl Virus",
+      "image_no": 4,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/yellowleaf_curl_virus/4.JPG",
+      "sha256": "c9c0669af67a454196b8496d6c941aaa8b0545696dad03961427f7e3648b5ae8",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    },
+    "yellowleaf_curl_virus__img5": {
+      "image_id": "yellowleaf_curl_virus__img5",
+      "disease": "Yellow Leaf Curl Virus",
+      "image_no": 5,
+      "path": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/yellowleaf_curl_virus/5.JPG",
+      "sha256": "61293d08367e296731c1764af9cf4cd41918cbb89d444cb2199d1135d09b3f39",
+      "width": 256,
+      "height": 256,
+      "mode": "RGB",
+      "provenance": null
+    }
+  }
+}

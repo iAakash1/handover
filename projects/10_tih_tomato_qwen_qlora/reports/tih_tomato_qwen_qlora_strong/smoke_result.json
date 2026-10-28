@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "detail": "2 optimizer step(s) on 22 images; adapter written and validated",
+  "steps": 2,
+  "final_loss": 0.24639734625816345,
+  "seconds": 56.643484900007024,
+  "peak_memory_gb": 11.96,
+  "adapter_dir": "",
+  "fingerprint": "c63e4b7bf0e4d9ec2d396f5501fe079d4da29ecb755dedd32b6ccd96c9631ac6",
+  "seconds_per_optimizer_step": 4.518024299992248,
+  "estimated_total_seconds": 12016.803620951465,
+  "resume_verified": true,
+  "validation_batch_verified": true
+}

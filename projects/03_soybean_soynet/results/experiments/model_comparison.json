@@ -1,0 +1,56 @@
+{
+  "timestamp": "2026-01-27T14:30:38.825897",
+  "models": {
+    "resnet50": {
+      "accuracy": 0.9516129032258065,
+      "precision": 0.7692307692307693,
+      "recall": 0.963855421686747,
+      "f1_score": 0.8556149732620321,
+      "roc_auc": 0.9902726696258719,
+      "training_time_seconds": 261.365606546402,
+      "model_size_mb": 244.81372833251953
+    },
+    "efficientnetb0": {
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "roc_auc": 0,
+      "training_time_seconds": 0,
+      "model_size_mb": 0
+    },
+    "efficientnetb3": {
+      "accuracy": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1_score": 0,
+      "roc_auc": 0,
+      "training_time_seconds": 0,
+      "model_size_mb": 0
+    },
+    "mobilenetv2": {
+      "accuracy": 0.8906810035842294,
+      "precision": 0.7291666666666666,
+      "recall": 0.42168674698795183,
+      "f1_score": 0.5343511450381679,
+      "roc_auc": 0.8747748890298035,
+      "training_time_seconds": 166.39502239227295,
+      "model_size_mb": 26.984039306640625
+    }
+  },
+  "best_by_metric": {
+    "accuracy": "resnet50",
+    "precision": "resnet50",
+    "recall": "resnet50",
+    "f1_score": "resnet50",
+    "roc_auc": "resnet50"
+  },
+  "recommendations": {
+    "best_accuracy": "resnet50",
+    "best_recall_disease_safety": "resnet50",
+    "best_deployment_candidate": "mobilenetv2",
+    "notes": [
+      "Dataset is imbalanced (Disease: 3164, Healthy: 556). Recall is critical for disease detection safety."
+    ]
+  }
+}

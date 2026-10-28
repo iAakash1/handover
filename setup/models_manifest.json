@@ -1,0 +1,162 @@
+{
+  "repository": "iAakash1/TIH-IoT",
+  "branch": "main",
+  "files": [
+    {
+      "path": "projects/01_cnn_keras_tomato/model/best_model_cnn.keras",
+      "source": "2025-12_December/keras_pipeline_kamaaksha/model/best_model_cnn.keras",
+      "bytes": 2003924,
+      "sha256": "00259a723ce99f223c584f6d5b59c7ed8cfd017527587e6958b8633b8fda0232"
+    },
+    {
+      "path": "projects/01_cnn_keras_tomato/model/best_model_convnext.keras",
+      "source": "2026-01_January/cottoncrop_repo_snapshot/model/best_model_convnext.keras",
+      "bytes": 247644936,
+      "sha256": "06c33e375e490099315aad875b8ff307ace835be0beb9940cb0ee1322811a105"
+    },
+    {
+      "path": "projects/01_cnn_keras_tomato/model/best_model_efficientNetB3.keras",
+      "source": "2025-12_December/keras_pipeline_kamaaksha/model/best_model_efficientNetB3.keras",
+      "bytes": 49290579,
+      "sha256": "fa307fb286f601599a9d21a5134087ebb35c45132f508edf979e2945e5164b97"
+    },
+    {
+      "path": "projects/01_cnn_keras_tomato/model/best_model_mobilenet.keras",
+      "source": "2026-01_January/cottoncrop_repo_snapshot/model/best_model_mobilenet.keras",
+      "bytes": 11651553,
+      "sha256": "5e588a6cec784779adfe6fc22d698a40eb1a82bac4e97f801ac7cb59a37b739d"
+    },
+    {
+      "path": "projects/01_cnn_keras_tomato/model/final_model.keras",
+      "source": "2025-12_December/keras_pipeline_kamaaksha/model/final_model.keras",
+      "bytes": 2003924,
+      "sha256": "fd0c07bedf07ddb4e6685e29d5367e738fc419313c8a81638540f83f6de03fcc"
+    },
+    {
+      "path": "projects/01_cnn_keras_tomato/reference/reference_crop_embeddings.npy",
+      "source": "2025-12_December/keras_pipeline_kamaaksha/reference/reference_crop_embeddings.npy",
+      "bytes": 384128,
+      "sha256": "79b5a00f1dcc871d03406374526f7df36c1a6aa139927102c83d1603e07a1a6d"
+    },
+    {
+      "path": "projects/02_cnn_pytorch_convnext/models/convnext_tomato_best.pth",
+      "source": "2026-01_January/pytorch_convnext/models/convnext_tomato_best.pth",
+      "bytes": 111380383,
+      "sha256": "27d3cf07486a8011211b3b63ae29243c86e1049b967c2320a4e870aad8c93a4c"
+    },
+    {
+      "path": "projects/03_soybean_soynet/results/experiments/efficientnet_b0/model.pth",
+      "source": "2026-01_January/soybean_soynet/results/experiments/efficientnet_b0/model.pth",
+      "bytes": 16317130,
+      "sha256": "a017d6ce9b5dc598f2d815570524fe2a91ca8cd29642dd4d1d0e76787f0fc2c3"
+    },
+    {
+      "path": "projects/03_soybean_soynet/results/experiments/efficientnet_b3/model.pth",
+      "source": "2026-01_January/soybean_soynet/results/experiments/efficientnet_b3/model.pth",
+      "bytes": 43323186,
+      "sha256": "893068f31006db4d5699d5df8b53709fd87fcc96695edd89506e4f8da2a3b83a"
+    },
+    {
+      "path": "projects/03_soybean_soynet/results/experiments/mobilenetv2/model.pth",
+      "source": "2026-01_January/soybean_soynet/results/experiments/mobilenetv2/model.pth",
+      "bytes": 9135042,
+      "sha256": "65d1b5b466877ee548e5206596ebf2db302204ce298b0ad880d583965487c3de"
+    },
+    {
+      "path": "projects/03_soybean_soynet/results/experiments/mobilenetv2/soynet_mobilenetv2_best.keras",
+      "source": "2026-01_January/soybean_soynet/results/experiments/mobilenetv2/soynet_mobilenetv2_best.keras",
+      "bytes": 28294816,
+      "sha256": "0b3f75fffc4b4070e4dfd8a42ce07af7813412e4102e09eec4b8c9147b30eed6"
+    },
+    {
+      "path": "projects/03_soybean_soynet/results/experiments/resnet50/model.pth",
+      "source": "2026-01_January/soybean_soynet/results/experiments/resnet50/model.pth",
+      "bytes": 94347754,
+      "sha256": "e33d62a686e1b36102dd343e66e8c71189db0a46be8e1246c82f3ca8b7041b43"
+    },
+    {
+      "path": "projects/03_soybean_soynet/results/experiments/resnet50/soynet_resnet50_best.keras",
+      "source": "2026-01_January/soybean_soynet/results/experiments/resnet50/soynet_resnet50_best.keras",
+      "bytes": 256705800,
+      "sha256": "d628d36a5eab0f0310bc870460423a3ddad41c5512a0aa8ac09bcd2c8f845c1e"
+    },
+    {
+      "path": "projects/03_soybean_soynet/saved_models/soynet_mobilenetv2_finetuned.keras",
+      "source": "2026-01_January/soybean_soynet/saved_models/soynet_mobilenetv2_finetuned.keras",
+      "bytes": 28294816,
+      "sha256": "31ddb7aa68df93ae4525194f29e491db5351b6e4a380dc734fcc829203f63e27"
+    },
+    {
+      "path": "projects/03_soybean_soynet/saved_models/soynet_resnet50_best.keras",
+      "source": "2026-01_January/soybean_soynet/saved_models/soynet_resnet50_best.keras",
+      "bytes": 101378709,
+      "sha256": "b6ccb8177f10631ffb33f41f6cd2e9abad00ea361205600065e5c770c2f7d604"
+    },
+    {
+      "path": "projects/03_soybean_soynet/saved_models/soynet_resnet50_finetuned.keras",
+      "source": "2026-01_January/soybean_soynet/saved_models/soynet_resnet50_finetuned.keras",
+      "bytes": 256705800,
+      "sha256": "33d32ddddcd568846d4c7588670251bdde07abf3800783ecc3b63fce030e96aa"
+    },
+    {
+      "path": "projects/04_llava_blip2/blip2_rerun_june/outputs/blip2_plantvillage/best/adapter_model.safetensors",
+      "source": "2026-06_June/tp/outputs/blip2_plantvillage/best/adapter_model.safetensors",
+      "bytes": 243242712,
+      "sha256": "6af9f8c11ed40eddb429aa0107c5cafe3e756d098b2a8f323793cf2974cb1168"
+    },
+    {
+      "path": "projects/04_llava_blip2/outputs/blip2_plantvillage/best/adapter_model.safetensors",
+      "source": "2026-03_March/outputs/blip2_plantvillage/best/adapter_model.safetensors",
+      "bytes": 243242712,
+      "sha256": "5c275f768a9f58ff4638705b1c4d55a0b78ce750aa24505d6bb3e07102aad46a"
+    },
+    {
+      "path": "projects/04_llava_blip2/outputs/llava_plantvillage/best/adapter_model.safetensors",
+      "source": "2026-03_March/outputs/llava_plantvillage/best/adapter_model.safetensors",
+      "bytes": 708929184,
+      "sha256": "a04473f31e67380a0f6e0c456cda1c5fac45cc5d1fdd2d634c216bf42c7e5a81"
+    },
+    {
+      "path": "projects/06_qwen25vl_plantvillage/qwen/outputs/qwen25vl_plantvillage/best/adapter_model.safetensors",
+      "source": "2026-04_April/qwen/outputs/qwen25vl_plantvillage/best/adapter_model.safetensors",
+      "bytes": 414700592,
+      "sha256": "6f77ac1268b59cc6ff86c00bc31d56215ff09d1abd79a7c7efa53a6d3227c8e7"
+    },
+    {
+      "path": "projects/07_plantdx_plantvillage/outputs/checkpoints/best/adapter_model.safetensors",
+      "source": "2026-05_May/PlantDx/outputs/checkpoints/best/adapter_model.safetensors",
+      "bytes": 380800528,
+      "sha256": "d92aa6e7f6c9fc6b4a826bc274e3f6f3ce052ed3de6214b26f150695d07c0806"
+    },
+    {
+      "path": "projects/08_plantvlm_expert_captions/runs/run_002_fold0/checkpoints/best/adapter_model.safetensors",
+      "source": "2026-08_August/newpipe/runs/run_002_fold0/checkpoints/best/adapter_model.safetensors",
+      "bytes": 161539072,
+      "sha256": "bdbce029d0058610750cd6f8ead0ecf72c3a58f43bfcfa562503c4553eded4f5"
+    },
+    {
+      "path": "projects/10_tih_tomato_qwen_qlora/checkpoints/tih_tomato_moreaccurate/adapter_model.safetensors",
+      "source": "2026-09_September/plantdx_and_tih_tomato/checkpoints/tih_tomato_moreaccurate/adapter_model.safetensors",
+      "bytes": 161514344,
+      "sha256": "7d061d9fd7e820848d5fcda7c970f12626d11ff2e2b6d492f87085f1491cc2fe"
+    },
+    {
+      "path": "projects/10_tih_tomato_qwen_qlora/checkpoints/tih_tomato_moreaccurate/training_args.bin",
+      "source": "2026-09_September/plantdx_and_tih_tomato/checkpoints/tih_tomato_moreaccurate/training_args.bin",
+      "bytes": 4920,
+      "sha256": "7e45964d5ad93613a9ba6b0ed8f9443662b337f5d2fb98a32aad72847a637010"
+    },
+    {
+      "path": "projects/10_tih_tomato_qwen_qlora/checkpoints/tih_tomato_qwen_qlora_strong/adapter_model.safetensors",
+      "source": "2026-09_September/plantdx_and_tih_tomato/checkpoints/tih_tomato_qwen_qlora_strong/adapter_model.safetensors",
+      "bytes": 80773792,
+      "sha256": "a6bb95e329eedfcf0c80ce32ec83e6a638b6907c2ac07453252ccf87ca4d87f3"
+    },
+    {
+      "path": "projects/10_tih_tomato_qwen_qlora/checkpoints/tih_tomato_qwen_qlora_strong/training_args.bin",
+      "source": "2026-09_September/plantdx_and_tih_tomato/checkpoints/tih_tomato_qwen_qlora_strong/training_args.bin",
+      "bytes": 4920,
+      "sha256": "118aaf2c467b82aff11ba17b6c5bb2309f6c5a9d479c795cecd8a15d3bd411d6"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+site_name: PlantDx
+site_description: Knowledge-grounded instruction-tuning datasets for agricultural VLMs
+repo_url: https://github.com/iAakash1/experimentation
+docs_dir: docs
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: green
+    - scheme: slate
+      primary: green
+
+nav:
+  - Home: README.md
+  - Architecture: ARCHITECTURE.md
+  - Repository Layout: REPO_LAYOUT.md
+  - Configuration: CONFIGURATION.md
+  - Development: DEVELOPMENT.md
+  - Roadmap: ROADMAP.md
+  - Decisions:
+      - Overview: adr/README.md
+      - "0001 Canonical dataset schema": adr/0001-single-canonical-dataset-schema.md
+      - "0002 src layout & artifact mapping": adr/0002-src-layout-and-artifact-mapping.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            docstring_style: google
+            show_source: false
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences

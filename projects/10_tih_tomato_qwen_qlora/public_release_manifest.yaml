@@ -1,0 +1,40 @@
+release_scope: public_research_code_and_aggregate_benchmarks
+
+public:
+  generic_model_pipeline:
+    - src/plantdx/training
+    - src/plantdx/evaluation
+    - src/plantdx/company
+  experiment_configs:
+    - configs/train
+    - research/mlx_pipeline/configs
+    - experiments/tih_tomato_qwen/configs
+  evaluation_scripts:
+    - src/plantdx/company/external_evaluate.py
+    - experiments/tih_tomato_qwen/evaluation
+  benchmark_results:
+    - research/mlx_pipeline/results
+    - research/zero_shot/results
+    - experiments/tih_tomato_qwen/results
+    - experiments/tih_tomato_qwen/graphs
+  reproducibility:
+    - tests
+    - requirements.txt
+    - requirements-dev.txt
+    - pyproject.toml
+
+private_local_archive:
+  path: private_archive
+  tracked: false
+  categories:
+    - curated disease knowledge base
+    - unpublished ontology specifications
+    - unpublished caption and reasoning specifications
+    - authored internal template library
+    - private datasets and model checkpoints
+
+distribution_guards:
+  - raw datasets are gitignored
+  - trained checkpoints are gitignored
+  - per-image external predictions remain local
+  - public benchmark artifacts contain aggregate metrics only

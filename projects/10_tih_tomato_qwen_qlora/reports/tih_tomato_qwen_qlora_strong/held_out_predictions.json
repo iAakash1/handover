@@ -1,0 +1,37 @@
+[
+  {
+    "image": "C:\\Users\\Admin\\Desktop\\TIH_IITB_August_2026\\Tomato_12thAug26\\Dataset\\Leaf_Miner\\9517efbd-b0ae-4772-a562-3fcf92498dca.Jpg",
+    "true_class": "leaf_miner",
+    "predicted_class": "leaf_miner",
+    "generated": "Leaf Miner",
+    "correct": true
+  },
+  {
+    "image": "C:\\Users\\Admin\\Desktop\\TIH_IITB_August_2026\\Tomato_12thAug26\\Dataset\\Fruit_Borer\\8edcd5f1-b658-4aca-9c7c-a35f244d13d7.Jpg",
+    "true_class": "fruit_borer",
+    "predicted_class": "fruit_borer",
+    "generated": "Fruit Borer",
+    "correct": true
+  },
+  {
+    "image": "C:\\Users\\Admin\\Desktop\\TIH_IITB_August_2026\\Tomato_12thAug26\\Dataset\\Healthy_Fruit\\0035c9f1-b166-4a87-a645-46b33ee9e8cb.Jpg",
+    "true_class": "healthy_fruit",
+    "predicted_class": "healthy_fruit",
+    "generated": "Healthy Fruit",
+    "correct": true
+  },
+  {
+    "image": "C:\\Users\\Admin\\Desktop\\TIH_IITB_August_2026\\Tomato_12thAug26\\Dataset\\Leaf_Miner\\bb2f738a-2952-4bfe-9f69-ffa015a5b6e1.Jpg",
+    "true_class": "leaf_miner",
+    "predicted_class": "leaf_miner",
+    "generated": "Leaf Miner",
+    "correct": true
+  },
+  {
+    "image": "C:\\Users\\Admin\\Desktop\\TIH_IITB_August_2026\\Tomato_12thAug26\\Dataset\\Mealy_Bugs\\c0c156f9-9920-4ff3-9533-dfb7ecfb0231.Jpg",
+    "true_class": "mealy_bugs",
+    "predicted_class": "mealy_bugs",
+    "generated": "Mealy Bugs",
+    "correct": true
+  }
+]

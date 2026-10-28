@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Company (TIH) tomato run: zero-shot baseline, QLoRA fine-tune, held-out evaluation.
+set -u
+cd "$(dirname "$0")"
+PY=python
+LOG=logs/tih_tomato_qwen_qlora/campaign.log
+mkdir -p "$(dirname "$LOG")"
+
+step() { echo ""; echo "=============== $* ==============="; date; }
+
+step "1/5 base model, validation split"
+$PY -m plantdx company evaluate --split validation --base
+
+step "2/5 QLoRA fine-tune"
+$PY -m plantdx company train --skip-smoke --no-evaluate
+
+step "3/5 fine-tuned, validation split"
+$PY -m plantdx company evaluate --split validation
+
+step "4/5 base model, test split"
+$PY -m plantdx company evaluate --split test --base
+
+step "5/5 fine-tuned, test split"
+$PY -m plantdx company evaluate --split test
+
+step "done"

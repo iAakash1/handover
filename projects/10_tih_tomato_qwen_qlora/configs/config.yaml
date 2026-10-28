@@ -1,0 +1,41 @@
+# =============================================================================
+# PlantDx — master configuration
+# =============================================================================
+# This is the top-level config. It composes the domain-specific config files
+# and holds project-wide settings. Individual pipeline stages load the merged
+# result via `plantdx.config.load_config`.
+#
+# Precedence (lowest -> highest):
+#   defaults in code  <  these YAML files  <  PLANTDX_* environment variables
+#   <  CLI flags
+#
+# Spec references:
+#   caption_framework/06_folder_structure_spec.md  (§4 config defaults)
+#   caption_framework/00_methodology_overview.md    (§9 configuration surface)
+# =============================================================================
+
+project:
+  name: plantdx
+  # Bumped on any change to DKB, ontology, templates, vocabulary, or config.
+  # Embeds a short config hash at build time. See docs/REPO_LAYOUT.md.
+  library_version: "L1"
+
+# Compose the domain configs (resolved relative to this file's directory).
+includes:
+  - paths.yaml
+  - audit.yaml
+  - normalization.yaml
+  - generation.yaml
+  - validation.yaml
+  - training.yaml
+
+logging:
+  level: INFO          # DEBUG | INFO | WARNING | ERROR
+  rich: true           # pretty console logging via `rich`
+  json_file: null      # optional path to a structured JSONL log
+
+# Determinism guardrails enforced at runtime (see plantdx.core.seeding).
+reproducibility:
+  strict: true                 # fail if any unseeded RNG source is detected
+  # Regeneration CI check: regenerating a record from provenance must be identical.
+  verify_regeneration: true

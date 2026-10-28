@@ -1,0 +1,9 @@
+2026-01-27 11:27:53 | INFO     | SoyNet | Log file created: /Users/aakashjawle/Desktop/latest/SoyNet/logs/soynet_20260127_112753.log
+2026-01-27 11:27:53 | INFO     | SoyNet.Main | ============================================================
+2026-01-27 11:27:53 | INFO     | SoyNet.Main | SoyNet - Soybean Disease Detection System
+2026-01-27 11:27:53 | INFO     | SoyNet.Main | ============================================================
+2026-01-27 11:27:53 | INFO     | SoyNet.Main | Configuration validated successfully
+2026-01-27 11:27:53 | INFO     | SoyNet.Main | Random seeds set to 42
+2026-01-27 11:27:53 | INFO     | SoyNet.Main | Using CPU for training
+2026-01-27 11:27:53 | INFO     | SoyNet.Main | Output directories created
+2026-01-27 11:27:55 | INFO     | SoyNet.Main | Loading dataset...

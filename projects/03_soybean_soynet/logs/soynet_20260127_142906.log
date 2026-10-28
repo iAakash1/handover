@@ -1,0 +1,108 @@
+2026-01-27 14:29:06 | INFO     | SoyNet | Log file created: C:\Users\Admin\Desktop\latest\SoyNet\logs\soynet_20260127_142906.log
+2026-01-27 14:29:06 | INFO     | SoyNet.Models | Unfroze layers from index 100
+2026-01-27 14:29:06 | INFO     | SoyNet.Models | Trainable layers: 41/159
+2026-01-27 14:29:06 | INFO     | SoyNet.Models | Model recompiled with learning rate: 1e-05
+2026-01-27 14:29:06 | INFO     | SoyNet.Trainer | ============================================================
+2026-01-27 14:29:06 | INFO     | SoyNet.Trainer | TRAINING STARTED
+2026-01-27 14:29:06 | INFO     | SoyNet.Trainer | ============================================================
+2026-01-27 14:29:06 | INFO     | SoyNet.Trainer | 
+Epoch 22/46
+2026-01-27 14:29:06 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:29:13 | INFO     | SoyNet.Trainer | Results: loss: 0.5969 | accuracy: 0.6509 | auc: 0.7557 | val_loss: 0.4609 | val_accuracy: 0.8835 | val_auc: 0.8358 | lr: 0.0000
+2026-01-27 14:29:13 | INFO     | SoyNet.Trainer | 
+Epoch 23/46
+2026-01-27 14:29:13 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:29:17 | INFO     | SoyNet.Trainer | Results: loss: 0.5992 | accuracy: 0.6697 | auc: 0.7586 | val_loss: 0.5671 | val_accuracy: 0.8065 | val_auc: 0.9070 | lr: 0.0000
+2026-01-27 14:29:18 | INFO     | SoyNet.Trainer | 
+Epoch 24/46
+2026-01-27 14:29:18 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:29:22 | INFO     | SoyNet.Trainer | Results: loss: 0.5804 | accuracy: 0.6221 | auc: 0.7550 | val_loss: 0.8944 | val_accuracy: 0.7330 | val_auc: 0.8902 | lr: 0.0000
+2026-01-27 14:29:22 | INFO     | SoyNet.Trainer | 
+Epoch 25/46
+2026-01-27 14:29:22 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:29:26 | INFO     | SoyNet.Trainer | Results: loss: 0.5691 | accuracy: 0.6601 | auc: 0.7621 | val_loss: 0.6039 | val_accuracy: 0.8118 | val_auc: 0.9159 | lr: 0.0000
+2026-01-27 14:29:26 | INFO     | SoyNet.Trainer | Learning rate changed: 1.00e-05 -> 2.00e-06
+2026-01-27 14:29:26 | INFO     | SoyNet.Trainer | 
+Epoch 26/46
+2026-01-27 14:29:26 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:29:30 | INFO     | SoyNet.Trainer | Results: loss: 0.5222 | accuracy: 0.6459 | auc: 0.7829 | val_loss: 0.5665 | val_accuracy: 0.8423 | val_auc: 0.9112 | lr: 0.0000
+2026-01-27 14:29:30 | INFO     | SoyNet.Trainer | 
+Epoch 27/46
+2026-01-27 14:29:30 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:29:34 | INFO     | SoyNet.Trainer | Results: loss: 0.5400 | accuracy: 0.6421 | auc: 0.7730 | val_loss: 0.6141 | val_accuracy: 0.8172 | val_auc: 0.9066 | lr: 0.0000
+2026-01-27 14:29:34 | INFO     | SoyNet.Trainer | 
+Epoch 28/46
+2026-01-27 14:29:34 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:29:38 | INFO     | SoyNet.Trainer | Results: loss: 0.5445 | accuracy: 0.6713 | auc: 0.7768 | val_loss: 0.7639 | val_accuracy: 0.7939 | val_auc: 0.8986 | lr: 0.0000
+2026-01-27 14:29:38 | INFO     | SoyNet.Trainer | Learning rate changed: 2.00e-06 -> 4.00e-07
+2026-01-27 14:29:38 | INFO     | SoyNet.Trainer | 
+Epoch 29/46
+2026-01-27 14:29:38 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:29:43 | INFO     | SoyNet.Trainer | Results: loss: 0.5112 | accuracy: 0.6605 | auc: 0.8029 | val_loss: 0.7855 | val_accuracy: 0.8065 | val_auc: 0.8991 | lr: 0.0000
+2026-01-27 14:29:43 | INFO     | SoyNet.Trainer | 
+Epoch 30/46
+2026-01-27 14:29:43 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:29:47 | INFO     | SoyNet.Trainer | Results: loss: 0.5165 | accuracy: 0.6640 | auc: 0.7947 | val_loss: 0.8490 | val_accuracy: 0.7921 | val_auc: 0.8975 | lr: 0.0000
+2026-01-27 14:29:47 | INFO     | SoyNet.Trainer | 
+Epoch 31/46
+2026-01-27 14:29:47 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:29:51 | INFO     | SoyNet.Trainer | Results: loss: 0.5330 | accuracy: 0.6455 | auc: 0.7729 | val_loss: 0.7975 | val_accuracy: 0.8082 | val_auc: 0.8854 | lr: 0.0000
+2026-01-27 14:29:51 | INFO     | SoyNet.Trainer | Learning rate changed: 4.00e-07 -> 8.00e-08
+2026-01-27 14:29:51 | INFO     | SoyNet.Trainer | 
+Epoch 32/46
+2026-01-27 14:29:51 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:29:55 | INFO     | SoyNet.Trainer | Results: loss: 0.4991 | accuracy: 0.6678 | auc: 0.8072 | val_loss: 0.7664 | val_accuracy: 0.8029 | val_auc: 0.8819 | lr: 0.0000
+2026-01-27 14:29:55 | INFO     | SoyNet.Trainer | 
+Epoch 33/46
+2026-01-27 14:29:55 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:29:59 | INFO     | SoyNet.Trainer | Results: loss: 0.5202 | accuracy: 0.6651 | auc: 0.7866 | val_loss: 0.7823 | val_accuracy: 0.7939 | val_auc: 0.8926 | lr: 0.0000
+2026-01-27 14:29:59 | INFO     | SoyNet.Trainer | 
+Epoch 34/46
+2026-01-27 14:29:59 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:30:03 | INFO     | SoyNet.Trainer | Results: loss: 0.5329 | accuracy: 0.6267 | auc: 0.7591 | val_loss: 0.7522 | val_accuracy: 0.8082 | val_auc: 0.8980 | lr: 0.0000
+2026-01-27 14:30:03 | INFO     | SoyNet.Trainer | Learning rate changed: 8.00e-08 -> 1.60e-08
+2026-01-27 14:30:03 | INFO     | SoyNet.Trainer | 
+Epoch 35/46
+2026-01-27 14:30:03 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:30:07 | INFO     | SoyNet.Trainer | Results: loss: 0.5202 | accuracy: 0.6632 | auc: 0.7936 | val_loss: 0.6991 | val_accuracy: 0.8047 | val_auc: 0.8901 | lr: 0.0000
+2026-01-27 14:30:07 | INFO     | SoyNet.Trainer | 
+Epoch 36/46
+2026-01-27 14:30:07 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:30:11 | INFO     | SoyNet.Trainer | Results: loss: 0.5076 | accuracy: 0.6655 | auc: 0.8019 | val_loss: 0.8699 | val_accuracy: 0.7760 | val_auc: 0.8956 | lr: 0.0000
+2026-01-27 14:30:11 | INFO     | SoyNet.Trainer | 
+Epoch 37/46
+2026-01-27 14:30:11 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:30:15 | INFO     | SoyNet.Trainer | Results: loss: 0.5168 | accuracy: 0.6475 | auc: 0.7874 | val_loss: 0.7848 | val_accuracy: 0.7832 | val_auc: 0.8994 | lr: 0.0000
+2026-01-27 14:30:15 | INFO     | SoyNet.Trainer | Learning rate changed: 1.60e-08 -> 1.00e-08
+2026-01-27 14:30:15 | INFO     | SoyNet.Trainer | 
+Epoch 38/46
+2026-01-27 14:30:15 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:30:19 | INFO     | SoyNet.Trainer | Results: loss: 0.5157 | accuracy: 0.6575 | auc: 0.7941 | val_loss: 0.7394 | val_accuracy: 0.7993 | val_auc: 0.8897 | lr: 0.0000
+2026-01-27 14:30:19 | INFO     | SoyNet.Trainer | 
+Epoch 39/46
+2026-01-27 14:30:19 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:30:23 | INFO     | SoyNet.Trainer | Results: loss: 0.4999 | accuracy: 0.6663 | auc: 0.8034 | val_loss: 0.7765 | val_accuracy: 0.7957 | val_auc: 0.8947 | lr: 0.0000
+2026-01-27 14:30:23 | INFO     | SoyNet.Trainer | 
+Epoch 40/46
+2026-01-27 14:30:23 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:30:27 | INFO     | SoyNet.Trainer | Results: loss: 0.5119 | accuracy: 0.6452 | auc: 0.7936 | val_loss: 0.8268 | val_accuracy: 0.7616 | val_auc: 0.8941 | lr: 0.0000
+2026-01-27 14:30:27 | INFO     | SoyNet.Trainer | 
+Epoch 41/46
+2026-01-27 14:30:27 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:30:31 | INFO     | SoyNet.Trainer | Results: loss: 0.5187 | accuracy: 0.6432 | auc: 0.7893 | val_loss: 0.7377 | val_accuracy: 0.7867 | val_auc: 0.8949 | lr: 0.0000
+2026-01-27 14:30:31 | INFO     | SoyNet.Trainer | 
+Epoch 42/46
+2026-01-27 14:30:31 | INFO     | SoyNet.Trainer | ----------------------------------------
+2026-01-27 14:30:35 | INFO     | SoyNet.Trainer | Results: loss: 0.5116 | accuracy: 0.6709 | auc: 0.7962 | val_loss: 0.7564 | val_accuracy: 0.7832 | val_auc: 0.8925 | lr: 0.0000
+2026-01-27 14:30:35 | INFO     | SoyNet.Trainer | ============================================================
+2026-01-27 14:30:35 | INFO     | SoyNet.Trainer | TRAINING COMPLETED
+2026-01-27 14:30:35 | INFO     | SoyNet.Trainer | ============================================================
+2026-01-27 14:30:35 | INFO     | SoyNet.Trainer | Fine-tuning completed in 0:01:28.868900
+2026-01-27 14:30:35 | INFO     | SoyNet.Trainer | Model saved to: C:\Users\Admin\Desktop\latest\SoyNet\results\experiments\mobilenetv2\soynet_mobilenetv2_best.keras
+2026-01-27 14:30:35 | INFO     | SoyNet.Trainer | Training history saved to: C:\Users\Admin\Desktop\latest\SoyNet\results\experiments\mobilenetv2\soynet_mobilenetv2_history.json
+2026-01-27 14:30:35 | INFO     | SoyNet.Training | Best validation metrics:
+2026-01-27 14:30:35 | INFO     | SoyNet.Training |   val_loss: 0.4056
+2026-01-27 14:30:35 | INFO     | SoyNet.Training |   val_accuracy: 0.9014
+2026-01-27 14:30:35 | INFO     | SoyNet.Training |   val_auc: 0.9159
+2026-01-27 14:30:35 | INFO     | SoyNet.mobilenetv2 | Training completed in 0:02:46
+2026-01-27 14:30:35 | INFO     | SoyNet.mobilenetv2 | Evaluating on test set...

@@ -1,0 +1,50 @@
+
+dataset:
+  name: Tomato_12thAug26
+  crop: tomato
+  # Absolute or repo-root-relative path to the immutable raw dataset. Leave as
+  # null to auto-discover from `candidate_roots`.
+  root: null
+  # Searched in order when `root` is null. First directory that exists and
+  # contains at least one mapped class folder wins.
+  candidate_roots:
+    - ../Dataset
+    - ../../Dataset
+    - tomato/raw/Tomato_12thAug26/Dataset
+    - datasets_company/tomato/raw
+  extensions: [".jpg", ".jpeg", ".png", ".webp", ".bmp"]
+
+classes:
+  - raw: Aphid
+    class_id: aphid
+    label: Aphid
+  - raw: Early_Blight_Fruit
+    class_id: early_blight_fruit
+    label: Early Blight Fruit
+  - raw: Fruit_Borer
+    class_id: fruit_borer
+    label: Fruit Borer
+  - raw: Healthy_Fruit
+    class_id: healthy_fruit
+    label: Healthy Fruit
+  - raw: Healthy_Leaf
+    class_id: healthy_leaf
+    label: Healthy Leaf
+  - raw: Late_Blight
+    class_id: late_blight
+    label: Late Blight
+  - raw: Leaf_Curl
+    class_id: leaf_curl
+    label: Leaf Curl
+  - raw: Leaf_Miner
+    class_id: leaf_miner
+    label: Leaf Miner
+  - raw: Mealy_Bugs
+    class_id: mealy_bugs
+    label: Mealy Bugs
+  - raw: Target_Leaf_Spot
+    class_id: target_leaf_spot
+    label: Target Leaf Spot
+  - raw: White_Fly
+    class_id: white_fly
+    label: White Fly

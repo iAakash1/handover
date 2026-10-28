@@ -1,0 +1,4 @@
+class,support,precision,recall,f1-score
+Aphid,1,1.0,1.0,1.0
+Early Blight Fruit,1,1.0,1.0,1.0
+Fruit Borer,1,1.0,1.0,1.0

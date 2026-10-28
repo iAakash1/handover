@@ -1,0 +1,4 @@
+2026-01-27 14:27:26 | INFO     | SoyNet | Log file created: C:\Users\Admin\Desktop\latest\SoyNet\logs\soynet_20260127_142726.log
+2026-01-27 14:27:27 | INFO     | SoyNet.Models | Loaded efficientnetb0 backbone with frozen layers
+2026-01-27 14:27:27 | INFO     | SoyNet.Models | Model compiled successfully
+2026-01-27 14:27:27 | INFO     | SoyNet.efficientnetb0 | Starting training...

@@ -1,0 +1,68 @@
+# Master Configuration for Tomato VLM Research Pipeline
+
+dataset:
+  root: "Dataset"                         # Root directory of images (Dataset or data/raw/PlantVillage)
+  train_split: "data/splits/train.csv"
+  val_split: "data/splits/val.csv"
+  test_split: "data/splits/test.csv"
+  train_ratio: 0.8
+  val_ratio: 0.1
+  test_ratio: 0.1
+  seed: 42
+  prompts_file: "configs/prompts.yaml"
+  num_workers: 4
+  pin_memory: true
+
+model:
+  framework: "open_clip"                  # "open_clip" or "siglip"
+  architecture: "ViT-B-16"                # OpenCLIP architecture name
+  pretrained: "openai"                    # OpenCLIP pretrained checkpoint tag or SigLIP model name
+  # For SigLIP alternative backbone:
+  # framework: "siglip"
+  # name: "google/siglip-base-patch16-224"
+
+training:
+  batch_size: 32
+  gradient_accumulation_steps: 1
+  phase1_epochs: 10
+  phase2_epochs: 15
+  phase1_image_unfreeze_layers: 2
+  phase1_text_unfreeze_layers: 0
+  phase2_image_unfreeze_layers: 4
+  phase2_text_unfreeze_layers: 2
+  phase1_lr: 0.0001
+  phase2_lr: 0.00001
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  warmup_epochs: 1
+
+loss:
+  type: "multi_positive_contrastive"
+  temperature: 0.07
+
+scheduler:
+  name: "cosine"
+  min_lr: 1.0e-7
+
+early_stopping:
+  monitor: "val_accuracy"
+  patience: 7
+  min_delta: 0.0001
+  mode: "max"
+
+checkpoint:
+  save_every_n_epochs: 5
+  dir: "checkpoints"
+
+prototype:
+  type: "hybrid"                          # "image", "text", or "hybrid"
+  alpha: 0.7                              # Weight for image prototype in hybrid fusion (0.0=text, 1.0=image)
+
+system:
+  device: "auto"                          # "auto", "cuda", "mps", or "cpu"
+  mixed_precision: "auto"                 # "auto", "fp16", "bf16", or "no"
+  tf32: true                              # Enable TF32 for Ampere / Ada Lovelace GPUs
+
+experiment:
+  name: "openclip_vitb16_tomato"
+  output_dir: "outputs/runs"

@@ -1,0 +1,11 @@
+Help:
+python -m plantdx.cli company evaluate-external --help
+
+External benchmark smoke run:
+python -m plantdx.cli company evaluate-external --config configs/train/qwen25vl_tih_tomato_moreaccurate.yaml --dataset-root Dataset/testing --limit 3 --output-dir reports/tih_tomato_moreaccurate_external_smoke
+
+Full external benchmark:
+python -m plantdx.cli company evaluate-external --config configs/train/qwen25vl_tih_tomato_moreaccurate.yaml --dataset-root Dataset/testing
+
+Regenerate publication-safe aggregate artifacts:
+python experiments/tih_tomato_qwen/evaluation/generate_public_artifacts.py

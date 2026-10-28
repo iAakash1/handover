@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "detail": "2 optimizer step(s) on 22 images; adapter written and validated",
+  "steps": 2,
+  "final_loss": 0.1835760623216629,
+  "seconds": 82.66478660004213,
+  "peak_memory_gb": 20.36,
+  "adapter_dir": "C:\\Users\\Admin\\Desktop\\TIH_IITB_August_2026\\Tomato_12thAug26\\experimentation\\artifacts\\company\\tih_tomato_qwen_qlora_strong\\_smoke\\adapter",
+  "fingerprint": "a15d35065575a03bdea90baf2bbb0fe4e71ecd020846d95a18e812b9491c6346",
+  "seconds_per_optimizer_step": 5.293527700006962,
+  "estimated_total_seconds": 14331.560213438926,
+  "resume_verified": true,
+  "validation_batch_verified": true
+}

@@ -1,0 +1,6 @@
+2026-01-27 14:22:58 | INFO     | SoyNet | Log file created: C:\Users\Admin\Desktop\latest\SoyNet\logs\soynet_20260127_142258.log
+2026-01-27 14:22:58 | INFO     | SoyNet.resnet50 | ============================================================
+2026-01-27 14:22:58 | INFO     | SoyNet.resnet50 | TRAINING MODEL: RESNET50
+2026-01-27 14:22:58 | INFO     | SoyNet.resnet50 | ============================================================
+2026-01-27 14:22:58 | INFO     | SoyNet.resnet50 | GPU 0: /physical_device:GPU:0
+2026-01-27 14:22:59 | INFO     | SoyNet.resnet50 | Mixed Precision Policy: mixed_float16

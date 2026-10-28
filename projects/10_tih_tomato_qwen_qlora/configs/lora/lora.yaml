@@ -1,0 +1,9 @@
+# Plain LoRA. With the 4-bit MLX base in this repo this is operationally
+# identical to qlora (the base is quantized either way); kept as a distinct,
+# explicit method so a full-precision base could be swapped in later.
+method: lora
+rank: 16
+alpha: 32
+dropout: 0.05
+train_vision: false
+target_modules: [q_proj, k_proj, v_proj, o_proj]

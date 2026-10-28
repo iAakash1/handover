@@ -1,0 +1,20 @@
+{
+  "log_id": "2d2b3513-d0db-4fd1-a2fa-c36e16434f4a",
+  "timestamp": "2026-05-18T06:50:29Z",
+  "image": {
+    "uuid": "bf3a14f9-b02e-4bf7-99ac-f50cd581c623",
+    "original_name": "0bb34c9b-ecf7-4fb1-8ee1-098bccdcdaae___Crnl_L.Mold 6522.JPG",
+    "saved_as": "2026-05-18_bf3a14f9-b02e-4bf7-99ac-f50cd581c623.jpg",
+    "path": "C:\\Users\\Admin\\Desktop\\VLM\\PlantDx\\data\\raw\\uploads\\2026-05-18_bf3a14f9-b02e-4bf7-99ac-f50cd581c623.jpg",
+    "timestamp": "2026-05-18T06:50:20Z"
+  },
+  "instruction": "Analyze this plant leaf image and provide a structured diagnosis. State: Plant name, Disease condition, Severity level, Causal pathogen, and visible symptoms observed on the leaf.",
+  "status": "ok",
+  "is_plant": true,
+  "ood_score": 0.6243,
+  "prediction": "Plant: Tomato. Condition: Leaf Mold. Severity: Mild. The leaf displays yellow irregular spots on top and velvety dark sporulation beneath, consistent with leaf mold disease.",
+  "confidence_pct": 99.0,
+  "condition": "Leaf Mold",
+  "severity": "Mild",
+  "device": "cuda"
+}
