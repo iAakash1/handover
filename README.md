@@ -132,5 +132,5 @@ handover/
   code, knowledge base, caption corpus, training datasets, tomato and mango images, evaluation reports and training
   logs, plus `earlier_experiments/` (PlantCaption, the June caption sets, the 4- and 7-VLM zero-shot benchmarks).
   Only the two trained adapter files were no longer on the Mac; the 09 README shows how to retrain them with the
-  same config and seed.
+  same config and seed. To present it: `projects/09_plantdx_mlx_knowledge_grounded/PRESENTATION_GUIDE.md`.
 - **Paper:** `docs/publication/ICAIN2026_paper953_camera_ready.pdf` (accepted 1 Oct 2026, registered 21 Oct 2026).

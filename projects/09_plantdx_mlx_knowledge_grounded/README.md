@@ -5,7 +5,8 @@ Aakash Trimbak Jawle, Kamaaksha Rajendra Kharul · Faculty mentor: Dr. Santwana 
 TIH mentors: Harish Lokawad, Hrishikesh Patil, Rutuja Chavan
 
 Original repository: [github.com/iAakash1/experimentation](https://github.com/iAakash1/experimentation) ·
-Paper draft: [`PlantDx: Knowledge-Grounded Instruction Tuning for Vision-Language Crop Disease Diagnosis`](../../docs/publication/drafts/PlantDx_Knowledge_Grounded_Instruction_Tuning_draft_2026-08-21.pdf)
+Paper draft: [`PlantDx: Knowledge-Grounded Instruction Tuning for Vision-Language Crop Disease Diagnosis`](../../docs/publication/drafts/PlantDx_Knowledge_Grounded_Instruction_Tuning_draft_2026-08-21.pdf) ·
+**Presenting this work:** [`PRESENTATION_GUIDE.md`](PRESENTATION_GUIDE.md) (what was done, which file shows each step, results, common questions)
 
 > **Runs on a Mac only.** Trained with Apple's MLX framework on an Apple M4 Pro (24 GB unified memory). This folder
 > is everything done on that Mac: the full project (code, tests, knowledge base, configs, caption corpus, training
