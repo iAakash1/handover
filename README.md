@@ -38,6 +38,7 @@ ever run downloads the base model from Hugging Face (Qwen2.5-VL 16 GB, BLIP-2 14
 
 | # | Folder | Model | When | Best result | Env |
 |---|---|---|---|---|---|
+| 00 | `projects/00_tih_foundation_weeks_dec2025` | TIH Week 1–2 notebooks: image operations (OpenCV vs NumPy), preprocessing, quality checks | Dec 2025 | – | any Python |
 | 01 | `projects/01_cnn_keras_tomato` | Custom CNN, MobileNetV2, EfficientNetB3, ConvNeXt-Tiny (Keras) | Dec 2025 – Jan 2026 | ConvNeXt 96.15% (val) | keras |
 | 02 | `projects/02_cnn_pytorch_convnext` | ConvNeXt-Tiny (PyTorch) | Jan 2026 | **99.92% test** | vlm |
 | 03 | `projects/03_soybean_soynet` | ResNet50, EfficientNetB0/B3, MobileNetV2 (soybean) | Jan 2026 | ResNet50 95.16% | soynet |
@@ -45,7 +46,7 @@ ever run downloads the base model from Hugging Face (Qwen2.5-VL 16 GB, BLIP-2 14
 | 06 | `projects/06_qwen25vl_plantvillage` | Qwen2.5-VL-7B + LoRA, production app | Apr 2026 | **98.50%** | vlm |
 | 07 | `projects/07_plantdx_plantvillage` | PlantDx: Qwen2.5-VL-7B + LoRA, 15 classes | May 2026 | 98.00% | vlm |
 | 08 | `projects/08_plantvlm_expert_captions` | Qwen2.5-VL-7B + LoRA on 150 expert captions | Aug 2026 | 2 of 6 (exploratory) | vlm |
-| 09 | `projects/09_plantdx_mlx_knowledge_grounded` | Knowledge-grounded Qwen2.5-VL QLoRA on **Apple MLX** (tomato, mango) | Jul 2026 | 93.7% / 82.0% | Mac only |
+| 09 | `projects/09_plantdx_mlx_knowledge_grounded` | Knowledge-grounded Qwen2.5-VL QLoRA on **Apple MLX** (tomato, mango) + all earlier Mac experiments (caption pipeline, zero-shot 4- and 7-VLM benchmarks) | Jun – Jul 2026 | 93.7% / 82.0% | Mac only |
 | 10 | `projects/10_tih_tomato_qwen_qlora` | Qwen2.5-VL-7B 4-bit QLoRA, TIH 11-class tomato (**ICAIN 2026 paper**) | Aug – Sep 2026 | **92.76% test, 69.32% cross-domain** | tih |
 
 VLM results (04–08) are all on the same 200 PlantVillage validation images, so they compare directly.
@@ -91,6 +92,7 @@ handover/
 │   ├── models_manifest.json       # which model file goes where (+ size, SHA-256)
 │   └── requirements/              # exact package versions per environment
 ├── projects/                      # one folder per working model, in the order we did them
+│   ├── 00_tih_foundation_weeks_dec2025/  # Week 1–2 day notebooks (image ops, preprocessing, quality checks)
 │   ├── 01_cnn_keras_tomato/       # predict.py, evaluate.py, preprocessing/, validation/, model/
 │   ├── 02_cnn_pytorch_convnext/   # predict.py, evaluate.py, notebooks/, splits/
 │   ├── 03_soybean_soynet/         # predict_soynet.py, Keras + PyTorch pipelines, results/
@@ -98,7 +100,8 @@ handover/
 │   ├── 06_qwen25vl_plantvillage/  # qwen/ (April run), crop_disease_app/ (Streamlit app)
 │   ├── 07_plantdx_plantvillage/   # PlantDx package: core/, utils/, scripts/, app/
 │   ├── 08_plantvlm_expert_captions/  # plantvlm/ package, scripts/, runs/
-│   ├── 09_plantdx_mlx_knowledge_grounded/  # MLX (Mac): plantdx package, knowledge base, reports, logs, demo app
+│   ├── 09_plantdx_mlx_knowledge_grounded/  # MLX (Mac): plantdx package, tomato + mango images, reports, logs, demo app,
+│   │                              #   earlier_experiments/ (caption pipeline, caption sets, zero-shot benchmarks)
 │   └── 10_tih_tomato_qwen_qlora/  # plantdx package (src/), streamlit_app.py, configs/, checkpoints/, reports/
 ├── failed_experiments/            # everything that did not work out, with code and lessons
 ├── evaluation/                    # vlm_eval.py, vlm_predict.py + every October 2026 evaluation report
@@ -121,11 +124,13 @@ handover/
 ## Good to know
 
 - **Datasets are not in git** (size, licences; the TIH tomato data is private). They are on the TIH workstation;
-  paths are in `docs/datasets.md` and can be changed with environment variables.
+  paths are in `docs/datasets.md` and can be changed with environment variables. The exception is the MLX project
+  09: the public PlantVillage tomato and MangoLeafBD images it was trained on are in its `tomato/` and `mango/`.
 - **Models are not in git either**: `setup/download_models.py` fetches them (3.6 GB). They also stay on the
   TIH workstation in this folder.
-- **MLX (project 09)** ran on an Apple Silicon Mac. Everything from that Mac is here: the full `plantdx` code,
-  knowledge base, caption corpus, training datasets, evaluation reports and training logs in project 09, and the
-  two MLX zero-shot benchmarks (June and July) in `failed_experiments/06_zero_shot_baselines`. Only the two trained
-  adapter files were no longer on the Mac; the 09 README shows how to retrain them with the same config and seed.
+- **MLX (project 09)** ran on an Apple Silicon Mac. Everything from that Mac is in project 09: the full `plantdx`
+  code, knowledge base, caption corpus, training datasets, tomato and mango images, evaluation reports and training
+  logs, plus `earlier_experiments/` (PlantCaption, the June caption sets, the 4- and 7-VLM zero-shot benchmarks).
+  Only the two trained adapter files were no longer on the Mac; the 09 README shows how to retrain them with the
+  same config and seed.
 - **Paper:** `docs/publication/ICAIN2026_paper953_camera_ready.pdf` (accepted 1 Oct 2026, registered 21 Oct 2026).

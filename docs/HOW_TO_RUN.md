@@ -38,6 +38,8 @@ cd projects\<project>
 | Try every model on one photo | `python run_app.py 3` |
 | TIH tomato (11 classes) | `cd projects\10_tih_tomato_qwen_qlora; ..\..\.venvs\tih\Scripts\python -m plantdx.cli company predict --config configs/train/qwen25vl_tih_tomato_moreaccurate.yaml --adapter checkpoints/tih_tomato_moreaccurate --image <photo>` |
 | Re-create an evaluation number | each project has `evaluate.py` / `04_evaluate.py`; VLMs: `cd evaluation; ..\.venvs\vlm\Scripts\python vlm_eval.py <kind> <out_dir> <adapter>` |
+| MLX pipeline and zero-shot benchmarks (Mac with Apple Silicon only) | see `projects/09_plantdx_mlx_knowledge_grounded/README.md` and its `earlier_experiments/README.md` |
+| December image-processing notebooks | `projects/00_tih_foundation_weeks_dec2025` (Jupyter, run from each day's folder) |
 
 `vlm_predict.py --model` accepts `qwen_april`, `plantdx`, `plantvlm`, `qwen_base`, `blip2_march`, `blip2_june`,
 `llava` (vlm env) and `florence` (florence env).
@@ -53,6 +55,7 @@ cd projects\<project>
 | 06 Qwen2.5-VL | `qwen\01_prepare_dataset.py` then `qwen\02_finetune_qwen25vl.py` | not logged |
 | 07 PlantDx | `scripts\01_prepare_dataset.py`, `scripts\02_train.py` | ~2.5 h per epoch |
 | 08 PlantVLM | `scripts\02_train.py` | ~1 min per epoch |
+| 09 MLX (Mac) | `plantdx train --config configs/train/qwen25vl_tomato.yaml` (or `qwen25vl_mango.yaml --crop mango`) | tomato ~12 h, mango ~1.6 h (Apple M4 Pro) |
 | 10 TIH tomato | `-m plantdx.cli company preflight`, then `company train` (same `--config`) | 193 min (2.9 epochs) |
 
 New models are written next to the old ones (same folder names), so move the old files away first if you want

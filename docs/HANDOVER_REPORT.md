@@ -11,7 +11,7 @@ All numbers below come from the evaluation reports in this repository (`evaluati
 
 | Month | Work | Project |
 |---|---|---|
-| Dec 2025 | TIH foundation tasks (image ops, preprocessing, quality checks, CNN basics); custom CNN | 01 |
+| Dec 2025 | TIH foundation tasks (image ops, preprocessing, quality checks, CNN basics); custom CNN | 00, 01 |
 | Jan 2026 | Keras transfer learning, PyTorch ConvNeXt, crop validation; SoyNet soybean (Keras + PyTorch); a soybean model on the VDI with TIH data | 01, 02, 03 |
 | Feb 2026 | PoCRA video editing and app testing; AI for Agri conference | – |
 | Mar 2026 | VLM papers studied; LLaVA-1.6 and BLIP-2 fine-tuned | 04 |
@@ -103,8 +103,11 @@ All numbers below come from the evaluation reports in this repository (`evaluati
 - **Results:** tomato 7.3% → **93.7%** (macro-F1 0.919, 910 test images); mango 17.5% → **82.0%** (0.811, 200).
 - MLX = Apple's framework for Apple Silicon. The complete Mac project is in `projects/09_plantdx_mlx_knowledge_grounded`:
   the `plantdx` package (`src/plantdx/training/mlx_runner.py`), knowledge base, caption corpus, training datasets,
-  evaluation reports, training logs and the Streamlit demo, with Mac setup and run commands in its README. The two
-  adapter files were no longer on the Mac; the README shows how to retrain them.
+  evaluation reports, training logs, the Streamlit demo and the tomato and mango images, with Mac setup and run
+  commands in its README. The two adapter files were no longer on the Mac; the README shows how to retrain them.
+- Before it, on the same Mac (`earlier_experiments/`): PlantCaption, a knowledge-base + VLM caption pipeline (12 Jun);
+  four rounds of caption sets (23 Jun); zero-shot benchmarks of 4 VLMs on 16 images (25 Jun: exact match 0–6%) and
+  7 VLMs on 30 images (1 Jul: best 23%, Qwen3-VL degenerate on 16 of 30).
 
 ## 10 · TIH tomato, 11 classes, Qwen2.5-VL QLoRA (Aug – Sep 2026) — ICAIN 2026 paper
 

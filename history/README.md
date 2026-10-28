@@ -34,6 +34,16 @@ Not bundled: Crop_Disease_VLM (its local history is 339 MB because early commits
 four commits is in this repository as a folder, see the table), CottonCrop (367 MB with data; its code is the v0.2–v0.3
 folder) and TIH-IoT (the model store; github.com/iAakash1/TIH-IoT).
 
+## kharulkamaaksha/experimentation (nested copy on the Mac)
+
+`~/Desktop/experiments/experimentation` on the Mac was a second copy of the PlantDx MLX project, pushed to
+github.com/kharulkamaaksha/experimentation, which no longer exists. Its files are identical to
+`projects/09_plantdx_mlx_knowledge_grounded`; its only commit is kept offline: `history/kharulkamaaksha_experimentation.bundle`.
+
+| Date | Commit | Message | Branches containing it |
+|---|---|---|---|
+| 2026-07-30 | `d4eb1aa` | Initial commit | main |
+
 ## iAakash1/experimentation
 
 https://github.com/iAakash1/experimentation · full history offline: `history/experimentation.bundle`

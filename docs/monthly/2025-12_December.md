@@ -33,3 +33,4 @@
 
 - [CNN code and model](https://github.com/iAakash1/TIH-IoT/blob/main/2025-12_December/keras_pipeline_kamaaksha)
 - [Week-2 preprocessing module](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/cottoncrop_repo_snapshot/preprocessing)
+- Week 1–2 day notebooks: `projects/00_tih_foundation_weeks_dec2025` in this repository

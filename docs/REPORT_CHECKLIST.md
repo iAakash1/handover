@@ -8,7 +8,7 @@ working, 📄 = documented here (nothing runnable exists), ⛔ = not available a
 
 | Month | Report entry | In this repository |
 |---|---|---|
-| Dec 2025 | Image operations with OpenCV/PIL vs NumPy scratch (Week 1) | 📄 tasks listed below; the Week-1 day notebooks are not on this workstation or in our GitHub repositories |
+| Dec 2025 | Image operations with OpenCV/PIL vs NumPy scratch (Week 1) | ✅ `projects/00_tih_foundation_weeks_dec2025/Week 1/` (Day 3 and Day 4 notebooks, timings, lab report) |
 | Dec 2025 | Training preprocessing, quality checks, augmentation, inference guardrails (Week 2) | ✅ `projects/01_cnn_keras_tomato/preprocessing/` (and the original package in `versions/v0.2-v0.3_cottoncrop_2026-01-06/preprocessing/`) |
 | Dec 2025 | CNN theory and CNN training on PlantVillage (Week 3) | ✅ `projects/01_cnn_keras_tomato/model/train_cnn.py` |
 | Dec 2025 | Custom CNN trained from scratch (TF/Keras), 98.51% | ✅ model `projects/01_cnn_keras_tomato/model/best_model_cnn.keras`, report `evaluation/keras/custom_cnn_*`, run `predict.py --model cnn` |
@@ -32,7 +32,7 @@ working, 📄 = documented here (nothing runnable exists), ⛔ = not available a
 | Jun 2026 | BLIP-2 1-epoch re-run with evaluation | ✅ `projects/04_llava_blip2/blip2_rerun_june`, report `evaluation/blip2_june/`, the 0% story `failed_experiments/04_blip2_june_zero_score` |
 | Jun 2026 | Florence-2 re-attempt | ✅ `failed_experiments/01_florence2_finetuning` (`quick_train_florence2.py`) |
 | Jun 2026 | Expert-validated caption image set | ✅ `projects/08_plantvlm_expert_captions/1stJuly` (captions in git, 30 images on the workstation) |
-| Jun 2026 | Seven-VLM zero-shot benchmark | ✅ run on the Mac with MLX-VLM; code, images, raw outputs and reports in `failed_experiments/06_zero_shot_baselines/mlx_4vlm_benchmark_2026-06-25` and `mlx_7vlm_benchmark_2026-07-01`; also in `docs/reports/06-PoCRA-PCCOE-Tomato-Mango-Report-Version1.docx` |
+| Jun 2026 | Seven-VLM zero-shot benchmark | ✅ run on the Mac with MLX-VLM; code, images, raw outputs and reports in `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25` and `04_zero_shot_7vlm_benchmark_2026-07-01`; also in `docs/reports/06-PoCRA-PCCOE-Tomato-Mango-Report-Version1.docx` |
 | Jul 2026 | 150 expert-revised captions | ✅ `projects/08_plantvlm_expert_captions/data/` and `1stJuly/` |
 | Jul 2026 | Knowledge-grounded MLX pipeline, tomato 7.3% → 93.7%, mango 17.5% → 82.0% | ✅ code, knowledge base, corpus, reports and logs `projects/09_plantdx_mlx_knowledge_grounded` (commit `9f08d99` of `history/experimentation.bundle`); ⛔ the two adapter files were no longer on the Mac |
 | Jul 2026 | Streamlit demo; v1.0.0 | ✅ `projects/10_tih_tomato_qwen_qlora/streamlit_app.py`; tag `v1.0.0` in the bundle |
@@ -53,11 +53,11 @@ working, 📄 = documented here (nothing runnable exists), ⛔ = not available a
 
 | Task | In this repository |
 |---|---|
-| Week 1, Day 1–4: read/display/save, metadata, BGR–RGB, resize/crop/rotate/flip, interpolation, blurs, colour spaces, sharpening, Sobel, Canny, scratch NumPy versions and timing | 📄 the same operations are used in `projects/01_cnn_keras_tomato/preprocessing/` (`filters.py`, `color_processing.py`); the day-wise notebooks themselves are not on this workstation |
-| Week 2, Day 1: `preprocess_for_training()` | ✅ `projects/01_cnn_keras_tomato/preprocessing/preprocess_training.py` |
-| Week 2, Day 2: quality checks (blur > 100, brightness 40–220, contrast > 20, noise) and augmentation | ✅ `preprocessing/quality_checks.py`, `preprocessing/augment_training.py` |
-| Week 2, Day 3: training-time vs inference-time preprocessing | ✅ `preprocessing/preprocess_training.py` vs `preprocessing/preprocess_inference.py` |
-| Week 2, Day 4: `preprocess_for_inference()` with all checks (min 128 px) | ✅ `preprocessing/preprocess_inference.py` |
+| Week 1, Day 1–4: read/display/save, metadata, BGR–RGB, resize/crop/rotate/flip, interpolation, blurs, colour spaces, sharpening, Sobel, Canny, scratch NumPy versions and timing | ✅ `projects/00_tih_foundation_weeks_dec2025/Week 1/` (`Day 3/day3.ipynb`, `Day 4/day4.ipynb`, `Day 4/report.md` for all four days) |
+| Week 2, Day 1: `preprocess_for_training()` | ✅ `projects/01_cnn_keras_tomato/preprocessing/preprocess_training.py`; the original notebook `projects/00_tih_foundation_weeks_dec2025/Week 2/Day 1/` |
+| Week 2, Day 2: quality checks (blur > 100, brightness 40–220, contrast > 20, noise) and augmentation | ✅ `preprocessing/quality_checks.py`, `preprocessing/augment_training.py`; the original notebook and quality reports `projects/00_tih_foundation_weeks_dec2025/Week 2/Day 2/` |
+| Week 2, Day 3: training-time vs inference-time preprocessing | ✅ `preprocessing/preprocess_training.py` vs `preprocessing/preprocess_inference.py`; notebook `projects/00_tih_foundation_weeks_dec2025/Week 2/Day 3/` |
+| Week 2, Day 4: `preprocess_for_inference()` with all checks (min 128 px) | ✅ `preprocessing/preprocess_inference.py`; notebook `projects/00_tih_foundation_weeks_dec2025/Week 2/Day 4/` |
 | Week 2, Day 5: one integrated module | ✅ `preprocessing/__init__.py` |
 | Week 3, Day 1–3, 5: CNN theory, activations, losses, documentation | 📄 study tasks, no code |
 | Week 3, Day 4: CNN from scratch in TensorFlow and PyTorch | ✅ TensorFlow `model/train_cnn.py`; PyTorch comparison carried into `projects/02_cnn_pytorch_convnext` |
@@ -83,7 +83,7 @@ All 8 papers: `docs/publication.md`. ICAIN 2026 paper (ID 953), camera-ready PDF
 | Qwen2.5-VL-7B-4bit QLoRA r16 (MLX), knowledge-grounded | ✅ code + results (project 09); ⛔ adapter files no longer on the Mac |
 | Qwen2.5-VL-7B LoRA r16, 150 expert captions (PlantVLM) | ✅ project 08 |
 | Qwen2.5-VL-7B 4-bit NF4 QLoRA r32 and r64, TIH 11 classes | ✅ project 10 (strong = r32, moreaccurate = r64) |
-| Seven-VLM zero-shot benchmark (Qwen2.5-VL, Qwen3-VL, Gemma-3, InternVL3, LLaMA-3.2-Vision, Molmo, DeepSeek-VL2) | 📄 PoCRA report; `failed_experiments/06_zero_shot_baselines` |
+| Seven-VLM zero-shot benchmark (Qwen2.5-VL, Qwen3-VL, Gemma-3, InternVL3, LLaMA-3.2-Vision, Molmo, DeepSeek-VL2) | ✅ `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01` (and the four-model run `03_…`); PoCRA report |
 | CLIP ViT-B/32 OOD screening | ✅ `projects/06_qwen25vl_plantvillage/crop_disease_app/utils/` |
 
 ### Tomato: experiment versions
@@ -102,7 +102,7 @@ All 8 papers: `docs/publication.md`. ICAIN 2026 paper (ID 953), camera-ready PDF
 | v5.0 CLIP gate, parser, validator, GradCAM | 13 Apr 2026 | `projects/06_qwen25vl_plantvillage/versions/v5.0_crop_app_2026-04-13`, `crop_disease_app` | same adapter | – |
 | v6.0 PlantDx | 15–18 May 2026 | `projects/07_plantdx_plantvillage` (+ `versions/v6.0_first_restructure_2026-05-15`) | `outputs/checkpoints/best` | `outputs/evaluations/report.json` |
 | v7.0 BLIP-2 re-run | 15 Jun 2026 | `projects/04_llava_blip2/blip2_rerun_june` | `blip2_rerun_june/outputs/blip2_plantvillage/best` | `evaluation/blip2_june` |
-| v8.0 Seven-VLM zero-shot | 25 Jun (4 models), 1 Jul 2026 (7 models) | `failed_experiments/06_zero_shot_baselines/mlx_4vlm_benchmark_2026-06-25`, `mlx_7vlm_benchmark_2026-07-01` | – (off-the-shelf) | `report/` in both folders; PoCRA report in `docs/reports/` |
+| v8.0 Seven-VLM zero-shot | 25 Jun (4 models), 1 Jul 2026 (7 models) | `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25`, `04_zero_shot_7vlm_benchmark_2026-07-01` | – (off-the-shelf) | `report/` in both folders; PoCRA report in `docs/reports/` |
 | v9.0 Knowledge-grounded MLX | 11–17 Jul 2026 | `projects/09_plantdx_mlx_knowledge_grounded/src/plantdx` (tag `v1.0.0`, commit `9f08d99`) | no longer on the Mac (retrain: 09 README) | `projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_tomato_qlora/evaluation/` |
 | v10.0 PlantVLM | 05 Aug 2026 | `projects/08_plantvlm_expert_captions` | `runs/run_002_fold0/checkpoints/best` (+ epochs) | `runs/run_002_fold0/evaluation/val_report.json` |
 | v11.0 PlantDx migrated to TIH data | 12 Aug 2026 | branch `feat/tomato-dataset-migration` in `history/` | – | – |
@@ -150,7 +150,7 @@ All 8 papers: `docs/publication.md`. ICAIN 2026 paper (ID 953), camera-ready PDF
 | CottonCrop at every commit (4 and 6 Jan) | `projects/01_cnn_keras_tomato/versions/` |
 | Datasets (PlantVillage, SoyNet zip and raw photos, TIH tomato, MangoLeafBD) | not redistributed; locations in `docs/datasets.md` |
 
-## Everything found on the Mac (MLX work)
+## Everything found on the Mac
 
 | What | Where |
 |---|---|
@@ -158,7 +158,12 @@ All 8 papers: `docs/publication.md`. ICAIN 2026 paper (ID 953), camera-ready PDF
 | Its generated outputs that were gitignored there: ontology, vocabulary, concepts, templates, 1,966-caption corpus, exports, tomato and mango training datasets, dataset manifests, audit reports | `projects/09_plantdx_mlx_knowledge_grounded/artifacts/`, `datasets/`, `reports/` |
 | Full evaluation of both MLX runs (metrics, per-disease, confusion matrices, caption metrics, hallucination, latency, figures, raw predictions) and the MLX training logs | `projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_<crop>_qlora/evaluation/`, `logs/` |
 | Demo app predictions and uploaded photos (16 Jul) | `projects/09_plantdx_mlx_knowledge_grounded/predictions/`, `uploads/` |
-| Four-VLM MLX zero-shot benchmark (25 Jun) with its report (Markdown, PDF, charts) | `failed_experiments/06_zero_shot_baselines/mlx_4vlm_benchmark_2026-06-25` |
-| Seven-VLM MLX zero-shot benchmark (1 Jul) with its evaluation report (docx) | `failed_experiments/06_zero_shot_baselines/mlx_7vlm_benchmark_2026-07-01` |
+| PlantCaption: knowledge-base + Qwen2.5-VL caption pipeline (12 Jun, `~/Downloads/PlantCaption.zip`) | `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/01_plantcaption_pipeline_2026-06-12` |
+| Caption sets for the TIH sample photos and the 16 benchmark leaves, four versions (23 Jun, `~/Desktop/dataset`, `~/Desktop/caption`, `~/Downloads/*caption*.zip`) | `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/02_caption_sets_2026-06-23` |
+| Four-VLM MLX zero-shot benchmark (25 Jun) with its report (Markdown, PDF, charts) | `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25` |
+| Seven-VLM MLX zero-shot benchmark (1 Jul) with its evaluation report (docx) | `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01` |
+| PlantVillage tomato images (10 classes, 18,160) and MangoLeafBD (8 classes, 4,000) used for the MLX runs | `projects/09_plantdx_mlx_knowledge_grounded/tomato/raw/`, `mango/raw/` |
+| The nested `experimentation/` copy (identical files; its one commit `d4eb1aa` was on a GitHub repo that no longer exists) | `history/kharulkamaaksha_experimentation.bundle` |
+| TIH Week 1–2 day notebooks, December 2025 (`~/Desktop/IITB`) | `projects/00_tih_foundation_weeks_dec2025` |
 | VLM teaching session deck and run of show (5 Aug) | `docs/reports/VLM_Teaching_Session.pptx`, `docs/reports/VLM_Session_Run_Of_Show.md` |
 | Trained MLX adapters (`adapters.safetensors`, tomato and mango) | ⛔ no longer on the Mac; checksums in `reports/qwen25vl_<crop>_qlora/evaluation/system_info.json` |
