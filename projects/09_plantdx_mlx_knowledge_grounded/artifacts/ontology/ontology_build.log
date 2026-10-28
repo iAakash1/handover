@@ -1,0 +1,22 @@
+stage: load closed vocabularies
+stage: instantiate evidence registry
+stage: build conditions (n=18)
+  condition mango_anthracnose: 19 symptoms
+  condition mango_bacterial_canker: 16 symptoms
+  condition mango_cutting_weevil: 17 symptoms
+  condition mango_die_back: 13 symptoms
+  condition mango_gall_midge: 16 symptoms
+  condition mango_healthy: 1 symptoms
+  condition mango_powdery_mildew: 14 symptoms
+  condition mango_sooty_mould: 16 symptoms
+  condition tomato_bacterial_spot: 19 symptoms
+  condition tomato_early_blight: 13 symptoms
+  condition tomato_healthy: 1 symptoms
+  condition tomato_late_blight: 19 symptoms
+  condition tomato_leaf_mold: 14 symptoms
+  condition tomato_mosaic_virus: 19 symptoms
+  condition tomato_septoria_leaf_spot: 12 symptoms
+  condition tomato_spider_mites: 18 symptoms
+  condition tomato_target_spot: 14 symptoms
+  condition tomato_yellow_leaf_curl_virus: 18 symptoms
+stage: complete (nodes=574, edges=1289)

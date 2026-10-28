@@ -1,0 +1,27 @@
+{
+  "description": "Normalized processed-folder name -> DKB disease_id. The one filesystem<->knowledge coupling.",
+  "crops": {
+    "tomato": {
+      "healthy": "tomato_healthy",
+      "bacterial_spot": "tomato_bacterial_spot",
+      "early_blight": "tomato_early_blight",
+      "late_blight": "tomato_late_blight",
+      "leaf_mold": "tomato_leaf_mold",
+      "septoria_leaf_spot": "tomato_septoria_leaf_spot",
+      "spider_mites": "tomato_spider_mites",
+      "target_spot": "tomato_target_spot",
+      "mosaic_virus": "tomato_mosaic_virus",
+      "yellow_leaf_curl_virus": "tomato_yellow_leaf_curl_virus"
+    },
+    "mango": {
+      "healthy": "mango_healthy",
+      "anthracnose": "mango_anthracnose",
+      "bacterial_canker": "mango_bacterial_canker",
+      "cutting_weevil": "mango_cutting_weevil",
+      "die_back": "mango_die_back",
+      "gall_midge": "mango_gall_midge",
+      "powdery_mildew": "mango_powdery_mildew",
+      "sooty_mould": "mango_sooty_mould"
+    }
+  }
+}

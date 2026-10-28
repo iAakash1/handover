@@ -1,0 +1,30 @@
+{
+  "accepted": 1966,
+  "accepted_by_disease": {
+    "mango_anthracnose": 142,
+    "mango_bacterial_canker": 126,
+    "mango_cutting_weevil": 85,
+    "mango_die_back": 119,
+    "mango_gall_midge": 131,
+    "mango_healthy": 17,
+    "mango_powdery_mildew": 124,
+    "mango_sooty_mould": 112,
+    "tomato_bacterial_spot": 131,
+    "tomato_early_blight": 125,
+    "tomato_healthy": 15,
+    "tomato_late_blight": 134,
+    "tomato_leaf_mold": 133,
+    "tomato_mosaic_virus": 76,
+    "tomato_septoria_leaf_spot": 131,
+    "tomato_spider_mites": 131,
+    "tomato_target_spot": 131,
+    "tomato_yellow_leaf_curl_virus": 103
+  },
+  "checks_run": 12,
+  "kind": "plantdx.corpus.validation_report",
+  "rejected_by_check": {
+    "V-CAP-5": 20,
+    "V-CAP-6": 4
+  },
+  "status": "valid"
+}

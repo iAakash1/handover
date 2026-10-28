@@ -1,0 +1,19 @@
+2026-07-17 00:32:51 INFO    model loaded model=mlx-community/Qwen2.5-VL-7B-Instruct-4bit adapter=/Users/aakashjawle/Desktop/experiments/checkpoints/qwen25vl_tomato_qlora in 5.0s
+2026-07-17 00:32:52 INFO    prediction crop=tomato disease=tomato_septoria_leaf_spot conf=0.900 status=confident tokens=22 1.16s caption='This tomato leaf septoria leaf spot. Small circular gray-centered spots with visible black pycnidia.'
+2026-07-17 00:32:54 INFO    prediction crop=tomato disease=tomato_early_blight conf=0.936 status=confident tokens=42 1.67s caption='This tomato leaf is affected by early blight, showing brown-to-dark-brown circular lesions with concentric rings (target'
+2026-07-17 00:32:54 INFO    prediction crop=tomato disease=tomato_healthy conf=0.851 status=confident tokens=11 0.79s caption='A healthy tomato leaf with uniform green lamina.'
+2026-07-17 00:39:24 INFO    model loaded model=mlx-community/Qwen2.5-VL-7B-Instruct-4bit adapter=/Users/aakashjawle/Desktop/experiments/checkpoints/qwen25vl_tomato_qlora in 3.8s
+2026-07-17 00:39:25 INFO    prediction crop=tomato disease=unclassified conf=0.664 status=unknown tokens=5 0.72s caption='This tomato leaf.'
+2026-07-17 00:39:27 INFO    prediction crop=tomato disease=tomato_early_blight conf=0.926 status=confident tokens=42 1.69s caption='This tomato leaf is affected by early blight, showing brown-to-dark-brown circular lesions with concentric rings (target'
+2026-07-17 00:39:28 INFO    prediction crop=tomato disease=tomato_early_blight conf=0.932 status=confident tokens=42 1.69s caption='This tomato leaf is affected by early blight, showing brown-to-dark-brown circular lesions with concentric rings (target'
+2026-07-17 00:39:30 INFO    prediction crop=tomato disease=tomato_target_spot conf=0.868 status=confident tokens=26 1.22s caption='This tomato leaf is affected by target spot, showing fine concentric-ring target lesions with pale centers, with diffuse'
+2026-07-17 00:39:31 INFO    prediction crop=tomato disease=tomato_early_blight conf=0.926 status=confident tokens=42 1.68s caption='This tomato leaf is affected by early blight, showing brown-to-dark-brown circular lesions with concentric rings (target'
+2026-07-17 00:39:32 INFO    prediction crop=tomato disease=tomato_late_blight conf=0.857 status=confident tokens=22 1.11s caption='This tomato leaf is affected by late blight, showing white downy underside sporulation, greasy.'
+2026-07-17 00:48:01 INFO    model loaded model=mlx-community/Qwen2.5-VL-7B-Instruct-4bit adapter=/Users/aakashjawle/Desktop/experiments/checkpoints/qwen25vl_mango_qlora in 3.9s
+2026-07-17 00:48:02 INFO    prediction crop=mango disease=mango_anthracnose conf=0.844 status=confident tokens=8 0.87s caption='This mango anthracnose.'
+2026-07-17 00:48:04 INFO    prediction crop=mango disease=mango_gall_midge conf=0.933 status=confident tokens=68 2.52s caption='This mango leaf is affected by gall midge, showing numerous small, raised, wart-like/pimple-like galls (bumps) on the la'
+2026-07-17 00:48:05 INFO    prediction crop=mango disease=mango_healthy conf=0.913 status=confident tokens=19 1.12s caption='This mango leaf appears healthy, with leathery, glossy texture and no visible symptoms.'
+2026-07-17 01:02:39 INFO    model loaded model=mlx-community/Qwen2.5-VL-7B-Instruct-4bit adapter=/Users/aakashjawle/Desktop/experiments/checkpoints/qwen25vl_tomato_qlora in 3.7s
+2026-07-17 01:02:41 INFO    prediction crop=tomato disease=tomato_septoria_leaf_spot conf=0.900 status=confident tokens=22 1.17s caption='This tomato leaf septoria leaf spot. Small circular gray-centered spots with visible black pycnidia.'
+2026-07-17 01:02:43 INFO    model loaded model=mlx-community/Qwen2.5-VL-7B-Instruct-4bit adapter=/Users/aakashjawle/Desktop/experiments/checkpoints/qwen25vl_mango_qlora in 2.6s
+2026-07-17 01:02:45 INFO    prediction crop=mango disease=mango_anthracnose conf=0.844 status=confident tokens=8 1.78s caption='This mango anthracnose.'

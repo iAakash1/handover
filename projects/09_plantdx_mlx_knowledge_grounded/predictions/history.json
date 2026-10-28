@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2026-07-16T18:41:49.111837+00:00",
+    "crop": "tomato",
+    "filename": "2026-07-16_18-41-41_17eb51ef_sept3.jpeg",
+    "disease_name": "Unclassified",
+    "disease_id": "unclassified",
+    "confidence": null,
+    "image_path": "/Users/aakashjawle/Desktop/experiments/uploads/tomato/2026-07-16_18-41-41_17eb51ef_sept3.jpeg",
+    "prediction_json": "/Users/aakashjawle/Desktop/experiments/predictions/2026-07-16_18-41-49.json"
+  },
+  {
+    "timestamp": "2026-07-16T18:41:12.070001+00:00",
+    "crop": "tomato",
+    "filename": "2026-07-16_18-41-06_3b9ae4f3_sept3.jpeg",
+    "disease_name": "Early Blight",
+    "disease_id": "tomato_early_blight",
+    "confidence": null,
+    "image_path": "/Users/aakashjawle/Desktop/experiments/uploads/tomato/2026-07-16_18-41-06_3b9ae4f3_sept3.jpeg",
+    "prediction_json": "/Users/aakashjawle/Desktop/experiments/predictions/2026-07-16_18-41-12.json"
+  },
+  {
+    "timestamp": "2026-07-16T18:40:47.345809+00:00",
+    "crop": "tomato",
+    "filename": "2026-07-16_18-40-36_113ca87a_sept2.jpg",
+    "disease_name": "Early Blight",
+    "disease_id": "tomato_early_blight",
+    "confidence": null,
+    "image_path": "/Users/aakashjawle/Desktop/experiments/uploads/tomato/2026-07-16_18-40-36_113ca87a_sept2.jpg",
+    "prediction_json": "/Users/aakashjawle/Desktop/experiments/predictions/2026-07-16_18-40-47.json"
+  },
+  {
+    "timestamp": "2026-07-16T18:38:26.651800+00:00",
+    "crop": "tomato",
+    "filename": "2026-07-16_18-38-18_35b59291_septoria.jpeg",
+    "disease_name": "Tomato Yellow Leaf Curl Virus",
+    "disease_id": "tomato_yellow_leaf_curl_virus",
+    "confidence": null,
+    "image_path": "/Users/aakashjawle/Desktop/experiments/uploads/tomato/2026-07-16_18-38-18_35b59291_septoria.jpeg",
+    "prediction_json": "/Users/aakashjawle/Desktop/experiments/predictions/2026-07-16_18-38-26.json"
+  }
+]

@@ -1,0 +1,47 @@
+dataset,class,image_count
+tomato,Apple___Apple_scab,630
+tomato,Apple___Black_rot,621
+tomato,Apple___Cedar_apple_rust,275
+tomato,Apple___healthy,1645
+tomato,Blueberry___healthy,1502
+tomato,Cherry_(including_sour)___Powdery_mildew,1052
+tomato,Cherry_(including_sour)___healthy,854
+tomato,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,513
+tomato,Corn_(maize)___Common_rust_,1192
+tomato,Corn_(maize)___Northern_Leaf_Blight,985
+tomato,Corn_(maize)___healthy,1162
+tomato,Grape___Black_rot,1180
+tomato,Grape___Esca_(Black_Measles),1383
+tomato,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),1076
+tomato,Grape___healthy,423
+tomato,Orange___Haunglongbing_(Citrus_greening),5507
+tomato,Peach___Bacterial_spot,2297
+tomato,Peach___healthy,360
+tomato,"Pepper,_bell___Bacterial_spot",997
+tomato,"Pepper,_bell___healthy",1478
+tomato,Potato___Early_blight,1000
+tomato,Potato___Late_blight,1000
+tomato,Potato___healthy,152
+tomato,Raspberry___healthy,371
+tomato,Soybean___healthy,5090
+tomato,Squash___Powdery_mildew,1835
+tomato,Strawberry___Leaf_scorch,1109
+tomato,Strawberry___healthy,456
+tomato,Tomato___Bacterial_spot,2127
+tomato,Tomato___Early_blight,1000
+tomato,Tomato___Late_blight,1909
+tomato,Tomato___Leaf_Mold,952
+tomato,Tomato___Septoria_leaf_spot,1771
+tomato,Tomato___Spider_mites Two-spotted_spider_mite,1676
+tomato,Tomato___Target_Spot,1404
+tomato,Tomato___Tomato_Yellow_Leaf_Curl_Virus,5357
+tomato,Tomato___Tomato_mosaic_virus,373
+tomato,Tomato___healthy,1591
+mango,Anthracnose,500
+mango,Bacterial Canker,500
+mango,Cutting Weevil,500
+mango,Die Back,500
+mango,Gall Midge,500
+mango,Healthy,500
+mango,Powdery Mildew,500
+mango,Sooty Mould,500

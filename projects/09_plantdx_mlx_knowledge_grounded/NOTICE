@@ -1,0 +1,19 @@
+PlantDx
+Copyright 2026 PlantDx Contributors
+
+This product includes software developed as part of the PlantDx project.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+these files except in compliance with the License. A copy of the License is
+provided in the LICENSE file.
+
+------------------------------------------------------------------------------
+Third-party data (NOT redistributed by this repository)
+------------------------------------------------------------------------------
+- PlantVillage (tomato subset): rights retained by the original authors.
+- MangoLeafBD: Ahmed S.I. et al. (2023), Data in Brief 47:108941; rights
+  retained by the original authors.
+
+The Disease Knowledge Base (knowledge_base/) is compiled from authoritative
+plant-pathology sources cited within knowledge_base/dkb.json and
+knowledge_base/DKB_report.md. Those sources retain their respective rights.

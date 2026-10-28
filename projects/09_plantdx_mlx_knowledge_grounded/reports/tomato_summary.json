@@ -1,0 +1,85 @@
+{
+  "key": "tomato",
+  "name": "PlantVillage",
+  "root": "/Users/aakashjawle/Desktop/experiments/tomato/raw/PlantVillage",
+  "exists": true,
+  "num_images": 54305,
+  "num_ok": 54305,
+  "num_corrupt": 0,
+  "num_unsupported": 0,
+  "num_classes": 38,
+  "configured_classes": 10,
+  "class_counts": {
+    "Apple___Apple_scab": 630,
+    "Apple___Black_rot": 621,
+    "Apple___Cedar_apple_rust": 275,
+    "Apple___healthy": 1645,
+    "Blueberry___healthy": 1502,
+    "Cherry_(including_sour)___Powdery_mildew": 1052,
+    "Cherry_(including_sour)___healthy": 854,
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": 513,
+    "Corn_(maize)___Common_rust_": 1192,
+    "Corn_(maize)___Northern_Leaf_Blight": 985,
+    "Corn_(maize)___healthy": 1162,
+    "Grape___Black_rot": 1180,
+    "Grape___Esca_(Black_Measles)": 1383,
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": 1076,
+    "Grape___healthy": 423,
+    "Orange___Haunglongbing_(Citrus_greening)": 5507,
+    "Peach___Bacterial_spot": 2297,
+    "Peach___healthy": 360,
+    "Pepper,_bell___Bacterial_spot": 997,
+    "Pepper,_bell___healthy": 1478,
+    "Potato___Early_blight": 1000,
+    "Potato___Late_blight": 1000,
+    "Potato___healthy": 152,
+    "Raspberry___healthy": 371,
+    "Soybean___healthy": 5090,
+    "Squash___Powdery_mildew": 1835,
+    "Strawberry___Leaf_scorch": 1109,
+    "Strawberry___healthy": 456,
+    "Tomato___Bacterial_spot": 2127,
+    "Tomato___Early_blight": 1000,
+    "Tomato___Late_blight": 1909,
+    "Tomato___Leaf_Mold": 952,
+    "Tomato___Septoria_leaf_spot": 1771,
+    "Tomato___Spider_mites Two-spotted_spider_mite": 1676,
+    "Tomato___Target_Spot": 1404,
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 5357,
+    "Tomato___Tomato_mosaic_virus": 373,
+    "Tomato___healthy": 1591
+  },
+  "width": {
+    "min": 256,
+    "max": 256,
+    "mean": 256.0
+  },
+  "height": {
+    "min": 256,
+    "max": 256,
+    "mean": 256.0
+  },
+  "aspect_ratio": {
+    "min": 1.0,
+    "max": 1.0,
+    "mean": 1.0
+  },
+  "imbalance_ratio": 36.23,
+  "num_exact_duplicate_groups": 21,
+  "num_near_duplicate_groups": 0,
+  "dataset_checksum": "7c644d5cef461efe3994a830c6deb9869bd7f8c9c841c769b832f3b702b0eff3",
+  "issues": [
+    {
+      "dataset": "tomato",
+      "kind": "class_count_mismatch",
+      "detail": "discovered 38 classes; config expects 10",
+      "path": null
+    },
+    {
+      "dataset": "tomato",
+      "kind": "class_imbalance",
+      "detail": "max/min class ratio = 36.23",
+      "path": null
+    }
+  ]
+}

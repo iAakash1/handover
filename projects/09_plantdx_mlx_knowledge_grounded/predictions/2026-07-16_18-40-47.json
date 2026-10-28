@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-07-16T18:40:47.345809+00:00",
+  "timestamp_slug": "2026-07-16_18-40-47",
+  "crop": "tomato",
+  "original_name": "sept2.jpg",
+  "image_path": "/Users/aakashjawle/Desktop/experiments/uploads/tomato/2026-07-16_18-40-36_113ca87a_sept2.jpg",
+  "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+  "adapter": "/Users/aakashjawle/Desktop/experiments/checkpoints/qwen25vl_tomato_qlora",
+  "instruction": "Describe the visible condition of this tomato leaf.",
+  "disease_id": "tomato_early_blight",
+  "disease_name": "Early Blight",
+  "common_name": "Early blight",
+  "confidence": null,
+  "raw_confidence": 5.709974149542543e-10,
+  "caption": "This tomato early blight target brown circular lesions with concentric rings (target/bull's-eye).",
+  "diagnosis": "This tomato leaf is consistent with **Early Blight** (Early blight).",
+  "symptoms": [
+    "target/bull's-eye concentric rings with yellow halo on older leaves"
+  ],
+  "inference_seconds": 5.374256332986988,
+  "generation_tokens": 21,
+  "run_name": "qwen25vl_tomato_qlora",
+  "prediction_json": "/Users/aakashjawle/Desktop/experiments/predictions/2026-07-16_18-40-47.json"
+}

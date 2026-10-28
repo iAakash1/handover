@@ -1,0 +1,198 @@
+[build-system]
+requires = ["hatchling>=1.21"]
+build-backend = "hatchling.build"
+
+# ---------------------------------------------------------------------------
+# Project metadata
+# ---------------------------------------------------------------------------
+[project]
+name = "plantdx"
+dynamic = ["version"]
+description = "A knowledge-grounded framework for constructing instruction-tuning datasets for agricultural Vision-Language Models."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "PlantDx Contributors" }]
+keywords = [
+    "vision-language-models",
+    "instruction-tuning",
+    "plant-pathology",
+    "agriculture",
+    "knowledge-grounded",
+    "dataset",
+    "qlora",
+    "mlx",
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Typing :: Typed",
+]
+
+# Runtime dependencies kept intentionally light; heavy stacks live in extras.
+dependencies = [
+    "pyyaml>=6.0",
+    "pydantic>=2.6",
+    "rich>=13.7",
+    "pillow>=10.2",          # dataset audit engine (image metadata, hashing)
+]
+
+[project.optional-dependencies]
+# Caption generation / diversity engine (Milestone 3+).
+generate = [
+    # <2.5: numpy 2.5.0's bundled type stubs use PEP 695 `type X = ...` alias
+    # syntax, which mypy cannot parse under this project's `python_version =
+    # "3.10"` setting ("Type statement is only supported in Python 3.12 and
+    # greater"). Verified empirically: 2.4.6 passes, 2.5.0 does not.
+    "numpy>=1.26,<2.5",
+    "tqdm>=4.66",
+    "datasketch>=1.6",       # MinHash near-duplicate detection (diversity engine)
+    "sacrebleu>=2.4",        # self-BLEU diversity metric
+]
+# Grammar / NLP validation stack (Validator V11).
+nlp = [
+    "language-tool-python>=2.8",
+    "spacy>=3.7",
+]
+# Fine-tuning on Apple Silicon (MLX). Install only on macOS/arm64.
+train = [
+    "mlx>=0.15",
+    "mlx-vlm>=0.1.0",
+]
+# Evaluation metrics stack (Milestone 6, --stage analyze). Deliberately pinned:
+# these compute the paper's reported numbers and must not silently drift.
+# Never installed alongside `train` (see docs/EVALUATION.md for the two-env split).
+eval = [
+    "matplotlib>=3.8",
+    "scikit-learn>=1.4",
+    "scipy>=1.12",
+    "rouge-score==0.1.2",        # official ROUGE-L (Google Research reference implementation)
+    "nltk==3.10.0",              # official METEOR (nltk.translate.meteor_score) + WordNet
+    "pycocoevalcap==1.2",        # official BLEU-1..4 + CIDEr (MS-COCO caption eval toolkit)
+    "bert-score==0.3.13",        # official BERTScore
+    "torch>=2.0",                 # bert-score backend
+    "transformers>=4.0",          # bert-score backend
+    "psutil>=5.9",                # hardware/memory facts for the repro manifest
+]
+# Developer tooling.
+dev = [
+    "ruff>=0.4",
+    "mypy>=1.10",
+    "pytest>=8.2",
+    "pytest-cov>=5.0",
+    "pre-commit>=3.7",
+    "types-PyYAML>=6.0",
+    # numpy ships its own inline type stubs (py.typed) and is referenced (lazily,
+    # at runtime) by training/seeds.py, evaluation/stats.py, and
+    # evaluation/visualize.py. mypy's strict whole-tree check (`files =
+    # ["src/plantdx"]`) walks those modules regardless of the lazy import, so it
+    # needs numpy's types resolvable wherever `mypy` runs -- which per CI
+    # (`pip install -e ".[dev]"` then `mypy`) is exactly and only this extra.
+    # <2.5 for the same stub-syntax reason as the `generate` extra above.
+    "numpy>=1.26,<2.5",
+]
+# Documentation.
+docs = [
+    "mkdocs>=1.6",
+    "mkdocs-material>=9.5",
+    "mkdocstrings[python]>=0.25",
+]
+
+[project.urls]
+Homepage = "https://github.com/iAakash1/experimentation"
+Repository = "https://github.com/iAakash1/experimentation"
+Specification = "https://github.com/iAakash1/experimentation/tree/main/caption_framework"
+
+[project.scripts]
+plantdx = "plantdx.cli:main"
+
+# ---------------------------------------------------------------------------
+# Hatch build config (src layout)
+# ---------------------------------------------------------------------------
+[tool.hatch.version]
+path = "src/plantdx/__about__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/plantdx"]
+
+# ---------------------------------------------------------------------------
+# Ruff (lint + format)
+# ---------------------------------------------------------------------------
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "C4", "SIM", "PTH", "RUF", "D"]
+ignore = ["D203", "D213"]   # conflicting docstring rules; pick one style each
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D"]           # tests need not be docstring-complete
+"__init__.py" = ["F401"]    # re-exports
+
+# ---------------------------------------------------------------------------
+# mypy (strict typing)
+# ---------------------------------------------------------------------------
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_any_generics = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+show_error_codes = true
+files = ["src/plantdx"]
+
+[[tool.mypy.overrides]]
+module = [
+    "datasketch.*",
+    "sacrebleu.*",
+    "mlx.*",
+    "mlx_vlm.*",
+    "language_tool_python.*",
+    "nltk.*",
+    "pycocoevalcap.*",
+    "bert_score.*",
+    "rouge_score.*",
+    "psutil.*",
+    "sklearn.*",
+    "matplotlib.*",
+    "scipy.*",
+]
+ignore_missing_imports = true
+
+# ---------------------------------------------------------------------------
+# pytest / coverage
+# ---------------------------------------------------------------------------
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra -q --strict-markers"
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = [
+    "unit: fast, isolated unit tests",
+    "integration: cross-module pipeline tests",
+    "benchmark: dataset-quality / diversity benchmark tests (may be slow)",
+    "requires_dkb: needs knowledge_base/dkb.json present",
+    "requires_mlx: needs Apple Silicon + MLX (training)",
+    "requires_eval_stack: needs the [eval] extra (nltk/pycocoevalcap/rouge-score/bert-score)",
+]
+
+[tool.coverage.run]
+branch = true
+source = ["src/plantdx"]
+
+[tool.coverage.report]
+show_missing = true
+exclude_lines = ["pragma: no cover", "raise NotImplementedError", "if TYPE_CHECKING:"]

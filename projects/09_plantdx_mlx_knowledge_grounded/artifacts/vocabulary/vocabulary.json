@@ -1,0 +1,5609 @@
+{
+  "items": [
+    {
+      "canonical_form": "Alternaria solani",
+      "concept": "agent_name",
+      "concept_id": "Fungus",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_early_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:agent:alternaria_solani",
+      "language": "en",
+      "ontology_node": "agent:alternaria_solani",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Alternaria solani"
+    },
+    {
+      "canonical_form": "Capnodium spp. (e.g., C. mangiferae, C. ramosum) and allied fungi (Meliola, Tripospermum, Cladosporium)",
+      "concept": "agent_name",
+      "concept_id": "Saprophyte",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_sooty_mould"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:agent:capnodium_spp_e_g_c_mangiferae_c_ramosum_and_allied_fungi_meliola_tripospermum_cladosporium",
+      "language": "en",
+      "ontology_node": "agent:capnodium_spp_e_g_c_mangiferae_c_ramosum_and_allied_fungi_meliola_tripospermum_cladosporium",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Capnodium spp. (e.g., C. mangiferae, C. ramosum) and allied fungi (Meliola, Tripospermum, Cladosporium)"
+    },
+    {
+      "canonical_form": "Colletotrichum gloeosporioides species complex",
+      "concept": "agent_name",
+      "concept_id": "Fungus",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_anthracnose"
+      ],
+      "evidence": [
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:agent:colletotrichum_gloeosporioides_species_complex",
+      "language": "en",
+      "ontology_node": "agent:colletotrichum_gloeosporioides_species_complex",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Colletotrichum gloeosporioides species complex"
+    },
+    {
+      "canonical_form": "Corynespora cassiicola",
+      "concept": "agent_name",
+      "concept_id": "Fungus",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:agent:corynespora_cassiicola",
+      "language": "en",
+      "ontology_node": "agent:corynespora_cassiicola",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Corynespora cassiicola"
+    },
+    {
+      "canonical_form": "Deporaus marginatus (Pascoe)",
+      "concept": "agent_name",
+      "concept_id": "InsectPest",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_cutting_weevil"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus"
+      ],
+      "id": "vocab:agent:deporaus_marginatus_pascoe",
+      "language": "en",
+      "ontology_node": "agent:deporaus_marginatus_pascoe",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Deporaus marginatus (Pascoe)"
+    },
+    {
+      "canonical_form": "Fulvia fulva",
+      "concept": "agent_name",
+      "concept_id": "Fungus",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_leaf_mold"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:agent:fulvia_fulva",
+      "language": "en",
+      "ontology_node": "agent:fulvia_fulva",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Fulvia fulva"
+    },
+    {
+      "canonical_form": "Lasiodiplodia theobromae",
+      "concept": "agent_name",
+      "concept_id": "Fungus",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_die_back"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:agent:lasiodiplodia_theobromae",
+      "language": "en",
+      "ontology_node": "agent:lasiodiplodia_theobromae",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Lasiodiplodia theobromae"
+    },
+    {
+      "canonical_form": "Oidium mangiferae",
+      "concept": "agent_name",
+      "concept_id": "Fungus",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_powdery_mildew"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:agent:oidium_mangiferae",
+      "language": "en",
+      "ontology_node": "agent:oidium_mangiferae",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Oidium mangiferae"
+    },
+    {
+      "canonical_form": "Phytophthora infestans",
+      "concept": "agent_name",
+      "concept_id": "Oomycete",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:agent:phytophthora_infestans",
+      "language": "en",
+      "ontology_node": "agent:phytophthora_infestans",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Phytophthora infestans"
+    },
+    {
+      "canonical_form": "Procontarinia matteiana",
+      "concept": "agent_name",
+      "concept_id": "InsectPest",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_gall_midge"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:PHA-GallMidge"
+      ],
+      "id": "vocab:agent:procontarinia_matteiana",
+      "language": "en",
+      "ontology_node": "agent:procontarinia_matteiana",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Procontarinia matteiana"
+    },
+    {
+      "canonical_form": "Septoria lycopersici",
+      "concept": "agent_name",
+      "concept_id": "Fungus",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_septoria_leaf_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:agent:septoria_lycopersici",
+      "language": "en",
+      "ontology_node": "agent:septoria_lycopersici",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Septoria lycopersici"
+    },
+    {
+      "canonical_form": "Tetranychus urticae",
+      "concept": "agent_name",
+      "concept_id": "ArthropodPest",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:agent:tetranychus_urticae",
+      "language": "en",
+      "ontology_node": "agent:tetranychus_urticae",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Tetranychus urticae"
+    },
+    {
+      "canonical_form": "Tomato mosaic virus (ToMV)",
+      "concept": "agent_name",
+      "concept_id": "Virus",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:agent:tomato_mosaic_virus_tomv",
+      "language": "en",
+      "ontology_node": "agent:tomato_mosaic_virus_tomv",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Tomato mosaic virus (ToMV)"
+    },
+    {
+      "canonical_form": "Tomato yellow leaf curl virus (TYLCV)",
+      "concept": "agent_name",
+      "concept_id": "Virus",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:agent:tomato_yellow_leaf_curl_virus_tylcv",
+      "language": "en",
+      "ontology_node": "agent:tomato_yellow_leaf_curl_virus_tylcv",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Tomato yellow leaf curl virus (TYLCV)"
+    },
+    {
+      "canonical_form": "Xanthomonas citri pv. mangiferaeindicae",
+      "concept": "agent_name",
+      "concept_id": "Bacterium",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_bacterial_canker"
+      ],
+      "evidence": [
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:agent:xanthomonas_citri_pv_mangiferaeindicae",
+      "language": "en",
+      "ontology_node": "agent:xanthomonas_citri_pv_mangiferaeindicae",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Xanthomonas citri pv. mangiferaeindicae"
+    },
+    {
+      "canonical_form": "Xanthomonas spp. (four-taxon complex: X. euvesicatoria pv. euvesicatoria, X. euvesicatoria pv. perforans, X. hortorum pv. gardneri, X. vesicatoria)",
+      "concept": "agent_name",
+      "concept_id": "Bacterium",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_bacterial_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Constantin2016",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:agent:xanthomonas_spp_four_taxon_complex_x_euvesicatoria_pv_euvesicatoria_x_euvesicatoria_pv_perforans_x_hortorum_pv_gardneri_x_vesicatoria",
+      "language": "en",
+      "ontology_node": "agent:xanthomonas_spp_four_taxon_complex_x_euvesicatoria_pv_euvesicatoria_x_euvesicatoria_pv_perforans_x_hortorum_pv_gardneri_x_vesicatoria",
+      "part_of_speech": "phrase",
+      "source": "caused_by",
+      "surface_form": "Xanthomonas spp. (four-taxon complex: X. euvesicatoria pv. euvesicatoria, X. euvesicatoria pv. perforans, X. hortorum pv. gardneri, X. vesicatoria)"
+    },
+    {
+      "canonical_form": "ash-gray",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker"
+      ],
+      "evidence": [
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:color:ash_gray",
+      "language": "en",
+      "ontology_node": "color:ash_gray",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "ash-gray"
+    },
+    {
+      "canonical_form": "black",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_bacterial_canker",
+        "mango_sooty_mould",
+        "tomato_bacterial_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:Constantin2016",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:color:black",
+      "language": "en",
+      "ontology_node": "color:black",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "black"
+    },
+    {
+      "canonical_form": "black (necrotic galls)",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_gall_midge"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:PHA-GallMidge"
+      ],
+      "id": "vocab:color:black_necrotic_galls",
+      "language": "en",
+      "ontology_node": "color:black_necrotic_galls",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "black (necrotic galls)"
+    },
+    {
+      "canonical_form": "bronze",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:color:bronze",
+      "language": "en",
+      "ontology_node": "color:bronze",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "bronze"
+    },
+    {
+      "canonical_form": "brown",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back",
+        "mango_gall_midge",
+        "tomato_early_blight",
+        "tomato_leaf_mold",
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:PHA-GallMidge",
+        "evidence:Ploetz2003",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-PP351",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:color:brown",
+      "language": "en",
+      "ontology_node": "color:brown",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "brown"
+    },
+    {
+      "canonical_form": "brown-black",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:color:brown_black",
+      "language": "en",
+      "ontology_node": "color:brown_black",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "brown-black"
+    },
+    {
+      "canonical_form": "brown (cut edges)",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus"
+      ],
+      "id": "vocab:color:brown_cut_edges",
+      "language": "en",
+      "ontology_node": "color:brown_cut_edges",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "brown (cut edges)"
+    },
+    {
+      "canonical_form": "chlorotic",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:color:chlorotic",
+      "language": "en",
+      "ontology_node": "color:chlorotic",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "chlorotic"
+    },
+    {
+      "canonical_form": "coppery (young flush)",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_healthy"
+      ],
+      "evidence": [
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:color:coppery_young_flush",
+      "language": "en",
+      "ontology_node": "color:coppery_young_flush",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "coppery (young flush)"
+    },
+    {
+      "canonical_form": "dark-brown",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_sooty_mould",
+        "tomato_bacterial_spot",
+        "tomato_early_blight",
+        "tomato_septoria_leaf_spot",
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:Constantin2016",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:color:dark_brown",
+      "language": "en",
+      "ontology_node": "color:dark_brown",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "dark-brown"
+    },
+    {
+      "canonical_form": "dark-green",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_healthy",
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:color:dark_green",
+      "language": "en",
+      "ontology_node": "color:dark_green",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "dark-green"
+    },
+    {
+      "canonical_form": "deep green",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_healthy"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:color:deep_green",
+      "language": "en",
+      "ontology_node": "color:deep_green",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "deep green"
+    },
+    {
+      "canonical_form": "gray",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_septoria_leaf_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:color:gray",
+      "language": "en",
+      "ontology_node": "color:gray",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "gray"
+    },
+    {
+      "canonical_form": "gray-brown",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:color:gray_brown",
+      "language": "en",
+      "ontology_node": "color:gray_brown",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "gray-brown"
+    },
+    {
+      "canonical_form": "gray (center)",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:color:gray_center",
+      "language": "en",
+      "ontology_node": "color:gray_center",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "gray (center)"
+    },
+    {
+      "canonical_form": "grayish-green",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:color:grayish_green",
+      "language": "en",
+      "ontology_node": "color:grayish_green",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "grayish-green"
+    },
+    {
+      "canonical_form": "grayish-white",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_powdery_mildew"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:color:grayish_white",
+      "language": "en",
+      "ontology_node": "color:grayish_white",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "grayish-white"
+    },
+    {
+      "canonical_form": "green",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil",
+        "mango_gall_midge",
+        "mango_healthy",
+        "tomato_healthy"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:CABI",
+        "evidence:CABI-Deporaus",
+        "evidence:NHB-Mango",
+        "evidence:PHA-GallMidge",
+        "evidence:Ploetz2003",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:color:green",
+      "language": "en",
+      "ontology_node": "color:green",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "green"
+    },
+    {
+      "canonical_form": "light-brown (old)",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker"
+      ],
+      "evidence": [
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:color:light_brown_old",
+      "language": "en",
+      "ontology_node": "color:light_brown_old",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "light-brown (old)"
+    },
+    {
+      "canonical_form": "light-green",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:color:light_green",
+      "language": "en",
+      "ontology_node": "color:light_green",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "light-green"
+    },
+    {
+      "canonical_form": "medium green",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_healthy"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:color:medium_green",
+      "language": "en",
+      "ontology_node": "color:medium_green",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "medium green"
+    },
+    {
+      "canonical_form": "olive-green",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_leaf_mold"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:color:olive_green",
+      "language": "en",
+      "ontology_node": "color:olive_green",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "olive-green"
+    },
+    {
+      "canonical_form": "pale-green",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_leaf_mold",
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:color:pale_green",
+      "language": "en",
+      "ontology_node": "color:pale_green",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "pale-green"
+    },
+    {
+      "canonical_form": "purplish-brown (weathered)",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_powdery_mildew"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:color:purplish_brown_weathered",
+      "language": "en",
+      "ontology_node": "color:purplish_brown_weathered",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "purplish-brown (weathered)"
+    },
+    {
+      "canonical_form": "reddish (early)",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_gall_midge"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:PHA-GallMidge"
+      ],
+      "id": "vocab:color:reddish_early",
+      "language": "en",
+      "ontology_node": "color:reddish_early",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "reddish (early)"
+    },
+    {
+      "canonical_form": "tan",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back",
+        "tomato_septoria_leaf_spot",
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003",
+        "evidence:UCIPM-Mites",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:color:tan",
+      "language": "en",
+      "ontology_node": "color:tan",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "tan"
+    },
+    {
+      "canonical_form": "white",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_powdery_mildew"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:color:white",
+      "language": "en",
+      "ontology_node": "color:white",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "white"
+    },
+    {
+      "canonical_form": "white (sporulation)",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:color:white_sporulation",
+      "language": "en",
+      "ontology_node": "color:white_sporulation",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "white (sporulation)"
+    },
+    {
+      "canonical_form": "yellow",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back",
+        "tomato_leaf_mold",
+        "tomato_spider_mites",
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003",
+        "evidence:UCIPM-Mites",
+        "evidence:UCIPM-Tomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:color:yellow",
+      "language": "en",
+      "ontology_node": "color:yellow",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "yellow"
+    },
+    {
+      "canonical_form": "yellow (chlorosis)",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_septoria_leaf_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:color:yellow_chlorosis",
+      "language": "en",
+      "ontology_node": "color:yellow_chlorosis",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "yellow (chlorosis)"
+    },
+    {
+      "canonical_form": "yellow (halo)",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_bacterial_canker",
+        "tomato_bacterial_spot",
+        "tomato_early_blight",
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:Constantin2016",
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-HS1369",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:color:yellow_halo",
+      "language": "en",
+      "ontology_node": "color:yellow_halo",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "yellow (halo)"
+    },
+    {
+      "canonical_form": "yellow (mottle)",
+      "concept": "color",
+      "concept_id": "Color",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:color:yellow_mottle",
+      "language": "en",
+      "ontology_node": "color:yellow_mottle",
+      "part_of_speech": "adjective",
+      "source": "has_color",
+      "surface_form": "yellow (mottle)"
+    },
+    {
+      "canonical_form": "Anthracnose",
+      "concept": "disease_name",
+      "concept_id": "Disease",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_anthracnose"
+      ],
+      "evidence": [
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:condition:mango_anthracnose",
+      "language": "en",
+      "ontology_node": "condition:mango_anthracnose",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Anthracnose"
+    },
+    {
+      "canonical_form": "Bacterial Canker",
+      "concept": "disease_name",
+      "concept_id": "Disease",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_bacterial_canker"
+      ],
+      "evidence": [
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:condition:mango_bacterial_canker",
+      "language": "en",
+      "ontology_node": "condition:mango_bacterial_canker",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Bacterial Canker"
+    },
+    {
+      "canonical_form": "Cutting Weevil",
+      "concept": "disease_name",
+      "concept_id": "PestDamage",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_cutting_weevil"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus"
+      ],
+      "id": "vocab:condition:mango_cutting_weevil",
+      "language": "en",
+      "ontology_node": "condition:mango_cutting_weevil",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Cutting Weevil"
+    },
+    {
+      "canonical_form": "Die Back",
+      "concept": "disease_name",
+      "concept_id": "Disease",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_die_back"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:condition:mango_die_back",
+      "language": "en",
+      "ontology_node": "condition:mango_die_back",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Die Back"
+    },
+    {
+      "canonical_form": "Gall Midge",
+      "concept": "disease_name",
+      "concept_id": "PestDamage",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_gall_midge"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:PHA-GallMidge"
+      ],
+      "id": "vocab:condition:mango_gall_midge",
+      "language": "en",
+      "ontology_node": "condition:mango_gall_midge",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Gall Midge"
+    },
+    {
+      "canonical_form": "Healthy",
+      "concept": "disease_name",
+      "concept_id": "HealthyState",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_healthy"
+      ],
+      "evidence": [
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:condition:mango_healthy",
+      "language": "en",
+      "ontology_node": "condition:mango_healthy",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Healthy"
+    },
+    {
+      "canonical_form": "Powdery Mildew",
+      "concept": "disease_name",
+      "concept_id": "Disease",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_powdery_mildew"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:condition:mango_powdery_mildew",
+      "language": "en",
+      "ontology_node": "condition:mango_powdery_mildew",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Powdery Mildew"
+    },
+    {
+      "canonical_form": "Sooty Mould",
+      "concept": "disease_name",
+      "concept_id": "SurfaceColonization",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_sooty_mould"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:condition:mango_sooty_mould",
+      "language": "en",
+      "ontology_node": "condition:mango_sooty_mould",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Sooty Mould"
+    },
+    {
+      "canonical_form": "Bacterial Spot",
+      "concept": "disease_name",
+      "concept_id": "Disease",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_bacterial_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Constantin2016",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:condition:tomato_bacterial_spot",
+      "language": "en",
+      "ontology_node": "condition:tomato_bacterial_spot",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Bacterial Spot"
+    },
+    {
+      "canonical_form": "Early Blight",
+      "concept": "disease_name",
+      "concept_id": "Disease",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_early_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:condition:tomato_early_blight",
+      "language": "en",
+      "ontology_node": "condition:tomato_early_blight",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Early Blight"
+    },
+    {
+      "canonical_form": "Healthy",
+      "concept": "disease_name",
+      "concept_id": "HealthyState",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_healthy"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:condition:tomato_healthy",
+      "language": "en",
+      "ontology_node": "condition:tomato_healthy",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Healthy"
+    },
+    {
+      "canonical_form": "Late Blight",
+      "concept": "disease_name",
+      "concept_id": "Disease",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:condition:tomato_late_blight",
+      "language": "en",
+      "ontology_node": "condition:tomato_late_blight",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Late Blight"
+    },
+    {
+      "canonical_form": "Leaf Mold",
+      "concept": "disease_name",
+      "concept_id": "Disease",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_leaf_mold"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:condition:tomato_leaf_mold",
+      "language": "en",
+      "ontology_node": "condition:tomato_leaf_mold",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Leaf Mold"
+    },
+    {
+      "canonical_form": "Tomato Mosaic Virus",
+      "concept": "disease_name",
+      "concept_id": "Disease",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:condition:tomato_mosaic_virus",
+      "language": "en",
+      "ontology_node": "condition:tomato_mosaic_virus",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Tomato Mosaic Virus"
+    },
+    {
+      "canonical_form": "Septoria Leaf Spot",
+      "concept": "disease_name",
+      "concept_id": "Disease",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_septoria_leaf_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:condition:tomato_septoria_leaf_spot",
+      "language": "en",
+      "ontology_node": "condition:tomato_septoria_leaf_spot",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Septoria Leaf Spot"
+    },
+    {
+      "canonical_form": "Spider Mites (Two-spotted spider mite)",
+      "concept": "disease_name",
+      "concept_id": "PestDamage",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:condition:tomato_spider_mites",
+      "language": "en",
+      "ontology_node": "condition:tomato_spider_mites",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Spider Mites (Two-spotted spider mite)"
+    },
+    {
+      "canonical_form": "Target Spot",
+      "concept": "disease_name",
+      "concept_id": "Disease",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:condition:tomato_target_spot",
+      "language": "en",
+      "ontology_node": "condition:tomato_target_spot",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Target Spot"
+    },
+    {
+      "canonical_form": "Tomato Yellow Leaf Curl Virus",
+      "concept": "disease_name",
+      "concept_id": "Disease",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:condition:tomato_yellow_leaf_curl_virus",
+      "language": "en",
+      "ontology_node": "condition:tomato_yellow_leaf_curl_virus",
+      "part_of_speech": "phrase",
+      "source": "identity",
+      "surface_form": "Tomato Yellow Leaf Curl Virus"
+    },
+    {
+      "canonical_form": "asserted",
+      "concept": "confidence_modifier",
+      "concept_id": "Confidence",
+      "confidence": "asserted",
+      "dkb_reference": [],
+      "evidence": [],
+      "id": "vocab:confidence:asserted",
+      "language": "en",
+      "ontology_node": "",
+      "part_of_speech": "modifier",
+      "source": "identity_enum",
+      "surface_form": "asserted"
+    },
+    {
+      "canonical_form": "hedged",
+      "concept": "confidence_modifier",
+      "concept_id": "Confidence",
+      "confidence": "hedged",
+      "dkb_reference": [],
+      "evidence": [],
+      "id": "vocab:confidence:hedged",
+      "language": "en",
+      "ontology_node": "",
+      "part_of_speech": "modifier",
+      "source": "identity_enum",
+      "surface_form": "hedged"
+    },
+    {
+      "canonical_form": "typical",
+      "concept": "confidence_modifier",
+      "concept_id": "Confidence",
+      "confidence": "typical",
+      "dkb_reference": [],
+      "evidence": [],
+      "id": "vocab:confidence:typical",
+      "language": "en",
+      "ontology_node": "",
+      "part_of_speech": "modifier",
+      "source": "identity_enum",
+      "surface_form": "typical"
+    },
+    {
+      "canonical_form": "a dry-weather disease (unlike anthracnose, not rain-driven)",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_powdery_mildew"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:env:a_dry_weather_disease_unlike_anthracnose_not_rain_driven",
+      "language": "en",
+      "ontology_node": "env:a_dry_weather_disease_unlike_anthracnose_not_rain_driven",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "a dry-weather disease (unlike anthracnose, not rain-driven)"
+    },
+    {
+      "canonical_form": "active on tender new flush",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil",
+        "mango_gall_midge"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus",
+        "evidence:PHA-GallMidge"
+      ],
+      "id": "vocab:env:active_on_tender_new_flush",
+      "language": "en",
+      "ontology_node": "env:active_on_tender_new_flush",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "active on tender new flush"
+    },
+    {
+      "canonical_form": "alternating wet/dry",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_early_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:alternating_wet_dry",
+      "language": "en",
+      "ontology_node": "env:alternating_wet_dry",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "alternating wet/dry"
+    },
+    {
+      "canonical_form": "contaminated seed and transplants",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_bacterial_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Constantin2016",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:contaminated_seed_and_transplants",
+      "language": "en",
+      "ontology_node": "env:contaminated_seed_and_transplants",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "contaminated seed and transplants"
+    },
+    {
+      "canonical_form": "cool nights, dry days",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_powdery_mildew"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:env:cool_nights_dry_days",
+      "language": "en",
+      "ontology_node": "env:cool_nights_dry_days",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "cool nights, dry days"
+    },
+    {
+      "canonical_form": "cool-to-moderate (optimum ~18 c, range 10-24 c)",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:cool_to_moderate_optimum_18_c_range_10_24_c",
+      "language": "en",
+      "ontology_node": "env:cool_to_moderate_optimum_18_c_range_10_24_c",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "cool-to-moderate (optimum ~18 c, range 10-24 c)"
+    },
+    {
+      "canonical_form": "enters via wounds",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:env:enters_via_wounds",
+      "language": "en",
+      "ontology_node": "env:enters_via_wounds",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "enters via wounds"
+    },
+    {
+      "canonical_form": "entry through wounds (wind/sand abrasion) and stomata",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker"
+      ],
+      "evidence": [
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:env:entry_through_wounds_wind_sand_abrasion_and_stomata",
+      "language": "en",
+      "ontology_node": "env:entry_through_wounds_wind_sand_abrasion_and_stomata",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "entry through wounds (wind/sand abrasion) and stomata"
+    },
+    {
+      "canonical_form": "entry via stomata and wounds",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_bacterial_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Constantin2016",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:entry_via_stomata_and_wounds",
+      "language": "en",
+      "ontology_node": "env:entry_via_stomata_and_wounds",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "entry via stomata and wounds"
+    },
+    {
+      "canonical_form": "explosive epidemics under cool wet conditions",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:explosive_epidemics_under_cool_wet_conditions",
+      "language": "en",
+      "ontology_node": "env:explosive_epidemics_under_cool_wet_conditions",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "explosive epidemics under cool wet conditions"
+    },
+    {
+      "canonical_form": "extremely stable and persistent on surfaces/debris",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:extremely_stable_and_persistent_on_surfaces_debris",
+      "language": "en",
+      "ontology_node": "env:extremely_stable_and_persistent_on_surfaces_debris",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "extremely stable and persistent on surfaces/debris"
+    },
+    {
+      "canonical_form": "favored by warm conditions and high whitefly populations",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:favored_by_warm_conditions_and_high_whitefly_populations",
+      "language": "en",
+      "ontology_node": "env:favored_by_warm_conditions_and_high_whitefly_populations",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "favored by warm conditions and high whitefly populations"
+    },
+    {
+      "canonical_form": "fog/rain",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:fog_rain",
+      "language": "en",
+      "ontology_node": "env:fog_rain",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "fog/rain"
+    },
+    {
+      "canonical_form": "high humidity",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:env:high_humidity",
+      "language": "en",
+      "ontology_node": "env:high_humidity",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "high humidity"
+    },
+    {
+      "canonical_form": "high humidity, dew",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_early_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:high_humidity_dew",
+      "language": "en",
+      "ontology_node": "env:high_humidity_dew",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "high humidity, dew"
+    },
+    {
+      "canonical_form": "high humidity/dew during flowering and flush",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_powdery_mildew"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:env:high_humidity_dew_during_flowering_and_flush",
+      "language": "en",
+      "ontology_node": "env:high_humidity_dew_during_flowering_and_flush",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "high humidity/dew during flowering and flush"
+    },
+    {
+      "canonical_form": "high temperature (>27 c) and low humidity",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:env:high_temperature_27_c_and_low_humidity",
+      "language": "en",
+      "ontology_node": "env:high_temperature_27_c_and_low_humidity",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "high temperature (>27 c) and low humidity"
+    },
+    {
+      "canonical_form": "hot, dry, dusty",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:env:hot_dry_dusty",
+      "language": "en",
+      "ontology_node": "env:hot_dry_dusty",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "hot, dry, dusty"
+    },
+    {
+      "canonical_form": "humid, shaded canopies",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_sooty_mould"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:env:humid_shaded_canopies",
+      "language": "en",
+      "ontology_node": "env:humid_shaded_canopies",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "humid, shaded canopies"
+    },
+    {
+      "canonical_form": "important in florida and humid tropics",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:env:important_in_florida_and_humid_tropics",
+      "language": "en",
+      "ontology_node": "env:important_in_florida_and_humid_tropics",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "important in florida and humid tropics"
+    },
+    {
+      "canonical_form": "leaf wetness",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:leaf_wetness",
+      "language": "en",
+      "ontology_node": "env:leaf_wetness",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "leaf wetness"
+    },
+    {
+      "canonical_form": "moderate temperature 22-24 c",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_leaf_mold"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:env:moderate_temperature_22_24_c",
+      "language": "en",
+      "ontology_node": "env:moderate_temperature_22_24_c",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "moderate temperature 22-24 c"
+    },
+    {
+      "canonical_form": "most important field/postharvest disease in humid tropics",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose"
+      ],
+      "evidence": [
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:env:most_important_field_postharvest_disease_in_humid_tropics",
+      "language": "en",
+      "ontology_node": "env:most_important_field_postharvest_disease_in_humid_tropics",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "most important field/postharvest disease in humid tropics"
+    },
+    {
+      "canonical_form": "n/a",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_healthy"
+      ],
+      "evidence": [
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:env:n_a",
+      "language": "en",
+      "ontology_node": "env:n_a",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "n/a"
+    },
+    {
+      "canonical_form": "n/a (unstressed, well-watered foliage)",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_healthy"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:n_a_unstressed_well_watered_foliage",
+      "language": "en",
+      "ontology_node": "env:n_a_unstressed_well_watered_foliage",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "n/a (unstressed, well-watered foliage)"
+    },
+    {
+      "canonical_form": "no insect vector required",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:no_insect_vector_required",
+      "language": "en",
+      "ontology_node": "env:no_insect_vector_required",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "no insect vector required"
+    },
+    {
+      "canonical_form": "not directly weather-driven",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_sooty_mould"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:env:not_directly_weather_driven",
+      "language": "en",
+      "ontology_node": "env:not_directly_weather_driven",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "not directly weather-driven"
+    },
+    {
+      "canonical_form": "not mechanically or seed transmitted",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:not_mechanically_or_seed_transmitted",
+      "language": "en",
+      "ontology_node": "env:not_mechanically_or_seed_transmitted",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "not mechanically or seed transmitted"
+    },
+    {
+      "canonical_form": "not weather-driven",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:not_weather_driven",
+      "language": "en",
+      "ontology_node": "env:not_weather_driven",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "not weather-driven"
+    },
+    {
+      "canonical_form": "nurseries and young trees",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus"
+      ],
+      "id": "vocab:env:nurseries_and_young_trees",
+      "language": "en",
+      "ontology_node": "env:nurseries_and_young_trees",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "nurseries and young trees"
+    },
+    {
+      "canonical_form": "opportunistic on stressed trees (drought, heat, wounds, pruning cuts)",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:env:opportunistic_on_stressed_trees_drought_heat_wounds_pruning_cuts",
+      "language": "en",
+      "ontology_node": "env:opportunistic_on_stressed_trees_drought_heat_wounds_pruning_cuts",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "opportunistic on stressed trees (drought, heat, wounds, pruning cuts)"
+    },
+    {
+      "canonical_form": "outbreaks often follow broad-spectrum insecticide use",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:env:outbreaks_often_follow_broad_spectrum_insecticide_use",
+      "language": "en",
+      "ontology_node": "env:outbreaks_often_follow_broad_spectrum_insecticide_use",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "outbreaks often follow broad-spectrum insecticide use"
+    },
+    {
+      "canonical_form": "overhead irrigation",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_bacterial_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Constantin2016",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:overhead_irrigation",
+      "language": "en",
+      "ontology_node": "env:overhead_irrigation",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "overhead irrigation"
+    },
+    {
+      "canonical_form": "persistent high relative humidity (>85%)",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_leaf_mold"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:env:persistent_high_relative_humidity_85",
+      "language": "en",
+      "ontology_node": "env:persistent_high_relative_humidity_85",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "persistent high relative humidity (>85%)"
+    },
+    {
+      "canonical_form": "plant stress",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_early_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:plant_stress",
+      "language": "en",
+      "ontology_node": "env:plant_stress",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "plant stress"
+    },
+    {
+      "canonical_form": "poor ventilation",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_leaf_mold"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:env:poor_ventilation",
+      "language": "en",
+      "ontology_node": "env:poor_ventilation",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "poor ventilation"
+    },
+    {
+      "canonical_form": "predominantly protected culture",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_leaf_mold"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:env:predominantly_protected_culture",
+      "language": "en",
+      "ontology_node": "env:predominantly_protected_culture",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "predominantly protected culture"
+    },
+    {
+      "canonical_form": "presence of honeydew-secreting insects (hoppers, scales, mealybugs, aphids)",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_sooty_mould"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:env:presence_of_honeydew_secreting_insects_hoppers_scales_mealybugs_aphids",
+      "language": "en",
+      "ontology_node": "env:presence_of_honeydew_secreting_insects_hoppers_scales_mealybugs_aphids",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "presence of honeydew-secreting insects (hoppers, scales, mealybugs, aphids)"
+    },
+    {
+      "canonical_form": "prolonged leaf wetness (~16-44 h)",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:env:prolonged_leaf_wetness_16_44_h",
+      "language": "en",
+      "ontology_node": "env:prolonged_leaf_wetness_16_44_h",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "prolonged leaf wetness (~16-44 h)"
+    },
+    {
+      "canonical_form": "rain and wind-driven rain",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker"
+      ],
+      "evidence": [
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:env:rain_and_wind_driven_rain",
+      "language": "en",
+      "ontology_node": "env:rain_and_wind_driven_rain",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "rain and wind-driven rain"
+    },
+    {
+      "canonical_form": "rain, dew, and splashing spread conidia",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose"
+      ],
+      "evidence": [
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:env:rain_dew_and_splashing_spread_conidia",
+      "language": "en",
+      "ontology_node": "env:rain_dew_and_splashing_spread_conidia",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "rain, dew, and splashing spread conidia"
+    },
+    {
+      "canonical_form": "rain splash and wind-driven rain",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_bacterial_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Constantin2016",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:rain_splash_and_wind_driven_rain",
+      "language": "en",
+      "ontology_node": "env:rain_splash_and_wind_driven_rain",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "rain splash and wind-driven rain"
+    },
+    {
+      "canonical_form": "seasonal with flushing",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil",
+        "mango_gall_midge"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus",
+        "evidence:PHA-GallMidge"
+      ],
+      "id": "vocab:env:seasonal_with_flushing",
+      "language": "en",
+      "ontology_node": "env:seasonal_with_flushing",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "seasonal with flushing"
+    },
+    {
+      "canonical_form": "splashing water",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_septoria_leaf_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:splashing_water",
+      "language": "en",
+      "ontology_node": "env:splashing_water",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "splashing water"
+    },
+    {
+      "canonical_form": "spread by rain splash and wind",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker"
+      ],
+      "evidence": [
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:env:spread_by_rain_splash_and_wind",
+      "language": "en",
+      "ontology_node": "env:spread_by_rain_splash_and_wind",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "spread by rain splash and wind"
+    },
+    {
+      "canonical_form": "spread mechanically (handling, tools, contaminated seed, grafting)",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:spread_mechanically_handling_tools_contaminated_seed_grafting",
+      "language": "en",
+      "ontology_node": "env:spread_mechanically_handling_tools_contaminated_seed_grafting",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "spread mechanically (handling, tools, contaminated seed, grafting)"
+    },
+    {
+      "canonical_form": "survives in residue and soil",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_early_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:survives_in_residue_and_soil",
+      "language": "en",
+      "ontology_node": "env:survives_in_residue_and_soil",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "survives in residue and soil"
+    },
+    {
+      "canonical_form": "survives on residue and weed hosts",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_septoria_leaf_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:survives_on_residue_and_weed_hosts",
+      "language": "en",
+      "ontology_node": "env:survives_on_residue_and_weed_hosts",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "survives on residue and weed hosts"
+    },
+    {
+      "canonical_form": "transmitted by whitefly bemisia tabaci (persistent, circulative)",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:transmitted_by_whitefly_bemisia_tabaci_persistent_circulative",
+      "language": "en",
+      "ontology_node": "env:transmitted_by_whitefly_bemisia_tabaci_persistent_circulative",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "transmitted by whitefly bemisia tabaci (persistent, circulative)"
+    },
+    {
+      "canonical_form": "very high humidity (>90%)",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:very_high_humidity_90",
+      "language": "en",
+      "ontology_node": "env:very_high_humidity_90",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "very high humidity (>90%)"
+    },
+    {
+      "canonical_form": "warm 20-25 c",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_septoria_leaf_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:warm_20_25_c",
+      "language": "en",
+      "ontology_node": "env:warm_20_25_c",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "warm 20-25 c"
+    },
+    {
+      "canonical_form": "warm 24-29 c",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_early_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:warm_24_29_c",
+      "language": "en",
+      "ontology_node": "env:warm_24_29_c",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "warm 24-29 c"
+    },
+    {
+      "canonical_form": "warm 24-30 c",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_bacterial_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Constantin2016",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:warm_24_30_c",
+      "language": "en",
+      "ontology_node": "env:warm_24_30_c",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "warm 24-30 c"
+    },
+    {
+      "canonical_form": "warm 24-32 c",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:env:warm_24_32_c",
+      "language": "en",
+      "ontology_node": "env:warm_24_32_c",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "warm 24-32 c"
+    },
+    {
+      "canonical_form": "warm and humid",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:env:warm_and_humid",
+      "language": "en",
+      "ontology_node": "env:warm_and_humid",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "warm and humid"
+    },
+    {
+      "canonical_form": "warm conditions",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_gall_midge"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:PHA-GallMidge"
+      ],
+      "id": "vocab:env:warm_conditions",
+      "language": "en",
+      "ontology_node": "env:warm_conditions",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "warm conditions"
+    },
+    {
+      "canonical_form": "warm, humid",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker"
+      ],
+      "evidence": [
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:env:warm_humid",
+      "language": "en",
+      "ontology_node": "env:warm_humid",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "warm, humid"
+    },
+    {
+      "canonical_form": "warm, wet, humid",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose"
+      ],
+      "evidence": [
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:env:warm_wet_humid",
+      "language": "en",
+      "ontology_node": "env:warm_wet_humid",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "warm, wet, humid"
+    },
+    {
+      "canonical_form": "water-stressed plants",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:env:water_stressed_plants",
+      "language": "en",
+      "ontology_node": "env:water_stressed_plants",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "water-stressed plants"
+    },
+    {
+      "canonical_form": "wet/humid",
+      "concept": "environment",
+      "concept_id": "EnvironmentalCondition",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_bacterial_spot",
+        "tomato_septoria_leaf_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:Constantin2016",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:env:wet_humid",
+      "language": "en",
+      "ontology_node": "env:wet_humid",
+      "part_of_speech": "phrase",
+      "source": "favored_by",
+      "surface_form": "wet/humid"
+    },
+    {
+      "canonical_form": "blighting",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_early_blight",
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:extent:blighting",
+      "language": "en",
+      "ontology_node": "extent:blighting",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "blighting"
+    },
+    {
+      "canonical_form": "bronzed",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:extent:bronzed",
+      "language": "en",
+      "ontology_node": "extent:bronzed",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "bronzed"
+    },
+    {
+      "canonical_form": "coalesced",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "tomato_early_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:Ploetz2003",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:extent:coalesced",
+      "language": "en",
+      "ontology_node": "extent:coalesced",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "coalesced"
+    },
+    {
+      "canonical_form": "coalescing",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker",
+        "mango_powdery_mildew",
+        "tomato_bacterial_spot",
+        "tomato_leaf_mold",
+        "tomato_septoria_leaf_spot",
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:CTAHR-PD46",
+        "evidence:Constantin2016",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-HS1369",
+        "evidence:UFIFAS-PP351",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:extent:coalescing",
+      "language": "en",
+      "ontology_node": "extent:coalescing",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "coalescing"
+    },
+    {
+      "canonical_form": "collapsing",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:extent:collapsing",
+      "language": "en",
+      "ontology_node": "extent:collapsing",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "collapsing"
+    },
+    {
+      "canonical_form": "complete-coating",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_sooty_mould"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:extent:complete_coating",
+      "language": "en",
+      "ontology_node": "extent:complete_coating",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "complete-coating"
+    },
+    {
+      "canonical_form": "continuous",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_sooty_mould"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:extent:continuous",
+      "language": "en",
+      "ontology_node": "extent:continuous",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "continuous"
+    },
+    {
+      "canonical_form": "cut",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus"
+      ],
+      "id": "vocab:extent:cut",
+      "language": "en",
+      "ontology_node": "extent:cut",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "cut"
+    },
+    {
+      "canonical_form": "defoliated",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus"
+      ],
+      "id": "vocab:extent:defoliated",
+      "language": "en",
+      "ontology_node": "extent:defoliated",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "defoliated"
+    },
+    {
+      "canonical_form": "defoliating",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker"
+      ],
+      "evidence": [
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:extent:defoliating",
+      "language": "en",
+      "ontology_node": "extent:defoliating",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "defoliating"
+    },
+    {
+      "canonical_form": "dense",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_gall_midge",
+        "tomato_septoria_leaf_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:CABI",
+        "evidence:PHA-GallMidge",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:extent:dense",
+      "language": "en",
+      "ontology_node": "extent:dense",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "dense"
+    },
+    {
+      "canonical_form": "desiccated",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:extent:desiccated",
+      "language": "en",
+      "ontology_node": "extent:desiccated",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "desiccated"
+    },
+    {
+      "canonical_form": "distinct",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus",
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:extent:distinct",
+      "language": "en",
+      "ontology_node": "extent:distinct",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "distinct"
+    },
+    {
+      "canonical_form": "dried",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:extent:dried",
+      "language": "en",
+      "ontology_node": "extent:dried",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "dried"
+    },
+    {
+      "canonical_form": "early",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_late_blight",
+        "tomato_leaf_mold"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:extent:early",
+      "language": "en",
+      "ontology_node": "extent:early",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "early"
+    },
+    {
+      "canonical_form": "enlarging",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "tomato_early_blight",
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:Ploetz2003",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:extent:enlarging",
+      "language": "en",
+      "ontology_node": "extent:enlarging",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "enlarging"
+    },
+    {
+      "canonical_form": "extensive",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_powdery_mildew",
+        "tomato_bacterial_spot",
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:CTAHR-PD46",
+        "evidence:Constantin2016",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:extent:extensive",
+      "language": "en",
+      "ontology_node": "extent:extensive",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "extensive"
+    },
+    {
+      "canonical_form": "faint",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:extent:faint",
+      "language": "en",
+      "ontology_node": "extent:faint",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "faint"
+    },
+    {
+      "canonical_form": "few",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker",
+        "mango_gall_midge",
+        "tomato_bacterial_spot",
+        "tomato_early_blight",
+        "tomato_septoria_leaf_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:CABI",
+        "evidence:Constantin2016",
+        "evidence:PHA-GallMidge",
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:extent:few",
+      "language": "en",
+      "ontology_node": "extent:few",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "few"
+    },
+    {
+      "canonical_form": "mild",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:extent:mild",
+      "language": "en",
+      "ontology_node": "extent:mild",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "mild"
+    },
+    {
+      "canonical_form": "notched",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus"
+      ],
+      "id": "vocab:extent:notched",
+      "language": "en",
+      "ontology_node": "extent:notched",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "notched"
+    },
+    {
+      "canonical_form": "numerous",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_gall_midge",
+        "tomato_bacterial_spot",
+        "tomato_septoria_leaf_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:CABI",
+        "evidence:Constantin2016",
+        "evidence:PHA-GallMidge",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:extent:numerous",
+      "language": "en",
+      "ontology_node": "extent:numerous",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "numerous"
+    },
+    {
+      "canonical_form": "patchy",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_powdery_mildew",
+        "tomato_leaf_mold"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:CTAHR-PD46",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:extent:patchy",
+      "language": "en",
+      "ontology_node": "extent:patchy",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "patchy"
+    },
+    {
+      "canonical_form": "pinpoint",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:extent:pinpoint",
+      "language": "en",
+      "ontology_node": "extent:pinpoint",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "pinpoint"
+    },
+    {
+      "canonical_form": "pronounced",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:extent:pronounced",
+      "language": "en",
+      "ontology_node": "extent:pronounced",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "pronounced"
+    },
+    {
+      "canonical_form": "ragged",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus"
+      ],
+      "id": "vocab:extent:ragged",
+      "language": "en",
+      "ontology_node": "extent:ragged",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "ragged"
+    },
+    {
+      "canonical_form": "raised",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker"
+      ],
+      "evidence": [
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:extent:raised",
+      "language": "en",
+      "ontology_node": "extent:raised",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "raised"
+    },
+    {
+      "canonical_form": "scattered",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_bacterial_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Constantin2016",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:extent:scattered",
+      "language": "en",
+      "ontology_node": "extent:scattered",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "scattered"
+    },
+    {
+      "canonical_form": "scorching",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:extent:scorching",
+      "language": "en",
+      "ontology_node": "extent:scorching",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "scorching"
+    },
+    {
+      "canonical_form": "severe",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:extent:severe",
+      "language": "en",
+      "ontology_node": "extent:severe",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "severe"
+    },
+    {
+      "canonical_form": "slight",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:extent:slight",
+      "language": "en",
+      "ontology_node": "extent:slight",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "slight"
+    },
+    {
+      "canonical_form": "specks",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose"
+      ],
+      "evidence": [
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:extent:specks",
+      "language": "en",
+      "ontology_node": "extent:specks",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "specks"
+    },
+    {
+      "canonical_form": "spreading",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:extent:spreading",
+      "language": "en",
+      "ontology_node": "extent:spreading",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "spreading"
+    },
+    {
+      "canonical_form": "stippled",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:extent:stippled",
+      "language": "en",
+      "ontology_node": "extent:stippled",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "stippled"
+    },
+    {
+      "canonical_form": "thin",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_sooty_mould"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:extent:thin",
+      "language": "en",
+      "ontology_node": "extent:thin",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "thin"
+    },
+    {
+      "canonical_form": "withering",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_leaf_mold"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:extent:withering",
+      "language": "en",
+      "ontology_node": "extent:withering",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "withering"
+    },
+    {
+      "canonical_form": "yellowing",
+      "concept": "extent",
+      "concept_id": "Extent",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:extent:yellowing",
+      "language": "en",
+      "ontology_node": "extent:yellowing",
+      "part_of_speech": "quantifier",
+      "source": "has_extent",
+      "surface_form": "yellowing"
+    },
+    {
+      "canonical_form": "non_observable",
+      "concept": "observability_modifier",
+      "concept_id": "Observability",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_bacterial_canker",
+        "mango_cutting_weevil",
+        "mango_die_back",
+        "mango_gall_midge",
+        "mango_powdery_mildew",
+        "mango_sooty_mould",
+        "tomato_bacterial_spot",
+        "tomato_early_blight",
+        "tomato_late_blight",
+        "tomato_leaf_mold",
+        "tomato_mosaic_virus",
+        "tomato_septoria_leaf_spot",
+        "tomato_spider_mites",
+        "tomato_target_spot",
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [],
+      "id": "vocab:observability:non_observable",
+      "language": "en",
+      "ontology_node": "observability:non_observable",
+      "part_of_speech": "modifier",
+      "source": "has_observability",
+      "surface_form": "non_observable"
+    },
+    {
+      "canonical_form": "observable",
+      "concept": "observability_modifier",
+      "concept_id": "Observability",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_bacterial_canker",
+        "mango_cutting_weevil",
+        "mango_die_back",
+        "mango_gall_midge",
+        "mango_healthy",
+        "mango_powdery_mildew",
+        "mango_sooty_mould",
+        "tomato_bacterial_spot",
+        "tomato_early_blight",
+        "tomato_healthy",
+        "tomato_late_blight",
+        "tomato_leaf_mold",
+        "tomato_mosaic_virus",
+        "tomato_septoria_leaf_spot",
+        "tomato_spider_mites",
+        "tomato_target_spot",
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [],
+      "id": "vocab:observability:observable",
+      "language": "en",
+      "ontology_node": "observability:observable",
+      "part_of_speech": "modifier",
+      "source": "has_observability",
+      "surface_form": "observable"
+    },
+    {
+      "canonical_form": "abaxial_surface",
+      "concept": "leaf_region",
+      "concept_id": "LeafRegion",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_powdery_mildew",
+        "tomato_early_blight",
+        "tomato_late_blight",
+        "tomato_leaf_mold",
+        "tomato_spider_mites",
+        "tomato_target_spot"
+      ],
+      "evidence": [],
+      "id": "vocab:region:abaxial_surface",
+      "language": "en",
+      "ontology_node": "region:abaxial_surface",
+      "part_of_speech": "noun",
+      "source": "appears_on",
+      "surface_form": "abaxial_surface"
+    },
+    {
+      "canonical_form": "adaxial_surface",
+      "concept": "leaf_region",
+      "concept_id": "LeafRegion",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_powdery_mildew",
+        "mango_sooty_mould",
+        "tomato_leaf_mold",
+        "tomato_spider_mites"
+      ],
+      "evidence": [],
+      "id": "vocab:region:adaxial_surface",
+      "language": "en",
+      "ontology_node": "region:adaxial_surface",
+      "part_of_speech": "noun",
+      "source": "appears_on",
+      "surface_form": "adaxial_surface"
+    },
+    {
+      "canonical_form": "interveinal",
+      "concept": "leaf_region",
+      "concept_id": "LeafRegion",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [],
+      "id": "vocab:region:interveinal",
+      "language": "en",
+      "ontology_node": "region:interveinal",
+      "part_of_speech": "noun",
+      "source": "appears_on",
+      "surface_form": "interveinal"
+    },
+    {
+      "canonical_form": "lamina",
+      "concept": "leaf_region",
+      "concept_id": "LeafRegion",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_gall_midge"
+      ],
+      "evidence": [],
+      "id": "vocab:region:lamina",
+      "language": "en",
+      "ontology_node": "region:lamina",
+      "part_of_speech": "noun",
+      "source": "appears_on",
+      "surface_form": "lamina"
+    },
+    {
+      "canonical_form": "margin",
+      "concept": "leaf_region",
+      "concept_id": "LeafRegion",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_bacterial_canker",
+        "mango_cutting_weevil",
+        "mango_die_back",
+        "mango_gall_midge",
+        "tomato_bacterial_spot",
+        "tomato_late_blight",
+        "tomato_leaf_mold",
+        "tomato_septoria_leaf_spot",
+        "tomato_spider_mites",
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [],
+      "id": "vocab:region:margin",
+      "language": "en",
+      "ontology_node": "region:margin",
+      "part_of_speech": "noun",
+      "source": "appears_on",
+      "surface_form": "margin"
+    },
+    {
+      "canonical_form": "midrib",
+      "concept": "leaf_region",
+      "concept_id": "LeafRegion",
+      "confidence": "asserted",
+      "dkb_reference": [],
+      "evidence": [],
+      "id": "vocab:region:midrib",
+      "language": "en",
+      "ontology_node": "region:midrib",
+      "part_of_speech": "noun",
+      "source": "appears_on",
+      "surface_form": "midrib"
+    },
+    {
+      "canonical_form": "tip",
+      "concept": "leaf_region",
+      "concept_id": "LeafRegion",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_cutting_weevil",
+        "mango_die_back",
+        "tomato_late_blight",
+        "tomato_spider_mites"
+      ],
+      "evidence": [],
+      "id": "vocab:region:tip",
+      "language": "en",
+      "ontology_node": "region:tip",
+      "part_of_speech": "noun",
+      "source": "appears_on",
+      "surface_form": "tip"
+    },
+    {
+      "canonical_form": "vein",
+      "concept": "leaf_region",
+      "concept_id": "LeafRegion",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_bacterial_canker",
+        "tomato_bacterial_spot",
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [],
+      "id": "vocab:region:vein",
+      "language": "en",
+      "ontology_node": "region:vein",
+      "part_of_speech": "noun",
+      "source": "appears_on",
+      "surface_form": "vein"
+    },
+    {
+      "canonical_form": "angular",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_bacterial_canker",
+        "tomato_bacterial_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:Constantin2016",
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:shape:angular",
+      "language": "en",
+      "ontology_node": "shape:angular",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "angular"
+    },
+    {
+      "canonical_form": "blotchy",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:blotchy",
+      "language": "en",
+      "ontology_node": "shape:blotchy",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "blotchy"
+    },
+    {
+      "canonical_form": "circular",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_gall_midge",
+        "tomato_bacterial_spot",
+        "tomato_early_blight",
+        "tomato_septoria_leaf_spot",
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:CABI",
+        "evidence:Constantin2016",
+        "evidence:PHA-GallMidge",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:shape:circular",
+      "language": "en",
+      "ontology_node": "shape:circular",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "circular"
+    },
+    {
+      "canonical_form": "clean-edged",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus"
+      ],
+      "id": "vocab:shape:clean_edged",
+      "language": "en",
+      "ontology_node": "shape:clean_edged",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "clean-edged"
+    },
+    {
+      "canonical_form": "coalescing",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_powdery_mildew"
+      ],
+      "evidence": [
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:CTAHR-PD46",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:shape:coalescing",
+      "language": "en",
+      "ontology_node": "shape:coalescing",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "coalescing"
+    },
+    {
+      "canonical_form": "concentric",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_early_blight",
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:shape:concentric",
+      "language": "en",
+      "ontology_node": "shape:concentric",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "concentric"
+    },
+    {
+      "canonical_form": "cupped",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:cupped",
+      "language": "en",
+      "ontology_node": "shape:cupped",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "cupped"
+    },
+    {
+      "canonical_form": "curled",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:curled",
+      "language": "en",
+      "ontology_node": "shape:curled",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "curled"
+    },
+    {
+      "canonical_form": "cut",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus"
+      ],
+      "id": "vocab:shape:cut",
+      "language": "en",
+      "ontology_node": "shape:cut",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "cut"
+    },
+    {
+      "canonical_form": "diffuse",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back",
+        "mango_powdery_mildew",
+        "mango_sooty_mould",
+        "tomato_late_blight",
+        "tomato_leaf_mold",
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:CABI",
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003",
+        "evidence:UCIPM-Mites",
+        "evidence:UCIPM-Tomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:shape:diffuse",
+      "language": "en",
+      "ontology_node": "shape:diffuse",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "diffuse"
+    },
+    {
+      "canonical_form": "distorted",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:distorted",
+      "language": "en",
+      "ontology_node": "shape:distorted",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "distorted"
+    },
+    {
+      "canonical_form": "entire-margined",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_healthy"
+      ],
+      "evidence": [
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:shape:entire_margined",
+      "language": "en",
+      "ontology_node": "shape:entire_margined",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "entire-margined"
+    },
+    {
+      "canonical_form": "ferny",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:ferny",
+      "language": "en",
+      "ontology_node": "shape:ferny",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "ferny"
+    },
+    {
+      "canonical_form": "filmy",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_sooty_mould"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:shape:filmy",
+      "language": "en",
+      "ontology_node": "shape:filmy",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "filmy"
+    },
+    {
+      "canonical_form": "fine",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:shape:fine",
+      "language": "en",
+      "ontology_node": "shape:fine",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "fine"
+    },
+    {
+      "canonical_form": "indistinct",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_leaf_mold"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:shape:indistinct",
+      "language": "en",
+      "ontology_node": "shape:indistinct",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "indistinct"
+    },
+    {
+      "canonical_form": "irregular",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "tomato_late_blight",
+        "tomato_leaf_mold",
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:Ploetz2003",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-PP351",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:shape:irregular",
+      "language": "en",
+      "ontology_node": "shape:irregular",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "irregular"
+    },
+    {
+      "canonical_form": "irregular (coalesced)",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_bacterial_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Constantin2016",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:irregular_coalesced",
+      "language": "en",
+      "ontology_node": "shape:irregular_coalesced",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "irregular (coalesced)"
+    },
+    {
+      "canonical_form": "lanceolate",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_healthy"
+      ],
+      "evidence": [
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:shape:lanceolate",
+      "language": "en",
+      "ontology_node": "shape:lanceolate",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "lanceolate"
+    },
+    {
+      "canonical_form": "lobed",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_healthy"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:lobed",
+      "language": "en",
+      "ontology_node": "shape:lobed",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "lobed"
+    },
+    {
+      "canonical_form": "marginal",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:shape:marginal",
+      "language": "en",
+      "ontology_node": "shape:marginal",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "marginal"
+    },
+    {
+      "canonical_form": "narrowed",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:narrowed",
+      "language": "en",
+      "ontology_node": "shape:narrowed",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "narrowed"
+    },
+    {
+      "canonical_form": "nodular",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_gall_midge"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:PHA-GallMidge"
+      ],
+      "id": "vocab:shape:nodular",
+      "language": "en",
+      "ontology_node": "shape:nodular",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "nodular"
+    },
+    {
+      "canonical_form": "notched",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus"
+      ],
+      "id": "vocab:shape:notched",
+      "language": "en",
+      "ontology_node": "shape:notched",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "notched"
+    },
+    {
+      "canonical_form": "oblong",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_healthy"
+      ],
+      "evidence": [
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:shape:oblong",
+      "language": "en",
+      "ontology_node": "shape:oblong",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "oblong"
+    },
+    {
+      "canonical_form": "patchy",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_powdery_mildew",
+        "mango_sooty_mould"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:shape:patchy",
+      "language": "en",
+      "ontology_node": "shape:patchy",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "patchy"
+    },
+    {
+      "canonical_form": "pimple-like",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_gall_midge"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:PHA-GallMidge"
+      ],
+      "id": "vocab:shape:pimple_like",
+      "language": "en",
+      "ontology_node": "shape:pimple_like",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "pimple-like"
+    },
+    {
+      "canonical_form": "pinnate",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_healthy"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:pinnate",
+      "language": "en",
+      "ontology_node": "shape:pinnate",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "pinnate"
+    },
+    {
+      "canonical_form": "puckered",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:puckered",
+      "language": "en",
+      "ontology_node": "shape:puckered",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "puckered"
+    },
+    {
+      "canonical_form": "ragged",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus"
+      ],
+      "id": "vocab:shape:ragged",
+      "language": "en",
+      "ontology_node": "shape:ragged",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "ragged"
+    },
+    {
+      "canonical_form": "raised",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker",
+        "mango_gall_midge"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:PHA-GallMidge",
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:shape:raised",
+      "language": "en",
+      "ontology_node": "shape:raised",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "raised"
+    },
+    {
+      "canonical_form": "ringed",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_early_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:ringed",
+      "language": "en",
+      "ontology_node": "shape:ringed",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "ringed"
+    },
+    {
+      "canonical_form": "serrated",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_healthy"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:serrated",
+      "language": "en",
+      "ontology_node": "shape:serrated",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "serrated"
+    },
+    {
+      "canonical_form": "small",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_septoria_leaf_spot",
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:small",
+      "language": "en",
+      "ontology_node": "shape:small",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "small"
+    },
+    {
+      "canonical_form": "speckled",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:shape:speckled",
+      "language": "en",
+      "ontology_node": "shape:speckled",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "speckled"
+    },
+    {
+      "canonical_form": "target-like",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_early_blight",
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:shape:target_like",
+      "language": "en",
+      "ontology_node": "shape:target_like",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "target-like"
+    },
+    {
+      "canonical_form": "tip-inward",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:shape:tip_inward",
+      "language": "en",
+      "ontology_node": "shape:tip_inward",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "tip-inward"
+    },
+    {
+      "canonical_form": "uniform",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_septoria_leaf_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:uniform",
+      "language": "en",
+      "ontology_node": "shape:uniform",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "uniform"
+    },
+    {
+      "canonical_form": "upward-rolled",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:shape:upward_rolled",
+      "language": "en",
+      "ontology_node": "shape:upward_rolled",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "upward-rolled"
+    },
+    {
+      "canonical_form": "vein-limited",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker"
+      ],
+      "evidence": [
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:shape:vein_limited",
+      "language": "en",
+      "ontology_node": "shape:vein_limited",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "vein-limited"
+    },
+    {
+      "canonical_form": "wart-like",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_gall_midge"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:PHA-GallMidge"
+      ],
+      "id": "vocab:shape:wart_like",
+      "language": "en",
+      "ontology_node": "shape:wart_like",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "wart-like"
+    },
+    {
+      "canonical_form": "wedge",
+      "concept": "shape",
+      "concept_id": "Shape",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:shape:wedge",
+      "language": "en",
+      "ontology_node": "shape:wedge",
+      "part_of_speech": "adjective",
+      "source": "has_shape",
+      "surface_form": "wedge"
+    },
+    {
+      "canonical_form": "coating",
+      "concept": "sign_type",
+      "concept_id": "SignType",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_bacterial_canker",
+        "mango_powdery_mildew",
+        "mango_sooty_mould",
+        "tomato_bacterial_spot",
+        "tomato_late_blight",
+        "tomato_leaf_mold",
+        "tomato_mosaic_virus",
+        "tomato_septoria_leaf_spot",
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [],
+      "id": "vocab:sign:coating",
+      "language": "en",
+      "ontology_node": "sign:coating",
+      "part_of_speech": "noun",
+      "source": "has_sign_type",
+      "surface_form": "coating"
+    },
+    {
+      "canonical_form": "cut",
+      "concept": "sign_type",
+      "concept_id": "SignType",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_cutting_weevil",
+        "mango_gall_midge"
+      ],
+      "evidence": [],
+      "id": "vocab:sign:cut",
+      "language": "en",
+      "ontology_node": "sign:cut",
+      "part_of_speech": "noun",
+      "source": "has_sign_type",
+      "surface_form": "cut"
+    },
+    {
+      "canonical_form": "deformation",
+      "concept": "sign_type",
+      "concept_id": "SignType",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_cutting_weevil",
+        "mango_die_back",
+        "mango_gall_midge",
+        "mango_powdery_mildew",
+        "tomato_bacterial_spot",
+        "tomato_leaf_mold",
+        "tomato_mosaic_virus",
+        "tomato_spider_mites",
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [],
+      "id": "vocab:sign:deformation",
+      "language": "en",
+      "ontology_node": "sign:deformation",
+      "part_of_speech": "noun",
+      "source": "has_sign_type",
+      "surface_form": "deformation"
+    },
+    {
+      "canonical_form": "gall",
+      "concept": "sign_type",
+      "concept_id": "SignType",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_cutting_weevil",
+        "mango_gall_midge"
+      ],
+      "evidence": [],
+      "id": "vocab:sign:gall",
+      "language": "en",
+      "ontology_node": "sign:gall",
+      "part_of_speech": "noun",
+      "source": "has_sign_type",
+      "surface_form": "gall"
+    },
+    {
+      "canonical_form": "healthy_surface",
+      "concept": "sign_type",
+      "concept_id": "SignType",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_healthy",
+        "tomato_healthy"
+      ],
+      "evidence": [],
+      "id": "vocab:sign:healthy_surface",
+      "language": "en",
+      "ontology_node": "sign:healthy_surface",
+      "part_of_speech": "noun",
+      "source": "has_sign_type",
+      "surface_form": "healthy_surface"
+    },
+    {
+      "canonical_form": "lesion",
+      "concept": "sign_type",
+      "concept_id": "SignType",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_bacterial_canker",
+        "mango_die_back",
+        "mango_powdery_mildew",
+        "tomato_bacterial_spot",
+        "tomato_early_blight",
+        "tomato_late_blight",
+        "tomato_leaf_mold",
+        "tomato_mosaic_virus",
+        "tomato_septoria_leaf_spot",
+        "tomato_target_spot",
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [],
+      "id": "vocab:sign:lesion",
+      "language": "en",
+      "ontology_node": "sign:lesion",
+      "part_of_speech": "noun",
+      "source": "has_sign_type",
+      "surface_form": "lesion"
+    },
+    {
+      "canonical_form": "mottle",
+      "concept": "sign_type",
+      "concept_id": "SignType",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "mango_bacterial_canker",
+        "tomato_bacterial_spot",
+        "tomato_early_blight",
+        "tomato_late_blight",
+        "tomato_leaf_mold",
+        "tomato_mosaic_virus",
+        "tomato_septoria_leaf_spot",
+        "tomato_target_spot",
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [],
+      "id": "vocab:sign:mottle",
+      "language": "en",
+      "ontology_node": "sign:mottle",
+      "part_of_speech": "noun",
+      "source": "has_sign_type",
+      "surface_form": "mottle"
+    },
+    {
+      "canonical_form": "stippling",
+      "concept": "sign_type",
+      "concept_id": "SignType",
+      "confidence": "asserted",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [],
+      "id": "vocab:sign:stippling",
+      "language": "en",
+      "ontology_node": "sign:stippling",
+      "part_of_speech": "noun",
+      "source": "has_sign_type",
+      "surface_form": "stippling"
+    },
+    {
+      "canonical_form": "blistered",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:blistered",
+      "language": "en",
+      "ontology_node": "texture:blistered",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "blistered"
+    },
+    {
+      "canonical_form": "brittle",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_die_back",
+        "tomato_spider_mites",
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003",
+        "evidence:UCIPM-Mites",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:brittle",
+      "language": "en",
+      "ontology_node": "texture:brittle",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "brittle"
+    },
+    {
+      "canonical_form": "bumpy",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_gall_midge"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:PHA-GallMidge"
+      ],
+      "id": "vocab:texture:bumpy",
+      "language": "en",
+      "ontology_node": "texture:bumpy",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "bumpy"
+    },
+    {
+      "canonical_form": "cracked",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_bacterial_canker"
+      ],
+      "evidence": [
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:texture:cracked",
+      "language": "en",
+      "ontology_node": "texture:cracked",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "cracked"
+    },
+    {
+      "canonical_form": "cracked-center",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:texture:cracked_center",
+      "language": "en",
+      "ontology_node": "texture:cracked_center",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "cracked-center"
+    },
+    {
+      "canonical_form": "crumpled",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:crumpled",
+      "language": "en",
+      "ontology_node": "texture:crumpled",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "crumpled"
+    },
+    {
+      "canonical_form": "crusty",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_sooty_mould"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:texture:crusty",
+      "language": "en",
+      "ontology_node": "texture:crusty",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "crusty"
+    },
+    {
+      "canonical_form": "curled",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:texture:curled",
+      "language": "en",
+      "ontology_node": "texture:curled",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "curled"
+    },
+    {
+      "canonical_form": "cut",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus"
+      ],
+      "id": "vocab:texture:cut",
+      "language": "en",
+      "ontology_node": "texture:cut",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "cut"
+    },
+    {
+      "canonical_form": "desiccated",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:texture:desiccated",
+      "language": "en",
+      "ontology_node": "texture:desiccated",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "desiccated"
+    },
+    {
+      "canonical_form": "downy",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:downy",
+      "language": "en",
+      "ontology_node": "texture:downy",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "downy"
+    },
+    {
+      "canonical_form": "dry",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_anthracnose",
+        "mango_die_back",
+        "tomato_early_blight",
+        "tomato_septoria_leaf_spot",
+        "tomato_target_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:Arauz2000",
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-PP351"
+      ],
+      "id": "vocab:texture:dry",
+      "language": "en",
+      "ontology_node": "texture:dry",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "dry"
+    },
+    {
+      "canonical_form": "dusty",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_powdery_mildew",
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:CTAHR-PD46",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:texture:dusty",
+      "language": "en",
+      "ontology_node": "texture:dusty",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "dusty"
+    },
+    {
+      "canonical_form": "felty",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_leaf_mold"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:texture:felty",
+      "language": "en",
+      "ontology_node": "texture:felty",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "felty"
+    },
+    {
+      "canonical_form": "fuzzy",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_leaf_mold"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:texture:fuzzy",
+      "language": "en",
+      "ontology_node": "texture:fuzzy",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "fuzzy"
+    },
+    {
+      "canonical_form": "glossy",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_healthy"
+      ],
+      "evidence": [
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:texture:glossy",
+      "language": "en",
+      "ontology_node": "texture:glossy",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "glossy"
+    },
+    {
+      "canonical_form": "greasy",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_bacterial_spot",
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:Constantin2016",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:greasy",
+      "language": "en",
+      "ontology_node": "texture:greasy",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "greasy"
+    },
+    {
+      "canonical_form": "gummy",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker"
+      ],
+      "evidence": [
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:texture:gummy",
+      "language": "en",
+      "ontology_node": "texture:gummy",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "gummy"
+    },
+    {
+      "canonical_form": "hard",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_gall_midge"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:PHA-GallMidge"
+      ],
+      "id": "vocab:texture:hard",
+      "language": "en",
+      "ontology_node": "texture:hard",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "hard"
+    },
+    {
+      "canonical_form": "leathery",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_healthy"
+      ],
+      "evidence": [
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:texture:leathery",
+      "language": "en",
+      "ontology_node": "texture:leathery",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "leathery"
+    },
+    {
+      "canonical_form": "mealy",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_powdery_mildew"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:texture:mealy",
+      "language": "en",
+      "ontology_node": "texture:mealy",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "mealy"
+    },
+    {
+      "canonical_form": "oily",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:oily",
+      "language": "en",
+      "ontology_node": "texture:oily",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "oily"
+    },
+    {
+      "canonical_form": "papery",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_early_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:papery",
+      "language": "en",
+      "ontology_node": "texture:papery",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "papery"
+    },
+    {
+      "canonical_form": "powdery",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_powdery_mildew"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:texture:powdery",
+      "language": "en",
+      "ontology_node": "texture:powdery",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "powdery"
+    },
+    {
+      "canonical_form": "pubescent",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_healthy"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:pubescent",
+      "language": "en",
+      "ontology_node": "texture:pubescent",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "pubescent"
+    },
+    {
+      "canonical_form": "puckered",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:puckered",
+      "language": "en",
+      "ontology_node": "texture:puckered",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "puckered"
+    },
+    {
+      "canonical_form": "raised",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker",
+        "mango_gall_midge"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:PHA-GallMidge",
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:texture:raised",
+      "language": "en",
+      "ontology_node": "texture:raised",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "raised"
+    },
+    {
+      "canonical_form": "rugose",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_mosaic_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:rugose",
+      "language": "en",
+      "ontology_node": "texture:rugose",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "rugose"
+    },
+    {
+      "canonical_form": "scorched",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_die_back"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:texture:scorched",
+      "language": "en",
+      "ontology_node": "texture:scorched",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "scorched"
+    },
+    {
+      "canonical_form": "smooth",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_healthy",
+        "tomato_healthy"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:smooth",
+      "language": "en",
+      "ontology_node": "texture:smooth",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "smooth"
+    },
+    {
+      "canonical_form": "sooty",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_sooty_mould"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:texture:sooty",
+      "language": "en",
+      "ontology_node": "texture:sooty",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "sooty"
+    },
+    {
+      "canonical_form": "speckled (pycnidia)",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_septoria_leaf_spot"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:speckled_pycnidia",
+      "language": "en",
+      "ontology_node": "texture:speckled_pycnidia",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "speckled (pycnidia)"
+    },
+    {
+      "canonical_form": "sunken",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_bacterial_spot"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Constantin2016",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:sunken",
+      "language": "en",
+      "ontology_node": "texture:sunken",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "sunken"
+    },
+    {
+      "canonical_form": "superficial",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_powdery_mildew"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:texture:superficial",
+      "language": "en",
+      "ontology_node": "texture:superficial",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "superficial"
+    },
+    {
+      "canonical_form": "thickened",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_yellow_leaf_curl_virus"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:thickened",
+      "language": "en",
+      "ontology_node": "texture:thickened",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "thickened"
+    },
+    {
+      "canonical_form": "translucent (windowpane)",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_cutting_weevil"
+      ],
+      "evidence": [
+        "evidence:CABI",
+        "evidence:CABI-Deporaus"
+      ],
+      "id": "vocab:texture:translucent_windowpane",
+      "language": "en",
+      "ontology_node": "texture:translucent_windowpane",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "translucent (windowpane)"
+    },
+    {
+      "canonical_form": "turgid",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_healthy"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:turgid",
+      "language": "en",
+      "ontology_node": "texture:turgid",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "turgid"
+    },
+    {
+      "canonical_form": "velvety",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_sooty_mould",
+        "tomato_leaf_mold"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003",
+        "evidence:UMN-LeafMold",
+        "evidence:Videira2017"
+      ],
+      "id": "vocab:texture:velvety",
+      "language": "en",
+      "ontology_node": "texture:velvety",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "velvety"
+    },
+    {
+      "canonical_form": "velvety-centered",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_early_blight"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:UCIPM-Tomato"
+      ],
+      "id": "vocab:texture:velvety_centered",
+      "language": "en",
+      "ontology_node": "texture:velvety_centered",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "velvety-centered"
+    },
+    {
+      "canonical_form": "water-soaked",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_bacterial_canker",
+        "tomato_bacterial_spot",
+        "tomato_late_blight"
+      ],
+      "evidence": [
+        "evidence:APS-BSGuide",
+        "evidence:APS-CompTomato",
+        "evidence:Agrios2005",
+        "evidence:Constantin2016",
+        "evidence:Ploetz2003",
+        "evidence:Sossah2024",
+        "evidence:Timilsina2019",
+        "evidence:UCIPM-Tomato",
+        "evidence:UFIFAS-HS1369"
+      ],
+      "id": "vocab:texture:water_soaked",
+      "language": "en",
+      "ontology_node": "texture:water_soaked",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "water-soaked"
+    },
+    {
+      "canonical_form": "webbed",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "tomato_spider_mites"
+      ],
+      "evidence": [
+        "evidence:APS-CompTomato",
+        "evidence:UCIPM-Mites"
+      ],
+      "id": "vocab:texture:webbed",
+      "language": "en",
+      "ontology_node": "texture:webbed",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "webbed"
+    },
+    {
+      "canonical_form": "wipeable",
+      "concept": "texture",
+      "concept_id": "Texture",
+      "confidence": "typical",
+      "dkb_reference": [
+        "mango_sooty_mould"
+      ],
+      "evidence": [
+        "evidence:CTAHR-PD46",
+        "evidence:Chomnunti2011",
+        "evidence:NHB-Mango",
+        "evidence:Ploetz2003"
+      ],
+      "id": "vocab:texture:wipeable",
+      "language": "en",
+      "ontology_node": "texture:wipeable",
+      "part_of_speech": "adjective",
+      "source": "has_texture",
+      "surface_form": "wipeable"
+    }
+  ],
+  "kind": "plantdx.vocabulary",
+  "provenance": {
+    "builder": "plantdx.vocabulary.domain",
+    "content_hash": "sha256:99d5833cf6405eea8edf01b227411c5db572393e6dfe27323ce6519b29249628",
+    "ontology_content_hash": "sha256:25ae0f6d9692a6d00a8968dc916a3665001bba29dd45616afe5e9b3c49bf2ca4",
+    "vocabulary_version": "V1"
+  },
+  "schema_version": "1.0.0",
+  "vocabulary_version": "V1"
+}

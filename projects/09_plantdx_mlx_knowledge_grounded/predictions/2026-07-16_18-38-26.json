@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-07-16T18:38:26.651800+00:00",
+  "timestamp_slug": "2026-07-16_18-38-26",
+  "crop": "tomato",
+  "original_name": "septoria.jpeg",
+  "image_path": "/Users/aakashjawle/Desktop/experiments/uploads/tomato/2026-07-16_18-38-18_35b59291_septoria.jpeg",
+  "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+  "adapter": "/Users/aakashjawle/Desktop/experiments/checkpoints/qwen25vl_tomato_qlora",
+  "instruction": "Describe the visible condition of this tomato leaf.",
+  "disease_id": "tomato_yellow_leaf_curl_virus",
+  "disease_name": "Tomato Yellow Leaf Curl Virus",
+  "common_name": "Tomato yellow leaf curl",
+  "confidence": null,
+  "raw_confidence": 1.0748834648968625e-09,
+  "caption": "This tomato yellow leaf curl virus interveinal and marginal chlorosis (yellowing).",
+  "diagnosis": "This tomato leaf is consistent with **Tomato Yellow Leaf Curl Virus** (Tomato yellow leaf curl).",
+  "symptoms": [
+    "small, upward-cupped, yellowing leaflets on new growth"
+  ],
+  "inference_seconds": 2.242346874991199,
+  "generation_tokens": 18,
+  "run_name": "qwen25vl_tomato_qlora",
+  "prediction_json": "/Users/aakashjawle/Desktop/experiments/predictions/2026-07-16_18-38-26.json"
+}

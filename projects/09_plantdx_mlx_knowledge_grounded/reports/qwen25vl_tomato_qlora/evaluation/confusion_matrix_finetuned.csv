@@ -1,0 +1,11 @@
+true\pred,tomato_bacterial_spot,tomato_early_blight,tomato_healthy,tomato_late_blight,tomato_leaf_mold,tomato_mosaic_virus,tomato_septoria_leaf_spot,tomato_spider_mites,tomato_target_spot,tomato_yellow_leaf_curl_virus
+tomato_bacterial_spot,104,0,0,1,0,0,1,0,1,0
+tomato_early_blight,6,33,0,8,0,0,1,0,2,0
+tomato_healthy,0,0,77,2,0,0,0,0,0,0
+tomato_late_blight,1,0,0,88,0,0,0,0,0,0
+tomato_leaf_mold,0,0,0,2,43,0,0,3,1,0
+tomato_mosaic_virus,0,0,0,0,0,19,0,1,0,0
+tomato_septoria_leaf_spot,1,1,0,0,0,0,85,0,3,0
+tomato_spider_mites,0,0,1,0,1,0,1,77,4,1
+tomato_target_spot,1,0,2,0,0,0,6,1,60,0
+tomato_yellow_leaf_curl_virus,0,0,0,1,0,0,0,1,0,267

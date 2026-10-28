@@ -1,0 +1,7 @@
+{
+  "corpus_content_hash": "sha256:1225eb8605edb71839f89618bfdcd4a1abba414869f64c1fdc5951ee865ba089",
+  "export_checksum": "sha256:7f7c78c875c996568f4a0799c170d66a45d4268640e6a54fb0eddac3de67fa2d",
+  "format": "messages",
+  "kind": "plantdx.exporters.manifest",
+  "record_count": 1966
+}

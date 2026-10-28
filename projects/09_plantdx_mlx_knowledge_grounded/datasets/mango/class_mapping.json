@@ -1,0 +1,16 @@
+{
+  "crop": "mango",
+  "dataset": "MangoLeafBD",
+  "mapping": {
+    "Anthracnose": "anthracnose",
+    "Bacterial Canker": "bacterial_canker",
+    "Cutting Weevil": "cutting_weevil",
+    "Die Back": "die_back",
+    "Gall Midge": "gall_midge",
+    "Healthy": "healthy",
+    "Powdery Mildew": "powdery_mildew",
+    "Sooty Mould": "sooty_mould"
+  },
+  "included_classes": [],
+  "ignored_folders": []
+}

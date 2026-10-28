@@ -1,0 +1,68 @@
+{
+  "balance": {
+    "imbalance_ratio": 9.47,
+    "max_per_disease": 142,
+    "min_per_disease": 15
+  },
+  "by_confidence": {
+    "asserted": 699,
+    "hedged": 132,
+    "typical": 1135
+  },
+  "by_disease": {
+    "mango_anthracnose": 142,
+    "mango_bacterial_canker": 126,
+    "mango_cutting_weevil": 85,
+    "mango_die_back": 119,
+    "mango_gall_midge": 131,
+    "mango_healthy": 17,
+    "mango_powdery_mildew": 124,
+    "mango_sooty_mould": 112,
+    "tomato_bacterial_spot": 131,
+    "tomato_early_blight": 125,
+    "tomato_healthy": 15,
+    "tomato_late_blight": 134,
+    "tomato_leaf_mold": 133,
+    "tomato_mosaic_virus": 76,
+    "tomato_septoria_leaf_spot": 131,
+    "tomato_spider_mites": 131,
+    "tomato_target_spot": 131,
+    "tomato_yellow_leaf_curl_virus": 103
+  },
+  "by_family": {
+    "clinical": 224,
+    "dense": 382,
+    "descriptive": 227,
+    "educational": 134,
+    "long": 249,
+    "short": 198,
+    "single_sentence": 269,
+    "two_sentence": 283
+  },
+  "by_register": {
+    "clinical": 462,
+    "descriptive": 1013,
+    "educational": 235,
+    "visual": 256
+  },
+  "caption_count": 1966,
+  "content_hash": "sha256:1225eb8605edb71839f89618bfdcd4a1abba414869f64c1fdc5951ee865ba089",
+  "disease_count": 18,
+  "diversity": {
+    "distinct_1": 0.0119,
+    "distinct_2": 0.0678,
+    "distinct_3": 0.1305,
+    "distinct_openers": 235,
+    "lexical_entropy_bits": 7.3066,
+    "mean_token_reuse": 84.01,
+    "opener_diversity": 0.1195,
+    "top_opener_share": 0.1287,
+    "unique_bigrams": 2624,
+    "unique_trigrams": 4792,
+    "unique_unigrams": 484
+  },
+  "hedged_count": 253,
+  "mean_tokens_per_caption": 20.68,
+  "total_tokens": 40661,
+  "validation_status": "valid"
+}

@@ -1,0 +1,6 @@
+2026-07-12 20:31:46 INFO    plantdx.audit: PlantDx dataset audit starting (2 dataset(s))
+2026-07-12 20:31:48 INFO    plantdx.audit: [tomato] inspecting 54305 images ...
+2026-07-12 20:31:53 INFO    plantdx.audit: [tomato] 54305 images · 38 classes · 0 corrupt · 21 exact-dup groups · checksum=7c644d5cef46
+2026-07-12 20:31:54 INFO    plantdx.audit: [mango] inspecting 4000 images ...
+2026-07-12 20:31:54 INFO    plantdx.audit: [mango] 4000 images · 8 classes · 0 corrupt · 21 exact-dup groups · checksum=9161ad1ef44c
+2026-07-12 20:31:54 INFO    plantdx.audit: Audit complete. Reports in reports (audit_checksum=969c6c8de823)

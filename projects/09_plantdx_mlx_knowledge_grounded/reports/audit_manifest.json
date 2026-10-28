@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-07-12T15:01:54+00:00",
+  "plantdx_version": "0.1.0",
+  "config_hash": "f17c99b6075e34d5",
+  "tool": "plantdx.audit",
+  "settings": {
+    "workers": 8,
+    "supported_extensions": [
+      ".jpg",
+      ".jpeg",
+      ".png",
+      ".bmp",
+      ".gif",
+      ".tif",
+      ".tiff",
+      ".webp"
+    ],
+    "near_duplicates": false,
+    "ahash_size": 8,
+    "imbalance_warn_ratio": 10.0
+  },
+  "datasets": {
+    "tomato": "7c644d5cef461efe3994a830c6deb9869bd7f8c9c841c769b832f3b702b0eff3",
+    "mango": "9161ad1ef44c2c450bf8657ba5aa72a30ffe7c0ea35da234bfac001bb0d4f94c"
+  },
+  "audit_checksum": "969c6c8de8238fbad9ff229a4f042064367beee70a99fa97521f0aead39f87c3",
+  "totals": {
+    "images": 58305,
+    "ok": 58305,
+    "corrupt": 0,
+    "unsupported": 0,
+    "classes": 46,
+    "exact_duplicate_groups": 42,
+    "near_duplicate_groups": 0
+  },
+  "splits": {
+    "status": "not_performed",
+    "note": "Dataset splitting is a later milestone; the audit only inventories images."
+  }
+}

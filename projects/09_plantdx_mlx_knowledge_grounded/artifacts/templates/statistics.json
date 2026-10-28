@@ -1,0 +1,24 @@
+{
+  "by_family": {
+    "clinical": 3,
+    "dense": 2,
+    "descriptive": 5,
+    "educational": 3,
+    "long": 3,
+    "short": 6,
+    "single_sentence": 7,
+    "two_sentence": 4
+  },
+  "by_register": {
+    "clinical": 5,
+    "descriptive": 17,
+    "educational": 4,
+    "visual": 7
+  },
+  "content_hash": "sha256:bf14f270e9d3679234eb1505476c3ac818ea350b2f5be4ea8c5473868daa02b5",
+  "family_count": 8,
+  "hedged_count": 3,
+  "template_count": 33,
+  "template_set_version": "T1",
+  "validation_status": "valid"
+}

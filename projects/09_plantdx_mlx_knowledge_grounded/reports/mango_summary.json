@@ -1,0 +1,42 @@
+{
+  "key": "mango",
+  "name": "MangoLeafBD",
+  "root": "/Users/aakashjawle/Desktop/experiments/mango/raw/MangoLeafBD",
+  "exists": true,
+  "num_images": 4000,
+  "num_ok": 4000,
+  "num_corrupt": 0,
+  "num_unsupported": 0,
+  "num_classes": 8,
+  "configured_classes": 8,
+  "class_counts": {
+    "Anthracnose": 500,
+    "Bacterial Canker": 500,
+    "Cutting Weevil": 500,
+    "Die Back": 500,
+    "Gall Midge": 500,
+    "Healthy": 500,
+    "Powdery Mildew": 500,
+    "Sooty Mould": 500
+  },
+  "width": {
+    "min": 187,
+    "max": 320,
+    "mean": 274.9235
+  },
+  "height": {
+    "min": 70,
+    "max": 320,
+    "mean": 260.2715
+  },
+  "aspect_ratio": {
+    "min": 0.5844,
+    "max": 4.5714,
+    "mean": 1.0856
+  },
+  "imbalance_ratio": 1.0,
+  "num_exact_duplicate_groups": 21,
+  "num_near_duplicate_groups": 0,
+  "dataset_checksum": "9161ad1ef44c2c450bf8657ba5aa72a30ffe7c0ea35da234bfac001bb0d4f94c",
+  "issues": []
+}

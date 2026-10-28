@@ -1,0 +1,48 @@
+# =============================================================================
+# PlantDx — dataset normalization configuration (Milestone 2.1)
+# =============================================================================
+# The normalization engine copies the tomato and mango classes from the raw
+# datasets into one canonical structure under `paths.processed_dir`. The raw
+# datasets are never modified.
+#
+# `class_map` maps each raw folder name to a canonical class name. Folders NOT
+# listed here (e.g. non-tomato PlantVillage crops) are ignored, not copied.
+# Raw folder locations come from paths.datasets.<crop>.root (no duplication).
+# =============================================================================
+
+normalization:
+  mode: copy                       # copy | link (symlink)
+  disambiguate_on_collision: true  # on a real filename collision, prefix with the split
+
+  sources:
+    tomato:
+      dataset: PlantVillage
+      license: "PlantVillage dataset — rights retained by original authors"
+      citation: "Hughes, D.P. & Salathe, M. (2015). An open access repository of images on plant health to enable the development of mobile disease diagnostics. arXiv:1511.08060"
+      url: "https://github.com/spMohanty/PlantVillage-Dataset"
+      class_map:
+        "Tomato___healthy": healthy
+        "Tomato___Bacterial_spot": bacterial_spot
+        "Tomato___Early_blight": early_blight
+        "Tomato___Late_blight": late_blight
+        "Tomato___Leaf_Mold": leaf_mold
+        "Tomato___Septoria_leaf_spot": septoria_leaf_spot
+        "Tomato___Spider_mites Two-spotted_spider_mite": spider_mites
+        "Tomato___Target_Spot": target_spot
+        "Tomato___Tomato_mosaic_virus": mosaic_virus
+        "Tomato___Tomato_Yellow_Leaf_Curl_Virus": yellow_leaf_curl_virus
+
+    mango:
+      dataset: MangoLeafBD
+      license: "CC BY 4.0 (MangoLeafBD)"
+      citation: "Ahmed, S.I. et al. (2023). MangoLeafBD: A comprehensive image dataset to classify diseased and healthy mango leaves. Data in Brief 47:108941"
+      url: "https://data.mendeley.com/datasets/hxsnvwty3r/1"
+      class_map:
+        "Anthracnose": anthracnose
+        "Bacterial Canker": bacterial_canker
+        "Cutting Weevil": cutting_weevil
+        "Die Back": die_back
+        "Gall Midge": gall_midge
+        "Healthy": healthy
+        "Powdery Mildew": powdery_mildew
+        "Sooty Mould": sooty_mould

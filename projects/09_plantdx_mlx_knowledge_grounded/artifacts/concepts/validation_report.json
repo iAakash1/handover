@@ -1,0 +1,7 @@
+{
+  "checks_run": 11,
+  "disease_count": 18,
+  "kind": "plantdx.concepts.validation_report",
+  "status": "valid",
+  "violation_count": 0
+}

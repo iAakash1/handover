@@ -1,0 +1,29 @@
+{
+  "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+  "adapter_path": "checkpoints/qwen25vl_mango_qlora",
+  "adapter_checksum": "sha256:c944488f80d67c5a52a6a44d4a25def4c34def9d2f75606013264601a73dfd2d",
+  "dataset_dir": "artifacts/training/qwen25vl_mango_qlora/dataset",
+  "split": "test",
+  "corpus_checksum": "sha256:1225eb8605edb71839f89618bfdcd4a1abba414869f64c1fdc5951ee865ba089",
+  "ontology_checksum": "sha256:25ae0f6d9692a6d00a8968dc916a3665001bba29dd45616afe5e9b3c49bf2ca4",
+  "vocabulary_checksum": "sha256:99d5833cf6405eea8edf01b227411c5db572393e6dfe27323ce6519b29249628",
+  "seed": 20260711,
+  "system_info": {
+    "python_version": "3.12.13",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "arm",
+    "macos_version": "26.5.2",
+    "cpu_count": 12,
+    "memory_gb": 24.0,
+    "git_commit": "380b18e7e2937a3316e57078f7056558e5be7b77",
+    "package_versions": {
+      "mlx": "0.31.2",
+      "mlx-vlm": "0.6.4",
+      "mlx-lm": "0.31.3",
+      "torch": "2.13.0",
+      "transformers": "5.12.1",
+      "plantdx": "0.1.0"
+    }
+  }
+}

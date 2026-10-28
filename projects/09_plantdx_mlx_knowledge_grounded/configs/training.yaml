@@ -1,0 +1,61 @@
+# =============================================================================
+# PlantDx — QLoRA fine-tuning configuration (MLX / mlx-vlm)
+# =============================================================================
+# Target hardware: Apple M4 Pro, 24 GB unified memory.
+# Implemented in Milestone 5 (training/). Values here are the starting points;
+# all four models train on the IDENTICAL canonical caption library and splits.
+# NOTE: mlx-vlm dataset schema varies by release — the converter/runner pin the
+# installed version (see caption_framework/04_dataset_schema_spec.md §6.4).
+# =============================================================================
+
+training:
+  backend: mlx_vlm                 # mlx-vlm LoRA on Apple Silicon
+  precision: qlora                 # 4-bit quantized base + LoRA adapters
+
+  # Shared QLoRA defaults; per-model overrides below may tighten for 24 GB.
+  defaults:
+    lora_rank: 16
+    lora_alpha: 32
+    lora_dropout: 0.05
+    lora_targets: ["q_proj", "k_proj", "v_proj", "o_proj"]
+    learning_rate: 1.0e-4
+    lr_schedule: cosine
+    warmup_ratio: 0.03
+    batch_size: 1
+    grad_accum_steps: 8
+    max_seq_len: 2048
+    epochs: 3
+    quantization_bits: 4
+    seed: 20260711
+    save_every_steps: 200
+    eval_every_steps: 200
+
+  # Per-model settings. `converter` refers to dataset/converters/<name>.py and
+  # the datasets/<name>/ output directory.
+  models:
+    qwen3_vl:
+      hf_id: "Qwen/Qwen3-VL-8B-Instruct"
+      converter: qwen3_vl
+      max_seq_len: 2048
+    qwen2_5_vl:
+      hf_id: "Qwen/Qwen2.5-VL-7B-Instruct"
+      converter: qwen2_5_vl
+      max_seq_len: 2048
+    internvl3:
+      hf_id: "OpenGVLab/InternVL3-8B"
+      converter: internvl3
+      max_seq_len: 2048
+    gemma3:
+      hf_id: "google/gemma-3-12b-it"
+      converter: gemma3
+      max_seq_len: 2048
+      grad_accum_steps: 16          # larger model; compensate on 24 GB
+
+# Evaluation (Milestone 6): zero-shot vs fine-tuned on test + diagnostic splits.
+evaluation:
+  splits: [test, diagnostic]
+  compare_zero_shot: true
+  metrics:
+    classification: [accuracy, macro_f1, confusion_matrix]
+    caption: [grounding_precision, forbidden_term_rate, concept_recall]
+  report_dir: artifacts/metadata/eval

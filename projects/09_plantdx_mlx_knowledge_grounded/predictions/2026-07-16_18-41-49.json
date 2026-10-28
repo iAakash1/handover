@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-07-16T18:41:49.111837+00:00",
+  "timestamp_slug": "2026-07-16_18-41-49",
+  "crop": "tomato",
+  "original_name": "sept3.jpeg",
+  "image_path": "/Users/aakashjawle/Desktop/experiments/uploads/tomato/2026-07-16_18-41-41_17eb51ef_sept3.jpeg",
+  "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+  "adapter": "/Users/aakashjawle/Desktop/experiments/checkpoints/qwen25vl_tomato_qlora",
+  "instruction": "Describe the visible condition of this tomato leaf.",
+  "disease_id": "unclassified",
+  "disease_name": "Unclassified",
+  "common_name": null,
+  "confidence": null,
+  "raw_confidence": 5.713287504485296e-08,
+  "caption": "This tomato leaf.",
+  "diagnosis": "The model's description of this tomato leaf did not match any condition in the knowledge base with confidence. Review the caption and symptoms below, or try a clearer image.",
+  "symptoms": [],
+  "inference_seconds": 1.654158291989006,
+  "generation_tokens": 5,
+  "run_name": "qwen25vl_tomato_qlora",
+  "prediction_json": "/Users/aakashjawle/Desktop/experiments/predictions/2026-07-16_18-41-49.json"
+}

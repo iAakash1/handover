@@ -1,0 +1,35 @@
+{
+  "build_checksum": "sha256:99d5833cf6405eea8edf01b227411c5db572393e6dfe27323ce6519b29249628",
+  "lexicon_base_realizations": 259,
+  "lexicon_by_confidence": {
+    "asserted": 105,
+    "hedged": 154,
+    "typical": 724
+  },
+  "lexicon_item_count": 983,
+  "lexicon_modifier_realizations": 724,
+  "total_item_count": 1251,
+  "unique_diseases_referenced": 18,
+  "unique_ontology_nodes_covered": 265,
+  "validation_status": "valid",
+  "vocabulary_by_concept": {
+    "agent_name": 16,
+    "color": 32,
+    "confidence_modifier": 3,
+    "disease_name": 18,
+    "environment": 60,
+    "extent": 37,
+    "leaf_region": 8,
+    "observability_modifier": 2,
+    "shape": 42,
+    "sign_type": 8,
+    "texture": 42
+  },
+  "vocabulary_by_confidence": {
+    "asserted": 53,
+    "hedged": 1,
+    "typical": 214
+  },
+  "vocabulary_item_count": 268,
+  "vocabulary_version": "V1"
+}

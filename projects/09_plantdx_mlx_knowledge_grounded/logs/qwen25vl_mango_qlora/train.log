@@ -1,0 +1,403 @@
+INFO:__main__:[95mLoading model from mlx-community/Qwen2.5-VL-7B-Instruct-4bit[0m
+
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]
+Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 5560.28it/s]
+INFO:__main__:[95mLoading dataset from artifacts/training/qwen25vl_mango_qlora/dataset[0m
+
+Generating train split: 0 examples [00:00, ? examples/s]
+Generating train split: 3600 examples [00:00, 672882.99 examples/s]
+
+Generating validation split: 0 examples [00:00, ? examples/s]
+Generating validation split: 200 examples [00:00, 177311.52 examples/s]
+
+Generating test split: 0 examples [00:00, ? examples/s]
+Generating test split: 200 examples [00:00, 255050.41 examples/s]
+
+Map:   0%|          | 0/3600 [00:00<?, ? examples/s]
+Map: 100%|██████████| 3600/3600 [00:00<00:00, 62774.89 examples/s]
+INFO:__main__:[4mSetting up LoRA[0m
+INFO:__main__:[95mSetting up optimizer[0m
+INFO:__main__:[95mTraining model (sft)[0m
+#trainable params: 40.370176 M || all params: 8292.037632 M || trainable%: 0.487%
+[95mStarting training..., iterations: 3600[0m
+[94mNo validation dataset provided — training will run without validation.[0m
+Iter 10: Train loss [92m3.61140327[0m, Learning Rate 1.000e-04, It/sec 0.629, Tokens/sec 100.772, Trained Tokens 1603, Peak mem 7.129 GB
+Iter 20: Train loss [92m2.84630737[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 96.520, Trained Tokens 3172, Peak mem 7.273 GB
+Iter 30: Train loss [92m2.50974751[0m, Learning Rate 1.000e-04, It/sec 0.629, Tokens/sec 98.054, Trained Tokens 4730, Peak mem 7.273 GB
+Iter 40: Train loss [92m2.00508194[0m, Learning Rate 1.000e-04, It/sec 0.585, Tokens/sec 96.350, Trained Tokens 6377, Peak mem 7.273 GB
+Iter 50: Train loss [92m1.95225983[0m, Learning Rate 1.000e-04, It/sec 0.612, Tokens/sec 97.806, Trained Tokens 7976, Peak mem 7.273 GB
+Iter 60: Train loss [92m1.35216513[0m, Learning Rate 1.000e-04, It/sec 0.603, Tokens/sec 96.670, Trained Tokens 9579, Peak mem 7.273 GB
+Iter 70: Train loss [92m2.01112251[0m, Learning Rate 1.000e-04, It/sec 0.647, Tokens/sec 97.975, Trained Tokens 11094, Peak mem 7.273 GB
+Iter 80: Train loss [92m1.63461380[0m, Learning Rate 1.000e-04, It/sec 0.601, Tokens/sec 98.585, Trained Tokens 12733, Peak mem 7.273 GB
+Iter 90: Train loss [92m1.56262226[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 99.877, Trained Tokens 14306, Peak mem 7.273 GB
+Iter 100: Train loss [92m1.17753162[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 96.064, Trained Tokens 15871, Peak mem 7.273 GB
+Iter 110: Train loss [92m1.35647802[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 95.956, Trained Tokens 17431, Peak mem 7.273 GB
+Iter 120: Train loss [92m1.25220318[0m, Learning Rate 1.000e-04, It/sec 0.648, Tokens/sec 99.328, Trained Tokens 18964, Peak mem 7.358 GB
+Iter 130: Train loss [92m1.20207472[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 95.709, Trained Tokens 20521, Peak mem 7.358 GB
+Iter 140: Train loss [92m1.00212564[0m, Learning Rate 1.000e-04, It/sec 0.634, Tokens/sec 98.589, Trained Tokens 22077, Peak mem 7.358 GB
+Iter 150: Train loss [92m1.02443638[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 99.214, Trained Tokens 23690, Peak mem 7.358 GB
+Iter 160: Train loss [92m1.06599846[0m, Learning Rate 1.000e-04, It/sec 0.647, Tokens/sec 99.289, Trained Tokens 25224, Peak mem 7.358 GB
+Iter 170: Train loss [92m0.87798872[0m, Learning Rate 1.000e-04, It/sec 0.638, Tokens/sec 97.836, Trained Tokens 26757, Peak mem 7.358 GB
+Iter 180: Train loss [92m1.19318066[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 96.870, Trained Tokens 28306, Peak mem 7.358 GB
+Iter 190: Train loss [92m1.07972975[0m, Learning Rate 1.000e-04, It/sec 0.647, Tokens/sec 99.054, Trained Tokens 29838, Peak mem 7.358 GB
+Iter 200: Train loss [92m0.89092560[0m, Learning Rate 1.000e-04, It/sec 0.626, Tokens/sec 98.031, Trained Tokens 31405, Peak mem 7.358 GB
+[94mIter 200: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0000200_adapters.safetensors.[0m
+Iter 210: Train loss [92m0.68557205[0m, Learning Rate 1.000e-04, It/sec 0.647, Tokens/sec 99.873, Trained Tokens 32949, Peak mem 7.358 GB
+Iter 220: Train loss [92m0.84343729[0m, Learning Rate 1.000e-04, It/sec 0.636, Tokens/sec 99.260, Trained Tokens 34510, Peak mem 7.358 GB
+Iter 230: Train loss [92m0.62697158[0m, Learning Rate 1.000e-04, It/sec 0.602, Tokens/sec 97.411, Trained Tokens 36127, Peak mem 7.358 GB
+Iter 240: Train loss [92m0.66681094[0m, Learning Rate 1.000e-04, It/sec 0.645, Tokens/sec 100.423, Trained Tokens 37685, Peak mem 7.358 GB
+Iter 250: Train loss [92m0.66086125[0m, Learning Rate 1.000e-04, It/sec 0.660, Tokens/sec 101.855, Trained Tokens 39229, Peak mem 7.358 GB
+Iter 260: Train loss [92m0.71506677[0m, Learning Rate 1.000e-04, It/sec 0.657, Tokens/sec 100.810, Trained Tokens 40764, Peak mem 7.358 GB
+Iter 270: Train loss [92m0.57103305[0m, Learning Rate 1.000e-04, It/sec 0.645, Tokens/sec 97.967, Trained Tokens 42284, Peak mem 7.358 GB
+Iter 280: Train loss [92m0.62273211[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 96.526, Trained Tokens 43829, Peak mem 7.358 GB
+Iter 290: Train loss [92m0.72685089[0m, Learning Rate 1.000e-04, It/sec 0.634, Tokens/sec 99.773, Trained Tokens 45402, Peak mem 7.358 GB
+Iter 300: Train loss [92m0.75804358[0m, Learning Rate 1.000e-04, It/sec 0.660, Tokens/sec 99.805, Trained Tokens 46914, Peak mem 7.358 GB
+Iter 310: Train loss [92m0.69036269[0m, Learning Rate 1.000e-04, It/sec 0.659, Tokens/sec 99.590, Trained Tokens 48425, Peak mem 7.358 GB
+Iter 320: Train loss [92m0.49163780[0m, Learning Rate 1.000e-04, It/sec 0.601, Tokens/sec 96.469, Trained Tokens 50031, Peak mem 7.358 GB
+Iter 330: Train loss [92m0.64274235[0m, Learning Rate 1.000e-04, It/sec 0.636, Tokens/sec 98.239, Trained Tokens 51575, Peak mem 7.358 GB
+Iter 340: Train loss [92m0.51282883[0m, Learning Rate 1.000e-04, It/sec 0.624, Tokens/sec 97.659, Trained Tokens 53139, Peak mem 7.358 GB
+Iter 350: Train loss [92m0.42893667[0m, Learning Rate 1.000e-04, It/sec 0.637, Tokens/sec 99.347, Trained Tokens 54699, Peak mem 7.358 GB
+Iter 360: Train loss [92m0.42917790[0m, Learning Rate 1.000e-04, It/sec 0.656, Tokens/sec 96.984, Trained Tokens 56178, Peak mem 7.358 GB
+Iter 370: Train loss [92m0.35256650[0m, Learning Rate 1.000e-04, It/sec 0.637, Tokens/sec 97.690, Trained Tokens 57712, Peak mem 7.358 GB
+Iter 380: Train loss [92m0.75421715[0m, Learning Rate 1.000e-04, It/sec 0.636, Tokens/sec 100.740, Trained Tokens 59295, Peak mem 7.358 GB
+Iter 390: Train loss [92m0.70601654[0m, Learning Rate 1.000e-04, It/sec 0.647, Tokens/sec 98.142, Trained Tokens 60811, Peak mem 7.358 GB
+Iter 400: Train loss [92m0.60478806[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 97.606, Trained Tokens 62397, Peak mem 7.358 GB
+[94mIter 400: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0000400_adapters.safetensors.[0m
+Iter 410: Train loss [92m0.45840950[0m, Learning Rate 1.000e-04, It/sec 0.612, Tokens/sec 98.026, Trained Tokens 63998, Peak mem 7.358 GB
+Iter 420: Train loss [92m0.74550376[0m, Learning Rate 1.000e-04, It/sec 0.596, Tokens/sec 95.433, Trained Tokens 65600, Peak mem 7.358 GB
+Iter 430: Train loss [92m0.56876917[0m, Learning Rate 1.000e-04, It/sec 0.646, Tokens/sec 98.532, Trained Tokens 67125, Peak mem 7.358 GB
+Iter 440: Train loss [92m0.42918348[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 98.743, Trained Tokens 68680, Peak mem 7.358 GB
+Iter 450: Train loss [92m0.46016412[0m, Learning Rate 1.000e-04, It/sec 0.644, Tokens/sec 99.506, Trained Tokens 70226, Peak mem 7.358 GB
+Iter 460: Train loss [92m0.37069941[0m, Learning Rate 1.000e-04, It/sec 0.617, Tokens/sec 95.510, Trained Tokens 71775, Peak mem 7.358 GB
+Iter 470: Train loss [92m0.47099257[0m, Learning Rate 1.000e-04, It/sec 0.636, Tokens/sec 99.419, Trained Tokens 73339, Peak mem 7.358 GB
+Iter 480: Train loss [92m0.32934630[0m, Learning Rate 1.000e-04, It/sec 0.659, Tokens/sec 99.181, Trained Tokens 74845, Peak mem 7.358 GB
+Iter 490: Train loss [92m0.37081828[0m, Learning Rate 1.000e-04, It/sec 0.645, Tokens/sec 99.953, Trained Tokens 76395, Peak mem 7.358 GB
+Iter 500: Train loss [92m0.37983160[0m, Learning Rate 1.000e-04, It/sec 0.606, Tokens/sec 100.010, Trained Tokens 78046, Peak mem 7.359 GB
+Iter 510: Train loss [92m0.35871408[0m, Learning Rate 1.000e-04, It/sec 0.638, Tokens/sec 98.640, Trained Tokens 79592, Peak mem 7.359 GB
+Iter 520: Train loss [92m0.36606822[0m, Learning Rate 1.000e-04, It/sec 0.605, Tokens/sec 98.554, Trained Tokens 81221, Peak mem 7.359 GB
+Iter 530: Train loss [92m0.37598560[0m, Learning Rate 1.000e-04, It/sec 0.639, Tokens/sec 97.836, Trained Tokens 82751, Peak mem 7.359 GB
+Iter 540: Train loss [92m0.34838414[0m, Learning Rate 1.000e-04, It/sec 0.634, Tokens/sec 97.293, Trained Tokens 84286, Peak mem 7.359 GB
+Iter 550: Train loss [92m0.39497433[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 96.142, Trained Tokens 85824, Peak mem 7.359 GB
+Iter 560: Train loss [92m0.47315841[0m, Learning Rate 1.000e-04, It/sec 0.633, Tokens/sec 98.831, Trained Tokens 87385, Peak mem 7.359 GB
+Iter 570: Train loss [92m0.28906844[0m, Learning Rate 1.000e-04, It/sec 0.627, Tokens/sec 96.352, Trained Tokens 88922, Peak mem 7.359 GB
+Iter 580: Train loss [92m0.31129658[0m, Learning Rate 1.000e-04, It/sec 0.634, Tokens/sec 99.736, Trained Tokens 90496, Peak mem 7.359 GB
+Iter 590: Train loss [92m0.33289261[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 98.319, Trained Tokens 92094, Peak mem 7.359 GB
+Iter 600: Train loss [92m0.37401617[0m, Learning Rate 1.000e-04, It/sec 0.613, Tokens/sec 96.234, Trained Tokens 93664, Peak mem 7.359 GB
+[94mIter 600: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0000600_adapters.safetensors.[0m
+Iter 610: Train loss [92m0.29646463[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 96.769, Trained Tokens 95238, Peak mem 7.359 GB
+Iter 620: Train loss [92m0.38683798[0m, Learning Rate 1.000e-04, It/sec 0.644, Tokens/sec 100.095, Trained Tokens 96792, Peak mem 7.359 GB
+Iter 630: Train loss [92m0.43583879[0m, Learning Rate 1.000e-04, It/sec 0.585, Tokens/sec 96.790, Trained Tokens 98447, Peak mem 7.359 GB
+Iter 640: Train loss [92m0.54428577[0m, Learning Rate 1.000e-04, It/sec 0.659, Tokens/sec 97.823, Trained Tokens 99931, Peak mem 7.359 GB
+Iter 650: Train loss [92m0.39630351[0m, Learning Rate 1.000e-04, It/sec 0.616, Tokens/sec 94.908, Trained Tokens 101471, Peak mem 7.359 GB
+Iter 660: Train loss [92m0.28734221[0m, Learning Rate 1.000e-04, It/sec 0.626, Tokens/sec 99.628, Trained Tokens 103063, Peak mem 7.359 GB
+Iter 670: Train loss [92m0.37989094[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 99.193, Trained Tokens 104678, Peak mem 7.359 GB
+Iter 680: Train loss [92m0.40284019[0m, Learning Rate 1.000e-04, It/sec 0.624, Tokens/sec 95.102, Trained Tokens 106202, Peak mem 7.359 GB
+Iter 690: Train loss [92m0.35710468[0m, Learning Rate 1.000e-04, It/sec 0.594, Tokens/sec 95.928, Trained Tokens 107816, Peak mem 7.359 GB
+Iter 700: Train loss [92m0.38079655[0m, Learning Rate 1.000e-04, It/sec 0.626, Tokens/sec 97.770, Trained Tokens 109377, Peak mem 7.359 GB
+Iter 710: Train loss [92m0.31141214[0m, Learning Rate 1.000e-04, It/sec 0.654, Tokens/sec 99.001, Trained Tokens 110890, Peak mem 7.359 GB
+Iter 720: Train loss [92m0.39797382[0m, Learning Rate 1.000e-04, It/sec 0.656, Tokens/sec 99.451, Trained Tokens 112405, Peak mem 7.359 GB
+Iter 730: Train loss [92m0.41159863[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 99.714, Trained Tokens 114028, Peak mem 7.359 GB
+Iter 740: Train loss [92m0.32924581[0m, Learning Rate 1.000e-04, It/sec 0.647, Tokens/sec 101.696, Trained Tokens 115601, Peak mem 7.359 GB
+Iter 750: Train loss [92m0.36060195[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 97.066, Trained Tokens 117183, Peak mem 7.359 GB
+Iter 760: Train loss [92m0.27458303[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 96.545, Trained Tokens 118733, Peak mem 7.359 GB
+Iter 770: Train loss [92m0.37579882[0m, Learning Rate 1.000e-04, It/sec 0.585, Tokens/sec 100.363, Trained Tokens 120448, Peak mem 7.359 GB
+Iter 780: Train loss [92m0.27385159[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 99.161, Trained Tokens 122034, Peak mem 7.359 GB
+Iter 790: Train loss [92m0.37957611[0m, Learning Rate 1.000e-04, It/sec 0.618, Tokens/sec 96.463, Trained Tokens 123594, Peak mem 7.359 GB
+Iter 800: Train loss [92m0.37899590[0m, Learning Rate 1.000e-04, It/sec 0.592, Tokens/sec 96.266, Trained Tokens 125219, Peak mem 7.359 GB
+[94mIter 800: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0000800_adapters.safetensors.[0m
+Iter 810: Train loss [92m0.41174388[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 97.933, Trained Tokens 126790, Peak mem 7.359 GB
+Iter 820: Train loss [92m0.26840522[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 99.692, Trained Tokens 128385, Peak mem 7.359 GB
+Iter 830: Train loss [92m0.38755207[0m, Learning Rate 1.000e-04, It/sec 0.647, Tokens/sec 99.312, Trained Tokens 129921, Peak mem 7.359 GB
+Iter 840: Train loss [92m0.51435833[0m, Learning Rate 1.000e-04, It/sec 0.634, Tokens/sec 96.296, Trained Tokens 131439, Peak mem 7.359 GB
+Iter 850: Train loss [92m0.32439885[0m, Learning Rate 1.000e-04, It/sec 0.647, Tokens/sec 96.816, Trained Tokens 132935, Peak mem 7.359 GB
+Iter 860: Train loss [92m0.25324838[0m, Learning Rate 1.000e-04, It/sec 0.616, Tokens/sec 98.175, Trained Tokens 134528, Peak mem 7.359 GB
+Iter 870: Train loss [92m0.30445104[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 100.907, Trained Tokens 136117, Peak mem 7.359 GB
+Iter 880: Train loss [92m0.36611543[0m, Learning Rate 1.000e-04, It/sec 0.583, Tokens/sec 96.665, Trained Tokens 137774, Peak mem 7.359 GB
+Iter 890: Train loss [92m0.33805480[0m, Learning Rate 1.000e-04, It/sec 0.627, Tokens/sec 99.235, Trained Tokens 139356, Peak mem 7.359 GB
+Iter 900: Train loss [92m0.41203389[0m, Learning Rate 1.000e-04, It/sec 0.637, Tokens/sec 96.230, Trained Tokens 140867, Peak mem 7.359 GB
+Iter 910: Train loss [92m0.38414536[0m, Learning Rate 1.000e-04, It/sec 0.660, Tokens/sec 99.979, Trained Tokens 142381, Peak mem 7.359 GB
+Iter 920: Train loss [92m0.48366275[0m, Learning Rate 1.000e-04, It/sec 0.633, Tokens/sec 99.696, Trained Tokens 143955, Peak mem 7.359 GB
+Iter 930: Train loss [92m0.38465865[0m, Learning Rate 1.000e-04, It/sec 0.634, Tokens/sec 98.834, Trained Tokens 145513, Peak mem 7.359 GB
+Iter 940: Train loss [92m0.34547694[0m, Learning Rate 1.000e-04, It/sec 0.605, Tokens/sec 98.477, Trained Tokens 147142, Peak mem 7.359 GB
+Iter 950: Train loss [92m0.29478171[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 99.863, Trained Tokens 148739, Peak mem 7.359 GB
+Iter 960: Train loss [92m0.26211610[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 98.537, Trained Tokens 150290, Peak mem 7.359 GB
+Iter 970: Train loss [92m0.28678591[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 95.973, Trained Tokens 151830, Peak mem 7.359 GB
+Iter 980: Train loss [92m0.30523670[0m, Learning Rate 1.000e-04, It/sec 0.645, Tokens/sec 100.903, Trained Tokens 153394, Peak mem 7.359 GB
+Iter 990: Train loss [92m0.32417836[0m, Learning Rate 1.000e-04, It/sec 0.627, Tokens/sec 98.452, Trained Tokens 154965, Peak mem 7.359 GB
+Iter 1000: Train loss [92m0.27263119[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 98.875, Trained Tokens 156552, Peak mem 7.359 GB
+[94mIter 1000: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0001000_adapters.safetensors.[0m
+Iter 1010: Train loss [92m0.36121371[0m, Learning Rate 1.000e-04, It/sec 0.646, Tokens/sec 96.033, Trained Tokens 158038, Peak mem 7.359 GB
+Iter 1020: Train loss [92m0.30825980[0m, Learning Rate 1.000e-04, It/sec 0.637, Tokens/sec 101.384, Trained Tokens 159630, Peak mem 7.359 GB
+Iter 1030: Train loss [92m0.35802352[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 100.066, Trained Tokens 161235, Peak mem 7.359 GB
+Iter 1040: Train loss [92m0.26566937[0m, Learning Rate 1.000e-04, It/sec 0.594, Tokens/sec 97.001, Trained Tokens 162868, Peak mem 7.359 GB
+Iter 1050: Train loss [92m0.23623099[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 96.327, Trained Tokens 164434, Peak mem 7.359 GB
+Iter 1060: Train loss [92m0.28213964[0m, Learning Rate 1.000e-04, It/sec 0.601, Tokens/sec 99.651, Trained Tokens 166093, Peak mem 7.359 GB
+Iter 1070: Train loss [92m0.25916934[0m, Learning Rate 1.000e-04, It/sec 0.596, Tokens/sec 95.206, Trained Tokens 167690, Peak mem 7.359 GB
+Iter 1080: Train loss [92m0.31651704[0m, Learning Rate 1.000e-04, It/sec 0.605, Tokens/sec 97.141, Trained Tokens 169296, Peak mem 7.359 GB
+Iter 1090: Train loss [92m0.28265858[0m, Learning Rate 1.000e-04, It/sec 0.585, Tokens/sec 97.012, Trained Tokens 170954, Peak mem 7.359 GB
+Iter 1100: Train loss [92m0.32098544[0m, Learning Rate 1.000e-04, It/sec 0.641, Tokens/sec 99.067, Trained Tokens 172499, Peak mem 7.359 GB
+Iter 1110: Train loss [92m0.32837682[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 100.811, Trained Tokens 174137, Peak mem 7.359 GB
+Iter 1120: Train loss [92m0.47965107[0m, Learning Rate 1.000e-04, It/sec 0.603, Tokens/sec 96.723, Trained Tokens 175742, Peak mem 7.359 GB
+Iter 1130: Train loss [92m0.39105351[0m, Learning Rate 1.000e-04, It/sec 0.645, Tokens/sec 99.790, Trained Tokens 177288, Peak mem 7.359 GB
+Iter 1140: Train loss [92m0.26257975[0m, Learning Rate 1.000e-04, It/sec 0.634, Tokens/sec 99.700, Trained Tokens 178861, Peak mem 7.359 GB
+Iter 1150: Train loss [92m0.29689412[0m, Learning Rate 1.000e-04, It/sec 0.613, Tokens/sec 95.692, Trained Tokens 180421, Peak mem 7.359 GB
+Iter 1160: Train loss [92m0.38327570[0m, Learning Rate 1.000e-04, It/sec 0.646, Tokens/sec 97.544, Trained Tokens 181932, Peak mem 7.359 GB
+Iter 1170: Train loss [92m0.37386098[0m, Learning Rate 1.000e-04, It/sec 0.649, Tokens/sec 97.875, Trained Tokens 183441, Peak mem 7.359 GB
+Iter 1180: Train loss [92m0.19982029[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 99.265, Trained Tokens 185058, Peak mem 7.359 GB
+Iter 1190: Train loss [92m0.30831885[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 93.285, Trained Tokens 186556, Peak mem 7.359 GB
+Iter 1200: Train loss [92m0.38882256[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 99.002, Trained Tokens 188115, Peak mem 7.359 GB
+[94mIter 1200: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0001200_adapters.safetensors.[0m
+Iter 1210: Train loss [92m0.31550632[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 99.315, Trained Tokens 189729, Peak mem 7.359 GB
+Iter 1220: Train loss [92m0.28004279[0m, Learning Rate 1.000e-04, It/sec 0.627, Tokens/sec 99.579, Trained Tokens 191317, Peak mem 7.359 GB
+Iter 1230: Train loss [92m0.26681805[0m, Learning Rate 1.000e-04, It/sec 0.610, Tokens/sec 98.404, Trained Tokens 192929, Peak mem 7.359 GB
+Iter 1240: Train loss [92m0.22835774[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 98.133, Trained Tokens 194504, Peak mem 7.359 GB
+Iter 1250: Train loss [92m0.25347481[0m, Learning Rate 1.000e-04, It/sec 0.649, Tokens/sec 98.877, Trained Tokens 196028, Peak mem 7.359 GB
+Iter 1260: Train loss [92m0.30587072[0m, Learning Rate 1.000e-04, It/sec 0.616, Tokens/sec 97.509, Trained Tokens 197610, Peak mem 7.359 GB
+Iter 1270: Train loss [92m0.29146199[0m, Learning Rate 1.000e-04, It/sec 0.644, Tokens/sec 98.613, Trained Tokens 199142, Peak mem 7.359 GB
+Iter 1280: Train loss [92m0.24823315[0m, Learning Rate 1.000e-04, It/sec 0.633, Tokens/sec 97.836, Trained Tokens 200687, Peak mem 7.359 GB
+Iter 1290: Train loss [92m0.30446777[0m, Learning Rate 1.000e-04, It/sec 0.670, Tokens/sec 101.577, Trained Tokens 202203, Peak mem 7.359 GB
+Iter 1300: Train loss [92m0.24927671[0m, Learning Rate 1.000e-04, It/sec 0.617, Tokens/sec 96.006, Trained Tokens 203760, Peak mem 7.359 GB
+Iter 1310: Train loss [92m0.29055471[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 99.938, Trained Tokens 205387, Peak mem 7.359 GB
+Iter 1320: Train loss [92m0.29268119[0m, Learning Rate 1.000e-04, It/sec 0.632, Tokens/sec 97.832, Trained Tokens 206935, Peak mem 7.359 GB
+Iter 1330: Train loss [92m0.29315257[0m, Learning Rate 1.000e-04, It/sec 0.647, Tokens/sec 98.281, Trained Tokens 208455, Peak mem 7.359 GB
+Iter 1340: Train loss [92m0.26712468[0m, Learning Rate 1.000e-04, It/sec 0.616, Tokens/sec 97.033, Trained Tokens 210031, Peak mem 7.359 GB
+Iter 1350: Train loss [92m0.37860479[0m, Learning Rate 1.000e-04, It/sec 0.634, Tokens/sec 99.833, Trained Tokens 211606, Peak mem 7.359 GB
+Iter 1360: Train loss [92m0.23224642[0m, Learning Rate 1.000e-04, It/sec 0.593, Tokens/sec 98.395, Trained Tokens 213266, Peak mem 7.359 GB
+Iter 1370: Train loss [92m0.29486637[0m, Learning Rate 1.000e-04, It/sec 0.607, Tokens/sec 97.748, Trained Tokens 214876, Peak mem 7.359 GB
+Iter 1380: Train loss [92m0.28639934[0m, Learning Rate 1.000e-04, It/sec 0.637, Tokens/sec 96.573, Trained Tokens 216392, Peak mem 7.359 GB
+Iter 1390: Train loss [92m0.28979063[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 99.682, Trained Tokens 217961, Peak mem 7.359 GB
+Iter 1400: Train loss [92m0.26248920[0m, Learning Rate 1.000e-04, It/sec 0.621, Tokens/sec 97.982, Trained Tokens 219540, Peak mem 7.359 GB
+[94mIter 1400: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0001400_adapters.safetensors.[0m
+Iter 1410: Train loss [92m0.25313501[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 99.037, Trained Tokens 221099, Peak mem 7.359 GB
+Iter 1420: Train loss [92m0.30900819[0m, Learning Rate 1.000e-04, It/sec 0.659, Tokens/sec 97.679, Trained Tokens 222582, Peak mem 7.359 GB
+Iter 1430: Train loss [92m0.47856340[0m, Learning Rate 1.000e-04, It/sec 0.624, Tokens/sec 97.555, Trained Tokens 224145, Peak mem 7.359 GB
+Iter 1440: Train loss [92m0.21660225[0m, Learning Rate 1.000e-04, It/sec 0.613, Tokens/sec 98.930, Trained Tokens 225758, Peak mem 7.359 GB
+Iter 1450: Train loss [92m0.27825789[0m, Learning Rate 1.000e-04, It/sec 0.601, Tokens/sec 95.481, Trained Tokens 227346, Peak mem 7.359 GB
+Iter 1460: Train loss [92m0.30048492[0m, Learning Rate 1.000e-04, It/sec 0.606, Tokens/sec 98.644, Trained Tokens 228975, Peak mem 7.359 GB
+Iter 1470: Train loss [92m0.37215898[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 98.482, Trained Tokens 230551, Peak mem 7.359 GB
+Iter 1480: Train loss [92m0.22792060[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 99.748, Trained Tokens 232123, Peak mem 7.359 GB
+Iter 1490: Train loss [92m0.30028317[0m, Learning Rate 1.000e-04, It/sec 0.633, Tokens/sec 95.849, Trained Tokens 233637, Peak mem 7.359 GB
+Iter 1500: Train loss [92m0.28550386[0m, Learning Rate 1.000e-04, It/sec 0.648, Tokens/sec 101.876, Trained Tokens 235209, Peak mem 7.359 GB
+Iter 1510: Train loss [92m0.21193764[0m, Learning Rate 1.000e-04, It/sec 0.636, Tokens/sec 99.774, Trained Tokens 236777, Peak mem 7.359 GB
+Iter 1520: Train loss [92m0.24538314[0m, Learning Rate 1.000e-04, It/sec 0.612, Tokens/sec 94.893, Trained Tokens 238328, Peak mem 7.359 GB
+Iter 1530: Train loss [92m0.23923972[0m, Learning Rate 1.000e-04, It/sec 0.600, Tokens/sec 95.882, Trained Tokens 239925, Peak mem 7.359 GB
+Iter 1540: Train loss [92m0.25676339[0m, Learning Rate 1.000e-04, It/sec 0.626, Tokens/sec 97.261, Trained Tokens 241479, Peak mem 7.359 GB
+Iter 1550: Train loss [92m0.29381957[0m, Learning Rate 1.000e-04, It/sec 0.645, Tokens/sec 100.436, Trained Tokens 243036, Peak mem 7.359 GB
+Iter 1560: Train loss [92m0.26540084[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 94.625, Trained Tokens 244578, Peak mem 7.359 GB
+Iter 1570: Train loss [92m0.28712897[0m, Learning Rate 1.000e-04, It/sec 0.611, Tokens/sec 98.435, Trained Tokens 246190, Peak mem 7.359 GB
+Iter 1580: Train loss [92m0.30884888[0m, Learning Rate 1.000e-04, It/sec 0.624, Tokens/sec 99.423, Trained Tokens 247783, Peak mem 7.359 GB
+Iter 1590: Train loss [92m0.22287452[0m, Learning Rate 1.000e-04, It/sec 0.613, Tokens/sec 97.838, Trained Tokens 249378, Peak mem 7.359 GB
+Iter 1600: Train loss [92m0.35699863[0m, Learning Rate 1.000e-04, It/sec 0.633, Tokens/sec 96.469, Trained Tokens 250901, Peak mem 7.359 GB
+[94mIter 1600: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0001600_adapters.safetensors.[0m
+Iter 1610: Train loss [92m0.30268104[0m, Learning Rate 1.000e-04, It/sec 0.647, Tokens/sec 100.243, Trained Tokens 252451, Peak mem 7.359 GB
+Iter 1620: Train loss [92m0.30142853[0m, Learning Rate 1.000e-04, It/sec 0.667, Tokens/sec 96.938, Trained Tokens 253904, Peak mem 7.359 GB
+Iter 1630: Train loss [92m0.23026562[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 97.497, Trained Tokens 255491, Peak mem 7.359 GB
+Iter 1640: Train loss [92m0.28847666[0m, Learning Rate 1.000e-04, It/sec 0.644, Tokens/sec 99.906, Trained Tokens 257042, Peak mem 7.359 GB
+Iter 1650: Train loss [92m0.27192519[0m, Learning Rate 1.000e-04, It/sec 0.646, Tokens/sec 99.024, Trained Tokens 258575, Peak mem 7.359 GB
+Iter 1660: Train loss [92m0.29203367[0m, Learning Rate 1.000e-04, It/sec 0.645, Tokens/sec 99.466, Trained Tokens 260118, Peak mem 7.359 GB
+Iter 1670: Train loss [92m0.33112292[0m, Learning Rate 1.000e-04, It/sec 0.616, Tokens/sec 95.408, Trained Tokens 261667, Peak mem 7.359 GB
+Iter 1680: Train loss [92m0.26713519[0m, Learning Rate 1.000e-04, It/sec 0.613, Tokens/sec 97.300, Trained Tokens 263253, Peak mem 7.359 GB
+Iter 1690: Train loss [92m0.27483995[0m, Learning Rate 1.000e-04, It/sec 0.616, Tokens/sec 97.948, Trained Tokens 264843, Peak mem 7.359 GB
+Iter 1700: Train loss [92m0.23728912[0m, Learning Rate 1.000e-04, It/sec 0.604, Tokens/sec 96.177, Trained Tokens 266436, Peak mem 7.359 GB
+Iter 1710: Train loss [92m0.30811265[0m, Learning Rate 1.000e-04, It/sec 0.658, Tokens/sec 101.058, Trained Tokens 267971, Peak mem 7.359 GB
+Iter 1720: Train loss [92m0.32341475[0m, Learning Rate 1.000e-04, It/sec 0.659, Tokens/sec 96.412, Trained Tokens 269434, Peak mem 7.359 GB
+Iter 1730: Train loss [92m0.25125153[0m, Learning Rate 1.000e-04, It/sec 0.626, Tokens/sec 97.139, Trained Tokens 270986, Peak mem 7.359 GB
+Iter 1740: Train loss [92m0.28153701[0m, Learning Rate 1.000e-04, It/sec 0.624, Tokens/sec 99.096, Trained Tokens 272575, Peak mem 7.359 GB
+Iter 1750: Train loss [92m0.18389088[0m, Learning Rate 1.000e-04, It/sec 0.622, Tokens/sec 99.009, Trained Tokens 274167, Peak mem 7.359 GB
+Iter 1760: Train loss [92m0.23701947[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 97.736, Trained Tokens 275760, Peak mem 7.359 GB
+Iter 1770: Train loss [92m0.25002482[0m, Learning Rate 1.000e-04, It/sec 0.626, Tokens/sec 95.471, Trained Tokens 277285, Peak mem 7.359 GB
+Iter 1780: Train loss [92m0.29807205[0m, Learning Rate 1.000e-04, It/sec 0.670, Tokens/sec 99.414, Trained Tokens 278769, Peak mem 7.359 GB
+Iter 1790: Train loss [92m0.20886281[0m, Learning Rate 1.000e-04, It/sec 0.612, Tokens/sec 96.519, Trained Tokens 280346, Peak mem 7.359 GB
+Iter 1800: Train loss [92m0.26162958[0m, Learning Rate 1.000e-04, It/sec 0.657, Tokens/sec 98.619, Trained Tokens 281846, Peak mem 7.359 GB
+[94mIter 1800: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0001800_adapters.safetensors.[0m
+Iter 1810: Train loss [92m0.28869026[0m, Learning Rate 1.000e-04, It/sec 0.604, Tokens/sec 97.633, Trained Tokens 283463, Peak mem 7.359 GB
+Iter 1820: Train loss [92m0.22236762[0m, Learning Rate 1.000e-04, It/sec 0.626, Tokens/sec 98.543, Trained Tokens 285037, Peak mem 7.359 GB
+Iter 1830: Train loss [92m0.24422185[0m, Learning Rate 1.000e-04, It/sec 0.645, Tokens/sec 99.081, Trained Tokens 286573, Peak mem 7.359 GB
+Iter 1840: Train loss [92m0.18272599[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 98.429, Trained Tokens 288152, Peak mem 7.359 GB
+Iter 1850: Train loss [92m0.28678582[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 96.538, Trained Tokens 289672, Peak mem 7.359 GB
+Iter 1860: Train loss [92m0.22351015[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 99.862, Trained Tokens 291270, Peak mem 7.359 GB
+Iter 1870: Train loss [92m0.25605762[0m, Learning Rate 1.000e-04, It/sec 0.671, Tokens/sec 101.344, Trained Tokens 292781, Peak mem 7.359 GB
+Iter 1880: Train loss [92m0.22139263[0m, Learning Rate 1.000e-04, It/sec 0.611, Tokens/sec 98.043, Trained Tokens 294385, Peak mem 7.359 GB
+Iter 1890: Train loss [92m0.34900603[0m, Learning Rate 1.000e-04, It/sec 0.624, Tokens/sec 99.031, Trained Tokens 295972, Peak mem 7.359 GB
+Iter 1900: Train loss [92m0.18730638[0m, Learning Rate 1.000e-04, It/sec 0.626, Tokens/sec 100.181, Trained Tokens 297572, Peak mem 7.359 GB
+Iter 1910: Train loss [92m0.29709115[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 99.537, Trained Tokens 299139, Peak mem 7.359 GB
+Iter 1920: Train loss [92m0.19837155[0m, Learning Rate 1.000e-04, It/sec 0.600, Tokens/sec 98.062, Trained Tokens 300773, Peak mem 7.359 GB
+Iter 1930: Train loss [92m0.22402377[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 98.739, Trained Tokens 302354, Peak mem 7.359 GB
+Iter 1940: Train loss [92m0.23887031[0m, Learning Rate 1.000e-04, It/sec 0.671, Tokens/sec 101.501, Trained Tokens 303866, Peak mem 7.359 GB
+Iter 1950: Train loss [92m0.25133429[0m, Learning Rate 1.000e-04, It/sec 0.616, Tokens/sec 97.357, Trained Tokens 305447, Peak mem 7.359 GB
+Iter 1960: Train loss [92m0.26185536[0m, Learning Rate 1.000e-04, It/sec 0.654, Tokens/sec 95.697, Trained Tokens 306911, Peak mem 7.359 GB
+Iter 1970: Train loss [92m0.21320579[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 99.752, Trained Tokens 308512, Peak mem 7.359 GB
+Iter 1980: Train loss [92m0.34961028[0m, Learning Rate 1.000e-04, It/sec 0.647, Tokens/sec 96.471, Trained Tokens 310003, Peak mem 7.359 GB
+Iter 1990: Train loss [92m0.22145214[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 97.614, Trained Tokens 311592, Peak mem 7.359 GB
+Iter 2000: Train loss [92m0.22694333[0m, Learning Rate 1.000e-04, It/sec 0.621, Tokens/sec 95.796, Trained Tokens 313135, Peak mem 7.359 GB
+[94mIter 2000: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0002000_adapters.safetensors.[0m
+Iter 2010: Train loss [92m0.24076319[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 98.034, Trained Tokens 314678, Peak mem 7.359 GB
+Iter 2020: Train loss [92m0.26055586[0m, Learning Rate 1.000e-04, It/sec 0.613, Tokens/sec 97.110, Trained Tokens 316262, Peak mem 7.359 GB
+Iter 2030: Train loss [92m0.32623067[0m, Learning Rate 1.000e-04, It/sec 0.605, Tokens/sec 96.563, Trained Tokens 317858, Peak mem 7.359 GB
+Iter 2040: Train loss [92m0.21526175[0m, Learning Rate 1.000e-04, It/sec 0.611, Tokens/sec 98.360, Trained Tokens 319467, Peak mem 7.359 GB
+Iter 2050: Train loss [92m0.23423634[0m, Learning Rate 1.000e-04, It/sec 0.678, Tokens/sec 101.558, Trained Tokens 320966, Peak mem 7.359 GB
+Iter 2060: Train loss [92m0.23013115[0m, Learning Rate 1.000e-04, It/sec 0.671, Tokens/sec 97.100, Trained Tokens 322414, Peak mem 7.359 GB
+Iter 2070: Train loss [92m0.34896555[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 98.984, Trained Tokens 324024, Peak mem 7.359 GB
+Iter 2080: Train loss [92m0.42920232[0m, Learning Rate 1.000e-04, It/sec 0.622, Tokens/sec 97.840, Trained Tokens 325597, Peak mem 7.359 GB
+Iter 2090: Train loss [92m0.23576975[0m, Learning Rate 1.000e-04, It/sec 0.612, Tokens/sec 96.940, Trained Tokens 327180, Peak mem 7.359 GB
+Iter 2100: Train loss [92m0.21721473[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 97.621, Trained Tokens 328743, Peak mem 7.359 GB
+Iter 2110: Train loss [92m0.25086145[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 97.256, Trained Tokens 330324, Peak mem 7.359 GB
+Iter 2120: Train loss [92m0.21076479[0m, Learning Rate 1.000e-04, It/sec 0.646, Tokens/sec 96.862, Trained Tokens 331823, Peak mem 7.359 GB
+Iter 2130: Train loss [92m0.21849270[0m, Learning Rate 1.000e-04, It/sec 0.632, Tokens/sec 99.009, Trained Tokens 333389, Peak mem 7.359 GB
+Iter 2140: Train loss [92m0.25436978[0m, Learning Rate 1.000e-04, It/sec 0.647, Tokens/sec 99.621, Trained Tokens 334929, Peak mem 7.359 GB
+Iter 2150: Train loss [92m0.22134218[0m, Learning Rate 1.000e-04, It/sec 0.616, Tokens/sec 96.966, Trained Tokens 336503, Peak mem 7.359 GB
+Iter 2160: Train loss [92m0.25380168[0m, Learning Rate 1.000e-04, It/sec 0.633, Tokens/sec 97.535, Trained Tokens 338043, Peak mem 7.359 GB
+Iter 2170: Train loss [92m0.26260066[0m, Learning Rate 1.000e-04, It/sec 0.646, Tokens/sec 100.936, Trained Tokens 339606, Peak mem 7.359 GB
+Iter 2180: Train loss [92m0.26058612[0m, Learning Rate 1.000e-04, It/sec 0.633, Tokens/sec 96.331, Trained Tokens 341128, Peak mem 7.359 GB
+Iter 2190: Train loss [92m0.27576244[0m, Learning Rate 1.000e-04, It/sec 0.636, Tokens/sec 95.171, Trained Tokens 342625, Peak mem 7.359 GB
+Iter 2200: Train loss [92m0.26741862[0m, Learning Rate 1.000e-04, It/sec 0.624, Tokens/sec 95.844, Trained Tokens 344160, Peak mem 7.359 GB
+[94mIter 2200: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0002200_adapters.safetensors.[0m
+Iter 2210: Train loss [92m0.23597455[0m, Learning Rate 1.000e-04, It/sec 0.655, Tokens/sec 101.846, Trained Tokens 345714, Peak mem 7.359 GB
+Iter 2220: Train loss [92m0.23174033[0m, Learning Rate 1.000e-04, It/sec 0.582, Tokens/sec 94.911, Trained Tokens 347344, Peak mem 7.359 GB
+Iter 2230: Train loss [92m0.23328745[0m, Learning Rate 1.000e-04, It/sec 0.636, Tokens/sec 98.026, Trained Tokens 348886, Peak mem 7.359 GB
+Iter 2240: Train loss [92m0.32002597[0m, Learning Rate 1.000e-04, It/sec 0.645, Tokens/sec 98.253, Trained Tokens 350409, Peak mem 7.359 GB
+Iter 2250: Train loss [92m0.25022795[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 97.308, Trained Tokens 351993, Peak mem 7.359 GB
+Iter 2260: Train loss [92m0.19236904[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 97.863, Trained Tokens 353535, Peak mem 7.359 GB
+Iter 2270: Train loss [92m0.21139197[0m, Learning Rate 1.000e-04, It/sec 0.671, Tokens/sec 102.193, Trained Tokens 355058, Peak mem 7.359 GB
+Iter 2280: Train loss [92m0.24099221[0m, Learning Rate 1.000e-04, It/sec 0.657, Tokens/sec 96.713, Trained Tokens 356530, Peak mem 7.359 GB
+Iter 2290: Train loss [92m0.25426736[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 100.797, Trained Tokens 358142, Peak mem 7.359 GB
+Iter 2300: Train loss [92m0.28940010[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 97.979, Trained Tokens 359686, Peak mem 7.359 GB
+Iter 2310: Train loss [92m0.32279882[0m, Learning Rate 1.000e-04, It/sec 0.621, Tokens/sec 98.234, Trained Tokens 361269, Peak mem 7.359 GB
+Iter 2320: Train loss [92m0.20583222[0m, Learning Rate 1.000e-04, It/sec 0.604, Tokens/sec 98.191, Trained Tokens 362896, Peak mem 7.359 GB
+Iter 2330: Train loss [92m0.26996930[0m, Learning Rate 1.000e-04, It/sec 0.626, Tokens/sec 93.603, Trained Tokens 364391, Peak mem 7.359 GB
+Iter 2340: Train loss [92m0.23701956[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 99.257, Trained Tokens 366004, Peak mem 7.359 GB
+Iter 2350: Train loss [92m0.23118465[0m, Learning Rate 1.000e-04, It/sec 0.632, Tokens/sec 100.196, Trained Tokens 367590, Peak mem 7.359 GB
+Iter 2360: Train loss [92m0.25961294[0m, Learning Rate 1.000e-04, It/sec 0.646, Tokens/sec 97.107, Trained Tokens 369093, Peak mem 7.359 GB
+Iter 2370: Train loss [92m0.21182387[0m, Learning Rate 1.000e-04, It/sec 0.624, Tokens/sec 98.207, Trained Tokens 370666, Peak mem 7.359 GB
+Iter 2380: Train loss [92m0.21362021[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 97.439, Trained Tokens 372253, Peak mem 7.359 GB
+Iter 2390: Train loss [92m0.20892224[0m, Learning Rate 1.000e-04, It/sec 0.646, Tokens/sec 98.798, Trained Tokens 373783, Peak mem 7.359 GB
+Iter 2400: Train loss [92m0.24590793[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 98.107, Trained Tokens 375327, Peak mem 7.359 GB
+[94mIter 2400: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0002400_adapters.safetensors.[0m
+Iter 2410: Train loss [92m0.25251036[0m, Learning Rate 1.000e-04, It/sec 0.634, Tokens/sec 99.611, Trained Tokens 376897, Peak mem 7.359 GB
+Iter 2420: Train loss [92m0.21937006[0m, Learning Rate 1.000e-04, It/sec 0.624, Tokens/sec 96.495, Trained Tokens 378444, Peak mem 7.359 GB
+Iter 2430: Train loss [92m0.20894110[0m, Learning Rate 1.000e-04, It/sec 0.624, Tokens/sec 100.849, Trained Tokens 380060, Peak mem 7.359 GB
+Iter 2440: Train loss [92m0.20930772[0m, Learning Rate 1.000e-04, It/sec 0.630, Tokens/sec 98.837, Trained Tokens 381629, Peak mem 7.359 GB
+Iter 2450: Train loss [92m0.32066598[0m, Learning Rate 1.000e-04, It/sec 0.657, Tokens/sec 99.115, Trained Tokens 383138, Peak mem 7.359 GB
+Iter 2460: Train loss [92m0.23599770[0m, Learning Rate 1.000e-04, It/sec 0.598, Tokens/sec 94.590, Trained Tokens 384721, Peak mem 7.359 GB
+Iter 2470: Train loss [92m0.20817201[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 99.154, Trained Tokens 386333, Peak mem 7.359 GB
+Iter 2480: Train loss [92m0.24417443[0m, Learning Rate 1.000e-04, It/sec 0.621, Tokens/sec 96.724, Trained Tokens 387891, Peak mem 7.359 GB
+Iter 2490: Train loss [92m0.18941157[0m, Learning Rate 1.000e-04, It/sec 0.646, Tokens/sec 96.586, Trained Tokens 389385, Peak mem 7.359 GB
+Iter 2500: Train loss [92m0.22696428[0m, Learning Rate 1.000e-04, It/sec 0.646, Tokens/sec 99.953, Trained Tokens 390932, Peak mem 7.359 GB
+Iter 2510: Train loss [92m0.24346232[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 97.213, Trained Tokens 392513, Peak mem 7.359 GB
+Iter 2520: Train loss [92m0.23720958[0m, Learning Rate 1.000e-04, It/sec 0.621, Tokens/sec 97.624, Trained Tokens 394085, Peak mem 7.359 GB
+Iter 2530: Train loss [92m0.21899581[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 98.564, Trained Tokens 395689, Peak mem 7.359 GB
+Iter 2540: Train loss [92m0.21775031[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 96.652, Trained Tokens 397260, Peak mem 7.359 GB
+Iter 2550: Train loss [92m0.20322485[0m, Learning Rate 1.000e-04, It/sec 0.606, Tokens/sec 99.055, Trained Tokens 398894, Peak mem 7.359 GB
+Iter 2560: Train loss [92m0.19543490[0m, Learning Rate 1.000e-04, It/sec 0.604, Tokens/sec 96.370, Trained Tokens 400489, Peak mem 7.359 GB
+Iter 2570: Train loss [92m0.32752697[0m, Learning Rate 1.000e-04, It/sec 0.632, Tokens/sec 96.211, Trained Tokens 402011, Peak mem 7.359 GB
+Iter 2580: Train loss [92m0.21222825[0m, Learning Rate 1.000e-04, It/sec 0.616, Tokens/sec 96.413, Trained Tokens 403576, Peak mem 7.359 GB
+Iter 2590: Train loss [92m0.21152432[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 98.404, Trained Tokens 405177, Peak mem 7.359 GB
+Iter 2600: Train loss [92m0.29852335[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 96.785, Trained Tokens 406700, Peak mem 7.359 GB
+[94mIter 2600: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0002600_adapters.safetensors.[0m
+Iter 2610: Train loss [92m0.26325951[0m, Learning Rate 1.000e-04, It/sec 0.612, Tokens/sec 95.081, Trained Tokens 408254, Peak mem 7.359 GB
+Iter 2620: Train loss [92m0.19451338[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 97.992, Trained Tokens 409821, Peak mem 7.359 GB
+Iter 2630: Train loss [92m0.19669542[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 97.733, Trained Tokens 411411, Peak mem 7.359 GB
+Iter 2640: Train loss [92m0.20710685[0m, Learning Rate 1.000e-04, It/sec 0.636, Tokens/sec 98.123, Trained Tokens 412954, Peak mem 7.359 GB
+Iter 2650: Train loss [92m0.18238600[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 99.653, Trained Tokens 414523, Peak mem 7.359 GB
+Iter 2660: Train loss [92m0.24207625[0m, Learning Rate 1.000e-04, It/sec 0.659, Tokens/sec 99.532, Trained Tokens 416033, Peak mem 7.359 GB
+Iter 2670: Train loss [92m0.20130799[0m, Learning Rate 1.000e-04, It/sec 0.634, Tokens/sec 99.350, Trained Tokens 417600, Peak mem 7.359 GB
+Iter 2680: Train loss [92m0.18055384[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 96.673, Trained Tokens 419148, Peak mem 7.359 GB
+Iter 2690: Train loss [92m0.30521102[0m, Learning Rate 1.000e-04, It/sec 0.647, Tokens/sec 98.834, Trained Tokens 420676, Peak mem 7.359 GB
+Iter 2700: Train loss [92m0.21182547[0m, Learning Rate 1.000e-04, It/sec 0.632, Tokens/sec 96.238, Trained Tokens 422199, Peak mem 7.359 GB
+Iter 2710: Train loss [92m0.21407540[0m, Learning Rate 1.000e-04, It/sec 0.637, Tokens/sec 98.362, Trained Tokens 423744, Peak mem 7.359 GB
+Iter 2720: Train loss [92m0.23464189[0m, Learning Rate 1.000e-04, It/sec 0.624, Tokens/sec 95.394, Trained Tokens 425272, Peak mem 7.359 GB
+Iter 2730: Train loss [92m0.30076473[0m, Learning Rate 1.000e-04, It/sec 0.613, Tokens/sec 98.642, Trained Tokens 426881, Peak mem 7.359 GB
+Iter 2740: Train loss [92m0.23807931[0m, Learning Rate 1.000e-04, It/sec 0.621, Tokens/sec 98.710, Trained Tokens 428470, Peak mem 7.359 GB
+Iter 2750: Train loss [92m0.31724179[0m, Learning Rate 1.000e-04, It/sec 0.586, Tokens/sec 97.286, Trained Tokens 430131, Peak mem 7.359 GB
+Iter 2760: Train loss [92m0.24249544[0m, Learning Rate 1.000e-04, It/sec 0.605, Tokens/sec 97.650, Trained Tokens 431745, Peak mem 7.359 GB
+Iter 2770: Train loss [92m0.22004952[0m, Learning Rate 1.000e-04, It/sec 0.613, Tokens/sec 96.913, Trained Tokens 433327, Peak mem 7.359 GB
+Iter 2780: Train loss [92m0.24677258[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 100.207, Trained Tokens 434935, Peak mem 7.359 GB
+Iter 2790: Train loss [92m0.21960471[0m, Learning Rate 1.000e-04, It/sec 0.633, Tokens/sec 100.840, Trained Tokens 436528, Peak mem 7.359 GB
+Iter 2800: Train loss [92m0.28372233[0m, Learning Rate 1.000e-04, It/sec 0.667, Tokens/sec 99.200, Trained Tokens 438015, Peak mem 7.359 GB
+[94mIter 2800: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0002800_adapters.safetensors.[0m
+Iter 2810: Train loss [92m0.22799621[0m, Learning Rate 1.000e-04, It/sec 0.647, Tokens/sec 99.389, Trained Tokens 439550, Peak mem 7.359 GB
+Iter 2820: Train loss [92m0.20933540[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 96.551, Trained Tokens 441096, Peak mem 7.359 GB
+Iter 2830: Train loss [92m0.22351434[0m, Learning Rate 1.000e-04, It/sec 0.657, Tokens/sec 97.281, Trained Tokens 442577, Peak mem 7.359 GB
+Iter 2840: Train loss [92m0.27088764[0m, Learning Rate 1.000e-04, It/sec 0.658, Tokens/sec 97.012, Trained Tokens 444052, Peak mem 7.359 GB
+Iter 2850: Train loss [92m0.24634376[0m, Learning Rate 1.000e-04, It/sec 0.645, Tokens/sec 100.036, Trained Tokens 445602, Peak mem 7.359 GB
+Iter 2860: Train loss [92m0.20319037[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 98.579, Trained Tokens 447185, Peak mem 7.359 GB
+Iter 2870: Train loss [92m0.17493989[0m, Learning Rate 1.000e-04, It/sec 0.632, Tokens/sec 99.153, Trained Tokens 448755, Peak mem 7.359 GB
+Iter 2880: Train loss [92m0.23403718[0m, Learning Rate 1.000e-04, It/sec 0.624, Tokens/sec 96.575, Trained Tokens 450302, Peak mem 7.359 GB
+Iter 2890: Train loss [92m0.25896528[0m, Learning Rate 1.000e-04, It/sec 0.625, Tokens/sec 95.773, Trained Tokens 451835, Peak mem 7.359 GB
+Iter 2900: Train loss [92m0.27034574[0m, Learning Rate 1.000e-04, It/sec 0.634, Tokens/sec 95.890, Trained Tokens 453348, Peak mem 7.359 GB
+Iter 2910: Train loss [92m0.30807695[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 99.366, Trained Tokens 454914, Peak mem 7.359 GB
+Iter 2920: Train loss [92m0.18373990[0m, Learning Rate 1.000e-04, It/sec 0.635, Tokens/sec 100.087, Trained Tokens 456490, Peak mem 7.359 GB
+Iter 2930: Train loss [92m0.25441580[0m, Learning Rate 1.000e-04, It/sec 0.658, Tokens/sec 99.489, Trained Tokens 458003, Peak mem 7.359 GB
+Iter 2940: Train loss [92m0.23250692[0m, Learning Rate 1.000e-04, It/sec 0.659, Tokens/sec 99.629, Trained Tokens 459515, Peak mem 7.359 GB
+Iter 2950: Train loss [92m0.19578750[0m, Learning Rate 1.000e-04, It/sec 0.613, Tokens/sec 99.797, Trained Tokens 461142, Peak mem 7.359 GB
+Iter 2960: Train loss [92m0.20326123[0m, Learning Rate 1.000e-04, It/sec 0.641, Tokens/sec 98.589, Trained Tokens 462681, Peak mem 7.359 GB
+Iter 2970: Train loss [92m0.30161996[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 96.266, Trained Tokens 464225, Peak mem 7.359 GB
+Iter 2980: Train loss [92m0.21237202[0m, Learning Rate 1.000e-04, It/sec 0.615, Tokens/sec 96.674, Trained Tokens 465798, Peak mem 7.359 GB
+Iter 2990: Train loss [92m0.24695606[0m, Learning Rate 1.000e-04, It/sec 0.594, Tokens/sec 96.818, Trained Tokens 467427, Peak mem 7.359 GB
+Iter 3000: Train loss [92m0.19358765[0m, Learning Rate 1.000e-04, It/sec 0.610, Tokens/sec 96.278, Trained Tokens 469005, Peak mem 7.359 GB
+[94mIter 3000: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0003000_adapters.safetensors.[0m
+Iter 3010: Train loss [92m0.22605143[0m, Learning Rate 1.000e-04, It/sec 0.595, Tokens/sec 96.675, Trained Tokens 470630, Peak mem 7.359 GB
+Iter 3020: Train loss [92m0.24290242[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 98.072, Trained Tokens 472228, Peak mem 7.359 GB
+Iter 3030: Train loss [92m0.29828341[0m, Learning Rate 1.000e-04, It/sec 0.657, Tokens/sec 97.820, Trained Tokens 473716, Peak mem 7.359 GB
+Iter 3040: Train loss [92m0.20396028[0m, Learning Rate 1.000e-04, It/sec 0.642, Tokens/sec 100.274, Trained Tokens 475278, Peak mem 7.359 GB
+Iter 3050: Train loss [92m0.18858552[0m, Learning Rate 1.000e-04, It/sec 0.626, Tokens/sec 100.970, Trained Tokens 476892, Peak mem 7.359 GB
+Iter 3060: Train loss [92m0.29417062[0m, Learning Rate 1.000e-04, It/sec 0.636, Tokens/sec 96.086, Trained Tokens 478403, Peak mem 7.359 GB
+Iter 3070: Train loss [92m0.21084960[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 95.629, Trained Tokens 479938, Peak mem 7.359 GB
+Iter 3080: Train loss [92m0.22059431[0m, Learning Rate 1.000e-04, It/sec 0.634, Tokens/sec 96.760, Trained Tokens 481464, Peak mem 7.359 GB
+Iter 3090: Train loss [92m0.23055654[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 97.618, Trained Tokens 483032, Peak mem 7.359 GB
+Iter 3100: Train loss [92m0.18363553[0m, Learning Rate 1.000e-04, It/sec 0.584, Tokens/sec 95.553, Trained Tokens 484669, Peak mem 7.359 GB
+Iter 3110: Train loss [92m0.27488410[0m, Learning Rate 1.000e-04, It/sec 0.626, Tokens/sec 98.259, Trained Tokens 486238, Peak mem 7.359 GB
+Iter 3120: Train loss [92m0.20886650[0m, Learning Rate 1.000e-04, It/sec 0.634, Tokens/sec 97.763, Trained Tokens 487779, Peak mem 7.359 GB
+Iter 3130: Train loss [92m0.20663934[0m, Learning Rate 1.000e-04, It/sec 0.621, Tokens/sec 99.055, Trained Tokens 489375, Peak mem 7.359 GB
+Iter 3140: Train loss [92m0.20139837[0m, Learning Rate 1.000e-04, It/sec 0.613, Tokens/sec 99.014, Trained Tokens 490990, Peak mem 7.359 GB
+Iter 3150: Train loss [92m0.19848025[0m, Learning Rate 1.000e-04, It/sec 0.594, Tokens/sec 96.871, Trained Tokens 492621, Peak mem 7.359 GB
+Iter 3160: Train loss [92m0.17471029[0m, Learning Rate 1.000e-04, It/sec 0.614, Tokens/sec 98.095, Trained Tokens 494219, Peak mem 7.359 GB
+Iter 3170: Train loss [92m0.26268063[0m, Learning Rate 1.000e-04, It/sec 0.622, Tokens/sec 96.124, Trained Tokens 495765, Peak mem 7.359 GB
+Iter 3180: Train loss [92m0.21344075[0m, Learning Rate 1.000e-04, It/sec 0.655, Tokens/sec 99.638, Trained Tokens 497286, Peak mem 7.359 GB
+Iter 3190: Train loss [92m0.30691197[0m, Learning Rate 1.000e-04, It/sec 0.656, Tokens/sec 100.110, Trained Tokens 498811, Peak mem 7.359 GB
+Iter 3200: Train loss [92m0.23989258[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 97.943, Trained Tokens 500383, Peak mem 7.359 GB
+[94mIter 3200: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0003200_adapters.safetensors.[0m
+Iter 3210: Train loss [92m0.19496672[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 100.649, Trained Tokens 501998, Peak mem 7.359 GB
+Iter 3220: Train loss [92m0.19653151[0m, Learning Rate 1.000e-04, It/sec 0.613, Tokens/sec 95.674, Trained Tokens 503559, Peak mem 7.359 GB
+Iter 3230: Train loss [92m0.21980543[0m, Learning Rate 1.000e-04, It/sec 0.636, Tokens/sec 99.476, Trained Tokens 505124, Peak mem 7.359 GB
+Iter 3240: Train loss [92m0.21210692[0m, Learning Rate 1.000e-04, It/sec 0.597, Tokens/sec 94.079, Trained Tokens 506701, Peak mem 7.359 GB
+Iter 3250: Train loss [92m0.21225014[0m, Learning Rate 1.000e-04, It/sec 0.613, Tokens/sec 94.884, Trained Tokens 508249, Peak mem 7.359 GB
+Iter 3260: Train loss [92m0.19318423[0m, Learning Rate 1.000e-04, It/sec 0.612, Tokens/sec 97.018, Trained Tokens 509834, Peak mem 7.359 GB
+Iter 3270: Train loss [92m0.17813008[0m, Learning Rate 1.000e-04, It/sec 0.596, Tokens/sec 96.034, Trained Tokens 511445, Peak mem 7.359 GB
+Iter 3280: Train loss [92m0.23470416[0m, Learning Rate 1.000e-04, It/sec 0.598, Tokens/sec 94.342, Trained Tokens 513022, Peak mem 7.359 GB
+Iter 3290: Train loss [92m0.25497365[0m, Learning Rate 1.000e-04, It/sec 0.599, Tokens/sec 93.799, Trained Tokens 514589, Peak mem 7.359 GB
+Iter 3300: Train loss [92m0.22879310[0m, Learning Rate 1.000e-04, It/sec 0.606, Tokens/sec 98.541, Trained Tokens 516215, Peak mem 7.359 GB
+Iter 3310: Train loss [92m0.21248825[0m, Learning Rate 1.000e-04, It/sec 0.623, Tokens/sec 98.294, Trained Tokens 517794, Peak mem 7.359 GB
+Iter 3320: Train loss [92m0.23672402[0m, Learning Rate 1.000e-04, It/sec 0.651, Tokens/sec 98.363, Trained Tokens 519304, Peak mem 7.359 GB
+Iter 3330: Train loss [92m0.21064401[0m, Learning Rate 1.000e-04, It/sec 0.621, Tokens/sec 95.111, Trained Tokens 520836, Peak mem 7.359 GB
+Iter 3340: Train loss [92m0.20458241[0m, Learning Rate 1.000e-04, It/sec 0.631, Tokens/sec 98.820, Trained Tokens 522401, Peak mem 7.359 GB
+Iter 3350: Train loss [92m0.28415689[0m, Learning Rate 1.000e-04, It/sec 0.620, Tokens/sec 98.127, Trained Tokens 523984, Peak mem 7.359 GB
+Iter 3360: Train loss [92m0.18385741[0m, Learning Rate 1.000e-04, It/sec 0.609, Tokens/sec 98.112, Trained Tokens 525595, Peak mem 7.359 GB
+Iter 3370: Train loss [92m0.19650638[0m, Learning Rate 1.000e-04, It/sec 0.619, Tokens/sec 99.465, Trained Tokens 527203, Peak mem 7.359 GB
+Iter 3380: Train loss [92m0.25516329[0m, Learning Rate 1.000e-04, It/sec 0.633, Tokens/sec 98.662, Trained Tokens 528761, Peak mem 7.359 GB
+Iter 3390: Train loss [92m0.22072721[0m, Learning Rate 1.000e-04, It/sec 0.639, Tokens/sec 97.036, Trained Tokens 530279, Peak mem 7.359 GB
+Iter 3400: Train loss [92m0.20814071[0m, Learning Rate 1.000e-04, It/sec 0.592, Tokens/sec 95.422, Trained Tokens 531892, Peak mem 7.359 GB
+[94mIter 3400: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0003400_adapters.safetensors.[0m
+Iter 3410: Train loss [92m0.25795124[0m, Learning Rate 1.000e-04, It/sec 0.619, Tokens/sec 97.516, Trained Tokens 533467, Peak mem 7.359 GB
+Iter 3420: Train loss [92m0.24816301[0m, Learning Rate 1.000e-04, It/sec 0.620, Tokens/sec 95.275, Trained Tokens 535004, Peak mem 7.359 GB
+Iter 3430: Train loss [92m0.20214086[0m, Learning Rate 1.000e-04, It/sec 0.577, Tokens/sec 95.631, Trained Tokens 536662, Peak mem 7.359 GB
+Iter 3440: Train loss [92m0.19301076[0m, Learning Rate 1.000e-04, It/sec 0.602, Tokens/sec 98.122, Trained Tokens 538291, Peak mem 7.359 GB
+Iter 3450: Train loss [92m0.16572720[0m, Learning Rate 1.000e-04, It/sec 0.617, Tokens/sec 97.974, Trained Tokens 539880, Peak mem 7.359 GB
+Iter 3460: Train loss [92m0.19180757[0m, Learning Rate 1.000e-04, It/sec 0.594, Tokens/sec 94.852, Trained Tokens 541478, Peak mem 7.359 GB
+Iter 3470: Train loss [92m0.20053108[0m, Learning Rate 1.000e-04, It/sec 0.596, Tokens/sec 96.594, Trained Tokens 543099, Peak mem 7.359 GB
+Iter 3480: Train loss [92m0.24116919[0m, Learning Rate 1.000e-04, It/sec 0.636, Tokens/sec 96.059, Trained Tokens 544609, Peak mem 7.359 GB
+Iter 3490: Train loss [92m0.17860134[0m, Learning Rate 1.000e-04, It/sec 0.628, Tokens/sec 99.400, Trained Tokens 546191, Peak mem 7.359 GB
+Iter 3500: Train loss [92m0.22643199[0m, Learning Rate 1.000e-04, It/sec 0.652, Tokens/sec 98.659, Trained Tokens 547704, Peak mem 7.359 GB
+Iter 3510: Train loss [92m0.21465139[0m, Learning Rate 1.000e-04, It/sec 0.607, Tokens/sec 96.411, Trained Tokens 549293, Peak mem 7.359 GB
+Iter 3520: Train loss [92m0.24751248[0m, Learning Rate 1.000e-04, It/sec 0.626, Tokens/sec 93.839, Trained Tokens 550792, Peak mem 7.359 GB
+Iter 3530: Train loss [92m0.18318497[0m, Learning Rate 1.000e-04, It/sec 0.640, Tokens/sec 98.682, Trained Tokens 552334, Peak mem 7.359 GB
+Iter 3540: Train loss [92m0.19056342[0m, Learning Rate 1.000e-04, It/sec 0.639, Tokens/sec 100.984, Trained Tokens 553914, Peak mem 7.359 GB
+Iter 3550: Train loss [92m0.27425022[0m, Learning Rate 1.000e-04, It/sec 0.630, Tokens/sec 95.351, Trained Tokens 555428, Peak mem 7.359 GB
+Iter 3560: Train loss [92m0.19310875[0m, Learning Rate 1.000e-04, It/sec 0.638, Tokens/sec 99.779, Trained Tokens 556993, Peak mem 7.359 GB
+Iter 3570: Train loss [92m0.17349732[0m, Learning Rate 1.000e-04, It/sec 0.587, Tokens/sec 93.441, Trained Tokens 558586, Peak mem 7.359 GB
+Iter 3580: Train loss [92m0.22212098[0m, Learning Rate 1.000e-04, It/sec 0.634, Tokens/sec 94.715, Trained Tokens 560081, Peak mem 7.359 GB
+Iter 3590: Train loss [92m0.20720570[0m, Learning Rate 1.000e-04, It/sec 0.646, Tokens/sec 98.831, Trained Tokens 561612, Peak mem 7.359 GB
+Iter 3600: Train loss [92m0.20363061[0m, Learning Rate 1.000e-04, It/sec 0.619, Tokens/sec 96.008, Trained Tokens 563162, Peak mem 7.359 GB
+[94mIter 3600: Saved adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors and checkpoints/qwen25vl_mango_qlora/0003600_adapters.safetensors.[0m
+INFO:__main__:[95mTraining completed! Model saved to checkpoints/qwen25vl_mango_qlora/adapters.safetensors[0m
+[92mSaved final adapter weights to checkpoints/qwen25vl_mango_qlora/adapters.safetensors.[0m

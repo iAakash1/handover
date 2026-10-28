@@ -33,3 +33,9 @@ projects/04_llava_blip2/blip2_march/outputs/
 # per-epoch checkpoint tokenizers (11 MB each) come with download_models.py --all
 **/checkpoint-*/tokenizer.json
 **/epoch-*/tokenizer.json
+
+# MLX project 09 (Mac): raw images, the normalized copies its pipeline writes, local envs
+projects/09_plantdx_mlx_knowledge_grounded/tomato/raw/PlantVillage/
+projects/09_plantdx_mlx_knowledge_grounded/mango/raw/MangoLeafBD/
+projects/09_plantdx_mlx_knowledge_grounded/datasets/*/processed/
+projects/09_plantdx_mlx_knowledge_grounded/.venv*/

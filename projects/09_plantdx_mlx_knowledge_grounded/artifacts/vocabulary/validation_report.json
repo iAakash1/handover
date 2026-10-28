@@ -1,0 +1,9 @@
+{
+  "checks_run": 9,
+  "kind": "plantdx.vocabulary.validation_report",
+  "lexicon_item_count": 983,
+  "status": "valid",
+  "violation_count": 0,
+  "vocabulary_item_count": 268,
+  "vocabulary_version": "V1"
+}

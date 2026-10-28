@@ -1,0 +1,401 @@
+image_id,model,disease_id,other_disease,hallucinated_pathogen,hallucinated_treatment,hallucinated_crop,impossible_symptom
+anthracnose/20211008_124336 (Custom).jpg,base,mango_anthracnose,False,False,False,False,False
+anthracnose/20211008_124336 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/20211008_125121 (Custom).jpg,base,mango_anthracnose,False,False,False,False,False
+anthracnose/20211008_125121 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/20211011_134018 (Custom).jpg,base,mango_anthracnose,True,False,False,False,False
+anthracnose/20211011_134018 (Custom).jpg,finetuned,mango_anthracnose,True,False,False,False,False
+anthracnose/20211011_134403 (Custom).jpg,base,mango_anthracnose,True,False,False,False,False
+anthracnose/20211011_134403 (Custom).jpg,finetuned,mango_anthracnose,True,False,False,False,True
+anthracnose/20211011_134556 (Custom).jpg,base,mango_anthracnose,False,False,False,False,False
+anthracnose/20211011_134556 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/20211011_134623 (Custom).jpg,base,mango_anthracnose,False,False,False,False,False
+anthracnose/20211011_134623 (Custom).jpg,finetuned,mango_anthracnose,True,False,False,False,False
+anthracnose/20211011_134725 (Custom).jpg,base,mango_anthracnose,True,False,False,False,False
+anthracnose/20211011_134725 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/20211011_160144 (Custom).jpg,base,mango_anthracnose,False,False,False,False,False
+anthracnose/20211011_160144 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/20211011_165901 (Custom).jpg,base,mango_anthracnose,True,False,False,False,False
+anthracnose/20211011_165901 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/20211011_170712 - Copy - Copy - Copy (Custom).jpg,base,mango_anthracnose,False,False,False,False,False
+anthracnose/20211011_170712 - Copy - Copy - Copy (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/20211011_170717 - Copy - Copy - Copy (Custom).jpg,base,mango_anthracnose,False,False,False,False,False
+anthracnose/20211011_170717 - Copy - Copy - Copy (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/20211011_171138 - Copy - Copy - Copy (Custom).jpg,base,mango_anthracnose,False,False,True,False,False
+anthracnose/20211011_171138 - Copy - Copy - Copy (Custom).jpg,finetuned,mango_anthracnose,True,False,False,False,True
+anthracnose/IMG_20211011_140309 (Custom).jpg,base,mango_anthracnose,False,False,False,False,False
+anthracnose/IMG_20211011_140309 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/IMG_20211011_152926 (Custom).jpg,base,mango_anthracnose,False,False,False,False,True
+anthracnose/IMG_20211011_152926 (Custom).jpg,finetuned,mango_anthracnose,True,False,False,False,True
+anthracnose/IMG_20211011_153436 (Custom).jpg,base,mango_anthracnose,False,False,False,False,False
+anthracnose/IMG_20211011_153436 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/IMG_20211011_153551 (Custom).jpg,base,mango_anthracnose,True,False,False,False,False
+anthracnose/IMG_20211011_153551 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/IMG_20211011_160523 (Custom).jpg,base,mango_anthracnose,False,False,False,False,False
+anthracnose/IMG_20211011_160523 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/IMG_20211011_160525 (Custom).jpg,base,mango_anthracnose,False,False,False,False,False
+anthracnose/IMG_20211011_160525 (Custom).jpg,finetuned,mango_anthracnose,True,False,False,False,True
+anthracnose/IMG_20211011_161316 (Custom).jpg,base,mango_anthracnose,True,False,False,False,False
+anthracnose/IMG_20211011_161316 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/IMG_20211011_161934 (Custom).jpg,base,mango_anthracnose,True,False,False,False,False
+anthracnose/IMG_20211011_161934 (Custom).jpg,finetuned,mango_anthracnose,True,False,False,False,False
+anthracnose/IMG_20211011_162021 (Custom).jpg,base,mango_anthracnose,True,False,False,False,False
+anthracnose/IMG_20211011_162021 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/IMG_20211011_162456 (Custom).jpg,base,mango_anthracnose,True,False,False,False,False
+anthracnose/IMG_20211011_162456 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/IMG_20211011_162755 (Custom).jpg,base,mango_anthracnose,True,False,False,False,False
+anthracnose/IMG_20211011_162755 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+anthracnose/IMG_20211011_164123 (Custom).jpg,base,mango_anthracnose,False,False,False,False,False
+anthracnose/IMG_20211011_164123 (Custom).jpg,finetuned,mango_anthracnose,True,False,False,False,False
+anthracnose/IMG_20211011_170212 (Custom).jpg,base,mango_anthracnose,False,False,False,False,False
+anthracnose/IMG_20211011_170212 (Custom).jpg,finetuned,mango_anthracnose,False,False,False,False,False
+bacterial_canker/IMG_20211106_120928 (Custom).jpg,base,mango_bacterial_canker,True,False,False,False,False
+bacterial_canker/IMG_20211106_120928 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_134336 (Custom).jpg,base,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_134336 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_134356 (Custom).jpg,base,mango_bacterial_canker,True,False,False,False,False
+bacterial_canker/IMG_20211106_134356 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_134516 (Custom).jpg,base,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_134516 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_134938 (Custom).jpg,base,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_134938 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_135036 (Custom).jpg,base,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_135036 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_135253 (Custom).jpg,base,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_135253 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_135318 (Custom).jpg,base,mango_bacterial_canker,True,False,False,False,False
+bacterial_canker/IMG_20211106_135318 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_135511 (Custom).jpg,base,mango_bacterial_canker,True,False,False,False,False
+bacterial_canker/IMG_20211106_135511 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_135515 (Custom).jpg,base,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_135515 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_135640 (Custom).jpg,base,mango_bacterial_canker,True,False,False,False,False
+bacterial_canker/IMG_20211106_135640 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_135933 (Custom).jpg,base,mango_bacterial_canker,True,False,False,False,False
+bacterial_canker/IMG_20211106_135933 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_140343 (Custom).jpg,base,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_140343 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_141126 (Custom).jpg,base,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_141126 (Custom).jpg,finetuned,mango_bacterial_canker,True,False,False,False,True
+bacterial_canker/IMG_20211106_141148 (Custom).jpg,base,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_141148 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_141239 (Custom).jpg,base,mango_bacterial_canker,True,False,False,False,False
+bacterial_canker/IMG_20211106_141239 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_141745 (Custom).jpg,base,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_141745 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_141919 (Custom).jpg,base,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_141919 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_142707 (Custom).jpg,base,mango_bacterial_canker,True,False,False,False,False
+bacterial_canker/IMG_20211106_142707 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_142734 (Custom).jpg,base,mango_bacterial_canker,True,False,False,False,False
+bacterial_canker/IMG_20211106_142734 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_142809 (Custom).jpg,base,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_142809 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_142816 (Custom).jpg,base,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_142816 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_142828 (Custom).jpg,base,mango_bacterial_canker,True,False,False,False,False
+bacterial_canker/IMG_20211106_142828 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_142941 (Custom).jpg,base,mango_bacterial_canker,True,False,False,False,False
+bacterial_canker/IMG_20211106_142941 (Custom).jpg,finetuned,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_143031 (Custom).jpg,base,mango_bacterial_canker,False,False,False,False,False
+bacterial_canker/IMG_20211106_143031 (Custom).jpg,finetuned,mango_bacterial_canker,True,False,False,False,True
+cutting_weevil/20211011_160614 (Custom) (Custom).jpg,base,mango_cutting_weevil,True,False,False,False,False
+cutting_weevil/20211011_160614 (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_160831 (Custom) (Custom).jpg,base,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_160831 (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_161140(0) (Custom) (Custom).jpg,base,mango_cutting_weevil,True,False,False,False,False
+cutting_weevil/20211011_161140(0) (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_161207 (Custom) (Custom).jpg,base,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_161207 (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_161246 (Custom) (Custom).jpg,base,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_161246 (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_161502 (Custom).jpg,base,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_161502 (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_161607 (Custom) (Custom).jpg,base,mango_cutting_weevil,True,False,False,False,False
+cutting_weevil/20211011_161607 (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_161627 (Custom).jpg,base,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_161627 (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_161908(0) (Custom) (Custom).jpg,base,mango_cutting_weevil,True,False,False,False,False
+cutting_weevil/20211011_161908(0) (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162011 (Custom).jpg,base,mango_cutting_weevil,True,False,False,False,False
+cutting_weevil/20211011_162011 (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162049 (Custom) (Custom).jpg,base,mango_cutting_weevil,True,False,False,False,False
+cutting_weevil/20211011_162049 (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162158 (Custom) (Custom).jpg,base,mango_cutting_weevil,True,False,False,False,False
+cutting_weevil/20211011_162158 (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162308 (Custom) (Custom).jpg,base,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162308 (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162410 (Custom).jpg,base,mango_cutting_weevil,True,False,False,False,True
+cutting_weevil/20211011_162410 (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162424 (Custom) (Custom).jpg,base,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162424 (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162428(0) (Custom) (Custom).jpg,base,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162428(0) (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162434(0) (Custom) (Custom).jpg,base,mango_cutting_weevil,True,False,False,False,False
+cutting_weevil/20211011_162434(0) (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162436 (Custom) (Custom).jpg,base,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162436 (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162501(0) (Custom) (Custom).jpg,base,mango_cutting_weevil,True,False,False,False,False
+cutting_weevil/20211011_162501(0) (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162518(0) (Custom) (Custom).jpg,base,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162518(0) (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162521 (Custom) (Custom).jpg,base,mango_cutting_weevil,True,False,False,False,False
+cutting_weevil/20211011_162521 (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162521 (Custom).jpg,base,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162521 (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_162526 (Custom).jpg,base,mango_cutting_weevil,False,False,False,False,True
+cutting_weevil/20211011_162526 (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_170108 (Custom) (Custom).jpg,base,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/20211011_170108 (Custom) (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/IMG_20211011_140224 (Custom).jpg,base,mango_cutting_weevil,False,False,False,False,False
+cutting_weevil/IMG_20211011_140224 (Custom).jpg,finetuned,mango_cutting_weevil,False,False,False,False,False
+die_back/20211129_160453 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/20211129_160453 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/20211129_160608 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/20211129_160608 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/20211129_160617 (Custom).jpg,base,mango_die_back,True,False,False,False,False
+die_back/20211129_160617 (Custom).jpg,finetuned,mango_die_back,True,False,False,False,False
+die_back/20211129_161033 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/20211129_161033 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/20211129_161531 (Custom).jpg,base,mango_die_back,True,False,False,False,False
+die_back/20211129_161531 (Custom).jpg,finetuned,mango_die_back,True,False,False,False,False
+die_back/20211129_162054 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/20211129_162054 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/20211129_162428 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/20211129_162428 (Custom).jpg,finetuned,mango_die_back,True,False,False,False,False
+die_back/20211129_162514 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/20211129_162514 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/20211129_162705 (Custom).jpg,base,mango_die_back,True,False,False,False,False
+die_back/20211129_162705 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/20211129_162952 (Custom).jpg,base,mango_die_back,True,False,False,False,False
+die_back/20211129_162952 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/20211129_163744 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/20211129_163744 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/20211129_164023 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/20211129_164023 (Custom).jpg,finetuned,mango_die_back,True,False,False,False,False
+die_back/20211129_164048 (Custom).jpg,base,mango_die_back,True,False,False,False,False
+die_back/20211129_164048 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/20211129_164141 (Custom).jpg,base,mango_die_back,True,False,False,False,False
+die_back/20211129_164141 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/20211129_164422 (Custom).jpg,base,mango_die_back,True,False,False,False,False
+die_back/20211129_164422 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/IMG_20211027_182411 (Custom).jpg,base,mango_die_back,True,False,False,False,False
+die_back/IMG_20211027_182411 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/IMG_20211027_183425 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/IMG_20211027_183425 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/IMG_20211027_190339 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/IMG_20211027_190339 (Custom).jpg,finetuned,mango_die_back,True,False,False,False,False
+die_back/IMG_20211027_190349 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/IMG_20211027_190349 (Custom).jpg,finetuned,mango_die_back,True,False,False,False,False
+die_back/IMG_20211027_193419 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/IMG_20211027_193419 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/IMG_20211027_193633 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/IMG_20211027_193633 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/IMG_20211027_230015 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/IMG_20211027_230015 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/IMG_20211028_002804 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/IMG_20211028_002804 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/IMG_20211028_002845 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/IMG_20211028_002845 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+die_back/IMG_20211028_003033 (Custom).jpg,base,mango_die_back,False,False,False,False,False
+die_back/IMG_20211028_003033 (Custom).jpg,finetuned,mango_die_back,False,False,False,False,False
+gall_midge/IMG_20211106_161413 (Custom).jpg,base,mango_gall_midge,True,False,False,False,False
+gall_midge/IMG_20211106_161413 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_161430 (Custom).jpg,base,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_161430 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_161627 (Custom).jpg,base,mango_gall_midge,True,False,False,False,False
+gall_midge/IMG_20211106_161627 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_162106 (Custom).jpg,base,mango_gall_midge,False,False,False,False,True
+gall_midge/IMG_20211106_162106 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_162119 (Custom).jpg,base,mango_gall_midge,True,False,False,False,False
+gall_midge/IMG_20211106_162119 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_162407 (Custom).jpg,base,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_162407 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_162425 (Custom).jpg,base,mango_gall_midge,True,False,False,False,False
+gall_midge/IMG_20211106_162425 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_162852 (Custom).jpg,base,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_162852 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_162855 (Custom).jpg,base,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_162855 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_162909 (Custom).jpg,base,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_162909 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_163020 (Custom).jpg,base,mango_gall_midge,True,False,False,False,False
+gall_midge/IMG_20211106_163020 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_163314 (Custom).jpg,base,mango_gall_midge,True,False,False,False,False
+gall_midge/IMG_20211106_163314 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_163656 (Custom).jpg,base,mango_gall_midge,True,False,False,False,False
+gall_midge/IMG_20211106_163656 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_163815 (Custom).jpg,base,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_163815 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_163828 (Custom).jpg,base,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_163828 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_164142 (Custom).jpg,base,mango_gall_midge,True,False,False,False,False
+gall_midge/IMG_20211106_164142 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_164440 (Custom).jpg,base,mango_gall_midge,True,False,False,False,False
+gall_midge/IMG_20211106_164440 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_164443 (Custom).jpg,base,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_164443 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_164449 (Custom).jpg,base,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_164449 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_165509 (Custom).jpg,base,mango_gall_midge,True,False,False,False,False
+gall_midge/IMG_20211106_165509 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_165608 (Custom).jpg,base,mango_gall_midge,True,False,False,False,False
+gall_midge/IMG_20211106_165608 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_165610 (Custom).jpg,base,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_165610 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_170213 (Custom).jpg,base,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_170213 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_170247 (Custom).jpg,base,mango_gall_midge,True,False,False,False,False
+gall_midge/IMG_20211106_170247 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_170321 (Custom).jpg,base,mango_gall_midge,False,False,False,False,False
+gall_midge/IMG_20211106_170321 (Custom).jpg,finetuned,mango_gall_midge,False,False,False,False,False
+healthy/20211231_123225 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_123225 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_123243 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_123243 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_123405 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_123405 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_124401 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_124401 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_124546 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_124546 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_124813 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_124813 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_124917 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_124917 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_130002 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_130002 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_130041 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_130041 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_154939 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_154939 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_155835 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_155835 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_155927 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_155927 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_160300 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_160300 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_160448 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_160448 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_160500 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_160500 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_160709 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_160709 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_160924 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_160924 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_161515 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_161515 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_161523 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_161523 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_161529 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_161529 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_161840 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_161840 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_162050 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_162050 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_162239 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_162239 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_162257 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_162257 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+healthy/20211231_162412 (Custom).jpg,base,mango_healthy,False,False,False,False,False
+healthy/20211231_162412 (Custom).jpg,finetuned,mango_healthy,False,False,False,False,False
+powdery_mildew/20211109_121314 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/20211109_121314 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/20211109_121422 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/20211109_121422 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/20211109_121547(0) (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/20211109_121547(0) (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/20211109_121750 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/20211109_121750 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/20211109_121910 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/20211109_121910 (Custom).jpg,finetuned,mango_powdery_mildew,True,False,False,False,False
+powdery_mildew/20211109_121929 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/20211109_121929 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/20211109_121938 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/20211109_121938 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/20211109_122206 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/20211109_122206 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_115520 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_115520 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_120339 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_120339 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_122446 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_122446 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_123141 (Custom).jpg,base,mango_powdery_mildew,True,False,False,False,False
+powdery_mildew/IMG_20211107_123141 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_123502 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_123502 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_123623 (Custom).jpg,base,mango_powdery_mildew,True,False,False,False,False
+powdery_mildew/IMG_20211107_123623 (Custom).jpg,finetuned,mango_powdery_mildew,True,False,False,False,False
+powdery_mildew/IMG_20211107_123919 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_123919 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_123939 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_123939 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_124006 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_124006 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_124031 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_124031 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_124047 (Custom).jpg,base,mango_powdery_mildew,False,False,True,False,False
+powdery_mildew/IMG_20211107_124047 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_124055 (Custom).jpg,base,mango_powdery_mildew,True,False,False,False,False
+powdery_mildew/IMG_20211107_124055 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_125107 (Custom).jpg,base,mango_powdery_mildew,True,False,False,False,False
+powdery_mildew/IMG_20211107_125107 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_125945 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_125945 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_125951 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_125951 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_125957 (Custom).jpg,base,mango_powdery_mildew,False,False,True,False,False
+powdery_mildew/IMG_20211107_125957 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_130023 (Custom).jpg,base,mango_powdery_mildew,False,False,False,False,False
+powdery_mildew/IMG_20211107_130023 (Custom).jpg,finetuned,mango_powdery_mildew,False,False,False,False,False
+sooty_mould/IMG_20211108_120937 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_120937 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_121006 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_121006 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_121238 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,True
+sooty_mould/IMG_20211108_121238 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_121918 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_121918 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_121959 (Custom).jpg,base,mango_sooty_mould,True,False,False,False,False
+sooty_mould/IMG_20211108_121959 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_122519 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_122519 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_123018 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_123018 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_123030 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_123030 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_123221 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_123221 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_123302 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_123302 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_123437 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_123437 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_123453 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_123453 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_123514 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211108_123514 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211211_154048 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211211_154048 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211211_154134 (Custom).jpg,base,mango_sooty_mould,True,False,False,False,False
+sooty_mould/IMG_20211211_154134 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211211_154849 (Custom).jpg,base,mango_sooty_mould,False,False,True,False,False
+sooty_mould/IMG_20211211_154849 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211211_154906 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211211_154906 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211211_155345 (Custom).jpg,base,mango_sooty_mould,False,False,True,False,False
+sooty_mould/IMG_20211211_155345 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211211_155518 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211211_155518 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211212_143223 (Custom).jpg,base,mango_sooty_mould,True,False,False,False,False
+sooty_mould/IMG_20211212_143223 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211212_143243 (Custom).jpg,base,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211212_143243 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211212_144454 (Custom).jpg,base,mango_sooty_mould,True,False,False,False,False
+sooty_mould/IMG_20211212_144454 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211212_145113 (Custom).jpg,base,mango_sooty_mould,True,False,False,False,False
+sooty_mould/IMG_20211212_145113 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211212_150310 (Custom).jpg,base,mango_sooty_mould,True,False,False,False,False
+sooty_mould/IMG_20211212_150310 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False
+sooty_mould/IMG_20211212_150341 (Custom).jpg,base,mango_sooty_mould,True,False,False,False,False
+sooty_mould/IMG_20211212_150341 (Custom).jpg,finetuned,mango_sooty_mould,False,False,False,False,False

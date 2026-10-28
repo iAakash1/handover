@@ -1,0 +1,7 @@
+{
+  "checks_run": 8,
+  "kind": "plantdx.templates.validation_report",
+  "status": "valid",
+  "template_count": 33,
+  "violation_count": 0
+}

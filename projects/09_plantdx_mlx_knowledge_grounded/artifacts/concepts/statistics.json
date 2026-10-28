@@ -1,0 +1,35 @@
+{
+  "build_checksum": "sha256:e6f4870b777d63864d5e33078c9b8183cb49bcb89ab68ea40f471a4791288cb3",
+  "concept_availability": {
+    "agent_category_descriptor": 16,
+    "agent_reference": 16,
+    "chlorosis": 14,
+    "differential": 11,
+    "disease_identity": 18,
+    "extent": 16,
+    "healthy_state": 2,
+    "host": 18,
+    "leaf_deformation": 9,
+    "leaf_location": 15,
+    "lesion_color": 12,
+    "lesion_distribution": 16,
+    "lesion_shape": 12,
+    "necrosis": 15,
+    "primary_sign": 16,
+    "secondary_sign": 16,
+    "texture": 12
+  },
+  "concepts_version": "C1",
+  "condition_types": {
+    "Disease": 12,
+    "HealthyState": 2,
+    "PestDamage": 3,
+    "SurfaceColonization": 1
+  },
+  "disease_count": 18,
+  "mean_optional_per_disease": 11.0,
+  "total_forbidden": 98,
+  "total_mandatory": 36,
+  "total_optional": 198,
+  "validation_status": "valid"
+}

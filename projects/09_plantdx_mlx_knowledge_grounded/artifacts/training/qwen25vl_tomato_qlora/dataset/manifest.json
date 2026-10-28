@@ -1,0 +1,49 @@
+{
+  "crop": "tomato",
+  "classes": [
+    "healthy",
+    "bacterial_spot",
+    "early_blight",
+    "late_blight",
+    "leaf_mold",
+    "septoria_leaf_spot",
+    "spider_mites",
+    "target_spot",
+    "mosaic_virus",
+    "yellow_leaf_curl_virus"
+  ],
+  "response_format": "qa",
+  "captions_per_image": 1,
+  "split_seed": 20260711,
+  "split_ratios": {
+    "train": 0.9,
+    "validation": 0.05,
+    "test": 0.05
+  },
+  "image_count": 18006,
+  "row_count": 18006,
+  "rows_per_split": {
+    "train": 16201,
+    "validation": 895,
+    "test": 910
+  },
+  "rows_per_disease": {
+    "tomato_bacterial_spot": 2127,
+    "tomato_early_blight": 1000,
+    "tomato_healthy": 1590,
+    "tomato_late_blight": 1756,
+    "tomato_leaf_mold": 952,
+    "tomato_mosaic_virus": 373,
+    "tomato_septoria_leaf_spot": 1771,
+    "tomato_spider_mites": 1676,
+    "tomato_target_spot": 1404,
+    "tomato_yellow_leaf_curl_virus": 5357
+  },
+  "instruction_count": 8,
+  "corpus_checksum": "sha256:1225eb8605edb71839f89618bfdcd4a1abba414869f64c1fdc5951ee865ba089",
+  "files": {
+    "train": "train.jsonl",
+    "validation": "validation.jsonl",
+    "test": "test.jsonl"
+  }
+}

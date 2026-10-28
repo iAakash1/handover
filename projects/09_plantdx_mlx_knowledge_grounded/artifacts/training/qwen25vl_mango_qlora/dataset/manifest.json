@@ -1,0 +1,45 @@
+{
+  "crop": "mango",
+  "classes": [
+    "healthy",
+    "anthracnose",
+    "bacterial_canker",
+    "cutting_weevil",
+    "die_back",
+    "gall_midge",
+    "powdery_mildew",
+    "sooty_mould"
+  ],
+  "response_format": "qa",
+  "captions_per_image": 1,
+  "split_seed": 20260711,
+  "split_ratios": {
+    "train": 0.9,
+    "validation": 0.05,
+    "test": 0.05
+  },
+  "image_count": 4000,
+  "row_count": 4000,
+  "rows_per_split": {
+    "train": 3600,
+    "validation": 200,
+    "test": 200
+  },
+  "rows_per_disease": {
+    "mango_anthracnose": 500,
+    "mango_bacterial_canker": 500,
+    "mango_cutting_weevil": 500,
+    "mango_die_back": 500,
+    "mango_gall_midge": 500,
+    "mango_healthy": 500,
+    "mango_powdery_mildew": 500,
+    "mango_sooty_mould": 500
+  },
+  "instruction_count": 8,
+  "corpus_checksum": "sha256:1225eb8605edb71839f89618bfdcd4a1abba414869f64c1fdc5951ee865ba089",
+  "files": {
+    "train": "train.jsonl",
+    "validation": "validation.jsonl",
+    "test": "test.jsonl"
+  }
+}

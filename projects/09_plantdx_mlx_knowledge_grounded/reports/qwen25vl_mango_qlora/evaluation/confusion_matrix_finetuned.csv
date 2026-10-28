@@ -1,0 +1,9 @@
+true\pred,mango_anthracnose,mango_bacterial_canker,mango_cutting_weevil,mango_die_back,mango_gall_midge,mango_healthy,mango_powdery_mildew,mango_sooty_mould
+mango_anthracnose,17,0,0,0,6,0,0,2
+mango_bacterial_canker,0,23,0,0,2,0,0,0
+mango_cutting_weevil,0,0,25,0,0,0,0,0
+mango_die_back,6,0,0,1,0,0,0,0
+mango_gall_midge,0,0,0,0,25,0,0,0
+mango_healthy,0,0,0,0,0,25,0,0
+mango_powdery_mildew,0,0,0,0,0,0,23,2
+mango_sooty_mould,0,0,0,0,0,0,0,25

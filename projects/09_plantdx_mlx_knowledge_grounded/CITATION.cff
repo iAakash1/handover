@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use PlantDx, please cite it using these metadata."
+title: "PlantDx: A Knowledge-Grounded Framework for Instruction-Tuning Datasets for Agricultural Vision-Language Models"
+abstract: >-
+  PlantDx is a reproducible, knowledge-grounded framework for constructing
+  instruction-tuning datasets for agricultural Vision-Language Models. Captions
+  are generated from a curated, cited Disease Knowledge Base and a controlled
+  vocabulary via ontology-driven templates and multi-stage validation, without
+  using any VLM/LLM prediction or image analysis.
+type: software
+authors:
+  - name: "PlantDx Contributors"
+license: Apache-2.0
+repository-code: "https://github.com/iAakash1/experimentation"
+keywords:
+  - vision-language models
+  - instruction tuning
+  - plant pathology
+  - agriculture
+  - knowledge-grounded generation
+  - QLoRA
+  - MLX
+version: "0.1.0"
+date-released: "2026-07-11"
