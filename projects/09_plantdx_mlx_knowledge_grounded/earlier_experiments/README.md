@@ -53,7 +53,8 @@ The models download from Hugging Face (`mlx-community/...`, 4-bit) on first use.
   images are `../03_zero_shot_4vlm_benchmark_2026-06-25/images/` (identical files). The 20 TIH sample photos of
   `a_` are TIH-provided and not in git.
 - **03:** `scripts/` (benchmark, ground truth from file names, LLM judge, evaluation, plots, report), `images/`,
-  raw answers per model (`results/<model>/*.txt`, `json_results/`), `report/final_report.md` + PDF + charts.
+  raw answers per model (`results/<model>/*.txt`, `json_results/`), [`report/final_report.md`](03_zero_shot_4vlm_benchmark_2026-06-25/report/final_report.md) + PDF + charts (`report/charts/`).
 - **04:** `scripts/` (runner, parser, memory/metadata helpers, validation, aggregation), `dataset/` (30 images),
   every prediction (`outputs/predictions_<model>.json`, `results/predictions.csv`), per-model logs,
-  `report/PlantDx_VLM_Evaluation_Report.docx`.
+  `report/PlantDx_VLM_Evaluation_Report.docx` (also as [`report/PlantDx_VLM_Evaluation_Report.md`](04_zero_shot_7vlm_benchmark_2026-07-01/report/PlantDx_VLM_Evaluation_Report.md)
+  with its 14 charts in `report/figures/`, readable on GitHub).

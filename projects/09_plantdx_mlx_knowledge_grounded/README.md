@@ -1,10 +1,27 @@
-# 09 · PlantDx knowledge-grounded VLM on Apple Silicon (MLX) — July 2026
+# 09 · PlantDx: knowledge-grounded VLM for leaf-disease diagnosis on Apple Silicon (MLX)
+
+**TIH IIT Bombay · Chanakya Fellowship · June – July 2026**
+Aakash Trimbak Jawle, Kamaaksha Rajendra Kharul · Faculty mentor: Dr. Santwana Gudadhe (PCCOE Pune) ·
+TIH mentors: Harish Lokawad, Hrishikesh Patil, Rutuja Chavan
+
+Original repository: [github.com/iAakash1/experimentation](https://github.com/iAakash1/experimentation) ·
+Paper draft: [`PlantDx: Knowledge-Grounded Instruction Tuning for Vision-Language Crop Disease Diagnosis`](../../docs/publication/drafts/PlantDx_Knowledge_Grounded_Instruction_Tuning_draft_2026-08-21.pdf)
 
 > **Runs on a Mac only.** Trained with Apple's MLX framework on an Apple M4 Pro (24 GB unified memory). This folder
 > is everything done on that Mac: the full project (code, tests, knowledge base, configs, caption corpus, training
 > datasets, evaluation reports, training logs, Streamlit demo), the tomato and mango images it was trained on, and
 > the earlier caption and zero-shot experiments (`earlier_experiments/`). Only the two trained adapter files are
 > missing; they were no longer on the Mac (see [Adapters](#adapters)).
+
+## In one paragraph
+
+Off-the-shelf vision-language models could not name tomato diseases: the base model here scored 7.3%, and in the
+zero-shot benchmarks of `earlier_experiments/` the best model reached 23%. Instead of letting a model write the training captions, which
+would copy its mistakes, we compiled them from a **cited Disease Knowledge Base**: DKB → typed ontology → controlled
+vocabulary → per-disease concept models → templates → 1,966 validated captions. Every step is deterministic and
+content-hashed. Qwen2.5-VL-7B-Instruct (4-bit) was then fine-tuned with LoRA on image + caption pairs using
+[MLX](https://github.com/ml-explore/mlx) and [mlx-vlm](https://github.com/Blaizzy/mlx-vlm): **7.3% → 93.7%** on
+910 held-out tomato images and **17.5% → 82.0%** on 200 mango images.
 
 ## What MLX is, in short
 
@@ -13,40 +30,49 @@ so a 4-bit 7B model plus LoRA training fits in 24 GB without an NVIDIA card. `ml
 models on top of MLX (loading, LoRA training, generation). MLX only runs on macOS with Apple Silicon — it does
 not run on Windows or with CUDA, so nothing in this folder runs on the TIH workstation.
 
-## What we built
+## Training setup
 
-Instead of letting a model write training captions (which copies its mistakes), we compiled the captions from a
-**cited Disease Knowledge Base**: DKB → typed ontology → controlled vocabulary → per-disease concept models →
-templates → 1,966 validated captions. Every step is deterministic and content-hashed, so the caption corpus can
-be rebuilt byte for byte. Qwen2.5-VL-7B-Instruct-4bit was then fine-tuned with QLoRA on image + caption pairs.
+Taken from the training command and log of each run (`reports/qwen25vl_<crop>_qlora/training_plan.md`,
+`logs/qwen25vl_<crop>_qlora/train.log`, `checkpoints/qwen25vl_<crop>_qlora/adapter_config.json`).
 
 | Setting | Value |
 |---|---|
-| Base model | `mlx-community/Qwen2.5-VL-7B-Instruct-4bit` |
-| Method | QLoRA (LoRA over the 4-bit base), rank 16, alpha 32, dropout 0.05, language model only |
-| Training | 1 epoch, LR 1e-4 cosine, 100 warm-up steps, micro-batch 1 × grad-accum 8, seed 20260711 |
-| Trainable parameters | 40,370,176 |
-| Tomato data | PlantVillage tomato, 10 classes, 16,201 / 895 / 910 (image-grouped split) |
-| Mango data | MangoLeafBD, 8 classes, 3,600 / 200 / 200 |
-| Hardware | Apple M4 Pro, 24 GB unified memory, Python 3.12.13, `mlx` 0.31.2, `mlx-vlm` 0.6.4 |
+| Base model | [`mlx-community/Qwen2.5-VL-7B-Instruct-4bit`](https://huggingface.co/mlx-community/Qwen2.5-VL-7B-Instruct-4bit) (4-bit weights; LoRA on top, i.e. QLoRA) |
+| LoRA | rank 16, alpha 32 (scale 2.0), dropout 0.05, on q/k/v/o and gate/up/down projections of all 28 language-model layers; vision tower frozen |
+| Trainable parameters | 40,370,176 of 8,292,037,632 (0.487%) |
+| Optimisation | 1 epoch, learning rate 1e-4 (constant: the config asks for cosine with 100 warm-up steps, but the `mlx_vlm.lora` command passed no schedule and the log shows 1.000e-04 throughout), micro-batch 1 × gradient accumulation 8, gradient clipping 1.0, gradient checkpointing, loss on answers only (`--train-on-completions`) |
+| Images | resized to 448 × 448; max sequence length 2,048 |
+| Seed | 20260711 (split and training) |
+| Tomato data | PlantVillage tomato, 10 classes: 16,201 train / 895 validation / 910 test (image-grouped split) |
+| Mango data | MangoLeafBD, 8 classes: 3,600 / 200 / 200 |
+| Hardware and software | Apple M4 Pro, 24 GB, Python 3.12.13, `mlx` 0.31.2, `mlx-vlm` 0.6.4 |
 
 ## Results (held-out test sets)
 
-| Crop | Base (zero-shot) | Fine-tuned | Macro-F1 | Weighted-F1 | Macro precision / recall* |
+From `reports/qwen25vl_<crop>_qlora/evaluation/metrics.json`.
+
+| Crop | Base (zero-shot) | Fine-tuned | Macro-F1 | Weighted-F1 | Macro precision / recall |
 |---|---:|---:|---:|---:|---|
-| Tomato (910 images) | 7.3% | **93.7%** | 0.919 | 0.937 | 0.937 / 0.912 |
+| Tomato (910 images) | 7.3% | **93.7%** | 0.919 | 0.937 | 0.937 / 0.910 |
 | Mango (200 images) | 17.5% | **82.0%** | 0.811 | 0.811 | 0.920 / 0.820 |
 
-\* computed from the published confusion matrices (`../../evaluation/mlx_from_confusion_matrices`).
+| Caption quality (base → fine-tuned) | BLEU-4 | ROUGE-L | METEOR | CIDEr | BERTScore-F1 |
+|---|---|---|---|---|---|
+| Tomato | 0.003 → 0.192 | 0.093 → 0.428 | 0.149 → 0.431 | 0.000 → 0.956 | 0.843 → 0.907 |
+| Mango | 0.004 → 0.190 | 0.098 → 0.423 | 0.160 → 0.454 | 0.000 → 0.946 | 0.843 → 0.907 |
 
-Caption quality, tomato (base → fine-tuned): BLEU-4 0.003 → 0.192, ROUGE-L 0.093 → 0.428, CIDEr 0.000 → 0.956,
-BERTScore-F1 0.843 → 0.907. Mango: BLEU-4 0.004 → 0.190, ROUGE-L 0.098 → 0.423, METEOR 0.160 → 0.454,
-CIDEr 0.000 → 0.946, BERTScore-F1 0.843 → 0.907.
+Weakest classes (`confusion_matrix_finetuned.csv`): tomato **Early Blight**, F1 0.79 — 33 of 50 correct, 8 named
+Late Blight, 6 Bacterial Spot, 2 Target Spot, 1 Septoria Leaf Spot. Mango **Die Back**, F1 0.08 — 1 of 25 correct,
+6 named Anthracnose, 18 gave no recognisable disease name.
 
-Weakest classes: tomato Early Blight (F1 0.79, confused with Late Blight / Leaf Mold); mango Die Back
-(F1 0.08 — 18 of its 25 test images produced no recognisable disease name).
+| Tomato: confusion matrix (fine-tuned) | Tomato: F1 per disease, base vs fine-tuned |
+|---|---|
+| ![](reports/qwen25vl_tomato_qlora/evaluation/figures/confusion_matrix_finetuned.png) | ![](reports/qwen25vl_tomato_qlora/evaluation/figures/per_disease_f1.png) |
+| **Mango: confusion matrix (fine-tuned)** | **Mango: F1 per disease, base vs fine-tuned** |
+| ![](reports/qwen25vl_mango_qlora/evaluation/figures/confusion_matrix_finetuned.png) | ![](reports/qwen25vl_mango_qlora/evaluation/figures/per_disease_f1.png) |
 
-Every number comes from `reports/qwen25vl_<crop>_qlora/evaluation/metrics.json`.
+All figures (accuracy, BERTScore, CIDEr, hallucination, latency, response length, base confusion matrix) are in
+`reports/qwen25vl_<crop>_qlora/evaluation/figures/`, as PNG and SVG.
 
 ## Timeline of the Mac work
 
@@ -73,7 +99,7 @@ Every number comes from `reports/qwen25vl_<crop>_qlora/evaluation/metrics.json`.
 | `caption_framework/`, `ontology_design/` | Stage 2 and 3 design specifications |
 | `configs/` | Pipeline configs; `configs/train/qwen25vl_tomato.yaml` and `qwen25vl_mango.yaml` are the two training runs |
 | `assets/` | Authored inputs: caption templates, label map, instruction banks (tomato, mango) |
-| `tests/` | 587 unit / integration / benchmark tests |
+| `tests/` | 587 unit / integration / benchmark tests; `coverage.xml` is the coverage report from the Mac run (14 Jul 2026) |
 | `docs/` | Architecture, training, evaluation, demo app, known issues, ADRs, figures |
 | `scripts/` | `setup_eval_env.sh` (evaluation env), `dev_setup.sh`, `run_pipeline.sh` (early scaffold), README figure renderer |
 | `artifacts/` | Generated: ontology, vocabulary, concept models, templates, the 1,966-caption corpus, exports (generic / llava / paligemma / blip2 / messages), training datasets (`artifacts/training/qwen25vl_<crop>_qlora/dataset/`) |
@@ -92,6 +118,18 @@ Every number comes from `reports/qwen25vl_<crop>_qlora/evaluation/metrics.json`.
 On the Mac the project also sat in a nested `experimentation/` folder: an identical copy that was pushed to a
 teammate's GitHub repository which no longer exists. Its one commit is kept in
 `../../history/kharulkamaaksha_experimentation.bundle`.
+
+## Papers, reports and presentations about this work
+
+| Document | What it is |
+|---|---|
+| [`PlantDx_Knowledge_Grounded_Instruction_Tuning_draft_2026-08-21.pdf`](../../docs/publication/drafts/PlantDx_Knowledge_Grounded_Instruction_Tuning_draft_2026-08-21.pdf) | Paper draft on this pipeline (15 pages, August 2026) |
+| [`PlantDx_Engineering_and_Research_History.pdf`](../../docs/reports/PlantDx_Engineering_and_Research_History.pdf), [`final_plantdx_story.pdf`](../../docs/reports/final_plantdx_story.pdf) | Engineering history of the knowledge-grounded pipeline (July 2026) |
+| [`06-PoCRA-PCCOE-Tomato-Mango-Results-Report-21-06-26-Version-01.docx`](../../docs/reports/06-PoCRA-PCCOE-Tomato-Mango-Results-Report-21-06-26-Version-01.docx) | PoCRA results report: knowledge-grounded fine-tuning, tomato and mango |
+| [`VLM_Teaching_Session.md`](../../docs/reports/VLM_Teaching_Session.md) (+ `.pptx`, run of show) | Teaching session on VLMs for students, built around this work (August 2026) |
+| [`earlier_experiments/04_…/report/PlantDx_VLM_Evaluation_Report.md`](earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01/report/PlantDx_VLM_Evaluation_Report.md) | Zero-shot benchmark report with all its charts |
+| [`earlier_experiments/03_…/report/final_report.md`](earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25/report/final_report.md) | Four-model zero-shot benchmark report |
+| [`docs/`](docs/) | Developer documentation: architecture, ontology, vocabulary, concepts, corpus, training, evaluation, demo app, known issues, design decisions (`docs/adr/`) |
 
 ## How to start (Mac with Apple Silicon)
 
