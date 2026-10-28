@@ -91,7 +91,7 @@ All 8 papers: `docs/publication.md`. ICAIN 2026 paper (ID 953), camera-ready PDF
 | Version | Date | Code | Model | Report |
 |---|---|---|---|---|
 | v0.1 Custom CNN | 29 Dec 2025 | `projects/01_cnn_keras_tomato/model/train_cnn.py` | `model/best_model_cnn.keras` | `evaluation/keras/custom_cnn_best_tomato_test` |
-| v0.2 EfficientNetB3 + gates | 04 Jan 2026 | `projects/01_cnn_keras_tomato/versions/v0.2-v0.3_cottoncrop_2026-01-06` | `model/best_model_efficientNetB3.keras` | `evaluation/keras/efficientnetb3_keras` |
+| v0.2 EfficientNetB3 + gates | 04 Jan 2026 | `projects/01_cnn_keras_tomato/versions/v0.2_cottoncrop_2026-01-04` | `model/best_model_efficientNetB3.keras` | `evaluation/keras/efficientnetb3_keras` |
 | v0.3 MobileNetV2, ConvNeXt (Keras) | 06 Jan 2026 | same folder | `model/best_model_mobilenet.keras`, `best_model_convnext.keras` | `evaluation/keras/` |
 | v0.4 ConvNeXt (PyTorch) | 08 Jan 2026 | `projects/02_cnn_pytorch_convnext` | `models/convnext_tomato_best.pth` | `evaluation/convnext_torch` |
 | v0.5 Integrated pipeline | 21–27 Jan 2026 | `projects/01_cnn_keras_tomato/versions/v0.5_integrated_pipeline_2026-01-27` | same models (byte-identical) | – |
@@ -135,3 +135,17 @@ All 8 papers: `docs/publication.md`. ICAIN 2026 paper (ID 953), camera-ready PDF
 | B: the seven GitHub repositories, all branches and commits | `history/README.md` (+ offline bundles) |
 | C: TIH-IoT month folders | `docs/monthly/` (one page per month) and the projects listed above |
 | Intermediate training checkpoints | `docs/CHECKPOINT_INVENTORY.md` |
+
+## Everything else found on the workstation
+
+| What | Where |
+|---|---|
+| Unedited originals of every file that was changed for the handover (paths, headers, links) | `archive/original_files/` |
+| Earlier copies from the Downloads folder: Florence-2 patch and quick-train (15 Jun), BLIP-2 quick-train (12 Jun), crop app config/README (13 Apr), first Qwen app fix `fix_app.py` (7 Apr) | `failed_experiments/01_florence2_finetuning/earlier_copies_2026-06-15`, `projects/04_llava_blip2/blip2_rerun_june/earlier_copies_2026-06-12`, `projects/06_qwen25vl_plantvillage/versions/v5.0_crop_app_2026-04-13/earlier_copies`, `failed_experiments/05_qwen_april_first_attempt/fix_app.py` |
+| Knowledge base v2 for the TIH tomato migration (12 Aug) | `projects/10_tih_tomato_qwen_qlora/private_archive/knowledge_base/dkb_v2_tomato_only_high_depth_rectified.json` |
+| VLM presentation (31 Mar) | `docs/reports/vlm_presentation_2026-03-31.html` |
+| First Qwen diagnosis output (8 Apr) | `projects/06_qwen25vl_plantvillage/qwen/sample_diagnosis_2026-04-08.txt` |
+| Photos uploaded to the PlantDx app on 18 May | `projects/07_plantdx_plantvillage/data/raw/uploads/` |
+| Field test photos (31 Mar, 9 Apr) | `projects/06_qwen25vl_plantvillage/test_images/` |
+| CottonCrop at every commit (4 and 6 Jan) | `projects/01_cnn_keras_tomato/versions/` |
+| Datasets (PlantVillage, SoyNet zip and raw photos, TIH tomato, MangoLeafBD) | not redistributed; locations in `docs/datasets.md` |

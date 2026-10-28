@@ -1,0 +1,11 @@
+# never commit datasets or local tool state
+**/PlantVillage/
+**/Dataset/
+**/Raw_SoyNet_Data/
+**/Preprocessing_SoyNet_Data/
+.claude/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

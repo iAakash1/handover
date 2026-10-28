@@ -6,7 +6,7 @@
 |---|---|---|
 | Python | install Python 3.10 (64-bit) from python.org, tick "Add to PATH" | the environments were built with 3.10.8 |
 | Environments | `python setup\setup_envs.py` | creates `.venvs\keras`, `soynet`, `vlm`, `florence`, `tih` (~25 GB, 20–40 min) |
-| Models | `python setup\download_models.py` | 3.6 GB from github.com/iAakash1/TIH-IoT, checksummed, re-runnable (`--all` adds older versions and per-epoch checkpoints, +2.6 GB) |
+| Models | `python setup\download_models.py` | 3.6 GB from github.com/iAakash1/TIH-IoT, checksummed, re-runnable (`--all` adds older versions and per-epoch checkpoints, +3.4 GB) |
 | Check | `python setup\check_setup.py` | must print **READY** |
 
 GPU: an NVIDIA card with a recent driver. The VLMs (04–08, 10) need ~16–24 GB of GPU memory; the CNNs (01–03)

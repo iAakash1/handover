@@ -69,8 +69,10 @@ report and run command here, or says plainly why something is not available.
 - **Every commit, branch and tag** of our seven GitHub repositories: `history/README.md`, with offline git
   bundles (e.g. tag `v1.0.0` = the July MLX release, branch `feat/tomato-dataset-migration` = v11.0).
 - **Per-epoch checkpoints** of the TIH runs and PlantVLM, older model copies and the failed EfficientNet files:
-  `python setup\download_models.py --all` (+2.6 GB). The ~64 GB of step-by-step checkpoints that stay on the
+  `python setup\download_models.py --all` (+3.4 GB). The ~64 GB of step-by-step checkpoints that stay on the
   workstation are listed in `docs/CHECKPOINT_INVENTORY.md`.
+- **Unedited originals** of every file that was changed for the handover, and the earlier copies found on the
+  workstation: `archive/` and the `earlier_copies*` folders (all listed at the end of `docs/REPORT_CHECKLIST.md`).
 - **Month by month:** `docs/monthly/` (December 2025 – October 2026).
 - **Reports:** `docs/reports/` (fellowship report, both versions; PoCRA reports v1 and v2; PlantDx history;
   presentations).
@@ -101,6 +103,7 @@ handover/
 ├── failed_experiments/            # everything that did not work out, with code and lessons
 ├── evaluation/                    # vlm_eval.py, vlm_predict.py + every October 2026 evaluation report
 ├── history/                       # every commit/branch/tag of our repositories + offline git bundles
+├── archive/                       # unedited originals of files changed for the handover
 └── docs/
     ├── REPORT_CHECKLIST.md        # every entry of the fellowship report -> where it is here
     ├── HANDOVER_REPORT.md         # model-wise report: data, method, results, failures

@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>VLM PlantVillage — Team Progress Report</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --bg: #0b0f0a;
+    --surface: #111a0f;
+    --surface2: #162013;
+    --border: #1e2e1a;
+    --accent: #4ade80;
+    --accent2: #86efac;
+    --accent-dim: #166534;
+    --warn: #facc15;
+    --red: #f87171;
+    --text: #e8f5e2;
+    --muted: #6b8c63;
+    --mono: 'Space Mono', monospace;
+    --sans: 'Syne', sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Grid noise texture */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(74,222,128,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(74,222,128,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2rem 4rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    padding: 3.5rem 0 2.5rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 3rem;
+    animation: fadeDown 0.7s ease both;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .badge {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: rgba(74,222,128,0.08);
+    border: 1px solid rgba(74,222,128,0.2);
+    padding: 0.3rem 0.8rem;
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #fff;
+  }
+
+  h1 span { color: var(--accent); }
+
+  .header-meta {
+    text-align: right;
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--muted);
+    line-height: 1.8;
+  }
+
+  .subtitle {
+    margin-top: 0.75rem;
+    color: var(--muted);
+    font-size: 1rem;
+    max-width: 520px;
+  }
+
+  /* ── STAT CARDS ── */
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    margin-bottom: 3rem;
+    animation: fadeUp 0.7s 0.1s ease both;
+  }
+
+  .stat-card {
+    background: var(--surface);
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--accent);
+    transform: scaleX(0);
+    transition: transform 0.4s ease;
+    transform-origin: left;
+  }
+
+  .stat-card:hover::before { transform: scaleX(1); }
+
+  .stat-label {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+  }
+
+  .stat-value {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--accent);
+    line-height: 1;
+  }
+
+  .stat-sub {
+    font-size: 0.72rem;
+    color: var(--muted);
+    margin-top: 0.4rem;
+    font-family: var(--mono);
+  }
+
+  /* ── SECTION TITLES ── */
+  .section-title {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .section-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* ── PIPELINE ── */
+  .pipeline {
+    margin-bottom: 3rem;
+    animation: fadeUp 0.7s 0.2s ease both;
+  }
+
+  .pipeline-steps {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0;
+    position: relative;
+  }
+
+  .pipeline-step {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 1.2rem 1rem;
+    position: relative;
+    text-align: center;
+    transition: background 0.2s;
+  }
+
+  .pipeline-step:not(:last-child)::after {
+    content: '→';
+    position: absolute;
+    right: -12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--accent);
+    font-family: var(--mono);
+    font-size: 0.9rem;
+    z-index: 2;
+  }
+
+  .pipeline-step:hover { background: var(--surface2); }
+
+  .step-num {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    color: var(--accent-dim);
+    margin-bottom: 0.4rem;
+  }
+
+  .step-name {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.3rem;
+  }
+
+  .step-detail {
+    font-family: var(--mono);
+    font-size: 0.58rem;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  .step-done { border-top: 2px solid var(--accent); }
+  .step-next { border-top: 2px solid var(--warn); }
+  .step-next .step-num { color: var(--warn); }
+
+  /* ── MODEL COMPARISON ── */
+  .models-section {
+    margin-bottom: 3rem;
+    animation: fadeUp 0.7s 0.25s ease both;
+  }
+
+  .model-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .model-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 1.4rem;
+    position: relative;
+  }
+
+  .model-card.active {
+    border-color: var(--accent);
+    background: var(--surface2);
+  }
+
+  .model-card.dropped {
+    opacity: 0.6;
+  }
+
+  .model-tag {
+    font-family: var(--mono);
+    font-size: 0.58rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 0.6rem;
+  }
+
+  .tag-current { background: rgba(74,222,128,0.15); color: var(--accent); }
+  .tag-dropped { background: rgba(248,113,113,0.12); color: var(--red); }
+
+  .model-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.8rem;
+  }
+
+  .model-specs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .spec-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.35rem;
+  }
+
+  .spec-key { color: var(--muted); }
+  .spec-val { color: var(--text); }
+  .spec-val.good { color: var(--accent); }
+  .spec-val.bad { color: var(--red); }
+
+  /* ── INFERENCE RESULTS ── */
+  .results-section {
+    margin-bottom: 3rem;
+    animation: fadeUp 0.7s 0.3s ease both;
+  }
+
+  .results-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--mono);
+    font-size: 0.7rem;
+  }
+
+  .results-table th {
+    text-align: left;
+    padding: 0.6rem 0.8rem;
+    background: var(--surface2);
+    color: var(--muted);
+    font-size: 0.58rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .results-table td {
+    padding: 0.7rem 0.8rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+    line-height: 1.5;
+  }
+
+  .results-table tr { background: var(--surface); }
+  .results-table tr:hover { background: var(--surface2); transition: background 0.15s; }
+
+  .plant-tag {
+    display: inline-block;
+    padding: 0.15rem 0.4rem;
+    border-radius: 2px;
+    font-size: 0.58rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+  }
+
+  .plant-tomato { background: rgba(248,113,113,0.15); color: #fca5a5; }
+  .plant-potato { background: rgba(251,191,36,0.15); color: #fcd34d; }
+  .plant-pepper { background: rgba(129,140,248,0.15); color: #a5b4fc; }
+
+  .condition-text { color: var(--text); }
+  .severity-badge {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 2px;
+    font-size: 0.58rem;
+    white-space: nowrap;
+  }
+
+  .sev-none { background: rgba(74,222,128,0.12); color: var(--accent2); }
+  .sev-mild { background: rgba(251,191,36,0.12); color: var(--warn); }
+  .sev-moderate { background: rgba(251,146,60,0.12); color: #fb923c; }
+  .sev-severe { background: rgba(248,113,113,0.15); color: var(--red); }
+
+  .caption-preview {
+    color: var(--muted);
+    font-size: 0.63rem;
+    line-height: 1.6;
+    max-width: 420px;
+  }
+
+  /* ── TRAINING CONFIG ── */
+  .config-section {
+    margin-bottom: 3rem;
+    animation: fadeUp 0.7s 0.35s ease both;
+  }
+
+  .config-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .config-block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 1.2rem 1.4rem;
+  }
+
+  .config-block h4 {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.8rem;
+  }
+
+  .config-row {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    padding: 0.3rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .config-row:last-child { border-bottom: none; }
+  .config-key { color: var(--muted); }
+  .config-val { color: var(--accent2); }
+
+  /* ── NEXT STEPS ── */
+  .next-section {
+    animation: fadeUp 0.7s 0.4s ease both;
+  }
+
+  .next-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .next-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--warn);
+    padding: 1.1rem 1.2rem;
+  }
+
+  .next-num {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    color: var(--warn);
+    margin-bottom: 0.4rem;
+  }
+
+  .next-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.4rem;
+  }
+
+  .next-desc {
+    font-size: 0.72rem;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  /* ── FIXES NEEDED ── */
+  .fix-banner {
+    background: rgba(248,113,113,0.07);
+    border: 1px solid rgba(248,113,113,0.25);
+    border-left: 3px solid var(--red);
+    padding: 1rem 1.2rem;
+    margin-bottom: 3rem;
+    animation: fadeUp 0.7s 0.15s ease both;
+  }
+
+  .fix-banner h4 {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--red);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .fix-banner p {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    color: #fca5a5;
+    line-height: 1.7;
+  }
+
+  .fix-banner code {
+    background: rgba(248,113,113,0.1);
+    padding: 0.1rem 0.35rem;
+    border-radius: 2px;
+    font-size: 0.65rem;
+  }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 768px) {
+    .stats-row { grid-template-columns: repeat(2, 1fr); }
+    .pipeline-steps { grid-template-columns: 1fr; }
+    .pipeline-step::after { display: none; }
+    .model-cards, .config-grid, .next-items { grid-template-columns: 1fr; }
+    .results-table { font-size: 0.62rem; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-top">
+      <div>
+        <div class="badge">🌿 VLM Fine-Tuning · PlantVillage Dataset</div>
+        <h1>Plant Disease<br/><span>Caption Generation</span></h1>
+        <p class="subtitle">Automated structured captioning for agricultural disease detection using Vision Language Models.</p>
+      </div>
+      <div class="header-meta">
+        Model: BLIP-2 OPT-2.7B<br/>
+        Hardware: RTX 4500 Ada (24GB)<br/>
+        Framework: HuggingFace + PEFT<br/>
+        Status: Training Complete ✓
+      </div>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-label">Dataset Images</div>
+      <div class="stat-value">20,638</div>
+      <div class="stat-sub">PlantVillage · 15 classes</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">VRAM Usage</div>
+      <div class="stat-value">~8.4GB</div>
+      <div class="stat-sub">of 24GB available</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Training Time</div>
+      <div class="stat-value">~2hrs</div>
+      <div class="stat-sub">5 epochs · LoRA r32</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Caption Variants</div>
+      <div class="stat-value">200+</div>
+      <div class="stat-sub">per disease class</div>
+    </div>
+  </div>
+
+  <!-- FIX NEEDED -->
+  <div class="fix-banner">
+    <h4>⚠ Action Required Before Eval</h4>
+    <p>
+      <code>04_evaluate.py</code> still references LLaVA (<code>llava-hf/llava-v1.6-mistral-7b-hf</code>) — needs to be updated to BLIP-2 before running.<br/>
+      Change: <code>BASE_MODEL = "Salesforce/blip2-opt-2.7b"</code> · <code>ADAPTER_PATH = "outputs/blip2_plantvillage/best"</code> · Replace <code>LlavaNextProcessor</code> → <code>Blip2Processor</code>
+    </p>
+  </div>
+
+  <!-- PIPELINE -->
+  <div class="pipeline">
+    <div class="section-title">Project Pipeline</div>
+    <div class="pipeline-steps">
+      <div class="pipeline-step step-done">
+        <div class="step-num">01 · DONE</div>
+        <div class="step-name">Dataset Prep</div>
+        <div class="step-detail">20,638 images<br/>10 templates/class<br/>dynamic captions</div>
+      </div>
+      <div class="pipeline-step step-done">
+        <div class="step-num">02 · DONE</div>
+        <div class="step-name">Fine-Tuning</div>
+        <div class="step-detail">BLIP-2 OPT-2.7B<br/>LoRA r32 · 5 epochs<br/>~8.4GB VRAM</div>
+      </div>
+      <div class="pipeline-step step-done">
+        <div class="step-num">03 · DONE</div>
+        <div class="step-name">Inference</div>
+        <div class="step-detail">15/15 classes ✓<br/>correct plant + disease<br/>+ severity</div>
+      </div>
+      <div class="pipeline-step step-next">
+        <div class="step-num">04 · NEXT</div>
+        <div class="step-name">Evaluation</div>
+        <div class="step-detail">BLEU-1, BLEU-4<br/>ROUGE-L scores<br/>fix script first</div>
+      </div>
+      <div class="pipeline-step step-next">
+        <div class="step-num">05 · NEXT</div>
+        <div class="step-name">Benchmarking</div>
+        <div class="step-detail">Compare models<br/>trial-and-error<br/>approach</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODEL COMPARISON -->
+  <div class="models-section">
+    <div class="section-title">Model Iterations</div>
+    <div class="model-cards">
+      <div class="model-card dropped">
+        <div class="model-tag tag-dropped">Dropped</div>
+        <div class="model-name">LLaVA-1.6 Mistral 7B</div>
+        <div class="model-specs">
+          <div class="spec-row"><span class="spec-key">Issue</span><span class="spec-val bad">image_sizes tensor error</span></div>
+          <div class="spec-row"><span class="spec-key">Issue</span><span class="spec-val bad">Brittle image token setup</span></div>
+          <div class="spec-row"><span class="spec-key">VRAM</span><span class="spec-val">~18GB+ required</span></div>
+          <div class="spec-row"><span class="spec-key">Outcome</span><span class="spec-val bad">Moved on — too brittle</span></div>
+        </div>
+      </div>
+      <div class="model-card active">
+        <div class="model-tag tag-current">✓ Current</div>
+        <div class="model-name">BLIP-2 OPT-2.7B + LoRA</div>
+        <div class="model-specs">
+          <div class="spec-row"><span class="spec-key">LoRA Rank</span><span class="spec-val good">r32 · alpha 64</span></div>
+          <div class="spec-row"><span class="spec-key">VRAM</span><span class="spec-val good">~8.4GB / 24GB</span></div>
+          <div class="spec-row"><span class="spec-key">Training</span><span class="spec-val good">~2 hours · stable loss</span></div>
+          <div class="spec-row"><span class="spec-key">Accuracy</span><span class="spec-val good">15/15 classes correct</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INFERENCE RESULTS -->
+  <div class="results-section">
+    <div class="section-title">Inference Results — All 15 Classes</div>
+    <table class="results-table">
+      <thead>
+        <tr>
+          <th>Plant</th>
+          <th>Condition</th>
+          <th>Severity</th>
+          <th>Generated Caption (preview)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="plant-tag plant-pepper">Pepper Bell</span></td>
+          <td class="condition-text">Bacterial Spot</td>
+          <td><span class="severity-badge sev-moderate">Moderate–Severe</span></td>
+          <td class="caption-preview">Plant: Pepper bell. Condition: Bacterial Spot. Severity: Moderate to Severe.</td>
+        </tr>
+        <tr>
+          <td><span class="plant-tag plant-pepper">Pepper Bell</span></td>
+          <td class="condition-text">Healthy</td>
+          <td><span class="severity-badge sev-none">None</span></td>
+          <td class="caption-preview">Plant: Pepper bell. Condition: Healthy. Severity: None.</td>
+        </tr>
+        <tr>
+          <td><span class="plant-tag plant-potato">Potato</span></td>
+          <td class="condition-text">Early Blight</td>
+          <td><span class="severity-badge sev-mild">Mild–Moderate</span></td>
+          <td class="caption-preview">Plant: Potato. Condition: Early Blight. Severity: Mild to Moderate.</td>
+        </tr>
+        <tr>
+          <td><span class="plant-tag plant-potato">Potato</span></td>
+          <td class="condition-text">Healthy</td>
+          <td><span class="severity-badge sev-none">None</span></td>
+          <td class="caption-preview">Plant: Potato. Condition: Healthy. Severity: None.</td>
+        </tr>
+        <tr>
+          <td><span class="plant-tag plant-potato">Potato</span></td>
+          <td class="condition-text">Late Blight</td>
+          <td><span class="severity-badge sev-severe">Moderate–Severe</span></td>
+          <td class="caption-preview">Plant: Potato. Condition: Late Blight. Severity: Moderate to Severe.</td>
+        </tr>
+        <tr>
+          <td><span class="plant-tag plant-tomato">Tomato</span></td>
+          <td class="condition-text">Target Spot</td>
+          <td><span class="severity-badge sev-moderate">Moderate</span></td>
+          <td class="caption-preview">Plant: Tomato. Condition: Target Spot. Severity: Moderate.</td>
+        </tr>
+        <tr>
+          <td><span class="plant-tag plant-tomato">Tomato</span></td>
+          <td class="condition-text">Mosaic Virus</td>
+          <td><span class="severity-badge sev-severe">Severe</span></td>
+          <td class="caption-preview">Plant: Tomato. Condition: Mosaic Virus. Severity: Severe.</td>
+        </tr>
+        <tr>
+          <td><span class="plant-tag plant-tomato">Tomato</span></td>
+          <td class="condition-text">Yellow Leaf Curl Virus</td>
+          <td><span class="severity-badge sev-severe">Severe</span></td>
+          <td class="caption-preview">Plant: Tomato. Condition: Tomato YellowLeaf Curl Virus. Severity: Severe.</td>
+        </tr>
+        <tr>
+          <td><span class="plant-tag plant-tomato">Tomato</span></td>
+          <td class="condition-text">Bacterial Spot</td>
+          <td><span class="severity-badge sev-moderate">Moderate–Severe</span></td>
+          <td class="caption-preview">Plant: Tomato. Condition: Bacterial Spot. Severity: Moderate to Severe.</td>
+        </tr>
+        <tr>
+          <td><span class="plant-tag plant-tomato">Tomato</span></td>
+          <td class="condition-text">Early Blight</td>
+          <td><span class="severity-badge sev-mild">Mild–Moderate</span></td>
+          <td class="caption-preview">Plant: Tomato. Condition: Early Blight. Severity: Mild to Moderate.</td>
+        </tr>
+        <tr>
+          <td><span class="plant-tag plant-tomato">Tomato</span></td>
+          <td class="condition-text">Healthy</td>
+          <td><span class="severity-badge sev-none">None</span></td>
+          <td class="caption-preview">Plant: Tomato. Condition: Healthy. Severity: None.</td>
+        </tr>
+        <tr>
+          <td><span class="plant-tag plant-tomato">Tomato</span></td>
+          <td class="condition-text">Late Blight</td>
+          <td><span class="severity-badge sev-severe">Moderate–Severe</span></td>
+          <td class="caption-preview">Plant: Tomato. Condition: Late Blight. Severity: Moderate to Severe.</td>
+        </tr>
+        <tr>
+          <td><span class="plant-tag plant-tomato">Tomato</span></td>
+          <td class="condition-text">Leaf Mold</td>
+          <td><span class="severity-badge sev-mild">Mild</span></td>
+          <td class="caption-preview">Plant: Tomato. Condition: Leaf Mold. Severity: Mild.</td>
+        </tr>
+        <tr>
+          <td><span class="plant-tag plant-tomato">Tomato</span></td>
+          <td class="condition-text">Septoria Leaf Spot</td>
+          <td><span class="severity-badge sev-moderate">Moderate</span></td>
+          <td class="caption-preview">Plant: Tomato. Condition: Septoria Leaf Spot. Severity: Moderate.</td>
+        </tr>
+        <tr>
+          <td><span class="plant-tag plant-tomato">Tomato</span></td>
+          <td class="condition-text">Spider Mite Damage</td>
+          <td><span class="severity-badge sev-mild">Mild–Moderate</span></td>
+          <td class="caption-preview">Plant: Tomato. Condition: Spider Mite Damage. Severity: Mild to Moderate.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- TRAINING CONFIG -->
+  <div class="config-section">
+    <div class="section-title">Training Configuration</div>
+    <div class="config-grid">
+      <div class="config-block">
+        <h4>Model & LoRA</h4>
+        <div class="config-row"><span class="config-key">base_model</span><span class="config-val">blip2-opt-2.7b</span></div>
+        <div class="config-row"><span class="config-key">lora_r</span><span class="config-val">32</span></div>
+        <div class="config-row"><span class="config-key">lora_alpha</span><span class="config-val">64</span></div>
+        <div class="config-row"><span class="config-key">lora_dropout</span><span class="config-val">0.05</span></div>
+        <div class="config-row"><span class="config-key">target_modules</span><span class="config-val">q,k,v,o,fc1,fc2</span></div>
+        <div class="config-row"><span class="config-key">dtype</span><span class="config-val">bfloat16</span></div>
+      </div>
+      <div class="config-block">
+        <h4>Training Hyperparams</h4>
+        <div class="config-row"><span class="config-key">epochs</span><span class="config-val">5</span></div>
+        <div class="config-row"><span class="config-key">batch_size</span><span class="config-val">8 (eff. 16 w/ grad accum)</span></div>
+        <div class="config-row"><span class="config-key">learning_rate</span><span class="config-val">1e-4</span></div>
+        <div class="config-row"><span class="config-key">scheduler</span><span class="config-val">cosine w/ warmup 5%</span></div>
+        <div class="config-row"><span class="config-key">max_length</span><span class="config-val">160 tokens</span></div>
+        <div class="config-row"><span class="config-key">early_stopping</span><span class="config-val">patience = 3</span></div>
+      </div>
+      <div class="config-block">
+        <h4>Data Strategy</h4>
+        <div class="config-row"><span class="config-key">templates_per_class</span><span class="config-val">10</span></div>
+        <div class="config-row"><span class="config-key">total_combinations</span><span class="config-val">200+</span></div>
+        <div class="config-row"><span class="config-key">train_split</span><span class="config-val">90% (~18,574)</span></div>
+        <div class="config-row"><span class="config-key">val_split</span><span class="config-val">10% (~2,064)</span></div>
+        <div class="config-row"><span class="config-key">augmentation</span><span class="config-val">flip, rotate, color jitter</span></div>
+        <div class="config-row"><span class="config-key">label_masking</span><span class="config-val">prompt-only cutoff ✓</span></div>
+      </div>
+      <div class="config-block">
+        <h4>Generation Params (Inference)</h4>
+        <div class="config-row"><span class="config-key">max_new_tokens</span><span class="config-val">80</span></div>
+        <div class="config-row"><span class="config-key">num_beams</span><span class="config-val">4</span></div>
+        <div class="config-row"><span class="config-key">repetition_penalty</span><span class="config-val">3.0</span></div>
+        <div class="config-row"><span class="config-key">no_repeat_ngram_size</span><span class="config-val">8</span></div>
+        <div class="config-row"><span class="config-key">length_penalty</span><span class="config-val">0.6</span></div>
+        <div class="config-row"><span class="config-key">early_stopping</span><span class="config-val">True</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KEY LEARNINGS -->
+  <div class="models-section">
+    <div class="section-title">Key Learnings & Fixes Made</div>
+    <div class="model-cards">
+      <div class="model-card" style="grid-column: 1 / -1; display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; background: none; border: none; padding: 0;">
+        <div style="background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); padding: 1.1rem;">
+          <div style="font-family: var(--mono); font-size: 0.58rem; color: var(--accent); margin-bottom: 0.4rem; text-transform: uppercase; letter-spacing: 0.1em;">Fix #1</div>
+          <div style="font-weight: 700; margin-bottom: 0.4rem; font-size: 0.85rem;">Label Masking</div>
+          <div style="font-size: 0.72rem; color: var(--muted); line-height: 1.5;">Broken masking caused stuck loss. Fixed by encoding the prompt-only portion first to get the exact token cutoff before applying -100 mask.</div>
+        </div>
+        <div style="background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); padding: 1.1rem;">
+          <div style="font-family: var(--mono); font-size: 0.58rem; color: var(--accent); margin-bottom: 0.4rem; text-transform: uppercase; letter-spacing: 0.1em;">Fix #2</div>
+          <div style="font-weight: 700; margin-bottom: 0.4rem; font-size: 0.85rem;">Caption Overfitting</div>
+          <div style="font-size: 0.72rem; color: var(--muted); line-height: 1.5;">Identical per-class captions caused severe overfitting. Solved with 10 dynamic templates per disease, giving 200+ unique combinations.</div>
+        </div>
+        <div style="background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); padding: 1.1rem;">
+          <div style="font-family: var(--mono); font-size: 0.58rem; color: var(--accent); margin-bottom: 0.4rem; text-transform: uppercase; letter-spacing: 0.1em;">Fix #3</div>
+          <div style="font-weight: 700; margin-bottom: 0.4rem; font-size: 0.85rem;">Windows venv Error</div>
+          <div style="font-size: 0.72rem; color: var(--muted); line-height: 1.5;">PowerShell permission errors resolved with <code style="background: rgba(74,222,128,0.1); padding: 0.1rem 0.3rem; font-family: var(--mono); font-size: 0.62rem;">--without-pip</code> flag during venv creation.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NEXT STEPS -->
+  <div class="next-section">
+    <div class="section-title">Next Steps</div>
+    <div class="next-items">
+      <div class="next-item">
+        <div class="next-num">IMMEDIATE</div>
+        <div class="next-title">Fix 04_evaluate.py</div>
+        <div class="next-desc">Update LLaVA references to BLIP-2 so the eval script can actually run against the trained model. Change processor, base model, and remove PROMPT template.</div>
+      </div>
+      <div class="next-item">
+        <div class="next-num">SHORT TERM</div>
+        <div class="next-title">Run BLEU / ROUGE Eval</div>
+        <div class="next-desc">Target: BLEU-1 > 0.40, BLEU-4 > 0.25, ROUGE-L > 0.40 on the 2,064 image validation set. Results will quantify caption quality beyond visual inspection.</div>
+      </div>
+      <div class="next-item">
+        <div class="next-num">MEDIUM TERM</div>
+        <div class="next-title">Benchmark More Models</div>
+        <div class="next-desc">Trial-and-error comparison with other open-source VLMs. BLIP-2 2.7B sets the baseline — test against larger or newer architectures on the same dataset.</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

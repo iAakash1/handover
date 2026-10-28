@@ -556,6 +556,20 @@
    "bytes": 4920,
    "sha256": "118aaf2c467b82aff11ba17b6c5bb2309f6c5a9d479c795cecd8a15d3bd411d6",
    "optional": true
+  },
+  {
+   "path": "projects/01_cnn_keras_tomato/versions/v0.2_cottoncrop_2026-01-04/model/best_model.keras",
+   "source": "2025-12_December/keras_pipeline_kamaaksha/model/best_model_efficientNetB3.keras",
+   "bytes": 49290579,
+   "sha256": "fa307fb286f601599a9d21a5134087ebb35c45132f508edf979e2945e5164b97",
+   "optional": true
+  },
+  {
+   "path": "projects/07_plantdx_plantvillage/outputs/checkpoints/best/training_state.pt",
+   "source": "2026-05_May/PlantDx/outputs/checkpoints/best/training_state.pt",
+   "bytes": 761934582,
+   "sha256": "0a9d2826f143c9c251de0b38638ed0313a935e5e56f324ac8df1d1c77b700452",
+   "optional": true
   }
  ]
 }

@@ -164,6 +164,7 @@ the one we evaluated and published.
 |---|---:|---|
 | `predictions` | 0 MB | val_base.json |
 
-Also: `C:\Users\Admin\Desktop\VLM\PlantDx\outputs\checkpoints\best\training_state.pt` (762 MB), the optimizer state for resuming the PlantDx run.
+The optimizer state for resuming the PlantDx run (`training_state.pt`, 762 MB) is published: `--all` puts it in
+`projects/07_plantdx_plantvillage/outputs/checkpoints/best/`.
 
 Total: 64.4 GB.

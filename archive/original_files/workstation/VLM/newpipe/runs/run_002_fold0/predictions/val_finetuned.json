@@ -1,0 +1,108 @@
+{
+  "model": "finetuned",
+  "adapter": "C:\\Users\\Admin\\Desktop\\VLM\\newpipe\\runs\\run_002_fold0\\checkpoints\\best",
+  "base_model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "instruction": "Describe the visible condition of this tomato leaf.",
+  "decoding": "sampling",
+  "min_pixels": 200704,
+  "max_pixels": 401408,
+  "n_images": 6,
+  "results": [
+    {
+      "image_id": "bacterial_spot__img4",
+      "disease": "Bacterial spot",
+      "image": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/bacterial_spot/4.JPG",
+      "instruction": "Describe the visible condition of this tomato leaf.",
+      "references": [
+        "This smaller leaf is bright green through the center but develops a yellow border around much of its outer edge. The discoloration is strongest near the upper corners, where the margin also appears darker. The veins remain easy to trace across the surface.",
+        "Most of the color variation occurs around the perimeter. The middle portion stays vibrant green, while the edges transition into lighter yellow tones with occasional brown sections. The central vein is clearly visible. The pattern forms a ring-like border around the leaf. Yellow discoloration follows much of the leaf margin.",
+        "No large spots are visible on the leaf surface. Instead, the visible change is concentrated along the margins, where yellowing follows the outline of the leaf. The center remains noticeably greener.",
+        "Green center, yellow outer band, darker discoloration near several edge sections. The contrast between the middle and the margins makes the pattern easy to recognize. No large central patches are present. Brown discoloration is visible near the upper and left margins.",
+        "The discoloration traces the shape of the leaf rather than appearing as isolated spots. Bright green dominates the center, while the edges show a gradual shift toward yellow and brown."
+      ],
+      "generated": [
+        "The discoloration is confined to one side of the leaf, while the opposite side remains green. The upper margin shows the most noticeable color change, with pale yellow-green tissue near the tip and gradually darker green along the rest of the edge. The central vein divides the leaf into two roughly symmetrical halves."
+      ]
+    },
+    {
+      "image_id": "early_blight__img4",
+      "disease": "Early Blight",
+      "image": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/early_blight/4.JPG",
+      "instruction": "Describe the visible condition of this tomato leaf.",
+      "references": [
+        "Two prominent brown patches stand out against the dark green background of the leaf. One lies near the upper center, while another larger patch occupies part of the right side. Smaller marks appear near the margins but are less noticeable. The lesions have dark brown centers with irregular margins.",
+        "The leaf surface contains a mix of green tissue and several darker damaged regions. The central patch has a rough texture and irregular outline, making it the most eye-catching feature. The surrounding areas remain considerably greener.",
+        "The discoloration is distributed across separate locations rather than forming one continuous affected area. A circular patch near the upper middle contrasts with a broader dark region toward the right edge. Veins remain visible around both areas.",
+        "Dark green leaf with multiple isolated lesions. Largest mark located on the right side; second notable patch positioned above the center vein. The remaining surface shows relatively little change.",
+        "Several damaged sections interrupt an otherwise dark green leaf surface. The affected areas differ in both size and shape, creating an uneven pattern across the leaf. Green tissue continues to dominate between the patches."
+      ],
+      "generated": [
+        "The leaf contains several brown patches of varying sizes spread across much of the surface. The central vein divides the leaf into two halves, and the damage follows the shape of the leaf rather than being concentrated in one spot. The edges remain darker green compared to the affected areas."
+      ]
+    },
+    {
+      "image_id": "leaf_mold__img4",
+      "disease": "Leaf Mold",
+      "image": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/leaf_mold/4.JPG",
+      "instruction": "Describe the visible condition of this tomato leaf.",
+      "references": [
+        "Large yellow-green patches cover much of the leaf surface, especially near the center and lower half. The remaining green areas appear as irregular islands between the lighter sections. A smaller leaf near the stem shows similar color variation.",
+        "The leaf contains widespread discoloration with very little fully uniform green tissue remaining. Pale areas follow portions of the vein structure and extend toward several margins. The pattern is visible across nearly the entire leaf. Yellowing is concentrated between the veins.",
+        "The lighter regions are distributed broadly rather than appearing as isolated marks. Green tissue persists mainly along parts of the edges and veins.",
+        "Extensive color variation across the surface. Yellow-green patches dominate several sections of the leaf, while darker green tissue remains in smaller areas. The change is visible from the base all the way to the tip.",
+        "The leaf has a mottled appearance created by large areas of pale discoloration. Several of these patches merge together, leaving only narrow sections of darker green between them. The contrast is noticeable even from a distance."
+      ],
+      "generated": [
+        "The color change is not limited to one section but appears across multiple sections throughout the leaf. Yellow-green patches interrupt the otherwise dark green surface, creating an uneven appearance. The yellow areas are concentrated near the margins and spread across several sections rather than being isolated in one place."
+      ]
+    },
+    {
+      "image_id": "mosaic_virus__img4",
+      "disease": "Mosaic Virus",
+      "image": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/mosaic_virus/4.JPG",
+      "instruction": "Describe the visible condition of this tomato leaf.",
+      "references": [
+        "A broad pale area runs through the center of the leaf, while darker green remains closer to the edges. The contrast between these regions makes the pattern easy to see. Interveinal chlorosis extends along the central lamina.",
+        "The middle portion appears lighter than the surrounding tissue, creating a stripe-like effect from the stem toward the tip. The outer edges remain noticeably darker green.",
+        "Most of the color change follows the central part of the leaf. The lighter green region spreads outward into nearby sections, while the margins stay darker. The surface remains smooth overall.",
+        "Pale center, darker edges, clear vein structure. The difference in color is visible across most of the leaf length. The smaller side leaf remain mostly green.",
+        "The leaf contains two dominant shades of green. A lighter band occupies much of the middle, while deeper green survives around the outer sections, creating a clear visual contrast. The left bottom appears to be detached."
+      ],
+      "generated": [
+        "The most noticeable feature is the pale yellow-green color between the veins. The lighter region appears to follow the path of the leaf structure, creating a pattern that extends across much of the surface. The outer margins remain darker green."
+      ]
+    },
+    {
+      "image_id": "target_spot__img4",
+      "disease": "Target Spot",
+      "image": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/target_spot/4.JPG",
+      "instruction": "Describe the visible condition of this tomato leaf.",
+      "references": [
+        "Several brown patches are visible across the leaf, with one of the larger marks appearing near the upper section. The spots vary in size and shape, creating an uneven pattern across the surface. Green tissue remains visible between them.",
+        "The leaf contains multiple scattered blemishes rather than one dominant damaged area. Some spots are small and round, while others appear more irregular. The lesions vary in size and shape. The central vein remains clearly defined.",
+        "Dark patches are distributed across different parts of the leaf, especially near the upper half. The affected areas are separated by stretches of healthy green tissue. The overall leaf structure remains intact.",
+        "Several isolated brown marks spread across the surface. A larger patch near the top stands out most clearly, while smaller spots are scattered toward the sides. The margins remain mostly green.",
+        "The discoloration appears in multiple locations across the leaf. No single area dominates the damage, and the spots vary noticeably in size. The contrast between the darker marks and green tissue makes them easy to distinguish."
+      ],
+      "generated": [
+        "The upper half is darker green than the lower portion, where a faded patch is present near the middle. The edges remain mostly intact. The leaf shape is broad and slightly asymmetrical."
+      ]
+    },
+    {
+      "image_id": "yellowleaf_curl_virus__img4",
+      "disease": "Yellow Leaf Curl Virus",
+      "image": "C:/Users/Admin/Desktop/VLM/newpipe/1stJuly/Dataset/yellowleaf_curl_virus/4.JPG",
+      "instruction": "Describe the visible condition of this tomato leaf.",
+      "references": [
+        "The leaf appears much lighter overall than the others in this set. Yellow-green coloring covers most of the surface, with only a few darker areas remaining near the veins. Small dark specks are scattered across the leaf.",
+        "Only limited sections of deeper green remain visible. Most of the leaf has a faded appearance, especially toward the upper half. The central vein is still easy to distinguish.",
+        "The color is fairly uniform compared with the previous leaves, though slightly darker patches remain around some veins. The surface looks smooth, with only mild folding along the edges. The leaf maintains its overall shape. Green veins remain visible within the chlorotic tissue.",
+        "Pale leaf with light green coloring across nearly the entire surface. A few darker areas break up the otherwise uniform appearance. The margins remain mostly intact.",
+        "The leaf has a washed-out look because much of the darker green color is missing. Only scattered areas near the vein network remain noticeably darker. The overall appearance is lighter than the rest of the group. Chlorosis is distributed across most of the leaf surface."
+      ],
+      "generated": [
+        "Most of the surface is covered with bright green tissue, but faded yellow-green areas appear near the middle and upper regions. The color change creates a patchy appearance across the leaf. A few brown spots are visible near the edges."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+# ---------------------------------------------------------------------------
+# PlantDx .gitignore
+# ---------------------------------------------------------------------------
+
+# --- Generated pipeline artifacts (outputs; regenerable from DKB + configs) ---
+# The artifacts/ tree mirrors caption_framework/06_folder_structure_spec.md.
+# Only .gitkeep / README.md placeholders are tracked; generated content is not.
+artifacts/**
+!artifacts/
+!artifacts/**/
+!artifacts/**/.gitkeep
+!artifacts/**/README.md
+
+# --- Datasets (large; not redistributed; retained by original authors) ---
+tomato/raw/**
+mango/raw/**
+!tomato/raw/.gitkeep
+!mango/raw/.gitkeep
+
+# --- Company (TIH) dataset + run outputs (organization data; never committed) ---
+# The raw dataset lives outside this repository; these are the derived artifacts.
+datasets_company/
+artifacts/company/
+artifacts/runtime/
+
+# --- Model checkpoints / adapters ---
+*.safetensors
+*.gguf
+*.npz
+checkpoints/
+adapters/
+
+# --- Training logs (generated; CSV/JSON/Markdown metrics + train.log) ---
+logs/
+
+# --- Dataset audit reports + training reports (generated) ---
+reports/
+
+# --- Normalized datasets (generated; regenerable via `plantdx normalize`) ---
+# Anchored to the repo root so it does not match artifacts/datasets/.
+/datasets/
+
+# --- Demo app (Streamlit) runtime data: user uploads + prediction records ---
+# The original uploaded images and per-run prediction JSON are local-only.
+/uploads/
+/predictions/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Testing / coverage / typing caches ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# --- Docs build ---
+site/
+docs/_build/
+
+# --- Editors / OS ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- Env / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Local engineering memory (never committed) ---
+# PROJECT_CONTEXT.md is the short, committed, human-facing overview and is
+# intentionally NOT listed here.
+CLAUDE.md
+
+# --- Unpublished research archive (local-only; never publish contents) ---
+private_archive/**
+!private_archive/
+!private_archive/README.md

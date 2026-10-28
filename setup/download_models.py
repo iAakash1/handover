@@ -7,7 +7,7 @@ already present and correct are skipped, so it is safe to run this again at any 
 Usage (from the repository root, any Python 3.9+, no extra packages needed):
     python setup/download_models.py                 # the final model of every project (~3.6 GB)
     python setup/download_models.py 06_qwen25vl      # only paths containing this text
-    python setup/download_models.py --all           # also every older version and per-epoch checkpoint (+~2.6 GB)
+    python setup/download_models.py --all           # also every older version and per-epoch checkpoint (+~3.4 GB)
 """
 import hashlib
 import json
