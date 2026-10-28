@@ -12,7 +12,9 @@ anywhere and set the environment variable in the first column.
 | `SOYNET_DIR` | `C:\Users\Admin\Desktop\latest\SoyNet\Preprocessing_SoyNet_Data\Camera Clicks_256_256` | SoyNet camera photos, 256×256: 3,164 diseased + 556 healthy | 03 |
 | *(inside project 08)* | `projects/08_plantvlm_expert_captions/1stJuly/Dataset` | 30 PlantVillage tomato images (6 diseases × 5) with 150 expert-revised captions | 08 |
 | `--dataset-root` | `C:\Users\Admin\Desktop\TIH_IITB_August_2026\Tomato_12thAug26\Dataset` | **TIH private tomato dataset**: 11 classes, 7,095 images (6,545 after de-duplication); `testing/` = 176 images from another source for the cross-domain benchmark | 10, 11 |
-| – | not on this machine | MangoLeafBD: 8 classes, 4,000 images (public, CC BY 4.0) | 09 (MLX, Mac only) |
+| – | not on this machine | MangoLeafBD: 8 classes, 4,000 images (public, CC BY 4.0, https://data.mendeley.com/datasets/hxsnvwty3r/1) | 09 (MLX, Mac only) |
+| – | `C:/Users/Admin/Desktop/latest/SoyNet/Raw_SoyNet_Data` | SoyNet raw photos before resizing: `Camera Clicks` (1,194 images) and `Mobile Click` (169 images; our training config used only the camera photos) | 03 |
+| – | on the TIH VDI | TIH-provided soybean dataset used for the VDI soybean model (VDI currently unavailable) | 03 |
 
 Set a variable for the current PowerShell window, then run the project command:
 

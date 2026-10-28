@@ -29,3 +29,7 @@ projects/10_tih_tomato_qwen_qlora/logs/predictions.jsonl
 # retraining output of the failed-experiment scripts
 failed_experiments/02_llava16_mistral_lora/outputs/
 projects/04_llava_blip2/blip2_march/outputs/
+
+# per-epoch checkpoint tokenizers (11 MB each) come with download_models.py --all
+**/checkpoint-*/tokenizer.json
+**/epoch-*/tokenizer.json

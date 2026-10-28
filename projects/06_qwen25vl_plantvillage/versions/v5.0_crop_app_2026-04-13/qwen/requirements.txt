@@ -1,0 +1,35 @@
+# requirements.txt
+# Qwen2.5-VL-7B PlantVillage Pipeline
+# Python 3.10 | CUDA 12.x | RTX 4500 Ada (24 GB)
+# Save to: C:\Users\Admin\Desktop\VLM\qwen\
+
+# ── Core ML ───────────────────────────────────────────────────────────────
+torch>=2.3.0
+torchvision>=0.18.0
+
+# ── Transformers + PEFT ───────────────────────────────────────────────────
+transformers>=4.47.0        # Qwen2.5-VL support added in 4.47
+peft>=0.12.0
+accelerate>=0.34.0
+
+# ── Vision ────────────────────────────────────────────────────────────────
+Pillow>=10.0.0
+
+# ── Flash Attention 2 ─────────────────────────────────────────────────────
+# Install separately (pre-built wheel required on Windows):
+#   pip install flash-attn --no-build-isolation
+# If install fails, remove attn_implementation="flash_attention_2" from
+# all three scripts — the pipeline still runs, just ~30% slower.
+
+# ── Metrics ───────────────────────────────────────────────────────────────
+nltk>=3.8.0
+rouge-score>=0.1.2
+scikit-learn>=1.4.0
+scipy>=1.13.0
+numpy>=1.26.0
+
+# ── App ───────────────────────────────────────────────────────────────────
+streamlit>=1.40.0,<1.45.0   # 1.45+ has JS errors on Windows + Python 3.10
+
+# ── Utilities ─────────────────────────────────────────────────────────────
+tqdm>=4.66.0

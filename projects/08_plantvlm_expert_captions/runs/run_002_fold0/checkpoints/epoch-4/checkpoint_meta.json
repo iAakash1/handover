@@ -1,0 +1,124 @@
+{
+  "run": "run_002_fold0",
+  "epoch": 4,
+  "global_step": 44,
+  "train_loss": 1.2633802745077345,
+  "val_loss": 1.8370875597000123,
+  "config": {
+    "project": "plantvlm",
+    "seed": 42,
+    "data": {
+      "source": {
+        "type": "excel",
+        "excel_path": "1stJuly/Revised_captions.xlsx",
+        "sheet": "revised_captions",
+        "image_root": "1stJuly/Dataset",
+        "disease_column": "Disease",
+        "image_column": "Image No",
+        "caption_columns": [
+          "Caption 1",
+          "Caption 2",
+          "Caption 3",
+          "Caption 4",
+          "Caption 5"
+        ],
+        "class_map": {
+          "Bacterial spot": "bacterial_spot",
+          "Early Blight": "early_blight",
+          "Leaf Mold": "leaf_mold",
+          "Mosaic Virus": "mosaic_virus",
+          "Target Spot": "target_spot",
+          "Yellow Leaf Curl Virus": "yellowleaf_curl_virus"
+        }
+      },
+      "instruction": "Describe the visible condition of this tomato leaf.",
+      "expected_images_per_class": 5,
+      "expected_captions_per_image": 5,
+      "valid_extensions": [
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".JPG",
+        ".JPEG",
+        ".PNG"
+      ],
+      "provenance_root": "../PlantVillage",
+      "provenance_map": {
+        "Bacterial spot": "Tomato_Bacterial_spot",
+        "Early Blight": "Tomato_Early_blight",
+        "Leaf Mold": "Tomato_Leaf_Mold",
+        "Mosaic Virus": "Tomato__Tomato_mosaic_virus",
+        "Target Spot": "Tomato__Target_Spot",
+        "Yellow Leaf Curl Virus": "Tomato__Tomato_YellowLeaf__Curl_Virus"
+      },
+      "output_dir": "data"
+    },
+    "split": {
+      "strategy": "grouped_rotation",
+      "fold": 0,
+      "train_per_class": 3,
+      "val_per_class": 1,
+      "test_per_class": 1
+    },
+    "model": {
+      "adapter": "qwen2_5_vl",
+      "name": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "dtype": "bfloat16",
+      "min_pixels_factor": 256,
+      "max_pixels_factor": 512,
+      "max_length": 512
+    },
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_suffixes": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "exclude_substring": "visual"
+    },
+    "train": {
+      "epochs": 8,
+      "micro_batch": 2,
+      "grad_accum": 4,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.01,
+      "warmup_ratio": 0.1,
+      "grad_clip": 1.0,
+      "patience": 2,
+      "num_workers": 0,
+      "augment": false,
+      "save_every_epoch": true
+    },
+    "generate": {
+      "max_new_tokens": 120,
+      "do_sample": true,
+      "temperature": 0.7,
+      "top_p": 0.9,
+      "repetition_penalty": 1.05,
+      "num_samples": 1
+    },
+    "eval": {
+      "memorisation_threshold": 0.85,
+      "retrieval_ngram_max": 2,
+      "retrieval_stop_words": "english",
+      "cross_image_phrases": [
+        "other leaves",
+        "previous leaves",
+        "this group",
+        "this set",
+        "rest of the group",
+        "compared with the other",
+        "unlike some of"
+      ]
+    },
+    "runs_dir": "runs",
+    "source_file": "C:\\Users\\Admin\\Desktop\\VLM\\newpipe\\configs\\qwen25vl_lora_tomato.yaml"
+  }
+}

@@ -1,0 +1,36 @@
+# requirements.txt
+# PlantVillage VLM Pipeline — Qwen2.5-VL-7B + QLoRA + Flash Attention 2
+# Python 3.10 | CUDA 12.x | RTX 4500 Ada (24GB)
+
+# ── Core ML ──────────────────────────────────────────────────────────────
+torch>=2.3.0
+torchvision>=0.18.0
+
+# ── Transformers + PEFT ──────────────────────────────────────────────────
+transformers>=4.47.0
+peft>=0.12.0
+accelerate>=0.34.0
+
+# ── Quantization (QLoRA) ─────────────────────────────────────────────────
+bitsandbytes>=0.43.0
+
+# ── Flash Attention 2 (must be installed separately on Windows via pip) ──
+# pip install flash-attn --no-build-isolation
+# Uncomment if pre-built wheel is available for your CUDA version:
+# flash-attn>=2.6.0
+
+# ── Vision ───────────────────────────────────────────────────────────────
+Pillow>=10.0.0
+
+# ── Metrics ──────────────────────────────────────────────────────────────
+nltk>=3.8.0
+rouge-score>=0.1.2
+scikit-learn>=1.4.0
+scipy>=1.13.0
+numpy>=1.26.0
+
+# ── App ───────────────────────────────────────────────────────────────────
+streamlit>=1.40.0,<1.45.0   # pinned: 1.45+ has JS errors on Win/Py3.10
+
+# ── Utilities ────────────────────────────────────────────────────────────
+tqdm>=4.66.0

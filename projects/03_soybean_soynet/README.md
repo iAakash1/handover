@@ -2,8 +2,9 @@
 
 **Environment:** `soynet` (TensorFlow 2.10 + PyTorch 2.5.1, CUDA 12.1)
 
-**In short:** we trained four CNNs to tell **healthy** from **diseased** soybean leaves, using the SoyNet dataset
-and the training pipeline provided for the task, on the VDI GPU machine (27 January 2026).
+**In short:** we trained four CNNs to tell **healthy** from **diseased** soybean leaves with the SoyNet dataset and
+its training pipeline (27 January 2026). Separately, another soybean model was trained on the TIH VDI with the
+TIH-provided dataset and pipeline; that model stayed on the VDI, which is currently unavailable, so it is not here.
 
 ## Data
 - SoyNet camera photos, resized to 256×256: 3,164 diseased + 556 healthy images (about 6 diseased for every healthy).
@@ -14,6 +15,17 @@ and the training pipeline provided for the task, on the VDI GPU machine (27 Janu
 ## Two runs on the same day
 1. **Keras run** (`main.py`, `run_experiments.py`): ResNet50 and MobileNetV2 trained; the EfficientNet models did not build.
 2. **PyTorch run** (`run_pytorch.py`, `pytorch/`): all four backbones trained.
+
+## Versions (as in the fellowship report)
+
+| Version | Date | What | Outcome | Where |
+|---|---|---|---|---|
+| v1.0 | 27 Jan 2026, 11:29–11:46 | First ResNet50 training (Keras, `main.py`) | model saved | `saved_models/soynet_resnet50_best.keras` |
+| v2.0 | 27 Jan 2026, 14:23–14:30 | Keras multi-backbone run (`run_experiments.py`) | ResNet50 95.16%, MobileNetV2 89.07%; EfficientNet did not start | `results/experiments/resnet50/soynet_resnet50_best.keras`, `mobilenetv2/soynet_mobilenetv2_best.keras`, `saved_models/*_finetuned.keras`; EfficientNet files in `../../failed_experiments/10_soynet_keras_efficientnet` |
+| v3.0 | 27 Jan 2026, 15:42–16:28 | PyTorch multi-backbone run (`run_pytorch.py`) | all four trained; best EfficientNetB3 93.93% | `results/experiments/<model>/model.pth` |
+| VDI model | – | Soybean model trained on the TIH VDI with the TIH-provided dataset and pipeline | – | not available: the VDI is currently unavailable |
+
+Training logs of every run are in `logs/` (timestamps match the table).
 
 ## Results
 

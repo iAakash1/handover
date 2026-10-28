@@ -58,6 +58,23 @@ June 0% scoring bug, the first Qwen run and its fixes, zero-shot VLMs (8.5%), Pl
 aborted TIH training run, the untrained SigLIP/OpenCLIP prototype, and EfficientNet in the Keras SoyNet run. Each
 has its code (where any survived), what happened and the lesson: start at `failed_experiments/README.md`.
 
+## Everything from the fellowship report, version by version
+
+`docs/REPORT_CHECKLIST.md` takes every entry of the Chanakya report (month-wise timeline, December tasks, papers,
+every model, versions v0.1–v14.0, mango, soybean v1.0–v3.0, appendices) and points to its code, model, evaluation
+report and run command here, or says plainly why something is not available.
+
+- **Older versions** of a project are kept as they were in `projects/<project>/versions/` (CottonCrop 4–6 Jan,
+  the 27 Jan integrated pipeline, the 13 Apr crop app, the 15 May PlantDx).
+- **Every commit, branch and tag** of our seven GitHub repositories: `history/README.md`, with offline git
+  bundles (e.g. tag `v1.0.0` = the July MLX release, branch `feat/tomato-dataset-migration` = v11.0).
+- **Per-epoch checkpoints** of the TIH runs and PlantVLM, older model copies and the failed EfficientNet files:
+  `python setup\download_models.py --all` (+2.6 GB). The ~64 GB of step-by-step checkpoints that stay on the
+  workstation are listed in `docs/CHECKPOINT_INVENTORY.md`.
+- **Month by month:** `docs/monthly/` (December 2025 – October 2026).
+- **Reports:** `docs/reports/` (fellowship report, both versions; PoCRA reports v1 and v2; PlantDx history;
+  presentations).
+
 ## Repository structure
 
 ```
@@ -83,13 +100,19 @@ handover/
 │   └── 10_tih_tomato_qwen_qlora/  # plantdx package (src/), streamlit_app.py, configs/, checkpoints/, reports/
 ├── failed_experiments/            # everything that did not work out, with code and lessons
 ├── evaluation/                    # vlm_eval.py, vlm_predict.py + every October 2026 evaluation report
+├── history/                       # every commit/branch/tag of our repositories + offline git bundles
 └── docs/
+    ├── REPORT_CHECKLIST.md        # every entry of the fellowship report -> where it is here
     ├── HANDOVER_REPORT.md         # model-wise report: data, method, results, failures
     ├── HOW_TO_RUN.md              # 2-page guide: run, retrain, edit, common errors
     ├── datasets.md                # every dataset, where it is, exact splits
     ├── publication.md             # ICAIN 2026 paper, project reports, papers studied
     ├── publication/               # ICAIN 2026 camera-ready paper (PDF)
-    └── reports/                   # PoCRA and fellowship reports, presentations
+    ├── monthly/                   # one page per month, Dec 2025 - Oct 2026
+    ├── CHECKPOINT_INVENTORY.md    # training checkpoints kept on the workstation
+    ├── timeline_verification.md   # how each date was checked against commits and files
+    ├── vlm_plantvillage_comparison.md  # all PlantVillage VLMs side by side
+    └── reports/                   # fellowship report (both versions), PoCRA v1 and v2, presentations
 ```
 
 ## Good to know

@@ -12,8 +12,8 @@ All numbers below come from the evaluation reports in this repository (`evaluati
 | Month | Work | Project |
 |---|---|---|
 | Dec 2025 | TIH foundation tasks (image ops, preprocessing, quality checks, CNN basics); custom CNN | 01 |
-| Jan 2026 | Keras transfer learning, PyTorch ConvNeXt, crop validation; SoyNet soybean on the VDI | 01, 02, 03 |
-| Feb 2026 | PoCRA video editing; AI for Agri conference | – |
+| Jan 2026 | Keras transfer learning, PyTorch ConvNeXt, crop validation; SoyNet soybean (Keras + PyTorch); a soybean model on the VDI with TIH data | 01, 02, 03 |
+| Feb 2026 | PoCRA video editing and app testing; AI for Agri conference | – |
 | Mar 2026 | VLM papers studied; LLaVA-1.6 and BLIP-2 fine-tuned | 04 |
 | Apr 2026 | Florence-2 attempt; Qwen2.5-VL fine-tuned; production app with CLIP check and GradCAM | 05, 06 |
 | May 2026 | PlantDx, 15 PlantVillage classes | 07 |
@@ -47,7 +47,10 @@ All numbers below come from the evaluation reports in this repository (`evaluati
 ## 03 · SoyNet — soybean healthy vs diseased (27 Jan 2026)
 
 - **Data:** provided SoyNet camera photos, 256×256: 3,164 diseased, 556 healthy; 70/15/15, seed 42.
-- **Training:** provided pipeline on the VDI; Keras run and PyTorch run, ImageNet backbones, Adam 1e-4 → 1e-5.
+- **Training:** SoyNet training pipeline; Keras run and PyTorch run, ImageNet backbones, Adam 1e-4 → 1e-5.
+  Versions v1.0 (first Keras ResNet50), v2.0 (Keras multi-backbone), v3.0 (PyTorch, all four) are in the 03 README.
+- **VDI model:** another soybean model was trained on the TIH VDI with the TIH-provided dataset and pipeline; it
+  stayed on the VDI, which is currently unavailable, so it is not in this repository.
 - **Results (positive class = Healthy):** Keras ResNet50 **95.16%** (ROC-AUC 0.9903); PyTorch EfficientNetB3
   93.93%, EfficientNetB0 93.39%, MobileNetV2 92.50%, ResNet50 91.61% (all with Healthy recall 1.0).
 - **Where:** `projects/03_soybean_soynet` (metrics in `results/experiments/<model>/`).
