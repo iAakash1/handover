@@ -1,0 +1,19 @@
+Plant species: Uncertain
+
+Visible symptoms: There are brown spots on the leaf, which appear to be concentrated in the center and along the veins.
+
+Leaf color: The leaf is predominantly green, but the affected areas are brown.
+
+Leaf texture: The leaf appears to be healthy and smooth, with no visible signs of roughness or damage.
+
+Spots or lesions: There are distinct brown spots and lesions on the leaf, particularly concentrated in the center and along the veins.
+
+Severity: The lesions appear to cover a significant portion of the leaf, indicating a moderate to severe condition.
+
+Most likely disease: The brown spots and lesions along the veins suggest a possible fungal or bacterial leaf spot disease, such as Alternaria leaf spot or bacterial leaf spot.
+
+Alternative diagnoses: Other possibilities could include nutrient deficiencies, insect damage, or mechanical damage, but the presence of lesions and the pattern of the spots suggest a disease rather than these other factors.
+
+Confidence (0-100): 70
+
+Reasoning: The brown spots and lesions along the veins are characteristic of fungal or bacterial leaf spot diseases. The pattern and severity suggest a moderate to severe condition. The leaf texture and color appear healthy, which helps rule out other factors. However, without a closer examination or a more detailed history of the plant, a definitive diagnosis is uncertain.

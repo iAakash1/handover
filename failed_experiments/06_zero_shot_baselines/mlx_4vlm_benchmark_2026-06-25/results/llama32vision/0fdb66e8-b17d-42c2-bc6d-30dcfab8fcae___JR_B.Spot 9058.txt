@@ -1,0 +1,22 @@
+**Plant Species:** Unknown
+
+**Visible Symptoms:**
+
+* The leaf appears to be yellow with brown spots
+* The leaf has a few holes and tears
+
+**Leaf Color:** Yellow
+
+**Leaf Texture:** Smooth
+
+**Spots or Lesions:** Brown spots and holes
+
+**Severity:** Moderate
+
+**Most Likely Disease:** Unknown
+
+**Alternative Diagnoses:** None
+
+**Confidence:** 50%
+
+**Reasoning:** The image shows a yellow leaf with brown spots and holes, but it is not possible to determine the exact plant species or disease based on this information alone. The severity of the symptoms is moderate, but it is not clear what is causing the damage to the leaf. Further examination and testing would be necessary to determine the cause of the symptoms and provide a more accurate diagnosis.

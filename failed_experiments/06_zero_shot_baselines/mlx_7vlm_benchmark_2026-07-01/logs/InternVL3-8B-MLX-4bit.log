@@ -1,0 +1,33 @@
+2026-07-01 18:48:20,305 [INFO] Loading mlx-community/InternVL3-8B-MLX-4bit ...
+2026-07-01 18:48:22,876 [INFO] Loaded mlx-community/InternVL3-8B-MLX-4bit in 2.6s
+2026-07-01 18:48:22,876 [INFO] [1/30] (bacterial_spot) 1.JPG
+2026-07-01 18:48:27,734 [INFO] [2/30] (bacterial_spot) 2.JPG
+2026-07-01 18:48:31,940 [INFO] [3/30] (bacterial_spot) 3.JPG
+2026-07-01 18:48:36,302 [INFO] [4/30] (bacterial_spot) 4.JPG
+2026-07-01 18:48:39,586 [INFO] [5/30] (bacterial_spot) 5.JPG
+2026-07-01 18:48:43,202 [INFO] [6/30] (early_blight) 1.JPG
+2026-07-01 18:48:47,328 [INFO] [7/30] (early_blight) 2.JPG
+2026-07-01 18:48:51,587 [INFO] [8/30] (early_blight) 3.JPG
+2026-07-01 18:48:55,287 [INFO] [9/30] (early_blight) 4.JPG
+2026-07-01 18:48:58,973 [INFO] [10/30] (early_blight) 5.JPG
+2026-07-01 18:49:02,745 [INFO] [11/30] (leaf_mold) 1.JPG
+2026-07-01 18:49:06,898 [INFO] [12/30] (leaf_mold) 2.JPG
+2026-07-01 18:49:11,086 [INFO] [13/30] (leaf_mold) 3.JPG
+2026-07-01 18:49:14,617 [INFO] [14/30] (leaf_mold) 4.JPG
+2026-07-01 18:49:18,126 [INFO] [15/30] (leaf_mold) 5.JPG
+2026-07-01 18:49:21,544 [INFO] [16/30] (mosaic_virus) 1.JPG
+2026-07-01 18:49:25,015 [INFO] [17/30] (mosaic_virus) 2.JPG
+2026-07-01 18:49:28,240 [INFO] [18/30] (mosaic_virus) 3.JPG
+2026-07-01 18:49:31,554 [INFO] [19/30] (mosaic_virus) 4.JPG
+2026-07-01 18:49:34,901 [INFO] [20/30] (mosaic_virus) 5.JPG
+2026-07-01 18:49:38,348 [INFO] [21/30] (target_spot) 1.JPG
+2026-07-01 18:49:41,889 [INFO] [22/30] (target_spot) 2.JPG
+2026-07-01 18:49:45,307 [INFO] [23/30] (target_spot) 3.JPG
+2026-07-01 18:49:48,801 [INFO] [24/30] (target_spot) 4.JPG
+2026-07-01 18:49:53,546 [INFO] [25/30] (target_spot) 5.JPG
+2026-07-01 18:49:56,095 [INFO] [26/30] (yellowleaf_curl_virus) 1.JPG
+2026-07-01 18:49:59,866 [INFO] [27/30] (yellowleaf_curl_virus) 2.JPG
+2026-07-01 18:50:03,129 [INFO] [28/30] (yellowleaf_curl_virus) 3.JPG
+2026-07-01 18:50:06,181 [INFO] [29/30] (yellowleaf_curl_virus) 4.JPG
+2026-07-01 18:50:10,638 [INFO] [30/30] (yellowleaf_curl_virus) 5.JPG
+2026-07-01 18:50:14,280 [INFO] Done: mlx-community/InternVL3-8B-MLX-4bit — 30/30 succeeded -> predictions_InternVL3-8B-MLX-4bit.json

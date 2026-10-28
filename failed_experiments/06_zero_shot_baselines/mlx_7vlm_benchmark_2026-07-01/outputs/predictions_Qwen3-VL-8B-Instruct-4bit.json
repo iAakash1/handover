@@ -1,0 +1,1412 @@
+[
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/1.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf is discolored with yellowing (chlorosis) and brown spots; leaf margins appear necrotic; leaf shape is irregular with some tearing; overall leaf appears tattered and aged.\nDisease: Leaf spot disease (likely bacterial or fungal origin, but visual evidence insufficient to distinguish)\nAlternative Diagnoses: Bacterial spot, early blight (Alternaria), late blight (Phytophthora), Septoria leaf spot, or environmental stress (e.g., nutrient deficiency, drought, or mechanical damage)\nSeverity: Moderate\nConfidence: 60\nReasoning: The leaf exhibits multiple symptoms including chlorosis, necrotic spots, and irregular margins, which are consistent with several foliar diseases. However, without additional information such as leaf undersides, petiole symptoms, or environmental context, it is not possible to definitively identify the specific pathogen. The symptoms could also be due to non-pathogenic stressors. Therefore, confidence is moderate.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf is discolored with yellowing (chlorosis) and brown spots; leaf margins appear necrotic; leaf shape is irregular with some tearing; overall leaf appears tattered and aged.",
+      "disease": "Leaf spot disease (likely bacterial or fungal origin, but visual evidence insufficient to distinguish)",
+      "alternative_diagnoses": "Bacterial spot, early blight (Alternaria), late blight (Phytophthora), Septoria leaf spot, or environmental stress (e.g., nutrient deficiency, drought, or mechanical damage)",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf exhibits multiple symptoms including chlorosis, necrotic spots, and irregular margins, which are consistent with several foliar diseases. However, without additional information such as leaf undersides, petiole symptoms, or environmental context, it is not possible to definitively identify the specific pathogen. The symptoms could also be due to non-pathogenic stressors. Therefore, confidence is moderate."
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 207,
+      "prompt_tokens_per_sec": 89.67256498550914,
+      "generation_tokens_per_sec": 52.72329005801234,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 5.67
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:11:17.373853+00:00",
+      "finish": "2026-07-01T13:11:23.044337+00:00",
+      "runtime_sec": 5.67
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "bacterial_spot/1.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12736,
+      "sha256": "847986b04db52704897297565b62cac9653ea1ef0425f644a1070e7d1bd9baf1"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/2.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf is discolored with yellowing (chlorosis) and browning (necrosis) along the edges and tips. Leaf appears wilted and has irregular dark spots. Leaf shape is distorted and appears to be curling or cupping.\nDisease: Likely a foliar disease such as early blight (Alternaria solani) or late blight (Phytophthora infestans), or possibly bacterial spot (Xanthomonas spp.).\nAlternative Diagnoses: Fusarium wilt, Septoria leaf spot, or viral disease (e.g., Tomato spotted wilt virus) \u2014 though viral symptoms often include mottling or vein clearing not clearly visible here. Also, nutrient deficiency (e.g., manganese or iron) can cause chlorosis, but necrosis is less typical.\nSeverity: Moderate to High\nConfidence: 60\nReasoning: The leaf shows clear chlorosis and necrosis, which are common symptoms of several fungal and bacterial diseases. The irregular dark spots and leaf distortion support a foliar disease diagnosis. However, without more information (e.g., presence of fruit symptoms, leaf undersides, or environmental conditions), it is not possible to definitively distinguish between early blight, late blight, or bacterial spot. The severity is estimated as moderate to high based on the visible tissue damage. Confidence is moderate because the visual evidence is suggestive but not diagnostic without additional context.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf is discolored with yellowing (chlorosis) and browning (necrosis) along the edges and tips. Leaf appears wilted and has irregular dark spots. Leaf shape is distorted and appears to be curling or cupping.",
+      "disease": "Likely a foliar disease such as early blight (Alternaria solani) or late blight (Phytophthora infestans), or possibly bacterial spot (Xanthomonas spp.).",
+      "alternative_diagnoses": "Fusarium wilt, Septoria leaf spot, or viral disease (e.g., Tomato spotted wilt virus) \u2014 though viral symptoms often include mottling or vein clearing not clearly visible here. Also, nutrient deficiency (e.g., manganese or iron) can cause chlorosis, but necrosis is less typical.",
+      "severity": "Moderate to High",
+      "confidence": "60",
+      "reasoning": "The leaf shows clear chlorosis and necrosis, which are common symptoms of several fungal and bacterial diseases. The irregular dark spots and leaf distortion support a foliar disease diagnosis. However, without more information (e.g., presence of fruit symptoms, leaf undersides, or environmental conditions), it is not possible to definitively distinguish between early blight, late blight, or bacterial spot. The severity is estimated as moderate to high based on the visible tissue damage. Confidence is moderate because the visual evidence is suggestive but not diagnostic without additional context."
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 295,
+      "prompt_tokens_per_sec": 275.3882619646245,
+      "generation_tokens_per_sec": 53.01913216470166,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 6.144
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:11:23.045356+00:00",
+      "finish": "2026-07-01T13:11:29.189698+00:00",
+      "runtime_sec": 6.144
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "bacterial_spot/2.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 14358,
+      "sha256": "04658ef2dcceabf609f52008f552d478b290fe3a93cf325f39b4bc4320120eb2"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/3.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with chlorotic (yellowing) and necrotic (brown) areas, particularly along the margin and tip; some small dark spots; leaf appears curled or distorted in parts; overall leaf tissue appears discolored and partially dead.\nDisease: Likely bacterial spot or early blight (Alternaria solani) based on symptoms.\nAlternative Diagnoses: Septoria leaf spot, fungal leaf spot (e.g., Septoria lycopersici), or viral disease (e.g., tobacco mosaic virus) \u2014 though viral symptoms often show mottling or vein clearing not clearly visible here.\nSeverity: Moderate\nConfidence: 60\nReasoning: The presence of necrotic margins and spots is consistent with several foliar diseases. The leaf tissue is visibly damaged, but without clear vein clearing, mottling, or specific lesion shapes (e.g., angular spots for Septoria, or target-like for bacterial spot), a definitive diagnosis is not possible. The symptoms are most consistent with early blight or bacterial spot, but other fungal or viral causes cannot be ruled out visually.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with chlorotic (yellowing) and necrotic (brown) areas, particularly along the margin and tip; some small dark spots; leaf appears curled or distorted in parts; overall leaf tissue appears discolored and partially dead.",
+      "disease": "Likely bacterial spot or early blight (Alternaria solani) based on symptoms.",
+      "alternative_diagnoses": "Septoria leaf spot, fungal leaf spot (e.g., Septoria lycopersici), or viral disease (e.g., tobacco mosaic virus) \u2014 though viral symptoms often show mottling or vein clearing not clearly visible here.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The presence of necrotic margins and spots is consistent with several foliar diseases. The leaf tissue is visibly damaged, but without clear vein clearing, mottling, or specific lesion shapes (e.g., angular spots for Septoria, or target-like for bacterial spot), a definitive diagnosis is not possible. The symptoms are most consistent with early blight or bacterial spot, but other fungal or viral causes cannot be ruled out visually."
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 229,
+      "prompt_tokens_per_sec": 276.0617094232188,
+      "generation_tokens_per_sec": 53.06216994413641,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 4.893
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:11:29.190765+00:00",
+      "finish": "2026-07-01T13:11:34.083897+00:00",
+      "runtime_sec": 4.893
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "bacterial_spot/3.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12931,
+      "sha256": "c14a71e095076c9df9c7b1f61f8e69f773292cd0a3ef7bfcdbb0dedc487525db"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/4.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop:\nTomato\n\nVisible Symptoms:\nLeaf has irregular yellowing and browning along the margins and tips. Leaf tissue appears somewhat necrotic or dead in the brown areas. Leaf shape is somewhat distorted, with irregular edges. Veins are visible but not obviously discolored.\n\nDisease:\nNone can be definitively diagnosed from this image alone.\n\nAlternative Diagnoses:\n- Nutrient deficiency (e.g., potassium or manganese deficiency may cause margin necrosis and yellowing)\n- Environmental stress (drought, heat, or sunscald)\n- Fungal or bacterial leaf spot (some forms may cause margin necrosis, but lack of distinct spots or lesions makes this uncertain)\n- Viral infection (some viruses cause chlorosis and necrosis, but no distinct vein clearing or mottling is visible)\n\nSeverity:\nModerate\n\nConfidence (0-100):\n60\n\nReasoning:\nThe leaf shows clear signs of stress or disease, including margin necrosis and chlorosis. However, without distinct lesions, spots, or other diagnostic features (like vein clearing, mottling, or specific lesion shapes), a specific disease cannot be confirmed. The symptoms are consistent with several possible causes, including nutrient deficiency or environmental stress. The confidence is moderate because the visual evidence is suggestive but not diagnostic.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf has irregular yellowing and browning along the margins and tips. Leaf tissue appears somewhat necrotic or dead in the brown areas. Leaf shape is somewhat distorted, with irregular edges. Veins are visible but not obviously discolored.",
+      "disease": "None can be definitively diagnosed from this image alone.",
+      "alternative_diagnoses": "- Nutrient deficiency (e.g., potassium or manganese deficiency may cause margin necrosis and yellowing)\n- Environmental stress (drought, heat, or sunscald)\n- Fungal or bacterial leaf spot (some forms may cause margin necrosis, but lack of distinct spots or lesions makes this uncertain)\n- Viral infection (some viruses cause chlorosis and necrosis, but no distinct vein clearing or mottling is visible)",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf shows clear signs of stress or disease, including margin necrosis and chlorosis. However, without distinct lesions, spots, or other diagnostic features (like vein clearing, mottling, or specific lesion shapes), a specific disease cannot be confirmed. The symptoms are consistent with several possible causes, including nutrient deficiency or environmental stress. The confidence is moderate because the visual evidence is suggestive but not diagnostic."
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 266,
+      "prompt_tokens_per_sec": 276.91421979186714,
+      "generation_tokens_per_sec": 53.03929094835708,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 5.589
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:11:34.085445+00:00",
+      "finish": "2026-07-01T13:11:39.674884+00:00",
+      "runtime_sec": 5.589
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "bacterial_spot/4.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8698,
+      "sha256": "2e001949013eb06b64692decd1d4e66541f1eb074018775a12cafa2143e8666f"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/5.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with irregularly shaped notches along margin, small brown spots, some areas of discoloration or necrosis, slight curling or distortion.\nDisease: Leaf spot disease (possibly bacterial or fungal origin, e.g., bacterial spot or early blight)\nAlternative Diagnoses: Septoria leaf spot, Alternaria leaf spot, viral infection (e.g., tobacco mosaic virus), insect feeding damage\nSeverity: Moderate\nConfidence: 60\nReasoning: The leaf shows multiple small to medium-sized necrotic spots and margin damage, consistent with several foliar diseases. The irregular notching and discoloration are suggestive of pathogen or pest activity, but without microscopic examination or symptom progression, it is not possible to definitively distinguish between bacterial, fungal, or viral causes. The presence of multiple symptoms makes a precise diagnosis difficult.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with irregularly shaped notches along margin, small brown spots, some areas of discoloration or necrosis, slight curling or distortion.",
+      "disease": "Leaf spot disease (possibly bacterial or fungal origin, e.g., bacterial spot or early blight)",
+      "alternative_diagnoses": "Septoria leaf spot, Alternaria leaf spot, viral infection (e.g., tobacco mosaic virus), insect feeding damage",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf shows multiple small to medium-sized necrotic spots and margin damage, consistent with several foliar diseases. The irregular notching and discoloration are suggestive of pathogen or pest activity, but without microscopic examination or symptom progression, it is not possible to definitively distinguish between bacterial, fungal, or viral causes. The presence of multiple symptoms makes a precise diagnosis difficult."
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 180,
+      "prompt_tokens_per_sec": 276.420136319683,
+      "generation_tokens_per_sec": 53.07141868021136,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 3.969
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:11:39.676091+00:00",
+      "finish": "2026-07-01T13:11:43.644754+00:00",
+      "runtime_sec": 3.969
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "bacterial_spot/5.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13206,
+      "sha256": "34714995c8f496d38e005ce0ac0bdd5f4803e07496eb628f9582a17a878765bc"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/1.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf is discolored, with mottled or blotchy areas; some areas appear lighter or darker green; leaf surface appears somewhat wrinkled or puckered; minor necrotic spots or lesions are visible; leaf margin appears slightly irregular or curled; overall leaf appears less turgid or wilted.\nDisease: Leaf spot disease (possibly bacterial or fungal origin, but not specific to any single disease without further testing)\nAlternative Diagnoses: Fungal leaf spot (e.g., Septoria leaf spot, early blight), bacterial spot, viral infection (e.g., Tomato spotted wilt virus, Tobacco mosaic virus), nutrient deficiency (e.g., manganese, iron), environmental stress (e.g., drought, heat, wind damage)\nSeverity: Moderate\nConfidence: 60\nReasoning: The leaf exhibits multiple symptoms including discoloration, mottling, and minor necrosis, which are consistent with several plant diseases. However, without additional information such as leaf texture, presence of sporulation, or specific lesion margins, it is not possible to definitively identify the disease. The symptoms could also be due to environmental stress or nutrient deficiency. Therefore, the diagnosis is tentative and confidence is moderate.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf is discolored, with mottled or blotchy areas; some areas appear lighter or darker green; leaf surface appears somewhat wrinkled or puckered; minor necrotic spots or lesions are visible; leaf margin appears slightly irregular or curled; overall leaf appears less turgid or wilted.",
+      "disease": "Leaf spot disease (possibly bacterial or fungal origin, but not specific to any single disease without further testing)",
+      "alternative_diagnoses": "Fungal leaf spot (e.g., Septoria leaf spot, early blight), bacterial spot, viral infection (e.g., Tomato spotted wilt virus, Tobacco mosaic virus), nutrient deficiency (e.g., manganese, iron), environmental stress (e.g., drought, heat, wind damage)",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf exhibits multiple symptoms including discoloration, mottling, and minor necrosis, which are consistent with several plant diseases. However, without additional information such as leaf texture, presence of sporulation, or specific lesion margins, it is not possible to definitively identify the disease. The symptoms could also be due to environmental stress or nutrient deficiency. Therefore, the diagnosis is tentative and confidence is moderate."
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 253,
+      "prompt_tokens_per_sec": 275.38869008309433,
+      "generation_tokens_per_sec": 52.85279718321086,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 5.366
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:11:43.647086+00:00",
+      "finish": "2026-07-01T13:11:49.013412+00:00",
+      "runtime_sec": 5.366
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "early_blight/1.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 10761,
+      "sha256": "bb8cf07350baac37f7fdfa2a9e54587363c8a8806a28e8d0b085c1de9ab4a3cb"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/2.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf is necrotic, with dark brown to black lesions, irregular margins, and appears partially desiccated. Parts of the leaf are still green, suggesting recent symptom development. Leaf tissue is curled and distorted. No obvious chlorosis or water-soaked lesions are visible.\nDisease: Bacterial spot (likely caused by Xanthomonas spp.)\nAlternative Diagnoses: Fungal leaf spot (e.g., Septoria leaf spot, early blight), Phytophthora blight, or environmental stress (e.g., sunscald, drought stress).\nSeverity: Moderate\nConfidence: 70\nReasoning: The irregular, dark necrotic lesions with some green tissue remaining are most consistent with bacterial spot. However, without definitive signs such as water-soaked margins or specific lesion patterns, fungal leaf spot or environmental stress cannot be ruled out. The presence of some green tissue suggests the disease is not yet fully advanced, supporting a moderate severity rating.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf is necrotic, with dark brown to black lesions, irregular margins, and appears partially desiccated. Parts of the leaf are still green, suggesting recent symptom development. Leaf tissue is curled and distorted. No obvious chlorosis or water-soaked lesions are visible.",
+      "disease": "Bacterial spot (likely caused by Xanthomonas spp.)",
+      "alternative_diagnoses": "Fungal leaf spot (e.g., Septoria leaf spot, early blight), Phytophthora blight, or environmental stress (e.g., sunscald, drought stress).",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The irregular, dark necrotic lesions with some green tissue remaining are most consistent with bacterial spot. However, without definitive signs such as water-soaked margins or specific lesion patterns, fungal leaf spot or environmental stress cannot be ruled out. The presence of some green tissue suggests the disease is not yet fully advanced, supporting a moderate severity rating."
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 204,
+      "prompt_tokens_per_sec": 274.8018856156217,
+      "generation_tokens_per_sec": 52.91037025414129,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 4.436
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:11:49.014894+00:00",
+      "finish": "2026-07-01T13:11:53.451251+00:00",
+      "runtime_sec": 4.436
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "early_blight/2.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 18485,
+      "sha256": "a464236bc9ea8dc87b7d77863893056d8b8db696be6db66469bbc46d008b6e1f"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/3.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with irregular brownish-black necrotic lesions near the base, some margin discoloration, and overall slight wilting or curling. No obvious spots, spots, or lesions elsewhere on the leaf surface.\nDisease: Likely bacterial spot or early blight (Alternaria solani) based on necrotic lesions, but cannot confirm without more data.\nAlternative Diagnoses: Fungal leaf spot (e.g., Septoria leaf spot), bacterial canker, or environmental stress (e.g., drought, nutrient deficiency).\nSeverity: Moderate\nConfidence: 60\nReasoning: The necrotic lesions are consistent with several foliar diseases. The lesions are not large or widespread, and the leaf is not completely necrotic. The presence of a single lesion near the base and no other symptoms makes a definitive diagnosis difficult without more information. The leaf appears to be in a relatively early stage of disease.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with irregular brownish-black necrotic lesions near the base, some margin discoloration, and overall slight wilting or curling. No obvious spots, spots, or lesions elsewhere on the leaf surface.",
+      "disease": "Likely bacterial spot or early blight (Alternaria solani) based on necrotic lesions, but cannot confirm without more data.",
+      "alternative_diagnoses": "Fungal leaf spot (e.g., Septoria leaf spot), bacterial canker, or environmental stress (e.g., drought, nutrient deficiency).",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The necrotic lesions are consistent with several foliar diseases. The lesions are not large or widespread, and the leaf is not completely necrotic. The presence of a single lesion near the base and no other symptoms makes a definitive diagnosis difficult without more information. The leaf appears to be in a relatively early stage of disease."
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 195,
+      "prompt_tokens_per_sec": 274.74570680423966,
+      "generation_tokens_per_sec": 52.957593928677134,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 4.263
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:11:53.452534+00:00",
+      "finish": "2026-07-01T13:11:57.715225+00:00",
+      "runtime_sec": 4.263
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "early_blight/3.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12183,
+      "sha256": "c2b813db2ca460894280bc0decf1df940dbe64085b81d1c54568f74d155d5a3c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/4.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with irregular brownish lesions, some with a necrotic margin, and some areas appear to have a stippled or mottled appearance. Leaf tissue appears to be dying or dead in some areas. No obvious fungal sporulation, powdery mildew, or water-soaked lesions are visible.\nDisease: Not definitively identifiable from visual symptoms alone.\nAlternative Diagnoses: Bacterial spot, early blight (Alternaria), late blight (Phytophthora), Septoria leaf spot, or environmental stress (e.g., sunscald, nutrient deficiency, or mechanical damage). The lesions do not clearly match the typical appearance of any single disease without more context or lab confirmation.\nSeverity: Moderate\nConfidence: 40\nReasoning: The lesions are irregular and necrotic, which could be consistent with several fungal or bacterial diseases. However, without clear signs of fungal sporulation, water-soaked margins, or specific lesion shapes (e.g., concentric rings for early blight, angular lesions for Septoria), a definitive diagnosis is not possible. The presence of some stippling could suggest viral infection, but no distinct virus symptoms (e.g., vein clearing, mosaic) are visible. Therefore, the diagnosis is tentative.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with irregular brownish lesions, some with a necrotic margin, and some areas appear to have a stippled or mottled appearance. Leaf tissue appears to be dying or dead in some areas. No obvious fungal sporulation, powdery mildew, or water-soaked lesions are visible.",
+      "disease": "Not definitively identifiable from visual symptoms alone.",
+      "alternative_diagnoses": "Bacterial spot, early blight (Alternaria), late blight (Phytophthora), Septoria leaf spot, or environmental stress (e.g., sunscald, nutrient deficiency, or mechanical damage). The lesions do not clearly match the typical appearance of any single disease without more context or lab confirmation.",
+      "severity": "Moderate",
+      "confidence": "40",
+      "reasoning": "The lesions are irregular and necrotic, which could be consistent with several fungal or bacterial diseases. However, without clear signs of fungal sporulation, water-soaked margins, or specific lesion shapes (e.g., concentric rings for early blight, angular lesions for Septoria), a definitive diagnosis is not possible. The presence of some stippling could suggest viral infection, but no distinct virus symptoms (e.g., vein clearing, mosaic) are visible. Therefore, the diagnosis is tentative."
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 264,
+      "prompt_tokens_per_sec": 274.5501932622541,
+      "generation_tokens_per_sec": 52.65878187991947,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 5.594
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:11:57.716794+00:00",
+      "finish": "2026-07-01T13:12:03.311106+00:00",
+      "runtime_sec": 5.594
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "early_blight/4.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13121,
+      "sha256": "f44b6342cac8316b34a4fd23209d0100b9a19e803b3c94b8d09595a5f0d4f0bf"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/5.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf is discolored with dark green to black necrotic lesions, irregularly shaped holes, and appears tattered. Veins are visible but not clearly necrotic. Leaf surface appears somewhat mottled or speckled with dark spots.\nDisease: Likely bacterial spot or early blight (Alternaria solani) based on necrotic lesions and leaf spot appearance.\nAlternative Diagnoses: Septoria leaf spot, fungal leaf spot (e.g., Cladosporium), or insect feeding damage (though no clear feeding trails or holes from insects are visible).\nSeverity: Moderate\nConfidence: 60\nReasoning: The leaf shows multiple necrotic lesions and irregular holes, consistent with several foliar diseases. The dark, sunken spots and tattered edges suggest a pathogen. However, without clear fungal sporulation, definitive identification is not possible. The lesions could be bacterial or fungal. The severity is moderate as the leaf is not completely necrotic or desiccated. Confidence is moderate due to lack of definitive diagnostic features (e.g., fungal spores, bacterial ooze, or specific lesion margins).",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf is discolored with dark green to black necrotic lesions, irregularly shaped holes, and appears tattered. Veins are visible but not clearly necrotic. Leaf surface appears somewhat mottled or speckled with dark spots.",
+      "disease": "Likely bacterial spot or early blight (Alternaria solani) based on necrotic lesions and leaf spot appearance.",
+      "alternative_diagnoses": "Septoria leaf spot, fungal leaf spot (e.g., Cladosporium), or insect feeding damage (though no clear feeding trails or holes from insects are visible).",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf shows multiple necrotic lesions and irregular holes, consistent with several foliar diseases. The dark, sunken spots and tattered edges suggest a pathogen. However, without clear fungal sporulation, definitive identification is not possible. The lesions could be bacterial or fungal. The severity is moderate as the leaf is not completely necrotic or desiccated. Confidence is moderate due to lack of definitive diagnostic features (e.g., fungal spores, bacterial ooze, or specific lesion margins)."
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 240,
+      "prompt_tokens_per_sec": 274.51745256447475,
+      "generation_tokens_per_sec": 52.777798623133506,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 5.128
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:12:03.312671+00:00",
+      "finish": "2026-07-01T13:12:08.440842+00:00",
+      "runtime_sec": 5.128
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "early_blight/5.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15472,
+      "sha256": "243cd5f9e2dc37d1a45a058deb89c921767e588c4d1443227065ecfff9da099e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/1.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf is curled, cupped, and appears to be wilting. There is discoloration, with yellowing and browning, especially along the edges and tips. The leaf surface appears somewhat puckered or distorted. The leaf is not uniformly green; it has areas of chlorosis and necrosis. The leaf is not fully expanded and appears to be drying out.\nDisease: Leaf curl and discoloration consistent with viral infection (e.g., Tomato leaf curl virus) or environmental stress (e.g., water stress, nutrient deficiency, or heat stress).\nAlternative Diagnoses: Bacterial spot, early blight, late blight, or environmental stress (drought, heat, nutrient deficiency).\nSeverity: Moderate\nConfidence: 60\nReasoning: The leaf shows clear signs of stress, including curling, discoloration, and browning. These symptoms are consistent with multiple possible causes, including viral infection, bacterial disease, or environmental stress. Without additional information such as lesions, vein clearing, or fruit symptoms, it is not possible to definitively distinguish between these possibilities. The presence of discoloration and curling suggests a significant stressor, but the specific disease cannot be confirmed based solely on this image.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf is curled, cupped, and appears to be wilting. There is discoloration, with yellowing and browning, especially along the edges and tips. The leaf surface appears somewhat puckered or distorted. The leaf is not uniformly green; it has areas of chlorosis and necrosis. The leaf is not fully expanded and appears to be drying out.",
+      "disease": "Leaf curl and discoloration consistent with viral infection (e.g., Tomato leaf curl virus) or environmental stress (e.g., water stress, nutrient deficiency, or heat stress).",
+      "alternative_diagnoses": "Bacterial spot, early blight, late blight, or environmental stress (drought, heat, nutrient deficiency).",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf shows clear signs of stress, including curling, discoloration, and browning. These symptoms are consistent with multiple possible causes, including viral infection, bacterial disease, or environmental stress. Without additional information such as lesions, vein clearing, or fruit symptoms, it is not possible to definitively distinguish between these possibilities. The presence of discoloration and curling suggests a significant stressor, but the specific disease cannot be confirmed based solely on this image."
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 258,
+      "prompt_tokens_per_sec": 274.6848451223799,
+      "generation_tokens_per_sec": 52.75681359241182,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 5.47
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:12:08.442355+00:00",
+      "finish": "2026-07-01T13:12:13.912047+00:00",
+      "runtime_sec": 5.47
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "leaf_mold/1.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15611,
+      "sha256": "33063ecffbdddcb0ca01d1838b32e22eaa0fb7c207db670c58e9f16ca01b47ea"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/2.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop:\nTomato\n\nVisible Symptoms:\nLeaf is curled, cupped, and distorted. Veins are prominent and appear to be thickened or raised. Leaf surface is somewhat wrinkled or puckered. Margins are irregular and slightly curled inward. Leaf color is green but appears mottled or discolored in patches. No obvious spots, necrotic areas, or lesions are visible.\n\nDisease:\nNone definitively identifiable.\n\nAlternative Diagnoses:\n- Environmental stress (e.g., water stress, nutrient deficiency, temperature stress)\n- Mechanical damage\n- Early stage of viral infection (e.g., Tomato leaf curl virus, though no typical vein clearing or mottling is visible)\n- Physiological disorder (e.g., due to salinity or pH imbalance)\n\nSeverity:\nModerate\n\nConfidence (0-100):\n60\n\nReasoning:\nThe leaf exhibits significant curling and distortion, which is consistent with several stressors or diseases. However, no definitive disease symptoms such as spots, necrosis, or specific vein patterns (like those of Tomato leaf curl virus) are clearly visible. The mottled appearance could be due to stress or early disease, but without more specific symptoms, a confident diagnosis is not possible. The severity is rated moderate due to the visible distortion, but the lack of definitive disease markers reduces confidence.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf is curled, cupped, and distorted. Veins are prominent and appear to be thickened or raised. Leaf surface is somewhat wrinkled or puckered. Margins are irregular and slightly curled inward. Leaf color is green but appears mottled or discolored in patches. No obvious spots, necrotic areas, or lesions are visible.",
+      "disease": "None definitively identifiable.",
+      "alternative_diagnoses": "- Environmental stress (e.g., water stress, nutrient deficiency, temperature stress)\n- Mechanical damage\n- Early stage of viral infection (e.g., Tomato leaf curl virus, though no typical vein clearing or mottling is visible)\n- Physiological disorder (e.g., due to salinity or pH imbalance)",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf exhibits significant curling and distortion, which is consistent with several stressors or diseases. However, no definitive disease symptoms such as spots, necrosis, or specific vein patterns (like those of Tomato leaf curl virus) are clearly visible. The mottled appearance could be due to stress or early disease, but without more specific symptoms, a confident diagnosis is not possible. The severity is rated moderate due to the visible distortion, but the lack of definitive disease markers reduces confidence."
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 274,
+      "prompt_tokens_per_sec": 275.8119994210862,
+      "generation_tokens_per_sec": 52.73272555174483,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 5.774
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:12:13.913700+00:00",
+      "finish": "2026-07-01T13:12:19.688156+00:00",
+      "runtime_sec": 5.774
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "leaf_mold/2.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 14788,
+      "sha256": "acc36b61dc9729b5169afa45f7b62eb86530c47ffb943a75e37e4991b908046b"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/3.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with irregular yellowing and browning, starting from the tip and extending toward the base; some green tissue remains; leaf appears slightly curled or distorted; no obvious spots, lesions, or necrotic margins are visible.\nDisease: Likely nutrient deficiency or early stage of physiological disorder (e.g., manganese or iron deficiency, or water stress); no definitive pathogen symptoms observed.\nAlternative Diagnoses: Nutrient deficiency (manganese, iron, potassium), water stress, or early senescence; possible abiotic stress or minor fungal infection (e.g., early stage of Septoria leaf spot or bacterial spot, but no definitive lesions).\nSeverity: Moderate (visible symptoms suggest some stress or deficiency, but not widespread or advanced decay).\nConfidence: 60\nReasoning: The leaf shows discoloration and browning without clear pathogenic lesions, spots, or necrotic margins. The pattern suggests a deficiency or stress, but without definitive symptoms (e.g., characteristic spots, veins, or mold), a specific disease cannot be confirmed. The presence of some green tissue suggests it is not advanced senescence or severe disease.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with irregular yellowing and browning, starting from the tip and extending toward the base; some green tissue remains; leaf appears slightly curled or distorted; no obvious spots, lesions, or necrotic margins are visible.",
+      "disease": "Likely nutrient deficiency or early stage of physiological disorder (e.g., manganese or iron deficiency, or water stress); no definitive pathogen symptoms observed.",
+      "alternative_diagnoses": "Nutrient deficiency (manganese, iron, potassium), water stress, or early senescence; possible abiotic stress or minor fungal infection (e.g., early stage of Septoria leaf spot or bacterial spot, but no definitive lesions).",
+      "severity": "Moderate (visible symptoms suggest some stress or deficiency, but not widespread or advanced decay).",
+      "confidence": "60",
+      "reasoning": "The leaf shows discoloration and browning without clear pathogenic lesions, spots, or necrotic margins. The pattern suggests a deficiency or stress, but without definitive symptoms (e.g., characteristic spots, veins, or mold), a specific disease cannot be confirmed. The presence of some green tissue suggests it is not advanced senescence or severe disease."
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 239,
+      "prompt_tokens_per_sec": 275.77098343127125,
+      "generation_tokens_per_sec": 52.92332884972369,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 5.094
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:12:19.690193+00:00",
+      "finish": "2026-07-01T13:12:24.784612+00:00",
+      "runtime_sec": 5.094
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "leaf_mold/3.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12303,
+      "sha256": "d1ed653c6e67c1ea5f6776b5833e8ac4ac4b446df738e46c80bccff59eed59df"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/4.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: Leaf has irregular yellowish discoloration, mottling, and some necrotic areas. Leaf appears slightly curled or distorted. Veins are not clearly visible as affected.\n\nDisease: Likely viral infection (possibly Tomato Yellow Leaf Curl Virus or similar).\n\nAlternative Diagnoses: Bacterial spot, early blight, or nutrient deficiency (e.g., magnesium or iron).\n\nSeverity: Moderate\n\nConfidence: 60\n\nReasoning: The mottling and yellowing are consistent with viral infection. However, without clear vein clearing, leaf curling, or specific lesion shapes, it is not definitive. Bacterial spot can sometimes mimic this, and nutrient deficiencies can cause similar mottling. The leaf is not severely necrotic or completely curled, so severity is moderate. Confidence is limited due to lack of definitive diagnostic features.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf has irregular yellowish discoloration, mottling, and some necrotic areas. Leaf appears slightly curled or distorted. Veins are not clearly visible as affected.",
+      "disease": "Likely viral infection (possibly Tomato Yellow Leaf Curl Virus or similar).",
+      "alternative_diagnoses": "Bacterial spot, early blight, or nutrient deficiency (e.g., magnesium or iron).",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The mottling and yellowing are consistent with viral infection. However, without clear vein clearing, leaf curling, or specific lesion shapes, it is not definitive. Bacterial spot can sometimes mimic this, and nutrient deficiencies can cause similar mottling. The leaf is not severely necrotic or completely curled, so severity is moderate. Confidence is limited due to lack of definitive diagnostic features."
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 178,
+      "prompt_tokens_per_sec": 276.0304299622014,
+      "generation_tokens_per_sec": 53.055105334708244,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 3.933
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:12:24.786299+00:00",
+      "finish": "2026-07-01T13:12:28.719469+00:00",
+      "runtime_sec": 3.933
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "leaf_mold/4.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 16599,
+      "sha256": "c9ecbab9f17925d20b8014e646dc6b40d76a309b143ab867394fef27e5fef8c9"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/5.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 276.08098847306167,
+      "generation_tokens_per_sec": 52.56471356798759,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.317
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:12:28.721342+00:00",
+      "finish": "2026-07-01T13:12:39.038470+00:00",
+      "runtime_sec": 10.317
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "leaf_mold/5.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 11060,
+      "sha256": "14cb1c129a409db12d630eec6709960a23c6c9adaa0fb90a74b0a87f984a9e40"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/1.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 275.9309649081577,
+      "generation_tokens_per_sec": 52.6796980879377,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.297
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:12:39.040335+00:00",
+      "finish": "2026-07-01T13:12:49.337613+00:00",
+      "runtime_sec": 10.297
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "mosaic_virus/1.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 18345,
+      "sha256": "77487780b04b7f71301f5252247e7580a59bba179d4e2373d80ad7ecd326f904"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/2.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 275.7787112809162,
+      "generation_tokens_per_sec": 52.69566817411531,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.294
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:12:49.339549+00:00",
+      "finish": "2026-07-01T13:12:59.633936+00:00",
+      "runtime_sec": 10.294
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "mosaic_virus/2.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15676,
+      "sha256": "478ead03f1f962f60ae3455b90affd170c8b6a5cca95a60d1cf5e32b68f8bd0c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/3.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 276.2069128361209,
+      "generation_tokens_per_sec": 52.85386390769884,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.264
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:12:59.635746+00:00",
+      "finish": "2026-07-01T13:13:09.899978+00:00",
+      "runtime_sec": 10.264
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "mosaic_virus/3.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15893,
+      "sha256": "0b9f951849b9b676253328474ae2143dea472e3832156dab51e595beffa9f402"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/4.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 276.17123329287955,
+      "generation_tokens_per_sec": 52.864320350811276,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.263
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:13:09.902366+00:00",
+      "finish": "2026-07-01T13:13:20.165001+00:00",
+      "runtime_sec": 10.263
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "mosaic_virus/4.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13330,
+      "sha256": "f17385882c3f1f3343b50e25f41f0640729f45a4a0fefb30ced2441dde8ebc5d"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/5.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 276.2999075059562,
+      "generation_tokens_per_sec": 52.89748332386005,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.257
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:13:20.167209+00:00",
+      "finish": "2026-07-01T13:13:30.423913+00:00",
+      "runtime_sec": 10.257
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "mosaic_virus/5.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15628,
+      "sha256": "a48fd8bd48810917768d7f655c8503598089e80ed29a6124141ea118d33b5cc5"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/1.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 275.96510837876167,
+      "generation_tokens_per_sec": 52.90615995420509,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.256
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:13:30.426371+00:00",
+      "finish": "2026-07-01T13:13:40.681950+00:00",
+      "runtime_sec": 10.256
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "target_spot/1.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20213,
+      "sha256": "4bbc310f179679d83d9ceac8decf6180b234f3e4c263cbeb094469a3fa0b8a8e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/2.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 276.1483333591814,
+      "generation_tokens_per_sec": 52.88718015563047,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.259
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:13:40.684066+00:00",
+      "finish": "2026-07-01T13:13:50.943294+00:00",
+      "runtime_sec": 10.259
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "target_spot/2.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20922,
+      "sha256": "896f66f0c12091d3e72f1d760d22ad58ef848d0198582562daaad8631def0c59"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/3.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 276.02078380671605,
+      "generation_tokens_per_sec": 52.77932202882276,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.279
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:13:50.945881+00:00",
+      "finish": "2026-07-01T13:14:01.224837+00:00",
+      "runtime_sec": 10.279
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "target_spot/3.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 19847,
+      "sha256": "b9b20509c41742e2b574f7ad37d3235271d01c06907959ffbc5506597084c1ab"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/4.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 276.8796758764501,
+      "generation_tokens_per_sec": 52.89815577218843,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.254
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:14:01.226420+00:00",
+      "finish": "2026-07-01T13:14:11.480379+00:00",
+      "runtime_sec": 10.254
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "target_spot/4.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20511,
+      "sha256": "c3c9efa88a2550a369268c21fa35e1ef74596ee40ea749ce17982f412888ffa1"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/5.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 276.42748992834953,
+      "generation_tokens_per_sec": 52.904388502613756,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.255
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:14:11.482558+00:00",
+      "finish": "2026-07-01T13:14:21.737240+00:00",
+      "runtime_sec": 10.255
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "target_spot/5.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20039,
+      "sha256": "3f82e1d895ddcaad3f42e51d7d6f6db04b731dafe7c87c4604db01a8a258286c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/1.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 276.0036215471822,
+      "generation_tokens_per_sec": 52.90730962277686,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.255
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:14:21.739605+00:00",
+      "finish": "2026-07-01T13:14:31.994783+00:00",
+      "runtime_sec": 10.255
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "yellowleaf_curl_virus/1.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8103,
+      "sha256": "6df2838c482139b8c75c6cac397d02773f122ab26c42982a8f827fe34d691579"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/2.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 276.3957987822909,
+      "generation_tokens_per_sec": 52.89135011584883,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.257
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:14:31.997161+00:00",
+      "finish": "2026-07-01T13:14:42.254568+00:00",
+      "runtime_sec": 10.257
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "yellowleaf_curl_virus/2.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 5351,
+      "sha256": "707c27effbeb3c8bb9a8e1160fc0e6b0de2169d52219a893ed5f35262f4b4f4e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/3.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 276.15876780479607,
+      "generation_tokens_per_sec": 52.911058760424254,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.254
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:14:42.257524+00:00",
+      "finish": "2026-07-01T13:14:52.511836+00:00",
+      "runtime_sec": 10.254
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "yellowleaf_curl_virus/3.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 9100,
+      "sha256": "c08724d4d1b72aba0b2e68baeccffb5cd8715ed7417c1711cba554bacc920cb0"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/4.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 276.10174616728955,
+      "generation_tokens_per_sec": 52.908740918944446,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.254
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:14:52.514540+00:00",
+      "finish": "2026-07-01T13:15:02.768984+00:00",
+      "runtime_sec": 10.254
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "yellowleaf_curl_virus/4.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 7613,
+      "sha256": "c9c0669af67a454196b8496d6c941aaa8b0545696dad03961427f7e3648b5ae8"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/5.JPG",
+    "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 155,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 276.06431141073375,
+      "generation_tokens_per_sec": 52.89469375442943,
+      "peak_memory_mb": 5845.54,
+      "inference_time_sec": 10.257
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:15:02.771559+00:00",
+      "finish": "2026-07-01T13:15:13.028484+00:00",
+      "runtime_sec": 10.257
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "yellowleaf_curl_virus/5.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8056,
+      "sha256": "61293d08367e296731c1764af9cf4cd41918cbb89d444cb2199d1135d09b3f39"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+      "model_name": "Qwen3-VL-8B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  }
+]

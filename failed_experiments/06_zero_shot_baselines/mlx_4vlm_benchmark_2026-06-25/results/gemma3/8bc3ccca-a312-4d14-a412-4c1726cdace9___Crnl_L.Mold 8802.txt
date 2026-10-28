@@ -1,0 +1,21 @@
+Here's an analysis of the provided crop image:
+
+**Plant species:** Tomato (likely)
+
+**Visible symptoms:** Mottling, yellowing, and some curling of the leaf margins.
+
+**Leaf color:** Primarily green with significant yellowing, particularly along the edges and in patches.
+
+**Leaf texture:** The leaf surface appears somewhat rough or textured, possibly with some pubescence (fine hairs).
+
+**Spots or lesions:** No distinct spots or lesions are visible.
+
+**Severity:** Moderate – a significant portion of the leaf is affected, but not the entire leaf.
+
+**Most likely disease:** Nutrient deficiency (likely magnesium or potassium).
+
+**Alternative diagnoses:** Environmental stress (drought, heat), herbicide injury.
+
+**Confidence (0-100):** 65%
+
+**Reasoning:** The pattern of yellowing, particularly along the leaf margins, is consistent with nutrient deficiency. Magnesium and potassium deficiencies often present this way in tomato plants. The lack of spots or lesions rules out many fungal or bacterial diseases. The rough texture could be a normal characteristic of the tomato variety or potentially related to stress. Environmental factors could also be contributing to the observed symptoms.

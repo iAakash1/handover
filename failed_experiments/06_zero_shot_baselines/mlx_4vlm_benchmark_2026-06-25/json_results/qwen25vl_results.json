@@ -1,0 +1,178 @@
+[
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "0acdc2b2-0dde-4073-8542-6fca275ab974___RS_LB 4857.JPG",
+    "raw_output": "Plant species: Uncertain\n\nVisible symptoms: There are brown spots on the leaf, which appear to be lesions.\n\nLeaf color: The leaf is primarily green with some brown discoloration.\n\nLeaf texture: The leaf appears to be healthy and smooth, with no visible signs of roughness or damage.\n\nSpots or lesions: There are several brown spots and lesions on the leaf, which are irregular in shape and size.\n\nSeverity: The lesions appear to cover a significant portion of the leaf, indicating a moderate to severe level of damage.\n\nMost likely disease: Based on the visible symptoms, the most likely disease is leaf spot, which is a common fungal or bacterial disease affecting many plant species.\n\nAlternative diagnoses: Other possible diagnoses could include blight or other fungal or bacterial diseases, but the specific type of pathogen cannot be determined from this image alone.\n\nConfidence: 70\n\nReasoning: The presence of brown spots and lesions on the leaf is characteristic of leaf spot diseases. The severity and distribution of the lesions suggest a moderate to severe infection. However, without more specific knowledge of the plant species and a closer examination, a definitive diagnosis is not possible.",
+    "latency_sec": 5.405336141586304,
+    "tokens_per_sec": 57.855,
+    "peak_memory_gb": 5.982,
+    "error": null,
+    "timestamp": "2026-06-25T16:50:57.363070"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "0b27c03f-b3bc-4d96-9b76-6fbd779404b9___NREC_B.Spot 1799.JPG",
+    "raw_output": "Plant species: Uncertain\n\nVisible symptoms: There are visible spots and lesions on the leaf.\n\nLeaf color: The leaf is predominantly green, but there are areas of discoloration and browning.\n\nLeaf texture: The leaf appears to be healthy and smooth, with no visible signs of roughness or damage.\n\nSpots or lesions: There are numerous small, round, and irregularly shaped spots on the leaf, some of which are brown and appear to be necrotic (dead tissue).\n\nSeverity: The leaf shows moderate to severe damage, with a significant portion of the leaf affected by the spots and lesions.\n\nMost likely disease: The symptoms suggest a fungal or bacterial leaf spot disease, possibly Alternaria or a similar pathogen, which commonly causes brown spots on leaves.\n\nAlternative diagnoses: Other possibilities include insect damage, which can sometimes mimic fungal or bacterial leaf spot symptoms, but the lack of visible insect damage and the specific pattern of the spots suggest a pathogenic cause.\n\nConfidence: 70\n\nReasoning: The leaf has distinct brown spots and lesions, which are characteristic of fungal or bacterial leaf spot diseases. The pattern and distribution of the spots suggest a pathogenic cause rather than insect damage. The leaf texture appears healthy, which further supports the idea of a pathogenic disease rather than a physical damage. The severity and the specific pattern of the spots make a fungal or bacterial leaf spot disease the most likely diagnosis.",
+    "latency_sec": 5.587924003601074,
+    "tokens_per_sec": 57.822,
+    "peak_memory_gb": 5.982,
+    "error": null,
+    "timestamp": "2026-06-25T16:51:02.951548"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "0d8346e1-4624-4979-84e6-1353ca59007a___RS_LB 4079.JPG",
+    "raw_output": "Plant species: Uncertain\n\nVisible symptoms: There is a noticeable discoloration and a spot on the leaf, which appears to be a lesion.\n\nLeaf color: The leaf is predominantly green, but there is a dark brown spot indicating discoloration.\n\nLeaf texture: The leaf appears to be healthy and smooth, with visible veins.\n\nSpots or lesions: There is a dark brown spot on the leaf, which appears to be a lesion.\n\nSeverity: The lesion appears to be localized and not widespread, suggesting a mild to moderate severity.\n\nMost likely disease: The lesion could be indicative of a fungal or bacterial leaf spot disease, but without more information, it is uncertain.\n\nAlternative diagnoses: Other possibilities could include insect damage or nutrient deficiencies, but the symptoms are not definitive.\n\nConfidence (0-100): 50\n\nReasoning: The image shows a leaf with a dark brown spot, which could be a sign of a fungal or bacterial leaf spot disease. However, without more information or a closer inspection, it is not possible to definitively diagnose the disease. The leaf appears otherwise healthy, which suggests that the lesion is not widespread and could be a localized issue.",
+    "latency_sec": 4.763036012649536,
+    "tokens_per_sec": 57.874,
+    "peak_memory_gb": 5.982,
+    "error": null,
+    "timestamp": "2026-06-25T16:51:07.715804"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "0fdb66e8-b17d-42c2-bc6d-30dcfab8fcae___JR_B.Spot 9058.JPG",
+    "raw_output": "Plant species: Uncertain\n\nVisible symptoms: Yellowing and browning of the leaf\n\nLeaf color: Yellow with brown spots\n\nLeaf texture: Appears to be healthy, no visible damage to the leaf structure\n\nSpots or lesions: Brown spots and discoloration\n\nSeverity: Moderate\n\nMost likely disease: Uncertain, but could be a fungal or bacterial leaf spot disease\n\nAlternative diagnoses: Uncertain, could be due to nutrient deficiency or environmental stress\n\nConfidence: 50\n\nReasoning: The leaf shows signs of yellowing and browning, which could be due to various factors including disease, nutrient deficiency, or environmental stress. The presence of brown spots suggests a possible fungal or bacterial infection. However, without more specific information about the plant species and its growing conditions, it is difficult to make a definitive diagnosis.",
+    "latency_sec": 3.5303878784179688,
+    "tokens_per_sec": 57.973,
+    "peak_memory_gb": 5.982,
+    "error": null,
+    "timestamp": "2026-06-25T16:51:11.247500"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "1b589f92-a658-4e58-96de-db41acc411ce___JR_B.Spot 3239.JPG",
+    "raw_output": "Plant species: Uncertain\n\nVisible symptoms: Yellowing and browning of leaf edges\n\nLeaf color: Primarily yellow with some green areas\n\nLeaf texture: Appears to be healthy, no visible changes in texture\n\nSpots or lesions: No visible spots or lesions\n\nSeverity: Moderate, with significant yellowing and browning at the edges\n\nMost likely disease: Uncertain, but could be nutrient deficiency or environmental stress\n\nAlternative diagnoses: Uncertain, but could be due to a nutrient deficiency, environmental stress, or a fungal or bacterial disease\n\nConfidence (0-100): 50\n\nReasoning: The leaf shows significant yellowing and browning at the edges, which can be indicative of various issues. Without more information about the plant's environment, soil conditions, and other symptoms, it is difficult to pinpoint the exact cause. The leaf texture appears healthy, which rules out some diseases but does not confirm a healthy state. The lack of visible spots or lesions makes it less likely to be a fungal or bacterial disease.",
+    "latency_sec": 4.261486291885376,
+    "tokens_per_sec": 58.007,
+    "peak_memory_gb": 5.982,
+    "error": null,
+    "timestamp": "2026-06-25T16:51:15.509503"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "1b8f80ae-38a2-4d08-ae92-f80ff4459a73___RS_LB 2554.JPG",
+    "raw_output": "Plant species: Uncertain\n\nVisible symptoms: There is a noticeable brownish discoloration and a patchy area on the leaf, which appears to be a lesion.\n\nLeaf color: The leaf is primarily green, but the affected area is brownish.\n\nLeaf texture: The leaf appears to be healthy and smooth, except for the affected area.\n\nSpots or lesions: There is a distinct brownish lesion on the leaf, which appears to be a fungal or bacterial infection.\n\nSeverity: The lesion appears to be localized, but it could potentially spread if not addressed.\n\nMost likely disease: The symptoms suggest a fungal or bacterial leaf spot disease, possibly Alternaria or a similar pathogen.\n\nAlternative diagnoses: Other possibilities include insect damage or nutrient deficiencies, but the symptoms are more consistent with a pathogenic infection.\n\nConfidence: 70\n\nReasoning: The brownish lesion and discoloration are characteristic of fungal or bacterial leaf spot diseases. The localized nature of the lesion suggests it is not a severe systemic issue. However, without more specific knowledge of the plant species and a closer inspection, the diagnosis remains uncertain.",
+    "latency_sec": 4.52222204208374,
+    "tokens_per_sec": 57.828,
+    "peak_memory_gb": 5.982,
+    "error": null,
+    "timestamp": "2026-06-25T16:51:20.032616"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "2b562d10-5ccf-4f20-aadc-2e1480bd303e___JR_B.Spot 3256.JPG",
+    "raw_output": "Plant species: Uncertain\n\nVisible symptoms: There are brown spots on the leaf, which appear to be concentrated in the center and along the veins.\n\nLeaf color: The leaf is predominantly green, but the affected areas are brown.\n\nLeaf texture: The leaf appears to be healthy and smooth, with no visible signs of roughness or damage.\n\nSpots or lesions: There are distinct brown spots and lesions on the leaf, particularly concentrated in the center and along the veins.\n\nSeverity: The lesions appear to cover a significant portion of the leaf, indicating a moderate to severe condition.\n\nMost likely disease: The brown spots and lesions along the veins suggest a possible fungal or bacterial leaf spot disease, such as Alternaria leaf spot or bacterial leaf spot.\n\nAlternative diagnoses: Other possibilities could include nutrient deficiencies, insect damage, or mechanical damage, but the presence of lesions and the pattern of the spots suggest a disease rather than these other factors.\n\nConfidence (0-100): 70\n\nReasoning: The brown spots and lesions along the veins are characteristic of fungal or bacterial leaf spot diseases. The pattern and severity suggest a moderate to severe condition. The leaf texture and color appear healthy, which helps rule out other factors. However, without a closer examination or a more detailed history of the plant, a definitive diagnosis is uncertain.",
+    "latency_sec": 5.258131980895996,
+    "tokens_per_sec": 57.68,
+    "peak_memory_gb": 5.982,
+    "error": null,
+    "timestamp": "2026-06-25T16:51:25.291535"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "7a8f225e-a87c-47ca-a49d-27b620951a4e___Crnl_L.Mold 6497.JPG",
+    "raw_output": "Plant species: Uncertain\n\nVisible symptoms: The leaf appears to have a mottled or speckled pattern, which could indicate various issues.\n\nLeaf color: The leaf has a green color, but the mottled pattern suggests discoloration or chlorosis in some areas.\n\nLeaf texture: The leaf appears to be smooth, but the mottled pattern might indicate some texture changes due to the disease or condition.\n\nSpots or lesions: There are visible spots or lesions on the leaf, which are irregularly shaped and scattered.\n\nSeverity: The severity appears to be moderate, as there are noticeable spots but the leaf does not appear to be completely dead or severely affected.\n\nMost likely disease: The symptoms could be indicative of various diseases, including fungal or bacterial leaf spot diseases, nutrient deficiencies, or environmental stress. Without more information, it is difficult to pinpoint the exact cause.\n\nAlternative diagnoses: Possible diagnoses include fungal leaf spot, bacterial leaf spot, nutrient deficiency, or environmental stress. More specific symptoms or a closer examination would be needed to narrow down the diagnosis.\n\nConfidence (0-100): 50\n\nReasoning: The leaf has a mottled pattern and visible spots, which are common symptoms of various diseases. The lack of clear, defined lesions or a more specific pattern makes it difficult to diagnose with certainty. More information, such as the plant's history, environmental conditions, and a closer inspection, would be needed for a more accurate diagnosis.",
+    "latency_sec": 5.801990032196045,
+    "tokens_per_sec": 57.66,
+    "peak_memory_gb": 5.982,
+    "error": null,
+    "timestamp": "2026-06-25T16:51:31.094638"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "7d40d29e-ba53-49bb-93be-e19d63855f60___Crnl_L.Mold 6994.JPG",
+    "raw_output": "Plant species: Uncertain\n\nVisible symptoms: Yellowing and browning of leaf tissue\n\nLeaf color: Green with yellow and brown spots\n\nLeaf texture: Appears to be healthy, no visible damage to the leaf structure\n\nSpots or lesions: Yellow and brown spots on the leaf\n\nSeverity: Moderate, with some areas of the leaf showing significant discoloration\n\nMost likely disease: Uncertain, but could be a nutrient deficiency, fungal infection, or viral infection\n\nAlternative diagnoses: Uncertain, but could be a nutrient deficiency, fungal infection, or viral infection\n\nConfidence (0-100): 50\n\nReasoning: The leaf shows signs of yellowing and browning, which can be indicative of various issues. Without more information about the plant's environment, growth stage, and other symptoms, it is difficult to pinpoint the exact cause. The yellowing could be due to nutrient deficiencies, such as iron or magnesium, or it could be a sign of a fungal or viral infection. More specific symptoms or a closer examination would be needed to make a more accurate diagnosis.",
+    "latency_sec": 4.452438831329346,
+    "tokens_per_sec": 57.876,
+    "peak_memory_gb": 5.982,
+    "error": null,
+    "timestamp": "2026-06-25T16:51:35.548402"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "7de0d9b9-6d4f-4375-85c4-a64da65937d8___Crnl_L.Mold 7077.JPG",
+    "raw_output": "Plant species: Uncertain\n\nVisible symptoms: Leaf discoloration and wilting\n\nLeaf color: Dark green with brownish discoloration\n\nLeaf texture: Appears to be healthy, no visible damage\n\nSpots or lesions: Brownish spots and discoloration\n\nSeverity: Moderate\n\nMost likely disease: Uncertain, but could be a fungal or bacterial leaf spot disease\n\nAlternative diagnoses: Uncertain, could be due to environmental stress or other factors\n\nConfidence: 50\n\nReasoning: The leaf shows signs of discoloration and wilting, which could be indicative of various diseases or environmental stress. The presence of brownish spots suggests a possible fungal or bacterial infection. However, without more specific knowledge of the plant species and a closer examination, it is difficult to make a definitive diagnosis.",
+    "latency_sec": 3.4640731811523438,
+    "tokens_per_sec": 57.96,
+    "peak_memory_gb": 5.982,
+    "error": null,
+    "timestamp": "2026-06-25T16:51:39.013808"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "8bc3ccca-a312-4d14-a412-4c1726cdace9___Crnl_L.Mold 8802.JPG",
+    "raw_output": "Plant species: Uncertain\n\nVisible symptoms: Yellowing and browning of leaf tissue\n\nLeaf color: Green with yellow and brown discoloration\n\nLeaf texture: Appears to be healthy, no visible changes in texture\n\nSpots or lesions: Small, irregularly shaped brown spots\n\nSeverity: Moderate\n\nMost likely disease: Uncertain, but could be a fungal or bacterial leaf spot disease\n\nAlternative diagnoses: Uncertain, could be nutrient deficiency or environmental stress\n\nConfidence (0-100): 50\n\nReasoning: The leaf shows signs of yellowing and browning, which could be due to various factors including disease, nutrient deficiency, or environmental stress. The presence of small, irregularly shaped brown spots suggests a possible fungal or bacterial leaf spot disease. However, without more specific knowledge of the plant species and a closer examination, it is difficult to make a definitive diagnosis.",
+    "latency_sec": 3.772616147994995,
+    "tokens_per_sec": 57.98,
+    "peak_memory_gb": 5.982,
+    "error": null,
+    "timestamp": "2026-06-25T16:51:42.787546"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "augmented_Curl Virus0005.jpg",
+    "raw_output": "Plant species:\n- Appears to be a cotton plant, based on the leaf shape and texture.\n\nVisible symptoms:\n- The leaf shows a healthy green color, indicating no visible signs of disease or stress.\n\nLeaf color:\n- The leaf is a vibrant green, which is typical for a healthy cotton plant.\n\nLeaf texture:\n- The leaf has a smooth texture with prominent veins, which is characteristic of cotton leaves.\n\nSpots or lesions:\n- There are no visible spots or lesions on the leaf.\n\nSeverity:\n- The leaf appears to be in good condition, with no signs of damage or disease.\n\nMost likely disease:\n- There is no indication of a disease in this leaf. It appears to be healthy.\n\nAlternative diagnoses:\n- Uncertainty regarding other potential diseases or conditions.\n\nConfidence (0-100):\n- 80\n\nReasoning:\nThe leaf is a healthy green color, with no visible spots, lesions, or signs of disease. The leaf's texture and shape are consistent with a cotton plant. The absence of any visible symptoms suggests that the leaf is in good condition. However, a definitive diagnosis would require more information, such as the plant's overall health, environmental conditions, and a closer inspection of the plant's other leaves and stems.",
+    "latency_sec": 8.008785724639893,
+    "tokens_per_sec": 55.448,
+    "peak_memory_gb": 6.662,
+    "error": null,
+    "timestamp": "2026-06-25T16:51:50.797231"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "augmented_Curl Virus0033.jpg",
+    "raw_output": "Plant species:\n- Appears to be a cotton plant, based on the leaf shape and texture.\n\nVisible symptoms:\n- The leaf shows a light brown spot in the center, which could be a sign of a disease or damage.\n\nLeaf color:\n- The leaf is predominantly green, with a light brown spot in the center.\n\nLeaf texture:\n- The leaf has a smooth texture with visible veins.\n\nSpots or lesions:\n- There is a light brown spot in the center of the leaf, which appears to be a lesion.\n\nSeverity:\n- The lesion appears to be localized and not extensive, suggesting it might be a minor issue.\n\nMost likely disease:\n- The light brown spot could be indicative of a fungal or bacterial leaf spot disease, such as Cotton Leaf Spot (Bacillus glabratus) or Cotton Bacterial Leaf Blight (Xanthomonas campestris).\n\nAlternative diagnoses:\n- The lesion could also be due to mechanical damage, such as insect feeding or physical injury.\n\nConfidence (0-100):\n- 70\n\nReasoning:\nThe leaf has a light brown spot, which is a common symptom of various diseases affecting cotton plants. The localized nature of the spot suggests it might be a minor issue. The texture and color of the leaf are consistent with a healthy cotton leaf, but the presence of the spot raises concern. The lesion could be due to a fungal or bacterial pathogen, or it could be a result of mechanical damage. The confidence level is moderate due to the need for further diagnostic tests to confirm the exact cause of the lesion.",
+    "latency_sec": 9.283096075057983,
+    "tokens_per_sec": 54.6,
+    "peak_memory_gb": 6.662,
+    "error": null,
+    "timestamp": "2026-06-25T16:52:00.082718"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "augmented_Leaf Redding0085.jpg",
+    "raw_output": "Plant species: Uncertain\n\nVisible symptoms: The leaf shows discoloration with red and yellowish patches, which could indicate various diseases or environmental stress.\n\nLeaf color: The leaf has a mix of green, red, and yellow colors, suggesting possible chlorosis or anthocyanin production.\n\nLeaf texture: The leaf appears to be healthy in texture, with no visible signs of wilting or necrosis.\n\nSpots or lesions: There are distinct red and yellowish spots on the leaf, which could be indicative of various fungal or bacterial diseases, or possibly a virus.\n\nSeverity: The leaf shows moderate to severe discoloration, but the overall leaf structure appears intact, suggesting the condition might be manageable.\n\nMost likely disease: Uncertain. The symptoms could be caused by various factors including fungal or bacterial diseases, viral infections, or environmental stress. More specific symptoms or a closer examination would be needed to diagnose the exact cause.\n\nAlternative diagnoses: Uncertain. The symptoms could be due to a variety of factors including fungal or bacterial diseases, viral infections, or environmental stress.\n\nConfidence (0-100): 30\n\nReasoning: The image shows a leaf with discoloration and spots, but without more specific symptoms or a closer examination, it is difficult to pinpoint the exact cause. The symptoms could be due to various factors, and a more detailed analysis would be needed to make a definitive diagnosis.",
+    "latency_sec": 8.71227478981018,
+    "tokens_per_sec": 55.118,
+    "peak_memory_gb": 6.662,
+    "error": null,
+    "timestamp": "2026-06-25T16:52:08.796347"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "augmented_Leaf Variegation0045.jpg",
+    "raw_output": "Plant species:\nThe plant appears to be a cotton plant, based on the leaf shape and texture.\n\nVisible symptoms:\nThe leaf shows discoloration and spots.\n\nLeaf color:\nThe leaf has a mix of green and white areas, with some spots appearing lighter than the rest of the leaf.\n\nLeaf texture:\nThe leaf has a smooth texture with visible veins.\n\nSpots or lesions:\nThere are distinct white spots and lesions on the leaf, some of which appear to be necrotic (dead tissue).\n\nSeverity:\nThe leaf shows moderate to severe damage, with a significant portion of the leaf affected by the spots and lesions.\n\nMost likely disease:\nThe most likely disease is cotton leaf spot (Cercospora leaf spot), which is a common fungal disease affecting cotton plants. The symptoms match those typically observed in cotton leaf spot, including the presence of white spots and lesions.\n\nAlternative diagnoses:\nOther possible diagnoses include bacterial leaf spot, which can cause similar symptoms, but the presence of white spots and lesions is more characteristic of fungal diseases like cotton leaf spot. There is also a possibility of a nutrient deficiency, but the symptoms do not align with typical nutrient deficiency patterns.\n\nConfidence (0-100):\n85\n\nReasoning:\nThe leaf shape and texture are consistent with a cotton plant. The presence of white spots and lesions is characteristic of cotton leaf spot. The severity and pattern of the lesions suggest a fungal infection rather than a bacterial one. The absence of other symptoms that might suggest a nutrient deficiency supports the diagnosis of a fungal disease.",
+    "latency_sec": 9.410630702972412,
+    "tokens_per_sec": 52.958,
+    "peak_memory_gb": 6.662,
+    "error": null,
+    "timestamp": "2026-06-25T16:52:18.208242"
+  },
+  {
+    "model": "qwen25vl",
+    "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "image": "augmented_Leaf Variegation0058.jpg",
+    "raw_output": "Plant species:\nThe plant appears to be a cotton plant, identifiable by the large, broad leaves and the presence of cotton bolls in the background.\n\nVisible symptoms:\nThe leaf shows mottled discoloration, with areas of white and green.\n\nLeaf color:\nThe leaf has a mix of white and green areas, indicating discoloration.\n\nLeaf texture:\nThe leaf appears to be healthy and smooth, without any visible signs of roughness or damage.\n\nSpots or lesions:\nThere are visible spots and lesions on the leaf, which are white and irregularly shaped.\n\nSeverity:\nThe severity of the leaf damage appears to be moderate, as there are significant areas of discoloration but the leaf is not completely dead.\n\nMost likely disease:\nThe most likely disease is cotton leaf spot, which is a common fungal disease affecting cotton plants. It causes leaf discoloration and spots, which can lead to leaf drop and reduced yield.\n\nAlternative diagnoses:\nOther possible diagnoses include bacterial leaf spot, which can cause similar symptoms, but typically shows more uniform spots and lesions. There is also a possibility of nutrient deficiency, which can cause mottled leaf coloration, but usually does not show the same pattern of spots and lesions.\n\nConfidence (0-100):\n80\n\nReasoning:\nThe leaf discoloration and spots are characteristic of cotton leaf spot, a common fungal disease in cotton. The presence of cotton bolls in the background supports the identification of the plant as cotton. The severity and pattern of the symptoms align well with cotton leaf spot. The other possibilities, while not ruled out, are less likely given the specific symptoms observed.",
+    "latency_sec": 9.647160053253174,
+    "tokens_per_sec": 55.358,
+    "peak_memory_gb": 6.662,
+    "error": null,
+    "timestamp": "2026-06-25T16:52:27.856209"
+  }
+]

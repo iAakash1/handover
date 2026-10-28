@@ -1,0 +1,17 @@
+Here's an analysis of the provided crop image:
+
+**Plant species:** Tomato (likely)
+**Visible symptoms:** Yellowing of leaf tissue, mottling pattern.
+**Leaf color:** Green and yellow.
+**Leaf texture:** Appears relatively normal, slightly glossy.
+**Spots or lesions:** No distinct spots or lesions are visible.
+**Severity:** Moderate - a significant portion of the leaf is affected, but the leaf is still largely intact.
+**Most likely disease:** Possible early stages of Tomato Mosaic Virus (ToMV).
+**Alternative diagnoses:** Nutrient deficiency (possibly magnesium or potassium), environmental stress (sun scorch).
+**Confidence:** 65% - The yellowing and mottling pattern are consistent with viral infection, but other factors could be contributing. A definitive diagnosis would require further investigation (e.g., testing for viruses, soil analysis).
+
+
+
+**Reasoning:**
+
+The yellowing and mottled pattern on the leaf are concerning. While other factors could contribute to this appearance, the pattern is most consistent with a viral infection like Tomato Mosaic Virus. However, without additional information (plant history, other symptoms on the plant, location, etc.), it's difficult to be certain.

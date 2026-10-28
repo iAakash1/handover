@@ -1,0 +1,213 @@
+{
+  "generated_at": "2026-07-01T13:56:04.403520+00:00",
+  "total_records": 210,
+  "malformed_json_files": [],
+  "missing_field_records": [],
+  "duplicate_records": [],
+  "inconsistent_records": [
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/1.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/2.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/3.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/4.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/5.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/1.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/2.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/3.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/4.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/5.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/1.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/2.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/3.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/4.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/5.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/1.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/2.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/3.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/4.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/5.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/1.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/2.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/4.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/5.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/1.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/2.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/3.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/4.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    },
+    {
+      "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/5.JPG",
+      "model": "mlx-community/Molmo-7B-D-0924-4bit",
+      "issues": [
+        "status is 'success' but raw_output is empty"
+      ]
+    }
+  ],
+  "is_clean": false
+}

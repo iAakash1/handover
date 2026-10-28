@@ -1,0 +1,33 @@
+2026-07-01 18:45:13,069 [INFO] Loading mlx-community/gemma-3-12b-it-4bit ...
+2026-07-01 18:45:20,340 [INFO] Loaded mlx-community/gemma-3-12b-it-4bit in 7.3s
+2026-07-01 18:45:20,340 [INFO] [1/30] (bacterial_spot) 1.JPG
+2026-07-01 18:45:26,774 [INFO] [2/30] (bacterial_spot) 2.JPG
+2026-07-01 18:45:32,611 [INFO] [3/30] (bacterial_spot) 3.JPG
+2026-07-01 18:45:39,046 [INFO] [4/30] (bacterial_spot) 4.JPG
+2026-07-01 18:45:44,971 [INFO] [5/30] (bacterial_spot) 5.JPG
+2026-07-01 18:45:51,047 [INFO] [6/30] (early_blight) 1.JPG
+2026-07-01 18:45:56,849 [INFO] [7/30] (early_blight) 2.JPG
+2026-07-01 18:46:03,379 [INFO] [8/30] (early_blight) 3.JPG
+2026-07-01 18:46:09,008 [INFO] [9/30] (early_blight) 4.JPG
+2026-07-01 18:46:15,055 [INFO] [10/30] (early_blight) 5.JPG
+2026-07-01 18:46:22,133 [INFO] [11/30] (leaf_mold) 1.JPG
+2026-07-01 18:46:28,536 [INFO] [12/30] (leaf_mold) 2.JPG
+2026-07-01 18:46:34,461 [INFO] [13/30] (leaf_mold) 3.JPG
+2026-07-01 18:46:40,325 [INFO] [14/30] (leaf_mold) 4.JPG
+2026-07-01 18:46:46,463 [INFO] [15/30] (leaf_mold) 5.JPG
+2026-07-01 18:46:52,297 [INFO] [16/30] (mosaic_virus) 1.JPG
+2026-07-01 18:46:57,473 [INFO] [17/30] (mosaic_virus) 2.JPG
+2026-07-01 18:47:03,246 [INFO] [18/30] (mosaic_virus) 3.JPG
+2026-07-01 18:47:09,290 [INFO] [19/30] (mosaic_virus) 4.JPG
+2026-07-01 18:47:15,276 [INFO] [20/30] (mosaic_virus) 5.JPG
+2026-07-01 18:47:21,259 [INFO] [21/30] (target_spot) 1.JPG
+2026-07-01 18:47:27,543 [INFO] [22/30] (target_spot) 2.JPG
+2026-07-01 18:47:33,223 [INFO] [23/30] (target_spot) 3.JPG
+2026-07-01 18:47:39,539 [INFO] [24/30] (target_spot) 4.JPG
+2026-07-01 18:47:45,376 [INFO] [25/30] (target_spot) 5.JPG
+2026-07-01 18:47:51,270 [INFO] [26/30] (yellowleaf_curl_virus) 1.JPG
+2026-07-01 18:47:57,463 [INFO] [27/30] (yellowleaf_curl_virus) 2.JPG
+2026-07-01 18:48:02,723 [INFO] [28/30] (yellowleaf_curl_virus) 3.JPG
+2026-07-01 18:48:08,466 [INFO] [29/30] (yellowleaf_curl_virus) 4.JPG
+2026-07-01 18:48:13,792 [INFO] [30/30] (yellowleaf_curl_virus) 5.JPG
+2026-07-01 18:48:20,297 [INFO] Done: mlx-community/gemma-3-12b-it-4bit — 30/30 succeeded -> predictions_gemma-3-12b-it-4bit.json

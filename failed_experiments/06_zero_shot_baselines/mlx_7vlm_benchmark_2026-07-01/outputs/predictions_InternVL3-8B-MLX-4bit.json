@@ -1,0 +1,1412 @@
+[
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/1.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing, spots, and browning edges\nDisease: Early blight (Alternaria solani)\nAlternative Diagnoses: Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows yellowing, spots, and browning edges, which are common symptoms of early blight in tomatoes. The presence of these symptoms on the leaf suggests a fungal infection. Late blight typically causes water-soaked lesions, and Septoria leaf spot usually has smaller, more numerous spots. The severity is moderate due to the visible damage but not widespread, and the confidence is high given the distinct symptom patterns.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing, spots, and browning edges",
+      "disease": "Early blight (Alternaria solani)",
+      "alternative_diagnoses": "Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows yellowing, spots, and browning edges, which are common symptoms of early blight in tomatoes. The presence of these symptoms on the leaf suggests a fungal infection. Late blight typically causes water-soaked lesions, and Septoria leaf spot usually has smaller, more numerous spots. The severity is moderate due to the visible damage but not widespread, and the confidence is high given the distinct symptom patterns."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 158,
+      "prompt_tokens_per_sec": 165.85064009405775,
+      "generation_tokens_per_sec": 57.49153952493857,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 4.85
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:18:22.882085+00:00",
+      "finish": "2026-07-01T13:18:27.732400+00:00",
+      "runtime_sec": 4.85
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "bacterial_spot/1.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12736,
+      "sha256": "847986b04db52704897297565b62cac9653ea1ef0425f644a1070e7d1bd9baf1"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/2.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of leaf edges, presence of spots\nDisease: Early blight (Alternaria solani)\nAlternative Diagnoses: Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows yellowing and browning at the edges, which are common symptoms of early blight, caused by Alternaria solani. The presence of spots on the leaf further supports this diagnosis. Late blight typically causes water-soaked lesions, and Septoria leaf spot usually has smaller, more numerous spots. The severity is moderate due to the visible damage but not extensive. Confidence is high but not 100% due to the potential for other diseases with similar symptoms.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges, presence of spots",
+      "disease": "Early blight (Alternaria solani)",
+      "alternative_diagnoses": "Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows yellowing and browning at the edges, which are common symptoms of early blight, caused by Alternaria solani. The presence of spots on the leaf further supports this diagnosis. Late blight typically causes water-soaked lesions, and Septoria leaf spot usually has smaller, more numerous spots. The severity is moderate due to the visible damage but not extensive. Confidence is high but not 100% due to the potential for other diseases with similar symptoms."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 174,
+      "prompt_tokens_per_sec": 297.1866331204655,
+      "generation_tokens_per_sec": 57.61699343707909,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 4.203
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:18:27.736356+00:00",
+      "finish": "2026-07-01T13:18:31.939455+00:00",
+      "runtime_sec": 4.203
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "bacterial_spot/2.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 14358,
+      "sha256": "04658ef2dcceabf609f52008f552d478b290fe3a93cf325f39b4bc4320120eb2"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/3.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of leaf edges, presence of spots\nDisease: Early blight (Alternaria solani)\nAlternative Diagnoses: Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows yellowing and browning at the edges, which are common symptoms of early blight in tomatoes. The presence of spots and the pattern of the discoloration support this diagnosis. However, other diseases like late blight and Septoria leaf spot can also cause similar symptoms, which is why alternative diagnoses are considered. The severity is moderate due to the visible damage but not extensive enough to be classified as severe. Confidence is high but not 100% due to the potential for other diseases to present similarly.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges, presence of spots",
+      "disease": "Early blight (Alternaria solani)",
+      "alternative_diagnoses": "Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows yellowing and browning at the edges, which are common symptoms of early blight in tomatoes. The presence of spots and the pattern of the discoloration support this diagnosis. However, other diseases like late blight and Septoria leaf spot can also cause similar symptoms, which is why alternative diagnoses are considered. The severity is moderate due to the visible damage but not extensive enough to be classified as severe. Confidence is high but not 100% due to the potential for other diseases to present similarly."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 183,
+      "prompt_tokens_per_sec": 297.0532746521943,
+      "generation_tokens_per_sec": 57.53513735054338,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 4.362
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:18:31.940644+00:00",
+      "finish": "2026-07-01T13:18:36.302337+00:00",
+      "runtime_sec": 4.362
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "bacterial_spot/3.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12931,
+      "sha256": "c14a71e095076c9df9c7b1f61f8e69f773292cd0a3ef7bfcdbb0dedc487525db"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/4.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing edges, slight browning\nDisease: Early blight\nAlternative Diagnoses: Late blight, Septoria leaf spot\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows yellowing at the edges and slight browning, which are common symptoms of early blight in tomatoes. The pattern and location of the symptoms are consistent with early blight, although other diseases like late blight and Septoria leaf spot could present similar symptoms. The severity appears moderate as the damage is noticeable but not widespread across the leaf.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing edges, slight browning",
+      "disease": "Early blight",
+      "alternative_diagnoses": "Late blight, Septoria leaf spot",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows yellowing at the edges and slight browning, which are common symptoms of early blight in tomatoes. The pattern and location of the symptoms are consistent with early blight, although other diseases like late blight and Septoria leaf spot could present similar symptoms. The severity appears moderate as the damage is noticeable but not widespread across the leaf."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 122,
+      "prompt_tokens_per_sec": 298.70679438982455,
+      "generation_tokens_per_sec": 57.72913118843633,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.283
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:18:36.303029+00:00",
+      "finish": "2026-07-01T13:18:39.585860+00:00",
+      "runtime_sec": 3.283
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "bacterial_spot/4.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8698,
+      "sha256": "2e001949013eb06b64692decd1d4e66541f1eb074018775a12cafa2143e8666f"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/5.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing spots, minor leaf damage\nDisease: Early blight\nAlternative Diagnoses: Late blight, Septoria leaf spot\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows yellowing spots and minor damage, which are indicative of early blight, commonly caused by the fungus Alternaria solani. Other diseases like late blight (caused by Phytophthora infestans) and Septoria leaf spot (caused by Septoria lycopersici) can have similar symptoms but are less likely given the observed characteristics. The severity is moderate due to the presence of multiple spots and slight leaf damage.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing spots, minor leaf damage",
+      "disease": "Early blight",
+      "alternative_diagnoses": "Late blight, Septoria leaf spot",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows yellowing spots and minor damage, which are indicative of early blight, commonly caused by the fungus Alternaria solani. Other diseases like late blight (caused by Phytophthora infestans) and Septoria leaf spot (caused by Septoria lycopersici) can have similar symptoms but are less likely given the observed characteristics. The severity is moderate due to the presence of multiple spots and slight leaf damage."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 142,
+      "prompt_tokens_per_sec": 298.4563856510457,
+      "generation_tokens_per_sec": 58.107775548929844,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.615
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:18:39.586511+00:00",
+      "finish": "2026-07-01T13:18:43.201940+00:00",
+      "runtime_sec": 3.615
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "bacterial_spot/5.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13206,
+      "sha256": "34714995c8f496d38e005ce0ac0bdd5f4803e07496eb628f9582a17a878765bc"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/1.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with visible discoloration and spots\nDisease: Early blight (Alternaria solani)\nAlternative Diagnoses: Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows visible discoloration and spots, which are common symptoms of early blight in tomatoes. The spots have a concentric ring pattern, typical of Alternaria solani. Other diseases like late blight and Septoria leaf spot can also cause similar symptoms, but the pattern and appearance are more indicative of early blight. The severity is moderate due to the presence of multiple spots, and confidence is high but not absolute due to the potential for similar symptoms from other diseases.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with visible discoloration and spots",
+      "disease": "Early blight (Alternaria solani)",
+      "alternative_diagnoses": "Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows visible discoloration and spots, which are common symptoms of early blight in tomatoes. The spots have a concentric ring pattern, typical of Alternaria solani. Other diseases like late blight and Septoria leaf spot can also cause similar symptoms, but the pattern and appearance are more indicative of early blight. The severity is moderate due to the presence of multiple spots, and confidence is high but not absolute due to the potential for similar symptoms from other diseases."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 170,
+      "prompt_tokens_per_sec": 297.2608278064047,
+      "generation_tokens_per_sec": 57.753034119153305,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 4.124
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:18:43.203301+00:00",
+      "finish": "2026-07-01T13:18:47.327353+00:00",
+      "runtime_sec": 4.124
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "early_blight/1.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 10761,
+      "sha256": "bb8cf07350baac37f7fdfa2a9e54587363c8a8806a28e8d0b085c1de9ab4a3cb"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/2.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf discoloration, spots, and browning edges\nDisease: Early blight (Alternaria solani)\nAlternative Diagnoses: Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows visible symptoms of discoloration, spots, and browning edges, which are characteristic of early blight in tomatoes. The spots have a concentric ring pattern, typical of Alternaria solani. While late blight and Septoria leaf spot can also cause similar symptoms, the pattern and appearance are more indicative of early blight. The severity is moderate due to the presence of significant leaf damage, and confidence is high but not absolute due to the potential for similar symptoms from other diseases.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf discoloration, spots, and browning edges",
+      "disease": "Early blight (Alternaria solani)",
+      "alternative_diagnoses": "Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows visible symptoms of discoloration, spots, and browning edges, which are characteristic of early blight in tomatoes. The spots have a concentric ring pattern, typical of Alternaria solani. While late blight and Septoria leaf spot can also cause similar symptoms, the pattern and appearance are more indicative of early blight. The severity is moderate due to the presence of significant leaf damage, and confidence is high but not absolute due to the potential for similar symptoms from other diseases."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 177,
+      "prompt_tokens_per_sec": 297.0462199172093,
+      "generation_tokens_per_sec": 57.55036231229032,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 4.257
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:18:47.328744+00:00",
+      "finish": "2026-07-01T13:18:51.585921+00:00",
+      "runtime_sec": 4.257
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "early_blight/2.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 18485,
+      "sha256": "a464236bc9ea8dc87b7d77863893056d8b8db696be6db66469bbc46d008b6e1f"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/3.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with visible damage, including spots and irregular edges\nDisease: Early blight (Alternaria solani)\nAlternative Diagnoses: Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows visible damage with spots and irregular edges, which are characteristic of early blight. The spots are likely caused by fungal infection, and the irregular edges suggest a progressive disease spread. While late blight and septoria leaf spot can also cause similar symptoms, early blight is the most likely diagnosis based on the appearance of the leaf damage.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with visible damage, including spots and irregular edges",
+      "disease": "Early blight (Alternaria solani)",
+      "alternative_diagnoses": "Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows visible damage with spots and irregular edges, which are characteristic of early blight. The spots are likely caused by fungal infection, and the irregular edges suggest a progressive disease spread. While late blight and septoria leaf spot can also cause similar symptoms, early blight is the most likely diagnosis based on the appearance of the leaf damage."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 145,
+      "prompt_tokens_per_sec": 296.8843919247082,
+      "generation_tokens_per_sec": 57.64321920827305,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.699
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:18:51.588206+00:00",
+      "finish": "2026-07-01T13:18:55.287188+00:00",
+      "runtime_sec": 3.699
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "early_blight/3.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12183,
+      "sha256": "c2b813db2ca460894280bc0decf1df940dbe64085b81d1c54568f74d155d5a3c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/4.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with dark, irregular spots and some areas of discoloration\nDisease: Early Blight\nAlternative Diagnoses: Late Blight, Septoria Leaf Spot\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows dark, irregular spots which are characteristic of Early Blight, caused by the fungus *Alternaria solani*. The spots have a concentric ring pattern, which is typical for this disease. The presence of these symptoms suggests Early Blight, but other diseases like Late Blight and Septoria Leaf Spot can have similar appearances, hence the alternative diagnoses. The severity is moderate due to the visible damage but not extensive leaf loss.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with dark, irregular spots and some areas of discoloration",
+      "disease": "Early Blight",
+      "alternative_diagnoses": "Late Blight, Septoria Leaf Spot",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows dark, irregular spots which are characteristic of Early Blight, caused by the fungus *Alternaria solani*. The spots have a concentric ring pattern, which is typical for this disease. The presence of these symptoms suggests Early Blight, but other diseases like Late Blight and Septoria Leaf Spot can have similar appearances, hence the alternative diagnoses. The severity is moderate due to the visible damage but not extensive leaf loss."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 145,
+      "prompt_tokens_per_sec": 298.89708043116855,
+      "generation_tokens_per_sec": 57.62867252996548,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.685
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:18:55.287938+00:00",
+      "finish": "2026-07-01T13:18:58.972892+00:00",
+      "runtime_sec": 3.685
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "early_blight/4.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13121,
+      "sha256": "f44b6342cac8316b34a4fd23209d0100b9a19e803b3c94b8d09595a5f0d4f0bf"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/5.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with visible holes and damage\nDisease: Tomato Leaf Spot\nAlternative Diagnoses: Bacterial Leaf Spot, Early Blight\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows signs of damage with holes, which is indicative of a disease or pest issue. The presence of spots and holes suggests a bacterial or fungal infection. Tomato Leaf Spot is a common disease caused by bacteria or fungi, leading to such symptoms. Bacterial Leaf Spot and Early Blight are alternative diagnoses that can cause similar symptoms. The severity is moderate due to the visible damage, but not severe enough to indicate a critical outbreak. Confidence is high due to the clear visual symptoms matching known disease patterns.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with visible holes and damage",
+      "disease": "Tomato Leaf Spot",
+      "alternative_diagnoses": "Bacterial Leaf Spot, Early Blight",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows signs of damage with holes, which is indicative of a disease or pest issue. The presence of spots and holes suggests a bacterial or fungal infection. Tomato Leaf Spot is a common disease caused by bacteria or fungi, leading to such symptoms. Bacterial Leaf Spot and Early Blight are alternative diagnoses that can cause similar symptoms. The severity is moderate due to the visible damage, but not severe enough to indicate a critical outbreak. Confidence is high due to the clear visual symptoms matching known disease patterns."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 151,
+      "prompt_tokens_per_sec": 298.8882979716082,
+      "generation_tokens_per_sec": 58.0725090079107,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.77
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:18:58.973649+00:00",
+      "finish": "2026-07-01T13:19:02.743325+00:00",
+      "runtime_sec": 3.77
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "early_blight/5.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15472,
+      "sha256": "243cd5f9e2dc37d1a45a058deb89c921767e588c4d1443227065ecfff9da099e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/1.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of leaf edges, presence of spots\nDisease: Early blight (Alternaria solani)\nAlternative Diagnoses: Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows yellowing and browning at the edges, which are common symptoms of early blight, caused by Alternaria solani. The spots on the leaf are also indicative of this disease. Late blight typically causes water-soaked lesions, and Septoria leaf spot has smaller, more numerous spots, which are not clearly visible in this image. The severity is moderate due to the visible damage but not widespread, and confidence is high given the distinct symptoms present.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges, presence of spots",
+      "disease": "Early blight (Alternaria solani)",
+      "alternative_diagnoses": "Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows yellowing and browning at the edges, which are common symptoms of early blight, caused by Alternaria solani. The spots on the leaf are also indicative of this disease. Late blight typically causes water-soaked lesions, and Septoria leaf spot has smaller, more numerous spots, which are not clearly visible in this image. The severity is moderate due to the visible damage but not widespread, and confidence is high given the distinct symptoms present."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 171,
+      "prompt_tokens_per_sec": 296.91581920057297,
+      "generation_tokens_per_sec": 57.63688113911352,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 4.151
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:02.746390+00:00",
+      "finish": "2026-07-01T13:19:06.897060+00:00",
+      "runtime_sec": 4.151
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "leaf_mold/1.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15611,
+      "sha256": "33063ecffbdddcb0ca01d1838b32e22eaa0fb7c207db670c58e9f16ca01b47ea"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/2.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of leaf edges, presence of visible veins\nDisease: Early blight (Alternaria solani)\nAlternative Diagnoses: Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows yellowing and browning at the edges, which are common symptoms of early blight in tomatoes. The presence of visible veins and the pattern of the discoloration support this diagnosis. However, other diseases like late blight and Septoria leaf spot can also cause similar symptoms, which is why alternative diagnoses are considered. The severity is moderate due to the noticeable damage but not widespread, and confidence is high but not absolute due to the potential for other diseases.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges, presence of visible veins",
+      "disease": "Early blight (Alternaria solani)",
+      "alternative_diagnoses": "Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows yellowing and browning at the edges, which are common symptoms of early blight in tomatoes. The presence of visible veins and the pattern of the discoloration support this diagnosis. However, other diseases like late blight and Septoria leaf spot can also cause similar symptoms, which is why alternative diagnoses are considered. The severity is moderate due to the noticeable damage but not widespread, and confidence is high but not absolute due to the potential for other diseases."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 173,
+      "prompt_tokens_per_sec": 296.9345486793617,
+      "generation_tokens_per_sec": 57.549350703990626,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 4.187
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:06.898750+00:00",
+      "finish": "2026-07-01T13:19:11.086188+00:00",
+      "runtime_sec": 4.187
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "leaf_mold/2.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 14788,
+      "sha256": "acc36b61dc9729b5169afa45f7b62eb86530c47ffb943a75e37e4991b908046b"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/3.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and mottling of leaf tissue\nDisease: Tomato Mosaic Virus\nAlternative Diagnoses: Bacterial Leaf Spot, Nutrient Deficiency\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows distinct yellowing and mottling, which are common symptoms of viral infections such as Tomato Mosaic Virus. The pattern and distribution of the symptoms are not typical of bacterial leaf spot, which usually presents as water-soaked lesions. Nutrient deficiencies often cause uniform discoloration rather than localized mottling. The severity is moderate as the symptoms are present but not widespread across the leaf.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and mottling of leaf tissue",
+      "disease": "Tomato Mosaic Virus",
+      "alternative_diagnoses": "Bacterial Leaf Spot, Nutrient Deficiency",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows distinct yellowing and mottling, which are common symptoms of viral infections such as Tomato Mosaic Virus. The pattern and distribution of the symptoms are not typical of bacterial leaf spot, which usually presents as water-soaked lesions. Nutrient deficiencies often cause uniform discoloration rather than localized mottling. The severity is moderate as the symptoms are present but not widespread across the leaf."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 136,
+      "prompt_tokens_per_sec": 298.8340814204875,
+      "generation_tokens_per_sec": 57.61737434981218,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.53
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:11.086988+00:00",
+      "finish": "2026-07-01T13:19:14.617229+00:00",
+      "runtime_sec": 3.53
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "leaf_mold/3.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12303,
+      "sha256": "d1ed653c6e67c1ea5f6776b5833e8ac4ac4b446df738e46c80bccff59eed59df"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/4.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and mottling of leaf tissue\nDisease: Tomato Mosaic Virus\nAlternative Diagnoses: Bacterial Leaf Spot, Nutrient Deficiency\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows distinct yellowing and mottling, which are common symptoms of viral infections such as Tomato Mosaic Virus. The pattern and distribution of the symptoms are not typical of bacterial leaf spot, which usually presents as water-soaked lesions. Nutrient deficiencies often cause uniform discoloration rather than localized mottling. The severity is moderate as the symptoms are present but not widespread across the leaf.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and mottling of leaf tissue",
+      "disease": "Tomato Mosaic Virus",
+      "alternative_diagnoses": "Bacterial Leaf Spot, Nutrient Deficiency",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows distinct yellowing and mottling, which are common symptoms of viral infections such as Tomato Mosaic Virus. The pattern and distribution of the symptoms are not typical of bacterial leaf spot, which usually presents as water-soaked lesions. Nutrient deficiencies often cause uniform discoloration rather than localized mottling. The severity is moderate as the symptoms are present but not widespread across the leaf."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 136,
+      "prompt_tokens_per_sec": 299.048980813809,
+      "generation_tokens_per_sec": 58.20499746591956,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.506
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:14.618079+00:00",
+      "finish": "2026-07-01T13:19:18.124381+00:00",
+      "runtime_sec": 3.506
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "leaf_mold/4.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 16599,
+      "sha256": "c9ecbab9f17925d20b8014e646dc6b40d76a309b143ab867394fef27e5fef8c9"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/5.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and mottling of the leaf\nDisease: Early Blight\nAlternative Diagnoses: Septoria Leaf Spot, Target Spot\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows yellowing and mottling, which are common symptoms of early blight in tomatoes. The pattern and coloration are consistent with this disease. Other diseases like Septoria Leaf Spot and Target Spot can have similar appearances, but the specific pattern observed here is more indicative of early blight. The severity is moderate as the symptoms are present but not widespread across the leaf.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and mottling of the leaf",
+      "disease": "Early Blight",
+      "alternative_diagnoses": "Septoria Leaf Spot, Target Spot",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows yellowing and mottling, which are common symptoms of early blight in tomatoes. The pattern and coloration are consistent with this disease. Other diseases like Septoria Leaf Spot and Target Spot can have similar appearances, but the specific pattern observed here is more indicative of early blight. The severity is moderate as the symptoms are present but not widespread across the leaf."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 129,
+      "prompt_tokens_per_sec": 297.27008044408143,
+      "generation_tokens_per_sec": 57.72677444921466,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.416
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:18.127108+00:00",
+      "finish": "2026-07-01T13:19:21.542666+00:00",
+      "runtime_sec": 3.416
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "leaf_mold/5.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 11060,
+      "sha256": "14cb1c129a409db12d630eec6709960a23c6c9adaa0fb90a74b0a87f984a9e40"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/1.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with visible discoloration and texture changes\nDisease: Early Blight\nAlternative Diagnoses: Late Blight, Septoria Leaf Spot\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows signs of discoloration and texture changes, which are typical for early blight in tomatoes. The presence of concentric rings and a somewhat angular appearance of the spots supports this diagnosis. However, other diseases like late blight and septoria leaf spot can have similar symptoms, hence the alternative diagnoses. The severity is moderate as the damage is noticeable but not widespread across the leaf.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with visible discoloration and texture changes",
+      "disease": "Early Blight",
+      "alternative_diagnoses": "Late Blight, Septoria Leaf Spot",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows signs of discoloration and texture changes, which are typical for early blight in tomatoes. The presence of concentric rings and a somewhat angular appearance of the spots supports this diagnosis. However, other diseases like late blight and septoria leaf spot can have similar symptoms, hence the alternative diagnoses. The severity is moderate as the damage is noticeable but not widespread across the leaf."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 132,
+      "prompt_tokens_per_sec": 296.65344806796713,
+      "generation_tokens_per_sec": 57.68870111459855,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.47
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:21.544766+00:00",
+      "finish": "2026-07-01T13:19:25.015195+00:00",
+      "runtime_sec": 3.47
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "mosaic_virus/1.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 18345,
+      "sha256": "77487780b04b7f71301f5252247e7580a59bba179d4e2373d80ad7ecd326f904"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/2.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf has a healthy appearance with visible veins and no obvious signs of disease such as spots, discoloration, or wilting.\nDisease: None\nAlternative Diagnoses: None\nSeverity: None\nConfidence: 95\nReasoning: The leaf in the image appears to be healthy with no visible symptoms of disease. The green coloration, visible veins, and overall structure suggest it is not affected by any common tomato diseases. However, a closer physical examination and additional diagnostic tests would be necessary to confirm the health of the plant.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf has a healthy appearance with visible veins and no obvious signs of disease such as spots, discoloration, or wilting.",
+      "disease": "None",
+      "alternative_diagnoses": "None",
+      "severity": "None",
+      "confidence": "95",
+      "reasoning": "The leaf in the image appears to be healthy with no visible symptoms of disease. The green coloration, visible veins, and overall structure suggest it is not affected by any common tomato diseases. However, a closer physical examination and additional diagnostic tests would be necessary to confirm the health of the plant."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 120,
+      "prompt_tokens_per_sec": 298.8785124388459,
+      "generation_tokens_per_sec": 58.46660842172603,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.222
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:25.016117+00:00",
+      "finish": "2026-07-01T13:19:28.238105+00:00",
+      "runtime_sec": 3.222
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "mosaic_virus/2.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15676,
+      "sha256": "478ead03f1f962f60ae3455b90affd170c8b6a5cca95a60d1cf5e32b68f8bd0c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/3.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Mottling, discoloration, leaf curling\nDisease: Tomato mosaic virus\nAlternative Diagnoses: Viral infection (other than mosaic virus), nutrient deficiency\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows mottling and discoloration, which are common symptoms of viral infections such as the tomato mosaic virus. The leaf curling also supports this diagnosis. However, nutrient deficiencies can also cause similar symptoms, making it less certain. The severity appears moderate as the symptoms are present but not widespread across the plant.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Mottling, discoloration, leaf curling",
+      "disease": "Tomato mosaic virus",
+      "alternative_diagnoses": "Viral infection (other than mosaic virus), nutrient deficiency",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows mottling and discoloration, which are common symptoms of viral infections such as the tomato mosaic virus. The leaf curling also supports this diagnosis. However, nutrient deficiencies can also cause similar symptoms, making it less certain. The severity appears moderate as the symptoms are present but not widespread across the plant."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 123,
+      "prompt_tokens_per_sec": 297.3122435443699,
+      "generation_tokens_per_sec": 57.73471058763236,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.312
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:28.240724+00:00",
+      "finish": "2026-07-01T13:19:31.552506+00:00",
+      "runtime_sec": 3.312
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "mosaic_virus/3.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15893,
+      "sha256": "0b9f951849b9b676253328474ae2143dea472e3832156dab51e595beffa9f402"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/4.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and mottling of leaf\nDisease: Tomato mosaic virus\nAlternative Diagnoses: Bacterial spot, Early blight\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows distinct yellowing and mottling, which are common symptoms of the Tomato mosaic virus. The pattern and coloration are not typical of Bacterial spot or Early blight, which usually present with different symptoms such as water-soaked lesions or concentric rings. The moderate severity is indicated by the presence of symptoms on a single leaf, suggesting early infection.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and mottling of leaf",
+      "disease": "Tomato mosaic virus",
+      "alternative_diagnoses": "Bacterial spot, Early blight",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows distinct yellowing and mottling, which are common symptoms of the Tomato mosaic virus. The pattern and coloration are not typical of Bacterial spot or Early blight, which usually present with different symptoms such as water-soaked lesions or concentric rings. The moderate severity is indicated by the presence of symptoms on a single leaf, suggesting early infection."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 125,
+      "prompt_tokens_per_sec": 297.19750301184047,
+      "generation_tokens_per_sec": 57.74003760628869,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.346
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:31.555537+00:00",
+      "finish": "2026-07-01T13:19:34.901084+00:00",
+      "runtime_sec": 3.346
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "mosaic_virus/4.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13330,
+      "sha256": "f17385882c3f1f3343b50e25f41f0640729f45a4a0fefb30ced2441dde8ebc5d"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/5.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and mottling of the leaf\nDisease: Tomato Mosaic Virus\nAlternative Diagnoses: Bacterial Leaf Spot, Nutrient Deficiency\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows yellowing and mottling, which are common symptoms of viral infections like the Tomato Mosaic Virus. The pattern and distribution of the symptoms are not typical of bacterial spots, which usually appear as water-soaked lesions. Nutrient deficiencies often cause uniform discoloration rather than mottling. The presence of these specific symptoms with a mosaic pattern strongly suggests a viral infection.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and mottling of the leaf",
+      "disease": "Tomato Mosaic Virus",
+      "alternative_diagnoses": "Bacterial Leaf Spot, Nutrient Deficiency",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows yellowing and mottling, which are common symptoms of viral infections like the Tomato Mosaic Virus. The pattern and distribution of the symptoms are not typical of bacterial spots, which usually appear as water-soaked lesions. Nutrient deficiencies often cause uniform discoloration rather than mottling. The presence of these specific symptoms with a mosaic pattern strongly suggests a viral infection."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 133,
+      "prompt_tokens_per_sec": 298.96045185905274,
+      "generation_tokens_per_sec": 58.49435742133504,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.444
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:34.902027+00:00",
+      "finish": "2026-07-01T13:19:38.345648+00:00",
+      "runtime_sec": 3.444
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "mosaic_virus/5.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15628,
+      "sha256": "a48fd8bd48810917768d7f655c8503598089e80ed29a6124141ea118d33b5cc5"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/1.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with visible discoloration and irregular edges\nDisease: Early Blight\nAlternative Diagnoses: Late Blight, Septoria Leaf Spot\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows signs of discoloration and irregular edges, which are typical symptoms of early blight in tomatoes. The presence of dark, concentric rings on the lesions is characteristic of this disease. However, other diseases like late blight and septoria leaf spot can also cause similar symptoms, which is why alternative diagnoses are considered. The severity is moderate as the damage is noticeable but not widespread across the leaf.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with visible discoloration and irregular edges",
+      "disease": "Early Blight",
+      "alternative_diagnoses": "Late Blight, Septoria Leaf Spot",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows signs of discoloration and irregular edges, which are typical symptoms of early blight in tomatoes. The presence of dark, concentric rings on the lesions is characteristic of this disease. However, other diseases like late blight and septoria leaf spot can also cause similar symptoms, which is why alternative diagnoses are considered. The severity is moderate as the damage is noticeable but not widespread across the leaf."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 136,
+      "prompt_tokens_per_sec": 297.4417423698572,
+      "generation_tokens_per_sec": 57.75553599808248,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.537
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:38.349222+00:00",
+      "finish": "2026-07-01T13:19:41.885915+00:00",
+      "runtime_sec": 3.537
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "target_spot/1.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20213,
+      "sha256": "4bbc310f179679d83d9ceac8decf6180b234f3e4c263cbeb094469a3fa0b8a8e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/2.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with visible discoloration and minor damage at the edges\nDisease: Early Blight\nAlternative Diagnoses: Late Blight, Septoria Leaf Spot\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows discoloration and minor damage, which are common symptoms of early blight in tomatoes. The presence of dark, concentric rings is indicative of this disease. However, other diseases like late blight and septoria leaf spot can also cause similar symptoms, hence the alternative diagnoses. The severity is moderate due to the visible damage but not extensive spread.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with visible discoloration and minor damage at the edges",
+      "disease": "Early Blight",
+      "alternative_diagnoses": "Late Blight, Septoria Leaf Spot",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows discoloration and minor damage, which are common symptoms of early blight in tomatoes. The presence of dark, concentric rings is indicative of this disease. However, other diseases like late blight and septoria leaf spot can also cause similar symptoms, hence the alternative diagnoses. The severity is moderate due to the visible damage but not extensive spread."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 129,
+      "prompt_tokens_per_sec": 297.3745491497395,
+      "generation_tokens_per_sec": 57.708971725432846,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.417
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:41.890006+00:00",
+      "finish": "2026-07-01T13:19:45.306772+00:00",
+      "runtime_sec": 3.417
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "target_spot/2.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20922,
+      "sha256": "896f66f0c12091d3e72f1d760d22ad58ef848d0198582562daaad8631def0c59"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/3.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with visible white powdery spots\nDisease: Powdery mildew\nAlternative Diagnoses: Early blight, Downy mildew\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows visible white powdery spots, which are characteristic of powdery mildew. Early blight typically has concentric rings and downy mildew appears as yellow halos with downy growth on the underside of the leaf. The observed symptoms do not match these diseases, but it's important to note that a closer inspection and possibly lab analysis would be needed for a definitive diagnosis.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with visible white powdery spots",
+      "disease": "Powdery mildew",
+      "alternative_diagnoses": "Early blight, Downy mildew",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows visible white powdery spots, which are characteristic of powdery mildew. Early blight typically has concentric rings and downy mildew appears as yellow halos with downy growth on the underside of the leaf. The observed symptoms do not match these diseases, but it's important to note that a closer inspection and possibly lab analysis would be needed for a definitive diagnosis."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 134,
+      "prompt_tokens_per_sec": 298.8092775101959,
+      "generation_tokens_per_sec": 57.67251381175947,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.493
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:45.307812+00:00",
+      "finish": "2026-07-01T13:19:48.800679+00:00",
+      "runtime_sec": 3.493
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "target_spot/3.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 19847,
+      "sha256": "b9b20509c41742e2b574f7ad37d3235271d01c06907959ffbc5506597084c1ab"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/4.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with visible discoloration and irregular edges\nDisease: Early Blight\nAlternative Diagnoses: Late Blight, Septoria Leaf Spot\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows signs of discoloration and irregular edges, which are indicative of a fungal infection. Early Blight is a common disease in tomatoes caused by the fungus *Alternaria solani*, which often presents with these symptoms. Late Blight, caused by *Phytophthora infestans*, and Septoria Leaf Spot, caused by *Septoria lycopersici*, can also have similar appearances but are distinguished by slightly different symptom patterns. The moderate severity is due to the presence of significant leaf damage, but the plant does not show signs of severe wilting or extensive leaf drop. The confidence level is high due to the clear visual evidence of the disease symptoms, but not 100% certain due to the potential for similar-looking diseases.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with visible discoloration and irregular edges",
+      "disease": "Early Blight",
+      "alternative_diagnoses": "Late Blight, Septoria Leaf Spot",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows signs of discoloration and irregular edges, which are indicative of a fungal infection. Early Blight is a common disease in tomatoes caused by the fungus *Alternaria solani*, which often presents with these symptoms. Late Blight, caused by *Phytophthora infestans*, and Septoria Leaf Spot, caused by *Septoria lycopersici*, can also have similar appearances but are distinguished by slightly different symptom patterns. The moderate severity is due to the presence of significant leaf damage, but the plant does not show signs of severe wilting or extensive leaf drop. The confidence level is high due to the clear visual evidence of the disease symptoms, but not 100% certain due to the potential for similar-looking diseases."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 207,
+      "prompt_tokens_per_sec": 299.2746602399072,
+      "generation_tokens_per_sec": 57.92429815508929,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 4.742
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:48.801764+00:00",
+      "finish": "2026-07-01T13:19:53.543641+00:00",
+      "runtime_sec": 4.742
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "target_spot/4.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20511,
+      "sha256": "c3c9efa88a2550a369268c21fa35e1ef74596ee40ea749ce17982f412888ffa1"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/5.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with visible veins, green color, no visible spots or discoloration.\nDisease: None\nAlternative Diagnoses: None\nSeverity: None\nConfidence: 90\nReasoning: The leaf appears healthy with a green color and visible veins, without any visible spots or discoloration that would indicate a disease or pest issue.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with visible veins, green color, no visible spots or discoloration.",
+      "disease": "None",
+      "alternative_diagnoses": "None",
+      "severity": "None",
+      "confidence": "90",
+      "reasoning": "The leaf appears healthy with a green color and visible veins, without any visible spots or discoloration that would indicate a disease or pest issue."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 79,
+      "prompt_tokens_per_sec": 297.0550967667538,
+      "generation_tokens_per_sec": 57.95997927890322,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 2.547
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:53.547644+00:00",
+      "finish": "2026-07-01T13:19:56.094147+00:00",
+      "runtime_sec": 2.547
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "target_spot/5.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20039,
+      "sha256": "3f82e1d895ddcaad3f42e51d7d6f6db04b731dafe7c87c4604db01a8a258286c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/1.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing of leaf edges\nDisease: Early blight\nAlternative Diagnoses: Septoria leaf spot, Yellowing due to nutrient deficiency\nSeverity: Moderate\nConfidence: 75\nReasoning: The leaf shows yellowing at the edges, which is a common symptom of early blight caused by the fungus *Alternaria solani*. Other diseases like Septoria leaf spot can also cause similar yellowing, but typically with smaller, more numerous spots. Nutrient deficiencies, especially potassium, can also cause yellowing at the leaf edges. The severity is moderate as the yellowing is present but not widespread, and confidence is moderately high due to the distinct pattern and location of the symptoms.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing of leaf edges",
+      "disease": "Early blight",
+      "alternative_diagnoses": "Septoria leaf spot, Yellowing due to nutrient deficiency",
+      "severity": "Moderate",
+      "confidence": "75",
+      "reasoning": "The leaf shows yellowing at the edges, which is a common symptom of early blight caused by the fungus *Alternaria solani*. Other diseases like Septoria leaf spot can also cause similar yellowing, but typically with smaller, more numerous spots. Nutrient deficiencies, especially potassium, can also cause yellowing at the leaf edges. The severity is moderate as the yellowing is present but not widespread, and confidence is moderately high due to the distinct pattern and location of the symptoms."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 150,
+      "prompt_tokens_per_sec": 298.7195107660386,
+      "generation_tokens_per_sec": 57.6591749119415,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.771
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:56.095239+00:00",
+      "finish": "2026-07-01T13:19:59.865824+00:00",
+      "runtime_sec": 3.771
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "yellowleaf_curl_virus/1.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8103,
+      "sha256": "6df2838c482139b8c75c6cac397d02773f122ab26c42982a8f827fe34d691579"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/2.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing leaf\nDisease: Early blight\nAlternative Diagnoses: Late blight, Septoria leaf spot\nSeverity: Moderate\nConfidence: 75\nReasoning: The leaf shows yellowing, which is a common symptom of early blight in tomatoes. The yellowing is concentrated around the edges and veins, which is typical for early blight. However, other diseases like late blight and Septoria leaf spot can also cause yellowing, making it less certain. The severity is moderate as the yellowing is noticeable but not widespread.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing leaf",
+      "disease": "Early blight",
+      "alternative_diagnoses": "Late blight, Septoria leaf spot",
+      "severity": "Moderate",
+      "confidence": "75",
+      "reasoning": "The leaf shows yellowing, which is a common symptom of early blight in tomatoes. The yellowing is concentrated around the edges and veins, which is typical for early blight. However, other diseases like late blight and Septoria leaf spot can also cause yellowing, making it less certain. The severity is moderate as the yellowing is noticeable but not widespread."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 122,
+      "prompt_tokens_per_sec": 298.7984299220599,
+      "generation_tokens_per_sec": 58.37946499781321,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.259
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:19:59.866898+00:00",
+      "finish": "2026-07-01T13:20:03.126198+00:00",
+      "runtime_sec": 3.259
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "yellowleaf_curl_virus/2.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 5351,
+      "sha256": "707c27effbeb3c8bb9a8e1160fc0e6b0de2169d52219a893ed5f35262f4b4f4e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/3.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing leaf, visible veins, curled edges\nDisease: Early blight\nAlternative Diagnoses: Viral infection, nutrient deficiency\nSeverity: Moderate\nConfidence: 70\nReasoning: The leaf shows yellowing, which can be indicative of early blight or a viral infection. The visible veins and curled edges suggest possible nutrient deficiency or disease. The yellowing and curling are more consistent with early blight, but other conditions cannot be ruled out without further testing.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing leaf, visible veins, curled edges",
+      "disease": "Early blight",
+      "alternative_diagnoses": "Viral infection, nutrient deficiency",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The leaf shows yellowing, which can be indicative of early blight or a viral infection. The visible veins and curled edges suggest possible nutrient deficiency or disease. The yellowing and curling are more consistent with early blight, but other conditions cannot be ruled out without further testing."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 108,
+      "prompt_tokens_per_sec": 297.31878770440113,
+      "generation_tokens_per_sec": 57.82986340572688,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.05
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:20:03.130503+00:00",
+      "finish": "2026-07-01T13:20:06.180239+00:00",
+      "runtime_sec": 3.05
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "yellowleaf_curl_virus/3.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 9100,
+      "sha256": "c08724d4d1b72aba0b2e68baeccffb5cd8715ed7417c1711cba554bacc920cb0"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/4.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing of leaf edges, presence of spots\nDisease: Early blight (Alternaria solani)\nAlternative Diagnoses: Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows yellowing of the leaf edges and spots, which are common symptoms of early blight in tomatoes. Early blight typically presents with concentric rings on the leaves, but the lack of distinct rings might be due to the disease's progression or environmental factors. The spots and yellowing are consistent with early blight, but other diseases like late blight and Septoria leaf spot can also cause similar symptoms. The severity is moderate as the damage is visible but not widespread, and the confidence is high due to the recognizable symptoms, though not definitive without further testing.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing of leaf edges, presence of spots",
+      "disease": "Early blight (Alternaria solani)",
+      "alternative_diagnoses": "Late blight (Phytophthora infestans), Septoria leaf spot (Septoria lycopersici)",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows yellowing of the leaf edges and spots, which are common symptoms of early blight in tomatoes. Early blight typically presents with concentric rings on the leaves, but the lack of distinct rings might be due to the disease's progression or environmental factors. The spots and yellowing are consistent with early blight, but other diseases like late blight and Septoria leaf spot can also cause similar symptoms. The severity is moderate as the damage is visible but not widespread, and the confidence is high due to the recognizable symptoms, though not definitive without further testing."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 189,
+      "prompt_tokens_per_sec": 299.10827785420963,
+      "generation_tokens_per_sec": 57.49294994058897,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 4.456
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:20:06.181393+00:00",
+      "finish": "2026-07-01T13:20:10.637554+00:00",
+      "runtime_sec": 4.456
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "yellowleaf_curl_virus/4.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 7613,
+      "sha256": "c9c0669af67a454196b8496d6c941aaa8b0545696dad03961427f7e3648b5ae8"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/5.JPG",
+    "model": "mlx-community/InternVL3-8B-MLX-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of leaf edges, presence of irregularly shaped spots\nDisease: Early Blight\nAlternative Diagnoses: Late Blight, Septoria Leaf Spot\nSeverity: Moderate\nConfidence: 85\nReasoning: The leaf shows yellowing and browning at the edges with irregular spots, which are typical symptoms of Early Blight, caused by the fungus *Alternaria solani*. Late Blight usually presents as large, water-soaked lesions, and Septoria Leaf Spot tends to have smaller, more numerous spots. The symptoms are moderately severe, affecting the leaf's function but not yet causing widespread damage.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges, presence of irregularly shaped spots",
+      "disease": "Early Blight",
+      "alternative_diagnoses": "Late Blight, Septoria Leaf Spot",
+      "severity": "Moderate",
+      "confidence": "85",
+      "reasoning": "The leaf shows yellowing and browning at the edges with irregular spots, which are typical symptoms of Early Blight, caused by the fungus *Alternaria solani*. Late Blight usually presents as large, water-soaked lesions, and Septoria Leaf Spot tends to have smaller, more numerous spots. The symptoms are moderately severe, affecting the leaf's function but not yet causing widespread damage."
+    },
+    "metrics": {
+      "prompt_tokens": 345,
+      "generated_tokens": 138,
+      "prompt_tokens_per_sec": 298.8503357536639,
+      "generation_tokens_per_sec": 57.616184644642246,
+      "peak_memory_mb": 5349.79,
+      "inference_time_sec": 3.565
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:20:10.638701+00:00",
+      "finish": "2026-07-01T13:20:14.203426+00:00",
+      "runtime_sec": 3.565
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "yellowleaf_curl_virus/5.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8056,
+      "sha256": "61293d08367e296731c1764af9cf4cd41918cbb89d444cb2199d1135d09b3f39"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/InternVL3-8B-MLX-4bit",
+      "model_name": "InternVL3-8B-MLX-4bit",
+      "model_family": "InternVL",
+      "parameters": "8B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  }
+]

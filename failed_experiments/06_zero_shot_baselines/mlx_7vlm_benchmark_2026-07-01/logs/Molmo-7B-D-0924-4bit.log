@@ -1,0 +1,33 @@
+2026-07-01 19:23:59,380 [INFO] Loading mlx-community/Molmo-7B-D-0924-4bit ...
+2026-07-01 19:24:02,826 [INFO] Loaded mlx-community/Molmo-7B-D-0924-4bit in 3.4s
+2026-07-01 19:24:02,826 [INFO] [1/30] (bacterial_spot) 1.JPG
+2026-07-01 19:24:04,928 [INFO] [2/30] (bacterial_spot) 2.JPG
+2026-07-01 19:24:06,236 [INFO] [3/30] (bacterial_spot) 3.JPG
+2026-07-01 19:24:07,537 [INFO] [4/30] (bacterial_spot) 4.JPG
+2026-07-01 19:24:08,838 [INFO] [5/30] (bacterial_spot) 5.JPG
+2026-07-01 19:24:10,138 [INFO] [6/30] (early_blight) 1.JPG
+2026-07-01 19:24:11,438 [INFO] [7/30] (early_blight) 2.JPG
+2026-07-01 19:24:12,734 [INFO] [8/30] (early_blight) 3.JPG
+2026-07-01 19:24:14,034 [INFO] [9/30] (early_blight) 4.JPG
+2026-07-01 19:24:15,334 [INFO] [10/30] (early_blight) 5.JPG
+2026-07-01 19:24:16,634 [INFO] [11/30] (leaf_mold) 1.JPG
+2026-07-01 19:24:17,934 [INFO] [12/30] (leaf_mold) 2.JPG
+2026-07-01 19:24:19,237 [INFO] [13/30] (leaf_mold) 3.JPG
+2026-07-01 19:24:20,538 [INFO] [14/30] (leaf_mold) 4.JPG
+2026-07-01 19:24:21,844 [INFO] [15/30] (leaf_mold) 5.JPG
+2026-07-01 19:24:23,145 [INFO] [16/30] (mosaic_virus) 1.JPG
+2026-07-01 19:24:24,446 [INFO] [17/30] (mosaic_virus) 2.JPG
+2026-07-01 19:24:25,746 [INFO] [18/30] (mosaic_virus) 3.JPG
+2026-07-01 19:24:27,046 [INFO] [19/30] (mosaic_virus) 4.JPG
+2026-07-01 19:24:28,353 [INFO] [20/30] (mosaic_virus) 5.JPG
+2026-07-01 19:24:29,662 [INFO] [21/30] (target_spot) 1.JPG
+2026-07-01 19:24:30,990 [INFO] [22/30] (target_spot) 2.JPG
+2026-07-01 19:24:32,323 [INFO] [23/30] (target_spot) 3.JPG
+2026-07-01 19:24:37,273 [INFO] [24/30] (target_spot) 4.JPG
+2026-07-01 19:24:38,630 [INFO] [25/30] (target_spot) 5.JPG
+2026-07-01 19:24:40,011 [INFO] [26/30] (yellowleaf_curl_virus) 1.JPG
+2026-07-01 19:24:41,376 [INFO] [27/30] (yellowleaf_curl_virus) 2.JPG
+2026-07-01 19:24:42,719 [INFO] [28/30] (yellowleaf_curl_virus) 3.JPG
+2026-07-01 19:24:44,050 [INFO] [29/30] (yellowleaf_curl_virus) 4.JPG
+2026-07-01 19:24:45,385 [INFO] [30/30] (yellowleaf_curl_virus) 5.JPG
+2026-07-01 19:24:46,760 [INFO] Done: mlx-community/Molmo-7B-D-0924-4bit — 30/30 succeeded -> predictions_Molmo-7B-D-0924-4bit.json

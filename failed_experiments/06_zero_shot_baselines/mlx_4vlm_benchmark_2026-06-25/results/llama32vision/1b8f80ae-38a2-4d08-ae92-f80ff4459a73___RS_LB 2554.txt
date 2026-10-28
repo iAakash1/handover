@@ -1,0 +1,23 @@
+**Plant Species:** Unknown
+
+**Visible Symptoms:**
+
+* A brown, necrotic lesion is visible on the leaf.
+* The lesion appears to be a circular, irregular shape with a slightly raised edge.
+* The surrounding leaf tissue appears healthy and green.
+
+**Leaf Color:** Green
+
+**Leaf Texture:** Smooth
+
+**Spots or Lesions:** Yes, one large, necrotic lesion
+
+**Severity:** Moderate
+
+**Most Likely Disease:** Bacterial leaf spot or leaf blight (requires further examination to confirm)
+
+**Alternative Diagnoses:** None
+
+**Confidence:** 60%
+
+**Reasoning:** The presence of a single, large, necrotic lesion on the leaf suggests a bacterial infection. However, without further examination, such as a microscopic examination of the lesion or a culture of the pathogen, it is difficult to confirm the exact disease. Therefore, the confidence level is moderate.

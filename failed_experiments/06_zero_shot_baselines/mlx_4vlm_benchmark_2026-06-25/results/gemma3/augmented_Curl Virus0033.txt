@@ -1,0 +1,14 @@
+Here's an analysis of the crop image, based solely on what is visible:
+
+**Plant species:** Likely cotton (based on leaf morphology).
+**Visible symptoms:** Curling, puckering, and mottling of the leaf.
+**Leaf color:** Primarily green, with areas of lighter green and yellow mottling.
+**Leaf texture:** Appears somewhat rough or uneven due to the puckering.
+**Spots or lesions:** No distinct spots or lesions are visible.
+**Severity:** Moderate – the leaf is significantly distorted, but the entire plant is not visible.
+**Most likely disease:** Uncertain. The symptoms suggest a possible viral infection, but without further information, it is difficult to determine the specific virus.
+**Alternative diagnoses:**
+*   Nutrient deficiency (e.g., zinc deficiency)
+*   Herbicide injury
+*   Environmental stress (e.g., drought, heat)
+**Confidence:** 60% - The leaf morphology and mottling are consistent with viral symptoms, but other factors could be responsible. More information (e.g., plant history, other symptoms on the plant) would be needed for a more accurate diagnosis.

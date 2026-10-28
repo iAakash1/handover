@@ -1,0 +1,26 @@
+Here's an analysis of the crop image, based solely on what is visible:
+
+**Plant species:** Likely *Caladium* (based on leaf shape and variegation pattern).
+
+**Visible symptoms:** Mottling, discoloration, and some areas of white/yellow patches on the leaf surface.
+
+**Leaf color:** Primarily green with significant white/yellow variegation.
+
+**Leaf texture:** Appears relatively smooth, though the image quality makes it difficult to assess definitively.
+
+**Spots or lesions:** No distinct, raised spots or lesions are visible. The discoloration appears to be a general mottling.
+
+**Severity:** Moderate – a significant portion of the leaf surface is affected by discoloration.
+
+**Most likely disease:** Uncertain. The discoloration could be due to several factors, including nutrient deficiency (e.g., magnesium or manganese), viral infection, or environmental stress (e.g., sun scorch). Without further information, it's difficult to pinpoint the exact cause.
+
+**Alternative diagnoses:**
+*   Nutrient deficiency
+*   Environmental stress (sun scorch, herbicide damage)
+*   Viral infection (mosaic virus)
+
+**Confidence (0-100):** 60% - The leaf characteristics strongly suggest *Caladium*, but the cause of the discoloration is uncertain based on the image alone.
+
+
+
+**Reasoning:** The leaf shape and variegation pattern are characteristic of *Caladium*. The mottling and discoloration are the primary symptoms observed. The absence of raised spots or lesions rules out some fungal or bacterial diseases.

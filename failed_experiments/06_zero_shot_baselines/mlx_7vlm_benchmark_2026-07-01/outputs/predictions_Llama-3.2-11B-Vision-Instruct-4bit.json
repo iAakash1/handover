@@ -1,0 +1,1412 @@
+[
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/1.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato\n\n### Visible Symptoms\n\n* The leaf is yellowish-green with brown spots and patches\n* The edges of the leaf are slightly curled and have a rough texture\n* There are small, dark spots on the underside of the leaf\n* The leaf appears to be slightly wilted\n\n### Disease\n\n* Early Blight\n\n### Alternative Diagnoses\n\n* Septoria Leaf Spot\n* Bacterial Leaf Spot\n\n### Severity\n\n* The disease is moderately severe, with noticeable symptoms on the leaf\n\n### Confidence (0-100)\n\n* 80%\n\n### Reasoning\n\n* The yellowish-green color and brown spots on the leaf are consistent with Early Blight\n* The curled edges and rough texture are also consistent with this disease\n* The small, dark spots on the underside of the leaf could be indicative of Septoria Leaf Spot or Bacterial Leaf Spot, but the overall appearance of the leaf suggests that Early Blight is the most likely diagnosis\n* The moderate severity of the disease is consistent with the visible symptoms on the leaf",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 221,
+      "prompt_tokens_per_sec": 14.441784512178899,
+      "generation_tokens_per_sec": 4.731938068094745,
+      "peak_memory_mb": 9362.88,
+      "inference_time_sec": 53.008
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:20:18.294002+00:00",
+      "finish": "2026-07-01T13:21:11.302215+00:00",
+      "runtime_sec": 53.008
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "bacterial_spot/1.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12736,
+      "sha256": "847986b04db52704897297565b62cac9653ea1ef0425f644a1070e7d1bd9baf1"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/2.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato\n\n### Visible Symptoms\n\n* The leaf appears to be infected with a disease, as evidenced by the presence of dark spots and yellowing of the leaf.\n* The leaf is also slightly curled and has a distorted shape.\n\n### Disease\n\n* The disease appears to be a fungal infection, possibly caused by a pathogen such as Alternaria or Septoria.\n* The dark spots on the leaf are likely fungal spores or lesions.\n\n### Alternative Diagnoses\n\n* Bacterial leaf spot\n* Early blight\n\n### Severity\n\n* The disease appears to be moderately severe, with a significant number of infected leaves present in the crop.\n\n### Confidence (0-100)\n\n* 80%\n\n### Reasoning\n\n* The presence of dark spots and yellowing of the leaf suggests a fungal infection.\n* The distorted shape of the leaf may indicate a viral or bacterial infection.\n* The moderate severity of the disease suggests that it may be a common problem in tomato crops.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 206,
+      "prompt_tokens_per_sec": 15.360579142509641,
+      "generation_tokens_per_sec": 4.656048904345428,
+      "peak_memory_mb": 9362.87,
+      "inference_time_sec": 50.168
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:21:11.303879+00:00",
+      "finish": "2026-07-01T13:22:01.471281+00:00",
+      "runtime_sec": 50.168
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "bacterial_spot/2.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 14358,
+      "sha256": "04658ef2dcceabf609f52008f552d478b290fe3a93cf325f39b4bc4320120eb2"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/3.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\nThe crop is a tomato plant.\n\n### Visible Symptoms\nThe leaf exhibits yellowing and necrosis, with brown spots on the edges and a yellowish discoloration in the center. The leaf appears to be curled and has a rough texture.\n\n### Disease\nBased on the visible symptoms, the disease appears to be a fungal infection, possibly caused by a pathogen such as Alternaria or Septoria.\n\n### Alternative Diagnoses\nOther possible causes of the symptoms could include bacterial or viral infections, but without further information or testing, it is difficult to determine the exact cause.\n\n### Severity\nThe severity of the disease appears to be moderate, with the infection affecting a significant portion of the leaf.\n\n### Confidence (0-100)\nI am 80% confident in my analysis, as the symptoms are consistent with a fungal infection, but further testing would be necessary to confirm the diagnosis.\n\n### Reasoning\nThe yellowing and necrosis of the leaf, along with the presence of brown spots, are consistent with a fungal infection. The curled and rough texture of the leaf also suggest a disease-related issue. However, without further information or testing, it is difficult to determine the exact cause of the symptoms.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 253,
+      "prompt_tokens_per_sec": 15.145172791705269,
+      "generation_tokens_per_sec": 4.59419609293623,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 61.075
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:22:01.471982+00:00",
+      "finish": "2026-07-01T13:23:02.546632+00:00",
+      "runtime_sec": 61.075
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "bacterial_spot/3.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12931,
+      "sha256": "c14a71e095076c9df9c7b1f61f8e69f773292cd0a3ef7bfcdbb0dedc487525db"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/4.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato\n\n### Visible Symptoms\n\n* The leaf is yellow with brown edges\n* The leaf is curled and distorted\n* There are small, dark spots on the leaf\n\n### Disease\n\n* The leaf appears to be infected with a fungal disease\n* The yellowing and curling of the leaf are consistent with a fungal infection\n* The dark spots on the leaf may be a sign of fungal growth\n\n### Alternative Diagnoses\n\n* Bacterial leaf spot\n* Early blight\n* Septoria leaf spot\n\n### Severity\n\n* The disease appears to be moderately severe\n* The leaf is still green and healthy in some areas\n* The disease has not yet spread to other parts of the plant\n\n### Confidence (0-100)\n\n* 80%\n\n### Reasoning\n\n* The yellowing and curling of the leaf are consistent with a fungal infection\n* The dark spots on the leaf may be a sign of fungal growth\n* The disease appears to be moderately severe, but it has not yet spread to other parts of the plant\n* The leaf is still green and healthy in some areas, indicating that the disease is not yet widespread.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 244,
+      "prompt_tokens_per_sec": 15.049023027755926,
+      "generation_tokens_per_sec": 4.53196193670805,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 59.883
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:23:02.547329+00:00",
+      "finish": "2026-07-01T13:24:02.430276+00:00",
+      "runtime_sec": 59.883
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "bacterial_spot/4.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8698,
+      "sha256": "2e001949013eb06b64692decd1d4e66541f1eb074018775a12cafa2143e8666f"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/5.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\nThe image shows a tomato leaf.\n\n### Visible Symptoms\nThe leaf exhibits yellowing and brown spots, with some areas appearing to be more severely affected than others. The edges of the leaf appear to be slightly curled.\n\n### Disease\nBased on the visible symptoms, the most likely disease is early blight, caused by the fungus Alternaria solani. This disease typically causes yellowing and brown spots on the leaves, as well as lesions on the stems and fruit.\n\n### Alternative Diagnoses\nOther possible causes of the symptoms include bacterial leaf spot, caused by the bacterium Pseudomonas syringae, and septoria leaf spot, caused by the fungus Septoria lycopersica. However, without further information or a more detailed examination, it is difficult to rule out these possibilities.\n\n### Severity\nThe severity of the disease appears to be moderate, with some areas of the leaf showing more severe symptoms than others.\n\n### Confidence (0-100)\nI am approximately 80% confident in my diagnosis based on the visible symptoms.\n\n### Reasoning\nThe combination of yellowing and brown spots on the leaf, as well as the curled edges, suggests a fungal infection. The presence of these symptoms on a tomato leaf is consistent with early blight, which is a common disease affecting tomatoes. However, without further information or a more detailed examination, it is difficult to rule out other possibilities.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 292,
+      "prompt_tokens_per_sec": 14.865254929831655,
+      "generation_tokens_per_sec": 4.482109812159034,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 71.268
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:24:02.430948+00:00",
+      "finish": "2026-07-01T13:25:13.699230+00:00",
+      "runtime_sec": 71.268
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "bacterial_spot/5.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13206,
+      "sha256": "34714995c8f496d38e005ce0ac0bdd5f4803e07496eb628f9582a17a878765bc"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/1.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of Tomato Leaf**\n\n### Crop\n\n* Tomato plant\n\n### Visible Symptoms\n\n* The leaves are pale green with a dusty appearance\n* Small, circular, brown spots are visible on the leaves\n* The leaves appear to be curled and distorted\n\n### Disease\n\n* Early Blight (Alternaria solani)\n\n### Alternative Diagnoses\n\n* Late Blight (Phytophthora infestans)\n* Septoria Leaf Spot (Septoria tomata)\n\n### Severity\n\n* The disease appears to be in the early stages, with only a few leaves affected\n\n### Confidence (0-100)\n\n* 80%\n\n### Reasoning\n\n* The pale green color and dusty appearance of the leaves are consistent with Early Blight\n* The small, circular, brown spots are also consistent with Early Blight\n* The curled and distorted leaves may be due to the disease, but could also be caused by other factors such as nutrient deficiency or environmental stress\n* The disease appears to be in the early stages, with only a few leaves affected, which suggests that it may be possible to control the disease with proper management practices.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 229,
+      "prompt_tokens_per_sec": 14.72905835780532,
+      "generation_tokens_per_sec": 4.474472839304888,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 57.354
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:25:13.699935+00:00",
+      "finish": "2026-07-01T13:26:11.054252+00:00",
+      "runtime_sec": 57.354
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "early_blight/1.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 10761,
+      "sha256": "bb8cf07350baac37f7fdfa2a9e54587363c8a8806a28e8d0b085c1de9ab4a3cb"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/2.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato plant\n\n### Visible Symptoms\n\n* The leaf appears to be wilted and discolored, with a yellowish-brown coloration on the edges and tips.\n* The leaf's surface is covered in small, dark spots and patches.\n* The leaf's veins are visible and appear to be affected by the disease.\n\n### Disease\n\n* Based on the visible symptoms, the disease appears to be a fungal infection, possibly caused by a pathogen such as Septoria or Alternaria.\n* The presence of dark spots and patches on the leaf's surface suggests a necrotic or blight-like disease.\n\n### Alternative Diagnoses\n\n* Bacterial leaf spot\n* Early blight\n* Late blight\n\n### Severity\n\n* The disease appears to be moderately severe, with a significant portion of the leaf affected.\n\n### Confidence (0-100)\n\n* 80% confidence in the diagnosis based on the visible symptoms.\n\n### Reasoning\n\n* The combination of the leaf's wilting and discoloration, along with the presence of dark spots and patches, suggests a fungal infection.\n* The affected veins and the overall appearance of the leaf are consistent with a necrotic or blight-like disease.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 255,
+      "prompt_tokens_per_sec": 14.820460312385448,
+      "generation_tokens_per_sec": 4.474389996486662,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 63.128
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:26:11.054927+00:00",
+      "finish": "2026-07-01T13:27:14.182606+00:00",
+      "runtime_sec": 63.128
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "early_blight/2.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 18485,
+      "sha256": "a464236bc9ea8dc87b7d77863893056d8b8db696be6db66469bbc46d008b6e1f"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/3.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato\n\n### Visible Symptoms\n\n* The leaf appears to be infected with a disease, as evidenced by the presence of lesions and discoloration.\n* The lesions are circular and have a brownish color, indicating a possible fungal infection.\n* The leaf's edges are curled and distorted, suggesting that the disease is affecting the leaf's growth and development.\n\n### Disease\n\n* Based on the visible symptoms, it is likely that the leaf is infected with a fungal disease, such as early blight or septoria leaf spot.\n* The presence of lesions and discoloration suggests that the disease is causing damage to the leaf's tissues and potentially affecting its ability to carry out photosynthesis.\n\n### Alternative Diagnoses\n\n* It is also possible that the leaf is infected with a bacterial disease, such as bacterial leaf spot or bacterial canker.\n* However, without further information or a more detailed examination of the leaf, it is difficult to determine the exact cause of the disease.\n\n### Severity\n\n* The severity of the disease appears to be moderate, with the lesions covering a significant portion of the leaf.\n* However, the exact severity of the disease cannot be determined without further information or a more detailed examination of the leaf.\n\n### Confidence (0-100)\n\n* Confidence level: 80%\n\n### Reasoning\n\n* The presence of lesions and discoloration on the leaf suggests that the disease is causing damage to the leaf's tissues and potentially affecting its ability to carry out photosynthesis.\n* The curled and distorted edges of the leaf suggest that the disease is affecting the leaf's growth and development.\n* The moderate severity of the disease suggests that the disease is not yet at an advanced stage, but it may still be causing significant damage to the plant.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 361,
+      "prompt_tokens_per_sec": 14.842258333743438,
+      "generation_tokens_per_sec": 4.482954377005105,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 86.655
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:27:14.183292+00:00",
+      "finish": "2026-07-01T13:28:40.838100+00:00",
+      "runtime_sec": 86.655
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "early_blight/3.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12183,
+      "sha256": "c2b813db2ca460894280bc0decf1df940dbe64085b81d1c54568f74d155d5a3c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/4.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\nThe image shows a tomato leaf.\n\n### Visible Symptoms\nThe leaf exhibits brown spots and patches, with some areas appearing to be covered in a fine, white powder.\n\n### Disease\nBased on the visible symptoms, the disease appears to be a fungal infection, possibly caused by a pathogen such as Alternaria or Septoria.\n\n### Alternative Diagnoses\nOther possible causes of the symptoms include bacterial leaf spot or early blight, but these cannot be ruled out without further examination.\n\n### Severity\nThe severity of the disease is moderate, with some leaves showing significant damage but others appearing healthy.\n\n### Confidence (0-100)\nThe confidence level in this diagnosis is around 80%, as the symptoms are consistent with a fungal infection but could also be caused by other factors.\n\n### Reasoning\nThe presence of the fine, white powder on the leaves suggests a fungal infection, and the brown spots and patches are consistent with this diagnosis. However, without further examination, it is not possible to rule out other causes of the symptoms.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 216,
+      "prompt_tokens_per_sec": 14.884367688682042,
+      "generation_tokens_per_sec": 4.497295040997046,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 54.139
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:28:40.838810+00:00",
+      "finish": "2026-07-01T13:29:34.977960+00:00",
+      "runtime_sec": 54.139
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "early_blight/4.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13121,
+      "sha256": "f44b6342cac8316b34a4fd23209d0100b9a19e803b3c94b8d09595a5f0d4f0bf"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/5.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato\n\n### Visible Symptoms\n\n* The leaf appears to be infected with a fungal disease, as evidenced by the presence of small, dark spots on the surface.\n* The spots are circular and have a slightly raised center.\n* The edges of the spots are slightly curled and have a brownish tint.\n\n### Disease\n\n* The disease appears to be early blight, caused by the fungus Alternaria solani.\n* The symptoms are consistent with those of early blight, which typically causes small, dark spots on the leaves of infected plants.\n\n### Alternative Diagnoses\n\n* Late blight: This disease, caused by the fungus Phytophthora infestans, also causes dark spots on the leaves of infected plants, but the spots are typically larger and more irregularly shaped than those caused by early blight.\n* Septoria leaf spot: This disease, caused by the fungus Septoria lycopersica, causes small, dark spots on the leaves of infected plants, but the spots are typically more numerous and scattered than those caused by early blight.\n\n### Severity\n\n* The disease appears to be moderately severe, with a significant number of leaves infected and some leaves showing signs of necrosis.\n\n### Confidence (0-100)\n\n* 80%: The symptoms are consistent with those of early blight, but the disease could also be caused by late blight or septoria leaf spot. Further testing would be required to confirm the diagnosis.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 303,
+      "prompt_tokens_per_sec": 14.887356161947542,
+      "generation_tokens_per_sec": 4.492229593658251,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 73.559
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:29:34.978708+00:00",
+      "finish": "2026-07-01T13:30:48.537609+00:00",
+      "runtime_sec": 73.559
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "early_blight/5.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15472,
+      "sha256": "243cd5f9e2dc37d1a45a058deb89c921767e588c4d1443227065ecfff9da099e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/1.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\nThe image shows a tomato plant.\n\n### Visible Symptoms\nThe leaves exhibit yellowing and curling, with some leaves appearing brown and wilted. The leaves are also smaller than usual, and the leaf margins are curled.\n\n### Disease\nThe symptoms are consistent with early blight, a fungal disease caused by Alternaria solani. The disease typically starts as small, dark spots on the lower leaves and can spread to the upper leaves, causing them to turn yellow and die.\n\n### Alternative Diagnoses\nOther possible causes of the symptoms include bacterial leaf spot (Pseudomonas syringae) and tobacco mosaic virus. However, the presence of small, dark spots on the lower leaves and the overall appearance of the leaves suggest that early blight is the most likely cause.\n\n### Severity\nThe disease is moderately severe, with approximately 20-30% of the leaves affected.\n\n### Confidence (0-100)\nI am 80% confident in this diagnosis, as the symptoms are consistent with early blight, but further testing would be necessary to confirm the diagnosis.\n\n### Reasoning\nThe combination of yellowing, curling, and small size of the leaves, along with the presence of small, dark spots on the lower leaves, is consistent with early blight. The fact that the disease is moderately severe and has affected a significant portion of the leaves also supports this diagnosis.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 289,
+      "prompt_tokens_per_sec": 14.879731470433828,
+      "generation_tokens_per_sec": 4.487294605734551,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 70.518
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:30:48.538406+00:00",
+      "finish": "2026-07-01T13:31:59.055933+00:00",
+      "runtime_sec": 70.518
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "leaf_mold/1.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15611,
+      "sha256": "33063ecffbdddcb0ca01d1838b32e22eaa0fb7c207db670c58e9f16ca01b47ea"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/2.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato plant\n\n### Visible Symptoms\n\n* The leaf appears to be discolored, with a yellowish tint on the upper surface and a darker green color on the lower surface.\n* The leaf has a slightly curled shape, with the edges of the leaf appearing to be more curled than the rest of the leaf.\n* There are small, light-colored spots scattered throughout the leaf.\n\n### Disease\n\n* Based on the visible symptoms, it is possible that the leaf is infected with a disease such as Septoria leaf spot or Early blight.\n* However, without further examination or testing, it is difficult to determine the exact cause of the symptoms.\n\n### Alternative Diagnoses\n\n* The symptoms could also be caused by other factors such as nutrient deficiencies, environmental stress, or pests.\n* However, without further information or examination, it is difficult to determine the exact cause of the symptoms.\n\n### Severity\n\n* The severity of the symptoms appears to be moderate, with the leaf showing some discoloration and curling.\n* However, the exact severity of the symptoms cannot be determined without further examination or testing.\n\n### Confidence (0-100)\n\n* Confidence level: 60%\n\n### Reasoning\n\n* The symptoms observed on the leaf are consistent with those caused by Septoria leaf spot or Early blight.\n* However, without further examination or testing, it is difficult to determine the exact cause of the symptoms.\n* Therefore, the confidence level is moderate, at 60%.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 307,
+      "prompt_tokens_per_sec": 14.749426499148836,
+      "generation_tokens_per_sec": 4.487359214152045,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 74.581
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:31:59.056718+00:00",
+      "finish": "2026-07-01T13:33:13.637956+00:00",
+      "runtime_sec": 74.581
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "leaf_mold/2.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 14788,
+      "sha256": "acc36b61dc9729b5169afa45f7b62eb86530c47ffb943a75e37e4991b908046b"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/3.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato plant\n\n### Visible Symptoms\n\n* The leaf appears to be a medium green color with some yellowing and spotting\n* The yellowing is most pronounced on the upper surface of the leaf\n* The spots are small and irregularly shaped\n* The leaf appears to be slightly curled at the tip\n\n### Disease\n\n* The symptoms are consistent with a disease caused by a fungal pathogen\n* The yellowing and spotting are characteristic of a disease that affects the leaves of tomato plants\n* The disease may be caused by a variety of fungal pathogens, including Alternaria, Septoria, and Cladosporium\n\n### Alternative Diagnoses\n\n* The symptoms could also be caused by a bacterial disease, such as bacterial leaf spot\n* However, the presence of small, irregularly shaped spots on the upper surface of the leaf suggests a fungal disease\n\n### Severity\n\n* The disease appears to be relatively mild, with only a few leaves affected\n* The yellowing and spotting are not widespread, and the plant appears to be healthy overall\n\n### Confidence (0-100)\n\n* 80% confidence in the diagnosis\n* The symptoms are consistent with a disease caused by a fungal pathogen, but the exact cause is not certain without further testing.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 264,
+      "prompt_tokens_per_sec": 14.937859438371675,
+      "generation_tokens_per_sec": 4.481499133435582,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 64.998
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:33:13.638775+00:00",
+      "finish": "2026-07-01T13:34:18.637075+00:00",
+      "runtime_sec": 64.998
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "leaf_mold/3.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12303,
+      "sha256": "d1ed653c6e67c1ea5f6776b5833e8ac4ac4b446df738e46c80bccff59eed59df"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/4.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of Tomato Leaf**\n\n### Crop\nTomato\n\n### Visible Symptoms\n\n* Yellowing of leaf tissue\n* Small, yellow spots on the leaf surface\n* Mild distortion of leaf shape\n\n### Disease\n* Early Blight (Alternaria solani)\n\n### Alternative Diagnoses\n* Late Blight (Phytophthora infestans)\n* Bacterial Leaf Spot (Pseudomonas syringae)\n\n### Severity\n* Mild\n\n### Confidence (0-100)\n* 80%\n\n### Reasoning\n* The presence of small, yellow spots on the leaf surface and mild distortion of leaf shape are consistent with Early Blight.\n* The yellowing of leaf tissue could also be indicative of Late Blight or Bacterial Leaf Spot, but the overall appearance of the leaf suggests a more mild infection.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 168,
+      "prompt_tokens_per_sec": 14.87251251291049,
+      "generation_tokens_per_sec": 4.4919656732446045,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 43.517
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:34:18.637933+00:00",
+      "finish": "2026-07-01T13:35:02.154621+00:00",
+      "runtime_sec": 43.517
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "leaf_mold/4.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 16599,
+      "sha256": "c9ecbab9f17925d20b8014e646dc6b40d76a309b143ab867394fef27e5fef8c9"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/5.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of Tomato Leaf**\n\n### Crop\n\n* Tomato plant\n\n### Visible Symptoms\n\n* The leaf appears to be yellowing, with a mottled appearance\n* The yellowing is more pronounced on the lower surface of the leaf\n* The leaf's veins are still green, indicating that the yellowing is not uniform\n* There are no visible signs of pests, diseases, or nutrient deficiencies\n\n### Disease\n\n* The symptoms are consistent with a viral disease, possibly Tomato Yellow Leaf Curl Virus (TYLCV)\n* The mottled appearance and yellowing of the leaf are characteristic of this disease\n* However, without further testing, it is difficult to confirm the exact cause of the symptoms\n\n### Alternative Diagnoses\n\n* Nutrient deficiency (e.g., nitrogen, iron, or magnesium)\n* Pests (e.g., aphids, whiteflies, or spider mites)\n* Fungal diseases (e.g., early blight or septoria leaf spot)\n* Bacterial diseases (e.g., bacterial leaf spot or bacterial canker)\n\n### Severity\n\n* The symptoms are moderate, with approximately 20-30% of the leaf affected\n* The yellowing is not severe enough to cause significant damage to the plant\n\n### Confidence (0-100)\n\n* 60% confidence in the diagnosis based on the visible symptoms alone\n* Further testing would be necessary to confirm the exact cause of the symptoms and determine the severity of the disease.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 296,
+      "prompt_tokens_per_sec": 14.905497491401844,
+      "generation_tokens_per_sec": 4.479182324840445,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 72.186
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:35:02.155453+00:00",
+      "finish": "2026-07-01T13:36:14.340919+00:00",
+      "runtime_sec": 72.186
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "leaf_mold/5.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 11060,
+      "sha256": "14cb1c129a409db12d630eec6709960a23c6c9adaa0fb90a74b0a87f984a9e40"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/1.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of Tomato Leaf**\n\n### Crop\nTomato\n\n### Visible Symptoms\n\n* The leaf appears to be covered in a fine, white powder\n* The leaf is slightly curled and has a waxy texture\n* There are no visible signs of pests or disease on the leaf\n\n### Disease\nBased on the visible symptoms, it is likely that the leaf is infected with a fungal disease, possibly powdery mildew\n\n### Alternative Diagnoses\nNone\n\n### Severity\nThe severity of the disease is moderate, as the leaf is still green and has not yet turned yellow or brown\n\n### Confidence (0-100)\n80%\n\n### Reasoning\nThe presence of the fine, white powder on the leaf is a strong indication of a fungal infection. The curled shape of the leaf and its waxy texture are also consistent with powdery mildew. However, without further testing or examination, it is impossible to rule out other possibilities, so I am not 100% confident in this diagnosis.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 204,
+      "prompt_tokens_per_sec": 14.849339629688624,
+      "generation_tokens_per_sec": 4.498629319744459,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 51.471
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:36:14.341830+00:00",
+      "finish": "2026-07-01T13:37:05.812998+00:00",
+      "runtime_sec": 51.471
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "mosaic_virus/1.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 18345,
+      "sha256": "77487780b04b7f71301f5252247e7580a59bba179d4e2373d80ad7ecd326f904"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/2.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of Tomato Leaf**\n\n### Crop\nTomato\n\n### Visible Symptoms\n\n* The leaf appears to be infected with a disease, as evidenced by the presence of small, white spots on the surface.\n* The leaves are also slightly curled and have a yellowish tint, indicating possible nutrient deficiency or stress.\n\n### Disease\n* The disease appears to be a fungal infection, possibly caused by a pathogen such as Septoria or Cladosporium.\n* The white spots on the leaf are likely the result of fungal spores germinating and infecting the plant.\n\n### Alternative Diagnoses\n\n* The symptoms could also be caused by a bacterial infection, such as bacterial leaf spot or bacterial canker.\n* However, without further testing, it is difficult to determine the exact cause of the infection.\n\n### Severity\n* The infection appears to be relatively mild, with only a few leaves affected.\n* However, if left untreated, the disease could spread and cause significant damage to the plant.\n\n### Confidence (0-100)\n* Confidence level: 80%\n\n### Reasoning\n* The presence of white spots on the leaf and the curled, yellowish appearance of the leaves are consistent with a fungal infection.\n* The fact that only a few leaves are affected suggests that the disease is still in its early stages and may be easily treated.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 270,
+      "prompt_tokens_per_sec": 14.913553277738712,
+      "generation_tokens_per_sec": 4.499502845505568,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 66.11
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:37:05.813975+00:00",
+      "finish": "2026-07-01T13:38:11.923680+00:00",
+      "runtime_sec": 66.11
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "mosaic_virus/2.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15676,
+      "sha256": "478ead03f1f962f60ae3455b90affd170c8b6a5cca95a60d1cf5e32b68f8bd0c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/3.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of Tomato Leaf**\n\n### Crop\nTomato\n\n### Visible Symptoms\n\n* The leaf exhibits yellowing and curling of the edges\n* The leaf appears to be smaller than usual\n* There are some dark spots on the leaf\n\n### Disease\n\n* The symptoms are consistent with early blight, a fungal disease that causes yellowing and curling of leaves\n* The presence of dark spots suggests the possibility of bacterial leaf spot\n\n### Alternative Diagnoses\n\n* Late blight: This disease also causes yellowing and curling of leaves, but it typically results in more severe symptoms and is accompanied by a white, cottony growth on the underside of the leaves\n* Bacterial leaf spot: This disease causes small, dark spots on the leaves, but it does not typically cause the leaves to curl or become smaller\n\n### Severity\nThe disease appears to be in its early stages, with only a few leaves affected\n\n### Confidence (0-100)\n80%\n\n### Reasoning\nThe symptoms observed on the leaf are consistent with early blight, but the presence of dark spots suggests the possibility of bacterial leaf spot. Further examination and testing would be necessary to confirm the diagnosis and determine the severity of the disease.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 248,
+      "prompt_tokens_per_sec": 14.918056977765863,
+      "generation_tokens_per_sec": 4.511366243970763,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 61.07
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:38:11.924580+00:00",
+      "finish": "2026-07-01T13:39:12.994105+00:00",
+      "runtime_sec": 61.07
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "mosaic_virus/3.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15893,
+      "sha256": "0b9f951849b9b676253328474ae2143dea472e3832156dab51e595beffa9f402"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/4.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of Tomato Leaf**\n\n### Crop\nThe image shows a tomato plant.\n\n### Visible Symptoms\nThe leaves exhibit yellowing and curling, with some areas appearing more yellow than others. The veins are still green, indicating that the yellowing is not uniform. The leaves are also slightly curled, with the edges appearing more curled than the rest of the leaf.\n\n### Disease\nBased on the visible symptoms, the most likely disease is **Bacterial Leaf Spot**. This disease is characterized by small, dark spots on the leaves, which can be accompanied by yellowing and curling. The presence of yellowing and curling without the characteristic spots suggests that the disease may be in its early stages or that the pathogen is not producing the typical symptoms.\n\n### Alternative Diagnoses\nOther possible diagnoses include **Early Blight** and **Septoria Leaf Spot**. These diseases can also cause yellowing and curling of the leaves, but they typically produce additional symptoms such as black spots or lesions. Without further examination, it is difficult to rule out these possibilities.\n\n### Severity\nThe severity of the disease is moderate. The yellowing and curling are noticeable but not extreme, and the leaves do not appear to be severely damaged.\n\n### Confidence\nThe confidence level in this diagnosis is 80%. While the visible symptoms are consistent with Bacterial Leaf Spot, there is a possibility that the disease is in its early stages or that the pathogen is not producing the typical symptoms. Further examination would be necessary to confirm the diagnosis.\n\n### Reasoning\nThe reasoning behind this diagnosis is based on the visible symptoms of the leaves. The yellowing and curling are consistent with Bacterial Leaf Spot, and the absence of the characteristic black spots or lesions suggests that the disease may be in its early stages or that the pathogen is not producing the typical symptoms. However, without further examination, it is difficult to rule out other possible diagnoses.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 390,
+      "prompt_tokens_per_sec": 14.95247211201824,
+      "generation_tokens_per_sec": 4.487266412942849,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 92.995
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:39:12.995032+00:00",
+      "finish": "2026-07-01T13:40:45.989747+00:00",
+      "runtime_sec": 92.995
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "mosaic_virus/4.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13330,
+      "sha256": "f17385882c3f1f3343b50e25f41f0640729f45a4a0fefb30ced2441dde8ebc5d"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/5.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato\n\n### Visible Symptoms\n\n* The leaf exhibits yellowing and discoloration, particularly on the lower surface.\n* The veins of the leaf appear darker than the rest of the leaf.\n* The leaf has a slightly curled edge.\n\n### Disease\n\n* The symptoms are consistent with early blight, a fungal disease that affects tomato leaves.\n* The disease causes yellowing and discoloration of the leaves, as well as the formation of small, dark spots on the lower surface.\n\n### Alternative Diagnoses\n\n* None\n\n### Severity\n\n* The disease is in its early stages, with only minor symptoms visible on the leaf.\n\n### Confidence (0-100)\n\n* 80%\n\n### Reasoning\n\n* The symptoms of the disease are consistent with early blight, and the leaf shows the characteristic yellowing and discoloration.\n* The darkening of the veins is also consistent with the disease.\n* The curled edge of the leaf may be a sign of the disease's progression.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 211,
+      "prompt_tokens_per_sec": 14.959641174466416,
+      "generation_tokens_per_sec": 4.494071257695534,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 53.031
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:40:45.990802+00:00",
+      "finish": "2026-07-01T13:41:39.021223+00:00",
+      "runtime_sec": 53.031
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "mosaic_virus/5.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15628,
+      "sha256": "a48fd8bd48810917768d7f655c8503598089e80ed29a6124141ea118d33b5cc5"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/1.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of Tomato Leaf**\n\n### Crop\nTomato\n\n### Visible Symptoms\n\n* The leaf appears to be curled and distorted, with deep grooves on the surface.\n* The leaf is a darker green color than usual, with some areas appearing more yellowish.\n* There are small, light-colored spots scattered across the leaf.\n\n### Disease\n\n* Based on the visible symptoms, the most likely disease is Early Blight, caused by the fungus Alternaria solani.\n* The curled and distorted leaves are characteristic of Early Blight infection.\n* The presence of small, light-colored spots may indicate the start of the disease's progression.\n\n### Alternative Diagnoses\n\n* Late Blight, caused by the fungus Phytophthora infestans, is another possible cause of the symptoms.\n* However, the absence of a more widespread, severe infection and the presence of small, light-colored spots make Early Blight a more likely diagnosis.\n\n### Severity\nModerate\n\n### Confidence (0-100)\n80\n\n### Reasoning\nThe visible symptoms of the leaf are consistent with Early Blight infection, and the absence of more severe symptoms or a widespread infection makes this a likely diagnosis. However, without further examination or testing, it is impossible to rule out other possible causes of the symptoms. Therefore, the confidence level is moderate, indicating that while the diagnosis is likely, it is not definitive.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 281,
+      "prompt_tokens_per_sec": 14.932208086352237,
+      "generation_tokens_per_sec": 4.4806450564356854,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 68.805
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:41:39.022219+00:00",
+      "finish": "2026-07-01T13:42:47.827089+00:00",
+      "runtime_sec": 68.805
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "target_spot/1.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20213,
+      "sha256": "4bbc310f179679d83d9ceac8decf6180b234f3e4c263cbeb094469a3fa0b8a8e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/2.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato plant\n\n### Visible Symptoms\n\n* The leaf appears to be covered in a fine, white powder\n* The edges of the leaf are slightly browned and curled\n* There are small, dark spots scattered across the surface of the leaf\n* The veins of the leaf appear to be slightly discolored\n\n### Disease\n\n* Based on the visible symptoms, it is possible that the leaf is infected with a fungal disease, such as powdery mildew or leaf spot\n* However, without further examination or testing, it is difficult to determine the exact cause of the symptoms\n\n### Alternative Diagnoses\n\n* The symptoms could also be caused by a bacterial disease, such as bacterial leaf spot or bacterial blight\n* Alternatively, the symptoms could be caused by a viral disease, such as tomato mosaic virus or tomato leaf curl virus\n\n### Severity\n\n* The severity of the disease is difficult to determine based solely on the visual appearance of the leaf\n* However, if the disease is allowed to progress, it could potentially cause significant damage to the plant and reduce its yield\n\n### Confidence (0-100)\n\n* Confidence level: 60%\n\n**Reasoning**\n\n* The visual appearance of the leaf suggests that it may be infected with a fungal disease\n* However, without further examination or testing, it is difficult to determine the exact cause of the symptoms\n* The symptoms could also be caused by a bacterial or viral disease, and further testing would be necessary to determine the exact cause\n* The severity of the disease is difficult to determine based solely on the visual appearance of the leaf, and further examination would be necessary to determine the extent of the damage.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 347,
+      "prompt_tokens_per_sec": 14.913468227065287,
+      "generation_tokens_per_sec": 4.470290666412294,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 83.722
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:42:47.828077+00:00",
+      "finish": "2026-07-01T13:44:11.550299+00:00",
+      "runtime_sec": 83.722
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "target_spot/2.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20922,
+      "sha256": "896f66f0c12091d3e72f1d760d22ad58ef848d0198582562daaad8631def0c59"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/3.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato plant\n\n### Visible Symptoms\n\n* The leaf appears to be covered in a fine, white powder\n* The powder is more concentrated on the underside of the leaf\n* The leaf's surface is slightly puckered and has a few small, yellowish spots\n\n### Disease\n\n* The symptoms are consistent with a fungal infection, possibly powdery mildew\n* The white powder is likely the spores of the fungus\n\n### Alternative Diagnoses\n\n* None apparent based on visual inspection alone\n\n### Severity\n\n* The infection appears to be relatively mild, with only a few small spots on the leaf\n\n### Confidence (0-100)\n\n* 80% confident in the diagnosis based on visual inspection alone\n\n### Reasoning\n\n* The white powder and puckered surface are indicative of a fungal infection\n* The yellowish spots may be a sign of the fungus spreading\n* Further examination or testing would be necessary to confirm the diagnosis and determine the severity of the infection.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 209,
+      "prompt_tokens_per_sec": 14.873870507730253,
+      "generation_tokens_per_sec": 4.467295424420757,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 52.899
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:44:11.551431+00:00",
+      "finish": "2026-07-01T13:45:04.450754+00:00",
+      "runtime_sec": 52.899
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "target_spot/3.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 19847,
+      "sha256": "b9b20509c41742e2b574f7ad37d3235271d01c06907959ffbc5506597084c1ab"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/4.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato plant\n\n### Visible Symptoms\n\n* The leaf appears to be covered in a fine, white powder\n* The leaf is slightly curled and has a few brown spots on the edges\n* The leaf's veins are slightly discolored, with a darker green color than the rest of the leaf\n\n### Disease\n\n* Powdery mildew\n\n### Alternative Diagnoses\n\n* None\n\n### Severity\n\n* The disease appears to be mild, with only a few affected leaves\n\n### Confidence (0-100)\n\n* 80%\n\n### Reasoning\n\n* The fine, white powder covering the leaf is consistent with the appearance of powdery mildew\n* The curled leaves and brown spots on the edges are also consistent with this disease\n* The darker green color of the veins may indicate some level of disease, but it is not a definitive indicator\n* The mild severity of the disease suggests that it may not be a major issue for the plant's overall health.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 208,
+      "prompt_tokens_per_sec": 14.861153891258041,
+      "generation_tokens_per_sec": 4.470525851335627,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 52.647
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:45:04.451819+00:00",
+      "finish": "2026-07-01T13:45:57.098536+00:00",
+      "runtime_sec": 52.647
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "target_spot/4.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20511,
+      "sha256": "c3c9efa88a2550a369268c21fa35e1ef74596ee40ea749ce17982f412888ffa1"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/5.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of Tomato Leaf**\n\n### Crop\n\n* Tomato plant\n\n### Visible Symptoms\n\n* The leaves are covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered in a fine, white powder\n* The leaves appear to be covered",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 512,
+      "prompt_tokens_per_sec": 14.857271045463115,
+      "generation_tokens_per_sec": 4.447595754557123,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 121.241
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:45:57.099738+00:00",
+      "finish": "2026-07-01T13:47:58.340677+00:00",
+      "runtime_sec": 121.241
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "target_spot/5.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20039,
+      "sha256": "3f82e1d895ddcaad3f42e51d7d6f6db04b731dafe7c87c4604db01a8a258286c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/1.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato\n\n### Visible Symptoms\n\n* The leaf appears to be yellowing, with some areas showing a more intense yellow coloration.\n* There are also some dark spots visible on the leaf, which may be indicative of disease or nutrient deficiency.\n\n### Disease\n\n* Based on the visible symptoms, it is possible that the leaf is infected with a disease such as bacterial leaf spot or early blight.\n* However, without further examination or testing, it is difficult to determine the exact cause of the symptoms.\n\n### Alternative Diagnoses\n\n* The symptoms could also be caused by a nutrient deficiency, such as a lack of magnesium or potassium.\n* Alternatively, the leaf may be experiencing stress due to environmental factors such as temperature or humidity.\n\n### Severity\n\n* The severity of the symptoms appears to be moderate, with some areas of the leaf showing significant yellowing and dark spots.\n\n### Confidence (0-100)\n\n* Confidence level: 60%\n\n### Reasoning\n\n* The symptoms observed on the leaf are consistent with a disease or nutrient deficiency, but further examination or testing would be necessary to determine the exact cause.\n* The moderate severity of the symptoms suggests that the issue may not be too severe, but it is still important to address the problem to prevent further damage to the plant.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 268,
+      "prompt_tokens_per_sec": 14.769962651640576,
+      "generation_tokens_per_sec": 4.431140795381906,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 66.639
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:47:58.343788+00:00",
+      "finish": "2026-07-01T13:49:04.982429+00:00",
+      "runtime_sec": 66.639
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "yellowleaf_curl_virus/1.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8103,
+      "sha256": "6df2838c482139b8c75c6cac397d02773f122ab26c42982a8f827fe34d691579"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/2.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato\n\n### Visible Symptoms\n\n* The leaf appears to be yellowing, with a lighter green color on the edges and a darker green color in the center.\n* The leaf has a slightly curled shape, with the edges being more curved than the center.\n* There are no visible signs of pests or diseases on the leaf.\n\n### Disease\n\n* Based on the visible symptoms, it is possible that the leaf is infected with a disease such as early blight or septoria leaf spot.\n* However, without further examination or testing, it is difficult to determine the exact cause of the yellowing.\n\n### Alternative Diagnoses\n\n* The yellowing could also be caused by nutrient deficiencies or environmental factors such as excessive watering or high temperatures.\n* However, without further information or testing, it is difficult to determine the exact cause of the yellowing.\n\n### Severity\n\n* The severity of the yellowing is moderate, with the leaf being noticeably yellow but not completely wilted or discolored.\n\n### Confidence (0-100)\n\n* Confidence level: 60%\n\n### Reasoning\n\n* The yellowing of the leaf is a common symptom of many diseases and environmental factors.\n* Without further examination or testing, it is difficult to determine the exact cause of the yellowing.\n* However, based on the visible symptoms, it is possible that the leaf is infected with a disease such as early blight or septoria leaf spot.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 297,
+      "prompt_tokens_per_sec": 14.761852265527727,
+      "generation_tokens_per_sec": 4.356185286711561,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 74.341
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:49:04.983516+00:00",
+      "finish": "2026-07-01T13:50:19.324386+00:00",
+      "runtime_sec": 74.341
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "yellowleaf_curl_virus/2.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 5351,
+      "sha256": "707c27effbeb3c8bb9a8e1160fc0e6b0de2169d52219a893ed5f35262f4b4f4e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/3.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\nThe image shows a leaf from a tomato plant.\n\n### Visible Symptoms\nThe leaf exhibits yellowing and curling of the edges, with a slightly fuzzy appearance. The veins are still visible but appear lighter than the rest of the leaf.\n\n### Disease\nBased on the visible symptoms, the most likely disease is **Early Blight**. This disease is characterized by yellowing and curling of the leaves, with a fuzzy appearance. The presence of the disease is indicated by the yellowing and curling of the leaves, which is a common symptom of Early Blight.\n\n### Alternative Diagnoses\nOther possible causes of the symptoms could be **Septoria Leaf Spot** or **Bacterial Leaf Spot**. However, without further information or a more detailed examination, it is difficult to rule out these possibilities entirely.\n\n### Severity\nThe severity of the disease appears to be moderate, with the affected area covering approximately 20-30% of the leaf's surface.\n\n### Confidence (0-100)\nThe confidence level in the diagnosis is around 80%, as the symptoms are consistent with Early Blight, but other possibilities cannot be ruled out without further information.\n\n### Reasoning\nThe yellowing and curling of the leaves, along with the fuzzy appearance, are consistent with the symptoms of Early Blight. The presence of the disease is indicated by the yellowing and curling of the leaves, which is a common symptom of Early Blight. However, without further information or a more detailed examination, it is difficult to rule out other possibilities entirely.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 322,
+      "prompt_tokens_per_sec": 14.724233412853941,
+      "generation_tokens_per_sec": 4.390549774322682,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 79.516
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:50:19.325501+00:00",
+      "finish": "2026-07-01T13:51:38.841601+00:00",
+      "runtime_sec": 79.516
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "yellowleaf_curl_virus/3.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 9100,
+      "sha256": "c08724d4d1b72aba0b2e68baeccffb5cd8715ed7417c1711cba554bacc920cb0"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/4.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Leaf**\n\n### Crop\n\n* The leaf appears to be from a tomato plant.\n\n### Visible Symptoms\n\n* The leaf is yellow with brown spots and has a slightly curled edge.\n* The leaf's veins are also affected, with some appearing darker than others.\n\n### Disease\n\n* Based on the visible symptoms, the disease could be early blight or septoria leaf spot.\n* The presence of brown spots and the curled edge of the leaf are consistent with early blight.\n* However, the darker veins could also be indicative of septoria leaf spot.\n\n### Alternative Diagnoses\n\n* The symptoms could also be caused by other diseases such as bacterial leaf spot or leaf curl.\n* However, without further information or a more detailed examination, it is difficult to rule out these possibilities.\n\n### Severity\n\n* The severity of the disease is moderate, with the leaf showing significant damage but not yet completely dying.\n\n### Confidence (0-100)\n\n* Confidence level: 60%\n\n### Reasoning\n\n* The visible symptoms are consistent with early blight or septoria leaf spot, but further examination would be necessary to confirm the diagnosis.\n* The moderate severity of the disease suggests that the plant may still be able to recover if treated promptly.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 251,
+      "prompt_tokens_per_sec": 14.635912270161679,
+      "generation_tokens_per_sec": 4.37729739670103,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 63.555
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:51:38.843500+00:00",
+      "finish": "2026-07-01T13:52:42.398101+00:00",
+      "runtime_sec": 63.555
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "yellowleaf_curl_virus/4.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 7613,
+      "sha256": "c9c0669af67a454196b8496d6c941aaa8b0545696dad03961427f7e3648b5ae8"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/5.JPG",
+    "model": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "**Analysis of the Tomato Leaf**\n\n### Crop\n\n* Tomato\n\n### Visible Symptoms\n\n* The leaf exhibits yellowing and curling of the edges\n* The yellowing is most pronounced on the lower surface of the leaf\n* The leaf appears to be slightly wilted\n\n### Disease\n\n* The symptoms are consistent with a viral infection, possibly Tomato Spotted Wilt Virus (TSWV)\n* The yellowing and curling of the leaf edges are characteristic of TSWV infection\n* However, without further testing, it is difficult to confirm the exact cause of the symptoms\n\n### Alternative Diagnoses\n\n* Bacterial leaf spot\n* Early blight\n* Late blight\n* Other viral or bacterial infections\n\n### Severity\n\n* The symptoms appear to be relatively mild, with only a small portion of the leaf affected\n* However, the exact severity of the disease is difficult to determine without further testing\n\n### Confidence (0-100)\n\n* 60% confidence in the diagnosis of TSWV\n* 40% confidence in the alternative diagnoses\n\n### Reasoning\n\n* The symptoms of the leaf are consistent with a viral infection\n* The yellowing and curling of the leaf edges are characteristic of TSWV infection\n* However, without further testing, it is difficult to confirm the exact cause of the symptoms\n* The alternative diagnoses are possible, but less likely than TSWV infection\n* Further testing would be necessary to confirm the exact cause of the symptoms and determine the severity of the disease.",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 90,
+      "generated_tokens": 310,
+      "prompt_tokens_per_sec": 14.67628836805267,
+      "generation_tokens_per_sec": 4.383195715086863,
+      "peak_memory_mb": 9362.86,
+      "inference_time_sec": 76.929
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:52:42.399274+00:00",
+      "finish": "2026-07-01T13:53:59.327806+00:00",
+      "runtime_sec": 76.929
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "yellowleaf_curl_virus/5.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8056,
+      "sha256": "61293d08367e296731c1764af9cf4cd41918cbb89d444cb2199d1135d09b3f39"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_name": "Llama-3.2-11B-Vision-Instruct-4bit",
+      "model_family": "Llama",
+      "parameters": "11B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  }
+]

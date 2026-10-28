@@ -1,0 +1,29 @@
+Plant species:
+The plant appears to be a cotton plant, identifiable by the large, broad leaves and the presence of cotton bolls in the background.
+
+Visible symptoms:
+The leaf shows mottled discoloration, with areas of white and green.
+
+Leaf color:
+The leaf has a mix of white and green areas, indicating discoloration.
+
+Leaf texture:
+The leaf appears to be healthy and smooth, without any visible signs of roughness or damage.
+
+Spots or lesions:
+There are visible spots and lesions on the leaf, which are white and irregularly shaped.
+
+Severity:
+The severity of the leaf damage appears to be moderate, as there are significant areas of discoloration but the leaf is not completely dead.
+
+Most likely disease:
+The most likely disease is cotton leaf spot, which is a common fungal disease affecting cotton plants. It causes leaf discoloration and spots, which can lead to leaf drop and reduced yield.
+
+Alternative diagnoses:
+Other possible diagnoses include bacterial leaf spot, which can cause similar symptoms, but typically shows more uniform spots and lesions. There is also a possibility of nutrient deficiency, which can cause mottled leaf coloration, but usually does not show the same pattern of spots and lesions.
+
+Confidence (0-100):
+80
+
+Reasoning:
+The leaf discoloration and spots are characteristic of cotton leaf spot, a common fungal disease in cotton. The presence of cotton bolls in the background supports the identification of the plant as cotton. The severity and pattern of the symptoms align well with cotton leaf spot. The other possibilities, while not ruled out, are less likely given the specific symptoms observed.

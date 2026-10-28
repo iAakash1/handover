@@ -1,0 +1,33 @@
+2026-07-01 19:24:46,764 [INFO] Loading mlx-community/deepseek-vl2-small-4bit ...
+2026-07-01 19:24:50,679 [INFO] Loaded mlx-community/deepseek-vl2-small-4bit in 3.9s
+2026-07-01 19:24:50,679 [INFO] [1/30] (bacterial_spot) 1.JPG
+2026-07-01 19:24:54,496 [INFO] [2/30] (bacterial_spot) 2.JPG
+2026-07-01 19:24:56,972 [INFO] [3/30] (bacterial_spot) 3.JPG
+2026-07-01 19:24:59,643 [INFO] [4/30] (bacterial_spot) 4.JPG
+2026-07-01 19:25:01,830 [INFO] [5/30] (bacterial_spot) 5.JPG
+2026-07-01 19:25:04,375 [INFO] [6/30] (early_blight) 1.JPG
+2026-07-01 19:25:06,730 [INFO] [7/30] (early_blight) 2.JPG
+2026-07-01 19:25:09,264 [INFO] [8/30] (early_blight) 3.JPG
+2026-07-01 19:25:11,696 [INFO] [9/30] (early_blight) 4.JPG
+2026-07-01 19:25:13,879 [INFO] [10/30] (early_blight) 5.JPG
+2026-07-01 19:25:16,173 [INFO] [11/30] (leaf_mold) 1.JPG
+2026-07-01 19:25:18,623 [INFO] [12/30] (leaf_mold) 2.JPG
+2026-07-01 19:25:20,837 [INFO] [13/30] (leaf_mold) 3.JPG
+2026-07-01 19:25:23,263 [INFO] [14/30] (leaf_mold) 4.JPG
+2026-07-01 19:25:25,617 [INFO] [15/30] (leaf_mold) 5.JPG
+2026-07-01 19:25:27,968 [INFO] [16/30] (mosaic_virus) 1.JPG
+2026-07-01 19:25:30,659 [INFO] [17/30] (mosaic_virus) 2.JPG
+2026-07-01 19:25:32,999 [INFO] [18/30] (mosaic_virus) 3.JPG
+2026-07-01 19:25:35,243 [INFO] [19/30] (mosaic_virus) 4.JPG
+2026-07-01 19:25:37,488 [INFO] [20/30] (mosaic_virus) 5.JPG
+2026-07-01 19:25:39,709 [INFO] [21/30] (target_spot) 1.JPG
+2026-07-01 19:25:42,398 [INFO] [22/30] (target_spot) 2.JPG
+2026-07-01 19:25:44,744 [INFO] [23/30] (target_spot) 3.JPG
+2026-07-01 19:25:47,224 [INFO] [24/30] (target_spot) 4.JPG
+2026-07-01 19:25:49,842 [INFO] [25/30] (target_spot) 5.JPG
+2026-07-01 19:25:52,429 [INFO] [26/30] (yellowleaf_curl_virus) 1.JPG
+2026-07-01 19:25:54,691 [INFO] [27/30] (yellowleaf_curl_virus) 2.JPG
+2026-07-01 19:25:57,013 [INFO] [28/30] (yellowleaf_curl_virus) 3.JPG
+2026-07-01 19:25:59,365 [INFO] [29/30] (yellowleaf_curl_virus) 4.JPG
+2026-07-01 19:26:01,984 [INFO] [30/30] (yellowleaf_curl_virus) 5.JPG
+2026-07-01 19:26:04,396 [INFO] Done: mlx-community/deepseek-vl2-small-4bit — 30/30 succeeded -> predictions_deepseek-vl2-small-4bit.json

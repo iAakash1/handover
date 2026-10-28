@@ -1,0 +1,29 @@
+Plant species:
+The plant appears to be a cotton plant, based on the leaf shape and texture.
+
+Visible symptoms:
+The leaf shows discoloration and spots.
+
+Leaf color:
+The leaf has a mix of green and white areas, with some spots appearing lighter than the rest of the leaf.
+
+Leaf texture:
+The leaf has a smooth texture with visible veins.
+
+Spots or lesions:
+There are distinct white spots and lesions on the leaf, some of which appear to be necrotic (dead tissue).
+
+Severity:
+The leaf shows moderate to severe damage, with a significant portion of the leaf affected by the spots and lesions.
+
+Most likely disease:
+The most likely disease is cotton leaf spot (Cercospora leaf spot), which is a common fungal disease affecting cotton plants. The symptoms match those typically observed in cotton leaf spot, including the presence of white spots and lesions.
+
+Alternative diagnoses:
+Other possible diagnoses include bacterial leaf spot, which can cause similar symptoms, but the presence of white spots and lesions is more characteristic of fungal diseases like cotton leaf spot. There is also a possibility of a nutrient deficiency, but the symptoms do not align with typical nutrient deficiency patterns.
+
+Confidence (0-100):
+85
+
+Reasoning:
+The leaf shape and texture are consistent with a cotton plant. The presence of white spots and lesions is characteristic of cotton leaf spot. The severity and pattern of the lesions suggest a fungal infection rather than a bacterial one. The absence of other symptoms that might suggest a nutrient deficiency supports the diagnosis of a fungal disease.

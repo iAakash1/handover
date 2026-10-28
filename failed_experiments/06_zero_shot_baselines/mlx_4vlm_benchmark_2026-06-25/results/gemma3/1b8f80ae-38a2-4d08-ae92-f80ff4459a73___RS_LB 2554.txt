@@ -1,0 +1,21 @@
+Here's an analysis of the provided crop image:
+
+**Plant species:** Potato (Solanum tuberosum) - based on leaf morphology.
+
+**Visible symptoms:** Necrotic (dead) tissue along the leaf margin and a portion of the leaf blade.
+
+**Leaf color:** Primarily green, with a significant portion of the leaf showing brown/tan discoloration due to necrosis.
+
+**Leaf texture:** Appears relatively smooth and typical of potato leaves. The necrotic area appears dry and brittle.
+
+**Spots or lesions:** There is a distinct, irregular area of necrotic tissue that could be considered a lesion. The edges of this area are not sharply defined.
+
+**Severity:** Moderate - a significant portion of the leaf is affected, but the entire leaf is not consumed.
+
+**Most likely disease:** Early blight (Alternaria solani) - The pattern of marginal necrosis is consistent with early blight.
+
+**Alternative diagnoses:**
+*   Nutrient deficiency (e.g., potassium or magnesium) - although less likely given the distinct appearance of the necrotic area.
+*   Environmental stress (sunscald, frost damage) - possible, but early blight is more probable.
+
+**Confidence:** 75% - The appearance of the necrotic area is characteristic of early blight, but other factors could be involved. A definitive diagnosis would require further investigation (e.g., examining the underside of the leaf for fungal structures, confirming presence of the pathogen through lab testing).

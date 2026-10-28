@@ -1,0 +1,1412 @@
+[
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/1.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf shows signs of discoloration, with areas of yellowing and browning, particularly along the edges and veins. There are also some dark spots and necrotic areas, which could indicate damage or disease.\n\nDisease: The symptoms suggest a possible fungal or bacterial leaf spot disease, such as early blight or late blight, which are common in tomatoes. The presence of dark spots and necrotic areas could be indicative of these diseases.\n\nAlternative Diagnoses: Other possible diagnoses could include nutrient deficiencies, such as iron or magnesium deficiency, which can cause similar symptoms. However, the presence of dark spots and necrotic areas makes fungal or bacterial diseases more likely.\n\nSeverity: The leaf appears to be severely affected, with significant areas of discoloration and necrosis, which could impact the overall health and yield of the plant.\n\nConfidence: Based on the visible symptoms, the confidence level is moderate. The presence of dark spots and necrotic areas suggests a fungal or bacterial disease, but a definitive diagnosis would require further testing.\n\nReasoning: The leaf shows signs of discoloration, browning, and necrosis, which are characteristic of fungal or bacterial leaf spot diseases in tomatoes. The dark spots and necrotic areas are particularly indicative of these diseases. However, without further testing, it is not possible to definitively diagnose the specific disease.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows signs of discoloration, with areas of yellowing and browning, particularly along the edges and veins. There are also some dark spots and necrotic areas, which could indicate damage or disease.",
+      "disease": "The symptoms suggest a possible fungal or bacterial leaf spot disease, such as early blight or late blight, which are common in tomatoes. The presence of dark spots and necrotic areas could be indicative of these diseases.",
+      "alternative_diagnoses": "Other possible diagnoses could include nutrient deficiencies, such as iron or magnesium deficiency, which can cause similar symptoms. However, the presence of dark spots and necrotic areas makes fungal or bacterial diseases more likely.",
+      "severity": "The leaf appears to be severely affected, with significant areas of discoloration and necrosis, which could impact the overall health and yield of the plant.",
+      "confidence": "Based on the visible symptoms, the confidence level is moderate. The presence of dark spots and necrotic areas suggests a fungal or bacterial disease, but a definitive diagnosis would require further testing.",
+      "reasoning": "The leaf shows signs of discoloration, browning, and necrosis, which are characteristic of fungal or bacterial leaf spot diseases in tomatoes. The dark spots and necrotic areas are particularly indicative of these diseases. However, without further testing, it is not possible to definitively diagnose the specific disease."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 285,
+      "prompt_tokens_per_sec": 234.73894849005862,
+      "generation_tokens_per_sec": 57.865664555159455,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 5.723
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:09:33.301055+00:00",
+      "finish": "2026-07-01T13:09:39.023909+00:00",
+      "runtime_sec": 5.723
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "bacterial_spot/1.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12736,
+      "sha256": "847986b04db52704897297565b62cac9653ea1ef0425f644a1070e7d1bd9baf1"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/2.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf shows a mottled pattern with areas of discoloration, primarily in shades of green and yellow. There are no visible spots or lesions, and the leaf appears to be healthy in other areas.\n\nDisease: The symptoms observed could be indicative of nutrient deficiency, particularly iron deficiency chlorosis, which often presents as a mottled pattern on the leaf. However, without more specific symptoms, it is difficult to diagnose a specific disease.\n\nAlternative Diagnoses: Iron deficiency chlorosis, nutrient deficiency, or environmental stress could be possibilities.\n\nSeverity: The leaf appears to be in good condition overall, with only a portion showing the mottled pattern. This suggests that the issue is localized and not severe.\n\nConfidence: 60\n\nReasoning: The mottled pattern and discoloration are consistent with iron deficiency chlorosis, but without more specific symptoms, a definitive diagnosis cannot be made. The leaf appears to be in good condition overall, indicating that the issue is localized and not severe.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows a mottled pattern with areas of discoloration, primarily in shades of green and yellow. There are no visible spots or lesions, and the leaf appears to be healthy in other areas.",
+      "disease": "The symptoms observed could be indicative of nutrient deficiency, particularly iron deficiency chlorosis, which often presents as a mottled pattern on the leaf. However, without more specific symptoms, it is difficult to diagnose a specific disease.",
+      "alternative_diagnoses": "Iron deficiency chlorosis, nutrient deficiency, or environmental stress could be possibilities.",
+      "severity": "The leaf appears to be in good condition overall, with only a portion showing the mottled pattern. This suggests that the issue is localized and not severe.",
+      "confidence": "60",
+      "reasoning": "The mottled pattern and discoloration are consistent with iron deficiency chlorosis, but without more specific symptoms, a definitive diagnosis cannot be made. The leaf appears to be in good condition overall, indicating that the issue is localized and not severe."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 212,
+      "prompt_tokens_per_sec": 298.0795856172073,
+      "generation_tokens_per_sec": 58.10708098587301,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 4.282
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:09:39.026055+00:00",
+      "finish": "2026-07-01T13:09:43.308078+00:00",
+      "runtime_sec": 4.282
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "bacterial_spot/2.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 14358,
+      "sha256": "04658ef2dcceabf609f52008f552d478b290fe3a93cf325f39b4bc4320120eb2"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/3.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: Yellowing and browning of leaf margins, spots on the leaf surface, and a general wilting of the leaf.\n\nDisease: Leaf spot and possibly blight\n\nAlternative Diagnoses: Nutrient deficiency, insect damage, environmental stress\n\nSeverity: Moderate\n\nConfidence: 70\n\nReasoning: The leaf shows signs of leaf spot, which is characterized by the presence of spots and browning at the leaf margins. There are also signs of wilting, which could be due to various factors including blight. The yellowing and browning suggest a possible nutrient deficiency or environmental stress. The presence of spots and browning at the leaf margins is not typical of insect damage.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf margins, spots on the leaf surface, and a general wilting of the leaf.",
+      "disease": "Leaf spot and possibly blight",
+      "alternative_diagnoses": "Nutrient deficiency, insect damage, environmental stress",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The leaf shows signs of leaf spot, which is characterized by the presence of spots and browning at the leaf margins. There are also signs of wilting, which could be due to various factors including blight. The yellowing and browning suggest a possible nutrient deficiency or environmental stress. The presence of spots and browning at the leaf margins is not typical of insect damage."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 147,
+      "prompt_tokens_per_sec": 297.9923376921847,
+      "generation_tokens_per_sec": 58.13224841875633,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 3.161
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:09:43.310349+00:00",
+      "finish": "2026-07-01T13:09:46.471226+00:00",
+      "runtime_sec": 3.161
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "bacterial_spot/3.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12931,
+      "sha256": "c14a71e095076c9df9c7b1f61f8e69f773292cd0a3ef7bfcdbb0dedc487525db"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/4.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: Yellowing and browning at the leaf margins, with some areas appearing necrotic.\n\nDisease: Leaf blight or early blight\n\nAlternative Diagnoses: Nutrient deficiency, environmental stress, or other fungal diseases\n\nSeverity: Moderate\n\nConfidence: 70\n\nReasoning: The leaf shows symptoms of leaf blight, characterized by the yellowing and browning at the leaf margins, which are typical of this disease. The presence of necrotic areas suggests a fungal infection. However, without more information, it's difficult to rule out other possibilities such as nutrient deficiencies or environmental stress.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning at the leaf margins, with some areas appearing necrotic.",
+      "disease": "Leaf blight or early blight",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress, or other fungal diseases",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The leaf shows symptoms of leaf blight, characterized by the yellowing and browning at the leaf margins, which are typical of this disease. The presence of necrotic areas suggests a fungal infection. However, without more information, it's difficult to rule out other possibilities such as nutrient deficiencies or environmental stress."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 131,
+      "prompt_tokens_per_sec": 297.12734265302254,
+      "generation_tokens_per_sec": 57.99170519409729,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 2.893
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:09:46.473016+00:00",
+      "finish": "2026-07-01T13:09:49.366333+00:00",
+      "runtime_sec": 2.893
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "bacterial_spot/4.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8698,
+      "sha256": "2e001949013eb06b64692decd1d4e66541f1eb074018775a12cafa2143e8666f"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/5.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: Yellowing and browning of leaf edges, with some areas appearing necrotic (dead tissue).\n\nDisease: Leaf blight or early blight\n\nAlternative Diagnoses: None\n\nSeverity: Moderate\n\nConfidence: 70\n\nReasoning: The leaf shows signs of leaf blight, which is characterized by the yellowing and browning of leaf edges, and some areas of dead tissue. The symptoms are consistent with early blight, which is a common fungal disease affecting tomatoes. The severity is moderate as there are noticeable symptoms but not extensive leaf loss.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges, with some areas appearing necrotic (dead tissue).",
+      "disease": "Leaf blight or early blight",
+      "alternative_diagnoses": "None",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The leaf shows signs of leaf blight, which is characterized by the yellowing and browning of leaf edges, and some areas of dead tissue. The symptoms are consistent with early blight, which is a common fungal disease affecting tomatoes. The severity is moderate as there are noticeable symptoms but not extensive leaf loss."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 123,
+      "prompt_tokens_per_sec": 299.7571843983827,
+      "generation_tokens_per_sec": 58.22127266843908,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 2.738
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:09:49.366968+00:00",
+      "finish": "2026-07-01T13:09:52.104591+00:00",
+      "runtime_sec": 2.738
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "bacterial_spot/5.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13206,
+      "sha256": "34714995c8f496d38e005ce0ac0bdd5f4803e07496eb628f9582a17a878765bc"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/1.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf shows a dark, irregularly shaped spot on the lower part of the leaf, which appears to be a lesion. There are no visible signs of wilting, browning, or discoloration other than the lesion.\n\nDisease: The lesion could be indicative of a fungal or bacterial leaf spot disease, such as early blight or late blight, which are common in tomato crops. However, without more information, it's difficult to determine the exact cause.\n\nAlternative Diagnoses: The lesion could also be a result of mechanical damage, such as a cut or insect bite, which can sometimes cause a dark spot on the leaf. It could also be a result of nutrient deficiency or other environmental factors.\n\nSeverity: The lesion appears to be small and localized, so it may not be causing significant damage to the leaf at this stage. However, if it spreads, it could lead to a decline in the plant's health and yield.\n\nConfidence: 50\n\nReasoning: The lesion is the most prominent feature, but without more information, it's not possible to definitively diagnose the disease. The lesion could be due to a variety of factors, including disease, damage, or other environmental issues. The severity is assessed based on the size and location of the lesion, but it's important to note that a single lesion may not be a significant threat to the plant's health.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows a dark, irregularly shaped spot on the lower part of the leaf, which appears to be a lesion. There are no visible signs of wilting, browning, or discoloration other than the lesion.",
+      "disease": "The lesion could be indicative of a fungal or bacterial leaf spot disease, such as early blight or late blight, which are common in tomato crops. However, without more information, it's difficult to determine the exact cause.",
+      "alternative_diagnoses": "The lesion could also be a result of mechanical damage, such as a cut or insect bite, which can sometimes cause a dark spot on the leaf. It could also be a result of nutrient deficiency or other environmental factors.",
+      "severity": "The lesion appears to be small and localized, so it may not be causing significant damage to the leaf at this stage. However, if it spreads, it could lead to a decline in the plant's health and yield.",
+      "confidence": "50",
+      "reasoning": "The lesion is the most prominent feature, but without more information, it's not possible to definitively diagnose the disease. The lesion could be due to a variety of factors, including disease, damage, or other environmental issues. The severity is assessed based on the size and location of the lesion, but it's important to note that a single lesion may not be a significant threat to the plant's health."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 289,
+      "prompt_tokens_per_sec": 297.44691367099654,
+      "generation_tokens_per_sec": 57.81608540634166,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 5.633
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:09:52.106569+00:00",
+      "finish": "2026-07-01T13:09:57.739570+00:00",
+      "runtime_sec": 5.633
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "early_blight/1.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 10761,
+      "sha256": "bb8cf07350baac37f7fdfa2a9e54587363c8a8806a28e8d0b085c1de9ab4a3cb"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/2.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf shows signs of browning and necrosis, particularly on the edges and tips, which could indicate leaf blight or a similar foliar disease. There is also a healthy-looking green leaf at the base, suggesting the plant may still be alive but possibly under stress.\n\nDisease: Leaf blight or a similar foliar disease\n\nAlternative Diagnoses: None can be confidently determined from the image alone, but other possibilities could include fungal leaf spot diseases or nutrient deficiencies.\n\nSeverity: Moderate\n\nConfidence: 70\n\nReasoning: The visible symptoms of browning and necrosis on the leaf edges and tips are characteristic of leaf blight, which is a common foliar disease in tomatoes. The presence of a healthy leaf at the base suggests the plant may still be alive but under stress, which could be due to the disease or other factors. The severity is assessed as moderate based on the visible symptoms.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows signs of browning and necrosis, particularly on the edges and tips, which could indicate leaf blight or a similar foliar disease. There is also a healthy-looking green leaf at the base, suggesting the plant may still be alive but possibly under stress.",
+      "disease": "Leaf blight or a similar foliar disease",
+      "alternative_diagnoses": "None can be confidently determined from the image alone, but other possibilities could include fungal leaf spot diseases or nutrient deficiencies.",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The visible symptoms of browning and necrosis on the leaf edges and tips are characteristic of leaf blight, which is a common foliar disease in tomatoes. The presence of a healthy leaf at the base suggests the plant may still be alive but under stress, which could be due to the disease or other factors. The severity is assessed as moderate based on the visible symptoms."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 193,
+      "prompt_tokens_per_sec": 297.29848279952813,
+      "generation_tokens_per_sec": 57.99291697630534,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 3.964
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:09:57.742500+00:00",
+      "finish": "2026-07-01T13:10:01.706194+00:00",
+      "runtime_sec": 3.964
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "early_blight/2.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 18485,
+      "sha256": "a464236bc9ea8dc87b7d77863893056d8b8db696be6db66469bbc46d008b6e1f"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/3.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: There is a brown spot on the leaf, which appears to be necrotic (dead tissue).\n\nDisease: The brown spot could be indicative of a fungal or bacterial leaf spot disease, such as early blight or late blight, which are common in tomato crops. However, without more information, it's difficult to determine the exact cause.\n\nAlternative Diagnoses: The brown spot could also be due to environmental stress, such as drought or nutrient deficiency, which can cause leaf discoloration and necrosis.\n\nSeverity: The visible symptoms suggest a moderate level of damage, but the extent of the disease is not clear from this single leaf.\n\nConfidence: 50\n\nReasoning: The brown spot is a common symptom of various diseases affecting tomato leaves. However, without more information or a broader view of the plant, it's not possible to make a definitive diagnosis. The severity is assessed based on the visible symptoms, but the actual impact on the plant's health is unknown.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "There is a brown spot on the leaf, which appears to be necrotic (dead tissue).",
+      "disease": "The brown spot could be indicative of a fungal or bacterial leaf spot disease, such as early blight or late blight, which are common in tomato crops. However, without more information, it's difficult to determine the exact cause.",
+      "alternative_diagnoses": "The brown spot could also be due to environmental stress, such as drought or nutrient deficiency, which can cause leaf discoloration and necrosis.",
+      "severity": "The visible symptoms suggest a moderate level of damage, but the extent of the disease is not clear from this single leaf.",
+      "confidence": "50",
+      "reasoning": "The brown spot is a common symptom of various diseases affecting tomato leaves. However, without more information or a broader view of the plant, it's not possible to make a definitive diagnosis. The severity is assessed based on the visible symptoms, but the actual impact on the plant's health is unknown."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 207,
+      "prompt_tokens_per_sec": 297.60634242810744,
+      "generation_tokens_per_sec": 58.01863962706144,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 4.203
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:01.708242+00:00",
+      "finish": "2026-07-01T13:10:05.911093+00:00",
+      "runtime_sec": 4.203
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "early_blight/3.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12183,
+      "sha256": "c2b813db2ca460894280bc0decf1df940dbe64085b81d1c54568f74d155d5a3c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/4.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Brown spots and necrotic areas on the leaf surface.\nDisease: Leaf spot disease\nAlternative Diagnoses: Bacterial leaf spot, fungal leaf spot, or nutrient deficiency\nSeverity: Moderate\nConfidence (0-100): 70\nReasoning: The brown spots and necrotic areas are characteristic of leaf spot diseases, which can be caused by various pathogens. The presence of these symptoms suggests a moderate severity. However, without more specific knowledge of the pathogen, it is difficult to be more precise.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Brown spots and necrotic areas on the leaf surface.",
+      "disease": "Leaf spot disease",
+      "alternative_diagnoses": "Bacterial leaf spot, fungal leaf spot, or nutrient deficiency",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The brown spots and necrotic areas are characteristic of leaf spot diseases, which can be caused by various pathogens. The presence of these symptoms suggests a moderate severity. However, without more specific knowledge of the pathogen, it is difficult to be more precise."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 117,
+      "prompt_tokens_per_sec": 297.5127006664079,
+      "generation_tokens_per_sec": 58.1970636527988,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 2.644
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:05.913259+00:00",
+      "finish": "2026-07-01T13:10:08.557037+00:00",
+      "runtime_sec": 2.644
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "early_blight/4.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13121,
+      "sha256": "f44b6342cac8316b34a4fd23209d0100b9a19e803b3c94b8d09595a5f0d4f0bf"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/5.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Dark spots and discoloration on the leaf surface.\nDisease: Not definitively identifiable from the image alone.\nAlternative Diagnoses: Leaf spot disease, nutrient deficiency, or environmental stress.\nSeverity: Cannot be determined from the image alone.\nConfidence: 50\nReasoning: The leaf shows dark spots and discoloration, which could be indicative of various issues. However, without more information such as the plant's history, environmental conditions, and a closer examination, it is not possible to definitively diagnose the disease. The symptoms could be due to a variety of factors, including leaf spot diseases, nutrient deficiencies, or environmental stress.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Dark spots and discoloration on the leaf surface.",
+      "disease": "Not definitively identifiable from the image alone.",
+      "alternative_diagnoses": "Leaf spot disease, nutrient deficiency, or environmental stress.",
+      "severity": "Cannot be determined from the image alone.",
+      "confidence": "50",
+      "reasoning": "The leaf shows dark spots and discoloration, which could be indicative of various issues. However, without more information such as the plant's history, environmental conditions, and a closer examination, it is not possible to definitively diagnose the disease. The symptoms could be due to a variety of factors, including leaf spot diseases, nutrient deficiencies, or environmental stress."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 139,
+      "prompt_tokens_per_sec": 296.79177000967803,
+      "generation_tokens_per_sec": 58.0875873838245,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 3.028
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:08.558680+00:00",
+      "finish": "2026-07-01T13:10:11.586874+00:00",
+      "runtime_sec": 3.028
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "early_blight/5.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15472,
+      "sha256": "243cd5f9e2dc37d1a45a058deb89c921767e588c4d1443227065ecfff9da099e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/1.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: Yellowing and browning at the leaf tips and edges, with some areas appearing necrotic (dead tissue).\n\nDisease: Leaf blight or early blight\n\nAlternative Diagnoses: Nutrient deficiency, environmental stress, or other bacterial or fungal diseases\n\nSeverity: Moderate\n\nConfidence: 70\n\nReasoning: The leaf shows symptoms of leaf blight, which is characterized by the yellowing and browning of leaf tips and edges. The presence of necrotic areas suggests a bacterial or fungal infection. The severity is moderate due to the visible damage but not extensive. The confidence is high but not absolute due to the possibility of other causes.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning at the leaf tips and edges, with some areas appearing necrotic (dead tissue).",
+      "disease": "Leaf blight or early blight",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress, or other bacterial or fungal diseases",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The leaf shows symptoms of leaf blight, which is characterized by the yellowing and browning of leaf tips and edges. The presence of necrotic areas suggests a bacterial or fungal infection. The severity is moderate due to the visible damage but not extensive. The confidence is high but not absolute due to the possibility of other causes."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 142,
+      "prompt_tokens_per_sec": 297.43660019328115,
+      "generation_tokens_per_sec": 57.71466001561131,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 3.093
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:11.588904+00:00",
+      "finish": "2026-07-01T13:10:14.682253+00:00",
+      "runtime_sec": 3.093
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "leaf_mold/1.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15611,
+      "sha256": "33063ecffbdddcb0ca01d1838b32e22eaa0fb7c207db670c58e9f16ca01b47ea"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/2.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: Yellowing and browning of leaf edges, with some areas appearing necrotic (dead tissue).\n\nDisease: Leaf blight or early blight\n\nAlternative Diagnoses: Nutrient deficiency, environmental stress, or other bacterial or fungal diseases\n\nSeverity: Moderate\n\nConfidence: 70\n\nReasoning: The leaf shows symptoms of leaf blight, which is characterized by the yellowing and browning of leaf edges, often with a necrotic appearance. The symptoms are consistent with early blight, a common fungal disease affecting tomatoes. However, without further diagnostic tests, it's not possible to definitively rule out other possibilities.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges, with some areas appearing necrotic (dead tissue).",
+      "disease": "Leaf blight or early blight",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress, or other bacterial or fungal diseases",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The leaf shows symptoms of leaf blight, which is characterized by the yellowing and browning of leaf edges, often with a necrotic appearance. The symptoms are consistent with early blight, a common fungal disease affecting tomatoes. However, without further diagnostic tests, it's not possible to definitively rule out other possibilities."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 138,
+      "prompt_tokens_per_sec": 300.2563460721246,
+      "generation_tokens_per_sec": 57.83023776549428,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 3.01
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:14.683036+00:00",
+      "finish": "2026-07-01T13:10:17.693395+00:00",
+      "runtime_sec": 3.01
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "leaf_mold/2.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 14788,
+      "sha256": "acc36b61dc9729b5169afa45f7b62eb86530c47ffb943a75e37e4991b908046b"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/3.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of leaf edges, with some areas appearing necrotic.\nDisease: Leaf blight or early blight (Alternaria solani)\nAlternative Diagnoses: Nutrient deficiency, environmental stress, or other fungal diseases.\nSeverity: Moderate\nConfidence: 70\nReasoning: The leaf shows characteristic symptoms of early blight, including the yellowing and browning of leaf edges, which are typical of this fungal disease. The presence of necrotic spots suggests the presence of a pathogen. However, without more information, it's difficult to rule out other possibilities.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges, with some areas appearing necrotic.",
+      "disease": "Leaf blight or early blight (Alternaria solani)",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress, or other fungal diseases.",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The leaf shows characteristic symptoms of early blight, including the yellowing and browning of leaf edges, which are typical of this fungal disease. The presence of necrotic spots suggests the presence of a pathogen. However, without more information, it's difficult to rule out other possibilities."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 131,
+      "prompt_tokens_per_sec": 297.3961383618125,
+      "generation_tokens_per_sec": 57.965490924731505,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 2.895
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:17.695875+00:00",
+      "finish": "2026-07-01T13:10:20.590408+00:00",
+      "runtime_sec": 2.895
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "leaf_mold/3.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12303,
+      "sha256": "d1ed653c6e67c1ea5f6776b5833e8ac4ac4b446df738e46c80bccff59eed59df"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/4.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: Yellowing and browning of leaf tissue, particularly along the veins and edges of the leaf.\n\nDisease: Leaf spot\n\nAlternative Diagnoses: Mosaic virus, nutrient deficiency, or environmental stress\n\nSeverity: Moderate\n\nConfidence: 70\n\nReasoning: The leaf shows distinct yellowing and browning along the veins and edges, which is characteristic of leaf spot diseases. The pattern and distribution suggest a fungal or bacterial infection rather than a viral or nutritional issue. The severity is moderate as the symptoms are present but not widespread.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf tissue, particularly along the veins and edges of the leaf.",
+      "disease": "Leaf spot",
+      "alternative_diagnoses": "Mosaic virus, nutrient deficiency, or environmental stress",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The leaf shows distinct yellowing and browning along the veins and edges, which is characteristic of leaf spot diseases. The pattern and distribution suggest a fungal or bacterial infection rather than a viral or nutritional issue. The severity is moderate as the symptoms are present but not widespread."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 117,
+      "prompt_tokens_per_sec": 297.4367210599345,
+      "generation_tokens_per_sec": 58.01698561976959,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 2.65
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:20.593149+00:00",
+      "finish": "2026-07-01T13:10:23.243478+00:00",
+      "runtime_sec": 2.65
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "leaf_mold/4.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 16599,
+      "sha256": "c9ecbab9f17925d20b8014e646dc6b40d76a309b143ab867394fef27e5fef8c9"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/5.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: Yellowing and browning of leaf edges, with some areas appearing necrotic (dead tissue).\n\nDisease: Leaf blight or early blight\n\nAlternative Diagnoses: Nutrient deficiency, environmental stress, or other fungal diseases\n\nSeverity: Moderate\n\nConfidence: 70\n\nReasoning: The leaf shows symptoms of leaf blight, characterized by the yellowing and browning of leaf edges, which are typical of this disease. The presence of dead tissue suggests a fungal infection. However, without more information, it's difficult to rule out other possibilities.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges, with some areas appearing necrotic (dead tissue).",
+      "disease": "Leaf blight or early blight",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress, or other fungal diseases",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The leaf shows symptoms of leaf blight, characterized by the yellowing and browning of leaf edges, which are typical of this disease. The presence of dead tissue suggests a fungal infection. However, without more information, it's difficult to rule out other possibilities."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 123,
+      "prompt_tokens_per_sec": 300.21252782673605,
+      "generation_tokens_per_sec": 58.11013441358405,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 2.742
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:23.244344+00:00",
+      "finish": "2026-07-01T13:10:25.986035+00:00",
+      "runtime_sec": 2.742
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "leaf_mold/5.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 11060,
+      "sha256": "14cb1c129a409db12d630eec6709960a23c6c9adaa0fb90a74b0a87f984a9e40"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/1.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf appears to be healthy and there are no visible signs of disease or damage.\n\nDisease: None\n\nAlternative Diagnoses: None\n\nSeverity: None\n\nConfidence: 100\n\nReasoning: The leaf in the image appears to be healthy with no visible signs of disease or damage. There are no spots, discoloration, or other symptoms that would suggest a specific disease. The leaf looks intact and there are no visible signs of pest damage.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf appears to be healthy and there are no visible signs of disease or damage.",
+      "disease": "None",
+      "alternative_diagnoses": "None",
+      "severity": "None",
+      "confidence": "100",
+      "reasoning": "The leaf in the image appears to be healthy with no visible signs of disease or damage. There are no spots, discoloration, or other symptoms that would suggest a specific disease. The leaf looks intact and there are no visible signs of pest damage."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 103,
+      "prompt_tokens_per_sec": 297.6253599583235,
+      "generation_tokens_per_sec": 58.47143878431644,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 2.395
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:25.989235+00:00",
+      "finish": "2026-07-01T13:10:28.384344+00:00",
+      "runtime_sec": 2.395
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "mosaic_virus/1.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 18345,
+      "sha256": "77487780b04b7f71301f5252247e7580a59bba179d4e2373d80ad7ecd326f904"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/2.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf appears to have a mottled discoloration, with some areas appearing lighter than others. There are no visible spots, blisters, or wilting.\n\nDisease: The symptoms observed could be indicative of various issues, including nutrient deficiencies, environmental stress, or early signs of a disease. Without more information, it's difficult to pinpoint a specific disease.\n\nAlternative Diagnoses: Nutrient deficiency (e.g., iron deficiency), environmental stress (e.g., heat stress), early signs of a fungal or bacterial disease.\n\nSeverity: The leaf shows some discoloration, but it does not appear to be severely affected. The damage seems localized and not widespread.\n\nConfidence: 50\n\nReasoning: The leaf shows some mottled discoloration, which could be due to various factors. Without more information or a closer inspection, it's challenging to determine the exact cause. The symptoms are not severe, but they are noticeable.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf appears to have a mottled discoloration, with some areas appearing lighter than others. There are no visible spots, blisters, or wilting.",
+      "disease": "The symptoms observed could be indicative of various issues, including nutrient deficiencies, environmental stress, or early signs of a disease. Without more information, it's difficult to pinpoint a specific disease.",
+      "alternative_diagnoses": "Nutrient deficiency (e.g., iron deficiency), environmental stress (e.g., heat stress), early signs of a fungal or bacterial disease.",
+      "severity": "The leaf shows some discoloration, but it does not appear to be severely affected. The damage seems localized and not widespread.",
+      "confidence": "50",
+      "reasoning": "The leaf shows some mottled discoloration, which could be due to various factors. Without more information or a closer inspection, it's challenging to determine the exact cause. The symptoms are not severe, but they are noticeable."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 200,
+      "prompt_tokens_per_sec": 297.18064092299977,
+      "generation_tokens_per_sec": 58.12098700682842,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 4.075
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:28.387435+00:00",
+      "finish": "2026-07-01T13:10:32.462872+00:00",
+      "runtime_sec": 4.075
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "mosaic_virus/2.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15676,
+      "sha256": "478ead03f1f962f60ae3455b90affd170c8b6a5cca95a60d1cf5e32b68f8bd0c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/3.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf shows a pattern of light and dark green stripes, which could indicate a variety of issues.\n\nDisease: The leaf could be suffering from a fungal or viral disease, or it might be a natural variation in the leaf's coloration.\n\nAlternative Diagnoses: The leaf could be experiencing nutrient deficiencies, such as iron or magnesium, or it might be a natural pattern in the leaf's development.\n\nSeverity: The leaf appears to be in good condition, with no visible signs of significant damage or disease.\n\nConfidence: 50\n\nReasoning: The leaf's pattern of light and dark green stripes could be due to a variety of factors, including natural variation, nutrient deficiencies, or a disease. Without more information, it is difficult to determine the exact cause.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows a pattern of light and dark green stripes, which could indicate a variety of issues.",
+      "disease": "The leaf could be suffering from a fungal or viral disease, or it might be a natural variation in the leaf's coloration.",
+      "alternative_diagnoses": "The leaf could be experiencing nutrient deficiencies, such as iron or magnesium, or it might be a natural pattern in the leaf's development.",
+      "severity": "The leaf appears to be in good condition, with no visible signs of significant damage or disease.",
+      "confidence": "50",
+      "reasoning": "The leaf's pattern of light and dark green stripes could be due to a variety of factors, including natural variation, nutrient deficiencies, or a disease. Without more information, it is difficult to determine the exact cause."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 163,
+      "prompt_tokens_per_sec": 297.1594682289832,
+      "generation_tokens_per_sec": 58.076124170576804,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 3.442
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:32.466599+00:00",
+      "finish": "2026-07-01T13:10:35.909080+00:00",
+      "runtime_sec": 3.442
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "mosaic_virus/3.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15893,
+      "sha256": "0b9f951849b9b676253328474ae2143dea472e3832156dab51e595beffa9f402"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/4.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf shows a mottled pattern with lighter and darker green areas, which could indicate nutrient deficiency or stress.\n\nDisease: Nutrient deficiency or stress\n\nAlternative Diagnoses: Nutrient deficiency, stress, or a fungal or bacterial leaf spot disease\n\nSeverity: Moderate\n\nConfidence: 70\n\nReasoning: The mottled pattern and color variation suggest a possible nutrient deficiency or stress. The leaf does not show the typical symptoms of a fungal or bacterial leaf spot disease, which usually include spots, lesions, or discoloration. The severity is moderate due to the visible symptoms but not severe enough to be classified as a high severity.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows a mottled pattern with lighter and darker green areas, which could indicate nutrient deficiency or stress.",
+      "disease": "Nutrient deficiency or stress",
+      "alternative_diagnoses": "Nutrient deficiency, stress, or a fungal or bacterial leaf spot disease",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The mottled pattern and color variation suggest a possible nutrient deficiency or stress. The leaf does not show the typical symptoms of a fungal or bacterial leaf spot disease, which usually include spots, lesions, or discoloration. The severity is moderate due to the visible symptoms but not severe enough to be classified as a high severity."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 140,
+      "prompt_tokens_per_sec": 295.46829522262516,
+      "generation_tokens_per_sec": 57.819627027190684,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 3.059
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:35.911890+00:00",
+      "finish": "2026-07-01T13:10:38.970395+00:00",
+      "runtime_sec": 3.059
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "mosaic_virus/4.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13330,
+      "sha256": "f17385882c3f1f3343b50e25f41f0640729f45a4a0fefb30ced2441dde8ebc5d"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/5.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: Yellowing and browning of leaf edges, interveinal chlorosis (light green areas between veins).\n\nDisease: Leaf spot or blight\n\nAlternative Diagnoses: Nutrient deficiency, environmental stress, or other pathogenic diseases\n\nSeverity: Moderate\n\nConfidence: 70\n\nReasoning: The leaf shows signs of leaf spot or blight, characterized by the yellowing and browning of leaf edges and interveinal chlorosis. The symptoms are not consistent with nutrient deficiencies or environmental stress, which typically affect the entire leaf or have a different pattern. The severity is moderate as the symptoms are present but not widespread.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges, interveinal chlorosis (light green areas between veins).",
+      "disease": "Leaf spot or blight",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress, or other pathogenic diseases",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The leaf shows signs of leaf spot or blight, characterized by the yellowing and browning of leaf edges and interveinal chlorosis. The symptoms are not consistent with nutrient deficiencies or environmental stress, which typically affect the entire leaf or have a different pattern. The severity is moderate as the symptoms are present but not widespread."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 136,
+      "prompt_tokens_per_sec": 295.58265436179994,
+      "generation_tokens_per_sec": 58.02137615688055,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 2.977
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:38.971380+00:00",
+      "finish": "2026-07-01T13:10:41.948756+00:00",
+      "runtime_sec": 2.977
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "mosaic_virus/5.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15628,
+      "sha256": "a48fd8bd48810917768d7f655c8503598089e80ed29a6124141ea118d33b5cc5"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/1.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf appears to have a mottled discoloration, with some areas appearing lighter than others. There are no visible spots, blisters, or wilting.\n\nDisease: It is uncertain what specific disease is present. The symptoms could be due to various factors such as nutrient deficiencies, environmental stress, or other non-disease-related issues.\n\nAlternative Diagnoses: Nutrient deficiency, environmental stress, or other non-disease-related issues could cause similar symptoms.\n\nSeverity: The severity is difficult to determine without more information, but the leaf appears to be in good condition overall, with no significant damage.\n\nConfidence: 50\n\nReasoning: The leaf shows a mottled discoloration, which can be caused by various factors. Without more information, it is not possible to definitively diagnose a specific disease. The leaf does not show any signs of significant damage or disease.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf appears to have a mottled discoloration, with some areas appearing lighter than others. There are no visible spots, blisters, or wilting.",
+      "disease": "It is uncertain what specific disease is present. The symptoms could be due to various factors such as nutrient deficiencies, environmental stress, or other non-disease-related issues.",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress, or other non-disease-related issues could cause similar symptoms.",
+      "severity": "The severity is difficult to determine without more information, but the leaf appears to be in good condition overall, with no significant damage.",
+      "confidence": "50",
+      "reasoning": "The leaf shows a mottled discoloration, which can be caused by various factors. Without more information, it is not possible to definitively diagnose a specific disease. The leaf does not show any signs of significant damage or disease."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 188,
+      "prompt_tokens_per_sec": 292.05162775379733,
+      "generation_tokens_per_sec": 57.588412476186726,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 3.911
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:41.951799+00:00",
+      "finish": "2026-07-01T13:10:45.862963+00:00",
+      "runtime_sec": 3.911
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "target_spot/1.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20213,
+      "sha256": "4bbc310f179679d83d9ceac8decf6180b234f3e4c263cbeb094469a3fa0b8a8e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/2.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf appears to have a healthy green color and no visible blemishes, spots, or discoloration.\n\nDisease: No visible symptoms of a specific disease are present.\n\nAlternative Diagnoses: None\n\nSeverity: The leaf appears healthy, so there is no indication of severity.\n\nConfidence: 0\n\nReasoning: The leaf is green and there are no visible signs of disease or damage. However, without more information or a closer inspection, it is not possible to make a confident diagnosis.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf appears to have a healthy green color and no visible blemishes, spots, or discoloration.",
+      "disease": "No visible symptoms of a specific disease are present.",
+      "alternative_diagnoses": "None",
+      "severity": "The leaf appears healthy, so there is no indication of severity.",
+      "confidence": "0",
+      "reasoning": "The leaf is green and there are no visible signs of disease or damage. However, without more information or a closer inspection, it is not possible to make a confident diagnosis."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 110,
+      "prompt_tokens_per_sec": 289.7374175498363,
+      "generation_tokens_per_sec": 57.69170884806126,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 2.558
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:45.866552+00:00",
+      "finish": "2026-07-01T13:10:48.424074+00:00",
+      "runtime_sec": 2.558
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "target_spot/2.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20922,
+      "sha256": "896f66f0c12091d3e72f1d760d22ad58ef848d0198582562daaad8631def0c59"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/3.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf shows a yellowish discoloration and some browning at the edges, which could indicate stress or disease.\n\nDisease: The symptoms could be due to various factors including nutrient deficiencies, environmental stress, or a fungal or bacterial disease.\n\nAlternative Diagnoses: Nutrient deficiency (e.g., iron deficiency), environmental stress (e.g., heat stress), fungal leaf spot, bacterial leaf blight.\n\nSeverity: The leaf appears to be in the early stages of stress or disease, but it is difficult to determine the exact severity without more information.\n\nConfidence: 50\n\nReasoning: The leaf shows signs of discoloration and browning, which can be indicative of various issues. However, without more specific symptoms or a closer examination, it is not possible to definitively diagnose the disease. The symptoms could be due to a range of factors, including nutrient deficiencies, environmental stress, or a fungal or bacterial disease.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows a yellowish discoloration and some browning at the edges, which could indicate stress or disease.",
+      "disease": "The symptoms could be due to various factors including nutrient deficiencies, environmental stress, or a fungal or bacterial disease.",
+      "alternative_diagnoses": "Nutrient deficiency (e.g., iron deficiency), environmental stress (e.g., heat stress), fungal leaf spot, bacterial leaf blight.",
+      "severity": "The leaf appears to be in the early stages of stress or disease, but it is difficult to determine the exact severity without more information.",
+      "confidence": "50",
+      "reasoning": "The leaf shows signs of discoloration and browning, which can be indicative of various issues. However, without more specific symptoms or a closer examination, it is not possible to definitively diagnose the disease. The symptoms could be due to a range of factors, including nutrient deficiencies, environmental stress, or a fungal or bacterial disease."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 196,
+      "prompt_tokens_per_sec": 289.82816001016994,
+      "generation_tokens_per_sec": 57.71710447140007,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 4.043
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:48.425258+00:00",
+      "finish": "2026-07-01T13:10:52.467952+00:00",
+      "runtime_sec": 4.043
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "target_spot/3.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 19847,
+      "sha256": "b9b20509c41742e2b574f7ad37d3235271d01c06907959ffbc5506597084c1ab"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/4.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf shows a mottled pattern with a lighter green coloration, which could indicate nutrient deficiency or stress. There are no visible spots, lesions, or discoloration that would suggest a specific disease.\n\nDisease: Not enough information to diagnose a specific disease.\n\nAlternative Diagnoses: Nutrient deficiency, stress, or mottled leaf pattern due to environmental factors.\n\nSeverity: Low to moderate, depending on the underlying cause.\n\nConfidence: 50\n\nReasoning: The leaf shows a mottled pattern with a lighter green coloration, which could indicate nutrient deficiency or stress. There are no visible signs of a specific disease. The severity is low to moderate, and the confidence is moderate due to the lack of clear symptoms of a specific disease.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows a mottled pattern with a lighter green coloration, which could indicate nutrient deficiency or stress. There are no visible spots, lesions, or discoloration that would suggest a specific disease.",
+      "disease": "Not enough information to diagnose a specific disease.",
+      "alternative_diagnoses": "Nutrient deficiency, stress, or mottled leaf pattern due to environmental factors.",
+      "severity": "Low to moderate, depending on the underlying cause.",
+      "confidence": "50",
+      "reasoning": "The leaf shows a mottled pattern with a lighter green coloration, which could indicate nutrient deficiency or stress. There are no visible signs of a specific disease. The severity is low to moderate, and the confidence is moderate due to the lack of clear symptoms of a specific disease."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 163,
+      "prompt_tokens_per_sec": 286.74009223473746,
+      "generation_tokens_per_sec": 57.53232729993868,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 3.492
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:52.471756+00:00",
+      "finish": "2026-07-01T13:10:55.963332+00:00",
+      "runtime_sec": 3.492
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "target_spot/4.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20511,
+      "sha256": "c3c9efa88a2550a369268c21fa35e1ef74596ee40ea749ce17982f412888ffa1"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/5.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf shows a mottled pattern with a lighter green coloration, which could indicate nutrient deficiency or stress.\n\nDisease: Nutrient deficiency or stress\n\nAlternative Diagnoses: Nutrient deficiency, stress, or a fungal or bacterial leaf spot disease\n\nSeverity: Moderate\n\nConfidence: 70\n\nReasoning: The mottled pattern and lighter green coloration suggest a possible nutrient deficiency or stress. There are no clear signs of a fungal or bacterial leaf spot disease, but the symptoms could also be due to a nutrient deficiency or stress. The severity is moderate as the leaf appears to be affected but not severely damaged.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows a mottled pattern with a lighter green coloration, which could indicate nutrient deficiency or stress.",
+      "disease": "Nutrient deficiency or stress",
+      "alternative_diagnoses": "Nutrient deficiency, stress, or a fungal or bacterial leaf spot disease",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The mottled pattern and lighter green coloration suggest a possible nutrient deficiency or stress. There are no clear signs of a fungal or bacterial leaf spot disease, but the symptoms could also be due to a nutrient deficiency or stress. The severity is moderate as the leaf appears to be affected but not severely damaged."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 136,
+      "prompt_tokens_per_sec": 285.57233552990164,
+      "generation_tokens_per_sec": 57.545146290432974,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 3.023
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:55.966884+00:00",
+      "finish": "2026-07-01T13:10:58.989658+00:00",
+      "runtime_sec": 3.023
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "target_spot/5.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20039,
+      "sha256": "3f82e1d895ddcaad3f42e51d7d6f6db04b731dafe7c87c4604db01a8a258286c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/1.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf shows a mottled pattern with a mix of green and yellowish areas, which could indicate nutrient deficiency or stress.\n\nDisease: Nutrient deficiency or stress\n\nAlternative Diagnoses: Nutrient deficiency, stress, or a fungal or viral infection\n\nSeverity: Moderate\n\nConfidence: 70\n\nReasoning: The mottled pattern and coloration suggest a possible nutrient deficiency or stress. The pattern does not clearly indicate a specific disease, but it is not consistent with a fungal or viral infection. The severity is moderate due to the visible symptoms but not severe enough to be classified as a high severity.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows a mottled pattern with a mix of green and yellowish areas, which could indicate nutrient deficiency or stress.",
+      "disease": "Nutrient deficiency or stress",
+      "alternative_diagnoses": "Nutrient deficiency, stress, or a fungal or viral infection",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The mottled pattern and coloration suggest a possible nutrient deficiency or stress. The pattern does not clearly indicate a specific disease, but it is not consistent with a fungal or viral infection. The severity is moderate due to the visible symptoms but not severe enough to be classified as a high severity."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 134,
+      "prompt_tokens_per_sec": 287.21375000605116,
+      "generation_tokens_per_sec": 57.7772395295139,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 2.971
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:10:58.990840+00:00",
+      "finish": "2026-07-01T13:11:01.962126+00:00",
+      "runtime_sec": 2.971
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "yellowleaf_curl_virus/1.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8103,
+      "sha256": "6df2838c482139b8c75c6cac397d02773f122ab26c42982a8f827fe34d691579"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/2.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: The leaf shows a distorted, curled, and yellowish-green appearance, which is indicative of a nutrient deficiency or a viral infection.\n\nDisease: Nutrient deficiency (potentially magnesium deficiency) or viral infection\n\nAlternative Diagnoses: None\n\nSeverity: Moderate\n\nConfidence: 70\n\nReasoning: The leaf shows signs of distortion and yellowing, which are common symptoms of nutrient deficiencies, particularly magnesium deficiency in tomatoes. Additionally, the leaf's appearance can also be consistent with viral infections, which can cause similar symptoms. However, without more specific knowledge or testing, it is difficult to definitively diagnose the condition.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows a distorted, curled, and yellowish-green appearance, which is indicative of a nutrient deficiency or a viral infection.",
+      "disease": "Nutrient deficiency (potentially magnesium deficiency) or viral infection",
+      "alternative_diagnoses": "None",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The leaf shows signs of distortion and yellowing, which are common symptoms of nutrient deficiencies, particularly magnesium deficiency in tomatoes. Additionally, the leaf's appearance can also be consistent with viral infections, which can cause similar symptoms. However, without more specific knowledge or testing, it is difficult to definitively diagnose the condition."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 134,
+      "prompt_tokens_per_sec": 285.5081225526536,
+      "generation_tokens_per_sec": 57.51318461221091,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 2.99
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:11:01.965721+00:00",
+      "finish": "2026-07-01T13:11:04.955496+00:00",
+      "runtime_sec": 2.99
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "yellowleaf_curl_virus/2.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 5351,
+      "sha256": "707c27effbeb3c8bb9a8e1160fc0e6b0de2169d52219a893ed5f35262f4b4f4e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/3.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: Yellowing and browning of leaf edges, with some areas appearing necrotic.\n\nDisease: Leaf blight or early blight\n\nAlternative Diagnoses: Nutrient deficiency, environmental stress, or other fungal diseases\n\nSeverity: Moderate\n\nConfidence: 70\n\nReasoning: The leaf shows symptoms of leaf blight, characterized by the yellowing and browning of leaf edges, which are typical of this disease. The presence of necrotic areas suggests a fungal infection. However, without more information, it's difficult to rule out other possibilities such as nutrient deficiencies or environmental stress.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges, with some areas appearing necrotic.",
+      "disease": "Leaf blight or early blight",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress, or other fungal diseases",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The leaf shows symptoms of leaf blight, characterized by the yellowing and browning of leaf edges, which are typical of this disease. The presence of necrotic areas suggests a fungal infection. However, without more information, it's difficult to rule out other possibilities such as nutrient deficiencies or environmental stress."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 129,
+      "prompt_tokens_per_sec": 287.77114174321,
+      "generation_tokens_per_sec": 57.563606948911755,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 2.891
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:11:04.956702+00:00",
+      "finish": "2026-07-01T13:11:07.848121+00:00",
+      "runtime_sec": 2.891
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "yellowleaf_curl_virus/3.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 9100,
+      "sha256": "c08724d4d1b72aba0b2e68baeccffb5cd8715ed7417c1711cba554bacc920cb0"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/4.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of leaf edges and interveinal chlorosis.\nDisease: Leaf spot or nutrient deficiency (potentially iron deficiency chlorosis)\nAlternative Diagnoses: Manganese deficiency, bacterial leaf blight, viral infection\nSeverity: Moderate\nConfidence: 70\nReasoning: The leaf shows signs of yellowing and browning at the edges, which can be indicative of various issues including nutrient deficiencies or diseases. The interveinal chlorosis suggests a possible nutrient deficiency, but the specific nutrient is not identifiable from the image alone. The yellowing and browning at the edges could also be due to leaf spot diseases or other environmental factors.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges and interveinal chlorosis.",
+      "disease": "Leaf spot or nutrient deficiency (potentially iron deficiency chlorosis)",
+      "alternative_diagnoses": "Manganese deficiency, bacterial leaf blight, viral infection",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The leaf shows signs of yellowing and browning at the edges, which can be indicative of various issues including nutrient deficiencies or diseases. The interveinal chlorosis suggests a possible nutrient deficiency, but the specific nutrient is not identifiable from the image alone. The yellowing and browning at the edges could also be due to leaf spot diseases or other environmental factors."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 143,
+      "prompt_tokens_per_sec": 287.8447525843041,
+      "generation_tokens_per_sec": 57.62269803171611,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 3.132
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:11:07.849307+00:00",
+      "finish": "2026-07-01T13:11:10.981544+00:00",
+      "runtime_sec": 3.132
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "yellowleaf_curl_virus/4.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 7613,
+      "sha256": "c9c0669af67a454196b8496d6c941aaa8b0545696dad03961427f7e3648b5ae8"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/5.JPG",
+    "model": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of leaf edges and interveinal chlorosis (light green areas between veins)\nDisease: Possible nutrient deficiency (e.g., iron, magnesium) or environmental stress (e.g., drought)\nAlternative Diagnoses: Possible fungal or bacterial leaf blight, but cannot be confirmed visually.\nSeverity: Moderate\nConfidence: 70\nReasoning: The leaf shows signs of interveinal chlorosis and marginal leaf discoloration, which can be indicative of nutrient deficiencies or environmental stress. However, without more information or a closer inspection, it is not possible to definitively diagnose the condition.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges and interveinal chlorosis (light green areas between veins)",
+      "disease": "Possible nutrient deficiency (e.g., iron, magnesium) or environmental stress (e.g., drought)",
+      "alternative_diagnoses": "Possible fungal or bacterial leaf blight, but cannot be confirmed visually.",
+      "severity": "Moderate",
+      "confidence": "70",
+      "reasoning": "The leaf shows signs of interveinal chlorosis and marginal leaf discoloration, which can be indicative of nutrient deficiencies or environmental stress. However, without more information or a closer inspection, it is not possible to definitively diagnose the condition."
+    },
+    "metrics": {
+      "prompt_tokens": 183,
+      "generated_tokens": 134,
+      "prompt_tokens_per_sec": 286.18237597178796,
+      "generation_tokens_per_sec": 57.49055240375786,
+      "peak_memory_mb": 5721.5,
+      "inference_time_sec": 2.988
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:11:10.985246+00:00",
+      "finish": "2026-07-01T13:11:13.973676+00:00",
+      "runtime_sec": 2.988
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "yellowleaf_curl_virus/5.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8056,
+      "sha256": "61293d08367e296731c1764af9cf4cd41918cbb89d444cb2199d1135d09b3f39"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+      "model_name": "Qwen2.5-VL-7B-Instruct-4bit",
+      "model_family": "Qwen",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  }
+]

@@ -1,0 +1,13 @@
+Here's an analysis of the provided crop image:
+
+**Plant species:** Likely tomato (based on leaf shape).
+**Visible symptoms:** Curling, distortion, yellowing, and spots on the leaf.
+**Leaf color:** Primarily green, with significant yellowing (chlorosis) in areas.
+**Leaf texture:** Appears normal, except for the distorted areas.
+**Spots or lesions:** Small, brown spots are visible on the leaf surface.
+**Severity:** Moderate – a significant portion of the leaf is affected, but the entire leaf isn't impacted.
+**Most likely disease:** Early symptoms of Tomato Yellow Leaf Curl Virus (TYLCV). The leaf distortion and yellowing are consistent with this disease.
+**Alternative diagnoses:**
+*   Nutrient deficiency (e.g., magnesium or potassium) – though the spots are less typical.
+*   Herbicide damage – possible, but the spots are not a common symptom.
+**Confidence:** 75% - The combination of leaf distortion, yellowing, and spots points towards TYLCV, but other factors could be involved.

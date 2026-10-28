@@ -1,0 +1,27 @@
+2026-07-01 18:39:30,648 [INFO] ============================================================
+2026-07-01 18:39:30,648 [INFO]   PlantDx — Zero-Shot VLM Benchmark (Tomato)
+2026-07-01 18:39:30,648 [INFO] ============================================================
+2026-07-01 18:39:30,648 [INFO] Seed        : 42 (applied)
+2026-07-01 18:39:30,648 [INFO] Models      : 7
+2026-07-01 18:39:30,648 [INFO]   - mlx-community/Qwen2.5-VL-7B-Instruct-4bit
+2026-07-01 18:39:30,648 [INFO]   - mlx-community/Qwen3-VL-8B-Instruct-4bit
+2026-07-01 18:39:30,648 [INFO]   - mlx-community/gemma-3-12b-it-4bit
+2026-07-01 18:39:30,648 [INFO]   - mlx-community/InternVL3-8B-MLX-4bit
+2026-07-01 18:39:30,648 [INFO]   - mlx-community/Llama-3.2-11B-Vision-Instruct-4bit
+2026-07-01 18:39:30,648 [INFO]   - mlx-community/Molmo-7B-D-0924-4bit
+2026-07-01 18:39:30,648 [INFO]   - mlx-community/deepseek-vl2-small-4bit
+2026-07-01 18:39:30,656 [INFO] Images      : 30 across 6 class folders
+2026-07-01 18:39:30,656 [INFO] Prompt      : identical for every (model, image) pair — see scripts/config.py
+2026-07-01 19:26:04,398 [INFO] ============================================================
+2026-07-01 19:26:04,399 [INFO] All requested models finished in 46.6 min.
+2026-07-01 19:26:04,399 [INFO] Loading combined predictions for validation + aggregation...
+2026-07-01 19:26:04,402 [INFO] Validating outputs...
+2026-07-01 19:26:04,403 [INFO] Validation: issues found -> validation_report.json
+2026-07-01 19:26:04,403 [INFO] Aggregating per-model outputs into combined JSON + CSV...
+2026-07-01 19:26:04,413 [INFO]   Combined JSON -> /Users/aakashjawle/Downloads/benchmark/outputs/all_predictions.json
+2026-07-01 19:26:04,413 [INFO]   Combined CSV  -> /Users/aakashjawle/Downloads/benchmark/results/predictions.csv
+2026-07-01 19:26:04,413 [INFO] Writing summary.json...
+2026-07-01 19:26:04,443 [INFO]   Summary -> /Users/aakashjawle/Downloads/benchmark/outputs/summary.json
+2026-07-01 19:26:04,443 [INFO] 
+2026-07-01 19:26:04,444 [INFO] This phase collects predictions only — no accuracy or
+2026-07-01 19:26:04,444 [INFO] correctness evaluation is performed. See README.md.

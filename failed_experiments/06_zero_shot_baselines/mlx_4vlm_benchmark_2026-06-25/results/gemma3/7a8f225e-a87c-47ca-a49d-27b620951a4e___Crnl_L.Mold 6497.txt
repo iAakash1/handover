@@ -1,0 +1,13 @@
+Here's an analysis of the provided crop image:
+
+**Plant species:** Soybean (likely, based on leaf shape)
+**Visible symptoms:** Mottling, yellowing, slight curling of leaf edges.
+**Leaf color:** Primarily green with significant yellow patches (mottling).
+**Leaf texture:** Appears relatively normal, with typical soybean leaf texture.
+**Spots or lesions:** No distinct spots or lesions are visible.
+**Severity:** Mild to moderate – the yellowing is noticeable but doesn't appear to affect the entire leaf.
+**Most likely disease:** Nutrient deficiency (likely sulfur or possibly magnesium).
+**Alternative diagnoses:** Environmental stress (drought, heat), early stages of viral infection (though no distinct spots are present).
+**Confidence:** 65% 
+
+**Reasoning:** The mottled appearance with yellow patches suggests a nutrient deficiency. Sulfur and magnesium deficiencies often manifest in this way in soybeans. Environmental stress could also cause similar symptoms, but the pattern is more consistent with a nutrient issue. Without additional information (soil conditions, plant history), it's difficult to pinpoint the exact deficiency.

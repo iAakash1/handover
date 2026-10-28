@@ -1,0 +1,19 @@
+Plant species: The plant appears to be a type of broadleaf tree or shrub, possibly a maple or similar species, based on the leaf shape and venation pattern.
+
+Visible symptoms: The leaf shows visible symptoms of discoloration and potential damage.
+
+Leaf color: The leaf is predominantly green, but there are brownish spots and discoloration present.
+
+Leaf texture: The leaf has a smooth texture with visible veins.
+
+Spots or lesions: There are brownish spots and discoloration on the leaf, which may indicate disease or damage.
+
+Severity: The severity of the issue appears to be moderate, with localized spots and discoloration.
+
+Most likely disease: The symptoms could indicate a fungal disease, such as leaf spot or rust, or it could be a result of environmental stress, such as sunburn or nutrient deficiency.
+
+Alternative diagnoses: Other potential causes could include insect damage, bacterial infection, or physical damage from environmental factors.
+
+Confidence (0-100): 70
+
+Reasoning: The leaf shows brownish spots and discoloration, which are common symptoms of fungal diseases like leaf spot or rust. However, the exact cause cannot be determined with certainty without further information or testing. Environmental stress, insect damage, or physical damage could also be potential causes, but the presence of spots and discoloration leans more towards a fungal issue.

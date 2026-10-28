@@ -1,0 +1,24 @@
+# Crop Disease VLM Benchmark Suite — requirements
+# Target: Python 3.12, conda env "vlm", Apple Silicon (M4 Pro, 24GB)
+#
+# mlx / mlx-vlm move fast; if benchmark.py errors on generate() with a
+# TypeError about unexpected keyword arguments, check your installed
+# version (`pip show mlx-vlm`) against scripts/utils.py::run_mlx_vlm_generate
+# and adjust the call there.
+
+mlx>=0.20.0
+mlx-vlm>=0.1.0
+
+Pillow>=10.0.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+
+reportlab>=4.0.0
+markdown>=3.5.0
+
+psutil>=5.9.0
+
+# Only the provider you actually use needs a valid API key (see README),
+# but both SDKs are listed so VLM_JUDGE_PROVIDER can be switched freely.
+openai>=1.40.0
+google-generativeai>=0.8.0

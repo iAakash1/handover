@@ -1,0 +1,178 @@
+[
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "0acdc2b2-0dde-4073-8542-6fca275ab974___RS_LB 4857.JPG",
+    "raw_output": "**Plant Species:** Unknown\n\n**Visible Symptoms:**\n\n* A dark brown spot is visible on the leaf.\n* The spot appears to be circular in shape.\n\n**Leaf Color:** Green\n\n**Leaf Texture:** Smooth\n\n**Spots or Lesions:**\n\n* A single dark brown spot is present on the leaf.\n\n**Severity:** Mild\n\n**Most Likely Disease:**\n\n* Based on the visible symptoms, it is likely that the leaf is infected with a fungal disease, such as leaf spot or leaf blight.\n\n**Alternative Diagnoses:**\n\n* It is also possible that the leaf is infected with a bacterial disease, such as bacterial leaf spot or bacterial blight.\n\n**Confidence (0-100):** 60%\n\n**Reasoning:**\n\n* The dark brown spot on the leaf is a common symptom of fungal leaf diseases.\n* The circular shape of the spot suggests that it may be a type of leaf spot disease.\n* However, without further information or a more detailed examination of the leaf, it is difficult to determine the exact cause of the disease.",
+    "latency_sec": 52.36152100563049,
+    "tokens_per_sec": 4.756,
+    "peak_memory_gb": 9.71,
+    "error": null,
+    "timestamp": "2026-06-25T16:58:47.329381"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "0b27c03f-b3bc-4d96-9b76-6fbd779404b9___NREC_B.Spot 1799.JPG",
+    "raw_output": "**Plant Species:** Unknown\n\n**Visible Symptoms:**\n\n* The leaf appears to be infected with a disease or pest, as evidenced by the presence of spots and lesions.\n* The leaf is also slightly curled and distorted, which may be a result of the infection.\n\n**Leaf Color:** Green\n\n**Leaf Texture:** Smooth, with no visible signs of damage or decay.\n\n**Spots or Lesions:**\n\n* There are several small, circular spots on the leaf, which are brown in color and have a slightly raised texture.\n* The spots are scattered randomly across the leaf, with no apparent pattern or symmetry.\n\n**Severity:** Moderate\n\n* The infection appears to be relatively widespread, but not yet severe enough to cause significant damage to the plant.\n\n**Most Likely Disease:**\n\n* Based on the visible symptoms, it is likely that the leaf is infected with a fungal disease, such as leaf spot or leaf blight.\n\n**Alternative Diagnoses:**\n\n* It is also possible that the leaf is infected with a bacterial disease, such as bacterial leaf spot or bacterial blight.\n* However, without further examination or testing, it is difficult to determine the exact cause of the infection.\n\n**Confidence (0-100):** 60%\n\n* While the visible symptoms are consistent with a fungal or bacterial infection, it is possible that the leaf is infected with a different type of disease or pest. Further examination or testing would be necessary to confirm the diagnosis.",
+    "latency_sec": 68.40644192695618,
+    "tokens_per_sec": 4.705,
+    "peak_memory_gb": 9.817,
+    "error": null,
+    "timestamp": "2026-06-25T16:59:55.736595"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "0d8346e1-4624-4979-84e6-1353ca59007a___RS_LB 4079.JPG",
+    "raw_output": "**Plant Species:** Unknown\n\n**Visible Symptoms:**\n\n* A dark spot is visible on the leaf.\n* The leaf appears to be healthy, with no other visible signs of disease or damage.\n\n**Leaf Color:** Green\n\n**Leaf Texture:** Smooth\n\n**Spots or Lesions:** One dark spot is visible on the leaf.\n\n**Severity:** The severity of the disease is unknown, as there is only one visible symptom.\n\n**Most Likely Disease:** Uncertain, as there is not enough information to determine the cause of the dark spot.\n\n**Alternative Diagnoses:** None\n\n**Confidence:** 20%\n\n**Reasoning:** The image only shows one dark spot on the leaf, and there is no other information available to determine the cause of the symptom. Therefore, it is uncertain what disease or condition is affecting the plant.",
+    "latency_sec": 41.88566303253174,
+    "tokens_per_sec": 4.698,
+    "peak_memory_gb": 9.817,
+    "error": null,
+    "timestamp": "2026-06-25T17:00:37.622781"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "0fdb66e8-b17d-42c2-bc6d-30dcfab8fcae___JR_B.Spot 9058.JPG",
+    "raw_output": "**Plant Species:** Unknown\n\n**Visible Symptoms:**\n\n* The leaf appears to be yellow with brown spots\n* The leaf has a few holes and tears\n\n**Leaf Color:** Yellow\n\n**Leaf Texture:** Smooth\n\n**Spots or Lesions:** Brown spots and holes\n\n**Severity:** Moderate\n\n**Most Likely Disease:** Unknown\n\n**Alternative Diagnoses:** None\n\n**Confidence:** 50%\n\n**Reasoning:** The image shows a yellow leaf with brown spots and holes, but it is not possible to determine the exact plant species or disease based on this information alone. The severity of the symptoms is moderate, but it is not clear what is causing the damage to the leaf. Further examination and testing would be necessary to determine the cause of the symptoms and provide a more accurate diagnosis.",
+    "latency_sec": 40.59825587272644,
+    "tokens_per_sec": 4.671,
+    "peak_memory_gb": 9.815,
+    "error": null,
+    "timestamp": "2026-06-25T17:01:18.221516"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "1b589f92-a658-4e58-96de-db41acc411ce___JR_B.Spot 3239.JPG",
+    "raw_output": "**Plant Species:** Unknown\n\n**Visible Symptoms:**\n\n* The leaf appears to be yellowing and has brown spots on the edges.\n* The leaf is slightly curled and has a few small holes.\n\n**Leaf Color:** Yellow with brown spots\n\n**Leaf Texture:** The leaf appears to be slightly wrinkled and has a few small ridges.\n\n**Spots or Lesions:** Brown spots on the edges of the leaf and a few small holes.\n\n**Severity:** The symptoms appear to be moderate, with the leaf showing some signs of disease but not yet showing severe damage.\n\n**Most Likely Disease:** Uncertain, as the image does not provide enough information to determine the exact disease. However, the symptoms could be consistent with a number of different diseases, including fungal infections or nutrient deficiencies.\n\n**Alternative Diagnoses:** Uncertain, as the image does not provide enough information to determine the exact disease. However, the symptoms could be consistent with a number of different diseases, including fungal infections or nutrient deficiencies.\n\n**Confidence (0-100):** 40%, as the image does not provide enough information to determine the exact disease.",
+    "latency_sec": 55.396525144577026,
+    "tokens_per_sec": 4.63,
+    "peak_memory_gb": 9.813,
+    "error": null,
+    "timestamp": "2026-06-25T17:02:13.618527"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "1b8f80ae-38a2-4d08-ae92-f80ff4459a73___RS_LB 2554.JPG",
+    "raw_output": "**Plant Species:** Unknown\n\n**Visible Symptoms:**\n\n* A brown, necrotic lesion is visible on the leaf.\n* The lesion appears to be a circular, irregular shape with a slightly raised edge.\n* The surrounding leaf tissue appears healthy and green.\n\n**Leaf Color:** Green\n\n**Leaf Texture:** Smooth\n\n**Spots or Lesions:** Yes, one large, necrotic lesion\n\n**Severity:** Moderate\n\n**Most Likely Disease:** Bacterial leaf spot or leaf blight (requires further examination to confirm)\n\n**Alternative Diagnoses:** None\n\n**Confidence:** 60%\n\n**Reasoning:** The presence of a single, large, necrotic lesion on the leaf suggests a bacterial infection. However, without further examination, such as a microscopic examination of the lesion or a culture of the pathogen, it is difficult to confirm the exact disease. Therefore, the confidence level is moderate.",
+    "latency_sec": 45.90391302108765,
+    "tokens_per_sec": 4.629,
+    "peak_memory_gb": 9.815,
+    "error": null,
+    "timestamp": "2026-06-25T17:02:59.522895"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "2b562d10-5ccf-4f20-aadc-2e1480bd303e___JR_B.Spot 3256.JPG",
+    "raw_output": "**Plant Species:** Unknown\n\n**Visible Symptoms:**\n\n* The leaf appears to be healthy, with no visible signs of disease or damage.\n* There are no visible spots, lesions, or other abnormalities on the leaf.\n\n**Leaf Color:** Green\n\n**Leaf Texture:** Smooth, with no visible ridges or creases.\n\n**Spots or Lesions:** None visible.\n\n**Severity:** Not applicable, as there are no visible symptoms.\n\n**Most Likely Disease:** Unable to determine, as there are no visible symptoms.\n\n**Alternative Diagnoses:** None.\n\n**Confidence:** 0%, as there are no visible symptoms to analyze.\n\n**Reasoning:** The image shows a healthy-looking leaf with no visible signs of disease or damage. Therefore, it is not possible to determine the plant species or diagnose any diseases based on this image alone.",
+    "latency_sec": 42.78042984008789,
+    "tokens_per_sec": 4.617,
+    "peak_memory_gb": 9.817,
+    "error": null,
+    "timestamp": "2026-06-25T17:03:42.303775"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "7a8f225e-a87c-47ca-a49d-27b620951a4e___Crnl_L.Mold 6497.JPG",
+    "raw_output": "**Plant Species:** Unknown\n\n**Visible Symptoms:**\n\n* The leaves appear to be covered in a fine, white powder.\n* The leaves have a yellowish tint, particularly around the veins.\n* The leaves are curled and distorted, with some appearing to be more severely affected than others.\n\n**Leaf Color:** Green with yellowish tint\n\n**Leaf Texture:** The leaves appear to be covered in a fine, white powder, which may be a sign of a fungal infection.\n\n**Spots or Lesions:** There are no visible spots or lesions on the leaves.\n\n**Severity:** The severity of the symptoms is moderate, with some leaves appearing to be more severely affected than others.\n\n**Most Likely Disease:** Based on the visible symptoms, the most likely disease is powdery mildew, a fungal disease that causes a white, powdery growth on the leaves. However, without further information or a more detailed examination, it is difficult to confirm this diagnosis.\n\n**Alternative Diagnoses:** Other possible diagnoses include leaf spot diseases, such as septoria leaf spot or alternaria leaf spot, which can also cause yellowing and distortion of the leaves. However, these diseases typically cause more distinct spots or lesions on the leaves, which are not visible in this image.\n\n**Confidence:** 60%\n\n**Reasoning:** The image shows a plant with leaves that are covered in a fine, white powder and have a yellowish tint. The leaves are also curled and distorted, which could be a sign of a fungal infection. However, without further information or a more detailed examination, it is difficult to confirm the diagnosis. Therefore, the confidence level is moderate, at 60%.",
+    "latency_sec": 80.44737887382507,
+    "tokens_per_sec": 4.538,
+    "peak_memory_gb": 9.815,
+    "error": null,
+    "timestamp": "2026-06-25T17:05:02.751592"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "7d40d29e-ba53-49bb-93be-e19d63855f60___Crnl_L.Mold 6994.JPG",
+    "raw_output": "**Plant Species:** Unknown, possibly a leafy green vegetable or herb.\n\n**Visible Symptoms:**\n\n* The leaf appears to be healthy with no visible signs of disease or pests.\n* There are no visible spots, lesions, or other abnormalities.\n\n**Leaf Color:** Green.\n\n**Leaf Texture:** Smooth and slightly waxy to the touch.\n\n**Spots or Lesions:** None visible.\n\n**Severity:** Not applicable, as there are no visible symptoms.\n\n**Most Likely Disease:** None, as there are no visible signs of disease.\n\n**Alternative Diagnoses:** None.\n\n**Confidence:** 80%.\n\n**Reasoning:** The leaf appears healthy and free of any visible signs of disease or pests, suggesting that it is likely a healthy leaf. However, without more information or a closer examination, it is difficult to determine the exact species of the plant or rule out the possibility of a minor disease or pest infestation.",
+    "latency_sec": 46.41846299171448,
+    "tokens_per_sec": 4.608,
+    "peak_memory_gb": 9.815,
+    "error": null,
+    "timestamp": "2026-06-25T17:05:49.170492"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "7de0d9b9-6d4f-4375-85c4-a64da65937d8___Crnl_L.Mold 7077.JPG",
+    "raw_output": "**Plant Species:** Unknown\n\n**Visible Symptoms:**\n\n* A dark green, elongated leaf with a slightly curled edge\n* A small, dark spot on the leaf\n\n**Leaf Color:** Dark Green\n\n**Leaf Texture:** Smooth\n\n**Spots or Lesions:**\n\n* A small, dark spot on the leaf\n\n**Severity:** Mild\n\n**Most Likely Disease:**\n\n* Unknown, possibly a fungal infection or nutrient deficiency\n\n**Alternative Diagnoses:**\n\n* None\n\n**Confidence (0-100):** 40%\n\n**Reasoning:**\n\n* The image shows a single leaf with a dark spot, which could be indicative of a fungal infection or nutrient deficiency.\n* However, without more information or context, it is difficult to determine the exact cause of the symptom.\n* Therefore, the confidence level is relatively low, as there are many possible explanations for the observed symptom.",
+    "latency_sec": 45.60674500465393,
+    "tokens_per_sec": 4.596,
+    "peak_memory_gb": 9.817,
+    "error": null,
+    "timestamp": "2026-06-25T17:06:34.777690"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "8bc3ccca-a312-4d14-a412-4c1726cdace9___Crnl_L.Mold 8802.JPG",
+    "raw_output": "**Plant Species:** Unknown\n\n**Visible Symptoms:**\n\n* Yellowing of leaves\n* Presence of small, white spots on the leaves\n\n**Leaf Color:**\n\n* Green with yellow patches\n\n**Leaf Texture:**\n\n* Appears to be slightly fuzzy or powdery\n\n**Spots or Lesions:**\n\n* Small, white spots scattered across the leaves\n\n**Severity:**\n\n* Appears to be a mild infection or infestation\n\n**Most Likely Disease:**\n\n* Powdery mildew\n\n**Alternative Diagnoses:**\n\n* None\n\n**Confidence (0-100):**\n\n* 80%\n\n**Reasoning:**\n\nThe presence of small, white spots on the leaves and the yellowing of the leaves are consistent with powdery mildew, a common fungal disease that affects many plant species. The slightly fuzzy or powdery texture of the leaves also supports this diagnosis. However, without further information or a more detailed examination, it is difficult to rule out other possibilities entirely. Therefore, the confidence level is set at 80%.",
+    "latency_sec": 52.635311126708984,
+    "tokens_per_sec": 4.586,
+    "peak_memory_gb": 9.817,
+    "error": null,
+    "timestamp": "2026-06-25T17:07:27.413460"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "augmented_Curl Virus0005.jpg",
+    "raw_output": "**Plant Species:** \nBased on the image, the plant appears to be a type of leafy green vegetable, possibly a variety of spinach or kale. However, without more information or a closer look at the plant's overall structure and growth habits, it is difficult to determine the exact species.\n\n**Visible Symptoms:**\nThe leaves in the image appear to be healthy and free of visible signs of disease or pests. There are no visible signs of pests, diseases, or nutrient deficiencies.\n\n**Leaf Color:**\nThe leaves are a vibrant green color, indicating that they are receiving adequate light and nutrients.\n\n**Leaf Texture:**\nThe leaves appear to be slightly waxy to the touch, which is consistent with many leafy green vegetables.\n\n**Spots or Lesions:**\nThere are no visible spots or lesions on the leaves.\n\n**Severity:**\nThe plant appears to be healthy and thriving, with no visible signs of stress or disease.\n\n**Most Likely Disease:**\nBased on the information provided, it is not possible to determine the most likely disease affecting the plant. Without more information or a closer look at the plant's overall structure and growth habits, it is difficult to make an accurate diagnosis.\n\n**Alternative Diagnoses:**\nIt is also not possible to provide alternative diagnoses without more information or a closer look at the plant's overall structure and growth habits.\n\n**Confidence (0-100):**\nI am 80% confident in my analysis of the plant's health and appearance. While I can identify the general characteristics of the plant, I am not able to provide a definitive diagnosis or make a more detailed analysis without more information.",
+    "latency_sec": 78.37747621536255,
+    "tokens_per_sec": 4.559,
+    "peak_memory_gb": 9.817,
+    "error": null,
+    "timestamp": "2026-06-25T17:08:45.791438"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "augmented_Curl Virus0033.jpg",
+    "raw_output": "**Plant Species:** \nBased on the image, the plant appears to be a type of leafy green, possibly a variety of spinach or kale. However, without more information or a closer look at the plant's overall structure and growth habits, it is difficult to determine the exact species.\n\n**Visible Symptoms:**\nThe leaves in the image appear to be healthy and free of visible signs of disease or pests. There are no visible signs of damage, discoloration, or other abnormalities.\n\n**Leaf Color:**\nThe leaves are a vibrant green color, indicating that they are likely receiving adequate light and nutrients.\n\n**Leaf Texture:**\nThe leaves appear to be slightly wrinkled and have a slightly rough texture, which could be due to the natural texture of the leaves or the fact that they are slightly dry.\n\n**Spots or Lesions:**\nThere are no visible spots or lesions on the leaves, which suggests that they are not infected with any diseases or pests.\n\n**Severity:**\nThe severity of the symptoms is not immediately apparent from the image, as there are no visible signs of disease or pests.\n\n**Most Likely Disease:**\nBased on the information provided, it is not possible to determine the most likely disease affecting the plant, as there are no visible symptoms or signs of disease.\n\n**Alternative Diagnoses:**\nWithout more information or a closer look at the plant, it is not possible to provide alternative diagnoses.\n\n**Confidence (0-100):**\nI am 0% confident in my ability to diagnose the disease affecting the plant, as there are no visible symptoms or signs of disease.",
+    "latency_sec": 77.20258688926697,
+    "tokens_per_sec": 4.551,
+    "peak_memory_gb": 9.817,
+    "error": null,
+    "timestamp": "2026-06-25T17:10:02.994498"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "augmented_Leaf Redding0085.jpg",
+    "raw_output": "**Plant Species:** Unknown, possibly a leafy green vegetable or ornamental plant.\n\n**Visible Symptoms:**\n\n* The leaf appears to be infected with a disease or pest, as it has developed red spots and lesions.\n* The leaf is also showing signs of yellowing and discoloration.\n\n**Leaf Color:**\n\n* The leaf is primarily green, but it has areas of red and yellow.\n\n**Leaf Texture:**\n\n* The leaf appears to be slightly wilted and has a rough texture.\n\n**Spots or Lesions:**\n\n* There are several red spots and lesions on the leaf, which may be indicative of a fungal or bacterial infection.\n\n**Severity:**\n\n* The severity of the infection is moderate, as the leaf is still somewhat healthy but showing signs of decline.\n\n**Most Likely Disease:**\n\n* Based on the visible symptoms, the most likely disease is a fungal infection such as leaf spot or rust.\n\n**Alternative Diagnoses:**\n\n* Other possible diagnoses include bacterial leaf spot or a viral infection, but these would require further testing to confirm.\n\n**Confidence (0-100):**\n\n* I am 80% confident in my diagnosis, as the visible symptoms are consistent with a fungal infection but could also be caused by other factors.",
+    "latency_sec": 61.80412983894348,
+    "tokens_per_sec": 4.562,
+    "peak_memory_gb": 9.817,
+    "error": null,
+    "timestamp": "2026-06-25T17:11:04.799147"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "augmented_Leaf Variegation0045.jpg",
+    "raw_output": "**Plant Species:** Unknown\n\n**Visible Symptoms:**\n\n* The leaves are large and have a marbled appearance with white and green patches.\n* The leaves are slightly curled and have a waxy texture.\n\n**Leaf Color:**\n\n* The leaves are predominantly green with white patches.\n\n**Leaf Texture:**\n\n* The leaves are slightly waxy to the touch.\n\n**Spots or Lesions:**\n\n* There are no visible spots or lesions on the leaves.\n\n**Severity:**\n\n* The symptoms appear to be mild.\n\n**Most Likely Disease:**\n\n* Based on the visible symptoms, it is difficult to determine the most likely disease. Further examination and testing would be required to make a definitive diagnosis.\n\n**Alternative Diagnoses:**\n\n* None\n\n**Confidence (0-100):**\n\n* 20% (due to the limited information available and the need for further examination and testing to make a definitive diagnosis)",
+    "latency_sec": 46.547630071640015,
+    "tokens_per_sec": 4.565,
+    "peak_memory_gb": 9.817,
+    "error": null,
+    "timestamp": "2026-06-25T17:11:51.347258"
+  },
+  {
+    "model": "llama32vision",
+    "model_path": "mlx-community/Llama-3.2-11B-Vision-Instruct-4bit",
+    "image": "augmented_Leaf Variegation0058.jpg",
+    "raw_output": "**Plant Species:** Unknown\n\n**Visible Symptoms:**\n\n* The leaves are large and have a mottled appearance.\n* The leaves are pale green with white variegation.\n\n**Leaf Color:**\n\n* The leaves are pale green with white variegation.\n\n**Leaf Texture:**\n\n* The leaves appear to be slightly curled at the edges.\n\n**Spots or Lesions:**\n\n* There are no visible spots or lesions on the leaves.\n\n**Severity:**\n\n* The severity of the symptoms is difficult to determine without more information.\n\n**Most Likely Disease:**\n\n* Based on the visible symptoms, it is difficult to determine the most likely disease. Further examination and testing would be necessary to make a definitive diagnosis.\n\n**Alternative Diagnoses:**\n\n* None\n\n**Confidence (0-100):**\n\n* 20% - The image does not provide enough information to make a confident diagnosis. Further examination and testing would be necessary to determine the cause of the symptoms.",
+    "latency_sec": 49.33694505691528,
+    "tokens_per_sec": 4.55,
+    "peak_memory_gb": 9.817,
+    "error": null,
+    "timestamp": "2026-06-25T17:12:40.684702"
+  }
+]

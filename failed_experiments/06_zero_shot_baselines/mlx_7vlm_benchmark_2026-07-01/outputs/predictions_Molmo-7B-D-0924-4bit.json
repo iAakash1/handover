@@ -1,0 +1,1412 @@
+[
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/1.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 192.93326046138648,
+      "generation_tokens_per_sec": 11472.230752523634,
+      "peak_memory_mb": 7299.61,
+      "inference_time_sec": 2.101
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:02.826891+00:00",
+      "finish": "2026-07-01T13:54:04.927633+00:00",
+      "runtime_sec": 2.101
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "bacterial_spot/1.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12736,
+      "sha256": "847986b04db52704897297565b62cac9653ea1ef0425f644a1070e7d1bd9baf1"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/2.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 308.7177379744927,
+      "generation_tokens_per_sec": 52061.62951110788,
+      "peak_memory_mb": 7679.05,
+      "inference_time_sec": 1.307
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:04.928416+00:00",
+      "finish": "2026-07-01T13:54:06.235799+00:00",
+      "runtime_sec": 1.307
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "bacterial_spot/2.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 14358,
+      "sha256": "04658ef2dcceabf609f52008f552d478b290fe3a93cf325f39b4bc4320120eb2"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/3.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 309.65355696594884,
+      "generation_tokens_per_sec": 73615.9693193042,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.301
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:06.236237+00:00",
+      "finish": "2026-07-01T13:54:07.536763+00:00",
+      "runtime_sec": 1.301
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "bacterial_spot/3.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12931,
+      "sha256": "c14a71e095076c9df9c7b1f61f8e69f773292cd0a3ef7bfcdbb0dedc487525db"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/4.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 309.6435741032986,
+      "generation_tokens_per_sec": 55555.53674801993,
+      "peak_memory_mb": 7757.76,
+      "inference_time_sec": 1.3
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:07.537256+00:00",
+      "finish": "2026-07-01T13:54:08.837714+00:00",
+      "runtime_sec": 1.3
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "bacterial_spot/4.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8698,
+      "sha256": "2e001949013eb06b64692decd1d4e66541f1eb074018775a12cafa2143e8666f"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/5.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 309.8355116670539,
+      "generation_tokens_per_sec": 54421.74220275104,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.3
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:08.838195+00:00",
+      "finish": "2026-07-01T13:54:10.137845+00:00",
+      "runtime_sec": 1.3
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "bacterial_spot/5.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13206,
+      "sha256": "34714995c8f496d38e005ce0ac0bdd5f4803e07496eb628f9582a17a878765bc"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/1.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 309.97393858553517,
+      "generation_tokens_per_sec": 56471.62775118438,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.3
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:10.138419+00:00",
+      "finish": "2026-07-01T13:54:11.438116+00:00",
+      "runtime_sec": 1.3
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "early_blight/1.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 10761,
+      "sha256": "bb8cf07350baac37f7fdfa2a9e54587363c8a8806a28e8d0b085c1de9ab4a3cb"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/2.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 311.2812806176463,
+      "generation_tokens_per_sec": 62500.03568495449,
+      "peak_memory_mb": 7773.57,
+      "inference_time_sec": 1.295
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:11.438679+00:00",
+      "finish": "2026-07-01T13:54:12.734120+00:00",
+      "runtime_sec": 1.295
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "early_blight/2.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 18485,
+      "sha256": "a464236bc9ea8dc87b7d77863893056d8b8db696be6db66469bbc46d008b6e1f"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/3.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 309.95114951586595,
+      "generation_tokens_per_sec": 45888.39441882828,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.299
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:12.734637+00:00",
+      "finish": "2026-07-01T13:54:14.033765+00:00",
+      "runtime_sec": 1.299
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "early_blight/3.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12183,
+      "sha256": "c2b813db2ca460894280bc0decf1df940dbe64085b81d1c54568f74d155d5a3c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/4.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 309.80765587940937,
+      "generation_tokens_per_sec": 54546.45352959199,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.299
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:14.034269+00:00",
+      "finish": "2026-07-01T13:54:15.333675+00:00",
+      "runtime_sec": 1.299
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "early_blight/4.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13121,
+      "sha256": "f44b6342cac8316b34a4fd23209d0100b9a19e803b3c94b8d09595a5f0d4f0bf"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/5.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 309.92825297689154,
+      "generation_tokens_per_sec": 69161.07016902925,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.299
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:15.334253+00:00",
+      "finish": "2026-07-01T13:54:16.633648+00:00",
+      "runtime_sec": 1.299
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "early_blight/5.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15472,
+      "sha256": "243cd5f9e2dc37d1a45a058deb89c921767e588c4d1443227065ecfff9da099e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/1.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 309.79637407236163,
+      "generation_tokens_per_sec": 37558.68684386573,
+      "peak_memory_mb": 7773.57,
+      "inference_time_sec": 1.3
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:16.634271+00:00",
+      "finish": "2026-07-01T13:54:17.934009+00:00",
+      "runtime_sec": 1.3
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "leaf_mold/1.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15611,
+      "sha256": "33063ecffbdddcb0ca01d1838b32e22eaa0fb7c207db670c58e9f16ca01b47ea"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/2.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 309.24665002450377,
+      "generation_tokens_per_sec": 69165.80366706356,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.302
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:17.934602+00:00",
+      "finish": "2026-07-01T13:54:19.236782+00:00",
+      "runtime_sec": 1.302
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "leaf_mold/2.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 14788,
+      "sha256": "acc36b61dc9729b5169afa45f7b62eb86530c47ffb943a75e37e4991b908046b"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/3.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 309.9410165459016,
+      "generation_tokens_per_sec": 59259.26794240632,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.3
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:19.237417+00:00",
+      "finish": "2026-07-01T13:54:20.537700+00:00",
+      "runtime_sec": 1.3
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "leaf_mold/3.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12303,
+      "sha256": "d1ed653c6e67c1ea5f6776b5833e8ac4ac4b446df738e46c80bccff59eed59df"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/4.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 308.5588053885222,
+      "generation_tokens_per_sec": 55816.036946729066,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.306
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:20.538344+00:00",
+      "finish": "2026-07-01T13:54:21.844328+00:00",
+      "runtime_sec": 1.306
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "leaf_mold/4.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 16599,
+      "sha256": "c9ecbab9f17925d20b8014e646dc6b40d76a309b143ab867394fef27e5fef8c9"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/5.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 309.864027643034,
+      "generation_tokens_per_sec": 55944.03985147689,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.3
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:21.844970+00:00",
+      "finish": "2026-07-01T13:54:23.145112+00:00",
+      "runtime_sec": 1.3
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "leaf_mold/5.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 11060,
+      "sha256": "14cb1c129a409db12d630eec6709960a23c6c9adaa0fb90a74b0a87f984a9e40"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/1.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 309.7743463906657,
+      "generation_tokens_per_sec": 49999.98307321794,
+      "peak_memory_mb": 7782.63,
+      "inference_time_sec": 1.3
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:23.145805+00:00",
+      "finish": "2026-07-01T13:54:24.445824+00:00",
+      "runtime_sec": 1.3
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "mosaic_virus/1.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 18345,
+      "sha256": "77487780b04b7f71301f5252247e7580a59bba179d4e2373d80ad7ecd326f904"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/2.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 309.90369664301414,
+      "generation_tokens_per_sec": 38647.35300509078,
+      "peak_memory_mb": 7757.76,
+      "inference_time_sec": 1.299
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:24.446532+00:00",
+      "finish": "2026-07-01T13:54:25.745705+00:00",
+      "runtime_sec": 1.299
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "mosaic_virus/2.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15676,
+      "sha256": "478ead03f1f962f60ae3455b90affd170c8b6a5cca95a60d1cf5e32b68f8bd0c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/3.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 309.9181316680559,
+      "generation_tokens_per_sec": 68572.93637097522,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.3
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:25.746424+00:00",
+      "finish": "2026-07-01T13:54:27.046124+00:00",
+      "runtime_sec": 1.3
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "mosaic_virus/3.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15893,
+      "sha256": "0b9f951849b9b676253328474ae2143dea472e3832156dab51e595beffa9f402"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/4.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 308.4168771208689,
+      "generation_tokens_per_sec": 47337.27634723176,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.306
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:27.046844+00:00",
+      "finish": "2026-07-01T13:54:28.352404+00:00",
+      "runtime_sec": 1.306
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "mosaic_virus/4.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13330,
+      "sha256": "f17385882c3f1f3343b50e25f41f0640729f45a4a0fefb30ced2441dde8ebc5d"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/5.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 307.7658747666999,
+      "generation_tokens_per_sec": 41523.04494335856,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.309
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:28.353174+00:00",
+      "finish": "2026-07-01T13:54:29.661734+00:00",
+      "runtime_sec": 1.309
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "mosaic_virus/5.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15628,
+      "sha256": "a48fd8bd48810917768d7f655c8503598089e80ed29a6124141ea118d33b5cc5"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/1.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 303.6535565323499,
+      "generation_tokens_per_sec": 33148.81225627816,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.327
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:29.662552+00:00",
+      "finish": "2026-07-01T13:54:30.989556+00:00",
+      "runtime_sec": 1.327
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "target_spot/1.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20213,
+      "sha256": "4bbc310f179679d83d9ceac8decf6180b234f3e4c263cbeb094469a3fa0b8a8e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/2.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 302.54989739174806,
+      "generation_tokens_per_sec": 42328.05895914806,
+      "peak_memory_mb": 7757.76,
+      "inference_time_sec": 1.332
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:30.990344+00:00",
+      "finish": "2026-07-01T13:54:32.322512+00:00",
+      "runtime_sec": 1.332
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "target_spot/2.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20922,
+      "sha256": "896f66f0c12091d3e72f1d760d22ad58ef848d0198582562daaad8631def0c59"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/3.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\n\nVisible Symptoms: Yellowing, spots, and browning on leaf edges\n\nDisease: Early stage of leaf spot or blight\n\nAlternative Diagnoses: Possible nutrient deficiency or pest damage\n\nSeverity: 3/5\n\nConfidence: 60%\n\nReasoning: The leaf shows multiple signs of stress, including yellowing, spots, and browning edges. While these symptoms could be consistent with early leaf spot or blight, they could also indicate a nutrient deficiency or pest damage. The overall appearance suggests the tomato plant is experiencing some form of stress, but without further investigation, it's difficult to determine the exact cause with high certainty.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing, spots, and browning on leaf edges",
+      "disease": "Early stage of leaf spot or blight",
+      "alternative_diagnoses": "Possible nutrient deficiency or pest damage",
+      "severity": "3/5",
+      "confidence": "60%",
+      "reasoning": "The leaf shows multiple signs of stress, including yellowing, spots, and browning edges. While these symptoms could be consistent with early leaf spot or blight, they could also indicate a nutrient deficiency or pest damage. The overall appearance suggests the tomato plant is experiencing some form of stress, but without further investigation, it's difficult to determine the exact cause with high certainty."
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 136,
+      "prompt_tokens_per_sec": 301.77717887994083,
+      "generation_tokens_per_sec": 37.624246032362166,
+      "peak_memory_mb": 7796.18,
+      "inference_time_sec": 4.949
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:32.323284+00:00",
+      "finish": "2026-07-01T13:54:37.272405+00:00",
+      "runtime_sec": 4.949
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "target_spot/3.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 19847,
+      "sha256": "b9b20509c41742e2b574f7ad37d3235271d01c06907959ffbc5506597084c1ab"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/4.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 296.81487538487113,
+      "generation_tokens_per_sec": 51948.04908795404,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.356
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:37.273287+00:00",
+      "finish": "2026-07-01T13:54:38.629572+00:00",
+      "runtime_sec": 1.356
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "target_spot/4.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20511,
+      "sha256": "c3c9efa88a2550a369268c21fa35e1ef74596ee40ea749ce17982f412888ffa1"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/5.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 291.8143860283395,
+      "generation_tokens_per_sec": 38095.2436772612,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.38
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:38.630521+00:00",
+      "finish": "2026-07-01T13:54:40.010284+00:00",
+      "runtime_sec": 1.38
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "target_spot/5.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20039,
+      "sha256": "3f82e1d895ddcaad3f42e51d7d6f6db04b731dafe7c87c4604db01a8a258286c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/1.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 294.94705355871963,
+      "generation_tokens_per_sec": 58823.53467422111,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.364
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:40.011164+00:00",
+      "finish": "2026-07-01T13:54:41.375194+00:00",
+      "runtime_sec": 1.364
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "yellowleaf_curl_virus/1.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8103,
+      "sha256": "6df2838c482139b8c75c6cac397d02773f122ab26c42982a8f827fe34d691579"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/2.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 299.7784509611308,
+      "generation_tokens_per_sec": 50314.45067799092,
+      "peak_memory_mb": 7769.04,
+      "inference_time_sec": 1.343
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:41.376100+00:00",
+      "finish": "2026-07-01T13:54:42.718664+00:00",
+      "runtime_sec": 1.343
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "yellowleaf_curl_virus/2.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 5351,
+      "sha256": "707c27effbeb3c8bb9a8e1160fc0e6b0de2169d52219a893ed5f35262f4b4f4e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/3.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 302.5878021494457,
+      "generation_tokens_per_sec": 39800.991636052146,
+      "peak_memory_mb": 7755.49,
+      "inference_time_sec": 1.33
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:42.719508+00:00",
+      "finish": "2026-07-01T13:54:44.049870+00:00",
+      "runtime_sec": 1.33
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "yellowleaf_curl_virus/3.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 9100,
+      "sha256": "c08724d4d1b72aba0b2e68baeccffb5cd8715ed7417c1711cba554bacc920cb0"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/4.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 301.6955270402594,
+      "generation_tokens_per_sec": 49079.76646652273,
+      "peak_memory_mb": 7798.45,
+      "inference_time_sec": 1.334
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:44.050780+00:00",
+      "finish": "2026-07-01T13:54:45.384739+00:00",
+      "runtime_sec": 1.334
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "yellowleaf_curl_virus/4.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 7613,
+      "sha256": "c9c0669af67a454196b8496d6c941aaa8b0545696dad03961427f7e3648b5ae8"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/5.JPG",
+    "model": "mlx-community/Molmo-7B-D-0924-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "",
+    "parsed_output": {
+      "crop": null,
+      "visible_symptoms": null,
+      "disease": null,
+      "alternative_diagnoses": null,
+      "severity": null,
+      "confidence": null,
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 397,
+      "generated_tokens": 1,
+      "prompt_tokens_per_sec": 301.3392804225052,
+      "generation_tokens_per_sec": 67796.56213564743,
+      "peak_memory_mb": 7757.76,
+      "inference_time_sec": 1.336
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:45.385663+00:00",
+      "finish": "2026-07-01T13:54:46.721718+00:00",
+      "runtime_sec": 1.336
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "yellowleaf_curl_virus/5.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8056,
+      "sha256": "61293d08367e296731c1764af9cf4cd41918cbb89d444cb2199d1135d09b3f39"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/Molmo-7B-D-0924-4bit",
+      "model_name": "Molmo-7B-D-0924-4bit",
+      "model_family": "Molmo",
+      "parameters": "7B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  }
+]

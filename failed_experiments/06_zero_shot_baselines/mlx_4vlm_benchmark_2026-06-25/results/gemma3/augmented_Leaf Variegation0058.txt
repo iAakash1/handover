@@ -1,0 +1,22 @@
+Here's an analysis of the crop image, based solely on what is visible:
+
+**Plant species:** Uncertain. The leaf shape suggests potentially a member of the Malvaceae family (like cotton), but without more context, it's difficult to confirm.
+
+**Visible symptoms:** Mottling and yellowing of the leaf tissue. A portion of one leaf appears significantly paler than the rest.
+
+**Leaf color:** Green, yellow, and white. The leaf displays a significant variation in color.
+
+**Leaf texture:** Smooth, typical of many broadleaf plants.
+
+**Spots or lesions:** No distinct spots or lesions are visible. The discoloration appears to be a general mottling.
+
+**Severity:** Moderate. A significant portion of the leaf is affected, but the plant appears to be otherwise healthy.
+
+**Most likely disease:** Uncertain. The symptoms could be caused by nutrient deficiency (e.g., magnesium or manganese), viral infection, or herbicide damage.
+
+**Alternative diagnoses:**
+*   Nutrient deficiency
+*   Herbicide injury
+*   Viral infection
+
+**Confidence (0-100):** 50%. The symptoms are not specific enough to definitively diagnose any single disease or condition. More information (plant species, location, recent treatments, etc.) would be needed for a more accurate assessment.

@@ -1,0 +1,14 @@
+Here's an analysis of the crop image provided:
+
+**Plant species:** Uncertain. The leaf shape suggests potentially cotton, but confirmation is needed.
+**Visible symptoms:** Chlorosis (yellowing) of the leaf tissue, particularly between the veins. Some leaf curling is also visible.
+**Leaf color:** Primarily green with significant yellowing between the veins. The edges of the leaf appear slightly brownish.
+**Leaf texture:** Appears relatively smooth and waxy.
+**Spots or lesions:** No distinct spots or lesions are visible.
+**Severity:** Moderate. The yellowing is noticeable but doesn't appear to affect the entire leaf.
+**Most likely disease:** Uncertain. Nutrient deficiency (specifically magnesium or iron) is a possibility, but further investigation is needed.
+**Alternative diagnoses:**
+*   Environmental stress (drought, heat).
+*   Herbicide injury.
+*   Early stages of a viral infection.
+**Confidence (0-100):** 60. The visual symptoms are consistent with several possibilities, making a definitive diagnosis difficult without additional information.

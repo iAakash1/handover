@@ -1,0 +1,1412 @@
+[
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/1.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing along leaf margins, some brown spots, leaf edges are ragged and torn, some yellowing at the leaf tip.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, insect damage, environmental stress.\nSeverity: Moderate\nConfidence (0-100): 60",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing along leaf margins, some brown spots, leaf edges are ragged and torn, some yellowing at the leaf tip.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, insect damage, environmental stress.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 67,
+      "prompt_tokens_per_sec": 82.45670765086206,
+      "generation_tokens_per_sec": 33.158147113072616,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 6.421
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:15:20.353295+00:00",
+      "finish": "2026-07-01T13:15:26.773988+00:00",
+      "runtime_sec": 6.421
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "bacterial_spot/1.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12736,
+      "sha256": "847986b04db52704897297565b62cac9653ea1ef0425f644a1070e7d1bd9baf1"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/2.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Mottling, yellowing, dark spots, leaf curling.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: The leaf shows a pattern of discoloration and spots, suggesting a possible issue. However, without additional information or observation of other plant parts, it is difficult to determine the exact cause.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Mottling, yellowing, dark spots, leaf curling.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf shows a pattern of discoloration and spots, suggesting a possible issue. However, without additional information or observation of other plant parts, it is difficult to determine the exact cause."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 91,
+      "prompt_tokens_per_sec": 116.63843954671033,
+      "generation_tokens_per_sec": 33.501410511294424,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 5.835
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:15:26.775872+00:00",
+      "finish": "2026-07-01T13:15:32.610644+00:00",
+      "runtime_sec": 5.835
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "bacterial_spot/2.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 14358,
+      "sha256": "04658ef2dcceabf609f52008f552d478b290fe3a93cf325f39b4bc4320120eb2"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/3.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing along leaf margins, brown necrotic spots, leaf curling, some leaf tissue missing.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress, or early stages of a foliar disease.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: The leaf shows signs of stress, with yellowing and necrosis. The irregular shape and missing tissue suggest possible physical damage or early disease symptoms. Without further information, it is difficult to determine the exact cause.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing along leaf margins, brown necrotic spots, leaf curling, some leaf tissue missing.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress, or early stages of a foliar disease.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf shows signs of stress, with yellowing and necrosis. The irregular shape and missing tissue suggest possible physical damage or early disease symptoms. Without further information, it is difficult to determine the exact cause."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 111,
+      "prompt_tokens_per_sec": 116.61535306924675,
+      "generation_tokens_per_sec": 33.403184105807924,
+      "peak_memory_mb": 9568.24,
+      "inference_time_sec": 6.435
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:15:32.611457+00:00",
+      "finish": "2026-07-01T13:15:39.046216+00:00",
+      "runtime_sec": 6.435
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "bacterial_spot/3.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12931,
+      "sha256": "c14a71e095076c9df9c7b1f61f8e69f773292cd0a3ef7bfcdbb0dedc487525db"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/4.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing along the leaf margins, some leaf tip necrosis, some leaf edge curling.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: The yellowing and necrosis are localized to the leaf margins and tips, suggesting a possible nutrient issue or environmental stress. Without additional information, a definitive disease diagnosis is uncertain.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing along the leaf margins, some leaf tip necrosis, some leaf edge curling.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The yellowing and necrosis are localized to the leaf margins and tips, suggesting a possible nutrient issue or environmental stress. Without additional information, a definitive disease diagnosis is uncertain."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 94,
+      "prompt_tokens_per_sec": 116.52491858783667,
+      "generation_tokens_per_sec": 33.44028889565349,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 5.924
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:15:39.047203+00:00",
+      "finish": "2026-07-01T13:15:44.970976+00:00",
+      "runtime_sec": 5.924
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "bacterial_spot/4.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8698,
+      "sha256": "2e001949013eb06b64692decd1d4e66541f1eb074018775a12cafa2143e8666f"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/5.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing, brown spots, leaf curling, some leaf tissue missing.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, insect feeding, environmental damage.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: There are distinct yellow and brown spots on the leaf, along with some areas where leaf tissue is absent. The leaf also shows some curling. The exact cause is uncertain based on visual observation alone.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing, brown spots, leaf curling, some leaf tissue missing.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, insect feeding, environmental damage.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "There are distinct yellow and brown spots on the leaf, along with some areas where leaf tissue is absent. The leaf also shows some curling. The exact cause is uncertain based on visual observation alone."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 99,
+      "prompt_tokens_per_sec": 116.52704134201866,
+      "generation_tokens_per_sec": 33.44245482479614,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 6.074
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:15:44.972081+00:00",
+      "finish": "2026-07-01T13:15:51.046523+00:00",
+      "runtime_sec": 6.074
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "bacterial_spot/5.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13206,
+      "sha256": "34714995c8f496d38e005ce0ac0bdd5f4803e07496eb628f9582a17a878765bc"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/1.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Mottling, some small dark spots, leaf curling, some edge discoloration.\nDisease: Uncertain.\nAlternative Diagnoses: Nutrient deficiency, environmental stress.\nSeverity: Low.\nConfidence (0-100): 60\nReasoning: The leaf shows some discoloration and small dark spots, but no obvious signs of a specific disease are apparent. The curling could be due to various factors.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Mottling, some small dark spots, leaf curling, some edge discoloration.",
+      "disease": "Uncertain.",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress.",
+      "severity": "Low.",
+      "confidence": "60",
+      "reasoning": "The leaf shows some discoloration and small dark spots, but no obvious signs of a specific disease are apparent. The curling could be due to various factors."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 90,
+      "prompt_tokens_per_sec": 116.53026904182774,
+      "generation_tokens_per_sec": 33.49900192775803,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 5.801
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:15:51.047670+00:00",
+      "finish": "2026-07-01T13:15:56.848351+00:00",
+      "runtime_sec": 5.801
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "early_blight/1.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 10761,
+      "sha256": "bb8cf07350baac37f7fdfa2a9e54587363c8a8806a28e8d0b085c1de9ab4a3cb"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/2.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf is significantly browned and shriveled, with dark brown spots. Some green tissue remains on the leaf tip.\nDisease: Uncertain\nAlternative Diagnoses: Leaf scorch, nutrient deficiency, or environmental damage.\nSeverity: Moderate to High\nConfidence (0-100): 60\nReasoning: The leaf shows extensive discoloration and tissue death, suggesting a significant issue. The presence of dark spots could indicate a fungal or bacterial infection, but without further information, it is difficult to determine the exact cause.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf is significantly browned and shriveled, with dark brown spots. Some green tissue remains on the leaf tip.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Leaf scorch, nutrient deficiency, or environmental damage.",
+      "severity": "Moderate to High",
+      "confidence": "60",
+      "reasoning": "The leaf shows extensive discoloration and tissue death, suggesting a significant issue. The presence of dark spots could indicate a fungal or bacterial infection, but without further information, it is difficult to determine the exact cause."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 114,
+      "prompt_tokens_per_sec": 116.55937505553015,
+      "generation_tokens_per_sec": 33.39119269372597,
+      "peak_memory_mb": 9568.24,
+      "inference_time_sec": 6.529
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:15:56.849621+00:00",
+      "finish": "2026-07-01T13:16:03.378553+00:00",
+      "runtime_sec": 6.529
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "early_blight/2.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 18485,
+      "sha256": "a464236bc9ea8dc87b7d77863893056d8b8db696be6db66469bbc46d008b6e1f"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/3.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf with dark brown necrotic spots, some with a slightly lighter center. Edges of the leaf appear slightly rolled or curled.\nDisease: Uncertain.\nAlternative Diagnoses: Nutrient deficiency, environmental damage (e.g., frost, sunburn), or possibly early stages of a foliar disease.\nSeverity: Low.\nConfidence (0-100): 60",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf with dark brown necrotic spots, some with a slightly lighter center. Edges of the leaf appear slightly rolled or curled.",
+      "disease": "Uncertain.",
+      "alternative_diagnoses": "Nutrient deficiency, environmental damage (e.g., frost, sunburn), or possibly early stages of a foliar disease.",
+      "severity": "Low.",
+      "confidence": "60",
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 84,
+      "prompt_tokens_per_sec": 116.55337860083094,
+      "generation_tokens_per_sec": 33.41900156453936,
+      "peak_memory_mb": 9568.24,
+      "inference_time_sec": 5.628
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:16:03.379716+00:00",
+      "finish": "2026-07-01T13:16:09.007400+00:00",
+      "runtime_sec": 5.628
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "early_blight/3.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12183,
+      "sha256": "c2b813db2ca460894280bc0decf1df940dbe64085b81d1c54568f74d155d5a3c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/4.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Circular to irregular shaped lesions with tan to brown color, some with a slightly raised texture. Some leaf edge necrosis.\nDisease: Uncertain\nAlternative Diagnoses: Possible fungal or bacterial spot.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: The lesions are distinct and present on the leaf surface. The color and texture suggest a possible fungal or bacterial infection, but further investigation would be needed to confirm.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Circular to irregular shaped lesions with tan to brown color, some with a slightly raised texture. Some leaf edge necrosis.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Possible fungal or bacterial spot.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The lesions are distinct and present on the leaf surface. The color and texture suggest a possible fungal or bacterial infection, but further investigation would be needed to confirm."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 98,
+      "prompt_tokens_per_sec": 116.5174082884866,
+      "generation_tokens_per_sec": 33.43226554774851,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 6.046
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:16:09.008689+00:00",
+      "finish": "2026-07-01T13:16:15.055082+00:00",
+      "runtime_sec": 6.046
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "early_blight/4.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13121,
+      "sha256": "f44b6342cac8316b34a4fd23209d0100b9a19e803b3c94b8d09595a5f0d4f0bf"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/5.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Dark brown to black lesions, some with a slightly raised appearance, are present on the leaf. The leaf tissue surrounding the lesions appears discolored and slightly shrunken.\nDisease: Uncertain\nAlternative Diagnoses: Possible target spot or anthracnose.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: The presence of dark, defined lesions on the leaf suggests a potential fungal or bacterial issue. The lesions are distinct and appear somewhat sunken. Without further information (e.g., lesion color consistency, presence of spores, plant age), it is difficult to provide a definitive diagnosis.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Dark brown to black lesions, some with a slightly raised appearance, are present on the leaf. The leaf tissue surrounding the lesions appears discolored and slightly shrunken.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Possible target spot or anthracnose.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The presence of dark, defined lesions on the leaf suggests a potential fungal or bacterial issue. The lesions are distinct and appear somewhat sunken. Without further information (e.g., lesion color consistency, presence of spores, plant age), it is difficult to provide a definitive diagnosis."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 132,
+      "prompt_tokens_per_sec": 116.5923845540033,
+      "generation_tokens_per_sec": 33.301071171469175,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 7.076
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:16:15.056292+00:00",
+      "finish": "2026-07-01T13:16:22.132574+00:00",
+      "runtime_sec": 7.076
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "early_blight/5.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15472,
+      "sha256": "243cd5f9e2dc37d1a45a058deb89c921767e588c4d1443227065ecfff9da099e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/1.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing of leaf tissue, particularly along the margins and veins. Some dark spots are present on the leaf. Leaf is curling downwards.\nDisease: Uncertain.\nAlternative Diagnoses: Nutrient deficiency, environmental stress.\nSeverity: Moderate.\nConfidence (0-100): 60\nReasoning: The yellowing and dark spots suggest a possible nutrient deficiency or stress. The curling of the leaf is also indicative of stress. Without further information, it is difficult to determine the exact cause.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing of leaf tissue, particularly along the margins and veins. Some dark spots are present on the leaf. Leaf is curling downwards.",
+      "disease": "Uncertain.",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress.",
+      "severity": "Moderate.",
+      "confidence": "60",
+      "reasoning": "The yellowing and dark spots suggest a possible nutrient deficiency or stress. The curling of the leaf is also indicative of stress. Without further information, it is difficult to determine the exact cause."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 110,
+      "prompt_tokens_per_sec": 116.58520944649227,
+      "generation_tokens_per_sec": 33.38731117603996,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 6.402
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:16:22.133499+00:00",
+      "finish": "2026-07-01T13:16:28.535026+00:00",
+      "runtime_sec": 6.402
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "leaf_mold/1.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15611,
+      "sha256": "33063ecffbdddcb0ca01d1838b32e22eaa0fb7c207db670c58e9f16ca01b47ea"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/2.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing between veins, some leaf edge distortion, some small raised areas on the leaf surface.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress.\nSeverity: Mild\nConfidence (0-100): 60\nReasoning: The yellowing between veins suggests a possible nutrient deficiency or stress. The raised areas are difficult to assess without further investigation, but do not appear to be lesions.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing between veins, some leaf edge distortion, some small raised areas on the leaf surface.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress.",
+      "severity": "Mild",
+      "confidence": "60",
+      "reasoning": "The yellowing between veins suggests a possible nutrient deficiency or stress. The raised areas are difficult to assess without further investigation, but do not appear to be lesions."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 94,
+      "prompt_tokens_per_sec": 116.56623473052493,
+      "generation_tokens_per_sec": 33.456175035507364,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 5.924
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:16:28.536443+00:00",
+      "finish": "2026-07-01T13:16:34.460348+00:00",
+      "runtime_sec": 5.924
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "leaf_mold/2.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 14788,
+      "sha256": "acc36b61dc9729b5169afa45f7b62eb86530c47ffb943a75e37e4991b908046b"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/3.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Mottling of green and yellow coloration on the leaf surface.\nDisease: Uncertain.\nAlternative Diagnoses: Nutrient deficiency, environmental stress.\nSeverity: Mild.\nConfidence (0-100): 60\nReasoning: The leaf shows a distinct pattern of yellow and green discoloration, suggesting a possible physiological issue or early stage of disease. The pattern is not uniform, which could indicate multiple factors.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Mottling of green and yellow coloration on the leaf surface.",
+      "disease": "Uncertain.",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress.",
+      "severity": "Mild.",
+      "confidence": "60",
+      "reasoning": "The leaf shows a distinct pattern of yellow and green discoloration, suggesting a possible physiological issue or early stage of disease. The pattern is not uniform, which could indicate multiple factors."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 92,
+      "prompt_tokens_per_sec": 116.58767837926926,
+      "generation_tokens_per_sec": 33.45293260961211,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 5.863
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:16:34.461746+00:00",
+      "finish": "2026-07-01T13:16:40.324364+00:00",
+      "runtime_sec": 5.863
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "leaf_mold/3.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12303,
+      "sha256": "d1ed653c6e67c1ea5f6776b5833e8ac4ac4b446df738e46c80bccff59eed59df"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/4.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Mottling of yellow and green coloration, some areas of yellow discoloration, some leaf curling at the tip.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, viral infection, environmental stress.\nSeverity: Mild\nConfidence (0-100): 60\nReasoning: The leaf shows uneven coloration, with patches of yellow against green. The curling at the tip is also noted. Without further information, it is difficult to determine the cause.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Mottling of yellow and green coloration, some areas of yellow discoloration, some leaf curling at the tip.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, viral infection, environmental stress.",
+      "severity": "Mild",
+      "confidence": "60",
+      "reasoning": "The leaf shows uneven coloration, with patches of yellow against green. The curling at the tip is also noted. Without further information, it is difficult to determine the cause."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 101,
+      "prompt_tokens_per_sec": 116.54482416635405,
+      "generation_tokens_per_sec": 33.41790056213444,
+      "peak_memory_mb": 9568.24,
+      "inference_time_sec": 6.136
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:16:40.325781+00:00",
+      "finish": "2026-07-01T13:16:46.462117+00:00",
+      "runtime_sec": 6.136
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "leaf_mold/4.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 16599,
+      "sha256": "c9ecbab9f17925d20b8014e646dc6b40d76a309b143ab867394fef27e5fef8c9"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/5.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing between veins, some leaf curling, some brown spots.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: The yellowing between veins suggests a possible nutrient deficiency or viral infection. The curling and brown spots are not characteristic of any single disease, and could be caused by multiple factors.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing between veins, some leaf curling, some brown spots.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The yellowing between veins suggests a possible nutrient deficiency or viral infection. The curling and brown spots are not characteristic of any single disease, and could be caused by multiple factors."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 91,
+      "prompt_tokens_per_sec": 116.59131175315133,
+      "generation_tokens_per_sec": 33.46267074769534,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 5.833
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:16:46.463718+00:00",
+      "finish": "2026-07-01T13:16:52.296432+00:00",
+      "runtime_sec": 5.833
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "leaf_mold/5.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 11060,
+      "sha256": "14cb1c129a409db12d630eec6709960a23c6c9adaa0fb90a74b0a87f984a9e40"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/1.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Mottling, yellowing, and small, dark, slightly raised spots on the leaf surface.\nDisease: Uncertain.\nAlternative Diagnoses: Nutrient deficiency, insect feeding, or early stages of a foliar disease.\nSeverity: Mild.\nConfidence (0-100): 60",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Mottling, yellowing, and small, dark, slightly raised spots on the leaf surface.",
+      "disease": "Uncertain.",
+      "alternative_diagnoses": "Nutrient deficiency, insect feeding, or early stages of a foliar disease.",
+      "severity": "Mild.",
+      "confidence": "60",
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 69,
+      "prompt_tokens_per_sec": 116.46588173600188,
+      "generation_tokens_per_sec": 33.52739812543218,
+      "peak_memory_mb": 9568.24,
+      "inference_time_sec": 5.174
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:16:52.297822+00:00",
+      "finish": "2026-07-01T13:16:57.472119+00:00",
+      "runtime_sec": 5.174
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "mosaic_virus/1.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 18345,
+      "sha256": "77487780b04b7f71301f5252247e7580a59bba179d4e2373d80ad7ecd326f904"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/2.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Mottling, slight curling of leaf edges.\nDisease: Uncertain.\nAlternative Diagnoses: Nutrient deficiency, environmental stress.\nSeverity: Mild.\nConfidence (0-100): 60\nReasoning: The leaf shows uneven coloration (mottling) and slight curling, which could be caused by various factors. Without additional information, it is difficult to determine the exact cause.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Mottling, slight curling of leaf edges.",
+      "disease": "Uncertain.",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress.",
+      "severity": "Mild.",
+      "confidence": "60",
+      "reasoning": "The leaf shows uneven coloration (mottling) and slight curling, which could be caused by various factors. Without additional information, it is difficult to determine the exact cause."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 89,
+      "prompt_tokens_per_sec": 116.51786992219225,
+      "generation_tokens_per_sec": 33.51298499892962,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 5.772
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:16:57.473736+00:00",
+      "finish": "2026-07-01T13:17:03.245234+00:00",
+      "runtime_sec": 5.772
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "mosaic_virus/2.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15676,
+      "sha256": "478ead03f1f962f60ae3455b90affd170c8b6a5cca95a60d1cf5e32b68f8bd0c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/3.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing of leaf tissue, leaf edge curling and distortion, some areas of leaf tissue are missing.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress, insect damage.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: The leaf shows signs of stress, with yellowing and distortion. The missing tissue suggests possible damage, but the exact cause is uncertain based on visual observation alone.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing of leaf tissue, leaf edge curling and distortion, some areas of leaf tissue are missing.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress, insect damage.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf shows signs of stress, with yellowing and distortion. The missing tissue suggests possible damage, but the exact cause is uncertain based on visual observation alone."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 98,
+      "prompt_tokens_per_sec": 116.58621440108145,
+      "generation_tokens_per_sec": 33.44556605043556,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 6.042
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:17:03.246735+00:00",
+      "finish": "2026-07-01T13:17:09.289083+00:00",
+      "runtime_sec": 6.042
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "mosaic_virus/3.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15893,
+      "sha256": "0b9f951849b9b676253328474ae2143dea472e3832156dab51e595beffa9f402"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/4.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Mottling of green and yellow coloration on the leaf surface.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress.\nSeverity: Mild\nConfidence (0-100): 60\nReasoning: The leaf shows a pattern of lighter and darker green areas, suggesting some form of disruption to the leaf's normal coloration. The pattern is not uniform, making it difficult to definitively identify a specific disease.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Mottling of green and yellow coloration on the leaf surface.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress.",
+      "severity": "Mild",
+      "confidence": "60",
+      "reasoning": "The leaf shows a pattern of lighter and darker green areas, suggesting some form of disruption to the leaf's normal coloration. The pattern is not uniform, making it difficult to definitively identify a specific disease."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 96,
+      "prompt_tokens_per_sec": 116.55278734807251,
+      "generation_tokens_per_sec": 33.44949288790919,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 5.984
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:17:09.290588+00:00",
+      "finish": "2026-07-01T13:17:15.274863+00:00",
+      "runtime_sec": 5.984
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "mosaic_virus/4.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13330,
+      "sha256": "f17385882c3f1f3343b50e25f41f0640729f45a4a0fefb30ced2441dde8ebc5d"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/5.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Mottling, yellowing, curling, edge discoloration.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: The leaf shows a pattern of yellowing and discoloration, with some curling evident. The pattern is not uniform, suggesting a possible nutrient issue or environmental stress. Without additional information, a definitive disease diagnosis is uncertain.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Mottling, yellowing, curling, edge discoloration.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf shows a pattern of yellowing and discoloration, with some curling evident. The pattern is not uniform, suggesting a possible nutrient issue or environmental stress. Without additional information, a definitive disease diagnosis is uncertain."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 96,
+      "prompt_tokens_per_sec": 116.57247219096996,
+      "generation_tokens_per_sec": 33.460803892272175,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 5.982
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:17:15.276423+00:00",
+      "finish": "2026-07-01T13:17:21.257954+00:00",
+      "runtime_sec": 5.982
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "mosaic_virus/5.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15628,
+      "sha256": "a48fd8bd48810917768d7f655c8503598089e80ed29a6124141ea118d33b5cc5"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/1.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Curling, yellowing, dark spots, some leaf tissue missing.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, insect damage, environmental stress.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: The leaf shows signs of stress, with curling, yellowing, and dark spots. The leaf tissue is also missing in some areas. It is uncertain if this is due to disease, nutrient deficiency, insect damage, or environmental stress.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Curling, yellowing, dark spots, some leaf tissue missing.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, insect damage, environmental stress.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf shows signs of stress, with curling, yellowing, and dark spots. The leaf tissue is also missing in some areas. It is uncertain if this is due to disease, nutrient deficiency, insect damage, or environmental stress."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 106,
+      "prompt_tokens_per_sec": 116.57368981323299,
+      "generation_tokens_per_sec": 33.44371863857374,
+      "peak_memory_mb": 9568.24,
+      "inference_time_sec": 6.282
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:17:21.259600+00:00",
+      "finish": "2026-07-01T13:17:27.542037+00:00",
+      "runtime_sec": 6.282
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "target_spot/1.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20213,
+      "sha256": "4bbc310f179679d83d9ceac8decf6180b234f3e4c263cbeb094469a3fa0b8a8e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/2.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Mottling, small dark spots, some leaf edge distortion.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, insect feeding, environmental stress.\nSeverity: Low\nConfidence (0-100): 60\nReasoning: The leaf shows some discoloration and small spots, but the pattern is not clearly diagnostic of any specific disease. The leaf edge appears slightly distorted.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Mottling, small dark spots, some leaf edge distortion.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, insect feeding, environmental stress.",
+      "severity": "Low",
+      "confidence": "60",
+      "reasoning": "The leaf shows some discoloration and small spots, but the pattern is not clearly diagnostic of any specific disease. The leaf edge appears slightly distorted."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 86,
+      "prompt_tokens_per_sec": 116.59192547265295,
+      "generation_tokens_per_sec": 33.51331748809479,
+      "peak_memory_mb": 9568.24,
+      "inference_time_sec": 5.679
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:17:27.543694+00:00",
+      "finish": "2026-07-01T13:17:33.222541+00:00",
+      "runtime_sec": 5.679
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "target_spot/2.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20922,
+      "sha256": "896f66f0c12091d3e72f1d760d22ad58ef848d0198582562daaad8631def0c59"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/3.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Mottling, yellowing, small raised areas, some leaf damage/irregular edges.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, insect feeding, environmental stress.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: The leaf shows discoloration and some damage, but the exact cause is not clear from the image alone. The raised areas could be insect feeding or possibly early signs of a disease, but further investigation would be needed to confirm.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Mottling, yellowing, small raised areas, some leaf damage/irregular edges.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, insect feeding, environmental stress.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf shows discoloration and some damage, but the exact cause is not clear from the image alone. The raised areas could be insect feeding or possibly early signs of a disease, but further investigation would be needed to confirm."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 107,
+      "prompt_tokens_per_sec": 116.63213341329583,
+      "generation_tokens_per_sec": 33.40616128342365,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 6.314
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:17:33.224304+00:00",
+      "finish": "2026-07-01T13:17:39.538206+00:00",
+      "runtime_sec": 6.314
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "target_spot/3.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 19847,
+      "sha256": "b9b20509c41742e2b574f7ad37d3235271d01c06907959ffbc5506597084c1ab"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/4.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Mottling, curling, some leaf tissue loss, discoloration.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress, insect damage.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: The leaf shows signs of stress, with uneven coloration and some tissue loss. The pattern of discoloration is not clearly defined, making it difficult to determine a specific disease.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Mottling, curling, some leaf tissue loss, discoloration.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress, insect damage.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf shows signs of stress, with uneven coloration and some tissue loss. The pattern of discoloration is not clearly defined, making it difficult to determine a specific disease."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 91,
+      "prompt_tokens_per_sec": 116.4769297551792,
+      "generation_tokens_per_sec": 33.472036917788,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 5.835
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:17:39.540087+00:00",
+      "finish": "2026-07-01T13:17:45.374618+00:00",
+      "runtime_sec": 5.835
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "target_spot/4.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20511,
+      "sha256": "c3c9efa88a2550a369268c21fa35e1ef74596ee40ea749ce17982f412888ffa1"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/5.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf edge necrosis, curling, and some discoloration.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress, or insect damage.\nSeverity: Mild\nConfidence (0-100): 60\nReasoning: The leaf edge shows signs of necrosis and curling, suggesting some form of stress or damage. The discoloration is subtle. Without additional information, it is difficult to determine the exact cause.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf edge necrosis, curling, and some discoloration.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress, or insect damage.",
+      "severity": "Mild",
+      "confidence": "60",
+      "reasoning": "The leaf edge shows signs of necrosis and curling, suggesting some form of stress or damage. The discoloration is subtle. Without additional information, it is difficult to determine the exact cause."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 93,
+      "prompt_tokens_per_sec": 116.57461409103522,
+      "generation_tokens_per_sec": 33.452749553481695,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 5.892
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:17:45.376364+00:00",
+      "finish": "2026-07-01T13:17:51.268798+00:00",
+      "runtime_sec": 5.892
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "target_spot/5.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20039,
+      "sha256": "3f82e1d895ddcaad3f42e51d7d6f6db04b731dafe7c87c4604db01a8a258286c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/1.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing of leaf tissue, particularly around the edges and veins. Some dark brown spots are present on the leaf.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: The yellowing and spotting suggest a problem, but without additional information, it is difficult to determine the exact cause. The pattern of yellowing is not clearly defined, making diagnosis difficult.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing of leaf tissue, particularly around the edges and veins. Some dark brown spots are present on the leaf.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The yellowing and spotting suggest a problem, but without additional information, it is difficult to determine the exact cause. The pattern of yellowing is not clearly defined, making diagnosis difficult."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 103,
+      "prompt_tokens_per_sec": 116.61623220883386,
+      "generation_tokens_per_sec": 33.422641551937886,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 6.192
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:17:51.270428+00:00",
+      "finish": "2026-07-01T13:17:57.462314+00:00",
+      "runtime_sec": 6.192
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "yellowleaf_curl_virus/1.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8103,
+      "sha256": "6df2838c482139b8c75c6cac397d02773f122ab26c42982a8f827fe34d691579"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/2.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing of leaf tissue, irregular leaf margins, curling of leaf edges.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress (e.g., drought, herbicide injury), or possibly early stages of a viral infection.\nSeverity: Mild\nConfidence (0-100): 60",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing of leaf tissue, irregular leaf margins, curling of leaf edges.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress (e.g., drought, herbicide injury), or possibly early stages of a viral infection.",
+      "severity": "Mild",
+      "confidence": "60",
+      "reasoning": null
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 72,
+      "prompt_tokens_per_sec": 116.5808004309052,
+      "generation_tokens_per_sec": 33.56401210698847,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 5.258
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:17:57.464166+00:00",
+      "finish": "2026-07-01T13:18:02.722065+00:00",
+      "runtime_sec": 5.258
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "yellowleaf_curl_virus/2.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 5351,
+      "sha256": "707c27effbeb3c8bb9a8e1160fc0e6b0de2169d52219a893ed5f35262f4b4f4e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/3.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Leaf curling, yellowing of leaf tissue.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: The leaf shows signs of curling and yellowing, suggesting stress or a potential issue. Without further information or observation of the entire plant, it is difficult to determine the exact cause.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Leaf curling, yellowing of leaf tissue.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf shows signs of curling and yellowing, suggesting stress or a potential issue. Without further information or observation of the entire plant, it is difficult to determine the exact cause."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 88,
+      "prompt_tokens_per_sec": 116.53128719580539,
+      "generation_tokens_per_sec": 33.49923703574175,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 5.741
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:18:02.724028+00:00",
+      "finish": "2026-07-01T13:18:08.465040+00:00",
+      "runtime_sec": 5.741
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "yellowleaf_curl_virus/3.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 9100,
+      "sha256": "c08724d4d1b72aba0b2e68baeccffb5cd8715ed7417c1711cba554bacc920cb0"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/4.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing of leaf tissue, some brown spots.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress.\nSeverity: Low\nConfidence (0-100): 60\nReasoning: The leaf shows signs of discoloration and spotting, but the exact cause is uncertain based on visual observation alone.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing of leaf tissue, some brown spots.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress.",
+      "severity": "Low",
+      "confidence": "60",
+      "reasoning": "The leaf shows signs of discoloration and spotting, but the exact cause is uncertain based on visual observation alone."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 74,
+      "prompt_tokens_per_sec": 116.58213808937528,
+      "generation_tokens_per_sec": 33.46885203184245,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 5.323
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:18:08.467075+00:00",
+      "finish": "2026-07-01T13:18:13.790454+00:00",
+      "runtime_sec": 5.323
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "yellowleaf_curl_virus/4.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 7613,
+      "sha256": "c9c0669af67a454196b8496d6c941aaa8b0545696dad03961427f7e3648b5ae8"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/5.JPG",
+    "model": "mlx-community/gemma-3-12b-it-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing of leaf tissue, curling of leaf edges, brown spots on leaf edges.\nDisease: Uncertain\nAlternative Diagnoses: Nutrient deficiency, environmental stress, or early stages of a leaf spot disease.\nSeverity: Moderate\nConfidence (0-100): 60\nReasoning: The leaf shows distinct yellowing and browning, suggesting a problem affecting the leaf tissue. The curling of the edges could be due to various factors. Without further information, it is difficult to pinpoint the exact cause.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing of leaf tissue, curling of leaf edges, brown spots on leaf edges.",
+      "disease": "Uncertain",
+      "alternative_diagnoses": "Nutrient deficiency, environmental stress, or early stages of a leaf spot disease.",
+      "severity": "Moderate",
+      "confidence": "60",
+      "reasoning": "The leaf shows distinct yellowing and browning, suggesting a problem affecting the leaf tissue. The curling of the edges could be due to various factors. Without further information, it is difficult to pinpoint the exact cause."
+    },
+    "metrics": {
+      "prompt_tokens": 359,
+      "generated_tokens": 112,
+      "prompt_tokens_per_sec": 116.53274979486287,
+      "generation_tokens_per_sec": 33.401140880115335,
+      "peak_memory_mb": 9550.02,
+      "inference_time_sec": 6.469
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:18:13.793466+00:00",
+      "finish": "2026-07-01T13:18:20.262630+00:00",
+      "runtime_sec": 6.469
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "yellowleaf_curl_virus/5.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8056,
+      "sha256": "61293d08367e296731c1764af9cf4cd41918cbb89d444cb2199d1135d09b3f39"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/gemma-3-12b-it-4bit",
+      "model_name": "gemma-3-12b-it-4bit",
+      "model_family": "Gemma",
+      "parameters": "12B",
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  }
+]

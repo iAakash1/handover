@@ -1,0 +1,22 @@
+Here's an analysis of the crop image, based solely on what is visible:
+
+**Plant species:** Likely *Brassica* species (e.g., cabbage, kale, collard greens) based on leaf shape and venation.
+
+**Visible symptoms:** Mottling, discoloration, and spotting on the leaf surface.
+
+**Leaf color:** Primarily green, with significant areas of yellow and red discoloration.
+
+**Leaf texture:** Appears relatively normal, though the discoloration may indicate changes in leaf tissue.
+
+**Spots or lesions:** Circular to irregular shaped spots with a reddish-purple color are present on the leaf surface. Some spots appear slightly raised.
+
+**Severity:** Moderate to severe, as a significant portion of the leaf surface is affected.
+
+**Most likely disease:** Based on the visual characteristics, this is likely a symptom of nutrient deficiency, specifically manganese deficiency. The pattern of discoloration and spotting is consistent with this.
+
+**Alternative diagnoses:**
+*   Nutrient toxicity (less likely given the pattern)
+*   Environmental stress (e.g., herbicide damage)
+*   Early stages of a viral infection (unlikely without additional symptoms)
+
+**Confidence (0-100):** 65% - The pattern of discoloration is suggestive of manganese deficiency, but other factors could be involved. A soil test and further observation would be needed to confirm.

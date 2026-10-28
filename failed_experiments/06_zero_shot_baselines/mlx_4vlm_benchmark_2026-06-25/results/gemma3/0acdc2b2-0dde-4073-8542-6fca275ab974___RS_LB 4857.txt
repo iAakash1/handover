@@ -1,0 +1,22 @@
+Here's an analysis of the crop image, based solely on what is visible:
+
+**Plant species:** Soybean (likely)
+
+**Visible symptoms:** Presence of dark, raised, and fuzzy lesions on the leaf surface.
+
+**Leaf color:** Primarily green, with some yellowing around the lesions.
+
+**Leaf texture:** Smooth, with prominent veins.
+
+**Spots or lesions:** Dark brown to black, raised, and appear fuzzy or powdery.
+
+**Severity:** Moderate (based on the size and number of lesions visible in the image).
+
+**Most likely disease:** Cercospora leaf blight (also known as brown spot).
+
+**Alternative diagnoses:**
+*   Anthracnose
+*   Soybean rust (though the texture appears different)
+
+**Confidence:** 75% 
+**Reasoning:** The dark, raised, and fuzzy appearance of the lesions is characteristic of fungal leaf diseases. The overall appearance of the lesions and the leaf color suggest Cercospora leaf blight is the most likely diagnosis. However, without further information (e.g., location, other symptoms on the plant), it's difficult to be certain.

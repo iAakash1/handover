@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-07-01T13:56:04.413285+00:00",
+  "num_models": 7,
+  "num_images": 30,
+  "num_total_records": 210,
+  "num_completed_runs": 210,
+  "num_failed_runs": 0,
+  "failed_by_status": {},
+  "average_runtime_sec": 13.171,
+  "last_run_duration_sec": 2793.75,
+  "environment": {
+    "python_version": "3.12.13",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "mlx_version": "0.31.2",
+    "mlx_vlm_version": "0.6.3",
+    "seed": 42,
+    "temperature": 0.0,
+    "max_tokens": 512
+  }
+}

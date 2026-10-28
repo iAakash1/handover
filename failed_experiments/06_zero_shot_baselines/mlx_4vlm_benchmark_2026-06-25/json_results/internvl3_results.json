@@ -1,0 +1,178 @@
+[
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "0acdc2b2-0dde-4073-8542-6fca275ab974___RS_LB 4857.JPG",
+    "raw_output": "Plant species: The image shows a single green leaf, which appears to be from a broadleaf plant, possibly a common garden or agricultural plant such as a legume, but the exact species cannot be determined with certainty from the image alone.\n\nVisible symptoms: The leaf has visible discoloration and spots. There are two prominent dark brown to black spots on the leaf surface.\n\nLeaf color: The leaf is predominantly green, with some areas showing dark brown to black discoloration.\n\nLeaf texture: The leaf has a smooth texture with visible veins.\n\nSpots or lesions: There are two distinct spots or lesions on the leaf. These spots are dark brown to black and appear to be sunken or necrotic.\n\nSeverity: The spots are localized and do not cover a large portion of the leaf, indicating a moderate severity.\n\nMost likely disease: Based on the visible symptoms, the most likely disease is leaf spot disease, which can be caused by various pathogens such as fungi or bacteria. The dark spots with a slightly sunken appearance are characteristic of fungal leaf spots.\n\nAlternative diagnoses: Other possible diagnoses could include bacterial leaf spot, although the appearance is more typical of fungal infections. Viral infections might also cause similar symptoms, but they often come with additional symptoms like mottling or yellowing.\n\nConfidence (0-100): 70\n\nReasoning: The symptoms observed are consistent with common leaf spot diseases. The dark, sunken spots are typical of fungal infections, but without laboratory testing, it is difficult to pinpoint the exact pathogen. The confidence level is moderate due to the potential for other causes and the lack of additional context or symptoms.",
+    "latency_sec": 8.406116962432861,
+    "tokens_per_sec": 57.565,
+    "peak_memory_gb": 5.609,
+    "error": null,
+    "timestamp": "2026-06-25T16:55:45.228517"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "0b27c03f-b3bc-4d96-9b76-6fbd779404b9___NREC_B.Spot 1799.JPG",
+    "raw_output": "Plant species: The image shows a single leaf, which appears to be from a broad-leaved plant, possibly a type of vegetable or ornamental plant. The exact species is not identifiable from the image alone.\n\nVisible symptoms: The leaf has visible spots and discoloration.\n\nLeaf color: The leaf is predominantly green, but there are areas of yellowing and browning.\n\nLeaf texture: The leaf appears to have a smooth texture, typical of many broad-leaved plants.\n\nSpots or lesions: There are several spots and lesions on the leaf, which are brown and irregular in shape.\n\nSeverity: The severity of the disease appears to be moderate, as there are multiple spots and some areas of the leaf are significantly affected.\n\nMost likely disease: The symptoms are indicative of a fungal disease, such as leaf spot or blight. Common culprits could include Alternaria, Septoria, or bacterial spot diseases.\n\nAlternative diagnoses: Other possible diseases or conditions could include nutrient deficiencies (e.g., potassium deficiency), environmental stress (e.g., sunburn), or insect damage (e.g., leaf miners). However, the presence of spots and discoloration points more towards a fungal infection.\n\nConfidence (0-100): 85\n\nReasoning: The leaf shows clear signs of spots and discoloration, which are typical symptoms of fungal diseases. The spots are brown and irregular, which are common in fungal leaf spots. The presence of multiple spots suggests a moderate severity. While nutrient deficiencies and environmental stress can cause similar symptoms, the pattern and distribution of the spots are more consistent with a fungal infection. The exact species of the plant and the specific fungal pathogen cannot be determined from the image alone, hence the moderate confidence level.",
+    "latency_sec": 7.320152044296265,
+    "tokens_per_sec": 57.28,
+    "peak_memory_gb": 5.609,
+    "error": null,
+    "timestamp": "2026-06-25T16:55:52.550087"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "0d8346e1-4624-4979-84e6-1353ca59007a___RS_LB 4079.JPG",
+    "raw_output": "Plant species: The plant appears to be a legume, possibly a soybean or a similar species, based on the leaf shape and venation pattern.\n\nVisible symptoms: There are visible discolorations on the leaf, including a dark, irregularly shaped spot near the center.\n\nLeaf color: The leaf is predominantly green, but there are areas of discoloration, including a dark spot.\n\nLeaf texture: The leaf appears to have a smooth texture with visible veins.\n\nSpots or lesions: There is a single, prominent dark spot on the leaf, which appears to be a lesion.\n\nSeverity: The lesion is localized and does not cover a large area of the leaf, suggesting a mild severity.\n\nMost likely disease: The dark spot with a somewhat irregular shape is indicative of a fungal disease, such as leaf spot or blight. This could be caused by pathogens like *Cercospora* or *Phakopsora* species.\n\nAlternative diagnoses: Other possible diseases could include bacterial leaf spot, but the appearance is more consistent with a fungal infection. Viral infections are less likely given the localized nature of the lesion.\n\nConfidence (0-100): 85\n\nReasoning: The symptoms observed, such as the dark, irregularly shaped spot on the leaf, are characteristic of fungal leaf spots. The leaf's overall green color and smooth texture further support this diagnosis. However, without laboratory testing, it is difficult to pinpoint the exact pathogen with complete certainty. The localized nature of the lesion suggests that the disease is in an early stage, which is why the confidence level is not 100.",
+    "latency_sec": 6.8600380420684814,
+    "tokens_per_sec": 57.765,
+    "peak_memory_gb": 5.609,
+    "error": null,
+    "timestamp": "2026-06-25T16:55:59.410655"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "0fdb66e8-b17d-42c2-bc6d-30dcfab8fcae___JR_B.Spot 9058.JPG",
+    "raw_output": "Plant species: Corn\nVisible symptoms: The leaf has visible damage, including holes and irregular edges.\nLeaf color: The leaf is primarily green with some yellowing.\nLeaf texture: The leaf appears to be relatively smooth, but with visible damage.\nSpots or lesions: There are small, dark spots scattered across the leaf.\nSeverity: Moderate severity, as the leaf shows significant damage and some yellowing.\nMost likely disease: Corn leaf damage, possibly due to insect feeding (e.g., corn earworm, European corn borer) or fungal disease (e.g., rust, smut).\nAlternative diagnoses: Other possible causes could include nutrient deficiencies, environmental stress, or mechanical damage.\nConfidence (0-100): 70\nReasoning: The leaf shows signs of physical damage with holes and irregular edges, which are typical of insect feeding. The presence of small, dark spots could indicate fungal infection. However, without more specific symptoms or a clearer view of the entire plant, it is challenging to pinpoint the exact cause with high confidence. The leaf color and texture are relatively normal, but the damage suggests moderate severity.",
+    "latency_sec": 5.159438133239746,
+    "tokens_per_sec": 57.473,
+    "peak_memory_gb": 5.609,
+    "error": null,
+    "timestamp": "2026-06-25T16:56:04.570987"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "1b589f92-a658-4e58-96de-db41acc411ce___JR_B.Spot 3239.JPG",
+    "raw_output": "Plant species: The image shows a single leaf, which appears to be from a broadleaf plant, possibly a type of legume or a tree such as a walnut or pecan, given the shape and venation pattern.\n\nVisible symptoms: The leaf shows some discoloration and browning at the edges, which could indicate stress or damage.\n\nLeaf color: The leaf is primarily green with some yellowing and browning, especially along the edges.\n\nLeaf texture: The leaf appears to have a smooth texture with visible veins.\n\nSpots or lesions: There are some brown spots and browning along the edges of the leaf, which could be indicative of disease or damage.\n\nSeverity: The symptoms appear to be mild, with localized discoloration and browning.\n\nMost likely disease: The symptoms could be indicative of nutrient deficiency, water stress, or early stages of a fungal disease such as leaf spot or rust. However, without more information, it is difficult to pinpoint the exact cause.\n\nAlternative diagnoses: Other possible causes could include physical damage, environmental stress (such as sunburn), or early signs of insect infestation.\n\nConfidence (0-100): 70\n\nReasoning: The leaf shows signs of stress or damage, such as browning and yellowing, but these symptoms are not severe. The presence of spots or lesions suggests a possible disease, but without more context or additional symptoms, it is challenging to determine the exact cause. The confidence level is moderate due to the uncertainty in diagnosing the exact disease or condition.",
+    "latency_sec": 6.576550006866455,
+    "tokens_per_sec": 57.478,
+    "peak_memory_gb": 5.609,
+    "error": null,
+    "timestamp": "2026-06-25T16:56:11.148042"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "1b8f80ae-38a2-4d08-ae92-f80ff4459a73___RS_LB 2554.JPG",
+    "raw_output": "Plant species: The image shows a single leaf, which appears to be from a broadleaf plant, possibly a common weed or a crop plant such as soybean, corn, or another agricultural crop.\n\nVisible symptoms: The leaf has a visible brown, necrotic area on the lower part, which appears to be a spot or lesion.\n\nLeaf color: The leaf is predominantly green, but there is a brown, necrotic area on the lower part of the leaf.\n\nLeaf texture: The leaf has a smooth texture with visible veins.\n\nSpots or lesions: There is a single, brown, necrotic spot or lesion on the lower part of the leaf.\n\nSeverity: The lesion appears to be moderate in size, suggesting a localized infection or damage.\n\nMost likely disease: Based on the visible symptoms, the most likely disease is leaf spot, which can be caused by various pathogens such as fungi or bacteria. Common culprits include Septoria leaf spot, Cercospora leaf spot, or bacterial leaf spot.\n\nAlternative diagnoses: Other possible diagnoses could include nutrient deficiencies (e.g., potassium deficiency), physical damage, or environmental stress. However, the appearance of a distinct spot or lesion points more towards a disease.\n\nConfidence (0-100): 70\n\nReasoning: The presence of a distinct brown spot or lesion on the leaf suggests a disease process. The leaf's overall green color and smooth texture indicate that the plant is still alive and not severely affected. The size and appearance of the lesion are consistent with common leaf spot diseases. However, without more information or a closer examination, it is difficult to pinpoint the exact pathogen with complete certainty. The confidence level is moderate due to the possibility of other factors contributing to the symptoms, such as nutrient deficiencies or environmental stress.",
+    "latency_sec": 7.529052019119263,
+    "tokens_per_sec": 57.151,
+    "peak_memory_gb": 5.609,
+    "error": null,
+    "timestamp": "2026-06-25T16:56:18.678184"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "2b562d10-5ccf-4f20-aadc-2e1480bd303e___JR_B.Spot 3256.JPG",
+    "raw_output": "Plant species: The plant appears to be a type of broadleaf tree or shrub, possibly a maple or similar species, based on the leaf shape and venation pattern.\n\nVisible symptoms: The leaf shows visible symptoms of discoloration and potential damage.\n\nLeaf color: The leaf is predominantly green, but there are brownish spots and discoloration present.\n\nLeaf texture: The leaf has a smooth texture with visible veins.\n\nSpots or lesions: There are brownish spots and discoloration on the leaf, which may indicate disease or damage.\n\nSeverity: The severity of the issue appears to be moderate, with localized spots and discoloration.\n\nMost likely disease: The symptoms could indicate a fungal disease, such as leaf spot or rust, or it could be a result of environmental stress, such as sunburn or nutrient deficiency.\n\nAlternative diagnoses: Other potential causes could include insect damage, bacterial infection, or physical damage from environmental factors.\n\nConfidence (0-100): 70\n\nReasoning: The leaf shows brownish spots and discoloration, which are common symptoms of fungal diseases like leaf spot or rust. However, the exact cause cannot be determined with certainty without further information or testing. Environmental stress, insect damage, or physical damage could also be potential causes, but the presence of spots and discoloration leans more towards a fungal issue.",
+    "latency_sec": 6.073338985443115,
+    "tokens_per_sec": 56.239,
+    "peak_memory_gb": 5.609,
+    "error": null,
+    "timestamp": "2026-06-25T16:56:24.752065"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "7a8f225e-a87c-47ca-a49d-27b620951a4e___Crnl_L.Mold 6497.JPG",
+    "raw_output": "Plant species: The plant appears to be a type of broadleaf plant, possibly a member of the Fabaceae family (legumes) or a similar group, given the shape and structure of the leaf.\n\nVisible symptoms: The leaf shows visible discoloration and mottling, with lighter green and yellowish areas interspersed with darker green patches.\n\nLeaf color: The leaf has a mix of green, yellowish, and lighter green colors, indicating possible chlorosis or nutrient deficiency.\n\nLeaf texture: The leaf appears to have a slightly rough or wrinkled texture, which might be due to stress or disease.\n\nSpots or lesions: There are no distinct spots or lesions visible on the leaf; the discoloration appears more as a mottled pattern rather than discrete spots.\n\nSeverity: The severity of the issue seems moderate, as the discoloration affects a significant portion of the leaf but does not appear to be concentrated in any single area.\n\nMost likely disease: The symptoms could be indicative of nutrient deficiency, particularly nitrogen or iron deficiency, which can cause chlorosis and mottling. Other possibilities include viral infections or fungal diseases, but without distinct lesions, it is less likely.\n\nAlternative diagnoses: \n1. Nutrient deficiency (e.g., nitrogen, iron)\n2. Viral infection (though less likely without distinct lesions)\n3. Environmental stress (e.g., drought, heat)\n\nConfidence (0-100): 70\n\nReasoning: The symptoms are consistent with nutrient deficiencies, particularly chlorosis, which is common in legumes and other broadleaf plants. The lack of distinct spots or lesions makes viral infections less likely. The texture and coloration suggest some form of stress, but without more specific symptoms, it is challenging to pinpoint the exact cause with higher confidence.",
+    "latency_sec": 7.527181148529053,
+    "tokens_per_sec": 57.552,
+    "peak_memory_gb": 5.609,
+    "error": null,
+    "timestamp": "2026-06-25T16:56:32.280617"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "7d40d29e-ba53-49bb-93be-e19d63855f60___Crnl_L.Mold 6994.JPG",
+    "raw_output": "Plant species: The plant appears to be a type of herbaceous plant, possibly a weed or a young cultivated plant, given the broad leaf structure.\n\nVisible symptoms: The leaf shows visible discoloration, with yellowish spots and patches.\n\nLeaf color: The leaf has a mix of green and yellow colors, with the yellow areas being more prominent in certain sections.\n\nLeaf texture: The leaf appears to have a slightly rough texture, with visible veins.\n\nSpots or lesions: There are yellowish spots and patches on the leaf, which are irregular in shape and distribution.\n\nSeverity: The severity of the symptoms appears to be moderate, as the yellow spots are noticeable but do not cover the entire leaf.\n\nMost likely disease: Based on the visible symptoms, the most likely disease is downy mildew, which often causes yellow spots on the leaves of plants.\n\nAlternative diagnoses: Other possible diseases or conditions could include nutrient deficiencies (e.g., nitrogen deficiency), which can cause yellowing of leaves, or early stages of a fungal infection.\n\nConfidence (0-100): 70\n\nReasoning: The yellow spots and patches are characteristic of downy mildew, a common fungal disease affecting many plants. However, without a closer examination of the underside of the leaf or additional symptoms, it is difficult to rule out other causes such as nutrient deficiencies or early fungal infections. The confidence level is moderate due to the possibility of other underlying issues.",
+    "latency_sec": 6.2432990074157715,
+    "tokens_per_sec": 57.433,
+    "peak_memory_gb": 5.609,
+    "error": null,
+    "timestamp": "2026-06-25T16:56:38.525265"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "7de0d9b9-6d4f-4375-85c4-a64da65937d8___Crnl_L.Mold 7077.JPG",
+    "raw_output": "Based on the image provided, here is a detailed analysis:\n\nPlant species:\n- The leaf appears to be from a broadleaf plant, possibly a type of vegetable or ornamental plant. The exact species is difficult to determine without more context.\n\nVisible symptoms:\n- There are visible signs of damage or stress on the leaf, including discoloration and potential insect damage.\n\nLeaf color:\n- The leaf is primarily green, but there are areas of lighter and darker green, indicating possible chlorosis or nutrient deficiency.\n\nLeaf texture:\n- The leaf appears to have a smooth texture with visible veins.\n\nSpots or lesions:\n- There are some irregularly shaped, lighter areas on the leaf, which could be indicative of disease or pest damage.\n\nSeverity:\n- The damage appears to be moderate, with localized spots and some discoloration, but not widespread.\n\nMost likely disease:\n- The symptoms could be due to a variety of issues, including nutrient deficiency, pest damage (such as caterpillars or beetles), or early signs of a fungal or bacterial disease. Without more information, it is difficult to pinpoint a specific disease.\n\nAlternative diagnoses:\n- Nutrient deficiency (e.g., nitrogen, iron)\n- Pest damage (e.g., caterpillars, beetles, aphids)\n- Early stages of a fungal or bacterial infection\n\nConfidence (0-100):\n- 70\n\nReasoning:\n- The leaf shows signs of stress or damage, but the symptoms are not definitive of a specific disease. The lighter spots could be due to pest activity, which is common in many plants. The lack of widespread damage suggests it is not a severe infection yet. However, without more context or a closer examination, it is challenging to make a precise diagnosis. The confidence level reflects the uncertainty due to the limited information available from the image alone.",
+    "latency_sec": 7.655670166015625,
+    "tokens_per_sec": 57.307,
+    "peak_memory_gb": 5.609,
+    "error": null,
+    "timestamp": "2026-06-25T16:56:46.181402"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "8bc3ccca-a312-4d14-a412-4c1726cdace9___Crnl_L.Mold 8802.JPG",
+    "raw_output": "Plant species: The plant appears to be a type of herbaceous plant, possibly a weed or a young crop plant, given the shape and structure of the leaves.\n\nVisible symptoms: The leaf shows signs of discoloration and possible stress.\n\nLeaf color: The leaf has a mix of green and yellowish-green colors, indicating possible nutrient deficiency or disease.\n\nLeaf texture: The leaf appears to have a slightly rough texture, with visible veins and a somewhat fuzzy surface.\n\nSpots or lesions: There are no visible spots or lesions on the leaf; however, the discoloration might be indicative of a disease or pest issue.\n\nSeverity: The severity of the issue seems moderate, as the discoloration is noticeable but not widespread across the entire leaf.\n\nMost likely disease: The symptoms could be indicative of nutrient deficiency, particularly nitrogen deficiency, which often causes yellowing of the leaves. However, without more information, it is difficult to pinpoint the exact cause.\n\nAlternative diagnoses: Other possible causes could include fungal diseases, bacterial infections, or pest infestations. Environmental stress, such as drought or excessive moisture, could also lead to similar symptoms.\n\nConfidence (0-100): 70\n\nReasoning: The symptoms observed, such as the yellowing and discoloration, are common in nutrient deficiencies, particularly nitrogen deficiency. However, the lack of visible spots or lesions makes it challenging to diagnose a specific disease. The texture and structure of the leaf suggest it is a young or possibly a weed plant. The confidence level is moderate due to the possibility of other factors contributing to the observed symptoms, such as environmental stress or other diseases.",
+    "latency_sec": 6.93756103515625,
+    "tokens_per_sec": 57.348,
+    "peak_memory_gb": 5.609,
+    "error": null,
+    "timestamp": "2026-06-25T16:56:53.119442"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "augmented_Curl Virus0005.jpg",
+    "raw_output": "Plant species:\nThe leaf appears to be from a fig tree (Ficus carica), identifiable by its lobed shape and prominent veining.\n\nVisible symptoms:\n- The leaf has some discoloration, with lighter green areas visible.\n\nLeaf color:\nThe leaf is primarily green but has lighter green patches, indicating possible nutrient deficiency or early signs of disease.\n\nLeaf texture:\nThe leaf appears to be smooth and healthy, without any visible roughness or damage.\n\nSpots or lesions:\nThere are no visible spots or lesions on the leaf.\n\nSeverity:\nThe visible symptoms are mild and localized, suggesting a low severity.\n\nMost likely disease:\nGiven the visible symptoms, it is possible that the plant is experiencing a nutrient deficiency, possibly iron or magnesium deficiency, which can cause lighter green areas on the leaves. However, without more information, it is difficult to pinpoint the exact cause.\n\nAlternative diagnoses:\n- Nutrient deficiency (iron or magnesium)\n- Early signs of viral infection\n- Environmental stress (e.g., drought, pollution)\n\nConfidence (0-100):\n70\n\nReasoning:\n- The leaf's lobed shape and veining are characteristic of a fig tree.\n- The lighter green areas suggest a possible nutrient deficiency, but other factors could also be at play.\n- The absence of spots or lesions makes infectious diseases less likely at this stage.\n- The leaf texture appears healthy, ruling out severe physical damage or advanced disease.",
+    "latency_sec": 9.840108156204224,
+    "tokens_per_sec": 54.965,
+    "peak_memory_gb": 6.081,
+    "error": null,
+    "timestamp": "2026-06-25T16:57:02.960050"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "augmented_Curl Virus0033.jpg",
+    "raw_output": "Plant species:\nThe leaf appears to be from a grapevine (Vitis spp.), identifiable by its lobed, palmate shape and prominent veins.\n\nVisible symptoms:\n- The leaf shows some discoloration, with lighter green areas and some yellowing.\n- There are visible spots and irregularities on the leaf surface.\n\nLeaf color:\nThe leaf is primarily green but has lighter green and yellowish areas, indicating possible chlorosis or nutrient deficiency.\n\nLeaf texture:\nThe leaf appears to have a slightly rough texture with visible veins.\n\nSpots or lesions:\nThere are visible spots and irregularities on the leaf surface, which could be indicative of disease or pest damage.\n\nSeverity:\nThe symptoms appear to be moderate, with localized discoloration and spots, but not widespread.\n\nMost likely disease:\nGiven the visible symptoms, the most likely disease is Downy Mildew (caused by Plasmopara viticola), which often presents as yellowish spots on the upper leaf surface and white, downy growth on the underside. However, other diseases such as Grapevine Fanleaf Virus or nutrient deficiencies could also cause similar symptoms.\n\nAlternative diagnoses:\n- Grapevine Fanleaf Virus (GFLV): This virus can cause yellowing and mottling of leaves.\n- Nutrient Deficiency (e.g., nitrogen, iron): This can lead to chlorosis and yellowing of leaves.\n- Pest Damage: Insects or mites could cause physical damage and discoloration.\n\nConfidence (0-100):\n70\n\nReasoning:\n- The leaf's lobed shape and prominent veins are characteristic of grapevines.\n- The visible spots and discoloration are consistent with Downy Mildew, but other diseases and nutrient issues cannot be ruled out without further testing.\n- The presence of spots and irregularities suggests a moderate severity, but the exact cause requires more detailed analysis or laboratory testing to confirm.",
+    "latency_sec": 11.596826791763306,
+    "tokens_per_sec": 54.881,
+    "peak_memory_gb": 6.081,
+    "error": null,
+    "timestamp": "2026-06-25T16:57:14.557371"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "augmented_Leaf Redding0085.jpg",
+    "raw_output": "Plant species: Citrus (likely citrus leaves based on the shape and vein pattern)\nVisible symptoms: Leaf discoloration, mottling, and spots\nLeaf color: Green with patches of yellow, red, and brown\nLeaf texture: The leaf appears to have a rough texture in the affected areas\nSpots or lesions: Yes, there are visible spots and lesions, particularly in the red and yellow areas\nSeverity: Moderate to severe, as the discoloration and spots cover a significant portion of the leaf\nMost likely disease: Citrus variegated bronzing (CVB) or citrus leaf miner damage\nAlternative diagnoses: Citrus leaf miner, nutrient deficiency, fungal infection\nConfidence (0-100): 85\n\nReasoning:\n1. Plant species: The leaf shape and vein pattern are characteristic of citrus plants.\n2. Visible symptoms: The leaf shows significant discoloration with mottling and spots, which are typical symptoms of citrus variegated bronzing (CVB) or citrus leaf miner damage.\n3. Leaf color: The leaf has a mix of green, yellow, red, and brown colors, indicating stress or damage.\n4. Leaf texture: The affected areas have a rough texture, which is often associated with leaf miner damage or viral infections like CVB.\n5. Spots or lesions: There are visible spots and lesions, particularly in the red and yellow areas, which are common in CVB and leaf miner damage.\n6. Severity: The extent of the discoloration and spots suggests a moderate to severe level of infection or damage.\n7. Most likely disease: Citrus variegated bronzing (CVB) is a viral disease that causes similar symptoms, while citrus leaf miner damage can also cause similar discoloration and texture changes.\n8. Alternative diagnoses: Citrus leaf miner, nutrient deficiency, and fungal infections could also cause similar symptoms, but the combination of mottling, spots, and texture changes points more towards CVB or leaf miner damage.\n9. Confidence: The symptoms are quite characteristic of CVB or leaf miner damage, but without laboratory testing, it's challenging to be 100% certain. Hence, 85% confidence is given.",
+    "latency_sec": 12.853379964828491,
+    "tokens_per_sec": 55.139,
+    "peak_memory_gb": 6.081,
+    "error": null,
+    "timestamp": "2026-06-25T16:57:27.411290"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "augmented_Leaf Variegation0045.jpg",
+    "raw_output": "Plant species:\nThe plant appears to be a type of squash or gourd, possibly a variety of Cucurbita, given the large, lobed leaves.\n\nVisible symptoms:\nThe leaves show visible discoloration, with patches of yellow and white spots.\n\nLeaf color:\nThe leaves are primarily green but have significant yellow and white spots, indicating chlorosis or nutrient deficiency.\n\nLeaf texture:\nThe leaves appear to have a smooth texture, typical of squash or gourd leaves.\n\nSpots or lesions:\nThere are visible spots or lesions on the leaves, which are yellow and white in color.\n\nSeverity:\nThe severity of the symptoms appears moderate, as the affected areas are significant but not covering the entire leaf.\n\nMost likely disease:\nThe symptoms could be indicative of a nutrient deficiency, particularly nitrogen or magnesium, as the yellowing is interveinal and does not include the veins. Other possibilities include fungal diseases such as downy mildew or powdery mildew, but these usually present with more distinct patterns.\n\nAlternative diagnoses:\n1. Nutrient deficiency (Nitrogen, Magnesium)\n2. Fungal disease (Downy mildew, Powdery mildew)\n3. Viral infection\n\nConfidence (0-100):\nConfidence: 85\n\nReasoning:\nThe primary symptoms are interveinal chlorosis, which is more indicative of nutrient deficiencies rather than fungal diseases. The absence of a white, powdery coating suggests it is not powdery mildew. The lack of a water-soaked appearance suggests it is not downy mildew. The spots are not uniform, which makes a viral infection less likely but not impossible. Given the visible symptoms and their pattern, nutrient deficiency is the most likely cause, but there is a moderate level of uncertainty due to the potential for other diseases.",
+    "latency_sec": 11.317757844924927,
+    "tokens_per_sec": 54.917,
+    "peak_memory_gb": 6.081,
+    "error": null,
+    "timestamp": "2026-06-25T16:57:38.730261"
+  },
+  {
+    "model": "internvl3",
+    "model_path": "mlx-community/InternVL3-8B-MLX-4bit",
+    "image": "augmented_Leaf Variegation0058.jpg",
+    "raw_output": "Plant species:\nThe plant appears to be a type of legume, possibly a soybean (Glycine max) or a similar species, based on the leaf shape and arrangement.\n\nVisible symptoms:\nThe leaves show visible discoloration, with lighter, almost white patches on the leaves.\n\nLeaf color:\nThe leaves are primarily green but have significant lighter, almost white areas, indicating chlorosis.\n\nLeaf texture:\nThe leaves appear to have a smooth texture, typical of many legume species.\n\nSpots or lesions:\nThere are no visible spots or lesions; the lighter areas seem to be more of a discoloration rather than spots.\n\nSeverity:\nThe affected area on the leaves is moderate, with several leaves showing significant discoloration.\n\nMost likely disease:\nThe symptoms are indicative of nutrient deficiency, particularly nitrogen deficiency, which can cause chlorosis (yellowing) of the leaves. Other possible causes could include iron deficiency or viral infections, but the uniform pattern suggests a nutrient issue rather than a pathogen.\n\nAlternative diagnoses:\n- Iron deficiency (interveinal chlorosis)\n- Viral infection (though less likely given the uniform pattern)\n- Environmental stress (such as drought or temperature extremes)\n\nConfidence (0-100):\nConfidence: 85\n\nReasoning:\n- The uniform pattern of discoloration suggests a nutrient deficiency rather than a localized disease or pest issue.\n- The absence of spots or lesions makes a bacterial or fungal infection less likely.\n- The smooth texture and leaf shape are consistent with common legumes, which are often affected by nitrogen deficiency.\n- While iron deficiency can cause similar symptoms, the widespread nature and uniformity are more characteristic of nitrogen deficiency.\n- Viral infections can cause similar symptoms but often have a more mosaic pattern and may be associated with other symptoms like stunted growth or leaf curling, which are not visible here.\n- Environmental stress could cause similar symptoms, but the presence of healthy green areas suggests it is more likely a nutrient issue rather than a severe environmental stress.\n\nOverall, the most likely diagnosis is nitrogen deficiency, but further soil testing and analysis of plant tissue could provide more definitive confirmation.",
+    "latency_sec": 12.404754161834717,
+    "tokens_per_sec": 55.24,
+    "peak_memory_gb": 6.081,
+    "error": null,
+    "timestamp": "2026-06-25T16:57:51.135515"
+  }
+]

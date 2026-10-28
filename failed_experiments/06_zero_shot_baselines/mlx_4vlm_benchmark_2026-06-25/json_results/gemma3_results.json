@@ -1,0 +1,178 @@
+[
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "0acdc2b2-0dde-4073-8542-6fca275ab974___RS_LB 4857.JPG",
+    "raw_output": "Here's an analysis of the crop image, based solely on what is visible:\n\n**Plant species:** Soybean (likely)\n\n**Visible symptoms:** Presence of dark, raised, and fuzzy lesions on the leaf surface.\n\n**Leaf color:** Primarily green, with some yellowing around the lesions.\n\n**Leaf texture:** Smooth, with prominent veins.\n\n**Spots or lesions:** Dark brown to black, raised, and appear fuzzy or powdery.\n\n**Severity:** Moderate (based on the size and number of lesions visible in the image).\n\n**Most likely disease:** Cercospora leaf blight (also known as brown spot).\n\n**Alternative diagnoses:**\n*   Anthracnose\n*   Soybean rust (though the texture appears different)\n\n**Confidence:** 75% \n**Reasoning:** The dark, raised, and fuzzy appearance of the lesions is characteristic of fungal leaf diseases. The overall appearance of the lesions and the leaf color suggest Cercospora leaf blight is the most likely diagnosis. However, without further information (e.g., location, other symptoms on the plant), it's difficult to be certain.",
+    "latency_sec": 16.824626922607422,
+    "tokens_per_sec": 32.623,
+    "peak_memory_gb": 10.014,
+    "error": null,
+    "timestamp": "2026-06-25T16:52:50.234209"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "0b27c03f-b3bc-4d96-9b76-6fbd779404b9___NREC_B.Spot 1799.JPG",
+    "raw_output": "Here's an analysis of the provided crop image:\n\n**Plant species:** Likely tomato (based on leaf shape).\n**Visible symptoms:** Curling, distortion, yellowing, and spots on the leaf.\n**Leaf color:** Primarily green, with significant yellowing (chlorosis) in areas.\n**Leaf texture:** Appears normal, except for the distorted areas.\n**Spots or lesions:** Small, brown spots are visible on the leaf surface.\n**Severity:** Moderate – a significant portion of the leaf is affected, but the entire leaf isn't impacted.\n**Most likely disease:** Early symptoms of Tomato Yellow Leaf Curl Virus (TYLCV). The leaf distortion and yellowing are consistent with this disease.\n**Alternative diagnoses:**\n*   Nutrient deficiency (e.g., magnesium or potassium) – though the spots are less typical.\n*   Herbicide damage – possible, but the spots are not a common symptom.\n**Confidence:** 75% - The combination of leaf distortion, yellowing, and spots points towards TYLCV, but other factors could be involved.",
+    "latency_sec": 10.012340068817139,
+    "tokens_per_sec": 33.04,
+    "peak_memory_gb": 10.014,
+    "error": null,
+    "timestamp": "2026-06-25T16:53:00.248431"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "0d8346e1-4624-4979-84e6-1353ca59007a___RS_LB 4079.JPG",
+    "raw_output": "Here's an analysis of the provided crop image:\n\n**Plant species:** Spinach (likely)\n**Visible symptoms:** Presence of a circular lesion/spot on the leaf.\n**Leaf color:** Primarily green, with some yellowing around the lesion.\n**Leaf texture:** Appears relatively smooth and typical of spinach leaves.\n**Spots or lesions:** A single, circular, dark gray/black lesion with a slightly lighter gray halo is visible on the leaf. The lesion appears raised.\n**Severity:** Moderate (based on the size of the lesion relative to the leaf).\n**Most likely disease:** Early stages of a fungal leaf spot disease.\n**Alternative diagnoses:** Nutrient deficiency (though less likely given the localized nature of the discoloration), insect damage followed by secondary fungal infection.\n**Confidence:** 75% (The appearance of the lesion is consistent with fungal leaf spots, but further investigation would be needed to confirm.)\n\n\n\n**Reasoning:** The circular shape, color, and raised appearance of the lesion are characteristic of many fungal leaf spot diseases. The surrounding yellowing suggests the plant is attempting to wall off the infection.",
+    "latency_sec": 10.19832181930542,
+    "tokens_per_sec": 32.915,
+    "peak_memory_gb": 10.014,
+    "error": null,
+    "timestamp": "2026-06-25T16:53:10.447554"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "0fdb66e8-b17d-42c2-bc6d-30dcfab8fcae___JR_B.Spot 9058.JPG",
+    "raw_output": "Here's an analysis of the crop image, based solely on what is visible:\n\n**Plant species:** Uncertain. The leaf shape suggests it could be a legume (like soybean, peanut, or possibly a bean). However, without more context, it's difficult to confirm.\n\n**Visible symptoms:** Yellowing of the leaf, some tearing or ragged edges, and small dark spots.\n\n**Leaf color:** Primarily yellow, with some green remaining in the veins and edges.\n\n**Leaf texture:** Appears relatively smooth, though the tearing/damage obscures this somewhat.\n\n**Spots or lesions:** Small, dark spots are visible on the leaf surface.\n\n**Severity:** Moderate. A significant portion of the leaf is affected, but the entire leaf is not destroyed.\n\n**Most likely disease:** Uncertain. The dark spots could be insect feeding damage, or possibly early stages of a fungal or bacterial leaf spot.\n\n**Alternative diagnoses:**\n*   Insect feeding (e.g., flea beetles, leafhoppers)\n*   Nutrient deficiency (though this is less likely with the presence of dark spots)\n*   Environmental stress (e.g., drought, herbicide injury)\n\n**Confidence (0-100):** 40%. The limited view of the leaf and lack of context make definitive diagnosis difficult.",
+    "latency_sec": 11.451034307479858,
+    "tokens_per_sec": 32.771,
+    "peak_memory_gb": 10.033,
+    "error": null,
+    "timestamp": "2026-06-25T16:53:21.899318"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "1b589f92-a658-4e58-96de-db41acc411ce___JR_B.Spot 3239.JPG",
+    "raw_output": "Here's an analysis of the crop image, based solely on what is visible:\n\n**Plant species:** Uncertain. The leaf shape suggests it could be a broadleaf species, possibly a legume (like soybean or peanut) or a member of the Rosaceae family (like rose or strawberry). Without more context, it's difficult to be certain.\n\n**Visible symptoms:** Yellowing of the leaf, with some brown edges.\n\n**Leaf color:** Primarily yellow, with a gradient from lighter yellow in the center to darker yellow/brown along the edges. Some green remains in the central veins.\n\n**Leaf texture:** Appears relatively smooth, with prominent veins.\n\n**Spots or lesions:** No distinct spots or lesions are visible.\n\n**Severity:** Moderate. A significant portion of the leaf is affected by yellowing, but some green tissue remains.\n\n**Most likely disease:** Uncertain. The yellowing could be due to nutrient deficiency (e.g., nitrogen, potassium, or magnesium), environmental stress (e.g., drought, heat), or the early stages of a disease.\n\n**Alternative diagnoses:**\n*   Nutrient deficiency\n*   Environmental stress\n*   Early stage of a leaf spot disease (though no spots are currently visible)\n\n**Confidence (0-100):** 50%. The visual symptoms are consistent with several possibilities, and without additional information (plant history, soil conditions, other symptoms on the plant), it's difficult to narrow down the cause.",
+    "latency_sec": 12.556441307067871,
+    "tokens_per_sec": 32.74,
+    "peak_memory_gb": 10.033,
+    "error": null,
+    "timestamp": "2026-06-25T16:53:34.456424"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "1b8f80ae-38a2-4d08-ae92-f80ff4459a73___RS_LB 2554.JPG",
+    "raw_output": "Here's an analysis of the provided crop image:\n\n**Plant species:** Potato (Solanum tuberosum) - based on leaf morphology.\n\n**Visible symptoms:** Necrotic (dead) tissue along the leaf margin and a portion of the leaf blade.\n\n**Leaf color:** Primarily green, with a significant portion of the leaf showing brown/tan discoloration due to necrosis.\n\n**Leaf texture:** Appears relatively smooth and typical of potato leaves. The necrotic area appears dry and brittle.\n\n**Spots or lesions:** There is a distinct, irregular area of necrotic tissue that could be considered a lesion. The edges of this area are not sharply defined.\n\n**Severity:** Moderate - a significant portion of the leaf is affected, but the entire leaf is not consumed.\n\n**Most likely disease:** Early blight (Alternaria solani) - The pattern of marginal necrosis is consistent with early blight.\n\n**Alternative diagnoses:**\n*   Nutrient deficiency (e.g., potassium or magnesium) - although less likely given the distinct appearance of the necrotic area.\n*   Environmental stress (sunscald, frost damage) - possible, but early blight is more probable.\n\n**Confidence:** 75% - The appearance of the necrotic area is characteristic of early blight, but other factors could be involved. A definitive diagnosis would require further investigation (e.g., examining the underside of the leaf for fungal structures, confirming presence of the pathogen through lab testing).",
+    "latency_sec": 12.257775783538818,
+    "tokens_per_sec": 32.783,
+    "peak_memory_gb": 10.033,
+    "error": null,
+    "timestamp": "2026-06-25T16:53:46.714976"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "2b562d10-5ccf-4f20-aadc-2e1480bd303e___JR_B.Spot 3256.JPG",
+    "raw_output": "Here's an analysis of the provided crop image:\n\n**Plant species:** Pepper (likely *Capsicum annuum*)\n**Visible symptoms:** Yellowing and browning along the leaf margin, with a circular brown spot on the leaf.\n**Leaf color:** Primarily green, with yellowing and browning along the edges and a brown spot.\n**Leaf texture:** Smooth, typical of pepper leaves.\n**Spots or lesions:** A single, circular brown spot is visible on the leaf.\n**Severity:** Mild, affecting a small portion of the leaf.\n**Most likely disease:** Nutrient deficiency (possibly magnesium or potassium).\n**Alternative diagnoses:** Environmental stress (sunburn, drought), early stages of a fungal or bacterial spot.\n**Confidence:** 65%\n\n**Reasoning:**\n\nThe yellowing and browning along the leaf margin (marginal chlorosis and necrosis) are common symptoms of nutrient deficiencies, particularly magnesium or potassium. The single circular brown spot could be a symptom of environmental stress or an early stage of a spot disease. Without additional information (plant history, other symptoms on the plant, soil conditions), it's difficult to pinpoint the exact cause.",
+    "latency_sec": 10.490136861801147,
+    "tokens_per_sec": 32.933,
+    "peak_memory_gb": 10.033,
+    "error": null,
+    "timestamp": "2026-06-25T16:53:57.205886"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "7a8f225e-a87c-47ca-a49d-27b620951a4e___Crnl_L.Mold 6497.JPG",
+    "raw_output": "Here's an analysis of the provided crop image:\n\n**Plant species:** Soybean (likely, based on leaf shape)\n**Visible symptoms:** Mottling, yellowing, slight curling of leaf edges.\n**Leaf color:** Primarily green with significant yellow patches (mottling).\n**Leaf texture:** Appears relatively normal, with typical soybean leaf texture.\n**Spots or lesions:** No distinct spots or lesions are visible.\n**Severity:** Mild to moderate – the yellowing is noticeable but doesn't appear to affect the entire leaf.\n**Most likely disease:** Nutrient deficiency (likely sulfur or possibly magnesium).\n**Alternative diagnoses:** Environmental stress (drought, heat), early stages of viral infection (though no distinct spots are present).\n**Confidence:** 65% \n\n**Reasoning:** The mottled appearance with yellow patches suggests a nutrient deficiency. Sulfur and magnesium deficiencies often manifest in this way in soybeans. Environmental stress could also cause similar symptoms, but the pattern is more consistent with a nutrient issue. Without additional information (soil conditions, plant history), it's difficult to pinpoint the exact deficiency.",
+    "latency_sec": 10.100220203399658,
+    "tokens_per_sec": 32.949,
+    "peak_memory_gb": 10.033,
+    "error": null,
+    "timestamp": "2026-06-25T16:54:07.306836"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "7d40d29e-ba53-49bb-93be-e19d63855f60___Crnl_L.Mold 6994.JPG",
+    "raw_output": "Here's an analysis of the provided crop image:\n\n**Plant species:** Tomato (likely)\n**Visible symptoms:** Yellowing of leaf tissue, mottling pattern.\n**Leaf color:** Green and yellow.\n**Leaf texture:** Appears relatively normal, slightly glossy.\n**Spots or lesions:** No distinct spots or lesions are visible.\n**Severity:** Moderate - a significant portion of the leaf is affected, but the leaf is still largely intact.\n**Most likely disease:** Possible early stages of Tomato Mosaic Virus (ToMV).\n**Alternative diagnoses:** Nutrient deficiency (possibly magnesium or potassium), environmental stress (sun scorch).\n**Confidence:** 65% - The yellowing and mottling pattern are consistent with viral infection, but other factors could be contributing. A definitive diagnosis would require further investigation (e.g., testing for viruses, soil analysis).\n\n\n\n**Reasoning:**\n\nThe yellowing and mottled pattern on the leaf are concerning. While other factors could contribute to this appearance, the pattern is most consistent with a viral infection like Tomato Mosaic Virus. However, without additional information (plant history, other symptoms on the plant, location, etc.), it's difficult to be certain.",
+    "latency_sec": 10.643288850784302,
+    "tokens_per_sec": 32.926,
+    "peak_memory_gb": 10.033,
+    "error": null,
+    "timestamp": "2026-06-25T16:54:17.950895"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "7de0d9b9-6d4f-4375-85c4-a64da65937d8___Crnl_L.Mold 7077.JPG",
+    "raw_output": "Here's an analysis of the provided crop image:\n\n**Plant species:** Likely tobacco (based on leaf shape).\n\n**Visible symptoms:** Discoloration, curling along the leaf margin.\n\n**Leaf color:** Primarily green, with areas of yellow/brown discoloration along the margin.\n\n**Leaf texture:** Appears relatively smooth and waxy.\n\n**Spots or lesions:** No distinct spots or lesions are visible. The discoloration appears to be a general change in color rather than individual spots.\n\n**Severity:** Mild to moderate, affecting a portion of the leaf margin.\n\n**Most likely disease:** Uncertain. The discoloration and curling could be due to environmental stress (e.g., nutrient deficiency, herbicide injury, or sun scorch).\n\n**Alternative diagnoses:**\n*   Nutrient deficiency (e.g., magnesium or potassium)\n*   Herbicide injury\n*   Sun scorch\n\n**Confidence (0-100):** 60% - The leaf discoloration and curling are visible, but the cause is uncertain without additional information (plant history, surrounding environment, other symptoms on the plant).",
+    "latency_sec": 10.017353057861328,
+    "tokens_per_sec": 32.996,
+    "peak_memory_gb": 10.033,
+    "error": null,
+    "timestamp": "2026-06-25T16:54:27.969176"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "8bc3ccca-a312-4d14-a412-4c1726cdace9___Crnl_L.Mold 8802.JPG",
+    "raw_output": "Here's an analysis of the provided crop image:\n\n**Plant species:** Tomato (likely)\n\n**Visible symptoms:** Mottling, yellowing, and some curling of the leaf margins.\n\n**Leaf color:** Primarily green with significant yellowing, particularly along the edges and in patches.\n\n**Leaf texture:** The leaf surface appears somewhat rough or textured, possibly with some pubescence (fine hairs).\n\n**Spots or lesions:** No distinct spots or lesions are visible.\n\n**Severity:** Moderate – a significant portion of the leaf is affected, but not the entire leaf.\n\n**Most likely disease:** Nutrient deficiency (likely magnesium or potassium).\n\n**Alternative diagnoses:** Environmental stress (drought, heat), herbicide injury.\n\n**Confidence (0-100):** 65%\n\n**Reasoning:** The pattern of yellowing, particularly along the leaf margins, is consistent with nutrient deficiency. Magnesium and potassium deficiencies often present this way in tomato plants. The lack of spots or lesions rules out many fungal or bacterial diseases. The rough texture could be a normal characteristic of the tomato variety or potentially related to stress. Environmental factors could also be contributing to the observed symptoms.",
+    "latency_sec": 10.379215717315674,
+    "tokens_per_sec": 33.012,
+    "peak_memory_gb": 10.033,
+    "error": null,
+    "timestamp": "2026-06-25T16:54:38.349175"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "augmented_Curl Virus0005.jpg",
+    "raw_output": "Here's an analysis of the crop image provided:\n\n**Plant species:** Uncertain. The leaf shape suggests potentially cotton, but confirmation is needed.\n**Visible symptoms:** Chlorosis (yellowing) of the leaf tissue, particularly between the veins. Some leaf curling is also visible.\n**Leaf color:** Primarily green with significant yellowing between the veins. The edges of the leaf appear slightly brownish.\n**Leaf texture:** Appears relatively smooth and waxy.\n**Spots or lesions:** No distinct spots or lesions are visible.\n**Severity:** Moderate. The yellowing is noticeable but doesn't appear to affect the entire leaf.\n**Most likely disease:** Uncertain. Nutrient deficiency (specifically magnesium or iron) is a possibility, but further investigation is needed.\n**Alternative diagnoses:**\n*   Environmental stress (drought, heat).\n*   Herbicide injury.\n*   Early stages of a viral infection.\n**Confidence (0-100):** 60. The visual symptoms are consistent with several possibilities, making a definitive diagnosis difficult without additional information.",
+    "latency_sec": 9.893437385559082,
+    "tokens_per_sec": 33.053,
+    "peak_memory_gb": 10.033,
+    "error": null,
+    "timestamp": "2026-06-25T16:54:48.243356"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "augmented_Curl Virus0033.jpg",
+    "raw_output": "Here's an analysis of the crop image, based solely on what is visible:\n\n**Plant species:** Likely cotton (based on leaf morphology).\n**Visible symptoms:** Curling, puckering, and mottling of the leaf.\n**Leaf color:** Primarily green, with areas of lighter green and yellow mottling.\n**Leaf texture:** Appears somewhat rough or uneven due to the puckering.\n**Spots or lesions:** No distinct spots or lesions are visible.\n**Severity:** Moderate – the leaf is significantly distorted, but the entire plant is not visible.\n**Most likely disease:** Uncertain. The symptoms suggest a possible viral infection, but without further information, it is difficult to determine the specific virus.\n**Alternative diagnoses:**\n*   Nutrient deficiency (e.g., zinc deficiency)\n*   Herbicide injury\n*   Environmental stress (e.g., drought, heat)\n**Confidence:** 60% - The leaf morphology and mottling are consistent with viral symptoms, but other factors could be responsible. More information (e.g., plant history, other symptoms on the plant) would be needed for a more accurate diagnosis.",
+    "latency_sec": 10.344926834106445,
+    "tokens_per_sec": 33.052,
+    "peak_memory_gb": 10.033,
+    "error": null,
+    "timestamp": "2026-06-25T16:54:58.589074"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "augmented_Leaf Redding0085.jpg",
+    "raw_output": "Here's an analysis of the crop image, based solely on what is visible:\n\n**Plant species:** Likely *Brassica* species (e.g., cabbage, kale, collard greens) based on leaf shape and venation.\n\n**Visible symptoms:** Mottling, discoloration, and spotting on the leaf surface.\n\n**Leaf color:** Primarily green, with significant areas of yellow and red discoloration.\n\n**Leaf texture:** Appears relatively normal, though the discoloration may indicate changes in leaf tissue.\n\n**Spots or lesions:** Circular to irregular shaped spots with a reddish-purple color are present on the leaf surface. Some spots appear slightly raised.\n\n**Severity:** Moderate to severe, as a significant portion of the leaf surface is affected.\n\n**Most likely disease:** Based on the visual characteristics, this is likely a symptom of nutrient deficiency, specifically manganese deficiency. The pattern of discoloration and spotting is consistent with this.\n\n**Alternative diagnoses:**\n*   Nutrient toxicity (less likely given the pattern)\n*   Environmental stress (e.g., herbicide damage)\n*   Early stages of a viral infection (unlikely without additional symptoms)\n\n**Confidence (0-100):** 65% - The pattern of discoloration is suggestive of manganese deficiency, but other factors could be involved. A soil test and further observation would be needed to confirm.",
+    "latency_sec": 11.621496200561523,
+    "tokens_per_sec": 33.016,
+    "peak_memory_gb": 10.033,
+    "error": null,
+    "timestamp": "2026-06-25T16:55:10.211333"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "augmented_Leaf Variegation0045.jpg",
+    "raw_output": "Here's an analysis of the crop image, based solely on what is visible:\n\n**Plant species:** Likely *Caladium* (based on leaf shape and variegation pattern).\n\n**Visible symptoms:** Mottling, discoloration, and some areas of white/yellow patches on the leaf surface.\n\n**Leaf color:** Primarily green with significant white/yellow variegation.\n\n**Leaf texture:** Appears relatively smooth, though the image quality makes it difficult to assess definitively.\n\n**Spots or lesions:** No distinct, raised spots or lesions are visible. The discoloration appears to be a general mottling.\n\n**Severity:** Moderate – a significant portion of the leaf surface is affected by discoloration.\n\n**Most likely disease:** Uncertain. The discoloration could be due to several factors, including nutrient deficiency (e.g., magnesium or manganese), viral infection, or environmental stress (e.g., sun scorch). Without further information, it's difficult to pinpoint the exact cause.\n\n**Alternative diagnoses:**\n*   Nutrient deficiency\n*   Environmental stress (sun scorch, herbicide damage)\n*   Viral infection (mosaic virus)\n\n**Confidence (0-100):** 60% - The leaf characteristics strongly suggest *Caladium*, but the cause of the discoloration is uncertain based on the image alone.\n\n\n\n**Reasoning:** The leaf shape and variegation pattern are characteristic of *Caladium*. The mottling and discoloration are the primary symptoms observed. The absence of raised spots or lesions rules out some fungal or bacterial diseases.",
+    "latency_sec": 12.684017181396484,
+    "tokens_per_sec": 33.016,
+    "peak_memory_gb": 10.033,
+    "error": null,
+    "timestamp": "2026-06-25T16:55:22.896103"
+  },
+  {
+    "model": "gemma3",
+    "model_path": "mlx-community/gemma-3-12b-it-4bit",
+    "image": "augmented_Leaf Variegation0058.jpg",
+    "raw_output": "Here's an analysis of the crop image, based solely on what is visible:\n\n**Plant species:** Uncertain. The leaf shape suggests potentially a member of the Malvaceae family (like cotton), but without more context, it's difficult to confirm.\n\n**Visible symptoms:** Mottling and yellowing of the leaf tissue. A portion of one leaf appears significantly paler than the rest.\n\n**Leaf color:** Green, yellow, and white. The leaf displays a significant variation in color.\n\n**Leaf texture:** Smooth, typical of many broadleaf plants.\n\n**Spots or lesions:** No distinct spots or lesions are visible. The discoloration appears to be a general mottling.\n\n**Severity:** Moderate. A significant portion of the leaf is affected, but the plant appears to be otherwise healthy.\n\n**Most likely disease:** Uncertain. The symptoms could be caused by nutrient deficiency (e.g., magnesium or manganese), viral infection, or herbicide damage.\n\n**Alternative diagnoses:**\n*   Nutrient deficiency\n*   Herbicide injury\n*   Viral infection\n\n**Confidence (0-100):** 50%. The symptoms are not specific enough to definitively diagnose any single disease or condition. More information (plant species, location, recent treatments, etc.) would be needed for a more accurate assessment.",
+    "latency_sec": 11.282727241516113,
+    "tokens_per_sec": 33.037,
+    "peak_memory_gb": 10.014,
+    "error": null,
+    "timestamp": "2026-06-25T16:55:34.179453"
+  }
+]

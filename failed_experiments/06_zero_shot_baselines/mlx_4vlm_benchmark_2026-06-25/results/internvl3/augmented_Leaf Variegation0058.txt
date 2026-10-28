@@ -1,0 +1,38 @@
+Plant species:
+The plant appears to be a type of legume, possibly a soybean (Glycine max) or a similar species, based on the leaf shape and arrangement.
+
+Visible symptoms:
+The leaves show visible discoloration, with lighter, almost white patches on the leaves.
+
+Leaf color:
+The leaves are primarily green but have significant lighter, almost white areas, indicating chlorosis.
+
+Leaf texture:
+The leaves appear to have a smooth texture, typical of many legume species.
+
+Spots or lesions:
+There are no visible spots or lesions; the lighter areas seem to be more of a discoloration rather than spots.
+
+Severity:
+The affected area on the leaves is moderate, with several leaves showing significant discoloration.
+
+Most likely disease:
+The symptoms are indicative of nutrient deficiency, particularly nitrogen deficiency, which can cause chlorosis (yellowing) of the leaves. Other possible causes could include iron deficiency or viral infections, but the uniform pattern suggests a nutrient issue rather than a pathogen.
+
+Alternative diagnoses:
+- Iron deficiency (interveinal chlorosis)
+- Viral infection (though less likely given the uniform pattern)
+- Environmental stress (such as drought or temperature extremes)
+
+Confidence (0-100):
+Confidence: 85
+
+Reasoning:
+- The uniform pattern of discoloration suggests a nutrient deficiency rather than a localized disease or pest issue.
+- The absence of spots or lesions makes a bacterial or fungal infection less likely.
+- The smooth texture and leaf shape are consistent with common legumes, which are often affected by nitrogen deficiency.
+- While iron deficiency can cause similar symptoms, the widespread nature and uniformity are more characteristic of nitrogen deficiency.
+- Viral infections can cause similar symptoms but often have a more mosaic pattern and may be associated with other symptoms like stunted growth or leaf curling, which are not visible here.
+- Environmental stress could cause similar symptoms, but the presence of healthy green areas suggests it is more likely a nutrient issue rather than a severe environmental stress.
+
+Overall, the most likely diagnosis is nitrogen deficiency, but further soil testing and analysis of plant tissue could provide more definitive confirmation.

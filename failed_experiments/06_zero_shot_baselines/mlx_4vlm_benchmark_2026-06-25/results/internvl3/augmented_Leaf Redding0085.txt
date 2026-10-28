@@ -1,0 +1,20 @@
+Plant species: Citrus (likely citrus leaves based on the shape and vein pattern)
+Visible symptoms: Leaf discoloration, mottling, and spots
+Leaf color: Green with patches of yellow, red, and brown
+Leaf texture: The leaf appears to have a rough texture in the affected areas
+Spots or lesions: Yes, there are visible spots and lesions, particularly in the red and yellow areas
+Severity: Moderate to severe, as the discoloration and spots cover a significant portion of the leaf
+Most likely disease: Citrus variegated bronzing (CVB) or citrus leaf miner damage
+Alternative diagnoses: Citrus leaf miner, nutrient deficiency, fungal infection
+Confidence (0-100): 85
+
+Reasoning:
+1. Plant species: The leaf shape and vein pattern are characteristic of citrus plants.
+2. Visible symptoms: The leaf shows significant discoloration with mottling and spots, which are typical symptoms of citrus variegated bronzing (CVB) or citrus leaf miner damage.
+3. Leaf color: The leaf has a mix of green, yellow, red, and brown colors, indicating stress or damage.
+4. Leaf texture: The affected areas have a rough texture, which is often associated with leaf miner damage or viral infections like CVB.
+5. Spots or lesions: There are visible spots and lesions, particularly in the red and yellow areas, which are common in CVB and leaf miner damage.
+6. Severity: The extent of the discoloration and spots suggests a moderate to severe level of infection or damage.
+7. Most likely disease: Citrus variegated bronzing (CVB) is a viral disease that causes similar symptoms, while citrus leaf miner damage can also cause similar discoloration and texture changes.
+8. Alternative diagnoses: Citrus leaf miner, nutrient deficiency, and fungal infections could also cause similar symptoms, but the combination of mottling, spots, and texture changes points more towards CVB or leaf miner damage.
+9. Confidence: The symptoms are quite characteristic of CVB or leaf miner damage, but without laboratory testing, it's challenging to be 100% certain. Hence, 85% confidence is given.

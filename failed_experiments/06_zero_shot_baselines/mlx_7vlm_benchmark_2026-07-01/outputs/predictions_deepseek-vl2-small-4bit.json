@@ -1,0 +1,1412 @@
+[
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/1.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows signs of discoloration with dark spots and areas of yellowing, particularly towards the edges.\nDisease: The symptoms suggest a fungal infection, possibly caused by Alternaria species.\nAlternative Diagnoses: Other possible causes could include bacterial infections or nutrient deficiencies, but the specific pattern of spots and yellowing is characteristic of fungal pathogens.\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The presence of dark spots and yellowing, along with the overall appearance of the leaf, strongly indicates a fungal infection. The pattern and distribution of symptoms are consistent with common fungal diseases affecting tomatoes.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows signs of discoloration with dark spots and areas of yellowing, particularly towards the edges.",
+      "disease": "The symptoms suggest a fungal infection, possibly caused by Alternaria species.",
+      "alternative_diagnoses": "Other possible causes could include bacterial infections or nutrient deficiencies, but the specific pattern of spots and yellowing is characteristic of fungal pathogens.",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The presence of dark spots and yellowing, along with the overall appearance of the leaf, strongly indicates a fungal infection. The pattern and distribution of symptoms are consistent with common fungal diseases affecting tomatoes."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 149,
+      "prompt_tokens_per_sec": 487.42424149419514,
+      "generation_tokens_per_sec": 98.10586809537776,
+      "peak_memory_mb": 10659.23,
+      "inference_time_sec": 3.812
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:50.684017+00:00",
+      "finish": "2026-07-01T13:54:54.496377+00:00",
+      "runtime_sec": 3.812
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "bacterial_spot/1.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12736,
+      "sha256": "847986b04db52704897297565b62cac9653ea1ef0425f644a1070e7d1bd9baf1"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/2.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of the leaf edges and some spots.\nDisease: Tomato Mosaic Virus (TMV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress.\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The yellowing and browning of the leaf edges, along with the presence of spots, are characteristic symptoms of Tomato Mosaic Virus. While other viral infections or nutrient deficiencies could cause similar symptoms, the combination of yellowing, browning, and spots is most consistent with TMV. The severity is moderate to high due to the extensive yellowing and browning observed.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of the leaf edges and some spots.",
+      "disease": "Tomato Mosaic Virus (TMV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress.",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The yellowing and browning of the leaf edges, along with the presence of spots, are characteristic symptoms of Tomato Mosaic Virus. While other viral infections or nutrient deficiencies could cause similar symptoms, the combination of yellowing, browning, and spots is most consistent with TMV. The severity is moderate to high due to the extensive yellowing and browning observed."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 148,
+      "prompt_tokens_per_sec": 536.387484302934,
+      "generation_tokens_per_sec": 99.4990229575013,
+      "peak_memory_mb": 10659.17,
+      "inference_time_sec": 2.474
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:54.497299+00:00",
+      "finish": "2026-07-01T13:54:56.971653+00:00",
+      "runtime_sec": 2.474
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "bacterial_spot/2.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 14358,
+      "sha256": "04658ef2dcceabf609f52008f552d478b290fe3a93cf325f39b4bc4320120eb2"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/3.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of leaf edges, presence of dark spots on the leaf surface.\nDisease: Tomato Mosaic Virus (TMV) or another viral infection.\nAlternative Diagnoses: Bacterial spot, fungal infection, nutrient deficiency.\nSeverity: Moderate to High.\nConfidence (0-100): 70%.\nReasoning: The yellowing and browning of the leaf edges, along with the presence of dark spots, are indicative of a viral infection such as Tomato Mosaic Virus. However, without additional information or testing, it is not possible to rule out other potential causes such as bacterial spot or fungal infection. The moderate severity is based on the visible symptoms and the confidence level is moderate due to the lack of definitive diagnosis.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges, presence of dark spots on the leaf surface.",
+      "disease": "Tomato Mosaic Virus (TMV) or another viral infection.",
+      "alternative_diagnoses": "Bacterial spot, fungal infection, nutrient deficiency.",
+      "severity": "Moderate to High.",
+      "confidence": "70%.",
+      "reasoning": "The yellowing and browning of the leaf edges, along with the presence of dark spots, are indicative of a viral infection such as Tomato Mosaic Virus. However, without additional information or testing, it is not possible to rule out other potential causes such as bacterial spot or fungal infection. The moderate severity is based on the visible symptoms and the confidence level is moderate due to the lack of definitive diagnosis."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 167,
+      "prompt_tokens_per_sec": 536.8698800514057,
+      "generation_tokens_per_sec": 99.09925012373857,
+      "peak_memory_mb": 10659.15,
+      "inference_time_sec": 2.671
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:56.972222+00:00",
+      "finish": "2026-07-01T13:54:59.642722+00:00",
+      "runtime_sec": 2.671
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "bacterial_spot/3.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12931,
+      "sha256": "c14a71e095076c9df9c7b1f61f8e69f773292cd0a3ef7bfcdbb0dedc487525db"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/4.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows signs of discoloration with yellowing and browning, particularly along the edges and veins.\nDisease: Tomato Mosaic Virus (TMV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress.\nSeverity: Moderate\nConfidence (0-100): 80%\nReasoning: The distinct yellowing and browning pattern is characteristic of TMV infection, which is a common viral disease affecting tomatoes. The pattern and distribution of the symptoms align with typical TMV symptoms.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows signs of discoloration with yellowing and browning, particularly along the edges and veins.",
+      "disease": "Tomato Mosaic Virus (TMV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress.",
+      "severity": "Moderate",
+      "confidence": "80%",
+      "reasoning": "The distinct yellowing and browning pattern is characteristic of TMV infection, which is a common viral disease affecting tomatoes. The pattern and distribution of the symptoms align with typical TMV symptoms."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 120,
+      "prompt_tokens_per_sec": 536.9130487363204,
+      "generation_tokens_per_sec": 99.88197280239486,
+      "peak_memory_mb": 10659.14,
+      "inference_time_sec": 2.187
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:54:59.643421+00:00",
+      "finish": "2026-07-01T13:55:01.830417+00:00",
+      "runtime_sec": 2.187
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "bacterial_spot/4.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8698,
+      "sha256": "2e001949013eb06b64692decd1d4e66541f1eb074018775a12cafa2143e8666f"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/bacterial_spot/5.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows dark, irregular spots with yellow halos around them, indicating possible necrotic tissue.\nDisease: Early blight (Alternaria solani)\nAlternative Diagnoses: Other fungal diseases, bacterial infections, nutrient deficiencies, or physical damage.\nSeverity: Moderate to high severity, as the spots cover a significant portion of the leaf.\nConfidence (0-100): 80%\nReasoning: The presence of dark spots with yellow halos is characteristic of early blight, a common fungal disease affecting tomatoes. The distribution and appearance of the spots are consistent with this diagnosis. However, without additional information or laboratory testing, other causes cannot be ruled out with certainty.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows dark, irregular spots with yellow halos around them, indicating possible necrotic tissue.",
+      "disease": "Early blight (Alternaria solani)",
+      "alternative_diagnoses": "Other fungal diseases, bacterial infections, nutrient deficiencies, or physical damage.",
+      "severity": "Moderate to high severity, as the spots cover a significant portion of the leaf.",
+      "confidence": "80%",
+      "reasoning": "The presence of dark spots with yellow halos is characteristic of early blight, a common fungal disease affecting tomatoes. The distribution and appearance of the spots are consistent with this diagnosis. However, without additional information or laboratory testing, other causes cannot be ruled out with certainty."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 155,
+      "prompt_tokens_per_sec": 536.7926413303733,
+      "generation_tokens_per_sec": 99.4721318792853,
+      "peak_memory_mb": 10659.13,
+      "inference_time_sec": 2.544
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:01.831108+00:00",
+      "finish": "2026-07-01T13:55:04.375276+00:00",
+      "runtime_sec": 2.544
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "bacterial_spot/5.JPG",
+      "class_folder": "bacterial_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13206,
+      "sha256": "34714995c8f496d38e005ce0ac0bdd5f4803e07496eb628f9582a17a878765bc"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/1.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaves show signs of wilting and yellowing, particularly along the edges and veins.\nDisease: Tomato Yellow Leaf Curl Virus (TYLCV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress (e.g., drought, high temperatures)\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The yellowing and curling of the leaves, along with the presence of discoloration, are characteristic symptoms of Tomato Yellow Leaf Curl Virus. The severity is moderate to high due to the widespread yellowing and curling observed on multiple leaves. The confidence level is 80% because these symptoms are consistent with TYLCV, but other causes cannot be entirely ruled out without further testing or information.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaves show signs of wilting and yellowing, particularly along the edges and veins.",
+      "disease": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress (e.g., drought, high temperatures)",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The yellowing and curling of the leaves, along with the presence of discoloration, are characteristic symptoms of Tomato Yellow Leaf Curl Virus. The severity is moderate to high due to the widespread yellowing and curling observed on multiple leaves. The confidence level is 80% because these symptoms are consistent with TYLCV, but other causes cannot be entirely ruled out without further testing or information."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 173,
+      "prompt_tokens_per_sec": 874.04219543924,
+      "generation_tokens_per_sec": 99.07598988644509,
+      "peak_memory_mb": 9525.38,
+      "inference_time_sec": 2.354
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:04.375939+00:00",
+      "finish": "2026-07-01T13:55:06.730373+00:00",
+      "runtime_sec": 2.354
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "early_blight/1.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 10761,
+      "sha256": "bb8cf07350baac37f7fdfa2a9e54587363c8a8806a28e8d0b085c1de9ab4a3cb"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/2.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows signs of wilting and browning, particularly at the edges and along the veins. There are dark spots and patches, indicating possible decay or infection.\nDisease: Tomato Mosaic Virus (TMV) or another fungal/bacterial infection.\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress.\nSeverity: Moderate to High\nConfidence (0-100): 70%\nReasoning: The symptoms are consistent with a viral infection or fungal/bacterial pathogen, but without additional context or testing, it is difficult to determine the exact cause with certainty. The moderate severity is based on the visible damage and discoloration.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows signs of wilting and browning, particularly at the edges and along the veins. There are dark spots and patches, indicating possible decay or infection.",
+      "disease": "Tomato Mosaic Virus (TMV) or another fungal/bacterial infection.",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress.",
+      "severity": "Moderate to High",
+      "confidence": "70%",
+      "reasoning": "The symptoms are consistent with a viral infection or fungal/bacterial pathogen, but without additional context or testing, it is difficult to determine the exact cause with certainty. The moderate severity is based on the visible damage and discoloration."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 153,
+      "prompt_tokens_per_sec": 535.1451708361018,
+      "generation_tokens_per_sec": 99.09783994974771,
+      "peak_memory_mb": 10659.12,
+      "inference_time_sec": 2.533
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:06.731068+00:00",
+      "finish": "2026-07-01T13:55:09.263808+00:00",
+      "runtime_sec": 2.533
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "early_blight/2.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 18485,
+      "sha256": "a464236bc9ea8dc87b7d77863893056d8b8db696be6db66469bbc46d008b6e1f"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/3.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows signs of wilting and browning at the edges, with some discoloration and potential spots.\nDisease: Tomato leaf curl virus (TLCV) or a related viral infection.\nAlternative Diagnoses: Other viral infections, bacterial infections, or nutrient deficiencies.\nSeverity: Moderate to high severity, as indicated by the significant browning and wilting.\nConfidence (0-100): 70%\nReasoning: The symptoms are consistent with viral infections, but without additional information or testing, other causes cannot be ruled out. The moderate severity is based on the visible signs of browning and wilting.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows signs of wilting and browning at the edges, with some discoloration and potential spots.",
+      "disease": "Tomato leaf curl virus (TLCV) or a related viral infection.",
+      "alternative_diagnoses": "Other viral infections, bacterial infections, or nutrient deficiencies.",
+      "severity": "Moderate to high severity, as indicated by the significant browning and wilting.",
+      "confidence": "70%",
+      "reasoning": "The symptoms are consistent with viral infections, but without additional information or testing, other causes cannot be ruled out. The moderate severity is based on the visible signs of browning and wilting."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 144,
+      "prompt_tokens_per_sec": 536.2448989468851,
+      "generation_tokens_per_sec": 99.72460309868607,
+      "peak_memory_mb": 10659.12,
+      "inference_time_sec": 2.432
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:09.264484+00:00",
+      "finish": "2026-07-01T13:55:11.696270+00:00",
+      "runtime_sec": 2.432
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "early_blight/3.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12183,
+      "sha256": "c2b813db2ca460894280bc0decf1df940dbe64085b81d1c54568f74d155d5a3c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/4.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Dark, irregular spots on the leaf surface.\nDisease: Tomato Mosaic Virus (TMV) or another viral infection.\nAlternative Diagnoses: Bacterial spot, fungal infection, or nutrient deficiency.\nSeverity: Moderate to high severity.\nConfidence (0-100): 70%\nReasoning: The dark, irregular spots on the leaf suggest a viral infection, which is consistent with Tomato Mosaic Virus. However, without additional information or testing, it is not possible to rule out other potential causes.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Dark, irregular spots on the leaf surface.",
+      "disease": "Tomato Mosaic Virus (TMV) or another viral infection.",
+      "alternative_diagnoses": "Bacterial spot, fungal infection, or nutrient deficiency.",
+      "severity": "Moderate to high severity.",
+      "confidence": "70%",
+      "reasoning": "The dark, irregular spots on the leaf suggest a viral infection, which is consistent with Tomato Mosaic Virus. However, without additional information or testing, it is not possible to rule out other potential causes."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 119,
+      "prompt_tokens_per_sec": 537.3994623965407,
+      "generation_tokens_per_sec": 99.3642116631902,
+      "peak_memory_mb": 10659.12,
+      "inference_time_sec": 2.182
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:11.696978+00:00",
+      "finish": "2026-07-01T13:55:13.879227+00:00",
+      "runtime_sec": 2.182
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "early_blight/4.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13121,
+      "sha256": "f44b6342cac8316b34a4fd23209d0100b9a19e803b3c94b8d09595a5f0d4f0bf"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/early_blight/5.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows dark, irregular spots and areas of discoloration, with some parts appearing necrotic.\nDisease: Tomato Mosaic Virus (TMV) or another viral infection.\nAlternative Diagnoses: Bacterial spot, fungal infection, or nutrient deficiency.\nSeverity: Moderate to High\nConfidence (0-100): 70%\nReasoning: The presence of dark spots and necrotic areas suggests a viral infection, which is consistent with Tomato Mosaic Virus. However, without additional context or testing, other diagnoses cannot be ruled out with certainty.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows dark, irregular spots and areas of discoloration, with some parts appearing necrotic.",
+      "disease": "Tomato Mosaic Virus (TMV) or another viral infection.",
+      "alternative_diagnoses": "Bacterial spot, fungal infection, or nutrient deficiency.",
+      "severity": "Moderate to High",
+      "confidence": "70%",
+      "reasoning": "The presence of dark spots and necrotic areas suggests a viral infection, which is consistent with Tomato Mosaic Virus. However, without additional context or testing, other diagnoses cannot be ruled out with certainty."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 130,
+      "prompt_tokens_per_sec": 536.6754413155107,
+      "generation_tokens_per_sec": 99.44579683599642,
+      "peak_memory_mb": 10659.12,
+      "inference_time_sec": 2.293
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:13.879959+00:00",
+      "finish": "2026-07-01T13:55:16.173204+00:00",
+      "runtime_sec": 2.293
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "early_blight/5.JPG",
+      "class_folder": "early_blight",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15472,
+      "sha256": "243cd5f9e2dc37d1a45a058deb89c921767e588c4d1443227065ecfff9da099e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/1.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of the leaf edges and veins, with some areas appearing necrotic.\nDisease: Tomato Mosaic Virus (TMV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress.\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The distinct yellowing and browning pattern, along with the presence of necrotic areas, is characteristic of Tomato Mosaic Virus. The pattern is consistent with the typical symptoms of TMV, which is a common viral disease affecting tomatoes. The severity is moderate to high due to the extensive damage observed on the leaf.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of the leaf edges and veins, with some areas appearing necrotic.",
+      "disease": "Tomato Mosaic Virus (TMV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress.",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The distinct yellowing and browning pattern, along with the presence of necrotic areas, is characteristic of Tomato Mosaic Virus. The pattern is consistent with the typical symptoms of TMV, which is a common viral disease affecting tomatoes. The severity is moderate to high due to the extensive damage observed on the leaf."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 145,
+      "prompt_tokens_per_sec": 536.0116447417638,
+      "generation_tokens_per_sec": 99.27084136217681,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.449
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:16.173963+00:00",
+      "finish": "2026-07-01T13:55:18.622679+00:00",
+      "runtime_sec": 2.449
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "leaf_mold/1.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15611,
+      "sha256": "33063ecffbdddcb0ca01d1838b32e22eaa0fb7c207db670c58e9f16ca01b47ea"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/2.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of the leaf edges and veins, with some areas appearing necrotic.\nDisease: Tomato Mosaic Virus (TMV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress.\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The distinct yellowing and browning pattern, along with the presence of necrotic areas, is characteristic of Tomato Mosaic Virus. The pattern is consistent with the virus's typical symptoms on tomato leaves.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of the leaf edges and veins, with some areas appearing necrotic.",
+      "disease": "Tomato Mosaic Virus (TMV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress.",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The distinct yellowing and browning pattern, along with the presence of necrotic areas, is characteristic of Tomato Mosaic Virus. The pattern is consistent with the virus's typical symptoms on tomato leaves."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 123,
+      "prompt_tokens_per_sec": 536.014517290489,
+      "generation_tokens_per_sec": 100.36276783376607,
+      "peak_memory_mb": 10659.12,
+      "inference_time_sec": 2.214
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:18.623437+00:00",
+      "finish": "2026-07-01T13:55:20.836975+00:00",
+      "runtime_sec": 2.214
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "leaf_mold/2.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 14788,
+      "sha256": "acc36b61dc9729b5169afa45f7b62eb86530c47ffb943a75e37e4991b908046b"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/3.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of the leaf, particularly on the edges and veins.\nDisease: Tomato Mosaic Virus (TMV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress.\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The distinct yellowing and browning pattern, along with the presence of mottled areas, is characteristic of Tomato Mosaic Virus. The pattern is consistent with the typical symptoms of TMV, which is a common viral disease affecting tomatoes. The severity is moderate to high due to the extensive discoloration observed on the leaf.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of the leaf, particularly on the edges and veins.",
+      "disease": "Tomato Mosaic Virus (TMV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress.",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The distinct yellowing and browning pattern, along with the presence of mottled areas, is characteristic of Tomato Mosaic Virus. The pattern is consistent with the typical symptoms of TMV, which is a common viral disease affecting tomatoes. The severity is moderate to high due to the extensive discoloration observed on the leaf."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 143,
+      "prompt_tokens_per_sec": 536.1671779301134,
+      "generation_tokens_per_sec": 99.41837642656984,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.425
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:20.837803+00:00",
+      "finish": "2026-07-01T13:55:23.263160+00:00",
+      "runtime_sec": 2.425
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "leaf_mold/3.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 12303,
+      "sha256": "d1ed653c6e67c1ea5f6776b5833e8ac4ac4b446df738e46c80bccff59eed59df"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/4.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaves show signs of wilting and yellowing, particularly along the edges and veins.\nDisease: Tomato Yellow Leaf Curl Virus (TYLCV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress (e.g., drought, high temperatures)\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The yellowing and curling of the leaves, along with the presence of discoloration, are characteristic symptoms of Tomato Yellow Leaf Curl Virus. The severity is moderate to high due to the widespread yellowing and curling observed on multiple leaves. The confidence level is 80% because these symptoms are consistent with TYLCV, but other causes cannot be entirely ruled out without further testing or information.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaves show signs of wilting and yellowing, particularly along the edges and veins.",
+      "disease": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress (e.g., drought, high temperatures)",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The yellowing and curling of the leaves, along with the presence of discoloration, are characteristic symptoms of Tomato Yellow Leaf Curl Virus. The severity is moderate to high due to the widespread yellowing and curling observed on multiple leaves. The confidence level is 80% because these symptoms are consistent with TYLCV, but other causes cannot be entirely ruled out without further testing or information."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 173,
+      "prompt_tokens_per_sec": 872.8507867929281,
+      "generation_tokens_per_sec": 99.24440638325142,
+      "peak_memory_mb": 9525.38,
+      "inference_time_sec": 2.353
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:23.263990+00:00",
+      "finish": "2026-07-01T13:55:25.617205+00:00",
+      "runtime_sec": 2.353
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "leaf_mold/4.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 16599,
+      "sha256": "c9ecbab9f17925d20b8014e646dc6b40d76a309b143ab867394fef27e5fef8c9"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/leaf_mold/5.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaves show signs of wilting and yellowing, particularly along the edges and veins.\nDisease: Tomato Yellow Leaf Curl Virus (TYLCV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress (e.g., drought, high temperatures)\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The yellowing and curling of the leaves, along with the presence of discoloration, are characteristic symptoms of Tomato Yellow Leaf Curl Virus. The severity is moderate to high due to the widespread yellowing and curling observed on multiple leaves. The confidence level is 80% because these symptoms are consistent with TYLCV, but other causes cannot be entirely ruled out without further testing or information.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaves show signs of wilting and yellowing, particularly along the edges and veins.",
+      "disease": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress (e.g., drought, high temperatures)",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The yellowing and curling of the leaves, along with the presence of discoloration, are characteristic symptoms of Tomato Yellow Leaf Curl Virus. The severity is moderate to high due to the widespread yellowing and curling observed on multiple leaves. The confidence level is 80% because these symptoms are consistent with TYLCV, but other causes cannot be entirely ruled out without further testing or information."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 173,
+      "prompt_tokens_per_sec": 873.3563913059003,
+      "generation_tokens_per_sec": 99.44386644184736,
+      "peak_memory_mb": 9525.38,
+      "inference_time_sec": 2.35
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:25.618027+00:00",
+      "finish": "2026-07-01T13:55:27.967531+00:00",
+      "runtime_sec": 2.35
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "leaf_mold/5.JPG",
+      "class_folder": "leaf_mold",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 11060,
+      "sha256": "14cb1c129a409db12d630eec6709960a23c6c9adaa0fb90a74b0a87f984a9e40"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/1.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows signs of wilting and discoloration, with areas of yellowing and browning, particularly along the edges and veins.\nDisease: Tomato Mosaic Virus (TMV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress (e.g., drought, high temperatures)\nSeverity: Moderate to High\nConfidence (0-100): 70%\nReasoning: The distinct yellowing and browning patterns, along with the overall wilting of the leaf, are characteristic of Tomato Mosaic Virus. The presence of these symptoms, along with the lack of other visible signs of secondary infections or nutrient deficiencies, supports this diagnosis. However, without additional context or testing, it is not possible to rule out other potential causes.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows signs of wilting and discoloration, with areas of yellowing and browning, particularly along the edges and veins.",
+      "disease": "Tomato Mosaic Virus (TMV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress (e.g., drought, high temperatures)",
+      "severity": "Moderate to High",
+      "confidence": "70%",
+      "reasoning": "The distinct yellowing and browning patterns, along with the overall wilting of the leaf, are characteristic of Tomato Mosaic Virus. The presence of these symptoms, along with the lack of other visible signs of secondary infections or nutrient deficiencies, supports this diagnosis. However, without additional context or testing, it is not possible to rule out other potential causes."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 169,
+      "prompt_tokens_per_sec": 536.4572055910493,
+      "generation_tokens_per_sec": 99.24913478221406,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.69
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:27.968401+00:00",
+      "finish": "2026-07-01T13:55:30.658701+00:00",
+      "runtime_sec": 2.69
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "mosaic_virus/1.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 18345,
+      "sha256": "77487780b04b7f71301f5252247e7580a59bba179d4e2373d80ad7ecd326f904"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/2.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaves show signs of wilting and yellowing, particularly along the edges and veins.\nDisease: Tomato Yellow Leaf Curl Virus (TYLCV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress (e.g., drought, high temperatures)\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The yellowing and curling of the leaves, along with the presence of discoloration, are characteristic symptoms of Tomato Yellow Leaf Curl Virus. The severity is moderate to high due to the widespread yellowing and curling observed on multiple leaves. The confidence level is 80% because these symptoms are consistent with TYLCV, but other causes cannot be entirely ruled out without further testing or information.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaves show signs of wilting and yellowing, particularly along the edges and veins.",
+      "disease": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress (e.g., drought, high temperatures)",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The yellowing and curling of the leaves, along with the presence of discoloration, are characteristic symptoms of Tomato Yellow Leaf Curl Virus. The severity is moderate to high due to the widespread yellowing and curling observed on multiple leaves. The confidence level is 80% because these symptoms are consistent with TYLCV, but other causes cannot be entirely ruled out without further testing or information."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 173,
+      "prompt_tokens_per_sec": 873.3346599685901,
+      "generation_tokens_per_sec": 100.00996972137189,
+      "peak_memory_mb": 9525.38,
+      "inference_time_sec": 2.339
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:30.659590+00:00",
+      "finish": "2026-07-01T13:55:32.998316+00:00",
+      "runtime_sec": 2.339
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "mosaic_virus/2.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15676,
+      "sha256": "478ead03f1f962f60ae3455b90affd170c8b6a5cca95a60d1cf5e32b68f8bd0c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/3.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf exhibits yellowing and browning, particularly along the veins and edges, with some areas appearing necrotic.\nDisease: Tomato Mosaic Virus (TMV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress.\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The distinct yellowing and browning pattern, along with the presence of necrotic areas, is characteristic of Tomato Mosaic Virus. The pattern is consistent with the typical symptoms of TMV infection.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf exhibits yellowing and browning, particularly along the veins and edges, with some areas appearing necrotic.",
+      "disease": "Tomato Mosaic Virus (TMV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress.",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The distinct yellowing and browning pattern, along with the presence of necrotic areas, is characteristic of Tomato Mosaic Virus. The pattern is consistent with the typical symptoms of TMV infection."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 125,
+      "prompt_tokens_per_sec": 535.6084391039133,
+      "generation_tokens_per_sec": 99.51206583194323,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.244
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:32.999290+00:00",
+      "finish": "2026-07-01T13:55:35.242968+00:00",
+      "runtime_sec": 2.244
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "mosaic_virus/3.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15893,
+      "sha256": "0b9f951849b9b676253328474ae2143dea472e3832156dab51e595beffa9f402"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/4.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows yellowing and browning, particularly along the veins and edges, with some areas appearing necrotic.\nDisease: Tomato Mosaic Virus (TMV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress.\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The distinct yellowing and browning pattern, along with the presence of necrotic areas, is characteristic of Tomato Mosaic Virus. The pattern is consistent with the typical symptoms of TMV infection.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows yellowing and browning, particularly along the veins and edges, with some areas appearing necrotic.",
+      "disease": "Tomato Mosaic Virus (TMV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress.",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The distinct yellowing and browning pattern, along with the presence of necrotic areas, is characteristic of Tomato Mosaic Virus. The pattern is consistent with the typical symptoms of TMV infection."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 125,
+      "prompt_tokens_per_sec": 536.4220113587492,
+      "generation_tokens_per_sec": 99.49323455303796,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.244
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:35.243919+00:00",
+      "finish": "2026-07-01T13:55:37.487546+00:00",
+      "runtime_sec": 2.244
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "mosaic_virus/4.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 13330,
+      "sha256": "f17385882c3f1f3343b50e25f41f0640729f45a4a0fefb30ced2441dde8ebc5d"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/mosaic_virus/5.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows signs of wilting and yellowing, particularly along the edges and veins.\nDisease: Tomato Mosaic Virus (TMV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress.\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The distinct yellowing and edge curling are characteristic of TMV infection, which is a common viral disease affecting tomatoes. The pattern of symptoms aligns with TMV, and other causes are less likely given the specific presentation.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows signs of wilting and yellowing, particularly along the edges and veins.",
+      "disease": "Tomato Mosaic Virus (TMV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress.",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The distinct yellowing and edge curling are characteristic of TMV infection, which is a common viral disease affecting tomatoes. The pattern of symptoms aligns with TMV, and other causes are less likely given the specific presentation."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 123,
+      "prompt_tokens_per_sec": 536.4563378475921,
+      "generation_tokens_per_sec": 99.69608224777276,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.22
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:37.488508+00:00",
+      "finish": "2026-07-01T13:55:39.708716+00:00",
+      "runtime_sec": 2.22
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "mosaic_virus/5.JPG",
+      "class_folder": "mosaic_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 15628,
+      "sha256": "a48fd8bd48810917768d7f655c8503598089e80ed29a6124141ea118d33b5cc5"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/1.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows signs of wilting and yellowing, particularly along the veins. There are also small, dark spots on the surface of the leaf.\nDisease: Tomato Mosaic Virus (TMV)\nAlternative Diagnoses: Other viral infections, bacterial infections, or nutrient deficiencies could cause similar symptoms, but the presence of small, dark spots is characteristic of TMV.\nSeverity: Moderate\nConfidence (0-100): 80%\nReasoning: The combination of wilting, yellowing, and the presence of small, dark spots is consistent with Tomato Mosaic Virus, which is a common viral disease affecting tomatoes. The severity is moderate, as the plant is visibly affected but not completely dead. The confidence level is high due to the distinct symptoms observed.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows signs of wilting and yellowing, particularly along the veins. There are also small, dark spots on the surface of the leaf.",
+      "disease": "Tomato Mosaic Virus (TMV)",
+      "alternative_diagnoses": "Other viral infections, bacterial infections, or nutrient deficiencies could cause similar symptoms, but the presence of small, dark spots is characteristic of TMV.",
+      "severity": "Moderate",
+      "confidence": "80%",
+      "reasoning": "The combination of wilting, yellowing, and the presence of small, dark spots is consistent with Tomato Mosaic Virus, which is a common viral disease affecting tomatoes. The severity is moderate, as the plant is visibly affected but not completely dead. The confidence level is high due to the distinct symptoms observed."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 169,
+      "prompt_tokens_per_sec": 536.340974968198,
+      "generation_tokens_per_sec": 99.40006327152248,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.688
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:39.709692+00:00",
+      "finish": "2026-07-01T13:55:42.397558+00:00",
+      "runtime_sec": 2.688
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "target_spot/1.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20213,
+      "sha256": "4bbc310f179679d83d9ceac8decf6180b234f3e4c263cbeb094469a3fa0b8a8e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/2.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows signs of discoloration, with dark spots and areas of browning, particularly around the edges and veins.\nDisease: Early blight (Alternaria solani)\nAlternative Diagnoses: Other fungal infections, nutrient deficiencies, or environmental stress.\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The presence of dark, concentric spots and the overall discoloration pattern are characteristic of early blight, a common fungal disease affecting tomatoes. The symptoms are consistent with the pathogen's typical impact on leaves.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows signs of discoloration, with dark spots and areas of browning, particularly around the edges and veins.",
+      "disease": "Early blight (Alternaria solani)",
+      "alternative_diagnoses": "Other fungal infections, nutrient deficiencies, or environmental stress.",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The presence of dark, concentric spots and the overall discoloration pattern are characteristic of early blight, a common fungal disease affecting tomatoes. The symptoms are consistent with the pathogen's typical impact on leaves."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 135,
+      "prompt_tokens_per_sec": 536.1697794549252,
+      "generation_tokens_per_sec": 99.43112207037902,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.346
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:42.398543+00:00",
+      "finish": "2026-07-01T13:55:44.744067+00:00",
+      "runtime_sec": 2.346
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "target_spot/2.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20922,
+      "sha256": "896f66f0c12091d3e72f1d760d22ad58ef848d0198582562daaad8631def0c59"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/3.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows a green color with a slightly rough texture and some yellow spots.\nDisease: The yellow spots could indicate a nutrient deficiency or a fungal infection.\nAlternative Diagnoses: The yellow spots might also be caused by a bacterial infection or a viral infection.\nSeverity: The severity is moderate, as the leaf is not completely covered with spots, but there are noticeable yellow areas.\nConfidence (0-100): 70\nReasoning: The yellow spots are not extensive, and the leaf is still predominantly green, suggesting that the disease is not at its peak severity. However, the presence of yellow spots indicates some level of distress or infection.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows a green color with a slightly rough texture and some yellow spots.",
+      "disease": "The yellow spots could indicate a nutrient deficiency or a fungal infection.",
+      "alternative_diagnoses": "The yellow spots might also be caused by a bacterial infection or a viral infection.",
+      "severity": "The severity is moderate, as the leaf is not completely covered with spots, but there are noticeable yellow areas.",
+      "confidence": "70",
+      "reasoning": "The yellow spots are not extensive, and the leaf is still predominantly green, suggesting that the disease is not at its peak severity. However, the presence of yellow spots indicates some level of distress or infection."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 148,
+      "prompt_tokens_per_sec": 536.8351114170651,
+      "generation_tokens_per_sec": 99.1770593188068,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.478
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:44.745150+00:00",
+      "finish": "2026-07-01T13:55:47.223378+00:00",
+      "runtime_sec": 2.478
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "target_spot/3.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 19847,
+      "sha256": "b9b20509c41742e2b574f7ad37d3235271d01c06907959ffbc5506597084c1ab"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/4.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows signs of wilting and discoloration, with areas of yellowing and browning, particularly along the veins.\nDisease: Tomato leaf curl virus (TLCV)\nAlternative Diagnoses: Other viral infections, bacterial infections, or nutrient deficiencies could cause similar symptoms, but the pattern of yellowing and browning is characteristic of the virus.\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The pattern of yellowing and browning, along with the overall appearance of the leaf, is consistent with the symptoms of the Tomato leaf curl virus. The severity is moderate to high due to the extensive discoloration and potential impact on the plant's health.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows signs of wilting and discoloration, with areas of yellowing and browning, particularly along the veins.",
+      "disease": "Tomato leaf curl virus (TLCV)",
+      "alternative_diagnoses": "Other viral infections, bacterial infections, or nutrient deficiencies could cause similar symptoms, but the pattern of yellowing and browning is characteristic of the virus.",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The pattern of yellowing and browning, along with the overall appearance of the leaf, is consistent with the symptoms of the Tomato leaf curl virus. The severity is moderate to high due to the extensive discoloration and potential impact on the plant's health."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 162,
+      "prompt_tokens_per_sec": 535.9357693756856,
+      "generation_tokens_per_sec": 99.44789023734346,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.617
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:47.224406+00:00",
+      "finish": "2026-07-01T13:55:49.841786+00:00",
+      "runtime_sec": 2.617
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "target_spot/4.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20511,
+      "sha256": "c3c9efa88a2550a369268c21fa35e1ef74596ee40ea749ce17982f412888ffa1"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/target_spot/5.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf exhibits signs of wilting and discoloration, with areas of yellowing and browning, particularly along the veins.\nDisease: Tomato leaf curl virus (TLCV)\nAlternative Diagnoses: Other viral infections, bacterial infections, or nutrient deficiencies could also cause similar symptoms, but the pattern and distribution of the discoloration are most consistent with TLCV.\nSeverity: Moderate to High\nConfidence (0-100): 85%\nReasoning: The pattern of yellowing and browning along the veins, coupled with the overall wilting of the leaf, is characteristic of the Tomato leaf curl virus. The distribution and severity of the symptoms align with known signs of this viral infection.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf exhibits signs of wilting and discoloration, with areas of yellowing and browning, particularly along the veins.",
+      "disease": "Tomato leaf curl virus (TLCV)",
+      "alternative_diagnoses": "Other viral infections, bacterial infections, or nutrient deficiencies could also cause similar symptoms, but the pattern and distribution of the discoloration are most consistent with TLCV.",
+      "severity": "Moderate to High",
+      "confidence": "85%",
+      "reasoning": "The pattern of yellowing and browning along the veins, coupled with the overall wilting of the leaf, is characteristic of the Tomato leaf curl virus. The distribution and severity of the symptoms align with known signs of this viral infection."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 159,
+      "prompt_tokens_per_sec": 536.2950209848589,
+      "generation_tokens_per_sec": 99.40271888288748,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.586
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:49.842791+00:00",
+      "finish": "2026-07-01T13:55:52.428916+00:00",
+      "runtime_sec": 2.586
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "target_spot/5.JPG",
+      "class_folder": "target_spot",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 20039,
+      "sha256": "3f82e1d895ddcaad3f42e51d7d6f6db04b731dafe7c87c4604db01a8a258286c"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/1.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows signs of wilting and discoloration, with areas of yellowing and browning.\nDisease: Tomato Mosaic Virus (TMV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress.\nSeverity: Moderate to High\nConfidence (0-100): 70%\nReasoning: The distinct yellowing and browning patterns, along with the overall wilting of the leaf, are characteristic of Tomato Mosaic Virus. However, without additional context or testing, other diagnoses cannot be ruled out with certainty.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows signs of wilting and discoloration, with areas of yellowing and browning.",
+      "disease": "Tomato Mosaic Virus (TMV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress.",
+      "severity": "Moderate to High",
+      "confidence": "70%",
+      "reasoning": "The distinct yellowing and browning patterns, along with the overall wilting of the leaf, are characteristic of Tomato Mosaic Virus. However, without additional context or testing, other diagnoses cannot be ruled out with certainty."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 126,
+      "prompt_tokens_per_sec": 536.1046026848165,
+      "generation_tokens_per_sec": 98.96389646540175,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.26
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:52.429967+00:00",
+      "finish": "2026-07-01T13:55:54.690023+00:00",
+      "runtime_sec": 2.26
+    },
+    "image_metadata": {
+      "filename": "1.JPG",
+      "relative_path": "yellowleaf_curl_virus/1.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8103,
+      "sha256": "6df2838c482139b8c75c6cac397d02773f122ab26c42982a8f827fe34d691579"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/2.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows signs of discoloration and possible wilting.\nDisease: The symptoms suggest a possible fungal infection, such as early blight or septoria leaf spot.\nAlternative Diagnoses: Other potential causes could include nutrient deficiency, water stress, or pest infestation.\nSeverity: Moderate severity, as the leaf is visibly affected but not completely wilted.\nConfidence (0-100): 70%\nReasoning: The discoloration and wilting are indicative of a fungal infection, but without further testing or context, other causes cannot be ruled out.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows signs of discoloration and possible wilting.",
+      "disease": "The symptoms suggest a possible fungal infection, such as early blight or septoria leaf spot.",
+      "alternative_diagnoses": "Other potential causes could include nutrient deficiency, water stress, or pest infestation.",
+      "severity": "Moderate severity, as the leaf is visibly affected but not completely wilted.",
+      "confidence": "70%",
+      "reasoning": "The discoloration and wilting are indicative of a fungal infection, but without further testing or context, other causes cannot be ruled out."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 134,
+      "prompt_tokens_per_sec": 536.8654649645903,
+      "generation_tokens_per_sec": 100.2785786063653,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.322
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:54.691185+00:00",
+      "finish": "2026-07-01T13:55:57.012870+00:00",
+      "runtime_sec": 2.322
+    },
+    "image_metadata": {
+      "filename": "2.JPG",
+      "relative_path": "yellowleaf_curl_virus/2.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 5351,
+      "sha256": "707c27effbeb3c8bb9a8e1160fc0e6b0de2169d52219a893ed5f35262f4b4f4e"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/3.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: The leaf shows signs of yellowing and wilting, particularly around the edges and veins.\nDisease: Tomato Mosaic Virus (TMV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress.\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The distinct yellowing and wilting pattern, along with the presence of discoloration, is characteristic of Tomato Mosaic Virus, which is a common viral disease affecting tomatoes. The pattern and distribution of symptoms align with TMV, and other causes are less likely given the specific presentation.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "The leaf shows signs of yellowing and wilting, particularly around the edges and veins.",
+      "disease": "Tomato Mosaic Virus (TMV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress.",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The distinct yellowing and wilting pattern, along with the presence of discoloration, is characteristic of Tomato Mosaic Virus, which is a common viral disease affecting tomatoes. The pattern and distribution of symptoms align with TMV, and other causes are less likely given the specific presentation."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 136,
+      "prompt_tokens_per_sec": 536.2640477449737,
+      "generation_tokens_per_sec": 99.68427812220243,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.351
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:57.014068+00:00",
+      "finish": "2026-07-01T13:55:59.364927+00:00",
+      "runtime_sec": 2.351
+    },
+    "image_metadata": {
+      "filename": "3.JPG",
+      "relative_path": "yellowleaf_curl_virus/3.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 9100,
+      "sha256": "c08724d4d1b72aba0b2e68baeccffb5cd8715ed7417c1711cba554bacc920cb0"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/4.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of the leaf edges and veins, with some dark spots.\nDisease: Tomato Mosaic Virus (TMV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress.\nSeverity: Moderate to High\nConfidence (0-100): 70%\nReasoning: The yellowing and browning of the leaf edges and veins, along with the presence of dark spots, are characteristic symptoms of Tomato Mosaic Virus. While other viral infections, nutrient deficiencies, or environmental stress can cause similar symptoms, the combination of these specific signs strongly suggests TMV. The moderate severity is based on the visible symptoms, and the confidence level is an assessment of the likelihood of TMV as the cause.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of the leaf edges and veins, with some dark spots.",
+      "disease": "Tomato Mosaic Virus (TMV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress.",
+      "severity": "Moderate to High",
+      "confidence": "70%",
+      "reasoning": "The yellowing and browning of the leaf edges and veins, along with the presence of dark spots, are characteristic symptoms of Tomato Mosaic Virus. While other viral infections, nutrient deficiencies, or environmental stress can cause similar symptoms, the combination of these specific signs strongly suggests TMV. The moderate severity is based on the visible symptoms, and the confidence level is an assessment of the likelihood of TMV as the cause."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 162,
+      "prompt_tokens_per_sec": 536.1795900185025,
+      "generation_tokens_per_sec": 99.33341605995112,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.618
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:55:59.366104+00:00",
+      "finish": "2026-07-01T13:56:01.983695+00:00",
+      "runtime_sec": 2.618
+    },
+    "image_metadata": {
+      "filename": "4.JPG",
+      "relative_path": "yellowleaf_curl_virus/4.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 7613,
+      "sha256": "c9c0669af67a454196b8496d6c941aaa8b0545696dad03961427f7e3648b5ae8"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  },
+  {
+    "image": "/Users/aakashjawle/Downloads/benchmark/dataset/yellowleaf_curl_virus/5.JPG",
+    "model": "mlx-community/deepseek-vl2-small-4bit",
+    "prompt": "You are an expert agricultural plant pathologist.\nThis image is of a TOMATO crop.\nAnalyze the leaf carefully.\nReturn ONLY the following fields.\nCrop:\nVisible Symptoms:\nDisease:\nAlternative Diagnoses:\nSeverity:\nConfidence (0-100):\nReasoning:\nDo not use external knowledge.\nOnly describe what can be visually observed.\nIf uncertain, explicitly say so instead of guessing.",
+    "status": "success",
+    "error": null,
+    "raw_output": "Crop: Tomato\nVisible Symptoms: Yellowing and browning of leaf edges and veins, with some areas appearing necrotic.\nDisease: Tomato Mosaic Virus (TMV)\nAlternative Diagnoses: Other viral infections, nutrient deficiencies, or environmental stress.\nSeverity: Moderate to High\nConfidence (0-100): 80%\nReasoning: The distinct yellowing and browning pattern, along with the presence of necrotic areas, is characteristic of Tomato Mosaic Virus. The pattern is consistent with the typical symptoms of TMV infection. While other causes could be considered, the specific pattern observed is most consistent with TMV.",
+    "parsed_output": {
+      "crop": "Tomato",
+      "visible_symptoms": "Yellowing and browning of leaf edges and veins, with some areas appearing necrotic.",
+      "disease": "Tomato Mosaic Virus (TMV)",
+      "alternative_diagnoses": "Other viral infections, nutrient deficiencies, or environmental stress.",
+      "severity": "Moderate to High",
+      "confidence": "80%",
+      "reasoning": "The distinct yellowing and browning pattern, along with the presence of necrotic areas, is characteristic of Tomato Mosaic Virus. The pattern is consistent with the typical symptoms of TMV infection. While other causes could be considered, the specific pattern observed is most consistent with TMV."
+    },
+    "metrics": {
+      "prompt_tokens": 525,
+      "generated_tokens": 138,
+      "prompt_tokens_per_sec": 536.0541287171725,
+      "generation_tokens_per_sec": 99.29277283458724,
+      "peak_memory_mb": 10659.11,
+      "inference_time_sec": 2.378
+    },
+    "timestamps": {
+      "start": "2026-07-01T13:56:01.984837+00:00",
+      "finish": "2026-07-01T13:56:04.362724+00:00",
+      "runtime_sec": 2.378
+    },
+    "image_metadata": {
+      "filename": "5.JPG",
+      "relative_path": "yellowleaf_curl_virus/5.JPG",
+      "class_folder": "yellowleaf_curl_virus",
+      "width": 256,
+      "height": 256,
+      "file_size_bytes": 8056,
+      "sha256": "61293d08367e296731c1764af9cf4cd41918cbb89d444cb2199d1135d09b3f39"
+    },
+    "model_metadata": {
+      "model_id": "mlx-community/deepseek-vl2-small-4bit",
+      "model_name": "deepseek-vl2-small-4bit",
+      "model_family": "DeepSeek",
+      "parameters": null,
+      "quantization": "4bit",
+      "mlx_model": true
+    }
+  }
+]

@@ -1,0 +1,29 @@
+Plant species:
+- Appears to be a cotton plant, based on the leaf shape and texture.
+
+Visible symptoms:
+- The leaf shows a light brown spot in the center, which could be a sign of a disease or damage.
+
+Leaf color:
+- The leaf is predominantly green, with a light brown spot in the center.
+
+Leaf texture:
+- The leaf has a smooth texture with visible veins.
+
+Spots or lesions:
+- There is a light brown spot in the center of the leaf, which appears to be a lesion.
+
+Severity:
+- The lesion appears to be localized and not extensive, suggesting it might be a minor issue.
+
+Most likely disease:
+- The light brown spot could be indicative of a fungal or bacterial leaf spot disease, such as Cotton Leaf Spot (Bacillus glabratus) or Cotton Bacterial Leaf Blight (Xanthomonas campestris).
+
+Alternative diagnoses:
+- The lesion could also be due to mechanical damage, such as insect feeding or physical injury.
+
+Confidence (0-100):
+- 70
+
+Reasoning:
+The leaf has a light brown spot, which is a common symptom of various diseases affecting cotton plants. The localized nature of the spot suggests it might be a minor issue. The texture and color of the leaf are consistent with a healthy cotton leaf, but the presence of the spot raises concern. The lesion could be due to a fungal or bacterial pathogen, or it could be a result of mechanical damage. The confidence level is moderate due to the need for further diagnostic tests to confirm the exact cause of the lesion.

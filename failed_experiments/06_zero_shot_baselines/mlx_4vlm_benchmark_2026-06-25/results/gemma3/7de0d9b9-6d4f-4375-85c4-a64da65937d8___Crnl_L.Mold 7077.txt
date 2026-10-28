@@ -1,0 +1,22 @@
+Here's an analysis of the provided crop image:
+
+**Plant species:** Likely tobacco (based on leaf shape).
+
+**Visible symptoms:** Discoloration, curling along the leaf margin.
+
+**Leaf color:** Primarily green, with areas of yellow/brown discoloration along the margin.
+
+**Leaf texture:** Appears relatively smooth and waxy.
+
+**Spots or lesions:** No distinct spots or lesions are visible. The discoloration appears to be a general change in color rather than individual spots.
+
+**Severity:** Mild to moderate, affecting a portion of the leaf margin.
+
+**Most likely disease:** Uncertain. The discoloration and curling could be due to environmental stress (e.g., nutrient deficiency, herbicide injury, or sun scorch).
+
+**Alternative diagnoses:**
+*   Nutrient deficiency (e.g., magnesium or potassium)
+*   Herbicide injury
+*   Sun scorch
+
+**Confidence (0-100):** 60% - The leaf discoloration and curling are visible, but the cause is uncertain without additional information (plant history, surrounding environment, other symptoms on the plant).

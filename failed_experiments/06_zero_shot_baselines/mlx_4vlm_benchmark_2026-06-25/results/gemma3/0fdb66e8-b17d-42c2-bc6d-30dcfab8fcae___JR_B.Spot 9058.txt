@@ -1,0 +1,22 @@
+Here's an analysis of the crop image, based solely on what is visible:
+
+**Plant species:** Uncertain. The leaf shape suggests it could be a legume (like soybean, peanut, or possibly a bean). However, without more context, it's difficult to confirm.
+
+**Visible symptoms:** Yellowing of the leaf, some tearing or ragged edges, and small dark spots.
+
+**Leaf color:** Primarily yellow, with some green remaining in the veins and edges.
+
+**Leaf texture:** Appears relatively smooth, though the tearing/damage obscures this somewhat.
+
+**Spots or lesions:** Small, dark spots are visible on the leaf surface.
+
+**Severity:** Moderate. A significant portion of the leaf is affected, but the entire leaf is not destroyed.
+
+**Most likely disease:** Uncertain. The dark spots could be insect feeding damage, or possibly early stages of a fungal or bacterial leaf spot.
+
+**Alternative diagnoses:**
+*   Insect feeding (e.g., flea beetles, leafhoppers)
+*   Nutrient deficiency (though this is less likely with the presence of dark spots)
+*   Environmental stress (e.g., drought, herbicide injury)
+
+**Confidence (0-100):** 40%. The limited view of the leaf and lack of context make definitive diagnosis difficult.
