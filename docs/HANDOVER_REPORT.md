@@ -101,9 +101,10 @@ All numbers below come from the evaluation reports in this repository (`evaluati
 - Captions compiled from a cited Disease Knowledge Base (ontology → vocabulary → templates, 1,966 captions);
   Qwen2.5-VL-7B-Instruct-4bit + QLoRA r16 with `mlx-vlm` on an Apple M4 Pro (24 GB).
 - **Results:** tomato 7.3% → **93.7%** (macro-F1 0.919, 910 test images); mango 17.5% → **82.0%** (0.811, 200).
-- MLX = Apple's framework for Apple Silicon; the adapters stayed on the Mac. The code is the `plantdx` package of
-  project 10 (`src/plantdx/training/mlx_runner.py`, tag v1.0.0 of github.com/iAakash1/experimentation). Results,
-  configs and Mac commands: `projects/09_plantdx_mlx_knowledge_grounded`.
+- MLX = Apple's framework for Apple Silicon. The complete Mac project is in `projects/09_plantdx_mlx_knowledge_grounded`:
+  the `plantdx` package (`src/plantdx/training/mlx_runner.py`), knowledge base, caption corpus, training datasets,
+  evaluation reports, training logs and the Streamlit demo, with Mac setup and run commands in its README. The two
+  adapter files were no longer on the Mac; the README shows how to retrain them.
 
 ## 10 · TIH tomato, 11 classes, Qwen2.5-VL QLoRA (Aug – Sep 2026) — ICAIN 2026 paper
 

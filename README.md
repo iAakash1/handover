@@ -98,7 +98,7 @@ handover/
 │   ├── 06_qwen25vl_plantvillage/  # qwen/ (April run), crop_disease_app/ (Streamlit app)
 │   ├── 07_plantdx_plantvillage/   # PlantDx package: core/, utils/, scripts/, app/
 │   ├── 08_plantvlm_expert_captions/  # plantvlm/ package, scripts/, runs/
-│   ├── 09_plantdx_mlx_knowledge_grounded/  # MLX: results, configs, Mac commands (code is in 10's src/plantdx)
+│   ├── 09_plantdx_mlx_knowledge_grounded/  # MLX (Mac): plantdx package, knowledge base, reports, logs, demo app
 │   └── 10_tih_tomato_qwen_qlora/  # plantdx package (src/), streamlit_app.py, configs/, checkpoints/, reports/
 ├── failed_experiments/            # everything that did not work out, with code and lessons
 ├── evaluation/                    # vlm_eval.py, vlm_predict.py + every October 2026 evaluation report
@@ -124,7 +124,8 @@ handover/
   paths are in `docs/datasets.md` and can be changed with environment variables.
 - **Models are not in git either**: `setup/download_models.py` fetches them (3.6 GB). They also stay on the
   TIH workstation in this folder.
-- **MLX (project 09)** ran on an Apple Silicon Mac. The adapters stayed on the Mac, but all the code is here: it is
-  the same `plantdx` package as project 10 (`src/plantdx/training/mlx_runner.py`), also published at
-  github.com/iAakash1/experimentation. Results, configs and Mac commands are in the 09 README.
+- **MLX (project 09)** ran on an Apple Silicon Mac. Everything from that Mac is here: the full `plantdx` code,
+  knowledge base, caption corpus, training datasets, evaluation reports and training logs in project 09, and the
+  two MLX zero-shot benchmarks (June and July) in `failed_experiments/06_zero_shot_baselines`. Only the two trained
+  adapter files were no longer on the Mac; the 09 README shows how to retrain them with the same config and seed.
 - **Paper:** `docs/publication/ICAIN2026_paper953_camera_ready.pdf` (accepted 1 Oct 2026, registered 21 Oct 2026).
