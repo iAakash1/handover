@@ -166,4 +166,27 @@ All 8 papers: `docs/publication.md`. ICAIN 2026 paper (ID 953), camera-ready PDF
 | The nested `experimentation/` copy (identical files; its one commit `d4eb1aa` was on a GitHub repo that no longer exists) | `history/kharulkamaaksha_experimentation.bundle` |
 | TIH Week 1–2 day notebooks, December 2025 (`~/Desktop/IITB`) | `projects/00_tih_foundation_weeks_dec2025` |
 | VLM teaching session deck and run of show (5 Aug) | `docs/reports/VLM_Teaching_Session.pptx`, `docs/reports/VLM_Session_Run_Of_Show.md` |
+| Paper draft *PlantDx: Knowledge-Grounded Instruction Tuning for Vision-Language Crop Disease Diagnosis* (21 Aug) | `docs/publication/drafts/PlantDx_Knowledge_Grounded_Instruction_Tuning_draft_2026-08-21.pdf` |
+| Paper draft *A Vision-Language Framework for Structured Plant Disease Diagnosis with Out-of-Distribution Detection* (31 Aug, two versions) | `docs/publication/drafts/VLM_Structured_Diagnosis_OOD_draft_2026-08-31_v1.docx`, `_v2.docx`, `_v2.md` |
+| ICAIN 2026 paper, submitted version (20 Sep) | `docs/publication/drafts/ICAIN2026_paper953_draft_2026-09-20.pdf` |
+| Fellowship proposal deck (October 2025), progress report (June 2026, mentor's phone number blacked out), progress review presentation | `docs/reports/Chanakya_Proposal_Presentation_2025-10.pptx` (+ `.md`), `TIH_Progress_Report_2026-06.pdf`, `Chanakya_Progress_Review_Presentation.pdf` |
+| Chanakya reports, version 1 PDFs of both fellows, and a partly filled v2.0 template copy | `docs/reports/Aakash_Chanakya_Report_TIH.pdf`, `Kamaaksha_Chanakya_Report_TIH.pdf`, `Kamaaksha_Chanakya_Report_TIH_v2.0_template_draft.docx` |
+| Project completion report (phone numbers removed) with its source notes, completion review deck, two-speaker presentation scripts | `docs/reports/Final_Project_Completion_Report.docx` (+ `.md`, `_SOURCES.md`), `Final_Project_Review_Presentation.pptx` (+ `.md`), `Final_Review_Presentation_Script_Two_Speakers*.pdf` |
+| Test-coverage report of the MLX package (14 Jul) | `projects/09_plantdx_mlx_knowledge_grounded/coverage.xml` |
 | Trained MLX adapters (`adapters.safetensors`, tomato and mango) | ⛔ no longer on the Mac; checksums in `reports/qwen25vl_<crop>_qlora/evaluation/system_info.json` |
+
+### Found on the Mac but not pushed, and why
+
+| What | Why |
+|---|---|
+| The two trained MLX adapters (`adapters.safetensors`) | Not on the Mac any more; the 09 README shows how to retrain them |
+| The other 28 PlantVillage classes (apple, corn, grape, …), `datasets/*/processed/` (normalized copies), the Week 2 cotton dataset and its 3,903 augmented images | Images only: the other crops were never used by the MLX runs; the normalized copies and augmented images are rebuilt by `plantdx normalize` and `augmentation.py` |
+| TIH-provided images (`~/Downloads/TIH.zip`, `~/Downloads/Tomato`) | TIH data is private |
+| Tool memory and scratch files (`AGENTS.md`, a reconstruction report, a synthetic smoke-test dataset in a temporary folder) | Working notes, not project work |
+| `.coverage`, `.mypy_cache`, `.ruff_cache`, `.pytest_cache`, `__pycache__` | Tool caches (the coverage result is kept as `coverage.xml`) |
+| The nested `experimentation/` folder | Identical to project 09; its one commit is in `history/kharulkamaaksha_experimentation.bundle` |
+| `~/Desktop/PlantDx`, `~/Desktop/IIT_Chanakya/recent_pipeline` | Same as `projects/07_plantdx_plantvillage` and the v0.5 version of project 01 (only line endings differ); their model files are already in the model store |
+| A second ICAIN draft built on 7 Oct | Same text as the 20 Sep draft |
+| Blank TIH report and slide templates, another institute's report used as a reference, a published paper (PLOS ONE) | Not our work |
+| A Gmail screenshot of the ICAIN acceptance | Personal mailbox; the acceptance details are in `docs/publication.md` |
+| Screenshots and screen recordings on the Desktop | They show other projects, not this work |

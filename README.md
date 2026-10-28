@@ -113,12 +113,12 @@ handover/
     ├── HOW_TO_RUN.md              # 2-page guide: run, retrain, edit, common errors
     ├── datasets.md                # every dataset, where it is, exact splits
     ├── publication.md             # ICAIN 2026 paper, project reports, papers studied
-    ├── publication/               # ICAIN 2026 camera-ready paper (PDF)
+    ├── publication/               # ICAIN 2026 camera-ready paper; drafts/ (PlantDx MLX paper, OOD paper, ICAIN submission)
     ├── monthly/                   # one page per month, Dec 2025 - Oct 2026
     ├── CHECKPOINT_INVENTORY.md    # training checkpoints kept on the workstation
     ├── timeline_verification.md   # how each date was checked against commits and files
     ├── vlm_plantvillage_comparison.md  # all PlantVillage VLMs side by side
-    └── reports/                   # fellowship report (both versions), PoCRA v1 and v2, presentations
+    └── reports/                   # fellowship reports, completion report, PoCRA v1 and v2, proposal and review decks, presentations
 ```
 
 ## Good to know
