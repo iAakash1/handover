@@ -25,5 +25,13 @@ $env:MAX_EVAL = 5; ..\.venvs\florence\Scripts\python vlm_eval.py florence out_fl
 ## The original scripts
 
 `02b_finetune_florence2.py`, `quick_train_florence2.py`, `03_inference.py`, `04_evaluate.py`, `05_app.py`,
-`quick_eval_florence2.py` are kept exactly as we wrote them (run from this folder with the `florence` env).
-Fine-tuning did not complete, so there is no Florence adapter.
+`quick_eval_florence2.py` are kept as we wrote them (run from this folder with the `florence` env). The only
+change: the two quick scripts read `../tp/captions.json` on the workstation, which is now
+`../../projects/04_llava_blip2/blip2_rerun_june/captions.json` (the same file); the originals are in
+`../../archive/original_files/workstation/VLM/florence/`. Fine-tuning did not complete, so there is no Florence
+adapter.
+
+`captions.json` here (used by `02b_finetune_florence2.py`) is the workstation file exactly as it was: it holds the
+same `{"train", "val"}` document twice in a row (18,574 + 2,064 captions each), so `json.load` stops with "Extra
+data". It is kept unchanged as a record; to run `02b_finetune_florence2.py`, read only the first document, e.g.
+`json.JSONDecoder().raw_decode(open("captions.json").read())[0]`.

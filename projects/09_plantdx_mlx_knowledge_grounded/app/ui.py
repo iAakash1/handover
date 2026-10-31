@@ -451,7 +451,8 @@ def _env_help(reason: str) -> str:
             "`conda activate` may not change which `streamlit` runs, use its **full "
             "path** to be certain:\n\n"
             "```bash\n"
-            "~/miniforge3/envs/vlm/bin/python -m streamlit run streamlit_app.py\n"
+            "conda activate vlm   # your MLX environment\n"
+            '"$CONDA_PREFIX/bin/python" -m streamlit run streamlit_app.py\n'
             "```\n\n"
             "(Plain `streamlit run …` can silently pick a different Python.) "
             'Alternatively, repair this interpreter with `pip install -U "numba>=0.59" '
@@ -462,7 +463,8 @@ def _env_help(reason: str) -> str:
             "This interpreter doesn't have **mlx-vlm** installed, which is required "
             "to run the model. Launch the app with the interpreter that has it, e.g.:\n\n"
             "```bash\n"
-            "~/miniforge3/envs/vlm/bin/python -m streamlit run streamlit_app.py\n"
+            "conda activate vlm   # your MLX environment\n"
+            '"$CONDA_PREFIX/bin/python" -m streamlit run streamlit_app.py\n'
             "```"
         )
     return (

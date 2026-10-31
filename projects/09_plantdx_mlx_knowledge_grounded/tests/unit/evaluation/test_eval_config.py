@@ -22,7 +22,8 @@ def test_defaults_match_the_frozen_tomato_run() -> None:
     # adapters.safetensors (see evaluation/checkpoint.py).
     assert not cfg.adapter_path.endswith("adapters.safetensors")
     assert "qwen25vl_tomato_qlora" in cfg.adapter_path
-    assert cfg.predictions_path.endswith("raw/predictions.jsonl")
+    # as_posix(): the path is built with the OS separator, so compare in one form (Windows uses "\").
+    assert Path(cfg.predictions_path).as_posix().endswith("raw/predictions.jsonl")
     assert cfg.output_dir == "reports/qwen25vl_tomato_qlora/evaluation"
 
 

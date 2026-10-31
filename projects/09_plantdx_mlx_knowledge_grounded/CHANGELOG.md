@@ -6,6 +6,20 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Fixed — handover reproducibility pass (31 Oct 2026)
+- `training/data/discovery.py` matches image names case-sensitively on every OS (`fnmatch.fnmatchcase`). On
+  Windows `Path.glob("*.JPG")` also matched 153 `.jpg` tomato images, so `prepare-training` produced 18,159 rows
+  instead of the July 18,006; macOS/Linux behaviour is unchanged. With the fix, both crops regenerate the July
+  splits row for row on Windows (`docs/REPRODUCTION.md`). Test: `test_discovery_glob_is_case_sensitive_on_every_os`.
+- `tests/unit/evaluation/test_eval_config.py` compares a path with `as_posix()` so it passes on Windows too.
+- `app/ui.py` and `docs/DEMO_APP.md` no longer print the Mac-specific `~/miniforge3/envs/vlm/bin/python`; they show
+  `"$CONDA_PREFIX/bin/python" -m streamlit run streamlit_app.py` (same advice: use the MLX env's own interpreter).
+
+### Added — handover documentation and checks
+- `models/` (one card per model: files, environment, data preparation, training, validation, checkpoint, inference,
+  evaluation, results, limitations), `docs/ARTIFACTS.md`, `docs/REPRODUCTION.md`, `requirements-mlx.txt` (versions
+  recorded in `system_info.json`), `scripts/verify_project.py` and `tests/unit/test_verify_project.py`.
+
 ### Added — Streamlit demo app (`app/`, `streamlit_app.py`)
 A presentation-only inference app over the trained tomato/mango QLoRA adapters,
 reusing `plantdx.training.inference` / `plantdx.evaluation` unchanged (no

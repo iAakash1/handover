@@ -2,7 +2,7 @@
 
 This repository organizes the code as a mature Python project (`src/` layout)
 while preserving the **final** artifact layout defined in
-[`../caption_framework/06_folder_structure_spec.md`](../caption_framework/06_folder_structure_spec.md)
+[`../caption_framework/06_folder_structure_spec.md`](../private_archive/caption_framework/06_folder_structure_spec.md)
 (doc 06). Nothing in the methodology was redesigned; the doc-06 tree is the
 *logical* artifact layout, and `configs/paths.yaml` is the single mapping layer
 onto the physical repository.

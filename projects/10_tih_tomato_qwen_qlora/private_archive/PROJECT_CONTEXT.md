@@ -180,7 +180,7 @@ each implemented stage, and `docs/ROADMAP.md` for the complete milestone plan.
 
 ## Known issues
 
-See [`docs/KNOWN_ISSUES.md`](docs/KNOWN_ISSUES.md) — currently one deferred
+See [`docs/KNOWN_ISSUES.md`](../docs/KNOWN_ISSUES.md) — currently one deferred
 issue: re-running `plantdx normalize` on an already-normalized dataset causes
 its manifest/report to show 0 images (the actual normalized files are
 unaffected; only that report is stale until the crop's `processed/` output

@@ -94,6 +94,10 @@ stage reads the previous stage's JSON output from `json_results/`).
 | `plots/*.png` | Bar charts, confusion matrices, radar chart |
 | `reports/final_report.md`, `final_report.pdf` | The full report |
 
+In this repository (handover note): the June 2026 run's raw answers are in `results/` and `json_results/`, and its
+report is in [`report/`](report/final_report.md) (`final_report.md`, `crop_vlm_benchmark_report.pdf`, `charts/`).
+`csv/`, `plots/` and `reports/` are empty until you run the pipeline again.
+
 ## 7. Known limitations (read before trusting the numbers)
 
 - **Ground truth is filename-derived and incomplete by design.** Many

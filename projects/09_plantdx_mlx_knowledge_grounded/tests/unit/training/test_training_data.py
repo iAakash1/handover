@@ -29,6 +29,18 @@ def test_discovery_missing_tree_is_actionable(tmp_path: Path) -> None:
 
 
 @pytest.mark.unit
+def test_discovery_glob_is_case_sensitive_on_every_os(tmp_path: Path) -> None:
+    # The July split was built on macOS, where "*.JPG" does not match ".jpg"; Windows globbing
+    # is case-insensitive, so discovery must not depend on the filesystem.
+    cls = tmp_path / "tomato" / "processed" / "healthy"
+    cls.mkdir(parents=True)
+    for name in ("a.JPG", "b.jpg", "c.JPG"):
+        (cls / name).write_bytes(b"x")
+    items = discover_images(tmp_path, "tomato", {"healthy": "tomato_healthy"}, image_glob="*.JPG")
+    assert [i.image_id for i in items] == ["healthy/a.JPG", "healthy/c.JPG"]
+
+
+@pytest.mark.unit
 def test_build_is_deterministic_and_grouped(data_config: DataConfig, tmp_path: Path) -> None:
     out1 = tmp_path / "o1"
     out2 = tmp_path / "o2"

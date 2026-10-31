@@ -1,0 +1,15 @@
+# MLX training / inference environment (macOS on Apple Silicon only).
+#
+# These are the versions recorded on the Mac that trained and evaluated both models (14 Jul 2026), taken from
+# reports/qwen25vl_<crop>_qlora/evaluation/system_info.json: Python 3.12.13, macOS 26.5.2 arm64, Apple M4 Pro 24 GB.
+# Recorded there: mlx, mlx-vlm, mlx-lm, transformers (pinned below), torch 2.13.0 (not needed for MLX training or
+# inference, so left out) and plantdx 0.1.0 (this folder). Everything else comes from `pip install -e ".[train]"`.
+#
+#   conda create -n vlm python=3.12 -y && conda activate vlm
+#   pip install -e ".[train]" -r requirements-mlx.txt
+#
+# The metrics stack lives in a separate environment: ./scripts/setup_eval_env.sh (docs/EVALUATION.md).
+mlx==0.31.2
+mlx-vlm==0.6.4
+mlx-lm==0.31.3
+transformers==5.12.1

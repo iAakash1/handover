@@ -10,7 +10,7 @@ reviewable body of work; scope PRs to a single milestone.
 
 ## M2 — Dataset Audit Engine ✅ (implemented)
 - CPU-only audit that inventories the configured datasets and writes a
-  reproducibility report (`reports/`). See [AUDIT.md](AUDIT.md). Also implemented
+  reproducibility report (`reports/`). See [AUDIT.md](../../docs/AUDIT.md). Also implemented
   the M2-tagged infrastructure it depends on: config loader, `utils.io`,
   `utils.hashing`, `utils.logging`.
 - **Acceptance:** `plantdx audit` runs on CPU and emits `dataset_card.md`,
@@ -21,7 +21,7 @@ reviewable body of work; scope PRs to a single milestone.
 ## M2.1 — Dataset Normalization Engine ✅ (implemented)
 - CPU-only, filesystem-only. Copies the tomato + mango classes from the immutable
   raw datasets into `datasets/<crop>/processed/<canonical_class>/`, with a class
-  map, manifest, dataset card, and combined run report. See [NORMALIZATION.md](NORMALIZATION.md).
+  map, manifest, dataset card, and combined run report. See [NORMALIZATION.md](../../docs/NORMALIZATION.md).
 - **Acceptance:** `plantdx normalize` extracts only mapped classes, normalizes names,
   merges train/val (preserving split in the manifest), verifies every copied file's
   checksum, and never modifies `raw/`. Unit tests cover layout detection, extraction,

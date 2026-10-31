@@ -8,11 +8,11 @@ development environment and the standards contributions must meet.
 PlantDx follows a **research design that is final**. Implementation must match it
 exactly — do not redesign, simplify, or change the methodology.
 
-- **Stage 1 — Disease Knowledge Base:** [`knowledge_base/`](knowledge_base/) (final).
-- **Stage 2 — Caption Framework specification:** [`caption_framework/`](caption_framework/) (final).
+- **Stage 1 — Disease Knowledge Base:** [`knowledge_base/`](private_archive/knowledge_base/) (final).
+- **Stage 2 — Caption Framework specification:** [`caption_framework/`](private_archive/caption_framework/) (final).
 
 Every change must preserve the **seven design invariants** listed in
-[`caption_framework/README.md`](caption_framework/README.md):
+[`caption_framework/README.md`](private_archive/caption_framework/README.md):
 label-only grounding, DKB as single source of truth, closed vocabulary,
 observability, pest/pathogen register integrity, severity honesty, and
 reproducibility. A PR that violates an invariant will be rejected regardless of
@@ -46,7 +46,7 @@ Requirements for every PR:
 
 ## Milestones
 
-Work is organized into milestones (see [`docs/ROADMAP.md`](docs/ROADMAP.md)).
+Work is organized into milestones (see [`docs/ROADMAP.md`](private_archive/docs/ROADMAP.md)).
 Please scope PRs to a single milestone/component. Milestone 1 is scaffolding
 only; do not implement generator/validator/dataset/training logic until the
 corresponding milestone is open.

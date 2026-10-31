@@ -108,6 +108,11 @@ All numbers below come from the evaluation reports in this repository (`evaluati
 - Before it, on the same Mac (`earlier_experiments/`): PlantCaption, a knowledge-base + VLM caption pipeline (12 Jun);
   four rounds of caption sets (23 Jun); zero-shot benchmarks of 4 VLMs on 16 images (25 Jun: exact match 0–6%) and
   7 VLMs on 30 images (1 Jul: best 23%, Qwen3-VL degenerate on 16 of 30).
+- **Per-model cards** with every file and command: `projects/09_plantdx_mlx_knowledge_grounded/models/`.
+  Reproducibility (31 Oct 2026, on this Windows machine without MLX): both training datasets regenerate row for row
+  from the images in git, after one fix (case-sensitive image matching, so Windows picks the same 18,006 tomato
+  images as the Mac); the test suite passes except the one test that needs the missing tomato weights. Details:
+  `docs/REPRODUCTION.md` and `docs/ARTIFACTS.md` in that folder.
 
 ## 10 · TIH tomato, 11 classes, Qwen2.5-VL QLoRA (Aug – Sep 2026) — ICAIN 2026 paper
 

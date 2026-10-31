@@ -7,6 +7,7 @@ the result is byte-stable across machines and filesystems.
 from __future__ import annotations
 
 from dataclasses import dataclass
+from fnmatch import fnmatchcase
 from pathlib import Path
 
 from plantdx.core.exceptions import DerivationError
@@ -48,7 +49,12 @@ def discover_images(
         class_dir = root / class_name
         if not class_dir.is_dir():
             continue
-        for path in sorted(class_dir.glob(image_glob), key=lambda p: p.name):
+        # fnmatchcase, not Path.glob: glob is case-sensitive on macOS/Linux but not on Windows,
+        # where "*.JPG" would also pick up ".jpg" files (153 extra PlantVillage tomato images) and
+        # silently change the frozen split. Matching case-sensitively everywhere keeps the July
+        # (macOS) behaviour on every OS.
+        matches = (p for p in class_dir.iterdir() if fnmatchcase(p.name, image_glob))
+        for path in sorted(matches, key=lambda p: p.name):
             if not path.is_file():
                 continue
             items.append(

@@ -102,6 +102,63 @@ understand you are regenerating, not editing, `datasets/<crop>/`.)
 
 ## Reporting a new known issue
 
+## 2. The trained adapter weights are not in the repository
+
+**Status:** known, cannot be fixed from the repository. **Component:** `checkpoints/`. **Severity:** high for
+inference and evaluation (they need the weights), none for everything else.
+
+### What happens
+
+`checkpoints/qwen25vl_<crop>_qlora/` hold only `adapter_config.json`. `plantdx infer`, `plantdx evaluate --stage
+inference` and the demo's model backend stop with "malformed adapter checkpoint … missing adapters.safetensors",
+and `tests/unit/evaluation/test_eval_checkpoint.py::test_real_frozen_tomato_checkpoint_resolves` fails.
+
+### Why it happens
+
+Both runs wrote `adapters.safetensors` (see the last lines of `logs/<run>/train.log`), but the files were no
+longer on the Mac when the project was handed over. Their SHA-256 checksums survive in
+`reports/<run>/evaluation/system_info.json`.
+
+### Why it is not dangerous
+
+Every input of the runs is in git and regenerates exactly (`docs/REPRODUCTION.md`), so retraining with the same
+config and seed recreates an equivalent adapter. The July evaluation results stay valid as a record.
+
+### Why it was intentionally deferred / suggested eventual fix
+
+Retraining needs an Apple Silicon Mac (about 12 h for tomato, 1.6 h for mango). After retraining, publish the
+weights as described in `docs/ARTIFACTS.md`. `scripts/verify_project.py` reports the state (MISSING / July weights /
+retrained).
+
+---
+
+## 3. The July training datasets list images by their absolute Mac paths
+
+**Status:** known, by design. **Component:** `artifacts/training/<run>/dataset/*.jsonl`. **Severity:** low.
+
+### What happens
+
+Every row of the committed `train/validation/test.jsonl` points at
+`/Users/aakashjawle/Desktop/experiments/datasets/<crop>/processed/...`, which exists only on the original Mac.
+
+### Why it happens
+
+`training/data/discovery.py` writes each image as an absolute path (`path.resolve()`), and `mlx_vlm.lora` reads
+the paths exactly as written.
+
+### Why it is not dangerous
+
+`plantdx normalize` followed by `plantdx prepare-training` rewrites the files for the current machine with the same
+rows in the same order (verified for both crops, `docs/REPRODUCTION.md`). The committed copies are the record of
+what was trained on.
+
+### Why it was intentionally deferred / suggested eventual fix
+
+Changing the path format would change the frozen training artifacts. If relative paths are ever wanted, write
+them relative to the dataset directory and have the runner resolve them before calling `mlx_vlm.lora`.
+
+---
+
 Add a new `##`-level section above, following the same structure: **Status /
 Component / Severity**, **What happens**, **Why it happens**, **Why it is not
 dangerous**, **Why it was intentionally deferred**, and (if known) a

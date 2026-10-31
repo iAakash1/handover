@@ -19,7 +19,7 @@ from peft import LoraConfig, get_peft_model, PeftModel
 import torchvision.transforms as T
 
 MODEL_NAME  = "microsoft/Florence-2-base-ft"
-CAPTIONS    = "../tp/captions.json"     # use clean captions from tp/
+CAPTIONS    = "../../projects/04_llava_blip2/blip2_rerun_june/captions.json"     # clean captions (was ../tp/ on the workstation)
 OUTPUT_DIR  = "outputs/florence2_plantvillage"
 EPOCHS      = 3
 BATCH_SIZE  = 8

@@ -16,7 +16,9 @@ python setup\check_setup.py         # 3. must end with READY (lists anything mis
 python run_app.py                   # 4. pick an app from the menu; it opens in the browser
 ```
 
-On the TIH workstation the datasets are already in place. Elsewhere, see `docs/datasets.md`.
+On the TIH workstation the datasets are already in place. Elsewhere, see `docs/datasets.md`. To check a fresh
+clone without installing anything: `python setup\verify_repository.py --with-projects` (links, configs, Python
+syntax, model manifest, and the MLX project's own checks).
 
 ## ⭐ Try the latest models (Streamlit)
 
@@ -50,6 +52,20 @@ ever run downloads the base model from Hugging Face (Qwen2.5-VL 16 GB, BLIP-2 14
 | 10 | `projects/10_tih_tomato_qwen_qlora` | Qwen2.5-VL-7B 4-bit QLoRA, TIH 11-class tomato (**ICAIN 2026 paper**) | Aug – Sep 2026 | **92.76% test, 69.32% cross-domain** | tih |
 
 VLM results (04–08) are all on the same 200 PlantVillage validation images, so they compare directly.
+
+### MLX models (Apple Silicon, project 09)
+
+| Model | Architecture | Data (test images) | Base → fine-tuned | Weights |
+|---|---|---|---|---|
+| [`qwen25vl_tomato_qlora`](projects/09_plantdx_mlx_knowledge_grounded/models/qwen25vl_tomato_qlora/README.md) | Qwen2.5-VL-7B-Instruct 4-bit + QLoRA r16 (`mlx_vlm.lora`) | PlantVillage tomato, 10 classes (910) | 7.3% → **93.7%**, macro-F1 0.919 | missing; retrain |
+| [`qwen25vl_mango_qlora`](projects/09_plantdx_mlx_knowledge_grounded/models/qwen25vl_mango_qlora/README.md) | same | MangoLeafBD, 8 classes (200) | 17.5% → **82.0%**, macro-F1 0.811 | missing; retrain |
+| [`zero_shot_benchmarks`](projects/09_plantdx_mlx_knowledge_grounded/models/zero_shot_benchmarks/README.md) | 7 off-the-shelf 4-bit VLMs, no training | 16 and 30 leaves | best 23% | Hugging Face |
+
+Requirements: macOS on Apple Silicon (trained on an M4 Pro, 24 GB), Python 3.12, `mlx` 0.31.2, `mlx-vlm` 0.6.4
+(`projects/09_plantdx_mlx_knowledge_grounded/requirements-mlx.txt`). The images and every pipeline input are in
+git; the training datasets regenerate row for row on any OS (checked on this Windows machine), but training,
+inference and evaluation need MLX. Start at [`docs/REPRODUCTION.md`](projects/09_plantdx_mlx_knowledge_grounded/docs/REPRODUCTION.md);
+what is in git / downloaded / generated / missing: [`docs/ARTIFACTS.md`](projects/09_plantdx_mlx_knowledge_grounded/docs/ARTIFACTS.md).
 Numbers 05 and 11 moved to `failed_experiments/` (Florence-2 and the SigLIP prototype).
 
 ## What did not work (`failed_experiments/`)
@@ -89,6 +105,7 @@ handover/
 │   ├── setup_envs.py              # creates .venvs\keras, soynet, vlm, florence, tih from frozen requirements
 │   ├── download_models.py         # pulls every trained model (checksummed) from github.com/iAakash1/TIH-IoT
 │   ├── check_setup.py             # READY / MISSING check for envs, models, datasets, GPU
+│   ├── verify_repository.py       # links, JSON/YAML, Python syntax, manifest (+ tests/), no installs needed
 │   ├── models_manifest.json       # which model file goes where (+ size, SHA-256)
 │   └── requirements/              # exact package versions per environment
 ├── projects/                      # one folder per working model, in the order we did them
@@ -101,7 +118,8 @@ handover/
 │   ├── 07_plantdx_plantvillage/   # PlantDx package: core/, utils/, scripts/, app/
 │   ├── 08_plantvlm_expert_captions/  # plantvlm/ package, scripts/, runs/
 │   ├── 09_plantdx_mlx_knowledge_grounded/  # MLX (Mac): plantdx package, tomato + mango images, reports, logs, demo app,
-│   │                              #   earlier_experiments/ (caption pipeline, caption sets, zero-shot benchmarks)
+│   │                              #   models/ (one card per model), docs/REPRODUCTION.md, docs/ARTIFACTS.md,
+│   │                              #   scripts/verify_project.py, earlier_experiments/ (caption pipeline, zero-shot benchmarks)
 │   └── 10_tih_tomato_qwen_qlora/  # plantdx package (src/), streamlit_app.py, configs/, checkpoints/, reports/
 ├── failed_experiments/            # everything that did not work out, with code and lessons
 ├── evaluation/                    # vlm_eval.py, vlm_predict.py + every October 2026 evaluation report

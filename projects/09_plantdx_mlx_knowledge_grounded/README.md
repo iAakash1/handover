@@ -24,6 +24,20 @@ content-hashed. Qwen2.5-VL-7B-Instruct (4-bit) was then fine-tuned with LoRA on 
 [MLX](https://github.com/ml-explore/mlx) and [mlx-vlm](https://github.com/Blaizzy/mlx-vlm): **7.3% → 93.7%** on
 910 held-out tomato images and **17.5% → 82.0%** on 200 mango images.
 
+## Models
+
+| Model card | What | Test result | Weights |
+|---|---|---|---|
+| [`qwen25vl_tomato_qlora`](models/qwen25vl_tomato_qlora/README.md) | Qwen2.5-VL-7B 4-bit + QLoRA, PlantVillage tomato, 10 classes | 93.7% (910 images) | missing, retrain |
+| [`qwen25vl_mango_qlora`](models/qwen25vl_mango_qlora/README.md) | same, MangoLeafBD, 8 classes | 82.0% (200 images) | missing, retrain |
+| [`zero_shot_benchmarks`](models/zero_shot_benchmarks/README.md) | 7 off-the-shelf VLMs on MLX, no training | best 23% | Hugging Face |
+
+Each card has the model's files, environment and exact commands for data preparation, training, validation,
+inference and evaluation. [`models/README.md`](models/README.md) explains where each model's files sit.
+**Reproducing from a clone:** [`docs/REPRODUCTION.md`](docs/REPRODUCTION.md) (both training datasets regenerate row
+for row from the images in git; verified 31 Oct 2026). **What is in git, downloaded, generated or missing:**
+[`docs/ARTIFACTS.md`](docs/ARTIFACTS.md). **Check a clone:** `python scripts/verify_project.py` (any OS).
+
 ## What MLX is, in short
 
 MLX is Apple's array framework for Apple Silicon (M1/M2/M3/M4). CPU and GPU share one pool of "unified memory",
@@ -94,15 +108,17 @@ All figures (accuracy, BERTScore, CIDEr, hallucination, latency, response length
 
 | Path | What it is |
 |---|---|
+| `models/` | One card per model: files, environment, commands, results, limitations |
+| `requirements-mlx.txt` | The MLX package versions recorded on the Mac (mlx 0.31.2, mlx-vlm 0.6.4, mlx-lm 0.31.3, transformers 5.12.1) |
 | `src/plantdx/` | The Python package: audit, normalization, ontology, vocabulary, concepts, templates, generation, corpus, dataset, training (`training/mlx_runner.py`), evaluation |
 | `app/`, `streamlit_app.py` | Streamlit demo over the trained adapters (upload a leaf → diagnosis, confidence, DKB symptoms) |
 | `knowledge_base/` | Stage 1: the cited Disease Knowledge Base (`dkb.json`, `DKB_report.md`) |
 | `caption_framework/`, `ontology_design/` | Stage 2 and 3 design specifications |
 | `configs/` | Pipeline configs; `configs/train/qwen25vl_tomato.yaml` and `qwen25vl_mango.yaml` are the two training runs |
 | `assets/` | Authored inputs: caption templates, label map, instruction banks (tomato, mango) |
-| `tests/` | 587 unit / integration / benchmark tests; `coverage.xml` is the coverage report from the Mac run (14 Jul 2026) |
-| `docs/` | Architecture, training, evaluation, demo app, known issues, ADRs, figures |
-| `scripts/` | `setup_eval_env.sh` (evaluation env), `dev_setup.sh`, `run_pipeline.sh` (early scaffold), README figure renderer |
+| `tests/` | Unit / integration / benchmark tests (587 in July; 584 collected on Windows on 31 Oct 2026 including the 6 added for the handover); `coverage.xml` is the coverage report from the Mac run (14 Jul 2026) |
+| `docs/` | Architecture, training, evaluation, demo app, known issues, ADRs, figures; `REPRODUCTION.md` and `ARTIFACTS.md` for the handover |
+| `scripts/` | `verify_project.py` (checks a clone, any OS), `setup_eval_env.sh` (evaluation env), `dev_setup.sh`, `run_pipeline.sh` (early scaffold), README figure renderer |
 | `artifacts/` | Generated: ontology, vocabulary, concept models, templates, the 1,966-caption corpus, exports (generic / llava / paligemma / blip2 / messages), training datasets (`artifacts/training/qwen25vl_<crop>_qlora/dataset/`) |
 | `tomato/raw/PlantVillage/` | The PlantVillage tomato images used: 10 classes, `train/` + `val/`, 18,160 images (311 MB) |
 | `mango/raw/MangoLeafBD/` | MangoLeafBD: 8 classes, 4,000 images (142 MB) |
@@ -139,7 +155,8 @@ Everything below runs from this folder. The original environment was a conda env
 ```bash
 cd projects/09_plantdx_mlx_knowledge_grounded
 conda create -n vlm python=3.12 -y && conda activate vlm
-pip install -e ".[dev,train]"            # plantdx + mlx + mlx-vlm (use mlx-vlm 0.6.4 or newer)
+pip install -e ".[dev,train]" -r requirements-mlx.txt   # plantdx + mlx 0.31.2 + mlx-vlm 0.6.4, as on the Mac
+python scripts/verify_project.py          # checks files, configs, CLI, checkpoints, datasets, links
 pip install -r app/requirements.txt      # Streamlit, for the demo
 pytest                                   # the test suite (on a Mac with a GPU)
 ```
@@ -162,9 +179,10 @@ The images are already in place (paths set in `configs/paths.yaml`):
 an earlier run before the mango images were added, so it still shows 0 images.
 
 The training datasets in `artifacts/training/` list each image by its absolute path on the Mac
-(`/Users/aakashjawle/Desktop/experiments/datasets/...`). On another Mac, run `plantdx normalize` and then
-`plantdx prepare-training --config configs/train/qwen25vl_<crop>.yaml` (`plantdx train` also does this first)
-instead of using those files directly.
+(`/Users/aakashjawle/Desktop/experiments/datasets/...`). On any other machine, run `plantdx normalize` and then
+`plantdx prepare-training --config configs/train/qwen25vl_<crop>.yaml` (`plantdx train` also does this first): it
+rewrites those files with the same rows in the same order and only this machine's path prefix (checked for both
+crops, `docs/REPRODUCTION.md`).
 
 ### 2. Build the caption dataset (deterministic, CPU only)
 

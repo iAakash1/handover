@@ -12,8 +12,11 @@ Use the **absolute path** to the Python interpreter that has a working ML stack
 + mlx-vlm (the same one training/evaluation use):
 
 ```bash
-~/miniforge3/envs/vlm/bin/python -m streamlit run streamlit_app.py
+conda activate vlm                                          # the MLX environment
+"$CONDA_PREFIX/bin/python" -m streamlit run streamlit_app.py
 ```
+
+(On the original Mac this was `~/miniforge3/envs/vlm/bin/python`.)
 
 > Plain `streamlit run …` (and even `conda activate vlm`) can silently pick a
 > different Python. On a machine where the Framework Python has an old

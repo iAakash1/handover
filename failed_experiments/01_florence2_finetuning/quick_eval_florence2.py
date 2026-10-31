@@ -24,7 +24,7 @@ nltk.download("punkt_tab", quiet=True)
 
 BASE_MODEL   = "microsoft/Florence-2-base-ft"
 ADAPTER_PATH = "outputs/florence2_plantvillage/best"
-CAPTIONS     = "../tp/captions.json"
+CAPTIONS     = "../../projects/04_llava_blip2/blip2_rerun_june/captions.json"   # was ../tp/captions.json on the workstation
 EVAL_OUTPUT  = "evaluation_report_florence2.json"
 MAX_SAMPLES  = 200
 DEVICE       = "cuda" if torch.cuda.is_available() else "cpu"
