@@ -88,8 +88,11 @@ Yes. The split is fixed (seed 20260711), and the 910 tomato and 200 mango test i
 - One epoch, with a constant learning rate of 1e-4: the config asks for a cosine schedule, but the training command
   did not apply it (see [`training_plan.md`](reports/qwen25vl_tomato_qlora/training_plan.md) and the log).
 - The July adapter files were lost. Both models were retrained in November 2026 on the same data with the same
-  config; the downloadable weights are the retrained ones: tomato 86.9% (healthy leaves are its weak spot), mango
-  86.0% (see [Adapters](README.md#adapters) and [`retrained_2026-11/`](retrained_2026-11/README.md)).
+  config; the downloadable weights are the retrained ones: tomato 90.9% (a snapshot chosen on the validation split;
+  weaker than July on spider mites, leaf mold, mosaic virus and target spot), mango 86.0% (see
+  [Adapters](README.md#adapters) and [`retrained_2026-11/`](retrained_2026-11/README.md)). It sometimes answers a
+  healthy leaf without naming any class (for example "This tomato leaf.", seen with `plantdx infer`), which the demo
+  shows as "unknown" (no disease named).
 
 **How does this connect to the ICAIN 2026 paper?**
 The same `plantdx` code later became [`projects/10_tih_tomato_qwen_qlora`](../10_tih_tomato_qwen_qlora) (private TIH

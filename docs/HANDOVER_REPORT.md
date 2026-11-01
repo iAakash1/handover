@@ -105,7 +105,7 @@ All numbers below come from the evaluation reports in this repository (`evaluati
   the `plantdx` package (`src/plantdx/training/mlx_runner.py`), knowledge base, caption corpus, training datasets,
   evaluation reports, training logs, the Streamlit demo and the tomato and mango images, with Mac setup and run
   commands in its README. The two July adapter files were no longer on the Mac; both models were retrained there on
-  31 Oct – 1 Nov 2026 (tomato 86.9%, mango 86.0% on the same test sets) and the weights are fetched by
+  31 Oct – 1 Nov 2026 (tomato 90.9% with a snapshot chosen on the validation split, mango 86.0%, on the same test sets) and the weights are fetched by
   `setup/download_models.py`.
 - Before it, on the same Mac (`earlier_experiments/`): PlantCaption, a knowledge-base + VLM caption pipeline (12 Jun);
   four rounds of caption sets (23 Jun); zero-shot benchmarks of 4 VLMs on 16 images (25 Jun: exact match 0–6%) and

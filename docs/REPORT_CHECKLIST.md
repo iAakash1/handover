@@ -80,7 +80,7 @@ All 8 papers: `docs/publication.md`. ICAIN 2026 paper (ID 953), camera-ready PDF
 | BLIP-2 OPT-2.7B, LoRA | ✅ project 04 (March and June) |
 | Florence-2-base-ft | ✅ `failed_experiments/01_florence2_finetuning` |
 | Qwen2.5-VL-7B LoRA r32, structured captions | ✅ projects 06 and 07 |
-| Qwen2.5-VL-7B-4bit QLoRA r16 (MLX), knowledge-grounded | ✅ code + results (project 09); retrained adapters (Nov 2026: tomato 86.9%, mango 86.0%) via `setup/download_models.py` |
+| Qwen2.5-VL-7B-4bit QLoRA r16 (MLX), knowledge-grounded | ✅ code + results (project 09); retrained adapters (Nov 2026: tomato 90.9%, mango 86.0%) via `setup/download_models.py` |
 | Qwen2.5-VL-7B LoRA r16, 150 expert captions (PlantVLM) | ✅ project 08 |
 | Qwen2.5-VL-7B 4-bit NF4 QLoRA r32 and r64, TIH 11 classes | ✅ project 10 (strong = r32, moreaccurate = r64) |
 | Seven-VLM zero-shot benchmark (Qwen2.5-VL, Qwen3-VL, Gemma-3, InternVL3, LLaMA-3.2-Vision, Molmo, DeepSeek-VL2) | ✅ `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01` (and the four-model run `03_…`); PoCRA report |

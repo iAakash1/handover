@@ -2,7 +2,7 @@ image_id,model,disease_id,other_disease,hallucinated_pathogen,hallucinated_treat
 bacterial_spot/00a7c269-3476-4d25-b744-44d6353cd921___GCREC_Bact.Sp 5807.JPG,base,tomato_bacterial_spot,True,False,False,False,False
 bacterial_spot/00a7c269-3476-4d25-b744-44d6353cd921___GCREC_Bact.Sp 5807.JPG,finetuned,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/034caf25-29c3-4be2-a725-d2866ce6f548___GCREC_Bact.Sp 3575.JPG,base,tomato_bacterial_spot,True,False,False,False,False
-bacterial_spot/034caf25-29c3-4be2-a725-d2866ce6f548___GCREC_Bact.Sp 3575.JPG,finetuned,tomato_bacterial_spot,False,False,False,False,False
+bacterial_spot/034caf25-29c3-4be2-a725-d2866ce6f548___GCREC_Bact.Sp 3575.JPG,finetuned,tomato_bacterial_spot,True,False,False,False,False
 bacterial_spot/03e6cea1-1c09-420a-a22e-2c29844004d1___GCREC_Bact.Sp 3076.JPG,base,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/03e6cea1-1c09-420a-a22e-2c29844004d1___GCREC_Bact.Sp 3076.JPG,finetuned,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/072f9c7d-c296-49d9-a432-6ec9448cab2a___GCREC_Bact.Sp 3558.JPG,base,tomato_bacterial_spot,False,False,False,False,False
@@ -34,7 +34,7 @@ bacterial_spot/2642e2b0-d2d8-49ea-b9c3-44133f863169___GCREC_Bact.Sp 5660.JPG,fin
 bacterial_spot/27a806fe-06f2-48fb-92cf-32d44d545606___GCREC_Bact.Sp 3052.JPG,base,tomato_bacterial_spot,True,False,False,False,False
 bacterial_spot/27a806fe-06f2-48fb-92cf-32d44d545606___GCREC_Bact.Sp 3052.JPG,finetuned,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/288896d1-7094-4250-9fd6-00589c41b42a___UF.GRC_BS_Lab Leaf 0264.JPG,base,tomato_bacterial_spot,False,False,False,False,False
-bacterial_spot/288896d1-7094-4250-9fd6-00589c41b42a___UF.GRC_BS_Lab Leaf 0264.JPG,finetuned,tomato_bacterial_spot,True,False,False,False,True
+bacterial_spot/288896d1-7094-4250-9fd6-00589c41b42a___UF.GRC_BS_Lab Leaf 0264.JPG,finetuned,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/2a4a8942-9d1d-4989-a58b-a02f1cc2256a___GCREC_Bact.Sp 2970.JPG,base,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/2a4a8942-9d1d-4989-a58b-a02f1cc2256a___GCREC_Bact.Sp 2970.JPG,finetuned,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/2cafa053-4dd6-4528-bb4f-53e4afeecefe___GCREC_Bact.Sp 2968.JPG,base,tomato_bacterial_spot,True,False,False,False,False
@@ -72,7 +72,7 @@ bacterial_spot/612a4230-6e25-4506-a91c-86854d203205___UF.GRC_BS_Lab Leaf 0756.JP
 bacterial_spot/64208676-e4c1-4f27-84ba-38c7e0790320___GCREC_Bact.Sp 3779.JPG,base,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/64208676-e4c1-4f27-84ba-38c7e0790320___GCREC_Bact.Sp 3779.JPG,finetuned,tomato_bacterial_spot,True,False,False,False,False
 bacterial_spot/67c8bbdb-ba79-4c64-897f-e9052728df45___GCREC_Bact.Sp 3008.JPG,base,tomato_bacterial_spot,True,False,False,False,False
-bacterial_spot/67c8bbdb-ba79-4c64-897f-e9052728df45___GCREC_Bact.Sp 3008.JPG,finetuned,tomato_bacterial_spot,False,False,False,False,False
+bacterial_spot/67c8bbdb-ba79-4c64-897f-e9052728df45___GCREC_Bact.Sp 3008.JPG,finetuned,tomato_bacterial_spot,True,False,False,False,False
 bacterial_spot/6bde0aa8-4093-4eb1-aa1e-049db77d16a2___UF.GRC_BS_Lab Leaf 8873.JPG,base,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/6bde0aa8-4093-4eb1-aa1e-049db77d16a2___UF.GRC_BS_Lab Leaf 8873.JPG,finetuned,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/6cb8d633-865d-4809-99ff-c826fbcbfb7d___GCREC_Bact.Sp 5707.JPG,base,tomato_bacterial_spot,True,False,False,False,False
@@ -98,7 +98,7 @@ bacterial_spot/81d0b3fa-4d42-424d-b3f2-3acd69f0db13___GCREC_Bact.Sp 6318.JPG,fin
 bacterial_spot/86675a78-d635-447c-85c8-33c683d24092___GCREC_Bact.Sp 6058.JPG,base,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/86675a78-d635-447c-85c8-33c683d24092___GCREC_Bact.Sp 6058.JPG,finetuned,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/89cd8d83-c3bb-49ca-9561-d92874511f80___GCREC_Bact.Sp 6037.JPG,base,tomato_bacterial_spot,False,False,False,False,False
-bacterial_spot/89cd8d83-c3bb-49ca-9561-d92874511f80___GCREC_Bact.Sp 6037.JPG,finetuned,tomato_bacterial_spot,True,False,False,False,True
+bacterial_spot/89cd8d83-c3bb-49ca-9561-d92874511f80___GCREC_Bact.Sp 6037.JPG,finetuned,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/8ba984dc-b9f0-4367-8a27-8486ceacf09a___GCREC_Bact.Sp 3225.JPG,base,tomato_bacterial_spot,True,False,False,False,False
 bacterial_spot/8ba984dc-b9f0-4367-8a27-8486ceacf09a___GCREC_Bact.Sp 3225.JPG,finetuned,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/8ee624c1-b070-486f-b322-7b87b254df8d___GCREC_Bact.Sp 6242.JPG,base,tomato_bacterial_spot,False,False,False,False,False
@@ -204,7 +204,7 @@ bacterial_spot/ecc30297-bfb6-4e9e-8b3e-f29ca20cffa7___UF.GRC_BS_Lab Leaf 8904.JP
 bacterial_spot/ed94e669-2770-4452-9698-cfaea67e92d4___GCREC_Bact.Sp 6222.JPG,base,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/ed94e669-2770-4452-9698-cfaea67e92d4___GCREC_Bact.Sp 6222.JPG,finetuned,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/f16c8cc2-693b-4050-bbf6-686973becdad___GCREC_Bact.Sp 3780.JPG,base,tomato_bacterial_spot,True,False,False,False,False
-bacterial_spot/f16c8cc2-693b-4050-bbf6-686973becdad___GCREC_Bact.Sp 3780.JPG,finetuned,tomato_bacterial_spot,False,False,False,False,False
+bacterial_spot/f16c8cc2-693b-4050-bbf6-686973becdad___GCREC_Bact.Sp 3780.JPG,finetuned,tomato_bacterial_spot,True,False,False,False,False
 bacterial_spot/f8efccbd-9721-4291-a095-9fb29527bbc4___UF.GRC_BS_Lab Leaf 0235.JPG,base,tomato_bacterial_spot,True,False,False,False,False
 bacterial_spot/f8efccbd-9721-4291-a095-9fb29527bbc4___UF.GRC_BS_Lab Leaf 0235.JPG,finetuned,tomato_bacterial_spot,False,False,False,False,False
 bacterial_spot/fa0a336a-ddda-4571-9fad-d0331280640a___GCREC_Bact.Sp 3845.JPG,base,tomato_bacterial_spot,False,False,False,False,False
@@ -248,7 +248,7 @@ early_blight/54e98d19-a7a0-44d8-a004-1eaee5f3610b___RS_Erly.B 7348.JPG,finetuned
 early_blight/59cbcb57-16e3-4e35-a1d6-8672678c9d8d___RS_Erly.B 6489.JPG,base,tomato_early_blight,False,False,False,False,False
 early_blight/59cbcb57-16e3-4e35-a1d6-8672678c9d8d___RS_Erly.B 6489.JPG,finetuned,tomato_early_blight,False,False,False,False,False
 early_blight/5d89c2ab-31d9-4f0a-bd00-2c2475b2a037___RS_Erly.B 9377.JPG,base,tomato_early_blight,True,False,False,False,False
-early_blight/5d89c2ab-31d9-4f0a-bd00-2c2475b2a037___RS_Erly.B 9377.JPG,finetuned,tomato_early_blight,False,False,False,False,False
+early_blight/5d89c2ab-31d9-4f0a-bd00-2c2475b2a037___RS_Erly.B 9377.JPG,finetuned,tomato_early_blight,True,False,False,False,False
 early_blight/605ce000-1122-45ae-8742-93a7de8c712c___RS_Erly.B 7627.JPG,base,tomato_early_blight,False,False,False,False,False
 early_blight/605ce000-1122-45ae-8742-93a7de8c712c___RS_Erly.B 7627.JPG,finetuned,tomato_early_blight,False,False,False,False,False
 early_blight/64d0749a-a83f-41da-a321-b03d61167454___RS_Erly.B 7846.JPG,base,tomato_early_blight,False,False,True,False,False
@@ -290,7 +290,7 @@ early_blight/bab7dc71-f5d2-4b07-a582-11a13f785b3d___RS_Erly.B 7764.JPG,finetuned
 early_blight/bb2586ff-9676-4100-89f7-200d9ce5ecd6___RS_Erly.B 9386.JPG,base,tomato_early_blight,False,False,False,False,False
 early_blight/bb2586ff-9676-4100-89f7-200d9ce5ecd6___RS_Erly.B 9386.JPG,finetuned,tomato_early_blight,False,False,False,False,False
 early_blight/c78c9d19-e83d-4c3b-a690-e6e3b95c979d___RS_Erly.B 9569.JPG,base,tomato_early_blight,False,False,False,False,False
-early_blight/c78c9d19-e83d-4c3b-a690-e6e3b95c979d___RS_Erly.B 9569.JPG,finetuned,tomato_early_blight,False,False,False,False,False
+early_blight/c78c9d19-e83d-4c3b-a690-e6e3b95c979d___RS_Erly.B 9569.JPG,finetuned,tomato_early_blight,True,False,False,False,False
 early_blight/d099777c-8b33-4924-af9e-d3dd96c2de37___RS_Erly.B 7790.JPG,base,tomato_early_blight,True,False,False,False,False
 early_blight/d099777c-8b33-4924-af9e-d3dd96c2de37___RS_Erly.B 7790.JPG,finetuned,tomato_early_blight,True,False,False,False,True
 early_blight/d344e6d5-259e-4f1c-a72e-919ae9e13005___RS_Erly.B 6482.JPG,base,tomato_early_blight,False,False,False,False,False
@@ -308,7 +308,7 @@ early_blight/ee18e688-a12c-45aa-bd18-74df670c71bb___RS_Erly.B 7776.JPG,finetuned
 early_blight/f26a0950-0a68-4850-8945-a8aca58da4fa___RS_Erly.B 7505.JPG,base,tomato_early_blight,False,False,False,False,False
 early_blight/f26a0950-0a68-4850-8945-a8aca58da4fa___RS_Erly.B 7505.JPG,finetuned,tomato_early_blight,False,False,False,False,False
 early_blight/f525cb66-09b6-4f96-93dd-d6bc936f5645___RS_Erly.B 7700.JPG,base,tomato_early_blight,True,False,False,False,False
-early_blight/f525cb66-09b6-4f96-93dd-d6bc936f5645___RS_Erly.B 7700.JPG,finetuned,tomato_early_blight,False,False,False,False,False
+early_blight/f525cb66-09b6-4f96-93dd-d6bc936f5645___RS_Erly.B 7700.JPG,finetuned,tomato_early_blight,True,False,False,False,False
 early_blight/fcf8557f-890e-441b-9dc1-c8854f694f2e___RS_Erly.B 9505.JPG,base,tomato_early_blight,False,False,False,False,False
 early_blight/fcf8557f-890e-441b-9dc1-c8854f694f2e___RS_Erly.B 9505.JPG,finetuned,tomato_early_blight,True,False,False,False,False
 early_blight/fee744d4-d0e5-439d-8b7b-04f8394251e8___RS_Erly.B 7396.JPG,base,tomato_early_blight,True,False,False,False,False
@@ -326,11 +326,11 @@ healthy/0e3feb72-86e5-41c2-a7ca-3295800e5777___RS_HL 0158.JPG,finetuned,tomato_h
 healthy/115c8bc1-06b9-4679-9159-46e5640c39e7___GH_HL Leaf 206.2.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/115c8bc1-06b9-4679-9159-46e5640c39e7___GH_HL Leaf 206.2.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/12c28bfa-a576-4787-8d4e-a500ac446766___RS_HL 0526.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/12c28bfa-a576-4787-8d4e-a500ac446766___RS_HL 0526.JPG,finetuned,tomato_healthy,False,False,False,False,False
+healthy/12c28bfa-a576-4787-8d4e-a500ac446766___RS_HL 0526.JPG,finetuned,tomato_healthy,True,False,False,False,False
 healthy/12f2989a-82c7-41d1-ae23-93a6e85bfd57___RS_HL 9798.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/12f2989a-82c7-41d1-ae23-93a6e85bfd57___RS_HL 9798.JPG,finetuned,tomato_healthy,False,False,False,False,False
+healthy/12f2989a-82c7-41d1-ae23-93a6e85bfd57___RS_HL 9798.JPG,finetuned,tomato_healthy,True,False,False,False,False
 healthy/1a0b9a32-3993-44e4-879f-338cd6e45a09___GH_HL Leaf 178.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/1a0b9a32-3993-44e4-879f-338cd6e45a09___GH_HL Leaf 178.JPG,finetuned,tomato_healthy,True,False,False,False,False
+healthy/1a0b9a32-3993-44e4-879f-338cd6e45a09___GH_HL Leaf 178.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/1cb9d4d1-280b-479c-95a9-01f71acf70bc___RS_HL 0641.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/1cb9d4d1-280b-479c-95a9-01f71acf70bc___RS_HL 0641.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/1d024f2a-0ceb-4560-81fc-1114e6341f02___RS_HL 0431.JPG,base,tomato_healthy,False,False,False,False,False
@@ -340,7 +340,7 @@ healthy/1f43d81a-6889-4613-a727-f92a75cf9861___RS_HL 0297.JPG,finetuned,tomato_h
 healthy/22e6625c-8075-428b-8356-fc6a97660efc___GH_HL Leaf 444.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/22e6625c-8075-428b-8356-fc6a97660efc___GH_HL Leaf 444.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/236971d6-725b-4685-9336-550dd522d62a___RS_HL 0640.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/236971d6-725b-4685-9336-550dd522d62a___RS_HL 0640.JPG,finetuned,tomato_healthy,True,False,False,False,False
+healthy/236971d6-725b-4685-9336-550dd522d62a___RS_HL 0640.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/2a11ceb9-41c9-4f2e-bed9-ef1c1c7d479b___RS_HL 0371.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/2a11ceb9-41c9-4f2e-bed9-ef1c1c7d479b___RS_HL 0371.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/2b50c7a7-e22e-4103-9e23-909377ab00e3___RS_HL 0193.JPG,base,tomato_healthy,False,False,False,False,False
@@ -348,21 +348,21 @@ healthy/2b50c7a7-e22e-4103-9e23-909377ab00e3___RS_HL 0193.JPG,finetuned,tomato_h
 healthy/2b6c6705-59ce-4afe-8ad1-62a367ea10e0___RS_HL 9994.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/2b6c6705-59ce-4afe-8ad1-62a367ea10e0___RS_HL 9994.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/32beeb9a-49d5-4ffe-bee0-216779e4306e___RS_HL 0327.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/32beeb9a-49d5-4ffe-bee0-216779e4306e___RS_HL 0327.JPG,finetuned,tomato_healthy,False,False,False,False,False
+healthy/32beeb9a-49d5-4ffe-bee0-216779e4306e___RS_HL 0327.JPG,finetuned,tomato_healthy,True,False,False,False,False
 healthy/381203e7-7030-4782-9e47-24d50969931a___RS_HL 9759.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/381203e7-7030-4782-9e47-24d50969931a___RS_HL 9759.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/3b1ba616-6a8f-44e9-948f-5c056eb565c8___RS_HL 9980.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/3b1ba616-6a8f-44e9-948f-5c056eb565c8___RS_HL 9980.JPG,finetuned,tomato_healthy,True,False,False,False,False
+healthy/3b1ba616-6a8f-44e9-948f-5c056eb565c8___RS_HL 9980.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/3b87f866-1d80-4b22-99f8-108e315c9029___RS_HL 0394.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/3b87f866-1d80-4b22-99f8-108e315c9029___RS_HL 0394.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/3be4b3ce-9fc7-4216-98f0-abd0faa9e45c___RS_HL 9945.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/3be4b3ce-9fc7-4216-98f0-abd0faa9e45c___RS_HL 9945.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/40dfa3e5-617d-46bb-9eab-eb2b114e5367___RS_HL 0079.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/40dfa3e5-617d-46bb-9eab-eb2b114e5367___RS_HL 0079.JPG,finetuned,tomato_healthy,False,False,False,False,False
+healthy/40dfa3e5-617d-46bb-9eab-eb2b114e5367___RS_HL 0079.JPG,finetuned,tomato_healthy,True,False,False,False,False
 healthy/42e607e9-916c-470c-a17d-ec5348a40ded___RS_HL 0373.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/42e607e9-916c-470c-a17d-ec5348a40ded___RS_HL 0373.JPG,finetuned,tomato_healthy,True,False,False,False,False
+healthy/42e607e9-916c-470c-a17d-ec5348a40ded___RS_HL 0373.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/43f6d6f0-be8e-4120-8c86-fad3bcfd5c03___RS_HL 0180.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/43f6d6f0-be8e-4120-8c86-fad3bcfd5c03___RS_HL 0180.JPG,finetuned,tomato_healthy,True,False,False,False,False
+healthy/43f6d6f0-be8e-4120-8c86-fad3bcfd5c03___RS_HL 0180.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/47362660-a262-4ffb-ae99-68b699b3ecb7___RS_HL 0006.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/47362660-a262-4ffb-ae99-68b699b3ecb7___RS_HL 0006.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/47b93075-4991-4f6a-8510-5fe75a73567f___RS_HL 9719.JPG,base,tomato_healthy,False,False,False,False,False
@@ -370,11 +370,11 @@ healthy/47b93075-4991-4f6a-8510-5fe75a73567f___RS_HL 9719.JPG,finetuned,tomato_h
 healthy/4ed95a13-f09b-452e-84d0-b4b6a94a022d___RS_HL 9975.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/4ed95a13-f09b-452e-84d0-b4b6a94a022d___RS_HL 9975.JPG,finetuned,tomato_healthy,True,False,False,False,False
 healthy/5853fc45-5ce0-4b2c-a36e-18eda75a97c6___RS_HL 9632.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/5853fc45-5ce0-4b2c-a36e-18eda75a97c6___RS_HL 9632.JPG,finetuned,tomato_healthy,True,False,False,False,False
+healthy/5853fc45-5ce0-4b2c-a36e-18eda75a97c6___RS_HL 9632.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/59f54d36-b98b-4271-88ed-7a9672907bee___RS_HL 0519.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/59f54d36-b98b-4271-88ed-7a9672907bee___RS_HL 0519.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/5b626f17-8c30-4b6e-bd66-8da2b7476326___RS_HL 9851.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/5b626f17-8c30-4b6e-bd66-8da2b7476326___RS_HL 9851.JPG,finetuned,tomato_healthy,True,False,False,False,False
+healthy/5b626f17-8c30-4b6e-bd66-8da2b7476326___RS_HL 9851.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/5f887895-963a-4a96-8962-5af383dbe29a___GH_HL Leaf 425.1.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/5f887895-963a-4a96-8962-5af383dbe29a___GH_HL Leaf 425.1.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/6200ddc6-ea83-42e0-9936-4f82cfa14a1f___RS_HL 9976.JPG,base,tomato_healthy,False,False,False,False,False
@@ -386,21 +386,21 @@ healthy/635f7ae3-1561-4006-9c23-f9150ca50b78___RS_HL 9967.JPG,finetuned,tomato_h
 healthy/66fb848b-843a-469d-a2d2-80f0e0e7eda4___GH_HL Leaf 371.1.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/66fb848b-843a-469d-a2d2-80f0e0e7eda4___GH_HL Leaf 371.1.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/6a9836cb-f987-4ccf-8841-f227989ff5ec___RS_HL 0045.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/6a9836cb-f987-4ccf-8841-f227989ff5ec___RS_HL 0045.JPG,finetuned,tomato_healthy,True,False,False,False,False
+healthy/6a9836cb-f987-4ccf-8841-f227989ff5ec___RS_HL 0045.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/6aed746b-e45b-40d6-addb-71bdd0456618___RS_HL 0638.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/6aed746b-e45b-40d6-addb-71bdd0456618___RS_HL 0638.JPG,finetuned,tomato_healthy,True,False,False,False,False
+healthy/6aed746b-e45b-40d6-addb-71bdd0456618___RS_HL 0638.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/714b5b2d-482e-4276-8a06-ecf6a18bdb52___RS_HL 9941.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/714b5b2d-482e-4276-8a06-ecf6a18bdb52___RS_HL 9941.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/768d54a3-cb87-4633-9529-ad39b6f6078e___RS_HL 9864.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/768d54a3-cb87-4633-9529-ad39b6f6078e___RS_HL 9864.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/7f7b6cff-3d29-45ad-a0df-56f568289be9___GH_HL Leaf 506.1.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/7f7b6cff-3d29-45ad-a0df-56f568289be9___GH_HL Leaf 506.1.JPG,finetuned,tomato_healthy,False,False,False,False,False
+healthy/7f7b6cff-3d29-45ad-a0df-56f568289be9___GH_HL Leaf 506.1.JPG,finetuned,tomato_healthy,True,False,False,False,False
 healthy/80ad21d3-4571-49bd-a96e-2f75e9a9b673___RS_HL 9729.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/80ad21d3-4571-49bd-a96e-2f75e9a9b673___RS_HL 9729.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/83781ea3-eaed-467a-9147-678002262295___RS_HL 0330.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/83781ea3-eaed-467a-9147-678002262295___RS_HL 0330.JPG,finetuned,tomato_healthy,False,False,False,False,False
+healthy/83781ea3-eaed-467a-9147-678002262295___RS_HL 0330.JPG,finetuned,tomato_healthy,True,False,False,False,False
 healthy/8c43c178-69de-4e23-a075-1f0bdbf586db___RS_HL 0637.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/8c43c178-69de-4e23-a075-1f0bdbf586db___RS_HL 0637.JPG,finetuned,tomato_healthy,False,False,False,False,False
+healthy/8c43c178-69de-4e23-a075-1f0bdbf586db___RS_HL 0637.JPG,finetuned,tomato_healthy,True,False,False,False,False
 healthy/8e19f6ec-51c4-496a-9970-746085371064___RS_HL 9829.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/8e19f6ec-51c4-496a-9970-746085371064___RS_HL 9829.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/902d49e5-febf-4970-b0fb-99a57e8e284b___GH_HL Leaf 179.JPG,base,tomato_healthy,False,False,False,False,False
@@ -408,7 +408,7 @@ healthy/902d49e5-febf-4970-b0fb-99a57e8e284b___GH_HL Leaf 179.JPG,finetuned,toma
 healthy/90af034e-dedd-4edf-afb7-9449c4508535___RS_HL 9675.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/90af034e-dedd-4edf-afb7-9449c4508535___RS_HL 9675.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/922d8646-efa3-4101-b943-d3568c9760e9___RS_HL 0029.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/922d8646-efa3-4101-b943-d3568c9760e9___RS_HL 0029.JPG,finetuned,tomato_healthy,False,False,False,False,False
+healthy/922d8646-efa3-4101-b943-d3568c9760e9___RS_HL 0029.JPG,finetuned,tomato_healthy,True,False,False,False,False
 healthy/93228670-1f62-4e23-8993-a488ff7068c0___GH_HL Leaf 257.1.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/93228670-1f62-4e23-8993-a488ff7068c0___GH_HL Leaf 257.1.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/9a3e2912-5d94-4eb0-9bb2-4035eaf4c884___RS_HL 0102.JPG,base,tomato_healthy,False,False,False,False,False
@@ -416,7 +416,7 @@ healthy/9a3e2912-5d94-4eb0-9bb2-4035eaf4c884___RS_HL 0102.JPG,finetuned,tomato_h
 healthy/9dab9ebd-6fbf-4565-99c3-06138ca51050___RS_HL 0500.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/9dab9ebd-6fbf-4565-99c3-06138ca51050___RS_HL 0500.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/a01d8297-f16b-41ab-b7b9-6343d5b7d8a6___RS_HL 0419.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/a01d8297-f16b-41ab-b7b9-6343d5b7d8a6___RS_HL 0419.JPG,finetuned,tomato_healthy,True,False,False,False,False
+healthy/a01d8297-f16b-41ab-b7b9-6343d5b7d8a6___RS_HL 0419.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/a0285527-98c1-40b7-992b-404644387ad8___GH_HL Leaf 509.4.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/a0285527-98c1-40b7-992b-404644387ad8___GH_HL Leaf 509.4.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/a06cd500-b782-4be6-8f7a-377c9ed5ceab___RS_HL 9648.JPG,base,tomato_healthy,False,False,False,False,False
@@ -432,7 +432,7 @@ healthy/a3ebf7f9-543d-4df9-a09f-013ef8dd7760___RS_HL 9662.JPG,finetuned,tomato_h
 healthy/ae3582b0-2528-4534-954b-1f9b1372c10f___RS_HL 9861.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/ae3582b0-2528-4534-954b-1f9b1372c10f___RS_HL 9861.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/af78f888-bd62-44bb-8223-6be0cf0950fc___GH_HL Leaf 491.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/af78f888-bd62-44bb-8223-6be0cf0950fc___GH_HL Leaf 491.JPG,finetuned,tomato_healthy,True,False,False,False,False
+healthy/af78f888-bd62-44bb-8223-6be0cf0950fc___GH_HL Leaf 491.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/b6690f04-b49a-43eb-8804-67eeffae7950___RS_HL 0518.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/b6690f04-b49a-43eb-8804-67eeffae7950___RS_HL 0518.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/b8af2ce5-8429-4842-8ebc-c9d1ac9ed96f___GH_HL Leaf 301.JPG,base,tomato_healthy,False,False,False,False,False
@@ -450,15 +450,15 @@ healthy/c30a18fe-8a24-4f0e-9c33-ed8632eead8e___RS_HL 9965.JPG,finetuned,tomato_h
 healthy/cb4a744a-1f1d-4cb1-b2a4-f1e1a12426ca___RS_HL 9970.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/cb4a744a-1f1d-4cb1-b2a4-f1e1a12426ca___RS_HL 9970.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/cbdb596e-46a9-4d85-9adf-550b8d2bd7ae___RS_HL 0340.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/cbdb596e-46a9-4d85-9adf-550b8d2bd7ae___RS_HL 0340.JPG,finetuned,tomato_healthy,True,False,False,False,False
+healthy/cbdb596e-46a9-4d85-9adf-550b8d2bd7ae___RS_HL 0340.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/d1750517-689b-4372-a717-6b81c0dd64b0___GH_HL Leaf 262.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/d1750517-689b-4372-a717-6b81c0dd64b0___GH_HL Leaf 262.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/d4091850-464c-4655-9edc-395f43c365e9___RS_HL 9657.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/d4091850-464c-4655-9edc-395f43c365e9___RS_HL 9657.JPG,finetuned,tomato_healthy,True,False,False,False,False
+healthy/d4091850-464c-4655-9edc-395f43c365e9___RS_HL 9657.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/d442075f-73bb-47a0-9545-9b36bca9300b___GH_HL Leaf 210.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/d442075f-73bb-47a0-9545-9b36bca9300b___GH_HL Leaf 210.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/dad127e0-8761-47bd-8ea1-21727847a1f4___RS_HL 0416.JPG,base,tomato_healthy,False,False,False,False,False
-healthy/dad127e0-8761-47bd-8ea1-21727847a1f4___RS_HL 0416.JPG,finetuned,tomato_healthy,True,False,False,False,False
+healthy/dad127e0-8761-47bd-8ea1-21727847a1f4___RS_HL 0416.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/dd7a8ade-2bc7-4b28-9e27-f823e8466a76___GH_HL Leaf 236.JPG,base,tomato_healthy,False,False,False,False,False
 healthy/dd7a8ade-2bc7-4b28-9e27-f823e8466a76___GH_HL Leaf 236.JPG,finetuned,tomato_healthy,False,False,False,False,False
 healthy/dd7d8e47-35f8-4c97-900b-f095694c38ed___GH_HL Leaf 313.JPG,base,tomato_healthy,False,False,False,False,False
@@ -504,7 +504,7 @@ late_blight/31514f29-0b4c-4d5a-bd8b-cb0e1264bf48___RS_Late.B 6087.JPG,finetuned,
 late_blight/34bd18fa-d898-40d4-83ed-665caabed7d0___RS_Late.B 5113.JPG,base,tomato_late_blight,False,False,False,False,False
 late_blight/34bd18fa-d898-40d4-83ed-665caabed7d0___RS_Late.B 5113.JPG,finetuned,tomato_late_blight,False,False,False,False,False
 late_blight/3521d97f-cc36-4581-a2fa-f999f34a6558___GHLB2 Leaf 152.1.JPG,base,tomato_late_blight,True,False,False,False,False
-late_blight/3521d97f-cc36-4581-a2fa-f999f34a6558___GHLB2 Leaf 152.1.JPG,finetuned,tomato_late_blight,False,False,False,False,False
+late_blight/3521d97f-cc36-4581-a2fa-f999f34a6558___GHLB2 Leaf 152.1.JPG,finetuned,tomato_late_blight,True,False,False,False,True
 late_blight/37621a3b-a1df-4052-bd30-40ac0f04252a___GHLB2 Leaf 149.1.JPG,base,tomato_late_blight,True,False,False,False,False
 late_blight/37621a3b-a1df-4052-bd30-40ac0f04252a___GHLB2 Leaf 149.1.JPG,finetuned,tomato_late_blight,False,False,False,False,False
 late_blight/376c3deb-3feb-425b-a6dd-ce0f95b7c763___RS_Late.B 5413.JPG,base,tomato_late_blight,False,False,False,False,False
@@ -566,7 +566,7 @@ late_blight/7fc8f2f2-874c-49d1-935b-06f2d044db8f___RS_Late.B 6451.JPG,finetuned,
 late_blight/8130621c-8ff8-4fd9-bd54-765491adc31f___GHLB2 Leaf 8822.JPG,base,tomato_late_blight,False,False,False,False,False
 late_blight/8130621c-8ff8-4fd9-bd54-765491adc31f___GHLB2 Leaf 8822.JPG,finetuned,tomato_late_blight,True,False,False,False,False
 late_blight/85550b3b-28a6-4489-ae91-63ea771622ae___RS_Late.B 5539.JPG,base,tomato_late_blight,False,False,False,False,False
-late_blight/85550b3b-28a6-4489-ae91-63ea771622ae___RS_Late.B 5539.JPG,finetuned,tomato_late_blight,True,False,False,False,True
+late_blight/85550b3b-28a6-4489-ae91-63ea771622ae___RS_Late.B 5539.JPG,finetuned,tomato_late_blight,False,False,False,False,False
 late_blight/86a7b7d2-8783-4622-84d7-a4a420ee10ba___RS_Late.B 6546.JPG,base,tomato_late_blight,False,False,False,False,False
 late_blight/86a7b7d2-8783-4622-84d7-a4a420ee10ba___RS_Late.B 6546.JPG,finetuned,tomato_late_blight,False,False,False,False,False
 late_blight/898fbe14-3442-44ae-9638-471ce8efcc2f___GHLB2 Leaf 117.1.JPG,base,tomato_late_blight,False,False,False,False,False
@@ -624,9 +624,9 @@ late_blight/cd97ced1-2870-4f00-b7c7-37b8903378b9___RS_Late.B 6926.JPG,finetuned,
 late_blight/cf724383-bfe7-454a-9f22-bb59072d56ae___RS_Late.B 5442.JPG,base,tomato_late_blight,False,False,False,False,False
 late_blight/cf724383-bfe7-454a-9f22-bb59072d56ae___RS_Late.B 5442.JPG,finetuned,tomato_late_blight,False,False,False,False,False
 late_blight/d28bd097-8584-4269-a82b-43d6f5df787b___RS_Late.B 4832.JPG,base,tomato_late_blight,False,False,True,False,False
-late_blight/d28bd097-8584-4269-a82b-43d6f5df787b___RS_Late.B 4832.JPG,finetuned,tomato_late_blight,True,False,False,False,True
+late_blight/d28bd097-8584-4269-a82b-43d6f5df787b___RS_Late.B 4832.JPG,finetuned,tomato_late_blight,False,False,False,False,False
 late_blight/d2b2f190-12e4-467b-b64b-50b50d452a95___RS_Late.B 4913.JPG,base,tomato_late_blight,True,False,False,False,False
-late_blight/d2b2f190-12e4-467b-b64b-50b50d452a95___RS_Late.B 4913.JPG,finetuned,tomato_late_blight,True,False,False,False,True
+late_blight/d2b2f190-12e4-467b-b64b-50b50d452a95___RS_Late.B 4913.JPG,finetuned,tomato_late_blight,False,False,False,False,False
 late_blight/dd52a1b4-1d20-4417-96c9-48baac62f15b___RS_Late.B 5202.JPG,base,tomato_late_blight,True,False,False,False,False
 late_blight/dd52a1b4-1d20-4417-96c9-48baac62f15b___RS_Late.B 5202.JPG,finetuned,tomato_late_blight,False,False,False,False,False
 late_blight/df84e2a1-7517-4096-b555-67fe2b7a7156___GHLB2 Leaf 9003.JPG,base,tomato_late_blight,False,False,False,False,False
@@ -652,7 +652,7 @@ late_blight/f7e7a40f-335d-45a6-b086-3f6b9779a5a0___RS_Late.B 4903.JPG,finetuned,
 late_blight/f8024ad7-ded1-42aa-ab6d-139f7069d10e___RS_Late.B 7157.JPG,base,tomato_late_blight,False,False,False,False,False
 late_blight/f8024ad7-ded1-42aa-ab6d-139f7069d10e___RS_Late.B 7157.JPG,finetuned,tomato_late_blight,False,False,False,False,False
 leaf_mold/030ea180-4eb5-4f91-918e-56c7cfe2c001___Crnl_L.Mold 7076.JPG,base,tomato_leaf_mold,False,False,False,False,False
-leaf_mold/030ea180-4eb5-4f91-918e-56c7cfe2c001___Crnl_L.Mold 7076.JPG,finetuned,tomato_leaf_mold,False,False,False,False,False
+leaf_mold/030ea180-4eb5-4f91-918e-56c7cfe2c001___Crnl_L.Mold 7076.JPG,finetuned,tomato_leaf_mold,True,False,False,False,False
 leaf_mold/05bbff69-adad-4e16-8fad-c265be82e25a___Crnl_L.Mold 6929.JPG,base,tomato_leaf_mold,False,False,False,False,False
 leaf_mold/05bbff69-adad-4e16-8fad-c265be82e25a___Crnl_L.Mold 6929.JPG,finetuned,tomato_leaf_mold,False,False,False,False,False
 leaf_mold/0e5b669e-8534-45ab-a3c0-63134e685069___Crnl_L.Mold 7144.JPG,base,tomato_leaf_mold,True,False,False,False,False
@@ -762,7 +762,7 @@ mosaic_virus/388f46e3-32d3-45f3-84fd-12cb06feed12___PSU_CG 2119.JPG,finetuned,to
 mosaic_virus/3890da39-cc56-47ae-bc49-547565b69dc0___PSU_CG 2248.JPG,base,tomato_mosaic_virus,True,False,False,False,False
 mosaic_virus/3890da39-cc56-47ae-bc49-547565b69dc0___PSU_CG 2248.JPG,finetuned,tomato_mosaic_virus,False,False,False,False,False
 mosaic_virus/4571a1c4-3a67-4437-a5bf-8bc1a2af22e4___PSU_CG 2360.JPG,base,tomato_mosaic_virus,True,False,False,False,True
-mosaic_virus/4571a1c4-3a67-4437-a5bf-8bc1a2af22e4___PSU_CG 2360.JPG,finetuned,tomato_mosaic_virus,False,False,False,False,False
+mosaic_virus/4571a1c4-3a67-4437-a5bf-8bc1a2af22e4___PSU_CG 2360.JPG,finetuned,tomato_mosaic_virus,True,False,False,False,True
 mosaic_virus/55e25156-7b0c-43c6-b6f8-37d0b7097a38___PSU_CG 2347.JPG,base,tomato_mosaic_virus,True,False,False,False,False
 mosaic_virus/55e25156-7b0c-43c6-b6f8-37d0b7097a38___PSU_CG 2347.JPG,finetuned,tomato_mosaic_virus,False,False,False,False,False
 mosaic_virus/79894594-feb4-46ca-830c-5f1cf5b11063___PSU_CG 2063.JPG,base,tomato_mosaic_virus,True,False,False,False,False
@@ -770,9 +770,9 @@ mosaic_virus/79894594-feb4-46ca-830c-5f1cf5b11063___PSU_CG 2063.JPG,finetuned,to
 mosaic_virus/7a6e4837-d63d-465a-abae-ef857bf43e2d___PSU_CG 2117.JPG,base,tomato_mosaic_virus,True,False,False,False,False
 mosaic_virus/7a6e4837-d63d-465a-abae-ef857bf43e2d___PSU_CG 2117.JPG,finetuned,tomato_mosaic_virus,False,False,False,False,False
 mosaic_virus/830ed62d-ec4b-4df9-97fe-fddf36d7c3cb___PSU_CG 2301.JPG,base,tomato_mosaic_virus,True,False,False,False,False
-mosaic_virus/830ed62d-ec4b-4df9-97fe-fddf36d7c3cb___PSU_CG 2301.JPG,finetuned,tomato_mosaic_virus,True,False,False,False,False
+mosaic_virus/830ed62d-ec4b-4df9-97fe-fddf36d7c3cb___PSU_CG 2301.JPG,finetuned,tomato_mosaic_virus,True,False,False,False,True
 mosaic_virus/99879471-2f23-494a-be42-a5817fabde96___PSU_CG 2381.JPG,base,tomato_mosaic_virus,True,False,False,False,True
-mosaic_virus/99879471-2f23-494a-be42-a5817fabde96___PSU_CG 2381.JPG,finetuned,tomato_mosaic_virus,True,False,False,False,False
+mosaic_virus/99879471-2f23-494a-be42-a5817fabde96___PSU_CG 2381.JPG,finetuned,tomato_mosaic_virus,False,False,False,False,False
 mosaic_virus/a4453e9a-4ede-4377-be38-fd77e9bf16f0___PSU_CG 2308.JPG,base,tomato_mosaic_virus,True,False,False,False,True
 mosaic_virus/a4453e9a-4ede-4377-be38-fd77e9bf16f0___PSU_CG 2308.JPG,finetuned,tomato_mosaic_virus,False,False,False,False,False
 mosaic_virus/b529189c-a83d-429e-ae68-5281906cd3a7___PSU_CG 2080.JPG,base,tomato_mosaic_virus,True,False,False,False,False
@@ -852,7 +852,7 @@ septoria_leaf_spot/54e9c79f-bcce-4744-b5e0-be176d879a30___JR_Sept.L.S 8349.JPG,f
 septoria_leaf_spot/5c2f5353-dfee-4a06-83a9-55b219eca458___Matt.S_CG 1262.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/5c2f5353-dfee-4a06-83a9-55b219eca458___Matt.S_CG 1262.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/62983399-98ab-4972-905b-85582d226b03___Matt.S_CG 7823.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
-septoria_leaf_spot/62983399-98ab-4972-905b-85582d226b03___Matt.S_CG 7823.JPG,finetuned,tomato_septoria_leaf_spot,True,False,False,False,False
+septoria_leaf_spot/62983399-98ab-4972-905b-85582d226b03___Matt.S_CG 7823.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/62b56c32-fdd9-41c4-bf32-46b53d3c6ece___JR_Sept.L.S 2483.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/62b56c32-fdd9-41c4-bf32-46b53d3c6ece___JR_Sept.L.S 2483.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/657bb6c3-e9e8-41ce-b3ef-265168eae5d6___Matt.S_CG 6685.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
@@ -872,7 +872,7 @@ septoria_leaf_spot/7c92fec0-46dd-4130-bf41-b054e974edff___Keller.St_CG 2007.JPG,
 septoria_leaf_spot/81f3e04f-af99-460f-ae34-f5c34cb623f9___Matt.S_CG 7772.JPG,base,tomato_septoria_leaf_spot,True,False,False,False,False
 septoria_leaf_spot/81f3e04f-af99-460f-ae34-f5c34cb623f9___Matt.S_CG 7772.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/83e998a6-37f5-47f1-9da5-165c3a4c19fd___Matt.S_CG 6137.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
-septoria_leaf_spot/83e998a6-37f5-47f1-9da5-165c3a4c19fd___Matt.S_CG 6137.JPG,finetuned,tomato_septoria_leaf_spot,True,False,False,False,False
+septoria_leaf_spot/83e998a6-37f5-47f1-9da5-165c3a4c19fd___Matt.S_CG 6137.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/83ef4e76-8e69-47df-9b25-f11d58a803b3___Matt.S_CG 2656.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/83ef4e76-8e69-47df-9b25-f11d58a803b3___Matt.S_CG 2656.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/862cb2b6-6635-4157-9ef6-c2b2fe0a9861___Keller.St_CG 1882.JPG,base,tomato_septoria_leaf_spot,True,False,False,False,False
@@ -888,7 +888,7 @@ septoria_leaf_spot/8eeef084-da1d-4b7d-af5e-ded3d7061b1d___Matt.S_CG 0797.JPG,fin
 septoria_leaf_spot/90e53552-bfd0-4780-898c-1df4f15d4376___Matt.S_CG 6008.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/90e53552-bfd0-4780-898c-1df4f15d4376___Matt.S_CG 6008.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/9784efc5-3e57-4d12-9912-9a06cb6d56fb___Keller.St_CG 1863.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
-septoria_leaf_spot/9784efc5-3e57-4d12-9912-9a06cb6d56fb___Keller.St_CG 1863.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
+septoria_leaf_spot/9784efc5-3e57-4d12-9912-9a06cb6d56fb___Keller.St_CG 1863.JPG,finetuned,tomato_septoria_leaf_spot,True,False,False,False,False
 septoria_leaf_spot/97862022-bdbb-4641-b2e7-daa77f5f03d5___JR_Sept.L.S 2553.JPG,base,tomato_septoria_leaf_spot,True,False,False,False,False
 septoria_leaf_spot/97862022-bdbb-4641-b2e7-daa77f5f03d5___JR_Sept.L.S 2553.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/9a453d1c-52cd-4ff5-8114-fdb1231a3789___Keller.St_CG 1859.JPG,base,tomato_septoria_leaf_spot,True,False,False,False,False
@@ -900,7 +900,7 @@ septoria_leaf_spot/9b5141dd-be8a-441d-ae3a-d750c08e4f40___JR_Sept.L.S 2694.JPG,f
 septoria_leaf_spot/a11dad0c-2ed0-4d57-bd0b-0b19a0d7f17c___Matt.S_CG 2622.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/a11dad0c-2ed0-4d57-bd0b-0b19a0d7f17c___Matt.S_CG 2622.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/a3938779-9d9f-4e45-a397-7b5abd13f6ba___JR_Sept.L.S 2700.JPG,base,tomato_septoria_leaf_spot,True,False,False,False,False
-septoria_leaf_spot/a3938779-9d9f-4e45-a397-7b5abd13f6ba___JR_Sept.L.S 2700.JPG,finetuned,tomato_septoria_leaf_spot,True,False,False,False,False
+septoria_leaf_spot/a3938779-9d9f-4e45-a397-7b5abd13f6ba___JR_Sept.L.S 2700.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/a654c03b-c0d9-4605-9e21-a91a19ce0466___Matt.S_CG 6135.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/a654c03b-c0d9-4605-9e21-a91a19ce0466___Matt.S_CG 6135.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/a8ef94be-07d4-45ed-82de-d2070f14861a___JR_Sept.L.S 2554.JPG,base,tomato_septoria_leaf_spot,True,False,False,False,False
@@ -940,7 +940,7 @@ septoria_leaf_spot/d5380a5d-03bb-46d1-ae25-b245f3eec822___Matt.S_CG 7626.JPG,fin
 septoria_leaf_spot/da4d940c-2a77-481b-8693-167632534fc8___Matt.S_CG 0858.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/da4d940c-2a77-481b-8693-167632534fc8___Matt.S_CG 0858.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/dc98cddf-6178-4199-8e81-d5e3987f67b6___Matt.S_CG 6335.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
-septoria_leaf_spot/dc98cddf-6178-4199-8e81-d5e3987f67b6___Matt.S_CG 6335.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
+septoria_leaf_spot/dc98cddf-6178-4199-8e81-d5e3987f67b6___Matt.S_CG 6335.JPG,finetuned,tomato_septoria_leaf_spot,True,False,False,False,False
 septoria_leaf_spot/de5db2f2-c55f-4f1f-9d7e-2c9bf41b1abb___Matt.S_CG 0782.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/de5db2f2-c55f-4f1f-9d7e-2c9bf41b1abb___Matt.S_CG 0782.JPG,finetuned,tomato_septoria_leaf_spot,True,False,False,False,False
 septoria_leaf_spot/dfde75b3-9cba-4b76-85ce-df8fb517976a___JR_Sept.L.S 2716.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
@@ -964,7 +964,7 @@ septoria_leaf_spot/f24a0d2e-c89d-4182-8c3a-30ba0439da68___JR_Sept.L.S 2721.JPG,f
 septoria_leaf_spot/f449911c-51bb-42e0-858a-68259c0edcf0___Matt.S_CG 7566.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/f449911c-51bb-42e0-858a-68259c0edcf0___Matt.S_CG 7566.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/f4640d91-2fa7-4eb1-9d0c-45b8bc42eda2___Matt.S_CG 6117.JPG,base,tomato_septoria_leaf_spot,False,False,False,False,False
-septoria_leaf_spot/f4640d91-2fa7-4eb1-9d0c-45b8bc42eda2___Matt.S_CG 6117.JPG,finetuned,tomato_septoria_leaf_spot,True,False,False,False,False
+septoria_leaf_spot/f4640d91-2fa7-4eb1-9d0c-45b8bc42eda2___Matt.S_CG 6117.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/f93d5fb9-3505-456e-a494-531738e66e6d___JR_Sept.L.S 8473.JPG,base,tomato_septoria_leaf_spot,False,False,True,False,False
 septoria_leaf_spot/f93d5fb9-3505-456e-a494-531738e66e6d___JR_Sept.L.S 8473.JPG,finetuned,tomato_septoria_leaf_spot,False,False,False,False,False
 septoria_leaf_spot/fbae6253-c516-4e47-bb84-9ab675ed5d0e___Matt.S_CG 1419.JPG,base,tomato_septoria_leaf_spot,True,False,False,False,False
@@ -984,7 +984,7 @@ spider_mites/093aecee-3211-4aad-8f09-45ccdc92eeb6___Com.G_SpM_FL 9040.JPG,finetu
 spider_mites/0a167675-0317-4105-b885-b707b6ea52cf___Com.G_SpM_FL 9327.JPG,base,tomato_spider_mites,True,False,False,False,False
 spider_mites/0a167675-0317-4105-b885-b707b6ea52cf___Com.G_SpM_FL 9327.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/0a7714a4-530b-49e0-821f-be8d33c588ac___Com.G_SpM_FL 1775.JPG,base,tomato_spider_mites,True,False,False,False,False
-spider_mites/0a7714a4-530b-49e0-821f-be8d33c588ac___Com.G_SpM_FL 1775.JPG,finetuned,tomato_spider_mites,True,False,False,False,False
+spider_mites/0a7714a4-530b-49e0-821f-be8d33c588ac___Com.G_SpM_FL 1775.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/1001f133-ff3e-48de-b288-5a3802d9f3e1___Com.G_SpM_FL 8621.JPG,base,tomato_spider_mites,True,False,False,False,False
 spider_mites/1001f133-ff3e-48de-b288-5a3802d9f3e1___Com.G_SpM_FL 8621.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/113fe47e-6d5e-47da-8653-63095a9743c8___Com.G_SpM_FL 9610.JPG,base,tomato_spider_mites,False,False,False,False,False
@@ -1008,7 +1008,7 @@ spider_mites/2e41a813-b5a7-4501-bec2-e0f2db310a2c___Com.G_SpM_FL 9570.JPG,finetu
 spider_mites/33e0bed5-9b9e-46ba-9f85-42f86d6f06eb___Com.G_SpM_FL 9453.JPG,base,tomato_spider_mites,True,False,False,False,False
 spider_mites/33e0bed5-9b9e-46ba-9f85-42f86d6f06eb___Com.G_SpM_FL 9453.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/34f4c44b-7e74-4b66-993a-27b2f7da9ab3___Com.G_SpM_FL 9604.JPG,base,tomato_spider_mites,True,False,False,False,False
-spider_mites/34f4c44b-7e74-4b66-993a-27b2f7da9ab3___Com.G_SpM_FL 9604.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
+spider_mites/34f4c44b-7e74-4b66-993a-27b2f7da9ab3___Com.G_SpM_FL 9604.JPG,finetuned,tomato_spider_mites,True,False,False,False,True
 spider_mites/3621f0bd-8e40-4b1b-a6d4-23651e3b2dc2___Com.G_SpM_FL 8696.JPG,base,tomato_spider_mites,False,False,False,False,False
 spider_mites/3621f0bd-8e40-4b1b-a6d4-23651e3b2dc2___Com.G_SpM_FL 8696.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/3816382b-fc42-4661-b2fe-de651d2ca2ba___Com.G_SpM_FL 9294.JPG,base,tomato_spider_mites,True,False,False,False,False
@@ -1016,9 +1016,9 @@ spider_mites/3816382b-fc42-4661-b2fe-de651d2ca2ba___Com.G_SpM_FL 9294.JPG,finetu
 spider_mites/38be0c62-a8ce-49db-8187-294abc382ad6___Com.G_SpM_FL 8895.JPG,base,tomato_spider_mites,True,False,False,False,False
 spider_mites/38be0c62-a8ce-49db-8187-294abc382ad6___Com.G_SpM_FL 8895.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/4339add7-fc5c-472a-a5d3-67af2f544f23___Com.G_SpM_FL 9472.JPG,base,tomato_spider_mites,False,False,False,False,False
-spider_mites/4339add7-fc5c-472a-a5d3-67af2f544f23___Com.G_SpM_FL 9472.JPG,finetuned,tomato_spider_mites,True,False,False,False,False
+spider_mites/4339add7-fc5c-472a-a5d3-67af2f544f23___Com.G_SpM_FL 9472.JPG,finetuned,tomato_spider_mites,True,False,False,False,True
 spider_mites/44051fdf-8fde-4c5a-8580-119c129b45b1___Com.G_SpM_FL 8945.JPG,base,tomato_spider_mites,True,False,False,False,False
-spider_mites/44051fdf-8fde-4c5a-8580-119c129b45b1___Com.G_SpM_FL 8945.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
+spider_mites/44051fdf-8fde-4c5a-8580-119c129b45b1___Com.G_SpM_FL 8945.JPG,finetuned,tomato_spider_mites,True,False,False,False,True
 spider_mites/476ed525-ff16-4980-88e0-eb39f0fd4670___Com.G_SpM_FL 9593.JPG,base,tomato_spider_mites,True,False,False,False,False
 spider_mites/476ed525-ff16-4980-88e0-eb39f0fd4670___Com.G_SpM_FL 9593.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/4795bf1b-66bd-43ce-9a81-a8b391cf157a___Com.G_SpM_FL 1421.JPG,base,tomato_spider_mites,True,False,False,False,False
@@ -1026,7 +1026,7 @@ spider_mites/4795bf1b-66bd-43ce-9a81-a8b391cf157a___Com.G_SpM_FL 1421.JPG,finetu
 spider_mites/4abc263b-f7eb-400b-a4b1-50bb812d749a___Com.G_SpM_FL 1344.JPG,base,tomato_spider_mites,False,False,False,False,False
 spider_mites/4abc263b-f7eb-400b-a4b1-50bb812d749a___Com.G_SpM_FL 1344.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/4d1d81ce-2c5e-469f-857f-83691b0cdab9___Com.G_SpM_FL 9566.JPG,base,tomato_spider_mites,False,False,False,False,False
-spider_mites/4d1d81ce-2c5e-469f-857f-83691b0cdab9___Com.G_SpM_FL 9566.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
+spider_mites/4d1d81ce-2c5e-469f-857f-83691b0cdab9___Com.G_SpM_FL 9566.JPG,finetuned,tomato_spider_mites,True,False,False,False,True
 spider_mites/529646d8-5a02-4db8-b693-dd8232dd189f___Com.G_SpM_FL 8592.JPG,base,tomato_spider_mites,False,False,False,False,False
 spider_mites/529646d8-5a02-4db8-b693-dd8232dd189f___Com.G_SpM_FL 8592.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/5579b8b1-b67b-446a-96da-599e048979f5___Com.G_SpM_FL 8905.JPG,base,tomato_spider_mites,False,False,False,False,False
@@ -1054,7 +1054,7 @@ spider_mites/67a8503d-b717-4285-9dd5-f62381491526___Com.G_SpM_FL 1516.JPG,finetu
 spider_mites/6acdfc27-7fc5-47c9-bbe9-153ac4a3b797___Com.G_SpM_FL 9014.JPG,base,tomato_spider_mites,False,False,False,False,False
 spider_mites/6acdfc27-7fc5-47c9-bbe9-153ac4a3b797___Com.G_SpM_FL 9014.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/70953427-6b99-4bce-9340-640c5316f52a___Com.G_SpM_FL 9589.JPG,base,tomato_spider_mites,True,False,False,False,False
-spider_mites/70953427-6b99-4bce-9340-640c5316f52a___Com.G_SpM_FL 9589.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
+spider_mites/70953427-6b99-4bce-9340-640c5316f52a___Com.G_SpM_FL 9589.JPG,finetuned,tomato_spider_mites,True,False,False,False,True
 spider_mites/72e9c57b-b2c7-4ce2-a2c8-e5fbb1524a1e___Com.G_SpM_FL 1293.JPG,base,tomato_spider_mites,False,False,False,False,False
 spider_mites/72e9c57b-b2c7-4ce2-a2c8-e5fbb1524a1e___Com.G_SpM_FL 1293.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/75c0988a-af10-4fd9-87d2-497f9773f4c7___Com.G_SpM_FL 1361.JPG,base,tomato_spider_mites,True,False,False,False,False
@@ -1076,7 +1076,7 @@ spider_mites/851ea0ae-63c2-4f43-825e-e5e60b636ec0___Com.G_SpM_FL 1747.JPG,finetu
 spider_mites/861a37d6-fd5d-4f50-b36a-7758bb468ee2___Com.G_SpM_FL 8944.JPG,base,tomato_spider_mites,True,False,False,False,False
 spider_mites/861a37d6-fd5d-4f50-b36a-7758bb468ee2___Com.G_SpM_FL 8944.JPG,finetuned,tomato_spider_mites,True,False,False,False,True
 spider_mites/8638b153-2ee6-471d-9eb6-8900fb80bd38___Com.G_SpM_FL 8899.JPG,base,tomato_spider_mites,False,False,False,False,False
-spider_mites/8638b153-2ee6-471d-9eb6-8900fb80bd38___Com.G_SpM_FL 8899.JPG,finetuned,tomato_spider_mites,True,False,False,False,False
+spider_mites/8638b153-2ee6-471d-9eb6-8900fb80bd38___Com.G_SpM_FL 8899.JPG,finetuned,tomato_spider_mites,True,False,False,False,True
 spider_mites/8d2e6e89-57f3-427b-8525-1924fac85a4a___Com.G_SpM_FL 1391.JPG,base,tomato_spider_mites,True,False,False,False,False
 spider_mites/8d2e6e89-57f3-427b-8525-1924fac85a4a___Com.G_SpM_FL 1391.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/8e2bcfaf-0564-4d2b-966d-b69dc9492ed9___Com.G_SpM_FL 9436.JPG,base,tomato_spider_mites,True,False,False,False,False
@@ -1084,7 +1084,7 @@ spider_mites/8e2bcfaf-0564-4d2b-966d-b69dc9492ed9___Com.G_SpM_FL 9436.JPG,finetu
 spider_mites/9514a969-3abc-44e7-b75a-9bcf3670b105___Com.G_SpM_FL 9310.JPG,base,tomato_spider_mites,True,False,False,False,False
 spider_mites/9514a969-3abc-44e7-b75a-9bcf3670b105___Com.G_SpM_FL 9310.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/9ab54b59-cf04-4f64-aab7-57b64de6ac44___Com.G_SpM_FL 1225.JPG,base,tomato_spider_mites,False,False,False,False,True
-spider_mites/9ab54b59-cf04-4f64-aab7-57b64de6ac44___Com.G_SpM_FL 1225.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
+spider_mites/9ab54b59-cf04-4f64-aab7-57b64de6ac44___Com.G_SpM_FL 1225.JPG,finetuned,tomato_spider_mites,True,False,False,False,True
 spider_mites/a6684ff9-cc11-49d4-a07a-14eb5a9b1264___Com.G_SpM_FL 1636.JPG,base,tomato_spider_mites,True,False,False,False,False
 spider_mites/a6684ff9-cc11-49d4-a07a-14eb5a9b1264___Com.G_SpM_FL 1636.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/a93fe19f-ab48-4da3-aaf8-5c68c5ccd411___Com.G_SpM_FL 1341.JPG,base,tomato_spider_mites,False,False,False,False,False
@@ -1096,7 +1096,7 @@ spider_mites/ac0382a1-02b3-4ac9-a15c-b530488fd92b___Com.G_SpM_FL 9330.JPG,finetu
 spider_mites/ad4a99a4-3dc7-4401-85d6-d803b9fcc70a___Com.G_SpM_FL 1762.JPG,base,tomato_spider_mites,False,False,False,False,False
 spider_mites/ad4a99a4-3dc7-4401-85d6-d803b9fcc70a___Com.G_SpM_FL 1762.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/bc67ad59-d7a0-4382-96dd-e05a19f7efb2___Com.G_SpM_FL 1552.JPG,base,tomato_spider_mites,True,False,False,False,True
-spider_mites/bc67ad59-d7a0-4382-96dd-e05a19f7efb2___Com.G_SpM_FL 1552.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
+spider_mites/bc67ad59-d7a0-4382-96dd-e05a19f7efb2___Com.G_SpM_FL 1552.JPG,finetuned,tomato_spider_mites,True,False,False,False,False
 spider_mites/c04a2775-9b88-437c-9ae6-1bace29f4a44___Com.G_SpM_FL 8783.JPG,base,tomato_spider_mites,True,False,False,False,True
 spider_mites/c04a2775-9b88-437c-9ae6-1bace29f4a44___Com.G_SpM_FL 8783.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/c39c2991-99d9-4fd9-be42-97c0ec41d59e___Com.G_SpM_FL 8960.JPG,base,tomato_spider_mites,True,False,False,False,False
@@ -1110,7 +1110,7 @@ spider_mites/c992dcf1-a2de-4de7-b403-bb357efc80ab___Com.G_SpM_FL 1645.JPG,finetu
 spider_mites/cc736449-0d02-4b8b-b8c1-d6bbcd7b863f___Com.G_SpM_FL 8954.JPG,base,tomato_spider_mites,True,False,False,False,False
 spider_mites/cc736449-0d02-4b8b-b8c1-d6bbcd7b863f___Com.G_SpM_FL 8954.JPG,finetuned,tomato_spider_mites,True,False,False,False,False
 spider_mites/cf840e2d-8847-44e4-9589-540aefa69895___Com.G_SpM_FL 8544.JPG,base,tomato_spider_mites,False,False,False,False,False
-spider_mites/cf840e2d-8847-44e4-9589-540aefa69895___Com.G_SpM_FL 8544.JPG,finetuned,tomato_spider_mites,True,False,False,False,False
+spider_mites/cf840e2d-8847-44e4-9589-540aefa69895___Com.G_SpM_FL 8544.JPG,finetuned,tomato_spider_mites,True,False,False,False,True
 spider_mites/cfc8ff1c-5abb-41ef-adf9-c7b1a20d5e67___Com.G_SpM_FL 8743.JPG,base,tomato_spider_mites,False,False,False,False,False
 spider_mites/cfc8ff1c-5abb-41ef-adf9-c7b1a20d5e67___Com.G_SpM_FL 8743.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/d7621b7d-0d8c-4208-a796-049b3ef7a92b___Com.G_SpM_FL 1363.JPG,base,tomato_spider_mites,False,False,False,False,False
@@ -1120,7 +1120,7 @@ spider_mites/e02d4707-0a24-441a-a866-a0a0af33a091___Com.G_SpM_FL 8529.JPG,finetu
 spider_mites/e18529e1-ae21-43c7-95f9-82df36a4b20f___Com.G_SpM_FL 1259.JPG,base,tomato_spider_mites,False,False,False,False,False
 spider_mites/e18529e1-ae21-43c7-95f9-82df36a4b20f___Com.G_SpM_FL 1259.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/e1b32a63-c580-47e4-a2e9-d08d32923d9d___Com.G_SpM_FL 8420.JPG,base,tomato_spider_mites,False,False,False,False,False
-spider_mites/e1b32a63-c580-47e4-a2e9-d08d32923d9d___Com.G_SpM_FL 8420.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
+spider_mites/e1b32a63-c580-47e4-a2e9-d08d32923d9d___Com.G_SpM_FL 8420.JPG,finetuned,tomato_spider_mites,True,False,False,False,True
 spider_mites/e23ee999-dff9-4f41-bb30-58711bd4103e___Com.G_SpM_FL 8980.JPG,base,tomato_spider_mites,False,False,False,False,False
 spider_mites/e23ee999-dff9-4f41-bb30-58711bd4103e___Com.G_SpM_FL 8980.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/e3687cbd-21d5-4560-a527-c0693c48d806___Com.G_SpM_FL 8454.JPG,base,tomato_spider_mites,True,False,False,False,True
@@ -1128,13 +1128,13 @@ spider_mites/e3687cbd-21d5-4560-a527-c0693c48d806___Com.G_SpM_FL 8454.JPG,finetu
 spider_mites/e8a2e430-adae-4b78-bcfd-5652c59ad548___Com.G_SpM_FL 1758.JPG,base,tomato_spider_mites,True,False,False,False,False
 spider_mites/e8a2e430-adae-4b78-bcfd-5652c59ad548___Com.G_SpM_FL 1758.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/f12f4153-59e2-4e95-9ff2-fa3b7542ab2e___Com.G_SpM_FL 1427.JPG,base,tomato_spider_mites,True,False,False,False,False
-spider_mites/f12f4153-59e2-4e95-9ff2-fa3b7542ab2e___Com.G_SpM_FL 1427.JPG,finetuned,tomato_spider_mites,True,False,False,False,False
+spider_mites/f12f4153-59e2-4e95-9ff2-fa3b7542ab2e___Com.G_SpM_FL 1427.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/f30a97b5-ab4e-430e-8abe-217aca9532ce___Com.G_SpM_FL 9384.JPG,base,tomato_spider_mites,True,False,False,False,False
 spider_mites/f30a97b5-ab4e-430e-8abe-217aca9532ce___Com.G_SpM_FL 9384.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/f7676e6d-a9f2-4c4e-b15c-305f9f16aaa1___Com.G_SpM_FL 9415.JPG,base,tomato_spider_mites,True,False,False,False,False
-spider_mites/f7676e6d-a9f2-4c4e-b15c-305f9f16aaa1___Com.G_SpM_FL 9415.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
+spider_mites/f7676e6d-a9f2-4c4e-b15c-305f9f16aaa1___Com.G_SpM_FL 9415.JPG,finetuned,tomato_spider_mites,True,False,False,False,True
 spider_mites/fbd9d6dd-1141-42e8-84d5-7ca48ba4632c___Com.G_SpM_FL 9377.JPG,base,tomato_spider_mites,True,False,False,False,False
-spider_mites/fbd9d6dd-1141-42e8-84d5-7ca48ba4632c___Com.G_SpM_FL 9377.JPG,finetuned,tomato_spider_mites,True,False,False,False,True
+spider_mites/fbd9d6dd-1141-42e8-84d5-7ca48ba4632c___Com.G_SpM_FL 9377.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/fc135130-76fe-4249-a36f-8aa02129c7c7___Com.G_SpM_FL 9366.JPG,base,tomato_spider_mites,True,False,False,False,False
 spider_mites/fc135130-76fe-4249-a36f-8aa02129c7c7___Com.G_SpM_FL 9366.JPG,finetuned,tomato_spider_mites,False,False,False,False,False
 spider_mites/ff6346ca-227b-4cb4-a350-0941048744fa___Com.G_SpM_FL 9338.JPG,base,tomato_spider_mites,True,False,False,False,False
@@ -1144,13 +1144,13 @@ target_spot/086c833c-f885-4b46-9417-a6a3406dadbe___Com.G_TgS_FL 7985.JPG,finetun
 target_spot/096df0cf-7d61-4e67-8785-cba26db95895___Com.G_TgS_FL 9970.JPG,base,tomato_target_spot,True,False,False,False,False
 target_spot/096df0cf-7d61-4e67-8785-cba26db95895___Com.G_TgS_FL 9970.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/0982f241-41b3-4905-83b9-f8c6cf846688___Com.G_TgS_FL 0034.JPG,base,tomato_target_spot,True,False,False,False,False
-target_spot/0982f241-41b3-4905-83b9-f8c6cf846688___Com.G_TgS_FL 0034.JPG,finetuned,tomato_target_spot,False,False,False,False,False
+target_spot/0982f241-41b3-4905-83b9-f8c6cf846688___Com.G_TgS_FL 0034.JPG,finetuned,tomato_target_spot,True,False,False,False,False
 target_spot/16bead56-f62b-4b0a-8e90-6840f54f224a___Com.G_TgS_FL 0815.JPG,base,tomato_target_spot,False,False,False,False,False
-target_spot/16bead56-f62b-4b0a-8e90-6840f54f224a___Com.G_TgS_FL 0815.JPG,finetuned,tomato_target_spot,False,False,False,False,False
+target_spot/16bead56-f62b-4b0a-8e90-6840f54f224a___Com.G_TgS_FL 0815.JPG,finetuned,tomato_target_spot,True,False,False,False,True
 target_spot/19f500f4-67a4-48ab-ba8d-e9cebbc5352d___Com.G_TgS_FL 7897.JPG,base,tomato_target_spot,False,False,False,False,False
-target_spot/19f500f4-67a4-48ab-ba8d-e9cebbc5352d___Com.G_TgS_FL 7897.JPG,finetuned,tomato_target_spot,False,False,False,False,False
+target_spot/19f500f4-67a4-48ab-ba8d-e9cebbc5352d___Com.G_TgS_FL 7897.JPG,finetuned,tomato_target_spot,True,False,False,False,True
 target_spot/25f5dde8-4c91-46d6-b2e9-b818a12e3618___Com.G_TgS_FL 0822.JPG,base,tomato_target_spot,True,False,False,False,False
-target_spot/25f5dde8-4c91-46d6-b2e9-b818a12e3618___Com.G_TgS_FL 0822.JPG,finetuned,tomato_target_spot,False,False,False,False,False
+target_spot/25f5dde8-4c91-46d6-b2e9-b818a12e3618___Com.G_TgS_FL 0822.JPG,finetuned,tomato_target_spot,True,False,False,False,False
 target_spot/26150f8e-52df-4b1e-b37c-01f3cfc8d746___Com.G_TgS_FL 9958.JPG,base,tomato_target_spot,True,False,False,False,False
 target_spot/26150f8e-52df-4b1e-b37c-01f3cfc8d746___Com.G_TgS_FL 9958.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/311559f0-d5ee-4542-8280-809d1d09e1ad___Com.G_TgS_FL 8099.JPG,base,tomato_target_spot,True,False,False,False,False
@@ -1166,7 +1166,7 @@ target_spot/3daf2e68-664e-491b-b7e9-e4a2a2a1ebec___Com.G_TgS_FL 8395.JPG,finetun
 target_spot/42920fd3-0a32-42c8-9341-4d0659cb9e7b___Com.G_TgS_FL 0967.JPG,base,tomato_target_spot,False,False,False,False,False
 target_spot/42920fd3-0a32-42c8-9341-4d0659cb9e7b___Com.G_TgS_FL 0967.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/43a3cb8d-14b2-47c2-a3bd-22a5956ea118___Com.G_TgS_FL 9983.JPG,base,tomato_target_spot,True,False,False,False,False
-target_spot/43a3cb8d-14b2-47c2-a3bd-22a5956ea118___Com.G_TgS_FL 9983.JPG,finetuned,tomato_target_spot,False,False,False,False,False
+target_spot/43a3cb8d-14b2-47c2-a3bd-22a5956ea118___Com.G_TgS_FL 9983.JPG,finetuned,tomato_target_spot,True,False,False,False,False
 target_spot/4aad97a4-37ca-4287-a409-941af4e916d6___Com.G_TgS_FL 0966.JPG,base,tomato_target_spot,True,False,False,False,False
 target_spot/4aad97a4-37ca-4287-a409-941af4e916d6___Com.G_TgS_FL 0966.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/50b459e0-7ea3-4917-ae40-d54f0d85b1d3___Com.G_TgS_FL 1118.JPG,base,tomato_target_spot,True,False,False,False,False
@@ -1180,9 +1180,9 @@ target_spot/581d4912-6d16-4275-a26d-6c77cd109484___Com.G_TgS_FL 0940.JPG,finetun
 target_spot/59334a76-8e36-4c68-bd5e-4b181b710305___Com.G_TgS_FL 9778.JPG,base,tomato_target_spot,False,False,False,False,False
 target_spot/59334a76-8e36-4c68-bd5e-4b181b710305___Com.G_TgS_FL 9778.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/5a69db0e-6144-4ef2-b25b-9e2a1ffe1c3b___Com.G_TgS_FL 9710.JPG,base,tomato_target_spot,False,False,False,False,False
-target_spot/5a69db0e-6144-4ef2-b25b-9e2a1ffe1c3b___Com.G_TgS_FL 9710.JPG,finetuned,tomato_target_spot,False,False,False,False,False
+target_spot/5a69db0e-6144-4ef2-b25b-9e2a1ffe1c3b___Com.G_TgS_FL 9710.JPG,finetuned,tomato_target_spot,True,False,False,False,True
 target_spot/5bdc79ab-ab9c-4e83-9aac-3a440127a9d8___Com.G_TgS_FL 1021.JPG,base,tomato_target_spot,False,False,False,False,False
-target_spot/5bdc79ab-ab9c-4e83-9aac-3a440127a9d8___Com.G_TgS_FL 1021.JPG,finetuned,tomato_target_spot,False,False,False,False,False
+target_spot/5bdc79ab-ab9c-4e83-9aac-3a440127a9d8___Com.G_TgS_FL 1021.JPG,finetuned,tomato_target_spot,True,False,False,False,False
 target_spot/62009ea1-a36b-455f-84e0-f60e424d3c05___Com.G_TgS_FL 9924.JPG,base,tomato_target_spot,True,False,False,False,False
 target_spot/62009ea1-a36b-455f-84e0-f60e424d3c05___Com.G_TgS_FL 9924.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/69d9e422-5de3-4d1b-8b1b-1fc6455a35d3___Com.G_TgS_FL 8284.JPG,base,tomato_target_spot,False,False,False,False,False
@@ -1192,7 +1192,7 @@ target_spot/6d8550bb-b43d-4e66-a5fc-f320110ad625___Com.G_TgS_FL 9905.JPG,finetun
 target_spot/79016043-851a-459e-85ee-2c321a5217ce___Com.G_TgS_FL 0725.JPG,base,tomato_target_spot,True,False,False,False,False
 target_spot/79016043-851a-459e-85ee-2c321a5217ce___Com.G_TgS_FL 0725.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/7a53588f-b543-4858-a3b5-0e9dab0eaf06___Com.G_TgS_FL 8004.JPG,base,tomato_target_spot,True,False,False,False,False
-target_spot/7a53588f-b543-4858-a3b5-0e9dab0eaf06___Com.G_TgS_FL 8004.JPG,finetuned,tomato_target_spot,False,False,False,False,False
+target_spot/7a53588f-b543-4858-a3b5-0e9dab0eaf06___Com.G_TgS_FL 8004.JPG,finetuned,tomato_target_spot,True,False,False,False,False
 target_spot/7b43a21e-a0cf-49f4-b92c-9b9fd8a3e1c3___Com.G_TgS_FL 7893.JPG,base,tomato_target_spot,False,False,False,False,False
 target_spot/7b43a21e-a0cf-49f4-b92c-9b9fd8a3e1c3___Com.G_TgS_FL 7893.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/7bf463d5-e742-43d9-a0d3-08c07adeb456___Com.G_TgS_FL 0897.JPG,base,tomato_target_spot,True,False,False,False,False
@@ -1202,7 +1202,7 @@ target_spot/82358168-b9f4-499b-8a19-b5dcf8796b61___Com.G_TgS_FL 0997.JPG,finetun
 target_spot/83f00e62-2e03-45dc-adde-e47fae14e191___Com.G_TgS_FL 9751.JPG,base,tomato_target_spot,False,False,False,False,False
 target_spot/83f00e62-2e03-45dc-adde-e47fae14e191___Com.G_TgS_FL 9751.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/856076c1-50ec-478d-81a2-4cb3fd26b5af___Com.G_TgS_FL 0750.JPG,base,tomato_target_spot,True,False,False,False,False
-target_spot/856076c1-50ec-478d-81a2-4cb3fd26b5af___Com.G_TgS_FL 0750.JPG,finetuned,tomato_target_spot,False,False,False,False,False
+target_spot/856076c1-50ec-478d-81a2-4cb3fd26b5af___Com.G_TgS_FL 0750.JPG,finetuned,tomato_target_spot,True,False,False,False,False
 target_spot/8926921f-a06b-4ed7-952c-f4c2333137ed___Com.G_TgS_FL 8403.JPG,base,tomato_target_spot,False,False,False,False,False
 target_spot/8926921f-a06b-4ed7-952c-f4c2333137ed___Com.G_TgS_FL 8403.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/8fe77ca8-8f18-482f-8c30-745efe6ae1c9___Com.G_TgS_FL 8107.JPG,base,tomato_target_spot,True,False,False,False,False
@@ -1210,7 +1210,7 @@ target_spot/8fe77ca8-8f18-482f-8c30-745efe6ae1c9___Com.G_TgS_FL 8107.JPG,finetun
 target_spot/90eecef5-da97-4905-8144-e4ad2f2680b1___Com.G_TgS_FL 9937.JPG,base,tomato_target_spot,True,False,False,False,False
 target_spot/90eecef5-da97-4905-8144-e4ad2f2680b1___Com.G_TgS_FL 9937.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/90f8a11f-04f3-4d4d-a6c0-9b75e69ae66f___Com.G_TgS_FL 8048.JPG,base,tomato_target_spot,False,False,False,False,False
-target_spot/90f8a11f-04f3-4d4d-a6c0-9b75e69ae66f___Com.G_TgS_FL 8048.JPG,finetuned,tomato_target_spot,False,False,False,False,False
+target_spot/90f8a11f-04f3-4d4d-a6c0-9b75e69ae66f___Com.G_TgS_FL 8048.JPG,finetuned,tomato_target_spot,True,False,False,False,False
 target_spot/95c4cd26-0d05-410a-b61e-6fd459a4be56___Com.G_TgS_FL 1121.JPG,base,tomato_target_spot,False,False,False,False,False
 target_spot/95c4cd26-0d05-410a-b61e-6fd459a4be56___Com.G_TgS_FL 1121.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/9b2c3687-231d-456a-9b3a-df24481f9c12___Com.G_TgS_FL 8177.JPG,base,tomato_target_spot,False,False,False,False,False
@@ -1234,13 +1234,13 @@ target_spot/b13c290b-1113-44a9-967b-5c1eeb280a42___Com.G_TgS_FL 8053.JPG,finetun
 target_spot/b4631e7a-13d0-458a-bd08-6a6e38f66780___Com.G_TgS_FL 9913.JPG,base,tomato_target_spot,True,False,False,False,False
 target_spot/b4631e7a-13d0-458a-bd08-6a6e38f66780___Com.G_TgS_FL 9913.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/c3f85772-c7c1-41f5-9fa1-3dacf50c96da___Com.G_TgS_FL 0754.JPG,base,tomato_target_spot,False,False,False,False,False
-target_spot/c3f85772-c7c1-41f5-9fa1-3dacf50c96da___Com.G_TgS_FL 0754.JPG,finetuned,tomato_target_spot,False,False,False,False,False
+target_spot/c3f85772-c7c1-41f5-9fa1-3dacf50c96da___Com.G_TgS_FL 0754.JPG,finetuned,tomato_target_spot,True,False,False,False,False
 target_spot/c47c2e46-e1ec-4359-ae0b-5e8b89dbd32f___Com.G_TgS_FL 9795.JPG,base,tomato_target_spot,True,False,False,False,False
 target_spot/c47c2e46-e1ec-4359-ae0b-5e8b89dbd32f___Com.G_TgS_FL 9795.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/c59156c7-b69c-485c-88a7-a3d7f34f08ad___Com.G_TgS_FL 1024.JPG,base,tomato_target_spot,False,False,False,False,False
 target_spot/c59156c7-b69c-485c-88a7-a3d7f34f08ad___Com.G_TgS_FL 1024.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/c696d345-948b-4d5e-8185-13ec8c2b42fa___Com.G_TgS_FL 1037.JPG,base,tomato_target_spot,False,False,False,False,False
-target_spot/c696d345-948b-4d5e-8185-13ec8c2b42fa___Com.G_TgS_FL 1037.JPG,finetuned,tomato_target_spot,False,False,False,False,False
+target_spot/c696d345-948b-4d5e-8185-13ec8c2b42fa___Com.G_TgS_FL 1037.JPG,finetuned,tomato_target_spot,True,False,False,False,False
 target_spot/c6bb63a5-8698-4a14-8f32-195b355cc9dd___Com.G_TgS_FL 9801.JPG,base,tomato_target_spot,True,False,False,False,False
 target_spot/c6bb63a5-8698-4a14-8f32-195b355cc9dd___Com.G_TgS_FL 9801.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/d0027625-3a04-4187-a80d-2d004127b1cb___Com.G_TgS_FL 9760.JPG,base,tomato_target_spot,True,False,False,False,False
@@ -1262,7 +1262,7 @@ target_spot/e74eadf5-2950-42dc-bcbf-d5e86e2c52b7___Com.G_TgS_FL 8382.JPG,finetun
 target_spot/e920317d-f75e-4fc1-a276-7c6a6837a0fd___Com.G_TgS_FL 0942.JPG,base,tomato_target_spot,True,False,False,False,False
 target_spot/e920317d-f75e-4fc1-a276-7c6a6837a0fd___Com.G_TgS_FL 0942.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/e9c43f84-89b5-4e72-b6fd-da5698f342c2___Com.G_TgS_FL 9965.JPG,base,tomato_target_spot,False,False,False,False,False
-target_spot/e9c43f84-89b5-4e72-b6fd-da5698f342c2___Com.G_TgS_FL 9965.JPG,finetuned,tomato_target_spot,False,False,False,False,False
+target_spot/e9c43f84-89b5-4e72-b6fd-da5698f342c2___Com.G_TgS_FL 9965.JPG,finetuned,tomato_target_spot,True,False,False,False,False
 target_spot/ea8d9bb4-1ba8-4e02-b1d0-dad17ed489d2___Com.G_TgS_FL 8234.JPG,base,tomato_target_spot,True,False,False,False,False
 target_spot/ea8d9bb4-1ba8-4e02-b1d0-dad17ed489d2___Com.G_TgS_FL 8234.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/edf110cf-5994-4506-8a7b-152f6d57456c___Com.G_TgS_FL 8012.JPG,base,tomato_target_spot,True,False,False,False,False
@@ -1272,7 +1272,7 @@ target_spot/ee5e895e-350a-4929-abf9-2d4c8ef9b157___Com.G_TgS_FL 0860.JPG,finetun
 target_spot/f02e6633-416e-4eb1-bfaa-26b4ede06758___Com.G_TgS_FL 1085.JPG,base,tomato_target_spot,True,False,False,False,False
 target_spot/f02e6633-416e-4eb1-bfaa-26b4ede06758___Com.G_TgS_FL 1085.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/f252ed58-7e35-499e-861a-c94005d7df94___Com.G_TgS_FL 7912.JPG,base,tomato_target_spot,False,False,False,False,False
-target_spot/f252ed58-7e35-499e-861a-c94005d7df94___Com.G_TgS_FL 7912.JPG,finetuned,tomato_target_spot,False,False,False,False,False
+target_spot/f252ed58-7e35-499e-861a-c94005d7df94___Com.G_TgS_FL 7912.JPG,finetuned,tomato_target_spot,True,False,False,False,True
 target_spot/f4ec991a-6296-4b84-ba9b-4abdbffcb4e9___Com.G_TgS_FL 9804.JPG,base,tomato_target_spot,False,False,False,False,False
 target_spot/f4ec991a-6296-4b84-ba9b-4abdbffcb4e9___Com.G_TgS_FL 9804.JPG,finetuned,tomato_target_spot,False,False,False,False,False
 target_spot/f6f8f785-0d6e-4b6a-a206-68c65dcf9bc4___Com.G_TgS_FL 9669.JPG,base,tomato_target_spot,False,False,False,False,False
@@ -1460,7 +1460,7 @@ yellow_leaf_curl_virus/5e3272b0-298c-4c66-8b76-aece9efb31d7___UF.GRC_YLCV_Lab 03
 yellow_leaf_curl_virus/5eae82f7-b6cb-457c-9a5e-c78b507aab00___UF.GRC_YLCV_Lab 02326.JPG,base,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/5eae82f7-b6cb-457c-9a5e-c78b507aab00___UF.GRC_YLCV_Lab 02326.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/61a02dc7-93ec-46d6-8150-2d565563fc5e___UF.GRC_YLCV_Lab 08440.JPG,base,tomato_yellow_leaf_curl_virus,False,False,False,False,True
-yellow_leaf_curl_virus/61a02dc7-93ec-46d6-8150-2d565563fc5e___UF.GRC_YLCV_Lab 08440.JPG,finetuned,tomato_yellow_leaf_curl_virus,True,False,False,False,True
+yellow_leaf_curl_virus/61a02dc7-93ec-46d6-8150-2d565563fc5e___UF.GRC_YLCV_Lab 08440.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/61acaad1-5224-4460-8aa3-8f6f6680748e___UF.GRC_YLCV_Lab 03289.JPG,base,tomato_yellow_leaf_curl_virus,True,False,False,False,False
 yellow_leaf_curl_virus/61acaad1-5224-4460-8aa3-8f6f6680748e___UF.GRC_YLCV_Lab 03289.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/6243f4bc-d40f-4cae-bca1-7ed1206c2d0e___UF.GRC_YLCV_Lab 02620.JPG,base,tomato_yellow_leaf_curl_virus,False,False,False,False,False
@@ -1478,7 +1478,7 @@ yellow_leaf_curl_virus/64bb458b-8ac0-451e-9a4b-1aa6047c3a5f___YLCV_NREC 0088.JPG
 yellow_leaf_curl_virus/6518141d-67a2-4c39-bdeb-cd7121bdb9e0___YLCV_GCREC 2891.JPG,base,tomato_yellow_leaf_curl_virus,True,False,False,False,False
 yellow_leaf_curl_virus/6518141d-67a2-4c39-bdeb-cd7121bdb9e0___YLCV_GCREC 2891.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/66ad8992-da0a-440b-965a-a2b8c407fb18___UF.GRC_YLCV_Lab 08545.JPG,base,tomato_yellow_leaf_curl_virus,True,False,False,False,True
-yellow_leaf_curl_virus/66ad8992-da0a-440b-965a-a2b8c407fb18___UF.GRC_YLCV_Lab 08545.JPG,finetuned,tomato_yellow_leaf_curl_virus,True,False,False,False,True
+yellow_leaf_curl_virus/66ad8992-da0a-440b-965a-a2b8c407fb18___UF.GRC_YLCV_Lab 08545.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/68a494e1-06de-4140-9574-f1a00bf0dd0f___UF.GRC_YLCV_Lab 01874.JPG,base,tomato_yellow_leaf_curl_virus,True,False,False,False,False
 yellow_leaf_curl_virus/68a494e1-06de-4140-9574-f1a00bf0dd0f___UF.GRC_YLCV_Lab 01874.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/6a34e6d5-2acf-4d90-9e06-40368b092223___YLCV_NREC 2206.JPG,base,tomato_yellow_leaf_curl_virus,True,False,False,False,False
@@ -1546,7 +1546,7 @@ yellow_leaf_curl_virus/89ccb8de-2351-4894-805e-03d088eb7629___UF.GRC_YLCV_Lab 02
 yellow_leaf_curl_virus/8a3586e1-da3f-42bc-85e2-b82b4e103f9f___UF.GRC_YLCV_Lab 01688.JPG,base,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/8a3586e1-da3f-42bc-85e2-b82b4e103f9f___UF.GRC_YLCV_Lab 01688.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/8ac16bec-8484-499f-a86d-fbc6bcbe1c29___UF.GRC_YLCV_Lab 08539.JPG,base,tomato_yellow_leaf_curl_virus,False,False,False,False,True
-yellow_leaf_curl_virus/8ac16bec-8484-499f-a86d-fbc6bcbe1c29___UF.GRC_YLCV_Lab 08539.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
+yellow_leaf_curl_virus/8ac16bec-8484-499f-a86d-fbc6bcbe1c29___UF.GRC_YLCV_Lab 08539.JPG,finetuned,tomato_yellow_leaf_curl_virus,True,False,False,False,True
 yellow_leaf_curl_virus/8bd55b06-6ef9-44eb-94c3-99e679e6021b___UF.GRC_YLCV_Lab 02659.JPG,base,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/8bd55b06-6ef9-44eb-94c3-99e679e6021b___UF.GRC_YLCV_Lab 02659.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/8bdf9538-07f2-4f00-ae55-bb70297de085___YLCV_NREC 2017.JPG,base,tomato_yellow_leaf_curl_virus,False,False,False,False,False
@@ -1568,7 +1568,7 @@ yellow_leaf_curl_virus/91ab5697-062e-42aa-974b-25c56424d84a___UF.GRC_YLCV_Lab 02
 yellow_leaf_curl_virus/92013c7e-0825-4d27-a3fd-edc723f0c1b1___YLCV_NREC 2908.JPG,base,tomato_yellow_leaf_curl_virus,True,False,False,False,False
 yellow_leaf_curl_virus/92013c7e-0825-4d27-a3fd-edc723f0c1b1___YLCV_NREC 2908.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/92f5b61b-1970-41b3-9c72-f648feadd735___UF.GRC_YLCV_Lab 08482.JPG,base,tomato_yellow_leaf_curl_virus,False,False,False,False,True
-yellow_leaf_curl_virus/92f5b61b-1970-41b3-9c72-f648feadd735___UF.GRC_YLCV_Lab 08482.JPG,finetuned,tomato_yellow_leaf_curl_virus,True,False,False,False,True
+yellow_leaf_curl_virus/92f5b61b-1970-41b3-9c72-f648feadd735___UF.GRC_YLCV_Lab 08482.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/94e37653-feb5-4d5d-908c-f7ef3f03a774___YLCV_NREC 2906.JPG,base,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/94e37653-feb5-4d5d-908c-f7ef3f03a774___YLCV_NREC 2906.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/95d55a85-290c-4883-855d-40a125de4c80___YLCV_NREC 0092.JPG,base,tomato_yellow_leaf_curl_virus,False,False,False,False,False
@@ -1606,7 +1606,7 @@ yellow_leaf_curl_virus/a39053fb-74c8-489d-b0c1-8b27bdc7087c___UF.GRC_YLCV_Lab 02
 yellow_leaf_curl_virus/a4019530-f089-401a-8b4a-b24c56e14c17___YLCV_GCREC 2814.JPG,base,tomato_yellow_leaf_curl_virus,False,False,False,False,True
 yellow_leaf_curl_virus/a4019530-f089-401a-8b4a-b24c56e14c17___YLCV_GCREC 2814.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/a4354dbc-7948-49ce-b8c7-23cb68042657___UF.GRC_YLCV_Lab 08533.JPG,base,tomato_yellow_leaf_curl_virus,True,False,False,False,False
-yellow_leaf_curl_virus/a4354dbc-7948-49ce-b8c7-23cb68042657___UF.GRC_YLCV_Lab 08533.JPG,finetuned,tomato_yellow_leaf_curl_virus,True,False,False,False,True
+yellow_leaf_curl_virus/a4354dbc-7948-49ce-b8c7-23cb68042657___UF.GRC_YLCV_Lab 08533.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/a5416516-80f0-4004-88f6-186b79696707___UF.GRC_YLCV_Lab 01840.JPG,base,tomato_yellow_leaf_curl_virus,True,False,False,False,False
 yellow_leaf_curl_virus/a5416516-80f0-4004-88f6-186b79696707___UF.GRC_YLCV_Lab 01840.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/a5e96f64-2ecb-4d87-b4c4-084afd8119d7___YLCV_NREC 2275.JPG,base,tomato_yellow_leaf_curl_virus,True,False,False,False,False
@@ -1794,7 +1794,7 @@ yellow_leaf_curl_virus/f4e1e6f8-c183-4652-b04c-a54b4cd2fccd___UF.GRC_YLCV_Lab 01
 yellow_leaf_curl_virus/f5fad69e-f325-47d7-9c8b-21b730ba68db___YLCV_GCREC 5388.JPG,base,tomato_yellow_leaf_curl_virus,True,False,False,False,False
 yellow_leaf_curl_virus/f5fad69e-f325-47d7-9c8b-21b730ba68db___YLCV_GCREC 5388.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/f6280660-1f0b-41a8-858e-9103c4f1d342___YLCV_NREC 2392.JPG,base,tomato_yellow_leaf_curl_virus,True,False,False,False,True
-yellow_leaf_curl_virus/f6280660-1f0b-41a8-858e-9103c4f1d342___YLCV_NREC 2392.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
+yellow_leaf_curl_virus/f6280660-1f0b-41a8-858e-9103c4f1d342___YLCV_NREC 2392.JPG,finetuned,tomato_yellow_leaf_curl_virus,True,False,False,False,False
 yellow_leaf_curl_virus/f6db71b7-a053-479a-b6fc-ab891ecea0ef___UF.GRC_YLCV_Lab 02111.JPG,base,tomato_yellow_leaf_curl_virus,True,False,False,False,False
 yellow_leaf_curl_virus/f6db71b7-a053-479a-b6fc-ab891ecea0ef___UF.GRC_YLCV_Lab 02111.JPG,finetuned,tomato_yellow_leaf_curl_virus,False,False,False,False,False
 yellow_leaf_curl_virus/f722668c-e9af-43a7-a232-0389e5c513fd___UF.GRC_YLCV_Lab 03068.JPG,base,tomato_yellow_leaf_curl_virus,True,False,False,False,True

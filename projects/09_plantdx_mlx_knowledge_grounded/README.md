@@ -29,7 +29,7 @@ content-hashed. Qwen2.5-VL-7B-Instruct (4-bit) was then fine-tuned with LoRA on 
 
 | Model card | What | Test result | Weights |
 |---|---|---|---|
-| [`qwen25vl_tomato_qlora`](models/qwen25vl_tomato_qlora/README.md) | Qwen2.5-VL-7B 4-bit + QLoRA, PlantVillage tomato, 10 classes | 93.7% (910 images); retrained weights 86.9% | retrained, `setup/download_models.py` |
+| [`qwen25vl_tomato_qlora`](models/qwen25vl_tomato_qlora/README.md) | Qwen2.5-VL-7B 4-bit + QLoRA, PlantVillage tomato, 10 classes | 93.7% (910 images); retrained weights 90.9% | retrained, `setup/download_models.py` |
 | [`qwen25vl_mango_qlora`](models/qwen25vl_mango_qlora/README.md) | same, MangoLeafBD, 8 classes | 82.0% (200 images); retrained weights 86.0% | retrained, `setup/download_models.py` |
 | [`zero_shot_benchmarks`](models/zero_shot_benchmarks/README.md) | 7 off-the-shelf VLMs on MLX, no training | best 23% | Hugging Face |
 
@@ -127,7 +127,7 @@ All figures (accuracy, BERTScore, CIDEr, hallucination, latency, response length
 | `reports/` | Dataset audit (class distribution, duplicates, corrupt images, image statistics) and the full evaluation of both runs: metrics, per-disease scores, confusion matrices, BLEU / ROUGE / METEOR / CIDEr / BERTScore, hallucination checks, latency, figures, raw predictions |
 | `logs/` | MLX training logs of both runs (`logs/qwen25vl_<crop>_qlora/train.log`) and the demo app log |
 | `checkpoints/` | `adapter_config.json` of both runs; `setup/download_models.py` adds the retrained `adapters.safetensors` (not in git, see [Adapters](#adapters)) |
-| `retrained_2026-11/` | The retraining of both models (31 Oct – 1 Nov 2026): training logs and plans, full evaluations, comparison with July |
+| `retrained_2026-11/` | The retraining of both models (31 Oct – 1 Nov 2026): training logs and plans, the choice of the tomato snapshot on the validation split, full evaluations, comparison with July |
 | `predictions/`, `uploads/` | Predictions made with the demo app on 16 Jul 2026 and the photos uploaded to it |
 | `results/` | Summary tables and graphs used in the fellowship report |
 | `earlier_experiments/` | PlantCaption pipeline, June caption sets, the 4-model and 7-model MLX zero-shot benchmarks |
@@ -239,7 +239,8 @@ Both July runs finished and saved `checkpoints/qwen25vl_<crop>_qlora/adapters.sa
 `logs/qwen25vl_<crop>_qlora/train.log`), but those weight files were no longer on the Mac at the handover; their
 SHA-256 checksums are recorded in `reports/qwen25vl_<crop>_qlora/evaluation/system_info.json` (tomato
 `9d4b21f4…`, mango `c944488f…`). Both models were therefore **retrained** on the same Mac from 31 Oct to 1 Nov 2026
-with the same code, training rows, config and library versions. The weights are stored in
+with the same code, training rows, config and library versions; for tomato the published file is the snapshot
+saved at iteration 13,200, chosen on the validation split. The weights are stored in
 `github.com/iAakash1/TIH-IoT` (Git LFS) and downloaded with, from the repository root:
 
 ```bash
@@ -248,13 +249,16 @@ python setup/download_models.py 09_plantdx     # both adapters into checkpoints/
 
 | Run | Bytes | SHA-256 | Test accuracy / macro-F1 (July) |
 |---|---:|---|---|
-| `qwen25vl_tomato_qlora` (retrained) | 161,529,623 | `a4872a5cbbf072caecb5221a613994efd935099b42b10733a8b758e920db3ee0` | 86.9% / 0.847 (93.7% / 0.919) |
+| `qwen25vl_tomato_qlora` (retrained, iteration 13,200) | 161,529,623 | `a501137b0c5eef4346229be888f2cedc135d7e0434f74c6b136b177052860c3f` | 90.9% / 0.877 (93.7% / 0.919) |
 | `qwen25vl_mango_qlora` (retrained) | 161,529,623 | `f10dea4c14165a9002034c48094fdb0a4a6575aa299347eed39f7c6b6b6b1aa4` | 86.0% / 0.891 (82.0% / 0.811) |
 
-`mlx_vlm.lora` takes no seed, so a new run gives different weights. The retrained tomato model is weaker on healthy
-leaves (14 of 80 right) and close to July on the nine diseases; the retrained mango model is better on die back
-(8 of 25, July 1). The logs, plans, full evaluations and a class-by-class comparison are in
-[`retrained_2026-11/`](retrained_2026-11/README.md); the July figures in this README stay the reported results.
+`mlx_vlm.lora` takes no seed, so a new run gives different weights. The final file of the tomato run (iteration
+16,201) answered most healthy leaves with the single word "A" (86.9% / 0.847, healthy 14 of 80); of the snapshots
+saved every 200 iterations, iteration 13,200 scored best on the validation split and gets 67 of 80 healthy leaves
+right, but is weaker than July on spider mites, leaf mold, mosaic virus and target spot. The retrained mango model
+is better on die back (8 of 25, July 1). The logs, plans, the snapshot selection, full evaluations and a
+class-by-class comparison are in [`retrained_2026-11/`](retrained_2026-11/README.md) (`--all` also downloads the
+final tomato file there); the July figures in this README stay the reported results.
 `scripts/verify_project.py` reports whether the weights present are the July or the retrained files.
 
 ## Code history

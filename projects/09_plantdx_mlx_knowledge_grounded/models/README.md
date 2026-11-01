@@ -5,7 +5,7 @@ environment, and the exact commands for data preparation, training, validation, 
 
 | Model | What it is | Data (test set) | Result | Weights |
 |---|---|---|---|---|
-| [`qwen25vl_tomato_qlora`](qwen25vl_tomato_qlora/README.md) | Qwen2.5-VL-7B-Instruct 4-bit + QLoRA (r16), knowledge-grounded captions | PlantVillage tomato, 10 classes (910) | **93.7%**, macro-F1 0.919 (base 7.3%); retrained weights 86.9%, 0.847 | retrained Nov 2026, `setup/download_models.py` |
+| [`qwen25vl_tomato_qlora`](qwen25vl_tomato_qlora/README.md) | Qwen2.5-VL-7B-Instruct 4-bit + QLoRA (r16), knowledge-grounded captions | PlantVillage tomato, 10 classes (910) | **93.7%**, macro-F1 0.919 (base 7.3%); retrained weights 90.9%, 0.877 | retrained Nov 2026, `setup/download_models.py` |
 | [`qwen25vl_mango_qlora`](qwen25vl_mango_qlora/README.md) | same model and method | MangoLeafBD, 8 classes (200) | **82.0%**, macro-F1 0.811 (base 17.5%); retrained weights 86.0%, 0.891 | retrained Nov 2026, `setup/download_models.py` |
 | [`zero_shot_benchmarks`](zero_shot_benchmarks/README.md) | 7 off-the-shelf VLMs, no training (4-VLM and 7-VLM runs) | 16 and 30 leaf images | best 23% (InternVL3-8B) | Hugging Face downloads |
 | [PlantCaption](../earlier_experiments/01_plantcaption_pipeline_2026-06-12/captioning/README.md) | caption-generation pipeline (knowledge base + Qwen2.5-VL scene description); no training | 20 sample images | sample captions in `sample_outputs/` | Hugging Face download |

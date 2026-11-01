@@ -100,8 +100,6 @@ understand you are regenerating, not editing, `datasets/<crop>/`.)
 
 ---
 
-## Reporting a new known issue
-
 ## 2. The July adapter weights are lost (resolved by retraining, 1 Nov 2026)
 
 **Status:** resolved: both models were retrained and the new weights download with `setup/download_models.py`.
@@ -121,10 +119,12 @@ checkpoint … missing adapters.safetensors", and
 Both models were retrained on the same Mac (Apple M4 Pro, 24 GB) from 31 Oct to 1 Nov 2026 with the same code
 (commit `9f08d99`), the same training rows, config and split seed, and the same `mlx` / `mlx-vlm` versions.
 `mlx_vlm.lora` takes no seed of its own (example order, LoRA initialisation and dropout are random), so the retrained
-weights have new checksums and somewhat different scores (tomato 86.9%, mango 86.0%; July 93.7% and 82.0%) (tomato `a4872a5c…`, mango `f10dea4c…`). They are stored
-in `github.com/iAakash1/TIH-IoT` (Git LFS) and listed in `setup/models_manifest.json`; from the repository root,
-`python setup/download_models.py 09_plantdx` puts them in `checkpoints/<run>/`. Their training logs and evaluation
-are in `retrained_2026-11/`. `scripts/verify_project.py` reports which weights are present (MISSING / July weights /
+weights have new checksums and somewhat different scores. For tomato the published file is the snapshot saved at
+iteration 13,200, chosen on the validation split because the final file (iteration 16,201: 86.9%) answered most
+healthy leaves with the single word "A". Test scores: tomato 90.9%, mango 86.0% (July 93.7% and 82.0%); checksums
+tomato `a501137b…`, mango `f10dea4c…`. They are stored in `github.com/iAakash1/TIH-IoT` (Git LFS) and listed in
+`setup/models_manifest.json`; from the repository root, `python setup/download_models.py 09_plantdx` puts them in
+`checkpoints/<run>/`. Their training logs, the snapshot selection and the evaluations are in `retrained_2026-11/`. `scripts/verify_project.py` reports which weights are present (MISSING / July weights /
 retrained).
 
 ---
@@ -155,6 +155,43 @@ Changing the path format would change the frozen training artifacts. If relative
 them relative to the dataset directory and have the runner resolve them before calling `mlx_vlm.lora`.
 
 ---
+
+## 4. `plantdx evaluate` spends about 3.5 s per answer on an unusable confidence value
+
+**Status:** known, deferred. **Component:** `src/plantdx/evaluation/inference_runner.py` (`_generate`,
+`_mean_token_confidence`). **Severity:** low (time only; predictions and metrics are unaffected).
+
+### What happens
+
+After each answer, `_generate` computes a confidence from mlx-vlm's `GenerationResult.logprobs`. In mlx-vlm 0.6.4
+that field is the last token's log-probabilities over the whole vocabulary (an `mx.array` of 152,064 values),
+and `_mean_token_confidence` converts it to Python floats one element at a time. On the M4 Pro this took about
+3.5 s per answer, outside the timed part, so a full tomato evaluation (910 images, base and fine-tuned) ran for
+about 2 h 45 min although its recorded generation time is about one hour (58 and 62 min in the two November
+evaluations). The stored `base_confidence` /
+`finetuned_confidence` values (about 1e-9) are not a usable confidence, as `docs/DEMO_APP.md` notes for the
+one-shot `generate()`.
+
+### Why it happens
+
+The helper expects `logprobs` to be a single number or a per-token list (its docstring); in mlx-vlm 0.6.4 it is
+neither, and iterating over an `mx.array` creates one small array per element.
+
+### Why it is not dangerous
+
+The answer text, the parsed classes and every metric are computed without it; `runtime_ms` and the latency figures
+exclude it. Answers with and without this step were compared and are identical (40 validation images, and 895 for
+one adapter: `retrained_2026-11/README.md`, "Speed note").
+
+### Why it was intentionally deferred / suggested eventual fix
+
+Changing it alters the evaluation code of the finished July milestone. The fix is to compute the confidence the way
+the demo app does (`app/inference.py`, `stream_generate`, averaging the probability of the model's own emitted
+tokens) or to skip it when `logprobs` is a full-vocabulary array.
+
+---
+
+## Reporting a new known issue
 
 Add a new `##`-level section above, following the same structure: **Status /
 Component / Severity**, **What happens**, **Why it happens**, **Why it is not

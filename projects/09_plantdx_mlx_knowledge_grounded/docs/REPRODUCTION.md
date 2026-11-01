@@ -69,12 +69,13 @@ backend, and the zero-shot benchmarks.
 | Step | Result |
 |---|---|
 | `plantdx train` for both configs | completed: tomato 16,201 iterations in 6 h 56 min, mango 3,600 in 1 h 35 min, peak memory 7.2 / 7.4 GB (`../retrained_2026-11/`) |
-| `plantdx evaluate` (both stages) on the full test sets | tomato 86.9%, macro-F1 0.847 (July 93.7%, 0.919); mango 86.0%, 0.891 (July 82.0%, 0.811); base-model rows equal to July within one image |
-| `python setup/download_models.py qwen25vl_` (repository root) | both retrained adapters downloaded from TIH-IoT, checksums match |
+| `plantdx evaluate` (both stages) on the full test sets | tomato final file 86.9%, macro-F1 0.847 (July 93.7%, 0.919); mango 86.0%, 0.891 (July 82.0%, 0.811); base-model rows equal to July within one image |
+| Tomato snapshots on the validation split, then the best one on the test set | 15 snapshots scored; iteration 13,200 best (validation 92.6%, 0.904); test 90.9%, macro-F1 0.877, now the downloadable tomato file (`../retrained_2026-11/README.md`) |
+| `python setup/download_models.py qwen25vl_` (repository root) | both retrained adapters downloaded from TIH-IoT, checksums match (again with `09_plantdx --all` after the tomato file changed) |
 | `plantdx normalize`, `plantdx prepare-training` (both configs) | identical to the July rows, as on Windows |
 | `scripts/verify_project.py` | 21 PASS, 0 FAIL; both adapters "present (retrained: checksum differs from July)" |
 | Test suite | 524 passed, 60 skipped (metrics stack not in the MLX environment), 0 failed |
-| `plantdx infer` (tomato, and mango with a mango instruction) and `plantdx evaluate --max-samples 20` per crop | run; the 20 answers per crop are identical to those of the full evaluation |
+| `plantdx infer` (tomato, and mango with a mango instruction) and `plantdx evaluate --max-samples 20` per crop | run; the 20 answers per crop are identical to those of the full evaluation (tomato checked with both tomato files) |
 
 The seed 20260711 fixes the data split only; `mlx_vlm.lora` 0.6.4 shuffles the examples and initialises LoRA without
 a seed, so a retraining gives new weights and somewhat different scores.

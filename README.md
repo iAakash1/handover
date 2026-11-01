@@ -57,7 +57,7 @@ VLM results (04–08) are all on the same 200 PlantVillage validation images, so
 
 | Model | Architecture | Data (test images) | Base → fine-tuned | Weights |
 |---|---|---|---|---|
-| [`qwen25vl_tomato_qlora`](projects/09_plantdx_mlx_knowledge_grounded/models/qwen25vl_tomato_qlora/README.md) | Qwen2.5-VL-7B-Instruct 4-bit + QLoRA r16 (`mlx_vlm.lora`) | PlantVillage tomato, 10 classes (910) | 7.3% → **93.7%**, macro-F1 0.919 (retrained weights: 86.9%, 0.847) | retrained Nov 2026; `download_models.py` |
+| [`qwen25vl_tomato_qlora`](projects/09_plantdx_mlx_knowledge_grounded/models/qwen25vl_tomato_qlora/README.md) | Qwen2.5-VL-7B-Instruct 4-bit + QLoRA r16 (`mlx_vlm.lora`) | PlantVillage tomato, 10 classes (910) | 7.3% → **93.7%**, macro-F1 0.919 (retrained weights: 90.9%, 0.877) | retrained Nov 2026; `download_models.py` |
 | [`qwen25vl_mango_qlora`](projects/09_plantdx_mlx_knowledge_grounded/models/qwen25vl_mango_qlora/README.md) | same | MangoLeafBD, 8 classes (200) | 17.5% → **82.0%**, macro-F1 0.811 (retrained weights: 86.0%, 0.891) | retrained Nov 2026; `download_models.py` |
 | [`zero_shot_benchmarks`](projects/09_plantdx_mlx_knowledge_grounded/models/zero_shot_benchmarks/README.md) | 7 off-the-shelf 4-bit VLMs, no training | 16 and 30 leaves | best 23% | Hugging Face |
 
@@ -86,7 +86,7 @@ report and run command here, or says plainly why something is not available.
 - **Every commit, branch and tag** of our seven GitHub repositories: `history/README.md`, with offline git
   bundles (e.g. tag `v1.0.0` = the July MLX release, branch `feat/tomato-dataset-migration` = v11.0).
 - **Per-epoch checkpoints** of the TIH runs and PlantVLM, older model copies and the failed EfficientNet files:
-  `python setup\download_models.py --all` (+3.4 GB). The ~64 GB of step-by-step checkpoints that stay on the
+  `python setup\download_models.py --all` (+3.6 GB). The ~64 GB of step-by-step checkpoints that stay on the
   workstation are listed in `docs/CHECKPOINT_INVENTORY.md`.
 - **Unedited originals** of every file that was changed for the handover, and the earlier copies found on the
   workstation: `archive/` and the `earlier_copies*` folders (all listed at the end of `docs/REPORT_CHECKLIST.md`).

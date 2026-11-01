@@ -1,0 +1,18 @@
+{
+  "stage": "inference",
+  "crop": "tomato",
+  "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
+  "adapter_path": "checkpoints/qwen25vl_tomato_qlora",
+  "dataset_dir": "artifacts/training/qwen25vl_tomato_qlora/dataset",
+  "split": "test",
+  "sample_count": 910,
+  "max_samples": null,
+  "seed": 20260711,
+  "device": "auto",
+  "generation": {
+    "max_new_tokens": 128,
+    "temperature": 0.0,
+    "sampling": false
+  },
+  "predictions_file": "predictions.jsonl"
+}

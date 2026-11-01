@@ -2,8 +2,11 @@
 
 The adapter weights trained in July 2026 (`adapters.safetensors`, sha256 tomato `9d4b21f4…`, mango `c944488f…`)
 were no longer on the Mac at the handover. Both models were therefore trained again on the same Mac, and the new
-weights are the ones `setup/download_models.py` provides. This folder holds the logs, plans and full evaluations of
-the retraining. The July records in `../logs/` and `../reports/` are unchanged.
+weights are the ones `setup/download_models.py` provides: for mango the final adapter of the run, for tomato the
+snapshot saved at iteration 13,200, chosen on the validation split (see
+[Choosing the tomato snapshot](#choosing-the-tomato-snapshot-on-the-validation-split)). This folder holds the logs,
+plans, the snapshot selection and full evaluations of the retraining. The July records in `../logs/` and
+`../reports/` are unchanged.
 
 ## What was kept the same
 
@@ -30,21 +33,33 @@ weights and somewhat different scores.
 | Mango, July | 3,600 | about 1.6 h | 0.63 it/s | 7.4 GB | 0.213 |
 | Mango, retrained | 3,600 | 1 Nov 06:01 → 07:36 (1 h 35 min) | 0.63 it/s | 7.4 GB | 0.221 |
 
-Logs: `qwen25vl_<crop>_qlora/train.log`.
+Logs: `qwen25vl_<crop>_qlora/train.log`. Training saves the adapter every 200 iterations
+(`NNNNNNN_adapters.safetensors`) at a constant learning rate of 1e-4; the final tomato file (iteration 16,201) is
+byte-identical to the iteration-16,200 snapshot, because with gradient accumulation over 8 steps the last
+iteration does not complete an optimizer update. Neither run used the validation split during training (both
+logs: "No validation dataset provided — training will run without validation").
 
 ## Test results (same held-out test sets as July)
 
-Full outputs: `qwen25vl_<crop>_qlora/evaluation/` (the same files and figures as the July evaluation). The base
-model has no adapter, so its rows check that the evaluation itself behaves as in July.
+Full outputs, with the same files and figures as the July evaluation:
+
+| Weights | Evaluation folder |
+|---|---|
+| Tomato, iteration 13,200 (the downloadable file) | `qwen25vl_tomato_qlora/evaluation/` |
+| Tomato, final iteration 16,201 (earlier downloadable file) | `qwen25vl_tomato_qlora/final_iteration_16201/evaluation/` |
+| Mango, final iteration 3,600 (the downloadable file) | `qwen25vl_mango_qlora/evaluation/` |
+
+The base model has no adapter, so its rows check that the evaluation itself behaves as in July.
 
 **Tomato, 910 images**
 
 | | Accuracy | Macro-F1 | Weighted-F1 | BLEU-4 | ROUGE-L | METEOR | CIDEr | BERTScore-F1 | No class named |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Base, July | 7.3% | 0.034 | 0.025 | 0.003 | 0.093 | 0.149 | 0.000 | 0.843 | 475 |
-| Base, now | 7.3% | 0.034 | 0.025 | 0.003 | 0.093 | 0.149 | 0.000 | 0.843 | 475 |
+| Base, now (both evaluations; all 910 base answers identical) | 7.3% | 0.034 | 0.025 | 0.003 | 0.093 | 0.149 | 0.000 | 0.843 | 475 |
 | Fine-tuned, July | 93.7% (853) | 0.919 | 0.937 | 0.192 | 0.428 | 0.431 | 0.956 | 0.907 | 2 |
-| **Fine-tuned, retrained** | **86.9% (791)** | **0.847** | 0.873 | 0.158 | 0.399 | 0.387 | 0.817 | 0.895 | 49 |
+| **Fine-tuned, retrained, iteration 13,200 (downloadable)** | **90.9% (827)** | **0.877** | 0.909 | 0.194 | 0.405 | 0.420 | 0.815 | 0.903 | 1 |
+| Fine-tuned, retrained, final iteration 16,201 | 86.9% (791) | 0.847 | 0.873 | 0.158 | 0.399 | 0.387 | 0.817 | 0.895 | 49 |
 
 **Mango, 200 images**
 
@@ -55,29 +70,36 @@ model has no adapter, so its rows check that the evaluation itself behaves as in
 | Fine-tuned, July | 82.0% (164) | 0.811 | 0.811 | 0.190 | 0.423 | 0.454 | 0.946 | 0.907 | 18 |
 | **Fine-tuned, retrained** | **86.0% (172)** | **0.891** | 0.891 | 0.219 | 0.457 | 0.471 | 1.073 | 0.911 | 22 |
 
-Fine-tuned latency: tomato median 1.25 s per image (July 1.34 s), mango 1.57 s (July 1.70 s); peak memory 12.0 and
-12.1 GB, as in July.
+Fine-tuned latency: tomato median 1.28 s per image for iteration 13,200 and 1.25 s for the final file (July
+1.34 s), mango 1.57 s (July 1.70 s); peak memory 12.0 and 12.1 GB, as in July.
 
-### Where the two runs differ
+### Where the runs differ
 
-**Tomato healthy leaves** (80 test images) explain the lower tomato score: 14 correct (July 77), 18 called a disease
-(13 target spot, 4 spider mites, 1 late blight), 31 answers of a single word ("A" or "A."), and 17 answers that
-describe a healthy leaf without the word "healthy" ("A normal tomato leaf with uniform green lamina.", "A tomato
-leaf with no pathology.") and are therefore not mapped to a class by the evaluation's parser. Per-disease F1 of the
-nine diseases is close to July: 0.83–0.99 (July 0.79–0.99); early blight improved from 0.79 to 0.83.
+**Tomato healthy leaves** (80 test images). The final file got 14 right: 18 were called a disease (13 target spot,
+4 spider mites, 1 late blight), 31 answers were a single word ("A" or "A."), and 17 described a healthy leaf without
+the word "healthy" ("A normal tomato leaf with uniform green lamina.", "A tomato leaf with no pathology.") and are
+therefore not mapped to a class by the evaluation's parser. The iteration-13,200 snapshot gets 67 right; 12 are
+called a disease (7 spider mites, 3 target spot, 2 bacterial spot) and 1 answer names no class.
 
-| Tomato class (test images) | F1 July | F1 retrained |
-|---|---:|---:|
-| bacterial spot (107) | 0.945 | 0.906 |
-| early blight (50) | 0.786 | 0.828 |
-| healthy (80) | 0.963 | **0.295** |
-| late blight (89) | 0.921 | 0.938 |
-| leaf mold (49) | 0.925 | 0.969 |
-| mosaic virus (20) | 0.974 | 0.900 |
-| septoria leaf spot (90) | 0.924 | 0.902 |
-| spider mites (85) | 0.917 | 0.904 |
-| target spot (71) | 0.845 | 0.843 |
-| yellow leaf curl virus (269) | 0.994 | 0.987 |
+The snapshot is weaker than July (and than the final file) on spider mites, leaf mold, mosaic virus and target
+spot: 9 of 85 spider-mite leaves are called leaf mold, and 7 of 71 target-spot leaves spider mites.
+
+Each test row asks one of the 8 training questions. The demo app and `plantdx infer` always ask "Describe the
+visible condition of this tomato leaf."; on the 114 test images that carry this question, iteration 13,200 is right
+on 93.0% (healthy 6 of 7), the final file on 90.4% (healthy 0 of 7), July on 96.5% (7 of 7).
+
+| Tomato class (test images) | F1 July | F1 iteration 13,200 | F1 final 16,201 |
+|---|---:|---:|---:|
+| bacterial spot (107) | 0.945 | 0.922 | 0.906 |
+| early blight (50) | 0.786 | 0.809 | 0.828 |
+| healthy (80) | 0.963 | **0.912** | 0.295 |
+| late blight (89) | 0.921 | 0.919 | 0.938 |
+| leaf mold (49) | 0.925 | 0.852 | 0.969 |
+| mosaic virus (20) | 0.974 | 0.837 | 0.900 |
+| septoria leaf spot (90) | 0.924 | 0.904 | 0.902 |
+| spider mites (85) | 0.917 | 0.824 | 0.904 |
+| target spot (71) | 0.845 | 0.794 | 0.843 |
+| yellow leaf curl virus (269) | 0.994 | 0.994 | 0.987 |
 
 **Mango die back**, the weak class of July (1 of 25 right), is now 8 of 25 right (F1 0.08 → 0.48; the other 17
 answers name no disease). Anthracnose rose from 0.71 to 0.98. Sooty mould fell from 0.93 to 0.81 (5 of 25 called
@@ -97,26 +119,91 @@ powdery mildew).
 The figures and numbers in the rest of this project (README, model cards, paper draft) are the July results; this
 folder is the record for the downloadable weights.
 
+## Choosing the tomato snapshot on the validation split
+
+The July pipeline used the last adapter file of each run. For the retrained tomato run that file had the
+healthy-leaf problem above, so the saved snapshots were compared on the validation split (895 images, never used
+in training). Everything is in `qwen25vl_tomato_qlora/snapshot_selection/`.
+
+- **Rule, fixed before any snapshot was scored:** the highest validation macro-F1 (on a tie, the later snapshot),
+  computed with the evaluation's own answer parser and metrics (`select_score.py`).
+- **Answers:** `select_generate.py`, with the evaluation's generation settings (same prompt and chat template,
+  greedy decoding, 128 new tokens) and the validation rows in the evaluation's order.
+- **Snapshots scored:** first every 2,000 iterations from 4,000 to 8,000, every 1,000 from 10,000 to 16,000, and the
+  final file; then the 200-step snapshots within 400 iterations of the first-pass best (13,000). Fifteen different
+  weight files in all (16,200 and the final 16,201 are the same file).
+- **Test split:** the best snapshot was evaluated once with `plantdx evaluate`. Rule written down while that
+  evaluation was running, before its result: it replaces the downloadable tomato file if its test macro-F1 is
+  above the final file's 0.847.
+
+| Iteration | Accuracy | Macro-F1 | No class named | Healthy right (of 79) | One-word answers |
+|---|---:|---:|---:|---:|---:|
+| 4,000 | 82.0% (734) | 0.748 | 3 | 59 | 0 |
+| 6,000 | 88.2% (789) | 0.842 | 1 | 64 | 0 |
+| 8,000 | 82.2% (736) | 0.807 | 51 | 46 | 1 |
+| 10,000 | 89.8% (804) | 0.865 | 15 | 74 | 0 |
+| 11,000 | 87.5% (783) | 0.826 | 6 | 67 | 0 |
+| 12,000 | 84.8% (759) | 0.818 | 61 | 9 | 0 |
+| 12,600 | 87.9% (787) | 0.838 | 18 | 38 | 12 |
+| 12,800 | 87.4% (782) | 0.852 | 20 | 54 | 2 |
+| 13,000 | 90.3% (808) | 0.873 | 9 | 68 | 1 |
+| **13,200** | **92.6% (829)** | **0.904** | 0 | 70 | 0 |
+| 13,400 | 90.9% (814) | 0.869 | 0 | 76 | 0 |
+| 14,000 | 85.6% (766) | 0.820 | 20 | 74 | 13 |
+| 15,000 | 87.5% (783) | 0.850 | 25 | 31 | 3 |
+| 16,000 | 86.6% (775) | 0.857 | 58 | 22 | 28 |
+| 16,200 = final 16,201 | 88.0% (788) | 0.866 | 43 | 18 | 25 |
+
+On the test split iteration 13,200 scored 90.9% and macro-F1 0.877 (final file 86.9%, 0.847), so it became the
+downloadable tomato file. On the same 910 test images it is right on 73 that the final file gets wrong and wrong on
+37 that the final file gets right (exact McNemar test, p = 0.0008). The scores move a lot between neighbouring
+snapshots (healthy leaves right: 9 of 79 at iteration 12,000, 74 at 14,000), so the choice reflects this validation
+split; the test score of the chosen snapshot is the estimate to quote. The 200-step snapshots (12 GB) are not
+published; they remain on the Mac used for the retraining.
+
+**Speed note.** The evaluation's `_generate` (`src/plantdx/evaluation/inference_runner.py`) also stores a
+confidence value from mlx-vlm's `logprobs`, which in mlx-vlm 0.6.4 is the last token's full-vocabulary array;
+converting it element by element took about 3.5 s per answer, outside the timed part (see
+`../docs/KNOWN_ISSUES.md`, issue 4). `select_generate.py` leaves that step out. Its answers were checked to be the
+same: on the first 40 validation images against `_generate` (`check_same_answers.py`), and on all 895 for the
+final file (`iter_16201.jsonl` was written with `_generate`, `iter_16200.jsonl` without, from the same weights).
+
+| File in `snapshot_selection/` | What it is |
+|---|---|
+| `select_generate.py` | validation answers of each snapshot (MLX environment) |
+| `select_score.py` | scores and the selection rule (metrics environment); writes `validation_scores.csv` |
+| `check_same_answers.py` | the 40-image check described above |
+| `validation_scores.csv` | the table above, unrounded to 4 decimals, with the `selected` column |
+| `val_predictions/iter_NNNNN.jsonl` | the 895 validation answers of each snapshot |
+| `status.txt`, `test_evaluation_status.txt` | the run log with times, the decision rule (written at 18:04, 48 s after the test evaluation started at 18:03:31 and before its result at 20:52), and the test evaluation's start and end |
+
+The test evaluation of iteration 13,200 ran from a folder `checkpoints/qwen25vl_tomato_qlora_iter13200/` holding
+the same `adapter_config.json` and the snapshot as `adapters.safetensors`, so `evaluation/system_info.json` shows
+that path and the snapshot's checksum.
+
 ## The weights
 
 | Run | Bytes | SHA-256 | Stored in (github.com/iAakash1/TIH-IoT, Git LFS) |
 |---|---:|---|---|
-| `qwen25vl_tomato_qlora` | 161,529,623 | `a4872a5cbbf072caecb5221a613994efd935099b42b10733a8b758e920db3ee0` | `2026-07_July/mlx_adapters/qwen25vl_tomato_qlora/adapters.safetensors` |
-| `qwen25vl_mango_qlora` | 161,529,623 | `f10dea4c14165a9002034c48094fdb0a4a6575aa299347eed39f7c6b6b6b1aa4` | `2026-07_July/mlx_adapters/qwen25vl_mango_qlora/adapters.safetensors` |
+| `qwen25vl_tomato_qlora` (iteration 13,200) | 161,529,623 | `a501137b0c5eef4346229be888f2cedc135d7e0434f74c6b136b177052860c3f` | `2026-07_July/mlx_adapters/qwen25vl_tomato_qlora/adapters.safetensors` |
+| `qwen25vl_mango_qlora` (final, iteration 3,600) | 161,529,623 | `f10dea4c14165a9002034c48094fdb0a4a6575aa299347eed39f7c6b6b6b1aa4` | `2026-07_July/mlx_adapters/qwen25vl_mango_qlora/adapters.safetensors` |
+| tomato, final iteration 16,201 (optional) | 161,529,623 | `a4872a5cbbf072caecb5221a613994efd935099b42b10733a8b758e920db3ee0` | `2026-07_July/mlx_adapters/qwen25vl_tomato_qlora/final_iteration_16201/adapters.safetensors` |
 
-From the repository root: `python setup/download_models.py 09_plantdx` puts both into `../checkpoints/<run>/` and
-checks the checksums. Only the final adapters are published, not the 200-step snapshots.
+From the repository root: `python setup/download_models.py 09_plantdx` puts the first two into
+`../checkpoints/<run>/` and checks the checksums; with `--all` it also puts the final tomato file into
+`qwen25vl_tomato_qlora/final_iteration_16201/`, next to its `adapter_config.json`, so that
+`plantdx infer --adapter retrained_2026-11/qwen25vl_tomato_qlora/final_iteration_16201` runs it.
 
 ## Checked from this repository (1 Nov 2026, on the Mac)
 
-After downloading the weights with `setup/download_models.py`:
+After downloading the weights with `setup/download_models.py 09_plantdx --all`:
 
 - `python scripts/verify_project.py`: 21 PASS, 0 FAIL; both adapters "present (retrained: checksum differs from July)".
 - `pytest`: 524 passed, 60 skipped (the metrics-stack tests, which need the separate `[eval]` environment), 0 failed;
   this includes `test_real_frozen_tomato_checkpoint_resolves`, which fails without the weights.
 - `plantdx normalize` and `plantdx prepare-training` (both configs): the July rows exactly.
-- `plantdx infer` with each adapter, and `plantdx evaluate --max-samples 20` for each crop: all 40 base and 40
-  fine-tuned answers identical to the full evaluation in this folder.
+- `plantdx infer` with each adapter, and `plantdx evaluate --max-samples 20` for each crop: all base and fine-tuned
+  answers identical to the full evaluations in this folder (tomato checked again with the iteration-13,200 file).
 
 ## Commands that produced this folder
 
@@ -129,6 +216,12 @@ plantdx evaluate --stage inference --adapter checkpoints/qwen25vl_<crop>_qlora \
 # per crop, metrics environment (.venv-eval):
 plantdx evaluate --stage analyze --adapter checkpoints/qwen25vl_<crop>_qlora \
                  --dataset artifacts/training/qwen25vl_<crop>_qlora/dataset --output-dir <out>
+
+# tomato snapshot selection, scripts copied to selection/ (MLX environment, then metrics environment):
+python selection/select_generate.py 16201 16200 16000 15000 14000 13000 12000 11000 10000 8000 6000 4000
+python selection/select_generate.py 12600 12800 13200 13400
+python selection/select_score.py
+# then the two evaluate commands above with --adapter checkpoints/qwen25vl_tomato_qlora_iter13200
 ```
 
 The metrics environment had `transformers` 5.22.1 and `torch` 2.15.0 (`evaluation/system_info.json`); the base

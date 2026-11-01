@@ -2,7 +2,7 @@
   "stage": "inference",
   "crop": "tomato",
   "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
-  "adapter_path": "checkpoints/qwen25vl_tomato_qlora",
+  "adapter_path": "checkpoints/qwen25vl_tomato_qlora_iter13200",
   "dataset_dir": "artifacts/training/qwen25vl_tomato_qlora/dataset",
   "split": "test",
   "sample_count": 910,

@@ -1,0 +1,21 @@
+iter 16201 done 895 rows 4247s 2026-11-01 13:24:16
+restart with generate_answer (no confidence step) 2026-11-01 13:26:56
+iter 16200 done 895 rows 1031s 2026-11-01 13:44:08
+iter 16000 done 895 rows 1040s 2026-11-01 14:01:27
+iter 15000 done 895 rows 1028s 2026-11-01 14:18:35
+iter 14000 done 895 rows 1081s 2026-11-01 14:36:36
+iter 13000 done 895 rows 1093s 2026-11-01 14:54:49
+iter 12000 done 895 rows 1142s 2026-11-01 15:13:52
+iter 11000 done 895 rows 1196s 2026-11-01 15:33:47
+iter 10000 done 895 rows 1253s 2026-11-01 15:54:41
+iter 8000 done 895 rows 1166s 2026-11-01 16:14:07
+iter 6000 done 895 rows 1106s 2026-11-01 16:32:33
+iter 4000 done 895 rows 994s 2026-11-01 16:49:08
+ALL DONE 2026-11-01 16:49:08
+refinement around 13000 2026-11-01 16:49:47
+iter 12600 done 895 rows 1218s 2026-11-01 17:10:05
+iter 12800 done 895 rows 1108s 2026-11-01 17:28:33
+iter 13200 done 895 rows 1056s 2026-11-01 17:46:09
+iter 13400 done 895 rows 1004s 2026-11-01 18:02:53
+ALL DONE 2026-11-01 18:02:53
+decision rule before the test result: publish iter 13200 as the tomato adapter if its test macro-F1 is above 0.847 (final adapter); otherwise keep the final adapter 2026-11-01 18:04:19

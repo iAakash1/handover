@@ -1,7 +1,7 @@
 {
   "model_path": "mlx-community/Qwen2.5-VL-7B-Instruct-4bit",
-  "adapter_path": "checkpoints/qwen25vl_tomato_qlora",
-  "adapter_checksum": "sha256:a4872a5cbbf072caecb5221a613994efd935099b42b10733a8b758e920db3ee0",
+  "adapter_path": "checkpoints/qwen25vl_tomato_qlora_iter13200",
+  "adapter_checksum": "sha256:a501137b0c5eef4346229be888f2cedc135d7e0434f74c6b136b177052860c3f",
   "dataset_dir": "artifacts/training/qwen25vl_tomato_qlora/dataset",
   "split": "test",
   "corpus_checksum": "sha256:1225eb8605edb71839f89618bfdcd4a1abba414869f64c1fdc5951ee865ba089",

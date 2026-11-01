@@ -1,0 +1,104 @@
+{
+  "base": {
+    "classification": {
+      "accuracy": 0.07252747252747253,
+      "balanced_accuracy": 0.08625000000000001,
+      "precision_macro": 0.04047619047619048,
+      "recall_macro": 0.08625000000000001,
+      "f1_macro": 0.034333333333333334,
+      "precision_weighted": 0.019099947671376242,
+      "recall_weighted": 0.07252747252747253,
+      "f1_weighted": 0.02468864468864469,
+      "precision_micro": 0.15172413793103448,
+      "recall_micro": 0.07252747252747253,
+      "f1_micro": 0.09814126394052045,
+      "top1_accuracy": 0.07252747252747253,
+      "unclassified_count": 475,
+      "sample_count": 910
+    },
+    "text_corpus": {
+      "sample_count": 910,
+      "bleu1": 0.056289047978797996,
+      "bleu2": 0.023012608732210466,
+      "bleu3": 0.008452002620628887,
+      "bleu4": 0.00330813948141011,
+      "rouge_l": 0.09292525611248481,
+      "meteor": 0.14866055092033512,
+      "cider": 2.0310291773292867e-05,
+      "bertscore_f1": 0.8432473680475256,
+      "token_overlap": 0.3301562264504887,
+      "sentence_similarity": 0.09102847244584636,
+      "distinct_1": 0.015073110520319028,
+      "distinct_2": 0.0918700357545653
+    },
+    "quality_summary": {
+      "avg_word_count": 91.63846153846154,
+      "avg_sentence_count": 5.976923076923077,
+      "avg_fluency_score": 0.9087912087912088,
+      "avg_redundancy_rate": 8.407049229178706e-05,
+      "avg_repetition_rate": 0.0001221001221001221,
+      "avg_lexical_diversity": 0.6465608413624717
+    },
+    "latency": {
+      "mean_ms": 2560.9076253849767,
+      "median_ms": 2742.675020999741,
+      "p95_ms": 2816.772489110008,
+      "tokens_per_sec": 44.27902996987605,
+      "images_per_sec": 0.3904865564409695,
+      "mean_peak_memory_gb": 12.024464089673625,
+      "max_peak_memory_gb": 12.024921026,
+      "sample_count": 910
+    }
+  },
+  "finetuned": {
+    "classification": {
+      "accuracy": 0.8692307692307693,
+      "balanced_accuracy": 0.8447040916983257,
+      "precision_macro": 0.9058114437572963,
+      "recall_macro": 0.8447040916983257,
+      "f1_macro": 0.8471412482797673,
+      "precision_weighted": 0.9254558164706191,
+      "recall_weighted": 0.8692307692307693,
+      "f1_weighted": 0.8727401191414746,
+      "precision_micro": 0.9186991869918699,
+      "recall_micro": 0.8692307692307693,
+      "f1_micro": 0.8932806324110671,
+      "top1_accuracy": 0.8692307692307693,
+      "unclassified_count": 49,
+      "sample_count": 910
+    },
+    "text_corpus": {
+      "sample_count": 910,
+      "bleu1": 0.2866667141501405,
+      "bleu2": 0.2252208789411575,
+      "bleu3": 0.1864091959726291,
+      "bleu4": 0.15762505345921365,
+      "rouge_l": 0.3989012622675924,
+      "meteor": 0.38740114643210977,
+      "cider": 0.816505908242247,
+      "bertscore_f1": 0.894910406935346,
+      "token_overlap": 0.4102547357725018,
+      "sentence_similarity": 0.3237731589030873,
+      "distinct_1": 0.010747222423934355,
+      "distinct_2": 0.02239328201539538
+    },
+    "quality_summary": {
+      "avg_word_count": 14.382417582417583,
+      "avg_sentence_count": 1.2934065934065935,
+      "avg_fluency_score": 0.9947252747252747,
+      "avg_redundancy_rate": 0.0,
+      "avg_repetition_rate": 0.0,
+      "avg_lexical_diversity": 0.9185022021699363
+    },
+    "latency": {
+      "mean_ms": 1279.9246934419727,
+      "median_ms": 1250.8562915027142,
+      "p95_ms": 1675.8474560978357,
+      "tokens_per_sec": 18.120056446398383,
+      "images_per_sec": 0.7812959661796981,
+      "mean_peak_memory_gb": 12.024921026,
+      "max_peak_memory_gb": 12.024921026,
+      "sample_count": 910
+    }
+  }
+}
