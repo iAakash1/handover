@@ -191,6 +191,63 @@ tokens) or to skip it when `logprobs` is a full-vocabulary array.
 
 ---
 
+## 5. The first answer after a model is loaded comes out truncated
+
+**Status:** known; worked around in the demo app (1 Nov 2026). **Component:** mlx-vlm 0.6.4 generation as used by
+`plantdx infer`, `plantdx evaluate` and `app/`. **Severity:** low (one answer per model load).
+
+### What happens
+
+In a fresh process, the first generation after `load_model` is shorter or garbled; the same call made again gives
+the normal answer. Measured on the M4 Pro with the downloadable tomato adapter and one test image (early blight,
+question "Describe the visible condition of this tomato leaf."): first call "This tomato leaf.", second and third
+call "This tomato leaf is affected by early blight, showing brown-to-dark-brown circular lesions …". The base model
+behaves the same way (first call "The leaf leaf damage leaf disease leaf pest …"). The cause inside mlx / mlx-vlm was
+not identified.
+
+### Where it shows
+
+- `plantdx infer --image …` makes exactly one call per run, so its answer is always a first call.
+- `plantdx evaluate` makes one first call per model: the first test row of every evaluation in this project, July
+  included (e.g. July tomato row 1, fine-tuned: "This tomato leaf bacterial spot. Chlorotic halos."; base: "The leaf
+  tomato green healthy normal"). That is at most 1 of 910 (tomato) or 1 of 200 (mango) images per model.
+
+### Why it is not dangerous
+
+The effect is limited to one answer per loaded model, and the recorded metrics include it as it happened.
+
+### Workaround / suggested eventual fix
+
+The demo app runs one 1-token generation on a blank image right after loading (`app/inference.py`, `_warm_up`); the
+user's first photo then gets the normal answer (checked in the app with the image above). `plantdx infer --folder`
+with an extra image first, or the app, avoids it on the command line. The same warm-up in
+`plantdx.training.inference.load_model` would fix all paths but would change the first row of a re-run evaluation,
+so it was left to a future change.
+
+---
+
+## 6. The demo app crashed (segmentation fault) when switching crops (fixed 1 Nov 2026)
+
+**Status:** fixed in `app/inference.py`. **Component:** `app/` with MLX 0.31.2. **Severity:** was high for live
+demos.
+
+### What happened
+
+After a prediction with one crop, choosing the other crop made the Streamlit process exit with code 139. The macOS
+crash report shows the fault in `mlx::core::detail::CompilerCache::~CompilerCache()`, run when a thread exits:
+MLX keeps a compile cache per thread, Streamlit runs every page rerun in a new thread, and freeing that cache after
+the previous crop's model was evicted (`st.cache_resource(max_entries=1)`) crashed. A script that loads and uses the
+models in short-lived threads reproduces it (tomato, then mango → exit 139); the same steps on one long-lived thread
+finish normally.
+
+### Fix
+
+All model work (loading, the warm-up of issue 5, generation) runs on one thread that lives as long as the app
+(`app/inference.py`, `_on_mlx_thread`). Checked in the app: tomato → mango → tomato with predictions in between, no
+crash, answers as in the evaluation.
+
+---
+
 ## Reporting a new known issue
 
 Add a new `##`-level section above, following the same structure: **Status /

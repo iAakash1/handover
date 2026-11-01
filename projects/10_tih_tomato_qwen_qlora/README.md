@@ -27,6 +27,28 @@ takes about a minute (it loads the 4-bit model). The app serves the adapter reco
 the image size from that run's own config, so moreaccurate gets the 532 px it was trained with. Uploaded photos
 and results are written to `uploads/`, `predictions/` and `logs/predictions.jsonl` (not in git).
 
+The model needs a CUDA GPU (4-bit NF4 via bitsandbytes), so diagnosis runs on the NVIDIA workstation only; on a Mac
+the app opens but says no trained adapter is active. The Mac models are in `../09_plantdx_mlx_knowledge_grounded`.
+
+**What happens after a photo is uploaded** (CUDA path, `app/` + `src/plantdx/company/`):
+
+1. `app/ui.py`, `_process_one`: checks the file type and that the bytes decode as an image, shows the photo, and
+   reuses the earlier result if the same file was already diagnosed in this session.
+2. `app/company_runtime.py`, `get_handle`: reads the active run from `artifacts/runtime/active_adapter.json` and
+   that run's config (`configs/train/qwen25vl_tih_tomato_moreaccurate.yaml`), loads `Qwen/Qwen2.5-VL-7B-Instruct` in
+   4-bit NF4 (`plantdx.company.modeling.load_for_inference`, bitsandbytes) and attaches the LoRA adapter from
+   `checkpoints/tih_tomato_moreaccurate/` with PEFT; once, then cached.
+3. `company_runtime.run_inference` → `plantdx.company.predict.predict_image`: opens the photo as RGB and resizes it,
+   keeping its shape, so the longer side is 532 px on the 28-px patch grid (`modeling.load_image`, `resize_image`);
+   asks *"Classify this tomato plant image into exactly one of these categories: Aphid, …, White Fly. Return only
+   the category name."*; and generates the answer greedily (`model.generate`, `do_sample=False`).
+4. Confidence: the average probability of the tokens the model wrote (`predict._confidence`).
+5. `plantdx.company.evaluate.parse_prediction`: maps the answer to one of the 11 classes (exact name first, then the
+   longest class name found in the answer); no match → "unparseable", shown as unknown.
+6. `company_runtime._status`: confident, low confidence (below the sidebar threshold, default 0.55) or unknown.
+7. `app/storage.py`: the photo goes to `uploads/tomato/<class or unknown>/` with a `.json` record, plus
+   `predictions/<time>.json`, a line in `logs/predictions.jsonl` and the sidebar history.
+
 ## Handover quick start (run from this folder)
 
 ```powershell

@@ -145,8 +145,10 @@ plantdx evaluate --stage analyze --output-dir reports/qwen25vl_tomato_qlora/eval
 
 ## 13. Input and output
 
-Input: an RGB leaf photo (any size; resized to 448 × 448) and an instruction. Output: one caption, e.g.
-"This tomato leaf bacterial spot. Chlorotic halos." Evaluation parses the disease name from the caption
+Input: an RGB leaf photo and an instruction (training resized photos to 448 × 448; inference passes the photo to
+the Qwen2.5-VL image processor without that resize). Output: one caption, e.g. "This tomato leaf is affected by
+early blight, showing brown-to-dark-brown circular lesions with concentric rings (target/bull's-eye), distributed
+scattered then coalescing." (the downloadable weights, on a test image). Evaluation parses the disease name from the caption
 (`raw/predictions.jsonl` has `image_id`, `ground_truth`, `base_prediction`, `finetuned_prediction`, timings).
 
 ## 14. Results (910 test images, `reports/qwen25vl_tomato_qlora/evaluation/metrics.json`)

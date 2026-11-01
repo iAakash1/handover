@@ -126,7 +126,8 @@ way, but without them `system_info.json` records the tomato defaults as the adap
 
 ## 13. Input and output
 
-A leaf photo (resized to 448 × 448) and an instruction in; one caption out. Predictions:
+A leaf photo and an instruction in (training resized photos to 448 × 448; inference passes the photo to the
+Qwen2.5-VL image processor without that resize); one caption out. Predictions:
 `reports/qwen25vl_mango_qlora/evaluation/raw/predictions.jsonl`.
 
 ## 14. Results (200 test images, `reports/qwen25vl_mango_qlora/evaluation/metrics.json`)

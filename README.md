@@ -66,6 +66,8 @@ Requirements: macOS on Apple Silicon (trained on an M4 Pro, 24 GB), Python 3.12,
 git; the training datasets regenerate row for row on any OS (checked on this Windows machine), but training,
 inference and evaluation need MLX. Start at [`docs/REPRODUCTION.md`](projects/09_plantdx_mlx_knowledge_grounded/docs/REPRODUCTION.md);
 what is in git / downloaded / generated / missing: [`docs/ARTIFACTS.md`](projects/09_plantdx_mlx_knowledge_grounded/docs/ARTIFACTS.md).
+To run the Mac demo and see what happens after a photo is uploaded:
+[`PRESENTATION_GUIDE.md`, Live demo](projects/09_plantdx_mlx_knowledge_grounded/PRESENTATION_GUIDE.md#7-live-demo).
 Numbers 05 and 11 moved to `failed_experiments/` (Florence-2 and the SigLIP prototype).
 
 ## What did not work (`failed_experiments/`)

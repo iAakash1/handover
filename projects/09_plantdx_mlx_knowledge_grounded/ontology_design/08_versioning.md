@@ -15,7 +15,7 @@ Both are written into `ontology_graph.json`; `schema_version` is also in `ontolo
 
 - **PATCH** (`1.0.0 → 1.0.1`): documentation/label fixes, added *optional* metadata that no consumer parses. No structural change.
 - **MINOR** (`1.0.0 → 1.1.0`): **additive, backward-compatible** — a new concept type (leaf under an existing parent), a new relation type, a new closed-vocab individual, or a new *optional* property. Existing consumers keep working (they ignore what they don't query). This is the common case for new crops/diseases that need a new sign type or region.
-- **MAJOR** (`1.0.0 → 2.0.0`): **breaking** — removing/renaming a concept type, relation, or individual; making a property required; changing a relation's domain/range/cardinality in a narrowing way; changing edge-attribute semantics. Requires a migration ([8.4](#84-migration-policy)).
+- **MAJOR** (`1.0.0 → 2.0.0`): **breaking** — removing/renaming a concept type, relation, or individual; making a property required; changing a relation's domain/range/cardinality in a narrowing way; changing edge-attribute semantics. Requires a migration ([8.5](#85-migration-policy)).
 
 The builder refuses to emit a graph whose nodes/edges reference a T-Box that a consumer pinned at an incompatible MAJOR (fail fast, [09_validation.md](09_validation.md)).
 

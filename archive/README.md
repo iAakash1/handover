@@ -12,3 +12,6 @@ is lost:
   stored as `dot_gitignore.txt` / `dot_gitattributes.txt` so they don't change how git treats this repository.
 
 To see what changed in a file, compare it with its counterpart in `projects/` (same file name).
+
+Relative links inside these copies are also unedited: they point to places in their original repository (the
+workstation folder or TIH-IoT) and do not open from here. Use the working copies in `projects/` (or TIH-IoT itself).

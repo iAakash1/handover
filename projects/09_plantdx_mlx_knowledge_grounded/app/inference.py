@@ -20,11 +20,14 @@ from __future__ import annotations
 
 import json
 import math
+import tempfile
 import time
+from collections.abc import Callable
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
-from typing import Any
+from typing import Any, TypeVar
 
 import streamlit as st
 
@@ -54,6 +57,10 @@ STATUS_LOW_CONFIDENCE = "low_confidence"
 STATUS_UNKNOWN = "unknown"
 
 _log = get_logger()
+
+# The one thread all model work runs on (see `_on_mlx_thread`).
+_MLX_THREAD = ThreadPoolExecutor(max_workers=1, thread_name_prefix="plantdx-mlx")
+T = TypeVar("T")
 
 
 # --------------------------------------------------------------------------- #
@@ -106,12 +113,62 @@ def get_model_handle(model_path: str, adapter_dir: str) -> ModelHandle:
     instead of holding two 7B models in 24 GB of unified memory. Because the
     cache persists across reruns and sessions, a prediction never reloads it.
     """
-    _configure_mlx_memory()
     start = time.perf_counter()
-    loaded = load_model(model_path, adapter_path=adapter_dir)
+    loaded = _on_mlx_thread(_load_and_warm_up, model_path, adapter_dir)
     elapsed = time.perf_counter() - start
     _log.info("model loaded model=%s adapter=%s in %.1fs", model_path, adapter_dir, elapsed)
     return ModelHandle(loaded=loaded, adapter_dir=adapter_dir, load_seconds=elapsed)
+
+
+def _on_mlx_thread(fn: Callable[..., T], *args: Any) -> T:
+    """Run ``fn(*args)`` on the app's single, long-lived MLX thread and return its result.
+
+    MLX keeps a compile cache per thread. Streamlit runs every rerun in a new
+    thread, and when such a thread exits after the model it used was evicted
+    (switching crops), freeing that cache crashed the whole process with a
+    segmentation fault (docs/KNOWN_ISSUES.md, issue 6). Doing all model work on
+    one thread that lives as long as the app avoids that.
+    """
+    return _MLX_THREAD.submit(fn, *args).result()
+
+
+def _load_and_warm_up(model_path: str, adapter_dir: str) -> LoadedModel:
+    _configure_mlx_memory()
+    loaded = load_model(model_path, adapter_path=adapter_dir)
+    _warm_up(loaded)
+    return loaded
+
+
+def _warm_up(loaded: LoadedModel) -> None:
+    """One 1-token generation on a blank image, right after loading.
+
+    With mlx-vlm 0.6.4 the first generation after a model is loaded comes out
+    truncated (e.g. "This tomato leaf."); every later one is normal
+    (docs/KNOWN_ISSUES.md, issue 5). Spending that first call here keeps the
+    user's first upload from being it. Never fatal.
+    """
+    try:
+        from mlx_vlm import generate
+        from mlx_vlm.prompt_utils import apply_chat_template
+        from PIL import Image
+
+        with tempfile.TemporaryDirectory() as tmp:
+            blank = Path(tmp) / "warm_up.png"
+            Image.new("RGB", (64, 64), "white").save(blank)
+            prompt = apply_chat_template(
+                loaded.processor, loaded.config, "Describe this leaf.", num_images=1
+            )
+            generate(
+                loaded.model,
+                loaded.processor,
+                prompt,
+                image=str(blank),
+                max_tokens=1,
+                temperature=_TEMPERATURE,
+                verbose=False,
+            )
+    except Exception:
+        _log.warning("model warm-up generation failed", exc_info=True)
 
 
 def _configure_mlx_memory() -> None:
@@ -281,7 +338,6 @@ def run_inference(
     tokens can be measured — a real confidence, unlike the one-shot ``generate``
     whose only logprobs are the last token's full-vocab distribution.
     """
-    from mlx_vlm import stream_generate
     from mlx_vlm.prompt_utils import apply_chat_template
 
     loaded = handle.loaded
@@ -289,29 +345,9 @@ def run_inference(
     prompt = apply_chat_template(loaded.processor, loaded.config, profile.instruction, num_images=1)
 
     start = time.perf_counter()
-    pieces: list[str] = []
-    token_probs: list[float] = []
-    generation_tokens = 0
-    peak_memory_gb = 0.0
-    try:
-        for chunk in stream_generate(
-            loaded.model,
-            loaded.processor,
-            prompt,
-            image=str(image_path),
-            max_tokens=max_tokens,
-            temperature=temperature,
-        ):
-            pieces.append(str(getattr(chunk, "text", "")))
-            prob = _selected_token_prob(chunk)
-            if prob is not None:
-                token_probs.append(prob)
-            generation_tokens = int(getattr(chunk, "generation_tokens", generation_tokens) or 0)
-            peak_memory_gb = float(getattr(chunk, "peak_memory", peak_memory_gb) or peak_memory_gb)
-    finally:
-        # Release MLX's buffer cache after each run so it doesn't accumulate
-        # across many predictions in the long-lived Streamlit process.
-        _release_mlx_cache()
+    pieces, token_probs, generation_tokens, peak_memory_gb = _on_mlx_thread(
+        _stream, loaded, prompt, str(image_path), max_tokens, temperature
+    )
     elapsed = time.perf_counter() - start
 
     caption = "".join(pieces).strip()
@@ -352,6 +388,38 @@ def run_inference(
         "peak_memory_gb": round(peak_memory_gb, 2) if peak_memory_gb else None,
         "active_memory_gb": _mlx_active_memory_gb(),
     }
+
+
+def _stream(
+    loaded: LoadedModel, prompt: str, image_path: str, max_tokens: int, temperature: float
+) -> tuple[list[str], list[float], int, float]:
+    """Generate one caption token by token: (text pieces, token probabilities, tokens, peak GB)."""
+    from mlx_vlm import stream_generate
+
+    pieces: list[str] = []
+    token_probs: list[float] = []
+    generation_tokens = 0
+    peak_memory_gb = 0.0
+    try:
+        for chunk in stream_generate(
+            loaded.model,
+            loaded.processor,
+            prompt,
+            image=image_path,
+            max_tokens=max_tokens,
+            temperature=temperature,
+        ):
+            pieces.append(str(getattr(chunk, "text", "")))
+            prob = _selected_token_prob(chunk)
+            if prob is not None:
+                token_probs.append(prob)
+            generation_tokens = int(getattr(chunk, "generation_tokens", generation_tokens) or 0)
+            peak_memory_gb = float(getattr(chunk, "peak_memory", peak_memory_gb) or peak_memory_gb)
+    finally:
+        # Release MLX's buffer cache after each run so it doesn't accumulate
+        # across many predictions in the long-lived Streamlit process.
+        _release_mlx_cache()
+    return pieces, token_probs, generation_tokens, peak_memory_gb
 
 
 def _selected_token_prob(chunk: Any) -> float | None:

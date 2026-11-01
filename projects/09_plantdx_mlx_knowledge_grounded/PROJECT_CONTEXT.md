@@ -53,7 +53,7 @@ QLoRA training workflow (`plantdx train`) and evaluation pipeline
 (`plantdx evaluate`) for Qwen2.5-VL on tomato and mango; image grounding,
 instruction pairing, and the multi-model VLM converters remain a typed
 interface stub (`raise NotImplementedError`), by design — see
-[Current Status](#current-status). The M3 caption corpus is **disease-level
+[Not yet implemented](#not-yet-implemented). The M3 caption corpus is **disease-level
 and image-independent** — a pure function of the ontology, vocabulary,
 lexicon, and templates.
 

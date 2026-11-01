@@ -214,6 +214,19 @@ def evaluation_panel(summary: EvalSummary | None, per_disease: list[dict[str, An
         f"Held-out **test split** ({summary.sample_count} images) from "
         f"`{summary.run_name}` — PlantVillage-style images."
     )
+    if summary.matches_weights:
+        st.caption(
+            f"Evaluation of the adapter loaded here: `{summary.source}` (its recorded adapter "
+            f"checksum matches `checkpoints/{summary.run_name}/adapters.safetensors`)."
+        )
+    else:
+        st.warning(
+            f"Report `{summary.source}`. Its recorded adapter checksum does not match the "
+            f"weights in `checkpoints/{summary.run_name}/` (missing or a different file), so "
+            "these are not the scores of the adapter loaded here. The downloadable "
+            "(retrained) weights are evaluated in `retrained_2026-11/`.",
+            icon="⚠️",
+        )
     cols = st.columns(2)
     cols[0].metric(
         "Accuracy (fine-tuned)",
