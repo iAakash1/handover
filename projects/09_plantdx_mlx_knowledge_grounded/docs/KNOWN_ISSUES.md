@@ -102,32 +102,29 @@ understand you are regenerating, not editing, `datasets/<crop>/`.)
 
 ## Reporting a new known issue
 
-## 2. The trained adapter weights are not in the repository
+## 2. The July adapter weights are lost (resolved by retraining, 1 Nov 2026)
 
-**Status:** known, cannot be fixed from the repository. **Component:** `checkpoints/`. **Severity:** high for
-inference and evaluation (they need the weights), none for everything else.
+**Status:** resolved: both models were retrained and the new weights download with `setup/download_models.py`.
+**Component:** `checkpoints/`. **Severity:** none once the weights are downloaded.
 
-### What happens
+### What happened
 
-`checkpoints/qwen25vl_<crop>_qlora/` hold only `adapter_config.json`. `plantdx infer`, `plantdx evaluate --stage
-inference` and the demo's model backend stop with "malformed adapter checkpoint … missing adapters.safetensors",
-and `tests/unit/evaluation/test_eval_checkpoint.py::test_real_frozen_tomato_checkpoint_resolves` fails.
+The July runs wrote `adapters.safetensors` (see the last lines of `logs/<run>/train.log`), but the files were no
+longer on the Mac when the project was handed over; only their SHA-256 checksums survive in
+`reports/<run>/evaluation/system_info.json` (tomato `9d4b21f4…`, mango `c944488f…`). Without weights,
+`plantdx infer`, `plantdx evaluate --stage inference` and the demo's model backend stop with "malformed adapter
+checkpoint … missing adapters.safetensors", and
+`tests/unit/evaluation/test_eval_checkpoint.py::test_real_frozen_tomato_checkpoint_resolves` fails.
 
-### Why it happens
+### How it was resolved
 
-Both runs wrote `adapters.safetensors` (see the last lines of `logs/<run>/train.log`), but the files were no
-longer on the Mac when the project was handed over. Their SHA-256 checksums survive in
-`reports/<run>/evaluation/system_info.json`.
-
-### Why it is not dangerous
-
-Every input of the runs is in git and regenerates exactly (`docs/REPRODUCTION.md`), so retraining with the same
-config and seed recreates an equivalent adapter. The July evaluation results stay valid as a record.
-
-### Why it was intentionally deferred / suggested eventual fix
-
-Retraining needs an Apple Silicon Mac (about 12 h for tomato, 1.6 h for mango). After retraining, publish the
-weights as described in `docs/ARTIFACTS.md`. `scripts/verify_project.py` reports the state (MISSING / July weights /
+Both models were retrained on the same Mac (Apple M4 Pro, 24 GB) from 31 Oct to 1 Nov 2026 with the same code
+(commit `9f08d99`), the same training rows, config and split seed, and the same `mlx` / `mlx-vlm` versions.
+`mlx_vlm.lora` takes no seed of its own (example order, LoRA initialisation and dropout are random), so the retrained
+weights have new checksums and somewhat different scores (tomato 86.9%, mango 86.0%; July 93.7% and 82.0%) (tomato `a4872a5c…`, mango `f10dea4c…`). They are stored
+in `github.com/iAakash1/TIH-IoT` (Git LFS) and listed in `setup/models_manifest.json`; from the repository root,
+`python setup/download_models.py 09_plantdx` puts them in `checkpoints/<run>/`. Their training logs and evaluation
+are in `retrained_2026-11/`. `scripts/verify_project.py` reports which weights are present (MISSING / July weights /
 retrained).
 
 ---

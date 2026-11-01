@@ -50,7 +50,7 @@ checksum `6fa29822…`, 31 Oct 2026).
 | `datasets/mango/processed/` | no, generated | normalized images |
 | `mlx-community/Qwen2.5-VL-7B-Instruct-4bit` | no, Hugging Face download | base model |
 | `checkpoints/qwen25vl_mango_qlora/adapter_config.json` | yes | adapter definition |
-| `checkpoints/qwen25vl_mango_qlora/adapters.safetensors` | **missing** (see section 10) | trained weights |
+| `checkpoints/qwen25vl_mango_qlora/adapters.safetensors` | no, `python setup/download_models.py 09_plantdx` from the repository root (retrained, see section 10) | trained weights |
 
 ## 6. Environment
 
@@ -71,7 +71,9 @@ plantdx train --config configs/train/qwen25vl_mango.yaml --crop mango
 ```
 
 July command: `reports/qwen25vl_mango_qlora/training_plan.json`; log: `logs/qwen25vl_mango_qlora/train.log`
-(3,600 iterations, peak memory 7.4 GB, about 1.6 hours; final loss 0.204).
+(3,600 iterations, peak memory 7.4 GB, about 1.6 hours; final loss 0.204). The retraining of 1 Nov 2026 ran the
+same command in 1 h 35 min (peak 7.4 GB; mean loss of the last 10 reports 0.221, July 0.213):
+`retrained_2026-11/qwen25vl_mango_qlora/train.log`.
 
 ## 9. Validation
 
@@ -87,7 +89,16 @@ plantdx evaluate --stage inference --adapter checkpoints/qwen25vl_mango_qlora \
 
 `checkpoints/qwen25vl_mango_qlora/` needs `adapter_config.json` + `adapters.safetensors`. The July weights
 (sha256 `c944488f…`, `reports/qwen25vl_mango_qlora/evaluation/system_info.json`) and the 200-step snapshots did
-not survive on the Mac. Retrain with section 8; `python scripts/verify_project.py` reports presence and checksum.
+not survive on the Mac, so the model was retrained with section 8 on 1 Nov 2026 (same code, rows, config and
+library versions; `adapter_config.json` byte-identical to July's). The seed fixes only the data split (`mlx_vlm.lora`
+0.6.4 shuffles and initialises without one), so the retrained file has a new checksum and different scores:
+
+| File | Bytes | SHA-256 | Stored in |
+|---|---:|---|---|
+| `adapters.safetensors` (retrained) | 161,529,623 | `f10dea4c14165a9002034c48094fdb0a4a6575aa299347eed39f7c6b6b6b1aa4` | `github.com/iAakash1/TIH-IoT`, `2026-07_July/mlx_adapters/qwen25vl_mango_qlora/` (Git LFS) |
+
+`python setup/download_models.py 09_plantdx` (repository root) downloads it; `python scripts/verify_project.py`
+reports presence and whether it is the July or the retrained file.
 
 ## 11. Inference
 
@@ -105,8 +116,13 @@ streamlit run streamlit_app.py      # choose mango in the sidebar
 plantdx evaluate --stage inference --adapter checkpoints/qwen25vl_mango_qlora \
                  --dataset artifacts/training/qwen25vl_mango_qlora/dataset \
                  --output-dir reports/qwen25vl_mango_qlora/evaluation
-plantdx evaluate --stage analyze --output-dir reports/qwen25vl_mango_qlora/evaluation      # [eval] env
+plantdx evaluate --stage analyze --adapter checkpoints/qwen25vl_mango_qlora \
+                 --dataset artifacts/training/qwen25vl_mango_qlora/dataset \
+                 --output-dir reports/qwen25vl_mango_qlora/evaluation      # [eval] env
 ```
+
+Pass `--adapter` and `--dataset` to the analyze stage as well: the metrics come from `predictions.jsonl` either
+way, but without them `system_info.json` records the tomato defaults as the adapter and dataset.
 
 ## 13. Input and output
 
@@ -119,11 +135,13 @@ A leaf photo (resized to 448 × 448) and an instruction in; one caption out. Pre
 |---|---:|---:|---:|---|---:|---:|---:|---:|---:|
 | Base (zero-shot) | 17.5% | 0.128 | 0.128 | 0.161 / 0.175 | 0.004 | 0.098 | 0.160 | 0.000 | 0.843 |
 | Fine-tuned | **82.0%** | **0.811** | 0.811 | 0.920 / 0.820 | 0.190 | 0.423 | 0.454 | 0.946 | 0.907 |
+| Fine-tuned, retrained Nov 2026 (the downloadable weights) | 86.0% | 0.891 | 0.891 | 0.976 / 0.860 | 0.219 | 0.457 | 0.471 | 1.073 | 0.911 |
 
 Fine-tuned latency: median 1.71 s per image (p95 2.80 s), peak memory 12.1 GB. Weakest class: die back, F1 0.08
-(1 of 25 right; 18 answers named no disease).
+(1 of 25 right; 18 answers named no disease). The retrained weights get 8 of 25 die back images right (F1 0.48);
+details: `retrained_2026-11/README.md`.
 
 ## 15. Limitations and hardware
 
-Apple Silicon only (tested M4 Pro, 24 GB). Weights missing (retrain to use). Only 500 images per class; die back
+Apple Silicon only (tested M4 Pro, 24 GB). The July weights are lost; the downloadable ones are retrained (section 10). Only 500 images per class; die back
 is effectively not learned.

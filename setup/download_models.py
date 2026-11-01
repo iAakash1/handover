@@ -5,7 +5,7 @@ them from there. Each file is checked against the SHA-256 in models_manifest.jso
 already present and correct are skipped, so it is safe to run this again at any time.
 
 Usage (from the repository root, any Python 3.9+, no extra packages needed):
-    python setup/download_models.py                 # the final model of every project (~3.6 GB)
+    python setup/download_models.py                 # the final model of every project (~4.0 GB)
     python setup/download_models.py 06_qwen25vl      # only paths containing this text
     python setup/download_models.py --all           # also every older version and per-epoch checkpoint (+~3.4 GB)
 """

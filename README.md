@@ -11,7 +11,7 @@ datasets used, our ICAIN 2026 paper, and what did **not** work. Every folder has
 
 ```powershell
 python setup\setup_envs.py          # 1. creates the 5 Python environments in .venvs\ (Python 3.10, ~25 GB, once)
-python setup\download_models.py     # 2. downloads all trained models (~3.6 GB) into the right folders
+python setup\download_models.py     # 2. downloads all trained models (~4.0 GB) into the right folders
 python setup\check_setup.py         # 3. must end with READY (lists anything missing and how to fix it)
 python run_app.py                   # 4. pick an app from the menu; it opens in the browser
 ```
@@ -57,8 +57,8 @@ VLM results (04–08) are all on the same 200 PlantVillage validation images, so
 
 | Model | Architecture | Data (test images) | Base → fine-tuned | Weights |
 |---|---|---|---|---|
-| [`qwen25vl_tomato_qlora`](projects/09_plantdx_mlx_knowledge_grounded/models/qwen25vl_tomato_qlora/README.md) | Qwen2.5-VL-7B-Instruct 4-bit + QLoRA r16 (`mlx_vlm.lora`) | PlantVillage tomato, 10 classes (910) | 7.3% → **93.7%**, macro-F1 0.919 | missing; retrain |
-| [`qwen25vl_mango_qlora`](projects/09_plantdx_mlx_knowledge_grounded/models/qwen25vl_mango_qlora/README.md) | same | MangoLeafBD, 8 classes (200) | 17.5% → **82.0%**, macro-F1 0.811 | missing; retrain |
+| [`qwen25vl_tomato_qlora`](projects/09_plantdx_mlx_knowledge_grounded/models/qwen25vl_tomato_qlora/README.md) | Qwen2.5-VL-7B-Instruct 4-bit + QLoRA r16 (`mlx_vlm.lora`) | PlantVillage tomato, 10 classes (910) | 7.3% → **93.7%**, macro-F1 0.919 (retrained weights: 86.9%, 0.847) | retrained Nov 2026; `download_models.py` |
+| [`qwen25vl_mango_qlora`](projects/09_plantdx_mlx_knowledge_grounded/models/qwen25vl_mango_qlora/README.md) | same | MangoLeafBD, 8 classes (200) | 17.5% → **82.0%**, macro-F1 0.811 (retrained weights: 86.0%, 0.891) | retrained Nov 2026; `download_models.py` |
 | [`zero_shot_benchmarks`](projects/09_plantdx_mlx_knowledge_grounded/models/zero_shot_benchmarks/README.md) | 7 off-the-shelf 4-bit VLMs, no training | 16 and 30 leaves | best 23% | Hugging Face |
 
 Requirements: macOS on Apple Silicon (trained on an M4 Pro, 24 GB), Python 3.12, `mlx` 0.31.2, `mlx-vlm` 0.6.4
@@ -144,11 +144,12 @@ handover/
 - **Datasets are not in git** (size, licences; the TIH tomato data is private). They are on the TIH workstation;
   paths are in `docs/datasets.md` and can be changed with environment variables. The exception is the MLX project
   09: the public PlantVillage tomato and MangoLeafBD images it was trained on are in its `tomato/` and `mango/`.
-- **Models are not in git either**: `setup/download_models.py` fetches them (3.6 GB). They also stay on the
+- **Models are not in git either**: `setup/download_models.py` fetches them (4.0 GB). They also stay on the
   TIH workstation in this folder.
 - **MLX (project 09)** ran on an Apple Silicon Mac. Everything from that Mac is in project 09: the full `plantdx`
   code, knowledge base, caption corpus, training datasets, tomato and mango images, evaluation reports and training
   logs, plus `earlier_experiments/` (PlantCaption, the June caption sets, the 4- and 7-VLM zero-shot benchmarks).
-  Only the two trained adapter files were no longer on the Mac; the 09 README shows how to retrain them with the
-  same config and seed. To present it: `projects/09_plantdx_mlx_knowledge_grounded/PRESENTATION_GUIDE.md`.
+  The two July adapter files were no longer on the Mac; both models were retrained on the same Mac on 31 Oct – 1 Nov
+  2026 (`projects/09_plantdx_mlx_knowledge_grounded/retrained_2026-11/`) and `setup/download_models.py` fetches the
+  new weights. To present it: `projects/09_plantdx_mlx_knowledge_grounded/PRESENTATION_GUIDE.md`.
 - **Paper:** `docs/publication/ICAIN2026_paper953_camera_ready.pdf` (accepted 1 Oct 2026, registered 21 Oct 2026).

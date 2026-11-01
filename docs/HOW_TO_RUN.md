@@ -6,7 +6,7 @@
 |---|---|---|
 | Python | install Python 3.10 (64-bit) from python.org, tick "Add to PATH" | the environments were built with 3.10.8 |
 | Environments | `python setup\setup_envs.py` | creates `.venvs\keras`, `soynet`, `vlm`, `florence`, `tih` (~25 GB, 20–40 min) |
-| Models | `python setup\download_models.py` | 3.6 GB from github.com/iAakash1/TIH-IoT, checksummed, re-runnable (`--all` adds older versions and per-epoch checkpoints, +3.4 GB) |
+| Models | `python setup\download_models.py` | 4.0 GB from github.com/iAakash1/TIH-IoT, checksummed, re-runnable (`--all` adds older versions and per-epoch checkpoints, +3.4 GB) |
 | Check | `python setup\check_setup.py` | must print **READY** |
 
 GPU: an NVIDIA card with a recent driver. The VLMs (04–08, 10) need ~16–24 GB of GPU memory; the CNNs (01–03)
@@ -55,7 +55,7 @@ cd projects\<project>
 | 06 Qwen2.5-VL | `qwen\01_prepare_dataset.py` then `qwen\02_finetune_qwen25vl.py` | not logged |
 | 07 PlantDx | `scripts\01_prepare_dataset.py`, `scripts\02_train.py` | ~2.5 h per epoch |
 | 08 PlantVLM | `scripts\02_train.py` | ~1 min per epoch |
-| 09 MLX (Mac) | `plantdx train --config configs/train/qwen25vl_tomato.yaml` (or `qwen25vl_mango.yaml --crop mango`) | tomato ~12 h, mango ~1.6 h (Apple M4 Pro) |
+| 09 MLX (Mac) | `plantdx train --config configs/train/qwen25vl_tomato.yaml` (or `qwen25vl_mango.yaml --crop mango`) | tomato 7–12 h, mango ~1.6 h (Apple M4 Pro; the Nov 2026 retraining took 6 h 56 min and 1 h 35 min) |
 | 10 TIH tomato | `-m plantdx.cli company preflight`, then `company train` (same `--config`) | 193 min (2.9 epochs) |
 
 New models are written next to the old ones (same folder names), so move the old files away first if you want

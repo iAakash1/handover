@@ -11,8 +11,9 @@ Paper draft: [`PlantDx: Knowledge-Grounded Instruction Tuning for Vision-Languag
 > **Runs on a Mac only.** Trained with Apple's MLX framework on an Apple M4 Pro (24 GB unified memory). This folder
 > is everything done on that Mac: the full project (code, tests, knowledge base, configs, caption corpus, training
 > datasets, evaluation reports, training logs, Streamlit demo), the tomato and mango images it was trained on, and
-> the earlier caption and zero-shot experiments (`earlier_experiments/`). Only the two trained adapter files are
-> missing; they were no longer on the Mac (see [Adapters](#adapters)).
+> the earlier caption and zero-shot experiments (`earlier_experiments/`). The two July adapter files were no longer
+> on the Mac; both models were retrained on 31 Oct – 1 Nov 2026 and the new weights download with
+> `setup/download_models.py` (see [Adapters](#adapters)).
 
 ## In one paragraph
 
@@ -28,8 +29,8 @@ content-hashed. Qwen2.5-VL-7B-Instruct (4-bit) was then fine-tuned with LoRA on 
 
 | Model card | What | Test result | Weights |
 |---|---|---|---|
-| [`qwen25vl_tomato_qlora`](models/qwen25vl_tomato_qlora/README.md) | Qwen2.5-VL-7B 4-bit + QLoRA, PlantVillage tomato, 10 classes | 93.7% (910 images) | missing, retrain |
-| [`qwen25vl_mango_qlora`](models/qwen25vl_mango_qlora/README.md) | same, MangoLeafBD, 8 classes | 82.0% (200 images) | missing, retrain |
+| [`qwen25vl_tomato_qlora`](models/qwen25vl_tomato_qlora/README.md) | Qwen2.5-VL-7B 4-bit + QLoRA, PlantVillage tomato, 10 classes | 93.7% (910 images); retrained weights 86.9% | retrained, `setup/download_models.py` |
+| [`qwen25vl_mango_qlora`](models/qwen25vl_mango_qlora/README.md) | same, MangoLeafBD, 8 classes | 82.0% (200 images); retrained weights 86.0% | retrained, `setup/download_models.py` |
 | [`zero_shot_benchmarks`](models/zero_shot_benchmarks/README.md) | 7 off-the-shelf VLMs on MLX, no training | best 23% | Hugging Face |
 
 Each card has the model's files, environment and exact commands for data preparation, training, validation,
@@ -57,7 +58,7 @@ Taken from the training command and log of each run (`reports/qwen25vl_<crop>_ql
 | Trainable parameters | 40,370,176 of 8,292,037,632 (0.487%) |
 | Optimisation | 1 epoch, learning rate 1e-4 (constant: the config asks for cosine with 100 warm-up steps, but the `mlx_vlm.lora` command passed no schedule and the log shows 1.000e-04 throughout), micro-batch 1 × gradient accumulation 8, gradient clipping 1.0, gradient checkpointing, loss on answers only (`--train-on-completions`) |
 | Images | resized to 448 × 448; max sequence length 2,048 |
-| Seed | 20260711 (split and training) |
+| Seed | 20260711 for the train/validation/test split; `mlx_vlm.lora` 0.6.4 takes no seed, so the order of training examples, the LoRA initialisation and dropout are random in each run (`retrained_2026-11/README.md`) |
 | Tomato data | PlantVillage tomato, 10 classes: 16,201 train / 895 validation / 910 test (image-grouped split) |
 | Mango data | MangoLeafBD, 8 classes: 3,600 / 200 / 200 |
 | Hardware and software | Apple M4 Pro, 24 GB, Python 3.12.13, `mlx` 0.31.2, `mlx-vlm` 0.6.4 |
@@ -125,7 +126,8 @@ All figures (accuracy, BERTScore, CIDEr, hallucination, latency, response length
 | `datasets/` | Normalization report, class mappings, per-image manifests and dataset cards; `plantdx normalize` writes the normalized image copies to `datasets/<crop>/processed/` (not in git) |
 | `reports/` | Dataset audit (class distribution, duplicates, corrupt images, image statistics) and the full evaluation of both runs: metrics, per-disease scores, confusion matrices, BLEU / ROUGE / METEOR / CIDEr / BERTScore, hallucination checks, latency, figures, raw predictions |
 | `logs/` | MLX training logs of both runs (`logs/qwen25vl_<crop>_qlora/train.log`) and the demo app log |
-| `checkpoints/` | `adapter_config.json` of both runs (the weights are not in git, see below) |
+| `checkpoints/` | `adapter_config.json` of both runs; `setup/download_models.py` adds the retrained `adapters.safetensors` (not in git, see [Adapters](#adapters)) |
+| `retrained_2026-11/` | The retraining of both models (31 Oct – 1 Nov 2026): training logs and plans, full evaluations, comparison with July |
 | `predictions/`, `uploads/` | Predictions made with the demo app on 16 Jul 2026 and the photos uploaded to it |
 | `results/` | Summary tables and graphs used in the fellowship report |
 | `earlier_experiments/` | PlantCaption pipeline, June caption sets, the 4-model and 7-model MLX zero-shot benchmarks |
@@ -208,7 +210,8 @@ plantdx train --config configs/train/qwen25vl_mango.yaml --crop mango  # writes 
 ```
 
 Times estimated from the speeds in `logs/`: tomato 16,201 iterations, about 12 hours (median 0.36 it/s, peak
-memory 7.2 GB); mango 3,600 iterations, about 1.6 hours.
+memory 7.2 GB); mango 3,600 iterations, about 1.6 hours. The retraining on the same Mac took 6 h 56 min for tomato
+(0.67 it/s) and 1 h 35 min for mango (`retrained_2026-11/`).
 
 ### 4. Predict and evaluate
 
@@ -232,12 +235,27 @@ More detail: `docs/TRAINING.md`, `docs/EVALUATION.md`, `docs/DEMO_APP.md`, `docs
 
 ## Adapters
 
-Both runs finished and saved `checkpoints/qwen25vl_<crop>_qlora/adapters.safetensors` (see the last lines of
-`logs/qwen25vl_<crop>_qlora/train.log`), but the weight files are no longer on the Mac; only `adapter_config.json`
-is left. Their SHA-256 checksums are recorded in `reports/qwen25vl_<crop>_qlora/evaluation/system_info.json`
-(tomato `9d4b21f4…`, mango `c944488f…`). To use the demo or `plantdx infer`, retrain with step 3 (same config,
-same seed) and put the new `adapters.safetensors` next to `adapter_config.json`. One test needs the original
-tomato weights and fails until they are back (`tests/unit/evaluation/test_eval_checkpoint.py::test_real_frozen_tomato_checkpoint_resolves`).
+Both July runs finished and saved `checkpoints/qwen25vl_<crop>_qlora/adapters.safetensors` (see the last lines of
+`logs/qwen25vl_<crop>_qlora/train.log`), but those weight files were no longer on the Mac at the handover; their
+SHA-256 checksums are recorded in `reports/qwen25vl_<crop>_qlora/evaluation/system_info.json` (tomato
+`9d4b21f4…`, mango `c944488f…`). Both models were therefore **retrained** on the same Mac from 31 Oct to 1 Nov 2026
+with the same code, training rows, config and library versions. The weights are stored in
+`github.com/iAakash1/TIH-IoT` (Git LFS) and downloaded with, from the repository root:
+
+```bash
+python setup/download_models.py 09_plantdx     # both adapters into checkpoints/<run>/, checksums verified
+```
+
+| Run | Bytes | SHA-256 | Test accuracy / macro-F1 (July) |
+|---|---:|---|---|
+| `qwen25vl_tomato_qlora` (retrained) | 161,529,623 | `a4872a5cbbf072caecb5221a613994efd935099b42b10733a8b758e920db3ee0` | 86.9% / 0.847 (93.7% / 0.919) |
+| `qwen25vl_mango_qlora` (retrained) | 161,529,623 | `f10dea4c14165a9002034c48094fdb0a4a6575aa299347eed39f7c6b6b6b1aa4` | 86.0% / 0.891 (82.0% / 0.811) |
+
+`mlx_vlm.lora` takes no seed, so a new run gives different weights. The retrained tomato model is weaker on healthy
+leaves (14 of 80 right) and close to July on the nine diseases; the retrained mango model is better on die back
+(8 of 25, July 1). The logs, plans, full evaluations and a class-by-class comparison are in
+[`retrained_2026-11/`](retrained_2026-11/README.md); the July figures in this README stay the reported results.
+`scripts/verify_project.py` reports whether the weights present are the July or the retrained files.
 
 ## Code history
 

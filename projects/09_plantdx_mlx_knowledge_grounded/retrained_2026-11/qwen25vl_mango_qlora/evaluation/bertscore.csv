@@ -1,0 +1,401 @@
+model,id,bertscore_f1
+base,anthracnose/20211008_124336 (Custom).jpg,0.8159666061401367
+base,anthracnose/20211008_125121 (Custom).jpg,0.8522514700889587
+base,anthracnose/20211011_134018 (Custom).jpg,0.8457668423652649
+base,anthracnose/20211011_134403 (Custom).jpg,0.8365769982337952
+base,anthracnose/20211011_134556 (Custom).jpg,0.8198907971382141
+base,anthracnose/20211011_134623 (Custom).jpg,0.8615336418151855
+base,anthracnose/20211011_134725 (Custom).jpg,0.8563252687454224
+base,anthracnose/20211011_160144 (Custom).jpg,0.8021564483642578
+base,anthracnose/20211011_165901 (Custom).jpg,0.8615028858184814
+base,anthracnose/20211011_170712 - Copy - Copy - Copy (Custom).jpg,0.8354914784431458
+base,anthracnose/20211011_170717 - Copy - Copy - Copy (Custom).jpg,0.8347265720367432
+base,anthracnose/20211011_171138 - Copy - Copy - Copy (Custom).jpg,0.8224157691001892
+base,anthracnose/IMG_20211011_140309 (Custom).jpg,0.823923647403717
+base,anthracnose/IMG_20211011_152926 (Custom).jpg,0.8284587860107422
+base,anthracnose/IMG_20211011_153436 (Custom).jpg,0.8352733254432678
+base,anthracnose/IMG_20211011_153551 (Custom).jpg,0.8122047185897827
+base,anthracnose/IMG_20211011_160523 (Custom).jpg,0.8513542413711548
+base,anthracnose/IMG_20211011_160525 (Custom).jpg,0.8450031876564026
+base,anthracnose/IMG_20211011_161316 (Custom).jpg,0.8323823809623718
+base,anthracnose/IMG_20211011_161934 (Custom).jpg,0.851962149143219
+base,anthracnose/IMG_20211011_162021 (Custom).jpg,0.8482481241226196
+base,anthracnose/IMG_20211011_162456 (Custom).jpg,0.844222903251648
+base,anthracnose/IMG_20211011_162755 (Custom).jpg,0.8356333374977112
+base,anthracnose/IMG_20211011_164123 (Custom).jpg,0.834210216999054
+base,anthracnose/IMG_20211011_170212 (Custom).jpg,0.8474578857421875
+base,bacterial_canker/IMG_20211106_120928 (Custom).jpg,0.8340336680412292
+base,bacterial_canker/IMG_20211106_134336 (Custom).jpg,0.8069777488708496
+base,bacterial_canker/IMG_20211106_134356 (Custom).jpg,0.8405185341835022
+base,bacterial_canker/IMG_20211106_134516 (Custom).jpg,0.8379514217376709
+base,bacterial_canker/IMG_20211106_134938 (Custom).jpg,0.8447059392929077
+base,bacterial_canker/IMG_20211106_135036 (Custom).jpg,0.8424865007400513
+base,bacterial_canker/IMG_20211106_135253 (Custom).jpg,0.8376656770706177
+base,bacterial_canker/IMG_20211106_135318 (Custom).jpg,0.8530541062355042
+base,bacterial_canker/IMG_20211106_135511 (Custom).jpg,0.831733226776123
+base,bacterial_canker/IMG_20211106_135515 (Custom).jpg,0.8409700989723206
+base,bacterial_canker/IMG_20211106_135640 (Custom).jpg,0.8433816432952881
+base,bacterial_canker/IMG_20211106_135933 (Custom).jpg,0.827865719795227
+base,bacterial_canker/IMG_20211106_140343 (Custom).jpg,0.8375523090362549
+base,bacterial_canker/IMG_20211106_141126 (Custom).jpg,0.8299708962440491
+base,bacterial_canker/IMG_20211106_141148 (Custom).jpg,0.8532810211181641
+base,bacterial_canker/IMG_20211106_141239 (Custom).jpg,0.8378372192382812
+base,bacterial_canker/IMG_20211106_141745 (Custom).jpg,0.8354530930519104
+base,bacterial_canker/IMG_20211106_141919 (Custom).jpg,0.8282943964004517
+base,bacterial_canker/IMG_20211106_142707 (Custom).jpg,0.8219623565673828
+base,bacterial_canker/IMG_20211106_142734 (Custom).jpg,0.8463606238365173
+base,bacterial_canker/IMG_20211106_142809 (Custom).jpg,0.8339963555335999
+base,bacterial_canker/IMG_20211106_142816 (Custom).jpg,0.826005756855011
+base,bacterial_canker/IMG_20211106_142828 (Custom).jpg,0.8293348550796509
+base,bacterial_canker/IMG_20211106_142941 (Custom).jpg,0.8353270292282104
+base,bacterial_canker/IMG_20211106_143031 (Custom).jpg,0.8352487087249756
+base,cutting_weevil/20211011_160614 (Custom) (Custom).jpg,0.8452158570289612
+base,cutting_weevil/20211011_160831 (Custom) (Custom).jpg,0.814252495765686
+base,cutting_weevil/20211011_161140(0) (Custom) (Custom).jpg,0.8499136567115784
+base,cutting_weevil/20211011_161207 (Custom) (Custom).jpg,0.8440461158752441
+base,cutting_weevil/20211011_161246 (Custom) (Custom).jpg,0.8193706274032593
+base,cutting_weevil/20211011_161502 (Custom).jpg,0.8355997800827026
+base,cutting_weevil/20211011_161607 (Custom) (Custom).jpg,0.8428090810775757
+base,cutting_weevil/20211011_161627 (Custom).jpg,0.8240097761154175
+base,cutting_weevil/20211011_161908(0) (Custom) (Custom).jpg,0.8300209045410156
+base,cutting_weevil/20211011_162011 (Custom).jpg,0.8495665788650513
+base,cutting_weevil/20211011_162049 (Custom) (Custom).jpg,0.8404792547225952
+base,cutting_weevil/20211011_162158 (Custom) (Custom).jpg,0.847668468952179
+base,cutting_weevil/20211011_162308 (Custom) (Custom).jpg,0.8485011458396912
+base,cutting_weevil/20211011_162410 (Custom).jpg,0.8183164000511169
+base,cutting_weevil/20211011_162424 (Custom) (Custom).jpg,0.833187460899353
+base,cutting_weevil/20211011_162428(0) (Custom) (Custom).jpg,0.831227719783783
+base,cutting_weevil/20211011_162434(0) (Custom) (Custom).jpg,0.8602595925331116
+base,cutting_weevil/20211011_162436 (Custom) (Custom).jpg,0.8391640186309814
+base,cutting_weevil/20211011_162501(0) (Custom) (Custom).jpg,0.8532674312591553
+base,cutting_weevil/20211011_162518(0) (Custom) (Custom).jpg,0.8505607843399048
+base,cutting_weevil/20211011_162521 (Custom) (Custom).jpg,0.8365587592124939
+base,cutting_weevil/20211011_162521 (Custom).jpg,0.8562757968902588
+base,cutting_weevil/20211011_162526 (Custom).jpg,0.8342213034629822
+base,cutting_weevil/20211011_170108 (Custom) (Custom).jpg,0.826514720916748
+base,cutting_weevil/IMG_20211011_140224 (Custom).jpg,0.8162183165550232
+base,die_back/20211129_160453 (Custom).jpg,0.8449545502662659
+base,die_back/20211129_160608 (Custom).jpg,0.8579295873641968
+base,die_back/20211129_160617 (Custom).jpg,0.8393928408622742
+base,die_back/20211129_161033 (Custom).jpg,0.8526166677474976
+base,die_back/20211129_161531 (Custom).jpg,0.8500606417655945
+base,die_back/20211129_162054 (Custom).jpg,0.8299528956413269
+base,die_back/20211129_162428 (Custom).jpg,0.8446847796440125
+base,die_back/20211129_162514 (Custom).jpg,0.8507155179977417
+base,die_back/20211129_162705 (Custom).jpg,0.8629770874977112
+base,die_back/20211129_162952 (Custom).jpg,0.8570042848587036
+base,die_back/20211129_163744 (Custom).jpg,0.8499236702919006
+base,die_back/20211129_164023 (Custom).jpg,0.8371567726135254
+base,die_back/20211129_164048 (Custom).jpg,0.8619145154953003
+base,die_back/20211129_164141 (Custom).jpg,0.8421961665153503
+base,die_back/20211129_164422 (Custom).jpg,0.8586935997009277
+base,die_back/IMG_20211027_182411 (Custom).jpg,0.8585678935050964
+base,die_back/IMG_20211027_183425 (Custom).jpg,0.8515734672546387
+base,die_back/IMG_20211027_190339 (Custom).jpg,0.8397983312606812
+base,die_back/IMG_20211027_190349 (Custom).jpg,0.842210590839386
+base,die_back/IMG_20211027_193419 (Custom).jpg,0.8547611236572266
+base,die_back/IMG_20211027_193633 (Custom).jpg,0.8498014807701111
+base,die_back/IMG_20211027_230015 (Custom).jpg,0.8527953028678894
+base,die_back/IMG_20211028_002804 (Custom).jpg,0.8469747304916382
+base,die_back/IMG_20211028_002845 (Custom).jpg,0.8391667008399963
+base,die_back/IMG_20211028_003033 (Custom).jpg,0.8560453653335571
+base,gall_midge/IMG_20211106_161413 (Custom).jpg,0.8444951176643372
+base,gall_midge/IMG_20211106_161430 (Custom).jpg,0.848420262336731
+base,gall_midge/IMG_20211106_161627 (Custom).jpg,0.846423864364624
+base,gall_midge/IMG_20211106_162106 (Custom).jpg,0.8386499881744385
+base,gall_midge/IMG_20211106_162119 (Custom).jpg,0.8484513163566589
+base,gall_midge/IMG_20211106_162407 (Custom).jpg,0.8462377190589905
+base,gall_midge/IMG_20211106_162425 (Custom).jpg,0.8399674892425537
+base,gall_midge/IMG_20211106_162852 (Custom).jpg,0.8389301896095276
+base,gall_midge/IMG_20211106_162855 (Custom).jpg,0.8411579132080078
+base,gall_midge/IMG_20211106_162909 (Custom).jpg,0.852715253829956
+base,gall_midge/IMG_20211106_163020 (Custom).jpg,0.8313983678817749
+base,gall_midge/IMG_20211106_163314 (Custom).jpg,0.8416634798049927
+base,gall_midge/IMG_20211106_163656 (Custom).jpg,0.839733898639679
+base,gall_midge/IMG_20211106_163815 (Custom).jpg,0.8238709568977356
+base,gall_midge/IMG_20211106_163828 (Custom).jpg,0.8323783278465271
+base,gall_midge/IMG_20211106_164142 (Custom).jpg,0.83797687292099
+base,gall_midge/IMG_20211106_164440 (Custom).jpg,0.8436654806137085
+base,gall_midge/IMG_20211106_164443 (Custom).jpg,0.8326511383056641
+base,gall_midge/IMG_20211106_164449 (Custom).jpg,0.8511307239532471
+base,gall_midge/IMG_20211106_165509 (Custom).jpg,0.8287408947944641
+base,gall_midge/IMG_20211106_165608 (Custom).jpg,0.8468559980392456
+base,gall_midge/IMG_20211106_165610 (Custom).jpg,0.8222428560256958
+base,gall_midge/IMG_20211106_170213 (Custom).jpg,0.8468510508537292
+base,gall_midge/IMG_20211106_170247 (Custom).jpg,0.849212646484375
+base,gall_midge/IMG_20211106_170321 (Custom).jpg,0.8426867723464966
+base,healthy/20211231_123225 (Custom).jpg,0.8684199452400208
+base,healthy/20211231_123243 (Custom).jpg,0.8523932099342346
+base,healthy/20211231_123405 (Custom).jpg,0.8803408741950989
+base,healthy/20211231_124401 (Custom).jpg,0.8544607162475586
+base,healthy/20211231_124546 (Custom).jpg,0.8717448711395264
+base,healthy/20211231_124813 (Custom).jpg,0.8647244572639465
+base,healthy/20211231_124917 (Custom).jpg,0.8316797614097595
+base,healthy/20211231_130002 (Custom).jpg,0.8813778162002563
+base,healthy/20211231_130041 (Custom).jpg,0.8648093938827515
+base,healthy/20211231_154939 (Custom).jpg,0.8803420662879944
+base,healthy/20211231_155835 (Custom).jpg,0.8564059138298035
+base,healthy/20211231_155927 (Custom).jpg,0.8862758874893188
+base,healthy/20211231_160300 (Custom).jpg,0.8840925097465515
+base,healthy/20211231_160448 (Custom).jpg,0.8705742359161377
+base,healthy/20211231_160500 (Custom).jpg,0.8948509097099304
+base,healthy/20211231_160709 (Custom).jpg,0.8692342638969421
+base,healthy/20211231_160924 (Custom).jpg,0.8502858281135559
+base,healthy/20211231_161515 (Custom).jpg,0.8345901966094971
+base,healthy/20211231_161523 (Custom).jpg,0.8617580533027649
+base,healthy/20211231_161529 (Custom).jpg,0.8776238560676575
+base,healthy/20211231_161840 (Custom).jpg,0.8664242625236511
+base,healthy/20211231_162050 (Custom).jpg,0.8533585071563721
+base,healthy/20211231_162239 (Custom).jpg,0.840360701084137
+base,healthy/20211231_162257 (Custom).jpg,0.8878083825111389
+base,healthy/20211231_162412 (Custom).jpg,0.8629488348960876
+base,powdery_mildew/20211109_121314 (Custom).jpg,0.836391031742096
+base,powdery_mildew/20211109_121422 (Custom).jpg,0.8290353417396545
+base,powdery_mildew/20211109_121547(0) (Custom).jpg,0.823117196559906
+base,powdery_mildew/20211109_121750 (Custom).jpg,0.8329777121543884
+base,powdery_mildew/20211109_121910 (Custom).jpg,0.8083442449569702
+base,powdery_mildew/20211109_121929 (Custom).jpg,0.8367118835449219
+base,powdery_mildew/20211109_121938 (Custom).jpg,0.8399460315704346
+base,powdery_mildew/20211109_122206 (Custom).jpg,0.8367025852203369
+base,powdery_mildew/IMG_20211107_115520 (Custom).jpg,0.8317857384681702
+base,powdery_mildew/IMG_20211107_120339 (Custom).jpg,0.8527376055717468
+base,powdery_mildew/IMG_20211107_122446 (Custom).jpg,0.8696898221969604
+base,powdery_mildew/IMG_20211107_123141 (Custom).jpg,0.8638514280319214
+base,powdery_mildew/IMG_20211107_123502 (Custom).jpg,0.8520159721374512
+base,powdery_mildew/IMG_20211107_123623 (Custom).jpg,0.8401636481285095
+base,powdery_mildew/IMG_20211107_123919 (Custom).jpg,0.8490987420082092
+base,powdery_mildew/IMG_20211107_123939 (Custom).jpg,0.8492494821548462
+base,powdery_mildew/IMG_20211107_124006 (Custom).jpg,0.8648518919944763
+base,powdery_mildew/IMG_20211107_124031 (Custom).jpg,0.8598631620407104
+base,powdery_mildew/IMG_20211107_124047 (Custom).jpg,0.8379297256469727
+base,powdery_mildew/IMG_20211107_124055 (Custom).jpg,0.8664140701293945
+base,powdery_mildew/IMG_20211107_125107 (Custom).jpg,0.8527935743331909
+base,powdery_mildew/IMG_20211107_125945 (Custom).jpg,0.8711060285568237
+base,powdery_mildew/IMG_20211107_125951 (Custom).jpg,0.8611883521080017
+base,powdery_mildew/IMG_20211107_125957 (Custom).jpg,0.845374584197998
+base,powdery_mildew/IMG_20211107_130023 (Custom).jpg,0.8530358076095581
+base,sooty_mould/IMG_20211108_120937 (Custom).jpg,0.8338423371315002
+base,sooty_mould/IMG_20211108_121006 (Custom).jpg,0.8402324914932251
+base,sooty_mould/IMG_20211108_121238 (Custom).jpg,0.8285195827484131
+base,sooty_mould/IMG_20211108_121918 (Custom).jpg,0.8231950998306274
+base,sooty_mould/IMG_20211108_121959 (Custom).jpg,0.8419159650802612
+base,sooty_mould/IMG_20211108_122519 (Custom).jpg,0.8491073846817017
+base,sooty_mould/IMG_20211108_123018 (Custom).jpg,0.8476628065109253
+base,sooty_mould/IMG_20211108_123030 (Custom).jpg,0.8127187490463257
+base,sooty_mould/IMG_20211108_123221 (Custom).jpg,0.834079921245575
+base,sooty_mould/IMG_20211108_123302 (Custom).jpg,0.8225085139274597
+base,sooty_mould/IMG_20211108_123437 (Custom).jpg,0.834171712398529
+base,sooty_mould/IMG_20211108_123453 (Custom).jpg,0.8314896821975708
+base,sooty_mould/IMG_20211108_123514 (Custom).jpg,0.8140973448753357
+base,sooty_mould/IMG_20211211_154048 (Custom).jpg,0.822838306427002
+base,sooty_mould/IMG_20211211_154134 (Custom).jpg,0.8359636664390564
+base,sooty_mould/IMG_20211211_154849 (Custom).jpg,0.8321313858032227
+base,sooty_mould/IMG_20211211_154906 (Custom).jpg,0.823793351650238
+base,sooty_mould/IMG_20211211_155345 (Custom).jpg,0.8231400847434998
+base,sooty_mould/IMG_20211211_155518 (Custom).jpg,0.8211475014686584
+base,sooty_mould/IMG_20211212_143223 (Custom).jpg,0.8329300880432129
+base,sooty_mould/IMG_20211212_143243 (Custom).jpg,0.8369803428649902
+base,sooty_mould/IMG_20211212_144454 (Custom).jpg,0.832892119884491
+base,sooty_mould/IMG_20211212_145113 (Custom).jpg,0.8395247459411621
+base,sooty_mould/IMG_20211212_150310 (Custom).jpg,0.8120003938674927
+base,sooty_mould/IMG_20211212_150341 (Custom).jpg,0.8483039140701294
+finetuned,anthracnose/20211008_124336 (Custom).jpg,0.9090331792831421
+finetuned,anthracnose/20211008_125121 (Custom).jpg,0.9392813444137573
+finetuned,anthracnose/20211011_134018 (Custom).jpg,0.9267773032188416
+finetuned,anthracnose/20211011_134403 (Custom).jpg,0.9614115953445435
+finetuned,anthracnose/20211011_134556 (Custom).jpg,0.8635559678077698
+finetuned,anthracnose/20211011_134623 (Custom).jpg,0.9096604585647583
+finetuned,anthracnose/20211011_134725 (Custom).jpg,0.9389618635177612
+finetuned,anthracnose/20211011_160144 (Custom).jpg,0.8649508357048035
+finetuned,anthracnose/20211011_165901 (Custom).jpg,0.9146711230278015
+finetuned,anthracnose/20211011_170712 - Copy - Copy - Copy (Custom).jpg,0.9127604961395264
+finetuned,anthracnose/20211011_170717 - Copy - Copy - Copy (Custom).jpg,0.9074979424476624
+finetuned,anthracnose/20211011_171138 - Copy - Copy - Copy (Custom).jpg,0.9357767105102539
+finetuned,anthracnose/IMG_20211011_140309 (Custom).jpg,0.8975686430931091
+finetuned,anthracnose/IMG_20211011_152926 (Custom).jpg,0.9558747410774231
+finetuned,anthracnose/IMG_20211011_153436 (Custom).jpg,0.9209786653518677
+finetuned,anthracnose/IMG_20211011_153551 (Custom).jpg,0.8473508358001709
+finetuned,anthracnose/IMG_20211011_160523 (Custom).jpg,0.9102678894996643
+finetuned,anthracnose/IMG_20211011_160525 (Custom).jpg,0.8980898261070251
+finetuned,anthracnose/IMG_20211011_161316 (Custom).jpg,0.9024384617805481
+finetuned,anthracnose/IMG_20211011_161934 (Custom).jpg,0.9357278943061829
+finetuned,anthracnose/IMG_20211011_162021 (Custom).jpg,0.9374280571937561
+finetuned,anthracnose/IMG_20211011_162456 (Custom).jpg,0.8875361084938049
+finetuned,anthracnose/IMG_20211011_162755 (Custom).jpg,0.8969471454620361
+finetuned,anthracnose/IMG_20211011_164123 (Custom).jpg,0.8702247142791748
+finetuned,anthracnose/IMG_20211011_170212 (Custom).jpg,0.8917098641395569
+finetuned,bacterial_canker/IMG_20211106_120928 (Custom).jpg,0.9552052617073059
+finetuned,bacterial_canker/IMG_20211106_134336 (Custom).jpg,0.8742318749427795
+finetuned,bacterial_canker/IMG_20211106_134356 (Custom).jpg,0.8772238492965698
+finetuned,bacterial_canker/IMG_20211106_134516 (Custom).jpg,0.9354797601699829
+finetuned,bacterial_canker/IMG_20211106_134938 (Custom).jpg,0.9121658205986023
+finetuned,bacterial_canker/IMG_20211106_135036 (Custom).jpg,0.9354797601699829
+finetuned,bacterial_canker/IMG_20211106_135253 (Custom).jpg,0.9401329159736633
+finetuned,bacterial_canker/IMG_20211106_135318 (Custom).jpg,0.8973016142845154
+finetuned,bacterial_canker/IMG_20211106_135511 (Custom).jpg,0.8850595355033875
+finetuned,bacterial_canker/IMG_20211106_135515 (Custom).jpg,0.9370226860046387
+finetuned,bacterial_canker/IMG_20211106_135640 (Custom).jpg,0.9205805063247681
+finetuned,bacterial_canker/IMG_20211106_135933 (Custom).jpg,0.8655102849006653
+finetuned,bacterial_canker/IMG_20211106_140343 (Custom).jpg,0.9154212474822998
+finetuned,bacterial_canker/IMG_20211106_141126 (Custom).jpg,0.8931711316108704
+finetuned,bacterial_canker/IMG_20211106_141148 (Custom).jpg,0.9150060415267944
+finetuned,bacterial_canker/IMG_20211106_141239 (Custom).jpg,0.9086621403694153
+finetuned,bacterial_canker/IMG_20211106_141745 (Custom).jpg,0.8707826733589172
+finetuned,bacterial_canker/IMG_20211106_141919 (Custom).jpg,0.9301156997680664
+finetuned,bacterial_canker/IMG_20211106_142707 (Custom).jpg,0.8799280524253845
+finetuned,bacterial_canker/IMG_20211106_142734 (Custom).jpg,0.9150060415267944
+finetuned,bacterial_canker/IMG_20211106_142809 (Custom).jpg,0.8931711316108704
+finetuned,bacterial_canker/IMG_20211106_142816 (Custom).jpg,0.8850595355033875
+finetuned,bacterial_canker/IMG_20211106_142828 (Custom).jpg,0.8867376446723938
+finetuned,bacterial_canker/IMG_20211106_142941 (Custom).jpg,0.9448201060295105
+finetuned,bacterial_canker/IMG_20211106_143031 (Custom).jpg,0.8973016142845154
+finetuned,cutting_weevil/20211011_160614 (Custom) (Custom).jpg,0.8943178057670593
+finetuned,cutting_weevil/20211011_160831 (Custom) (Custom).jpg,0.9201597571372986
+finetuned,cutting_weevil/20211011_161140(0) (Custom) (Custom).jpg,0.8737337589263916
+finetuned,cutting_weevil/20211011_161207 (Custom) (Custom).jpg,0.8625489473342896
+finetuned,cutting_weevil/20211011_161246 (Custom) (Custom).jpg,0.9169972538948059
+finetuned,cutting_weevil/20211011_161502 (Custom).jpg,0.8926761746406555
+finetuned,cutting_weevil/20211011_161607 (Custom) (Custom).jpg,0.9392235279083252
+finetuned,cutting_weevil/20211011_161627 (Custom).jpg,0.8510999083518982
+finetuned,cutting_weevil/20211011_161908(0) (Custom) (Custom).jpg,0.8447341322898865
+finetuned,cutting_weevil/20211011_162011 (Custom).jpg,0.8695240616798401
+finetuned,cutting_weevil/20211011_162049 (Custom) (Custom).jpg,0.845723569393158
+finetuned,cutting_weevil/20211011_162158 (Custom) (Custom).jpg,0.9296759963035583
+finetuned,cutting_weevil/20211011_162308 (Custom) (Custom).jpg,0.8804455995559692
+finetuned,cutting_weevil/20211011_162410 (Custom).jpg,0.9299967885017395
+finetuned,cutting_weevil/20211011_162424 (Custom) (Custom).jpg,0.8913034796714783
+finetuned,cutting_weevil/20211011_162428(0) (Custom) (Custom).jpg,0.8491343855857849
+finetuned,cutting_weevil/20211011_162434(0) (Custom) (Custom).jpg,0.8685658574104309
+finetuned,cutting_weevil/20211011_162436 (Custom) (Custom).jpg,0.975870668888092
+finetuned,cutting_weevil/20211011_162501(0) (Custom) (Custom).jpg,0.8779712915420532
+finetuned,cutting_weevil/20211011_162518(0) (Custom) (Custom).jpg,0.9191194176673889
+finetuned,cutting_weevil/20211011_162521 (Custom) (Custom).jpg,0.8937159776687622
+finetuned,cutting_weevil/20211011_162521 (Custom).jpg,0.9014998078346252
+finetuned,cutting_weevil/20211011_162526 (Custom).jpg,0.8926761746406555
+finetuned,cutting_weevil/20211011_170108 (Custom) (Custom).jpg,0.8821430206298828
+finetuned,cutting_weevil/IMG_20211011_140224 (Custom).jpg,0.9225725531578064
+finetuned,die_back/20211129_160453 (Custom).jpg,0.8901477456092834
+finetuned,die_back/20211129_160608 (Custom).jpg,0.8986243009567261
+finetuned,die_back/20211129_160617 (Custom).jpg,0.9067211747169495
+finetuned,die_back/20211129_161033 (Custom).jpg,0.9601507782936096
+finetuned,die_back/20211129_161531 (Custom).jpg,0.9002172350883484
+finetuned,die_back/20211129_162054 (Custom).jpg,0.863445520401001
+finetuned,die_back/20211129_162428 (Custom).jpg,0.8972194790840149
+finetuned,die_back/20211129_162514 (Custom).jpg,0.8744877576828003
+finetuned,die_back/20211129_162705 (Custom).jpg,0.8947979807853699
+finetuned,die_back/20211129_162952 (Custom).jpg,0.9447687268257141
+finetuned,die_back/20211129_163744 (Custom).jpg,0.897068977355957
+finetuned,die_back/20211129_164023 (Custom).jpg,0.8855237364768982
+finetuned,die_back/20211129_164048 (Custom).jpg,0.9538736343383789
+finetuned,die_back/20211129_164141 (Custom).jpg,0.8765726685523987
+finetuned,die_back/20211129_164422 (Custom).jpg,0.8824735283851624
+finetuned,die_back/IMG_20211027_182411 (Custom).jpg,0.9571177363395691
+finetuned,die_back/IMG_20211027_183425 (Custom).jpg,0.937151312828064
+finetuned,die_back/IMG_20211027_190339 (Custom).jpg,0.8809946179389954
+finetuned,die_back/IMG_20211027_190349 (Custom).jpg,0.8880283832550049
+finetuned,die_back/IMG_20211027_193419 (Custom).jpg,0.9554474353790283
+finetuned,die_back/IMG_20211027_193633 (Custom).jpg,0.9688870310783386
+finetuned,die_back/IMG_20211027_230015 (Custom).jpg,0.8843338489532471
+finetuned,die_back/IMG_20211028_002804 (Custom).jpg,0.8873914480209351
+finetuned,die_back/IMG_20211028_002845 (Custom).jpg,0.9744571447372437
+finetuned,die_back/IMG_20211028_003033 (Custom).jpg,0.9590293169021606
+finetuned,gall_midge/IMG_20211106_161413 (Custom).jpg,0.9357508420944214
+finetuned,gall_midge/IMG_20211106_161430 (Custom).jpg,0.9016261100769043
+finetuned,gall_midge/IMG_20211106_161627 (Custom).jpg,0.8887004256248474
+finetuned,gall_midge/IMG_20211106_162106 (Custom).jpg,0.9195206761360168
+finetuned,gall_midge/IMG_20211106_162119 (Custom).jpg,0.9288578033447266
+finetuned,gall_midge/IMG_20211106_162407 (Custom).jpg,0.9783205986022949
+finetuned,gall_midge/IMG_20211106_162425 (Custom).jpg,0.9713329672813416
+finetuned,gall_midge/IMG_20211106_162852 (Custom).jpg,0.8937055468559265
+finetuned,gall_midge/IMG_20211106_162855 (Custom).jpg,0.8896709084510803
+finetuned,gall_midge/IMG_20211106_162909 (Custom).jpg,0.9496785402297974
+finetuned,gall_midge/IMG_20211106_163020 (Custom).jpg,0.9278644919395447
+finetuned,gall_midge/IMG_20211106_163314 (Custom).jpg,0.9424915313720703
+finetuned,gall_midge/IMG_20211106_163656 (Custom).jpg,0.8846221566200256
+finetuned,gall_midge/IMG_20211106_163815 (Custom).jpg,0.8929265141487122
+finetuned,gall_midge/IMG_20211106_163828 (Custom).jpg,0.9713329672813416
+finetuned,gall_midge/IMG_20211106_164142 (Custom).jpg,0.8974395394325256
+finetuned,gall_midge/IMG_20211106_164440 (Custom).jpg,0.9535099267959595
+finetuned,gall_midge/IMG_20211106_164443 (Custom).jpg,0.9028261303901672
+finetuned,gall_midge/IMG_20211106_164449 (Custom).jpg,0.9124189615249634
+finetuned,gall_midge/IMG_20211106_165509 (Custom).jpg,0.9135487675666809
+finetuned,gall_midge/IMG_20211106_165608 (Custom).jpg,0.9197033047676086
+finetuned,gall_midge/IMG_20211106_165610 (Custom).jpg,0.8852276802062988
+finetuned,gall_midge/IMG_20211106_170213 (Custom).jpg,0.9398033022880554
+finetuned,gall_midge/IMG_20211106_170247 (Custom).jpg,0.8923776149749756
+finetuned,gall_midge/IMG_20211106_170321 (Custom).jpg,0.8900572657585144
+finetuned,healthy/20211231_123225 (Custom).jpg,0.9101778268814087
+finetuned,healthy/20211231_123243 (Custom).jpg,0.9290547966957092
+finetuned,healthy/20211231_123405 (Custom).jpg,0.9441190361976624
+finetuned,healthy/20211231_124401 (Custom).jpg,0.9141742587089539
+finetuned,healthy/20211231_124546 (Custom).jpg,0.9290547966957092
+finetuned,healthy/20211231_124813 (Custom).jpg,0.9039115905761719
+finetuned,healthy/20211231_124917 (Custom).jpg,0.8748132586479187
+finetuned,healthy/20211231_130002 (Custom).jpg,0.9037772417068481
+finetuned,healthy/20211231_130041 (Custom).jpg,0.9101778268814087
+finetuned,healthy/20211231_154939 (Custom).jpg,0.9221788644790649
+finetuned,healthy/20211231_155835 (Custom).jpg,0.9219650626182556
+finetuned,healthy/20211231_155927 (Custom).jpg,0.9147225022315979
+finetuned,healthy/20211231_160300 (Custom).jpg,0.9147225022315979
+finetuned,healthy/20211231_160448 (Custom).jpg,0.9371173977851868
+finetuned,healthy/20211231_160500 (Custom).jpg,1.0000001192092896
+finetuned,healthy/20211231_160709 (Custom).jpg,0.9101778268814087
+finetuned,healthy/20211231_160924 (Custom).jpg,0.9141742587089539
+finetuned,healthy/20211231_161515 (Custom).jpg,0.8748132586479187
+finetuned,healthy/20211231_161523 (Custom).jpg,0.9679310917854309
+finetuned,healthy/20211231_161529 (Custom).jpg,0.9147225022315979
+finetuned,healthy/20211231_161840 (Custom).jpg,0.9037772417068481
+finetuned,healthy/20211231_162050 (Custom).jpg,0.9037772417068481
+finetuned,healthy/20211231_162239 (Custom).jpg,0.9039115905761719
+finetuned,healthy/20211231_162257 (Custom).jpg,0.9756778478622437
+finetuned,healthy/20211231_162412 (Custom).jpg,0.9039115905761719
+finetuned,powdery_mildew/20211109_121314 (Custom).jpg,0.9281535148620605
+finetuned,powdery_mildew/20211109_121422 (Custom).jpg,0.9488668441772461
+finetuned,powdery_mildew/20211109_121547(0) (Custom).jpg,0.8932397961616516
+finetuned,powdery_mildew/20211109_121750 (Custom).jpg,0.9565112590789795
+finetuned,powdery_mildew/20211109_121910 (Custom).jpg,0.90398770570755
+finetuned,powdery_mildew/20211109_121929 (Custom).jpg,0.8988363146781921
+finetuned,powdery_mildew/20211109_121938 (Custom).jpg,0.9117700457572937
+finetuned,powdery_mildew/20211109_122206 (Custom).jpg,0.9016703963279724
+finetuned,powdery_mildew/IMG_20211107_115520 (Custom).jpg,0.9064021110534668
+finetuned,powdery_mildew/IMG_20211107_120339 (Custom).jpg,0.9095488786697388
+finetuned,powdery_mildew/IMG_20211107_122446 (Custom).jpg,0.952925443649292
+finetuned,powdery_mildew/IMG_20211107_123141 (Custom).jpg,0.9717750549316406
+finetuned,powdery_mildew/IMG_20211107_123502 (Custom).jpg,0.962181031703949
+finetuned,powdery_mildew/IMG_20211107_123623 (Custom).jpg,0.9417113661766052
+finetuned,powdery_mildew/IMG_20211107_123919 (Custom).jpg,0.9020389914512634
+finetuned,powdery_mildew/IMG_20211107_123939 (Custom).jpg,0.905021071434021
+finetuned,powdery_mildew/IMG_20211107_124006 (Custom).jpg,0.8963463306427002
+finetuned,powdery_mildew/IMG_20211107_124031 (Custom).jpg,0.9016703963279724
+finetuned,powdery_mildew/IMG_20211107_124047 (Custom).jpg,0.8978294730186462
+finetuned,powdery_mildew/IMG_20211107_124055 (Custom).jpg,0.9836795330047607
+finetuned,powdery_mildew/IMG_20211107_125107 (Custom).jpg,0.9498253464698792
+finetuned,powdery_mildew/IMG_20211107_125945 (Custom).jpg,0.9499460458755493
+finetuned,powdery_mildew/IMG_20211107_125951 (Custom).jpg,0.9498253464698792
+finetuned,powdery_mildew/IMG_20211107_125957 (Custom).jpg,0.9717750549316406
+finetuned,powdery_mildew/IMG_20211107_130023 (Custom).jpg,0.8979737162590027
+finetuned,sooty_mould/IMG_20211108_120937 (Custom).jpg,0.8715366125106812
+finetuned,sooty_mould/IMG_20211108_121006 (Custom).jpg,0.8845548629760742
+finetuned,sooty_mould/IMG_20211108_121238 (Custom).jpg,0.9023228883743286
+finetuned,sooty_mould/IMG_20211108_121918 (Custom).jpg,0.8845954537391663
+finetuned,sooty_mould/IMG_20211108_121959 (Custom).jpg,0.9329314231872559
+finetuned,sooty_mould/IMG_20211108_122519 (Custom).jpg,0.9842530488967896
+finetuned,sooty_mould/IMG_20211108_123018 (Custom).jpg,0.9508906006813049
+finetuned,sooty_mould/IMG_20211108_123030 (Custom).jpg,0.8884881734848022
+finetuned,sooty_mould/IMG_20211108_123221 (Custom).jpg,0.8983607888221741
+finetuned,sooty_mould/IMG_20211108_123302 (Custom).jpg,0.908125102519989
+finetuned,sooty_mould/IMG_20211108_123437 (Custom).jpg,0.94692063331604
+finetuned,sooty_mould/IMG_20211108_123453 (Custom).jpg,0.9251521825790405
+finetuned,sooty_mould/IMG_20211108_123514 (Custom).jpg,0.8740889430046082
+finetuned,sooty_mould/IMG_20211211_154048 (Custom).jpg,0.8587589859962463
+finetuned,sooty_mould/IMG_20211211_154134 (Custom).jpg,0.87188720703125
+finetuned,sooty_mould/IMG_20211211_154849 (Custom).jpg,0.908125102519989
+finetuned,sooty_mould/IMG_20211211_154906 (Custom).jpg,0.9090934991836548
+finetuned,sooty_mould/IMG_20211211_155345 (Custom).jpg,0.8666061758995056
+finetuned,sooty_mould/IMG_20211211_155518 (Custom).jpg,0.8954451084136963
+finetuned,sooty_mould/IMG_20211212_143223 (Custom).jpg,0.896575391292572
+finetuned,sooty_mould/IMG_20211212_143243 (Custom).jpg,0.8842233419418335
+finetuned,sooty_mould/IMG_20211212_144454 (Custom).jpg,0.8908444046974182
+finetuned,sooty_mould/IMG_20211212_145113 (Custom).jpg,0.9054574966430664
+finetuned,sooty_mould/IMG_20211212_150310 (Custom).jpg,0.8771923184394836
+finetuned,sooty_mould/IMG_20211212_150341 (Custom).jpg,0.9345309138298035

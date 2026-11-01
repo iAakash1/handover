@@ -135,6 +135,18 @@
    "sha256": "bdbce029d0058610750cd6f8ead0ecf72c3a58f43bfcfa562503c4553eded4f5"
   },
   {
+   "path": "projects/09_plantdx_mlx_knowledge_grounded/checkpoints/qwen25vl_tomato_qlora/adapters.safetensors",
+   "source": "2026-07_July/mlx_adapters/qwen25vl_tomato_qlora/adapters.safetensors",
+   "bytes": 161529623,
+   "sha256": "a4872a5cbbf072caecb5221a613994efd935099b42b10733a8b758e920db3ee0"
+  },
+  {
+   "path": "projects/09_plantdx_mlx_knowledge_grounded/checkpoints/qwen25vl_mango_qlora/adapters.safetensors",
+   "source": "2026-07_July/mlx_adapters/qwen25vl_mango_qlora/adapters.safetensors",
+   "bytes": 161529623,
+   "sha256": "f10dea4c14165a9002034c48094fdb0a4a6575aa299347eed39f7c6b6b6b1aa4"
+  },
+  {
    "path": "projects/10_tih_tomato_qwen_qlora/checkpoints/tih_tomato_moreaccurate/adapter_model.safetensors",
    "source": "2026-09_September/plantdx_and_tih_tomato/checkpoints/tih_tomato_moreaccurate/adapter_model.safetensors",
    "bytes": 161514344,

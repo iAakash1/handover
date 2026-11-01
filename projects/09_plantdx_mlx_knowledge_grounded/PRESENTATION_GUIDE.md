@@ -87,7 +87,9 @@ Yes. The split is fixed (seed 20260711), and the 910 tomato and 200 mango test i
 - PlantVillage photos are lab images on plain backgrounds; field photos would score lower.
 - One epoch, with a constant learning rate of 1e-4: the config asks for a cosine schedule, but the training command
   did not apply it (see [`training_plan.md`](reports/qwen25vl_tomato_qlora/training_plan.md) and the log).
-- The trained adapter files are no longer on the Mac (see [Adapters](README.md#adapters)).
+- The July adapter files were lost. Both models were retrained in November 2026 on the same data with the same
+  config; the downloadable weights are the retrained ones: tomato 86.9% (healthy leaves are its weak spot), mango
+  86.0% (see [Adapters](README.md#adapters) and [`retrained_2026-11/`](retrained_2026-11/README.md)).
 
 **How does this connect to the ICAIN 2026 paper?**
 The same `plantdx` code later became [`projects/10_tih_tomato_qwen_qlora`](../10_tih_tomato_qwen_qlora) (private TIH
@@ -95,8 +97,9 @@ tomato data, NVIDIA workstation, 92.76% test accuracy), which is the work in the
 
 ## 7. Live demo
 
-Without the adapter files the app cannot make new predictions until the models are retrained (from the training
-logs: about 12 hours for tomato and 1.6 hours for mango on the Apple M4 Pro). What can be shown live without them:
+On a Mac with Apple Silicon, download the retrained adapters first (`python setup/download_models.py 09_plantdx` from
+the repository root, 2 × 162 MB), then run the demo or `plantdx infer` (commands in [`README.md`](README.md)). What
+can be shown on any computer, without the adapters:
 
 - The code files in section 3.
 - The evaluation figures and reports in `reports/`.
