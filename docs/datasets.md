@@ -1,8 +1,22 @@
 # Datasets used
 
-None of the images are in git (size, licences, and the TIH data is private). On the TIH workstation they are
-already in the folders below, and every script defaults to these paths. On another machine, copy the data
-anywhere and set the environment variable in the first column.
+## Register
+
+| Dataset | Source and access | Classes | Images | Preprocessing and checks | Splits (exact counts) | Used by |
+|---|---|---|---|---|---|---|
+| PlantVillage (tomato, potato, pepper) | public (Hughes & Salathé 2015, github.com/spMohanty/PlantVillage-Dataset); not in git | 15 folders | ~20,600 | resized per model; captions from per-class templates for the VLMs | VLMs 90/10, seed 42 (project 06: 18,574 / 2,064 caption records); shared 200-image evaluation set | 04, 06, 07, evaluation |
+| PlantVillage tomato (Dec–Jan copy) | public; not in git | 10 | 16,011 in the split | 224×224 (32×32 custom CNN), Week-2 quality checks at inference | 70/15/15 per class: 11,203 / 2,397 / 2,411 (`splits/split_70_15_15.csv`); Keras runs: `validation_split` 0.2 (3,198 validation) | 01, 02 |
+| PlantVillage tomato (MLX copy) | public; **in git** (`projects/09_…/tomato/raw/PlantVillage/`) | 10 | 18,160 (18,006 `*.JPG` used) | `plantdx audit` (class distribution, duplicates, corrupt images; `projects/09_…/reports/`), `plantdx normalize` (checksum `b9556420…`), 448×448 | image-grouped stratified, seed 20260711: 16,201 / 895 / 910 | 09 |
+| MangoLeafBD | public, CC BY 4.0 (Ahmed et al. 2023, data.mendeley.com/datasets/hxsnvwty3r/1); **in git** (`projects/09_…/mango/raw/MangoLeafBD/`) | 8 | 4,000 (500 per class) | as above (checksum `6fa29822…`) | seed 20260711: 3,600 / 200 / 200 | 09 |
+| SoyNet camera photos | provided for the task; not in git | 2 (diseased, healthy) | 3,720 (3,164 + 556) | resized to 256×256 | stratified 70/15/15, seed 42: 2,603 / 557 / 560 (`projects/03_…/splits/`) | 03 |
+| TIH `Tomato_12thAug26` | **private**, TIH-IoT; only on the TIH workstation, access through the TIH-IoT mentors; not in git | 11 | 7,095 → 6,545 | integrity checks, SHA-256 de-duplication, removal of images present under two classes; 532 px longest side | stratified 80/10/10, seed 20260911: 5,247 / 649 / 649 (`projects/10_…/checkpoints/tih_tomato_moreaccurate/dataset_manifest.json`); external set `Dataset/testing`: 176 images, 10 classes | 10 |
+| Expert-captioned tomato leaves | 30 PlantVillage images with 150 expert-revised captions; images not in git, captions in `projects/08_…/1stJuly/Revised_captions.xlsx` | 6 | 30 | – | grouped, 3 / 1 / 1 images per class (fold 0) | 08, 7-VLM benchmark |
+
+## Locations and environment variables
+
+PlantVillage, SoyNet and the TIH data are not in git (size, licences, and the TIH data is private). On the TIH
+workstation they are already in the folders below, and every script defaults to these paths. On another machine,
+copy the data anywhere and set the environment variable in the first column.
 
 | Variable | Default on the TIH workstation | What it is | Used by |
 |---|---|---|---|

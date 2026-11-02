@@ -1,5 +1,13 @@
 # Papers, reports and conferences
 
+## Status register
+
+| Manuscript | Authors (as in the PDF) | Venue | Status | Dates | Files |
+|---|---|---|---|---|---|
+| *Efficient QLoRA Fine-Tuning of Qwen2.5-VL for Multi-Class Tomato Disease Classification and Cross-Domain Evaluation* (ID 953) | A. T. Jawle, S. Gudadhe, K. R. Kharul (corresponding), H. Lokawad, R. Chavan | ICAIN 2026, Proceedings in Springer LNNS | **Accepted** | submitted version dated 20 Sep 2026; decision 1 Oct 2026; registration and fees 21 Oct 2026 | [camera-ready](publication/ICAIN2026_paper953_camera_ready.pdf), [submitted version](publication/drafts/ICAIN2026_paper953_draft_2026-09-20.pdf) |
+| *PlantDx: Knowledge-Grounded Instruction Tuning for Vision-Language Crop Disease Diagnosis* | A. T. Jawle, K. R. Kharul, S. Gudadhe | – | Draft; no submission recorded | draft of 21 Aug 2026 | [PDF](publication/drafts/PlantDx_Knowledge_Grounded_Instruction_Tuning_draft_2026-08-21.pdf) |
+| *A Vision-Language Framework for Structured Plant Disease Diagnosis with Out-of-Distribution Detection* | A. T. Jawle, K. R. Kharul, S. Gudadhe | – | Draft; no submission recorded | draft of 31 Aug 2026 (v1, v2) | [v2 (readable)](publication/drafts/VLM_Structured_Diagnosis_OOD_draft_2026-08-31_v2.md), `drafts/*.docx` |
+
 ## Accepted paper
 
 | | |
