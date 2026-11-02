@@ -192,63 +192,63 @@
    "optional": true
   },
   {
-   "path": "projects/01_cnn_keras_tomato/versions/v0.2-v0.3_cottoncrop_2026-01-06/model/best_model.keras",
+   "path": "archive/previous_versions/01_cnn_keras_tomato/v0.2-v0.3_cottoncrop_2026-01-06/model/best_model.keras",
    "source": "2025-12_December/keras_pipeline_kamaaksha/model/best_model_efficientNetB3.keras",
    "bytes": 49290579,
    "sha256": "fa307fb286f601599a9d21a5134087ebb35c45132f508edf979e2945e5164b97",
    "optional": true
   },
   {
-   "path": "projects/01_cnn_keras_tomato/versions/v0.2-v0.3_cottoncrop_2026-01-06/model/best_model_convnext.keras",
+   "path": "archive/previous_versions/01_cnn_keras_tomato/v0.2-v0.3_cottoncrop_2026-01-06/model/best_model_convnext.keras",
    "source": "2025-12_December/keras_pipeline_kamaaksha/model/best_model_convnext.keras",
    "bytes": 247644936,
    "sha256": "06c33e375e490099315aad875b8ff307ace835be0beb9940cb0ee1322811a105",
    "optional": true
   },
   {
-   "path": "projects/01_cnn_keras_tomato/versions/v0.2-v0.3_cottoncrop_2026-01-06/model/best_model_mobilenet.keras",
+   "path": "archive/previous_versions/01_cnn_keras_tomato/v0.2-v0.3_cottoncrop_2026-01-06/model/best_model_mobilenet.keras",
    "source": "2025-12_December/keras_pipeline_kamaaksha/model/best_model_mobilenet.keras",
    "bytes": 11651553,
    "sha256": "5e588a6cec784779adfe6fc22d698a40eb1a82bac4e97f801ac7cb59a37b739d",
    "optional": true
   },
   {
-   "path": "projects/01_cnn_keras_tomato/versions/v0.5_integrated_pipeline_2026-01-27/model/best_model_cnn.keras",
+   "path": "archive/previous_versions/01_cnn_keras_tomato/v0.5_integrated_pipeline_2026-01-27/model/best_model_cnn.keras",
    "source": "2025-12_December/keras_pipeline_kamaaksha/model/best_model_cnn.keras",
    "bytes": 2003924,
    "sha256": "00259a723ce99f223c584f6d5b59c7ed8cfd017527587e6958b8633b8fda0232",
    "optional": true
   },
   {
-   "path": "projects/01_cnn_keras_tomato/versions/v0.5_integrated_pipeline_2026-01-27/model/best_model_convnext.keras",
+   "path": "archive/previous_versions/01_cnn_keras_tomato/v0.5_integrated_pipeline_2026-01-27/model/best_model_convnext.keras",
    "source": "2025-12_December/keras_pipeline_kamaaksha/model/best_model_convnext.keras",
    "bytes": 247644936,
    "sha256": "06c33e375e490099315aad875b8ff307ace835be0beb9940cb0ee1322811a105",
    "optional": true
   },
   {
-   "path": "projects/01_cnn_keras_tomato/versions/v0.5_integrated_pipeline_2026-01-27/model/best_model_efficientNetB3.keras",
+   "path": "archive/previous_versions/01_cnn_keras_tomato/v0.5_integrated_pipeline_2026-01-27/model/best_model_efficientNetB3.keras",
    "source": "2025-12_December/keras_pipeline_kamaaksha/model/best_model_efficientNetB3.keras",
    "bytes": 49290579,
    "sha256": "fa307fb286f601599a9d21a5134087ebb35c45132f508edf979e2945e5164b97",
    "optional": true
   },
   {
-   "path": "projects/01_cnn_keras_tomato/versions/v0.5_integrated_pipeline_2026-01-27/model/best_model_mobilenet.keras",
+   "path": "archive/previous_versions/01_cnn_keras_tomato/v0.5_integrated_pipeline_2026-01-27/model/best_model_mobilenet.keras",
    "source": "2025-12_December/keras_pipeline_kamaaksha/model/best_model_mobilenet.keras",
    "bytes": 11651553,
    "sha256": "5e588a6cec784779adfe6fc22d698a40eb1a82bac4e97f801ac7cb59a37b739d",
    "optional": true
   },
   {
-   "path": "projects/01_cnn_keras_tomato/versions/v0.5_integrated_pipeline_2026-01-27/model/final_model.keras",
+   "path": "archive/previous_versions/01_cnn_keras_tomato/v0.5_integrated_pipeline_2026-01-27/model/final_model.keras",
    "source": "2025-12_December/keras_pipeline_kamaaksha/model/final_model.keras",
    "bytes": 2003924,
    "sha256": "fd0c07bedf07ddb4e6685e29d5367e738fc419313c8a81638540f83f6de03fcc",
    "optional": true
   },
   {
-   "path": "projects/01_cnn_keras_tomato/versions/v0.5_integrated_pipeline_2026-01-27/reference/reference_crop_embeddings.npy",
+   "path": "archive/previous_versions/01_cnn_keras_tomato/v0.5_integrated_pipeline_2026-01-27/reference/reference_crop_embeddings.npy",
    "source": "2025-12_December/keras_pipeline_kamaaksha/reference/reference_crop_embeddings.npy",
    "bytes": 384128,
    "sha256": "79b5a00f1dcc871d03406374526f7df36c1a6aa139927102c83d1603e07a1a6d",
@@ -577,7 +577,7 @@
    "optional": true
   },
   {
-   "path": "projects/01_cnn_keras_tomato/versions/v0.2_cottoncrop_2026-01-04/model/best_model.keras",
+   "path": "archive/previous_versions/01_cnn_keras_tomato/v0.2_cottoncrop_2026-01-04/model/best_model.keras",
    "source": "2025-12_December/keras_pipeline_kamaaksha/model/best_model_efficientNetB3.keras",
    "bytes": 49290579,
    "sha256": "fa307fb286f601599a9d21a5134087ebb35c45132f508edf979e2945e5164b97",

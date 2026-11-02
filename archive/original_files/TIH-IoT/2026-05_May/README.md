@@ -18,8 +18,8 @@
 
 | File | Copied from |
 |---|---|
-| [`outputs__evaluations__report.json`](evaluation_reports/outputs__evaluations__report.json) | `2026-05_May/PlantDx/outputs/evaluations/report.json` |
+| [`outputs__evaluations__report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-05_May/evaluation_reports/outputs__evaluations__report.json) | `2026-05_May/PlantDx/outputs/evaluations/report.json` |
 
 ## Code and models
 
-- [PlantDx code and adapter](../2026-05_May/PlantDx)
+- [PlantDx code and adapter](https://github.com/iAakash1/TIH-IoT/tree/main/2026-05_May/PlantDx)

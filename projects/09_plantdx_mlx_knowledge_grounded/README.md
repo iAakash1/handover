@@ -11,14 +11,14 @@ Paper draft: [`PlantDx: Knowledge-Grounded Instruction Tuning for Vision-Languag
 > **Runs on a Mac only.** Trained with Apple's MLX framework on an Apple M4 Pro (24 GB unified memory). This folder
 > is everything done on that Mac: the full project (code, tests, knowledge base, configs, caption corpus, training
 > datasets, evaluation reports, training logs, Streamlit demo), the tomato and mango images it was trained on, and
-> the earlier caption and zero-shot experiments (`earlier_experiments/`). The two July adapter files were no longer
+> the earlier caption and zero-shot experiments (`../../failed_experiments/11_mac_earlier_experiments/`). The two July adapter files were no longer
 > on the Mac; both models were retrained on 31 Oct – 1 Nov 2026 and the new weights download with
 > `setup/download_models.py` (see [Adapters](#adapters)).
 
 ## In one paragraph
 
 Off-the-shelf vision-language models could not name tomato diseases: the base model here scored 7.3%, and in the
-zero-shot benchmarks of `earlier_experiments/` the best model reached 23%. Instead of letting a model write the training captions, which
+zero-shot benchmarks of `../../failed_experiments/11_mac_earlier_experiments/` the best model reached 23%. Instead of letting a model write the training captions, which
 would copy its mistakes, we compiled them from a **cited Disease Knowledge Base**: DKB → typed ontology → controlled
 vocabulary → per-disease concept models → templates → 1,966 validated captions. Every step is deterministic and
 content-hashed. Qwen2.5-VL-7B-Instruct (4-bit) was then fine-tuned with LoRA on image + caption pairs using
@@ -31,7 +31,7 @@ content-hashed. Qwen2.5-VL-7B-Instruct (4-bit) was then fine-tuned with LoRA on 
 |---|---|---|---|
 | [`qwen25vl_tomato_qlora`](models/qwen25vl_tomato_qlora/README.md) | Qwen2.5-VL-7B 4-bit + QLoRA, PlantVillage tomato, 10 classes | 93.7% (910 images); retrained weights 90.9% | retrained, `setup/download_models.py` |
 | [`qwen25vl_mango_qlora`](models/qwen25vl_mango_qlora/README.md) | same, MangoLeafBD, 8 classes | 82.0% (200 images); retrained weights 86.0% | retrained, `setup/download_models.py` |
-| [`zero_shot_benchmarks`](models/zero_shot_benchmarks/README.md) | 7 off-the-shelf VLMs on MLX, no training | best 23% | Hugging Face |
+| [`zero_shot_benchmarks`](../../failed_experiments/11_mac_earlier_experiments/ZERO_SHOT_BENCHMARKS.md) | 7 off-the-shelf VLMs on MLX, no training | best 23% | Hugging Face |
 
 Each card has the model's files, environment and exact commands for data preparation, training, validation,
 inference and evaluation. [`models/README.md`](models/README.md) explains where each model's files sit.
@@ -94,16 +94,16 @@ All figures (accuracy, BERTScore, CIDEr, hallucination, latency, response length
 
 | Date | What | Where |
 |---|---|---|
-| 12 Jun 2026 | PlantCaption: knowledge-base + VLM caption pipeline | `earlier_experiments/01_plantcaption_pipeline_2026-06-12/` |
-| 23 Jun 2026 | Caption sets for the benchmark leaves (four versions) | `earlier_experiments/02_caption_sets_2026-06-23/` |
-| 24–25 Jun 2026 | Zero-shot benchmark, 4 VLMs on MLX, 16 images | `earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25/` |
-| 1 Jul 2026 | Zero-shot benchmark, 7 VLMs on MLX, 30 images | `earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01/` |
+| 12 Jun 2026 | PlantCaption: knowledge-base + VLM caption pipeline | `../../failed_experiments/11_mac_earlier_experiments/01_plantcaption_pipeline_2026-06-12/` |
+| 23 Jun 2026 | Caption sets for the benchmark leaves (four versions) | `../../failed_experiments/11_mac_earlier_experiments/02_caption_sets_2026-06-23/` |
+| 24–25 Jun 2026 | Zero-shot benchmark, 4 VLMs on MLX, 16 images | `../../failed_experiments/11_mac_earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25/` |
+| 1 Jul 2026 | Zero-shot benchmark, 7 VLMs on MLX, 30 images | `../../failed_experiments/11_mac_earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01/` |
 | 11–13 Jul 2026 | Knowledge base → ontology → vocabulary → concepts → templates → 1,966 captions; dataset audit (12 Jul) and normalisation (13 Jul) | `knowledge_base/`, `src/plantdx/`, `artifacts/`, `datasets/`, `reports/` |
 | 13–14 Jul 2026 | QLoRA training on MLX: tomato (finished 14 Jul 07:18), then mango (14 Jul afternoon) | `configs/train/`, `logs/`, `checkpoints/` |
 | 14 Jul 2026 | Evaluation, base vs fine-tuned, both crops | `reports/qwen25vl_<crop>_qlora/evaluation/` |
 | 16–17 Jul 2026 | Streamlit demo, tried on uploaded photos | `app/`, `streamlit_app.py`, `uploads/`, `predictions/` |
 
-`earlier_experiments/README.md` has the results and run commands of the four earlier experiments.
+`../../failed_experiments/11_mac_earlier_experiments/README.md` has the results and run commands of the four earlier experiments.
 
 ## Files in this folder
 
@@ -130,7 +130,7 @@ All figures (accuracy, BERTScore, CIDEr, hallucination, latency, response length
 | `retrained_2026-11/` | The retraining of both models (31 Oct – 1 Nov 2026): training logs and plans, the choice of the tomato snapshot on the validation split, full evaluations, comparison with July |
 | `predictions/`, `uploads/` | Predictions made with the demo app on 16 Jul 2026 and the photos uploaded to it |
 | `results/` | Summary tables and graphs used in the fellowship report |
-| `earlier_experiments/` | PlantCaption pipeline, June caption sets, the 4-model and 7-model MLX zero-shot benchmarks |
+| `../../failed_experiments/11_mac_earlier_experiments/` | PlantCaption pipeline, June caption sets, the 4-model and 7-model MLX zero-shot benchmarks |
 | `README_original.md` | The README of the original repository (github.com/iAakash1/experimentation) |
 | `dot_gitignore.txt` | The original repository's `.gitignore` (renamed so it does not hide the results here) |
 
@@ -146,8 +146,8 @@ teammate's GitHub repository which no longer exists. Its one commit is kept in
 | [`PlantDx_Engineering_and_Research_History.pdf`](../../docs/reports/PlantDx_Engineering_and_Research_History.pdf), [`final_plantdx_story.pdf`](../../docs/reports/final_plantdx_story.pdf) | Engineering history of the knowledge-grounded pipeline (July 2026) |
 | [`06-PoCRA-PCCOE-Tomato-Mango-Results-Report-21-06-26-Version-01.docx`](../../docs/reports/06-PoCRA-PCCOE-Tomato-Mango-Results-Report-21-06-26-Version-01.docx) | PoCRA results report: knowledge-grounded fine-tuning, tomato and mango |
 | [`VLM_Teaching_Session.md`](../../docs/reports/VLM_Teaching_Session.md) (+ `.pptx`, run of show) | Teaching session on VLMs for students, built around this work (August 2026) |
-| [`earlier_experiments/04_…/report/PlantDx_VLM_Evaluation_Report.md`](earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01/report/PlantDx_VLM_Evaluation_Report.md) | Zero-shot benchmark report with all its charts |
-| [`earlier_experiments/03_…/report/final_report.md`](earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25/report/final_report.md) | Four-model zero-shot benchmark report |
+| [`earlier_experiments/04_…/report/PlantDx_VLM_Evaluation_Report.md`](../../failed_experiments/11_mac_earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01/report/PlantDx_VLM_Evaluation_Report.md) | Zero-shot benchmark report with all its charts |
+| [`earlier_experiments/03_…/report/final_report.md`](../../failed_experiments/11_mac_earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25/report/final_report.md) | Four-model zero-shot benchmark report |
 | [`docs/`](docs/) | Developer documentation: architecture, ontology, vocabulary, concepts, corpus, training, evaluation, demo app, known issues, design decisions (`docs/adr/`) |
 
 ## How to start (Mac with Apple Silicon)

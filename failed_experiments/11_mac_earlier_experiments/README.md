@@ -1,6 +1,6 @@
 # Earlier experiments on the Mac (12 June – 1 July 2026)
 
-Everything tried on the Mac before the knowledge-grounded pipeline in the parent folder, in the order it was done.
+Everything tried on the Mac before the knowledge-grounded pipeline of `projects/09_plantdx_mlx_knowledge_grounded`, in the order it was done.
 Together they explain why the July pipeline looks the way it does: off-the-shelf VLMs could not name the disease
 (03, 04), so the captions had to be anchored to the known label and a knowledge base (01, 02), which became the
 cited Disease Knowledge Base of July.
@@ -18,11 +18,11 @@ No one-shot or few-shot (in-context example) experiment was run on the Mac.
 
 ## How to run
 
-All four need macOS on Apple Silicon for the MLX parts; use a Python 3.12 env (`conda create -n vlm python=3.12`).
+All four need macOS on Apple Silicon for the MLX parts; use a Python 3.12 env (`conda create -n vlm python=3.12`). The commands start from the repository root.
 
 ```bash
 # 01 PlantCaption (transformers backend; "mock" needs no model)
-cd earlier_experiments/01_plantcaption_pipeline_2026-06-12/captioning
+cd failed_experiments/11_mac_earlier_experiments/01_plantcaption_pipeline_2026-06-12/captioning
 pip install -r requirements.txt
 python make_sample_images.py              # synthetic test images into ../images
 python run_pipeline.py --backend mock     # plumbing check, seconds
@@ -30,12 +30,12 @@ python run_pipeline.py --backend qwen     # real run with Qwen2.5-VL-7B
 streamlit run review_app.py               # review, edit, export
 
 # 03 four-model benchmark: benchmark -> ground truth -> (LLM judge) -> evaluate -> plots -> report
-cd earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25
+cd failed_experiments/11_mac_earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25
 pip install -r requirements.txt
 bash run_all.sh
 
 # 04 seven-model benchmark (collects predictions; scoring is in report/)
-cd earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01
+cd failed_experiments/11_mac_earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01
 pip install -r requirements.txt
 python scripts/run_benchmark.py
 python scripts/run_benchmark.py --models mlx-community/Qwen2.5-VL-7B-Instruct-4bit   # one model

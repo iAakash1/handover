@@ -5,8 +5,8 @@ Needs only Python 3.9+ (PyYAML is used if installed). Nothing is trained or down
     python setup/verify_repository.py                    # repository-wide checks
     python setup/verify_repository.py --with-projects    # also run projects/09's own verify_project.py
 
-Each check prints PASS, FAIL or NOT RUN; the exit code is 1 only if something FAILs. `archive/` holds unedited
-originals whose links point into the old TIH-IoT layout on purpose, so its links are not checked.
+Each check prints PASS, FAIL or NOT RUN; the exit code is 1 only if something FAILs. Every Markdown file is
+checked, including the copies in `archive/`.
 """
 import argparse
 import json
@@ -18,7 +18,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 LINK_RE = re.compile(r"!?\[[^\]]*\]\(\s*<?([^)\s>]+)>?(?:\s+\"[^\"]*\")?\s*\)")
-SKIP_LINKS = ("archive/",)                       # frozen originals, see the docstring
 SKIP_DATA = ("projects/09_plantdx_mlx_knowledge_grounded/tomato/", "projects/09_plantdx_mlx_knowledge_grounded/mango/")
 # Original records kept byte-for-byte although they are not valid JSON; each is explained in the README named here.
 KNOWN_INVALID_JSON = {
@@ -40,7 +39,7 @@ def tracked(*patterns):
         files = [ROOT / f for f in out.split("\0") if f]
     except (OSError, subprocess.CalledProcessError):
         files = [p for pat in patterns for p in ROOT.rglob(pat.lstrip("*/"))]
-    return [f for f in files if not f.relative_to(ROOT).as_posix().startswith(SKIP_DATA)]
+    return [f for f in files if f.exists() and not f.relative_to(ROOT).as_posix().startswith(SKIP_DATA)]
 
 
 def markdown_links(md_file):
@@ -90,9 +89,9 @@ def main():
     print(f"Verifying {ROOT}")
 
     print("Documentation links")
-    md = [f for f in tracked("*.md") if not f.relative_to(ROOT).as_posix().startswith(SKIP_LINKS)]
+    md = tracked("*.md")
     broken = broken_links(md)
-    report("FAIL" if broken else "PASS", f"relative links in {len(md)} Markdown files (archive/ excluded)",
+    report("FAIL" if broken else "PASS", f"relative links in {len(md)} Markdown files",
            "; ".join(broken[:15]) + (f" (+{len(broken) - 15} more)" if len(broken) > 15 else ""))
 
     print("Data files parse")

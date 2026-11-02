@@ -40,29 +40,29 @@ The repository is organised by month. Each folder below holds that month's work,
 
 | Crop | Model | Eval set | Accuracy | Macro-F1 | Report |
 |---|---|---|---:|---:|---|
-| Tomato | Custom CNN 32x32 (TF/Keras) | tomato test, 2,411 (overlaps its training images) | 98.51% | 0.9830 | [report](evaluation_reports_oct2026/keras/custom_cnn_best_tomato_test) |
-| Tomato | MobileNetV2 (Keras) | held-out val, 3,198 | 90.90% | 0.8939 | [report](evaluation_reports_oct2026/keras/mobilenetv2_keras) |
-| Tomato | EfficientNetB3 (Keras) | held-out val, 3,198 | 93.59% | 0.9275 | [report](evaluation_reports_oct2026/keras/efficientnetb3_keras) |
-| Tomato | ConvNeXt-Tiny (Keras) | held-out val, 3,198 | 96.15% | 0.9507 | [report](evaluation_reports_oct2026/keras/convnext_tiny_keras) |
-| Tomato | ConvNeXt-Tiny (PyTorch) | test, 2,411 | 99.92% | 0.9991 | [report](evaluation_reports_oct2026/convnext_torch) |
-| Tomato | LLaVA-1.6-Mistral-7B LoRA | PlantVillage val, 200 | 2.00% | 0.0151 | [report](evaluation_reports_oct2026/llava_v16) |
-| Tomato | BLIP-2 OPT-2.7B LoRA (Mar) | PlantVillage val, 200 | 89.00% | 0.8928 | [report](evaluation_reports_oct2026/blip2_march) |
-| Tomato | Florence-2-base-ft zero-shot | PlantVillage val, 200 | 0.00% | 0.0000 | [report](evaluation_reports_oct2026/florence_zeroshot) |
-| Tomato | Qwen2.5-VL-7B zero-shot | PlantVillage val, 200 | 8.50% | 0.0800 | [report](evaluation_reports_oct2026/qwen_zeroshot) |
-| Tomato | BLIP-2 OPT-2.7B LoRA, 1-epoch re-run (Jun) | PlantVillage val, 200 | 89.00% | 0.8948 | [report](evaluation_reports_oct2026/blip2_june) |
-| Tomato | Qwen2.5-VL-7B LoRA r32 (Apr) | PlantVillage val, 200 | 98.50% | 0.9827 | [report](2026-04_April/qwen/evaluation_report.json) |
-| Tomato | Qwen2.5-VL-7B LoRA, PlantDx 15-class (May) | PlantVillage val, 200 | 98.00% | 0.9777 | [report](2026-05_May/PlantDx/outputs/evaluations/report.json) |
+| Tomato | Custom CNN 32x32 (TF/Keras) | tomato test, 2,411 (overlaps its training images) | 98.51% | 0.9830 | [report](https://github.com/iAakash1/TIH-IoT/tree/main/evaluation_reports_oct2026/keras/custom_cnn_best_tomato_test) |
+| Tomato | MobileNetV2 (Keras) | held-out val, 3,198 | 90.90% | 0.8939 | [report](https://github.com/iAakash1/TIH-IoT/tree/main/evaluation_reports_oct2026/keras/mobilenetv2_keras) |
+| Tomato | EfficientNetB3 (Keras) | held-out val, 3,198 | 93.59% | 0.9275 | [report](https://github.com/iAakash1/TIH-IoT/tree/main/evaluation_reports_oct2026/keras/efficientnetb3_keras) |
+| Tomato | ConvNeXt-Tiny (Keras) | held-out val, 3,198 | 96.15% | 0.9507 | [report](https://github.com/iAakash1/TIH-IoT/tree/main/evaluation_reports_oct2026/keras/convnext_tiny_keras) |
+| Tomato | ConvNeXt-Tiny (PyTorch) | test, 2,411 | 99.92% | 0.9991 | [report](https://github.com/iAakash1/TIH-IoT/tree/main/evaluation_reports_oct2026/convnext_torch) |
+| Tomato | LLaVA-1.6-Mistral-7B LoRA | PlantVillage val, 200 | 2.00% | 0.0151 | [report](https://github.com/iAakash1/TIH-IoT/tree/main/evaluation_reports_oct2026/llava_v16) |
+| Tomato | BLIP-2 OPT-2.7B LoRA (Mar) | PlantVillage val, 200 | 89.00% | 0.8928 | [report](https://github.com/iAakash1/TIH-IoT/tree/main/evaluation_reports_oct2026/blip2_march) |
+| Tomato | Florence-2-base-ft zero-shot | PlantVillage val, 200 | 0.00% | 0.0000 | [report](https://github.com/iAakash1/TIH-IoT/tree/main/evaluation_reports_oct2026/florence_zeroshot) |
+| Tomato | Qwen2.5-VL-7B zero-shot | PlantVillage val, 200 | 8.50% | 0.0800 | [report](https://github.com/iAakash1/TIH-IoT/tree/main/evaluation_reports_oct2026/qwen_zeroshot) |
+| Tomato | BLIP-2 OPT-2.7B LoRA, 1-epoch re-run (Jun) | PlantVillage val, 200 | 89.00% | 0.8948 | [report](https://github.com/iAakash1/TIH-IoT/tree/main/evaluation_reports_oct2026/blip2_june) |
+| Tomato | Qwen2.5-VL-7B LoRA r32 (Apr) | PlantVillage val, 200 | 98.50% | 0.9827 | [report](https://github.com/iAakash1/TIH-IoT/blob/main/2026-04_April/qwen/evaluation_report.json) |
+| Tomato | Qwen2.5-VL-7B LoRA, PlantDx 15-class (May) | PlantVillage val, 200 | 98.00% | 0.9777 | [report](https://github.com/iAakash1/TIH-IoT/blob/main/2026-05_May/PlantDx/outputs/evaluations/report.json) |
 | Tomato | Qwen2.5-VL-7B-4bit QLoRA, knowledge-grounded (MLX) | test, 910 | 93.70% | 0.919 | [results](https://github.com/iAakash1/experimentation/tree/refactor/professional-research-layout/research/mlx_pipeline) |
-| Tomato | PlantVLM, 150 expert captions (Aug) | val, 6 images | 33.3% retrieval | 0.278 | [report](2026-08_August/newpipe/runs/run_002_fold0/evaluation/val_report.json) |
-| Tomato (TIH) | Qwen2.5-VL-7B QLoRA 'strong' | test, 649 | 87.98% | 0.8991 | [report](2026-09_September/plantdx_and_tih_tomato/reports/tih_tomato_qwen_qlora_strong/test_finetuned/metrics.json) |
-| Tomato (TIH) | Qwen2.5-VL-7B QLoRA 'moreaccurate' | test, 649 | 92.76% | 0.9378 | [report](2026-09_September/plantdx_and_tih_tomato/reports/tih_tomato_moreaccurate/test_finetuned/metrics.json) |
-| Tomato (TIH) | 'moreaccurate', external | Dataset/testing, 176 | 69.32% | 0.7195 | [report](2026-09_September/plantdx_and_tih_tomato/reports/tih_tomato_moreaccurate_external/metrics.json) |
+| Tomato | PlantVLM, 150 expert captions (Aug) | val, 6 images | 33.3% retrieval | 0.278 | [report](https://github.com/iAakash1/TIH-IoT/blob/main/2026-08_August/newpipe/runs/run_002_fold0/evaluation/val_report.json) |
+| Tomato (TIH) | Qwen2.5-VL-7B QLoRA 'strong' | test, 649 | 87.98% | 0.8991 | [report](https://github.com/iAakash1/TIH-IoT/blob/main/2026-09_September/plantdx_and_tih_tomato/reports/tih_tomato_qwen_qlora_strong/test_finetuned/metrics.json) |
+| Tomato (TIH) | Qwen2.5-VL-7B QLoRA 'moreaccurate' | test, 649 | 92.76% | 0.9378 | [report](https://github.com/iAakash1/TIH-IoT/blob/main/2026-09_September/plantdx_and_tih_tomato/reports/tih_tomato_moreaccurate/test_finetuned/metrics.json) |
+| Tomato (TIH) | 'moreaccurate', external | Dataset/testing, 176 | 69.32% | 0.7195 | [report](https://github.com/iAakash1/TIH-IoT/blob/main/2026-09_September/plantdx_and_tih_tomato/reports/tih_tomato_moreaccurate_external/metrics.json) |
 | Mango | Qwen2.5-VL-7B-4bit QLoRA (MLX) | test, 200 | 82.00% | 0.811 | [results](https://github.com/iAakash1/experimentation/tree/refactor/professional-research-layout/research/mlx_pipeline) |
-| Soybean | ResNet50 (PyTorch) | test, 560 | 91.61% | 0.7814 (Healthy-class F1) | [metrics](2026-01_January/soybean_soynet/results/experiments/resnet50) |
-| Soybean | EfficientNetB3 (PyTorch) | test, 560 | 93.93% | 0.8317 (Healthy-class F1) | [metrics](2026-01_January/soybean_soynet/results/experiments/efficientnet_b3) |
-| Soybean | EfficientNetB0 (PyTorch) | test, 560 | 93.39% | 0.8195 (Healthy-class F1) | [metrics](2026-01_January/soybean_soynet/results/experiments/efficientnet_b0) |
-| Soybean | MobileNetV2 (PyTorch) | test, 560 | 92.50% | 0.8000 (Healthy-class F1) | [metrics](2026-01_January/soybean_soynet/results/experiments/mobilenetv2) |
-| Soybean | ResNet50 (Keras) | test, 558 | 95.16% | 0.8556 (Healthy-class F1) | [report](2026-01_January/soybean_soynet/results/experiments/final_report.md) |
+| Soybean | ResNet50 (PyTorch) | test, 560 | 91.61% | 0.7814 (Healthy-class F1) | [metrics](https://github.com/iAakash1/TIH-IoT/tree/main/2026-01_January/soybean_soynet/results/experiments/resnet50) |
+| Soybean | EfficientNetB3 (PyTorch) | test, 560 | 93.93% | 0.8317 (Healthy-class F1) | [metrics](https://github.com/iAakash1/TIH-IoT/tree/main/2026-01_January/soybean_soynet/results/experiments/efficientnet_b3) |
+| Soybean | EfficientNetB0 (PyTorch) | test, 560 | 93.39% | 0.8195 (Healthy-class F1) | [metrics](https://github.com/iAakash1/TIH-IoT/tree/main/2026-01_January/soybean_soynet/results/experiments/efficientnet_b0) |
+| Soybean | MobileNetV2 (PyTorch) | test, 560 | 92.50% | 0.8000 (Healthy-class F1) | [metrics](https://github.com/iAakash1/TIH-IoT/tree/main/2026-01_January/soybean_soynet/results/experiments/mobilenetv2) |
+| Soybean | ResNet50 (Keras) | test, 558 | 95.16% | 0.8556 (Healthy-class F1) | [report](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/soybean_soynet/results/experiments/final_report.md) |
 
 ## Publication
 

@@ -22,9 +22,9 @@
 
 | File | Copied from |
 |---|---|
-| [`blip2_march__evaluation_report.json`](evaluation_reports/blip2_march__evaluation_report.json) | `evaluation_reports_oct2026/blip2_march/evaluation_report.json` |
-| [`llava_v16__evaluation_report.json`](evaluation_reports/llava_v16__evaluation_report.json) | `evaluation_reports_oct2026/llava_v16/evaluation_report.json` |
+| [`blip2_march__evaluation_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-03_March/evaluation_reports/blip2_march__evaluation_report.json) | `evaluation_reports_oct2026/blip2_march/evaluation_report.json` |
+| [`llava_v16__evaluation_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-03_March/evaluation_reports/llava_v16__evaluation_report.json) | `evaluation_reports_oct2026/llava_v16/evaluation_report.json` |
 
 ## Code and models
 
-- [LLaVA and BLIP-2 adapters](../2026-03_March/outputs)
+- [LLaVA and BLIP-2 adapters](https://github.com/iAakash1/TIH-IoT/tree/main/2026-03_March/outputs)

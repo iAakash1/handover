@@ -22,7 +22,7 @@ files, the two adapter weights, are downloaded from a separate repository (see b
 | Dataset audit reports | `reports/*.csv`, `reports/*.json`, `reports/dataset_card.md` | (in the 20 MB) | `plantdx audit`, 12 Jul 2026 |
 | Demo app history | `predictions/`, `uploads/`, `logs/plantdx_app.log` | 1 MB | the demo, 16 Jul 2026 |
 | Test coverage report | `coverage.xml` | 300 KB | the Mac test run, 14 Jul 2026 (contains Mac paths; a record only) |
-| Earlier experiments: code, images, raw answers, reports | `earlier_experiments/` | 7.1 MB | June – July 2026 |
+| Earlier Mac experiments (PlantCaption, caption sets, zero-shot benchmarks): code, images, raw answers, reports | `failed_experiments/11_mac_earlier_experiments/` at the repository root | 7.1 MB | June – July 2026 |
 | Retraining record: training logs and plans, tomato snapshot selection, evaluations | `retrained_2026-11/` | 16.9 MB | the November 2026 retraining of both adapters |
 
 ## Downloaded on first use (not in git)
@@ -30,7 +30,7 @@ files, the two adapter weights, are downloaded from a separate repository (see b
 | Artifact | Where it comes from | Size | Used by |
 |---|---|---:|---|
 | Base model `mlx-community/Qwen2.5-VL-7B-Instruct-4bit` | Hugging Face (cached in `~/.cache/huggingface`) | about 6 GB | training, inference, evaluation, demo |
-| 4-bit benchmark models (`mlx-community/...`) | Hugging Face | 4–8 GB each | `earlier_experiments/03`, `04` |
+| 4-bit benchmark models (`mlx-community/...`) | Hugging Face | 4–8 GB each | the zero-shot benchmarks in `failed_experiments/11_mac_earlier_experiments/` |
 | WordNet (METEOR) and the BERTScore backbone | downloaded and cached by `scripts/setup_eval_env.sh` | – | `plantdx evaluate --stage analyze` |
 | Retrained adapter weights `checkpoints/qwen25vl_tomato_qlora/adapters.safetensors` | `python setup/download_models.py 09_plantdx` (repository root) from `github.com/iAakash1/TIH-IoT`, `2026-07_July/mlx_adapters/qwen25vl_tomato_qlora/` (Git LFS) | 161,529,623 bytes, sha256 `a501137b0c5eef4346229be888f2cedc135d7e0434f74c6b136b177052860c3f` (the iteration-13,200 snapshot) | inference, evaluation, demo |
 | Retrained adapter weights `checkpoints/qwen25vl_mango_qlora/adapters.safetensors` | same command, `2026-07_July/mlx_adapters/qwen25vl_mango_qlora/` | 161,529,623 bytes, sha256 `f10dea4c14165a9002034c48094fdb0a4a6575aa299347eed39f7c6b6b6b1aa4` | inference, evaluation, demo |

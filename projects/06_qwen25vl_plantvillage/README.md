@@ -49,5 +49,5 @@ cd projects\06_qwen25vl_plantvillage\qwen
 | Path | What it is |
 |---|---|
 | `qwen/` | April scripts, `captions.json`, the adapter (`outputs/qwen25vl_plantvillage/best`), reports (the `fix_*.py` patches of the first attempt are in `failed_experiments/05_qwen_april_first_attempt`) |
-| `qwen_variant/` | An earlier variant of the same scripts, kept for reference |
+| `../../archive/previous_versions/06_qwen25vl_plantvillage/qwen_variant_2026-04-09/` | An earlier variant of the same scripts, kept for reference |
 | `crop_disease_app/` | Production app (from github.com/kharulkamaaksha/Crop_Disease_VLM, July 2026) |

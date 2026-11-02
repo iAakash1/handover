@@ -9,9 +9,9 @@ distributing private datasets or unpublished knowledge assets.
 
 | Track | Scope | Location |
 |---|---|---|
-| MLX research | Zero-shot exploration and QLoRA fine-tuning on Apple Silicon | [`research/mlx_pipeline/`](research/mlx_pipeline/) |
-| Zero-shot baselines | Unadapted VLM classification baselines | [`research/zero_shot/`](research/zero_shot/) |
-| TIH tomato benchmark | Qwen2.5-VL QLoRA training and internal/external evaluation on NVIDIA CUDA | [`experiments/tih_tomato_qwen/`](experiments/tih_tomato_qwen/) |
+| MLX research | Zero-shot exploration and QLoRA fine-tuning on Apple Silicon | [`research/mlx_pipeline/`](https://github.com/iAakash1/experimentation/tree/refactor/professional-research-layout/research/mlx_pipeline) |
+| Zero-shot baselines | Unadapted VLM classification baselines | [`research/zero_shot/`](https://github.com/iAakash1/experimentation/tree/refactor/professional-research-layout/research/zero_shot) |
+| TIH tomato benchmark | Qwen2.5-VL QLoRA training and internal/external evaluation on NVIDIA CUDA | [`experiments/tih_tomato_qwen/`](https://github.com/iAakash1/experimentation/tree/refactor/professional-research-layout/experiments/tih_tomato_qwen) |
 
 The MLX track is the general research pipeline. The TIH track applies a separate CUDA training and
 evaluation path to the TIH `Tomato_12thAug26` dataset. The two tracks keep separate configurations,
@@ -20,7 +20,7 @@ hardware assumptions, results, and experiment histories.
 ## Results
 
 The complete experiment timeline, benchmark tables, interpretation, and figures are in
-[`RESULTS.md`](RESULTS.md).
+[`RESULTS.md`](https://github.com/iAakash1/experimentation/blob/refactor/professional-research-layout/RESULTS.md).
 
 | Benchmark | Accuracy | Macro F1 | Weighted F1 |
 |---|---:|---:|---:|
@@ -85,13 +85,13 @@ The public branch includes reusable model code, experiment configurations, evalu
 aggregate benchmark results, figures, and tests. Raw datasets, model checkpoints, per-image private
 predictions, curated knowledge assets, and unpublished reasoning specifications are excluded. The
 machine-readable classification is recorded in
-[`public_release_manifest.yaml`](public_release_manifest.yaml).
+[`public_release_manifest.yaml`](https://github.com/iAakash1/experimentation/blob/refactor/professional-research-layout/public_release_manifest.yaml).
 
 ## Citation
 
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff).
+Citation metadata is provided in [`CITATION.cff`](https://github.com/iAakash1/experimentation/blob/refactor/professional-research-layout/CITATION.cff).
 
 ## License
 
-The source code is licensed under the [Apache License 2.0](LICENSE). Dataset licenses remain with
+The source code is licensed under the [Apache License 2.0](https://github.com/iAakash1/experimentation/blob/refactor/professional-research-layout/LICENSE). Dataset licenses remain with
 their original providers; datasets are not redistributed by this repository.

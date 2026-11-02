@@ -22,15 +22,15 @@
 
 | File | Copied from |
 |---|---|
-| [`mlx_from_confusion_matrices__evaluation_report.json`](evaluation_reports/mlx_from_confusion_matrices__evaluation_report.json) | `evaluation_reports_oct2026/mlx_from_confusion_matrices/evaluation_report.json` |
-| [`mlx_pipeline__results__benchmark_summary.csv`](evaluation_reports/mlx_pipeline__results__benchmark_summary.csv) | `2026-07_July/plantdx_mlx_results/mlx_pipeline/results/benchmark_summary.csv` |
-| [`zero_shot__results__baseline_summary.csv`](evaluation_reports/zero_shot__results__baseline_summary.csv) | `2026-07_July/plantdx_mlx_results/zero_shot/results/baseline_summary.csv` |
-| [`mlx_pipeline__graphs__mango_confusion_matrix.png`](evaluation_reports/mlx_pipeline__graphs__mango_confusion_matrix.png) | `2026-07_July/plantdx_mlx_results/mlx_pipeline/graphs/mango_confusion_matrix.png` |
-| [`mlx_pipeline__graphs__mango_metrics_comparison.png`](evaluation_reports/mlx_pipeline__graphs__mango_metrics_comparison.png) | `2026-07_July/plantdx_mlx_results/mlx_pipeline/graphs/mango_metrics_comparison.png` |
-| [`mlx_pipeline__graphs__mango_per_disease_f1.png`](evaluation_reports/mlx_pipeline__graphs__mango_per_disease_f1.png) | `2026-07_July/plantdx_mlx_results/mlx_pipeline/graphs/mango_per_disease_f1.png` |
-| [`mlx_pipeline__graphs__tomato_confusion_matrix.png`](evaluation_reports/mlx_pipeline__graphs__tomato_confusion_matrix.png) | `2026-07_July/plantdx_mlx_results/mlx_pipeline/graphs/tomato_confusion_matrix.png` |
-| [`mlx_pipeline__graphs__tomato_metrics_comparison.png`](evaluation_reports/mlx_pipeline__graphs__tomato_metrics_comparison.png) | `2026-07_July/plantdx_mlx_results/mlx_pipeline/graphs/tomato_metrics_comparison.png` |
-| [`mlx_pipeline__graphs__tomato_per_disease_f1.png`](evaluation_reports/mlx_pipeline__graphs__tomato_per_disease_f1.png) | `2026-07_July/plantdx_mlx_results/mlx_pipeline/graphs/tomato_per_disease_f1.png` |
+| [`mlx_from_confusion_matrices__evaluation_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-07_July/evaluation_reports/mlx_from_confusion_matrices__evaluation_report.json) | `evaluation_reports_oct2026/mlx_from_confusion_matrices/evaluation_report.json` |
+| [`mlx_pipeline__results__benchmark_summary.csv`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-07_July/evaluation_reports/mlx_pipeline__results__benchmark_summary.csv) | `2026-07_July/plantdx_mlx_results/mlx_pipeline/results/benchmark_summary.csv` |
+| [`zero_shot__results__baseline_summary.csv`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-07_July/evaluation_reports/zero_shot__results__baseline_summary.csv) | `2026-07_July/plantdx_mlx_results/zero_shot/results/baseline_summary.csv` |
+| [`mlx_pipeline__graphs__mango_confusion_matrix.png`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-07_July/evaluation_reports/mlx_pipeline__graphs__mango_confusion_matrix.png) | `2026-07_July/plantdx_mlx_results/mlx_pipeline/graphs/mango_confusion_matrix.png` |
+| [`mlx_pipeline__graphs__mango_metrics_comparison.png`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-07_July/evaluation_reports/mlx_pipeline__graphs__mango_metrics_comparison.png) | `2026-07_July/plantdx_mlx_results/mlx_pipeline/graphs/mango_metrics_comparison.png` |
+| [`mlx_pipeline__graphs__mango_per_disease_f1.png`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-07_July/evaluation_reports/mlx_pipeline__graphs__mango_per_disease_f1.png) | `2026-07_July/plantdx_mlx_results/mlx_pipeline/graphs/mango_per_disease_f1.png` |
+| [`mlx_pipeline__graphs__tomato_confusion_matrix.png`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-07_July/evaluation_reports/mlx_pipeline__graphs__tomato_confusion_matrix.png) | `2026-07_July/plantdx_mlx_results/mlx_pipeline/graphs/tomato_confusion_matrix.png` |
+| [`mlx_pipeline__graphs__tomato_metrics_comparison.png`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-07_July/evaluation_reports/mlx_pipeline__graphs__tomato_metrics_comparison.png) | `2026-07_July/plantdx_mlx_results/mlx_pipeline/graphs/tomato_metrics_comparison.png` |
+| [`mlx_pipeline__graphs__tomato_per_disease_f1.png`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-07_July/evaluation_reports/mlx_pipeline__graphs__tomato_per_disease_f1.png) | `2026-07_July/plantdx_mlx_results/mlx_pipeline/graphs/tomato_per_disease_f1.png` |
 
 ## Code and models
 

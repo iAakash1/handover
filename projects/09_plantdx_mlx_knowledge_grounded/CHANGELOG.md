@@ -6,7 +6,7 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
-### Fixed — handover reproducibility pass (31 Oct 2026)
+### Fixed — the same training data on every OS (31 Oct 2026)
 - `training/data/discovery.py` matches image names case-sensitively on every OS (`fnmatch.fnmatchcase`). On
   Windows `Path.glob("*.JPG")` also matched 153 `.jpg` tomato images, so `prepare-training` produced 18,159 rows
   instead of the July 18,006; macOS/Linux behaviour is unchanged. With the fix, both crops regenerate the July

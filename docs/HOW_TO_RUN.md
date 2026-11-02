@@ -38,7 +38,7 @@ cd projects\<project>
 | Try every model on one photo | `python run_app.py 3` |
 | TIH tomato (11 classes) | `cd projects\10_tih_tomato_qwen_qlora; ..\..\.venvs\tih\Scripts\python -m plantdx.cli company predict --config configs/train/qwen25vl_tih_tomato_moreaccurate.yaml --adapter checkpoints/tih_tomato_moreaccurate --image <photo>` |
 | Re-create an evaluation number | each project has `evaluate.py` / `04_evaluate.py`; VLMs: `cd evaluation; ..\.venvs\vlm\Scripts\python vlm_eval.py <kind> <out_dir> <adapter>` |
-| MLX pipeline and zero-shot benchmarks (Mac with Apple Silicon only) | see `projects/09_plantdx_mlx_knowledge_grounded/README.md` and its `earlier_experiments/README.md` |
+| MLX pipeline and zero-shot benchmarks (Mac with Apple Silicon only) | see `projects/09_plantdx_mlx_knowledge_grounded/README.md` and `failed_experiments/11_mac_earlier_experiments/README.md` |
 | December image-processing notebooks | `projects/00_tih_foundation_weeks_dec2025` (Jupyter, run from each day's folder) |
 
 `vlm_predict.py --model` accepts `qwen_april`, `plantdx`, `plantvlm`, `qwen_base`, `blip2_march`, `blip2_june`,

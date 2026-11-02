@@ -21,10 +21,10 @@
 
 | File | Copied from |
 |---|---|
-| [`blip2_june__evaluation_report.json`](evaluation_reports/blip2_june__evaluation_report.json) | `evaluation_reports_oct2026/blip2_june/evaluation_report.json` |
-| [`2026-03_March__tp__evaluation_report.json`](evaluation_reports/2026-03_March__tp__evaluation_report.json) | `2026-06_June/tp/evaluation_report.json` |
+| [`blip2_june__evaluation_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-06_June/evaluation_reports/blip2_june__evaluation_report.json) | `evaluation_reports_oct2026/blip2_june/evaluation_report.json` |
+| [`2026-03_March__tp__evaluation_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-06_June/evaluation_reports/03_mar_aug2026_vlm_plantvillage__tp__evaluation_report.json) | `2026-06_June/tp/evaluation_report.json` |
 
 ## Code and models
 
-- [BLIP-2 re-run](../2026-06_June/tp)
-- [PoCRA report (zero-shot benchmark)](../docs/06-PoCRA-PCCOE-Tomato-Mango-Report-Version1.docx)
+- [BLIP-2 re-run](https://github.com/iAakash1/TIH-IoT/tree/main/2026-06_June/tp)
+- [PoCRA report (zero-shot benchmark)](https://github.com/iAakash1/TIH-IoT/blob/main/docs/06-PoCRA-PCCOE-Tomato-Mango-Report-Version1.docx)

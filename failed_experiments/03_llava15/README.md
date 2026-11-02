@@ -1,7 +1,7 @@
 # 03 · LLaVA-1.5-7B + LoRA (March 2026): stopped by a batch-collation error
 
 Our first LLaVA attempt. Training stopped with a batch-collation error, and no adapter
-and no script survived (searched on this PC and in all our GitHub repositories, October 2026). It is recorded in the
+and no script survived. It is recorded in the
 PoCRA report (`docs/reports/06-PoCRA-PCCOE-Tomato-Mango-Report-Version1.docx`).
 
 **Likely cause:** LLaVA cuts each photo into image patches and the text into tokens of different lengths. With

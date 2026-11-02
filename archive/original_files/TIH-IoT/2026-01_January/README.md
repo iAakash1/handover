@@ -31,27 +31,27 @@
 
 | File | Copied from |
 |---|---|
-| [`convnext_torch__README.md`](evaluation_reports/convnext_torch__README.md) | `evaluation_reports_oct2026/convnext_torch/README.md` |
-| [`convnext_torch__confusion_matrix_test.png`](evaluation_reports/convnext_torch__confusion_matrix_test.png) | `evaluation_reports_oct2026/convnext_torch/confusion_matrix_test.png` |
-| [`convnext_torch__evaluation_report.json`](evaluation_reports/convnext_torch__evaluation_report.json) | `evaluation_reports_oct2026/convnext_torch/evaluation_report.json` |
-| [`keras__convnext_tiny_keras__confusion_matrix.png`](evaluation_reports/keras__convnext_tiny_keras__confusion_matrix.png) | `evaluation_reports_oct2026/keras/convnext_tiny_keras/confusion_matrix.png` |
-| [`keras__convnext_tiny_keras__evaluation_report.json`](evaluation_reports/keras__convnext_tiny_keras__evaluation_report.json) | `evaluation_reports_oct2026/keras/convnext_tiny_keras/evaluation_report.json` |
-| [`keras__efficientnetb3_keras__confusion_matrix.png`](evaluation_reports/keras__efficientnetb3_keras__confusion_matrix.png) | `evaluation_reports_oct2026/keras/efficientnetb3_keras/confusion_matrix.png` |
-| [`keras__efficientnetb3_keras__evaluation_report.json`](evaluation_reports/keras__efficientnetb3_keras__evaluation_report.json) | `evaluation_reports_oct2026/keras/efficientnetb3_keras/evaluation_report.json` |
-| [`keras__mobilenetv2_keras__confusion_matrix.png`](evaluation_reports/keras__mobilenetv2_keras__confusion_matrix.png) | `evaluation_reports_oct2026/keras/mobilenetv2_keras/confusion_matrix.png` |
-| [`keras__mobilenetv2_keras__evaluation_report.json`](evaluation_reports/keras__mobilenetv2_keras__evaluation_report.json) | `evaluation_reports_oct2026/keras/mobilenetv2_keras/evaluation_report.json` |
-| [`results__experiments__final_report.md`](evaluation_reports/results__experiments__final_report.md) | `2026-01_January/soybean_soynet/results/experiments/final_report.md` |
-| [`results__experiments__model_comparison.json`](evaluation_reports/results__experiments__model_comparison.json) | `2026-01_January/soybean_soynet/results/experiments/model_comparison.json` |
-| [`experiments__resnet50__metrics.json`](evaluation_reports/experiments__resnet50__metrics.json) | `2026-01_January/soybean_soynet/results/experiments/resnet50/metrics.json` |
-| [`experiments__mobilenetv2__metrics.json`](evaluation_reports/experiments__mobilenetv2__metrics.json) | `2026-01_January/soybean_soynet/results/experiments/mobilenetv2/metrics.json` |
-| [`experiments__efficientnet_b0__metrics.json`](evaluation_reports/experiments__efficientnet_b0__metrics.json) | `2026-01_January/soybean_soynet/results/experiments/efficientnet_b0/metrics.json` |
-| [`experiments__efficientnet_b3__metrics.json`](evaluation_reports/experiments__efficientnet_b3__metrics.json) | `2026-01_January/soybean_soynet/results/experiments/efficientnet_b3/metrics.json` |
-| [`experiments__resnet50__confusion_matrix.json`](evaluation_reports/experiments__resnet50__confusion_matrix.json) | `2026-01_January/soybean_soynet/results/experiments/resnet50/confusion_matrix.json` |
-| [`experiments__mobilenetv2__confusion_matrix.json`](evaluation_reports/experiments__mobilenetv2__confusion_matrix.json) | `2026-01_January/soybean_soynet/results/experiments/mobilenetv2/confusion_matrix.json` |
-| [`experiments__efficientnet_b0__confusion_matrix.json`](evaluation_reports/experiments__efficientnet_b0__confusion_matrix.json) | `2026-01_January/soybean_soynet/results/experiments/efficientnet_b0/confusion_matrix.json` |
-| [`experiments__efficientnet_b3__confusion_matrix.json`](evaluation_reports/experiments__efficientnet_b3__confusion_matrix.json) | `2026-01_January/soybean_soynet/results/experiments/efficientnet_b3/confusion_matrix.json` |
+| [`convnext_torch__README.md`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/convnext_torch__README.md) | `evaluation_reports_oct2026/convnext_torch/README.md` |
+| [`convnext_torch__confusion_matrix_test.png`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/convnext_torch__confusion_matrix_test.png) | `evaluation_reports_oct2026/convnext_torch/confusion_matrix_test.png` |
+| [`convnext_torch__evaluation_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/convnext_torch__evaluation_report.json) | `evaluation_reports_oct2026/convnext_torch/evaluation_report.json` |
+| [`keras__convnext_tiny_keras__confusion_matrix.png`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/keras__convnext_tiny_keras__confusion_matrix.png) | `evaluation_reports_oct2026/keras/convnext_tiny_keras/confusion_matrix.png` |
+| [`keras__convnext_tiny_keras__evaluation_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/keras__convnext_tiny_keras__evaluation_report.json) | `evaluation_reports_oct2026/keras/convnext_tiny_keras/evaluation_report.json` |
+| [`keras__efficientnetb3_keras__confusion_matrix.png`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/keras__efficientnetb3_keras__confusion_matrix.png) | `evaluation_reports_oct2026/keras/efficientnetb3_keras/confusion_matrix.png` |
+| [`keras__efficientnetb3_keras__evaluation_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/keras__efficientnetb3_keras__evaluation_report.json) | `evaluation_reports_oct2026/keras/efficientnetb3_keras/evaluation_report.json` |
+| [`keras__mobilenetv2_keras__confusion_matrix.png`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/keras__mobilenetv2_keras__confusion_matrix.png) | `evaluation_reports_oct2026/keras/mobilenetv2_keras/confusion_matrix.png` |
+| [`keras__mobilenetv2_keras__evaluation_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/keras__mobilenetv2_keras__evaluation_report.json) | `evaluation_reports_oct2026/keras/mobilenetv2_keras/evaluation_report.json` |
+| [`results__experiments__final_report.md`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/results__experiments__final_report.md) | `2026-01_January/soybean_soynet/results/experiments/final_report.md` |
+| [`results__experiments__model_comparison.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/results__experiments__model_comparison.json) | `2026-01_January/soybean_soynet/results/experiments/model_comparison.json` |
+| [`experiments__resnet50__metrics.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/experiments__resnet50__metrics.json) | `2026-01_January/soybean_soynet/results/experiments/resnet50/metrics.json` |
+| [`experiments__mobilenetv2__metrics.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/experiments__mobilenetv2__metrics.json) | `2026-01_January/soybean_soynet/results/experiments/mobilenetv2/metrics.json` |
+| [`experiments__efficientnet_b0__metrics.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/experiments__efficientnet_b0__metrics.json) | `2026-01_January/soybean_soynet/results/experiments/efficientnet_b0/metrics.json` |
+| [`experiments__efficientnet_b3__metrics.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/experiments__efficientnet_b3__metrics.json) | `2026-01_January/soybean_soynet/results/experiments/efficientnet_b3/metrics.json` |
+| [`experiments__resnet50__confusion_matrix.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/experiments__resnet50__confusion_matrix.json) | `2026-01_January/soybean_soynet/results/experiments/resnet50/confusion_matrix.json` |
+| [`experiments__mobilenetv2__confusion_matrix.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/experiments__mobilenetv2__confusion_matrix.json) | `2026-01_January/soybean_soynet/results/experiments/mobilenetv2/confusion_matrix.json` |
+| [`experiments__efficientnet_b0__confusion_matrix.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/experiments__efficientnet_b0__confusion_matrix.json) | `2026-01_January/soybean_soynet/results/experiments/efficientnet_b0/confusion_matrix.json` |
+| [`experiments__efficientnet_b3__confusion_matrix.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/evaluation_reports/experiments__efficientnet_b3__confusion_matrix.json) | `2026-01_January/soybean_soynet/results/experiments/efficientnet_b3/confusion_matrix.json` |
 
 ## Code and models
 
-- [CNN baselines](../2026-01_January)
-- [SoyNet](../2026-01_January/soybean_soynet)
+- [CNN baselines](https://github.com/iAakash1/TIH-IoT/tree/main/2026-01_January)
+- [SoyNet](https://github.com/iAakash1/TIH-IoT/tree/main/2026-01_January/soybean_soynet)

@@ -6,7 +6,7 @@ and the training pipeline provided for the task, on the VDI GPU machine (27 Janu
 ## Data
 - SoyNet camera photos, resized to 256×256: 3,164 diseased + 556 healthy images (about 6 diseased for every healthy).
 - Split 70 / 15 / 15 with seed 42 → 2,603 train, 557 validation, 560 test.
-  The exact list is in [`splits/soynet_pytorch_split_70_15_15_seed42.csv`](splits/soynet_pytorch_split_70_15_15_seed42.csv).
+  The exact list is in [`splits/soynet_pytorch_split_70_15_15_seed42.csv`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-01_January/soybean_soynet/splits/soynet_pytorch_split_70_15_15_seed42.csv).
 - Images are not included in this repository.
 
 ## Two runs on the same day

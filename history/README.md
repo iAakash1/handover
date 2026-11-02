@@ -15,13 +15,13 @@ git checkout feat/tomato-dataset-migration                         # e.g. PlantD
 
 | Report version | Date | Commit / tag | Also in this repository as files |
 |---|---|---|---|
-| Tomato v0.2–v0.3, Keras transfer learning | 04–06 Jan 2026 | CottonCrop `5cc1f6b` | `projects/01_cnn_keras_tomato/versions/v0.2-v0.3_cottoncrop_2026-01-06` |
-| Tomato v0.5, integrated pipeline | 21–27 Jan 2026 | (no git; folder copy) | `projects/01_cnn_keras_tomato/versions/v0.5_integrated_pipeline_2026-01-27` |
+| Tomato v0.2–v0.3, Keras transfer learning | 04–06 Jan 2026 | CottonCrop `5cc1f6b` | `archive/previous_versions/01_cnn_keras_tomato/v0.2-v0.3_cottoncrop_2026-01-06` |
+| Tomato v0.5, integrated pipeline | 21–27 Jan 2026 | (no git; folder copy) | `archive/previous_versions/01_cnn_keras_tomato/v0.5_integrated_pipeline_2026-01-27` |
 | Tomato v2.0, BLIP-2 March code | 01 Apr 2026 | Crop_Disease_VLM `44e9b67` (local history) | `projects/04_llava_blip2/blip2_march` |
-| Tomato v3.0 / v4.0, Florence-2 and Qwen scripts | 09 Apr 2026 | Crop_Disease_VLM `5dcff36` (local history) | `failed_experiments/01_florence2_finetuning`, `projects/06_qwen25vl_plantvillage/qwen`, `qwen_variant` |
-| Tomato v5.0, CLIP gate + parser + GradCAM | 13 Apr 2026 | Crop_Disease_VLM `6b4e667` | `projects/06_qwen25vl_plantvillage/versions/v5.0_crop_app_2026-04-13` |
+| Tomato v3.0 / v4.0, Florence-2 and Qwen scripts | 09 Apr 2026 | Crop_Disease_VLM `5dcff36` (local history) | `failed_experiments/01_florence2_finetuning`, `projects/06_qwen25vl_plantvillage/qwen`, `archive/previous_versions/06_qwen25vl_plantvillage/qwen_variant_2026-04-09` |
+| Tomato v5.0, CLIP gate + parser + GradCAM | 13 Apr 2026 | Crop_Disease_VLM `6b4e667` | `archive/previous_versions/06_qwen25vl_plantvillage/v5.0_crop_app_2026-04-13` |
 | Crop disease app, final | 13 Jul 2026 | Crop_Disease_VLM `6a8760b` | `projects/06_qwen25vl_plantvillage/crop_disease_app` |
-| Tomato v6.0, PlantDx first restructure | 15 May 2026 | (folder copy) | `projects/07_plantdx_plantvillage/versions/v6.0_first_restructure_2026-05-15` |
+| Tomato v6.0, PlantDx first restructure | 15 May 2026 | (folder copy) | `archive/previous_versions/07_plantdx_plantvillage/v6.0_first_restructure_2026-05-15` |
 | PlantDx published | 02–03 Jun 2026 | kharulkamaaksha/VLM `f07c678`, iAakash1/VLM PR #1 | `projects/07_plantdx_plantvillage` |
 | Tomato v9.0, knowledge-grounded MLX | 11–17 Jul 2026 | experimentation `v1.0.0` (`66d428e`), `9f08d99` | `projects/09_plantdx_mlx_knowledge_grounded` (results, configs) |
 | Mango baseline + QLoRA | 14 Jul 2026 | experimentation `380b18e`, `673ed77` (`v0.2.0`) | `projects/09_plantdx_mlx_knowledge_grounded` |

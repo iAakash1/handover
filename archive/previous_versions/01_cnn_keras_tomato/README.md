@@ -9,6 +9,6 @@ snapshots behind the report's version table, unchanged, so each step can be comp
 | v0.2 – v0.3 | 06 Jan 2026 | `v0.2-v0.3_cottoncrop_2026-01-06` | CottonCrop at `5cc1f6b`: MobileNetV2 and ConvNeXt-Tiny added (`main_mobilenet.py`, `main_convnext.py`, their training scripts) |
 | v0.5 | 21 – 27 Jan 2026 | `v0.5_integrated_pipeline_2026-01-27` | Kamaaksha's pipeline: the 4–6 Jan models reused byte-identical, reference crop embeddings, `config.py` validate → preprocess → predict with a 0.6 confidence threshold, plus the December custom CNN |
 
-The model files (`*.keras`, `*.npy`) are the same bytes as in `../model/`; `python setup/download_models.py --all`
+The model files (`*.keras`, `*.npy`) are the same bytes as in `../../../projects/01_cnn_keras_tomato/model/`; `python setup/download_models.py --all`
 puts copies here too. The scripts use the paths of the machine they were written on (a Mac for v0.5); to run a
-model, use `../predict.py`.
+model, use `../../../projects/01_cnn_keras_tomato/predict.py`.

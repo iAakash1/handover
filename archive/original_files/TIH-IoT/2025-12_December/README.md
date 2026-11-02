@@ -22,12 +22,12 @@
 
 | File | Copied from |
 |---|---|
-| [`keras__custom_cnn_best_tomato_test__confusion_matrix.png`](evaluation_reports/keras__custom_cnn_best_tomato_test__confusion_matrix.png) | `evaluation_reports_oct2026/keras/custom_cnn_best_tomato_test/confusion_matrix.png` |
-| [`keras__custom_cnn_best_tomato_test__evaluation_report.json`](evaluation_reports/keras__custom_cnn_best_tomato_test__evaluation_report.json) | `evaluation_reports_oct2026/keras/custom_cnn_best_tomato_test/evaluation_report.json` |
-| [`keras__custom_cnn_best_plantvillage15__confusion_matrix.png`](evaluation_reports/keras__custom_cnn_best_plantvillage15__confusion_matrix.png) | `evaluation_reports_oct2026/keras/custom_cnn_best_plantvillage15/confusion_matrix.png` |
-| [`keras__custom_cnn_best_plantvillage15__evaluation_report.json`](evaluation_reports/keras__custom_cnn_best_plantvillage15__evaluation_report.json) | `evaluation_reports_oct2026/keras/custom_cnn_best_plantvillage15/evaluation_report.json` |
+| [`keras__custom_cnn_best_tomato_test__confusion_matrix.png`](https://github.com/iAakash1/TIH-IoT/blob/main/2025-12_December/evaluation_reports/keras__custom_cnn_best_tomato_test__confusion_matrix.png) | `evaluation_reports_oct2026/keras/custom_cnn_best_tomato_test/confusion_matrix.png` |
+| [`keras__custom_cnn_best_tomato_test__evaluation_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2025-12_December/evaluation_reports/keras__custom_cnn_best_tomato_test__evaluation_report.json) | `evaluation_reports_oct2026/keras/custom_cnn_best_tomato_test/evaluation_report.json` |
+| [`keras__custom_cnn_best_plantvillage15__confusion_matrix.png`](https://github.com/iAakash1/TIH-IoT/blob/main/2025-12_December/evaluation_reports/keras__custom_cnn_best_plantvillage15__confusion_matrix.png) | `evaluation_reports_oct2026/keras/custom_cnn_best_plantvillage15/confusion_matrix.png` |
+| [`keras__custom_cnn_best_plantvillage15__evaluation_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2025-12_December/evaluation_reports/keras__custom_cnn_best_plantvillage15__evaluation_report.json) | `evaluation_reports_oct2026/keras/custom_cnn_best_plantvillage15/evaluation_report.json` |
 
 ## Code and models
 
-- [CNN code and model](../2025-12_December/keras_pipeline_kamaaksha)
-- [Week-2 preprocessing module](../2026-01_January/cottoncrop_repo_snapshot/preprocessing)
+- [CNN code and model](https://github.com/iAakash1/TIH-IoT/tree/main/2025-12_December/keras_pipeline_kamaaksha)
+- [Week-2 preprocessing module](https://github.com/iAakash1/TIH-IoT/tree/main/2026-01_January/cottoncrop_repo_snapshot/preprocessing)

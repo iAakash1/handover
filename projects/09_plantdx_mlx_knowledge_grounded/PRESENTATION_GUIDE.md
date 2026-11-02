@@ -8,7 +8,7 @@ and answers to the questions that usually come up. Every number here comes from 
 | What | Link |
 |---|---|
 | Overview: results, graphs, timeline, team, run commands | [`README.md`](README.md) |
-| Zero-shot experiments | [`earlier_experiments/README.md`](earlier_experiments/README.md) |
+| Zero-shot experiments | [`../../failed_experiments/11_mac_earlier_experiments/README.md`](../../failed_experiments/11_mac_earlier_experiments/README.md) |
 | Paper draft on this work | [`PlantDx_Knowledge_Grounded_Instruction_Tuning_draft_2026-08-21.pdf`](../../docs/publication/drafts/PlantDx_Knowledge_Grounded_Instruction_Tuning_draft_2026-08-21.pdf) |
 
 ## 2. The 30-second version
@@ -23,8 +23,8 @@ and answers to the questions that usually come up. Every number here comes from 
 
 | Step | Date (2026) | What to say | Open |
 |---|---|---|---|
-| 1. Zero-shot benchmark, 4 models | 25 Jun | Qwen2.5-VL, Gemma-3, InternVL3 and Llama-3.2-Vision on 16 leaves, one fixed prompt. Exact disease match only 0–6% per model. | [`benchmark.py`](earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25/scripts/benchmark.py), [`final_report.md`](earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25/report/final_report.md) |
-| 2. Zero-shot benchmark, 7 models | 1 Jul | 30 tomato leaves (the 30 expert-captioned images of project 08). Best model InternVL3-8B at 23%; Qwen3-VL-8B gave unusable output on 16 of 30. | [`run_benchmark.py`](earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01/scripts/run_benchmark.py), [`model_runner.py`](earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01/scripts/model_runner.py), [`PlantDx_VLM_Evaluation_Report.md`](earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01/report/PlantDx_VLM_Evaluation_Report.md) |
+| 1. Zero-shot benchmark, 4 models | 25 Jun | Qwen2.5-VL, Gemma-3, InternVL3 and Llama-3.2-Vision on 16 leaves, one fixed prompt. Exact disease match only 0–6% per model. | [`benchmark.py`](../../failed_experiments/11_mac_earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25/scripts/benchmark.py), [`final_report.md`](../../failed_experiments/11_mac_earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25/report/final_report.md) |
+| 2. Zero-shot benchmark, 7 models | 1 Jul | 30 tomato leaves (the 30 expert-captioned images of project 08). Best model InternVL3-8B at 23%; Qwen3-VL-8B gave unusable output on 16 of 30. | [`run_benchmark.py`](../../failed_experiments/11_mac_earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01/scripts/run_benchmark.py), [`model_runner.py`](../../failed_experiments/11_mac_earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01/scripts/model_runner.py), [`PlantDx_VLM_Evaluation_Report.md`](../../failed_experiments/11_mac_earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01/report/PlantDx_VLM_Evaluation_Report.md) |
 | 3. Knowledge base | 11 Jul | 18 diseases (10 tomato, 8 mango): symptoms, look-alike diseases, allowed and forbidden words, references. | [`knowledge_base/dkb.json`](knowledge_base/dkb.json), [`DKB_report.md`](knowledge_base/DKB_report.md) |
 | 4. Data audit and cleaning | 12–13 Jul | Duplicate and corrupt-image checks, then each crop normalized into one class folder per disease. | [`src/plantdx/audit/`](src/plantdx/audit/), [`src/plantdx/normalization/`](src/plantdx/normalization/), [`reports/class_distribution.csv`](reports/class_distribution.csv) |
 | 5. Knowledge base → captions | 12–13 Jul | Ontology → controlled vocabulary → concept models → templates → 1,966 captions. No AI model in this path. | [`ontology/`](src/plantdx/ontology/), [`vocabulary/`](src/plantdx/vocabulary/), [`concepts/`](src/plantdx/concepts/), [`generation/`](src/plantdx/generation/), [`corpus/`](src/plantdx/corpus/); output [`artifacts/corpus/captions.json`](artifacts/corpus/captions.json) |
@@ -149,4 +149,4 @@ What can be shown on any computer, without the adapters:
 - The evaluation figures and reports in `reports/`.
 - Predictions saved by the demo app on 16 Jul in [`predictions/`](predictions/).
 - The raw zero-shot answers of every model in
-  [`earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25/results/`](earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25/results/).
+  [`../../failed_experiments/11_mac_earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25/results/`](../../failed_experiments/11_mac_earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25/results/).

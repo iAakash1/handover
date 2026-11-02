@@ -36,7 +36,7 @@ REQUIRED = (
     "configs/training.yaml", "configs/models/qwen25vl.yaml", "configs/lora/qlora.yaml",
     "knowledge_base/dkb.json", "artifacts/corpus/captions.jsonl", "assets/training/instructions.json",
     "assets/training/instructions_mango.json", "assets/metadata/label_map.json", "streamlit_app.py",
-    "models/README.md", "models/zero_shot_benchmarks/README.md", "scripts/setup_eval_env.sh",
+    "models/README.md", "scripts/setup_eval_env.sh",
 )
 IMAGE_EXT = {".jpg", ".jpeg", ".png"}
 LINK_RE = re.compile(r"!?\[[^\]]*\]\(\s*<?([^)\s>]+)>?(?:\s+\"[^\"]*\")?\s*\)")
@@ -222,7 +222,7 @@ def check_datasets() -> None:
 def check_python() -> None:
     print("Python sources compile")
     bad, n = [], 0
-    for folder in ("src", "app", "tests", "scripts", "earlier_experiments"):
+    for folder in ("src", "app", "tests", "scripts"):
         for f in (ROOT / folder).rglob("*.py"):
             n += 1
             try:

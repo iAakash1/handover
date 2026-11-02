@@ -26,13 +26,13 @@ working, 📄 = documented here (nothing runnable exists), ⛔ = not available a
 | Apr 2026 | VLM code repository | ✅ Crop_Disease_VLM: every commit as a folder, see `history/README.md` |
 | Apr 2026 | Florence-2 scripts | ✅ `failed_experiments/01_florence2_finetuning`, report `evaluation/florence_zeroshot/` |
 | Apr 2026 | Qwen2.5-VL-7B LoRA fine-tuned, 98.50% | ✅ `projects/06_qwen25vl_plantvillage/qwen/`, report `qwen/evaluation_report.json`, app `python run_app.py 5` |
-| Apr 2026 | CLIP OOD gate, parser, validator, GradCAM pipeline | ✅ first version `projects/06_qwen25vl_plantvillage/versions/v5.0_crop_app_2026-04-13`, final `crop_disease_app/` (`python run_app.py 2`) |
-| May 2026 | PlantDx restructured pipeline (15 classes), run_001 | ✅ first version `projects/07_plantdx_plantvillage/versions/v6.0_first_restructure_2026-05-15`; runs in `projects/07_plantdx_plantvillage/outputs/runs/` |
+| Apr 2026 | CLIP OOD gate, parser, validator, GradCAM pipeline | ✅ first version `archive/previous_versions/06_qwen25vl_plantvillage/v5.0_crop_app_2026-04-13`, final `crop_disease_app/` (`python run_app.py 2`) |
+| May 2026 | PlantDx restructured pipeline (15 classes), run_001 | ✅ first version `archive/previous_versions/07_plantdx_plantvillage/v6.0_first_restructure_2026-05-15`; runs in `projects/07_plantdx_plantvillage/outputs/runs/` |
 | May 2026 | Evaluation and Streamlit inference, 98.00% | ✅ `projects/07_plantdx_plantvillage` (report `outputs/evaluations/report.json`, app `python run_app.py 4`) |
 | Jun 2026 | BLIP-2 1-epoch re-run with evaluation | ✅ `projects/04_llava_blip2/blip2_rerun_june`, report `evaluation/blip2_june/`, the 0% story `failed_experiments/04_blip2_june_zero_score` |
 | Jun 2026 | Florence-2 re-attempt | ✅ `failed_experiments/01_florence2_finetuning` (`quick_train_florence2.py`) |
 | Jun 2026 | Expert-validated caption image set | ✅ `projects/08_plantvlm_expert_captions/1stJuly` (captions in git, 30 images on the workstation) |
-| Jun 2026 | Seven-VLM zero-shot benchmark | ✅ run on the Mac with MLX-VLM; code, images, raw outputs and reports in `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25` and `04_zero_shot_7vlm_benchmark_2026-07-01`; also in `docs/reports/06-PoCRA-PCCOE-Tomato-Mango-Report-Version1.docx` |
+| Jun 2026 | Seven-VLM zero-shot benchmark | ✅ run on the Mac with MLX-VLM; code, images, raw outputs and reports in `failed_experiments/11_mac_earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25` and `04_zero_shot_7vlm_benchmark_2026-07-01`; also in `docs/reports/06-PoCRA-PCCOE-Tomato-Mango-Report-Version1.docx` |
 | Jul 2026 | 150 expert-revised captions | ✅ `projects/08_plantvlm_expert_captions/data/` and `1stJuly/` |
 | Jul 2026 | Knowledge-grounded MLX pipeline, tomato 7.3% → 93.7%, mango 17.5% → 82.0% | ✅ code, knowledge base, corpus, reports and logs `projects/09_plantdx_mlx_knowledge_grounded` (commit `9f08d99` of `history/experimentation.bundle`); the July adapter files were lost, both retrained on 31 Oct – 1 Nov 2026 (`retrained_2026-11/`, weights via `setup/download_models.py`) |
 | Jul 2026 | Streamlit demo; v1.0.0 | ✅ `projects/10_tih_tomato_qwen_qlora/streamlit_app.py`; tag `v1.0.0` in the bundle |
@@ -83,7 +83,7 @@ All 8 papers: `docs/publication.md`. ICAIN 2026 paper (ID 953), camera-ready PDF
 | Qwen2.5-VL-7B-4bit QLoRA r16 (MLX), knowledge-grounded | ✅ code + results (project 09); retrained adapters (Nov 2026: tomato 90.9%, mango 86.0%) via `setup/download_models.py` |
 | Qwen2.5-VL-7B LoRA r16, 150 expert captions (PlantVLM) | ✅ project 08 |
 | Qwen2.5-VL-7B 4-bit NF4 QLoRA r32 and r64, TIH 11 classes | ✅ project 10 (strong = r32, moreaccurate = r64) |
-| Seven-VLM zero-shot benchmark (Qwen2.5-VL, Qwen3-VL, Gemma-3, InternVL3, LLaMA-3.2-Vision, Molmo, DeepSeek-VL2) | ✅ `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01` (and the four-model run `03_…`); PoCRA report |
+| Seven-VLM zero-shot benchmark (Qwen2.5-VL, Qwen3-VL, Gemma-3, InternVL3, LLaMA-3.2-Vision, Molmo, DeepSeek-VL2) | ✅ `failed_experiments/11_mac_earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01` (and the four-model run `03_…`); PoCRA report |
 | CLIP ViT-B/32 OOD screening | ✅ `projects/06_qwen25vl_plantvillage/crop_disease_app/utils/` |
 
 ### Tomato: experiment versions
@@ -91,18 +91,18 @@ All 8 papers: `docs/publication.md`. ICAIN 2026 paper (ID 953), camera-ready PDF
 | Version | Date | Code | Model | Report |
 |---|---|---|---|---|
 | v0.1 Custom CNN | 29 Dec 2025 | `projects/01_cnn_keras_tomato/model/train_cnn.py` | `model/best_model_cnn.keras` | `evaluation/keras/custom_cnn_best_tomato_test` |
-| v0.2 EfficientNetB3 + gates | 04 Jan 2026 | `projects/01_cnn_keras_tomato/versions/v0.2_cottoncrop_2026-01-04` | `model/best_model_efficientNetB3.keras` | `evaluation/keras/efficientnetb3_keras` |
+| v0.2 EfficientNetB3 + gates | 04 Jan 2026 | `archive/previous_versions/01_cnn_keras_tomato/v0.2_cottoncrop_2026-01-04` | `model/best_model_efficientNetB3.keras` | `evaluation/keras/efficientnetb3_keras` |
 | v0.3 MobileNetV2, ConvNeXt (Keras) | 06 Jan 2026 | same folder | `model/best_model_mobilenet.keras`, `best_model_convnext.keras` | `evaluation/keras/` |
 | v0.4 ConvNeXt (PyTorch) | 08 Jan 2026 | `projects/02_cnn_pytorch_convnext` | `models/convnext_tomato_best.pth` | `evaluation/convnext_torch` |
-| v0.5 Integrated pipeline | 21–27 Jan 2026 | `projects/01_cnn_keras_tomato/versions/v0.5_integrated_pipeline_2026-01-27` | same models (byte-identical) | – |
+| v0.5 Integrated pipeline | 21–27 Jan 2026 | `archive/previous_versions/01_cnn_keras_tomato/v0.5_integrated_pipeline_2026-01-27` | same models (byte-identical) | – |
 | v1.0 LLaVA 1.6 | 24–25 Mar 2026 | `failed_experiments/02_llava16_mistral_lora` | `projects/04_llava_blip2/outputs/llava_plantvillage/best` | `evaluation/llava_v16` |
 | v2.0 BLIP-2 | 25 Mar 2026 | `projects/04_llava_blip2/blip2_march` | `outputs/blip2_plantvillage/best` | `evaluation/blip2_march` |
 | v3.0 Florence-2 | 03 Apr / 15 Jun 2026 | `failed_experiments/01_florence2_finetuning` | none (did not finish) | `evaluation/florence_zeroshot` |
 | v4.0 Qwen2.5-VL LoRA | 06–07 Apr 2026 | `projects/06_qwen25vl_plantvillage/qwen` (fixes: `failed_experiments/05_qwen_april_first_attempt`) | `qwen/outputs/qwen25vl_plantvillage/best` | `qwen/evaluation_report.json` |
-| v5.0 CLIP gate, parser, validator, GradCAM | 13 Apr 2026 | `projects/06_qwen25vl_plantvillage/versions/v5.0_crop_app_2026-04-13`, `crop_disease_app` | same adapter | – |
+| v5.0 CLIP gate, parser, validator, GradCAM | 13 Apr 2026 | `archive/previous_versions/06_qwen25vl_plantvillage/v5.0_crop_app_2026-04-13`, `crop_disease_app` | same adapter | – |
 | v6.0 PlantDx | 15–18 May 2026 | `projects/07_plantdx_plantvillage` (+ `versions/v6.0_first_restructure_2026-05-15`) | `outputs/checkpoints/best` | `outputs/evaluations/report.json` |
 | v7.0 BLIP-2 re-run | 15 Jun 2026 | `projects/04_llava_blip2/blip2_rerun_june` | `blip2_rerun_june/outputs/blip2_plantvillage/best` | `evaluation/blip2_june` |
-| v8.0 Seven-VLM zero-shot | 25 Jun (4 models), 1 Jul 2026 (7 models) | `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25`, `04_zero_shot_7vlm_benchmark_2026-07-01` | – (off-the-shelf) | `report/` in both folders; PoCRA report in `docs/reports/` |
+| v8.0 Seven-VLM zero-shot | 25 Jun (4 models), 1 Jul 2026 (7 models) | `failed_experiments/11_mac_earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25`, `04_zero_shot_7vlm_benchmark_2026-07-01` | – (off-the-shelf) | `report/` in both folders; PoCRA report in `docs/reports/` |
 | v9.0 Knowledge-grounded MLX | 11–17 Jul 2026 | `projects/09_plantdx_mlx_knowledge_grounded/src/plantdx` (tag `v1.0.0`, commit `9f08d99`) | retrained Nov 2026 (`setup/download_models.py`; July files lost) | `projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_tomato_qlora/evaluation/` |
 | v10.0 PlantVLM | 05 Aug 2026 | `projects/08_plantvlm_expert_captions` | `runs/run_002_fold0/checkpoints/best` (+ epochs) | `runs/run_002_fold0/evaluation/val_report.json` |
 | v11.0 PlantDx migrated to TIH data | 12 Aug 2026 | branch `feat/tomato-dataset-migration` in `history/` | – | – |
@@ -141,13 +141,13 @@ All 8 papers: `docs/publication.md`. ICAIN 2026 paper (ID 953), camera-ready PDF
 | What | Where |
 |---|---|
 | Unedited originals of every file that was changed for the handover (paths, headers, links) | `archive/original_files/` |
-| Earlier copies from the Downloads folder: Florence-2 patch and quick-train (15 Jun), BLIP-2 quick-train (12 Jun), crop app config/README (13 Apr), first Qwen app fix `fix_app.py` (7 Apr) | `failed_experiments/01_florence2_finetuning/earlier_copies_2026-06-15`, `projects/04_llava_blip2/blip2_rerun_june/earlier_copies_2026-06-12`, `projects/06_qwen25vl_plantvillage/versions/v5.0_crop_app_2026-04-13/earlier_copies`, `failed_experiments/05_qwen_april_first_attempt/fix_app.py` |
+| Earlier copies from the Downloads folder: Florence-2 patch and quick-train (15 Jun), BLIP-2 quick-train (12 Jun), crop app config/README (13 Apr), first Qwen app fix `fix_app.py` (7 Apr) | `failed_experiments/01_florence2_finetuning/earlier_copies_2026-06-15`, `archive/previous_versions/04_llava_blip2/blip2_rerun_june_earlier_copies_2026-06-12`, `archive/previous_versions/06_qwen25vl_plantvillage/v5.0_crop_app_2026-04-13/earlier_copies`, `failed_experiments/05_qwen_april_first_attempt/fix_app.py` |
 | Knowledge base v2 for the TIH tomato migration (12 Aug) | `projects/10_tih_tomato_qwen_qlora/private_archive/knowledge_base/dkb_v2_tomato_only_high_depth_rectified.json` |
 | VLM presentation (31 Mar) | `docs/reports/vlm_presentation_2026-03-31.html` |
 | First Qwen diagnosis output (8 Apr) | `projects/06_qwen25vl_plantvillage/qwen/sample_diagnosis_2026-04-08.txt` |
 | Photos uploaded to the PlantDx app on 18 May | `projects/07_plantdx_plantvillage/data/raw/uploads/` |
 | Field test photos (31 Mar, 9 Apr) | `projects/06_qwen25vl_plantvillage/test_images/` |
-| CottonCrop at every commit (4 and 6 Jan) | `projects/01_cnn_keras_tomato/versions/` |
+| CottonCrop at every commit (4 and 6 Jan) | `archive/previous_versions/01_cnn_keras_tomato/` |
 | Datasets (PlantVillage, SoyNet zip and raw photos, TIH tomato, MangoLeafBD) | not redistributed; locations in `docs/datasets.md` |
 
 ## Everything found on the Mac
@@ -158,10 +158,10 @@ All 8 papers: `docs/publication.md`. ICAIN 2026 paper (ID 953), camera-ready PDF
 | Its generated outputs that were gitignored there: ontology, vocabulary, concepts, templates, 1,966-caption corpus, exports, tomato and mango training datasets, dataset manifests, audit reports | `projects/09_plantdx_mlx_knowledge_grounded/artifacts/`, `datasets/`, `reports/` |
 | Full evaluation of both MLX runs (metrics, per-disease, confusion matrices, caption metrics, hallucination, latency, figures, raw predictions) and the MLX training logs | `projects/09_plantdx_mlx_knowledge_grounded/reports/qwen25vl_<crop>_qlora/evaluation/`, `logs/` |
 | Demo app predictions and uploaded photos (16 Jul) | `projects/09_plantdx_mlx_knowledge_grounded/predictions/`, `uploads/` |
-| PlantCaption: knowledge-base + Qwen2.5-VL caption pipeline (12 Jun, `~/Downloads/PlantCaption.zip`) | `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/01_plantcaption_pipeline_2026-06-12` |
-| Caption sets for the TIH sample photos and the 16 benchmark leaves, four versions (23 Jun, `~/Desktop/dataset`, `~/Desktop/caption`, `~/Downloads/*caption*.zip`) | `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/02_caption_sets_2026-06-23` |
-| Four-VLM MLX zero-shot benchmark (25 Jun) with its report (Markdown, PDF, charts) | `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25` |
-| Seven-VLM MLX zero-shot benchmark (1 Jul) with its evaluation report (docx) | `projects/09_plantdx_mlx_knowledge_grounded/earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01` |
+| PlantCaption: knowledge-base + Qwen2.5-VL caption pipeline (12 Jun, `~/Downloads/PlantCaption.zip`) | `failed_experiments/11_mac_earlier_experiments/01_plantcaption_pipeline_2026-06-12` |
+| Caption sets for the TIH sample photos and the 16 benchmark leaves, four versions (23 Jun, `~/Desktop/dataset`, `~/Desktop/caption`, `~/Downloads/*caption*.zip`) | `failed_experiments/11_mac_earlier_experiments/02_caption_sets_2026-06-23` |
+| Four-VLM MLX zero-shot benchmark (25 Jun) with its report (Markdown, PDF, charts) | `failed_experiments/11_mac_earlier_experiments/03_zero_shot_4vlm_benchmark_2026-06-25` |
+| Seven-VLM MLX zero-shot benchmark (1 Jul) with its evaluation report (docx) | `failed_experiments/11_mac_earlier_experiments/04_zero_shot_7vlm_benchmark_2026-07-01` |
 | PlantVillage tomato images (10 classes, 18,160) and MangoLeafBD (8 classes, 4,000) used for the MLX runs | `projects/09_plantdx_mlx_knowledge_grounded/tomato/raw/`, `mango/raw/` |
 | The nested `experimentation/` copy (identical files; its one commit `d4eb1aa` was on a GitHub repo that no longer exists) | `history/kharulkamaaksha_experimentation.bundle` |
 | TIH Week 1–2 day notebooks, December 2025 (`~/Desktop/IITB`) | `projects/00_tih_foundation_weeks_dec2025` |

@@ -25,12 +25,12 @@
 
 | File | Copied from |
 |---|---|
-| [`2026-03_March__qwen__evaluation_report.json`](evaluation_reports/2026-03_March__qwen__evaluation_report.json) | `2026-04_April/qwen/evaluation_report.json` |
-| [`qwen_zeroshot__evaluation_report.json`](evaluation_reports/qwen_zeroshot__evaluation_report.json) | `evaluation_reports_oct2026/qwen_zeroshot/evaluation_report.json` |
-| [`florence_zeroshot__evaluation_report.json`](evaluation_reports/florence_zeroshot__evaluation_report.json) | `evaluation_reports_oct2026/florence_zeroshot/evaluation_report.json` |
+| [`2026-03_March__qwen__evaluation_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-04_April/evaluation_reports/03_mar_aug2026_vlm_plantvillage__qwen__evaluation_report.json) | `2026-04_April/qwen/evaluation_report.json` |
+| [`qwen_zeroshot__evaluation_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-04_April/evaluation_reports/qwen_zeroshot__evaluation_report.json) | `evaluation_reports_oct2026/qwen_zeroshot/evaluation_report.json` |
+| [`florence_zeroshot__evaluation_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-04_April/evaluation_reports/florence_zeroshot__evaluation_report.json) | `evaluation_reports_oct2026/florence_zeroshot/evaluation_report.json` |
 
 ## Code and models
 
-- [Qwen2.5-VL code and adapter](../2026-04_April/qwen)
-- [production pipeline](../2026-04_April/latest_changes)
-- [Florence-2 attempt](../2026-04_April/florence)
+- [Qwen2.5-VL code and adapter](https://github.com/iAakash1/TIH-IoT/tree/main/2026-04_April/qwen)
+- [production pipeline](https://github.com/iAakash1/TIH-IoT/tree/main/2026-04_April/latest_changes)
+- [Florence-2 attempt](https://github.com/iAakash1/TIH-IoT/tree/main/2026-04_April/florence)

@@ -21,10 +21,10 @@
 
 | File | Copied from |
 |---|---|
-| [`run_002_fold0__evaluation__val_report.json`](evaluation_reports/run_002_fold0__evaluation__val_report.json) | `2026-08_August/newpipe/runs/run_002_fold0/evaluation/val_report.json` |
-| [`run_002_fold0__logs__epochs.jsonl`](evaluation_reports/run_002_fold0__logs__epochs.jsonl) | `2026-08_August/newpipe/runs/run_002_fold0/logs/epochs.jsonl` |
+| [`run_002_fold0__evaluation__val_report.json`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-08_August/evaluation_reports/run_002_fold0__evaluation__val_report.json) | `2026-08_August/newpipe/runs/run_002_fold0/evaluation/val_report.json` |
+| [`run_002_fold0__logs__epochs.jsonl`](https://github.com/iAakash1/TIH-IoT/blob/main/2026-08_August/evaluation_reports/run_002_fold0__logs__epochs.jsonl) | `2026-08_August/newpipe/runs/run_002_fold0/logs/epochs.jsonl` |
 
 ## Code and models
 
-- [PlantVLM](../2026-08_August/newpipe)
-- [SigLIP/OpenCLIP prototype](../2026-08_August/siglip_openclip_tih_prototype)
+- [PlantVLM](https://github.com/iAakash1/TIH-IoT/tree/main/2026-08_August/newpipe)
+- [SigLIP/OpenCLIP prototype](https://github.com/iAakash1/TIH-IoT/tree/main/2026-08_August/siglip_openclip_tih_prototype)
