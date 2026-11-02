@@ -1,5 +1,17 @@
 # How to run, retrain and extend the models
 
+Each model also has a one-to-two-page `HANDOVER_GUIDE.md` in its project folder (list in
+[`README_HANDOVER.md`](README_HANDOVER.md)); this page collects the common steps.
+
+## 0. Get the repository
+
+```powershell
+git clone https://github.com/iAakash1/handover.git
+cd handover
+```
+
+No Git LFS is needed for this repository: model weights are downloaded separately (step 1).
+
 ## 1. One-time setup (Windows, PowerShell, inside the repository folder)
 
 | Step | Command | Notes |
@@ -8,6 +20,8 @@
 | Environments | `python setup\setup_envs.py` | creates `.venvs\keras`, `soynet`, `vlm`, `florence`, `tih` (~25 GB, 20–40 min) |
 | Models | `python setup\download_models.py` | 4.0 GB from github.com/iAakash1/TIH-IoT, checksummed, re-runnable (`--all` adds older versions and per-epoch checkpoints, +3.6 GB) |
 | Check | `python setup\check_setup.py` | must print **READY** |
+
+`download_models.py` takes a filter, e.g. `python setup\download_models.py 10_tih` fetches only project 10.
 
 GPU: an NVIDIA card with a recent driver. The VLMs (04–08, 10) need ~16–24 GB of GPU memory; the CNNs (01–03)
 also run on CPU.
@@ -39,10 +53,25 @@ cd projects\<project>
 | TIH tomato (11 classes) | `cd projects\10_tih_tomato_qwen_qlora; ..\..\.venvs\tih\Scripts\python -m plantdx.cli company predict --config configs/train/qwen25vl_tih_tomato_moreaccurate.yaml --adapter checkpoints/tih_tomato_moreaccurate --image <photo>` |
 | Re-create an evaluation number | each project has `evaluate.py` / `04_evaluate.py`; VLMs: `cd evaluation; ..\.venvs\vlm\Scripts\python vlm_eval.py <kind> <out_dir> <adapter>` |
 | MLX pipeline and zero-shot benchmarks (Mac with Apple Silicon only) | see `projects/09_plantdx_mlx_knowledge_grounded/README.md` and `failed_experiments/11_mac_earlier_experiments/README.md` |
+| PlantVLM (expert captions) | `cd projects\08_plantvlm_expert_captions; ..\..\.venvs\vlm\Scripts\python scripts/03_infer.py --split val` |
 | December image-processing notebooks | `projects/00_tih_foundation_weeks_dec2025` (Jupyter, run from each day's folder) |
 
 `vlm_predict.py --model` accepts `qwen_april`, `plantdx`, `plantvlm`, `qwen_base`, `blip2_march`, `blip2_june`,
 `llava` (vlm env) and `florence` (florence env).
+
+### MLX models (project 09, Mac with Apple Silicon only)
+
+```bash
+cd projects/09_plantdx_mlx_knowledge_grounded
+conda create -n vlm python=3.12 -y && conda activate vlm
+pip install -e ".[train]" -r requirements-mlx.txt
+python ../../setup/download_models.py 09_plantdx            # tomato and mango adapters
+plantdx infer --adapter checkpoints/qwen25vl_tomato_qlora --image leaf.JPG
+plantdx infer --adapter checkpoints/qwen25vl_mango_qlora --image leaf.jpg --instruction "Describe the visible condition of this mango leaf."
+streamlit run streamlit_app.py
+```
+
+Evaluation and retraining: [`projects/09_…/docs/REPRODUCTION.md`](../projects/09_plantdx_mlx_knowledge_grounded/docs/REPRODUCTION.md).
 
 ## 3. Retrain
 
@@ -83,3 +112,6 @@ to keep them.
 | `torch.load` / CLIP safetensors error | you are offline on first use; connect once so Hugging Face can download the base models |
 | TIH: `dataset root not found` | add `--dataset-root <folder with the 11 class folders>` |
 | Wrong folder errors (`No module named …`) | `cd` into the project folder before running |
+| `download_models.py`: `connection was forcibly closed` | a network interruption; run the same command again (finished files are skipped) |
+| MLX: `malformed adapter checkpoint … missing adapters.safetensors` | `python setup/download_models.py 09_plantdx` |
+| MLX app: mlx-vlm "can't import" | start Streamlit with the MLX environment's own Python: `"$CONDA_PREFIX/bin/python" -m streamlit run streamlit_app.py` (see `projects/09_…/docs/DEMO_APP.md`) |
