@@ -41,7 +41,7 @@ The app finds the adapter in `../qwen/outputs/qwen25vl_plantvillage/best` by its
 ```powershell
 cd projects\06_qwen25vl_plantvillage\qwen
 ..\..\..\.venvs\vlm\Scripts\python 01_prepare_dataset.py    # captions.json (90/10 split, seed 42) from PLANTVILLAGE_DIR
-..\..\..\.venvs\vlm\Scripts\python 02_finetune_qwen25vl.py  # 3 epochs, LoRA r32, LR 2e-4, batch 4 x grad-accum 4
+..\..\..\.venvs\vlm\Scripts\python 02_finetune_qwen25vl.py  # 3 epochs, LoRA r32, LR 1e-4, batch 2 x grad-accum 8
 ..\..\..\.venvs\vlm\Scripts\python 04_evaluate.py           # the 200-image evaluation above
 ..\..\..\.venvs\vlm\Scripts\python -m streamlit run 05_app.py
 ```

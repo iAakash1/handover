@@ -14,7 +14,7 @@ confidence shown is derived from the CLIP similarity. `app.py` adds a GradCAM he
 `qwen/captions.json`: 90/10 split, seed 42 (18,574 train / 2,064 validation records); the evaluation uses the first
 200 validation records.
 
-**4. Training.** 3 epochs, LR 2e-4, batch 4 × gradient accumulation 4, bf16 (`qwen/02_finetune_qwen25vl.py`). The
+**4. Training.** 3 epochs, LR 1e-4, batch 2 × gradient accumulation 8 (effective 16), cosine schedule with 5% warm-up, bf16 (`qwen/02_finetune_qwen25vl.py`). The
 first attempt needed four fixes, kept in [`../../failed_experiments/05_qwen_april_first_attempt/`](../../failed_experiments/05_qwen_april_first_attempt/README.md).
 
 **5. Weights.** `qwen/outputs/qwen25vl_plantvillage/best/` (adapter files in git; `adapter_model.safetensors`,

@@ -64,6 +64,9 @@ Project 00 holds the December 2025 TIH notebooks (coursework, no model).
 The Windows environments are built by `python setup\setup_envs.py` from the pinned files in `setup/requirements/`
 (Python 3.10); the TIH workstation has an NVIDIA RTX 4500 Ada (24 GB). Project 09 uses its own environment
 (`projects/09_…/requirements-mlx.txt`) and does not run on CUDA; projects 06, 07, 08 and 10 do not run on MLX.
+The `tih` row is the environment rebuilt for running project 10; the TIH models themselves were trained with PyTorch
+2.6.0 (CUDA 12.4), transformers 5.16.1, PEFT 0.20.0 and bitsandbytes 0.50.2
+(`projects/10_tih_tomato_qwen_qlora/checkpoints/tih_tomato_moreaccurate/run_identity.json`).
 
 ---
 
@@ -108,7 +111,7 @@ The Windows environments are built by `python setup\setup_envs.py` from the pinn
 ### 4.5 Project 06: Qwen2.5-VL-7B with LoRA, crop disease app · [guide](../projects/06_qwen25vl_plantvillage/HANDOVER_GUIDE.md)
 
 - **Method.** `Qwen2.5-VL-7B-Instruct`, bf16, LoRA r32 / alpha 64 on all attention and MLP projections, 3 epochs,
-  LR 2e-4, batch 4 × accumulation 4. App pipeline: CLIP ViT-B/32 out-of-distribution check (stop below 0.27) →
+  LR 1e-4, batch 2 × accumulation 8 (effective 16), cosine schedule with 5% warm-up. App pipeline: CLIP ViT-B/32 out-of-distribution check (stop below 0.27) →
   generation (beam search 4) → field parser → plant-mismatch check → GradCAM; the displayed confidence comes from
   the CLIP similarity.
 - **Data.** PlantVillage, 15 classes, captions in `qwen/captions.json` (90/10, seed 42; 18,574 / 2,064).
@@ -118,7 +121,7 @@ The Windows environments are built by `python setup\setup_envs.py` from the pinn
 ### 4.6 Project 07: PlantDx, 15 PlantVillage classes · [guide](../projects/07_plantdx_plantvillage/HANDOVER_GUIDE.md)
 
 - **Method.** The project-06 recipe as a modular code base (`core/`, `utils/`, `scripts/`, `configs/config.yaml`):
-  LoRA r32 / alpha 64, 3 epochs, batch 4 × 4, LR 2e-4.
+  LoRA r32 / alpha 64, 3 epochs, batch 4 × 4, LR 2e-4 (project 06 used batch 2 × 8 and LR 1e-4).
 - **Results** (`outputs/evaluations/report.json`): **98.00%**, macro-F1 0.9777, BLEU-4 0.386, severity R² 0.966.
 
 ### 4.7 Project 08: PlantVLM on expert captions · [guide](../projects/08_plantvlm_expert_captions/HANDOVER_GUIDE.md)

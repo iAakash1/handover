@@ -29,7 +29,8 @@ checkpoints (656, 1312, 1908) with `--all`. The app serves the adapter named in
 `artifacts/runtime/active_adapter.json` (set to `tih_tomato_moreaccurate`).
 
 **6. Install.** `.venvs\tih` (PyTorch 2.7.1 CUDA 11.8, transformers 5.3, PEFT 0.18, bitsandbytes 0.49, this package
-installed editable). **Needs an NVIDIA GPU** (4-bit NF4 via bitsandbytes); on a Mac the app opens but cannot diagnose.
+installed editable); the models were trained with PyTorch 2.6.0 (CUDA 12.4), transformers 5.16.1, PEFT 0.20.0 and
+bitsandbytes 0.50.2 (`checkpoints/tih_tomato_moreaccurate/run_identity.json`). **Needs an NVIDIA GPU** (4-bit NF4 via bitsandbytes); on a Mac the app opens but cannot diagnose.
 
 **7. Inference.**
 ```powershell
