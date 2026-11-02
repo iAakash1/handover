@@ -16,7 +16,7 @@ survived), what happened, and what we learned, so nobody has to repeat them. The
 | 08 | `08_tih_aborted_training_run` | Sep 2026 | A full TIH training campaign started automatically from the CLI | Stopped at step ~40 of 1,968, no adapter written; kept for its zero-shot baseline (8.47%) | Official runs start only from the Streamlit **RUN TRAINING** button |
 | 09 | `09_siglip_openclip_prototype` | Aug 2026 | Contrastive SigLIP / OpenCLIP classifier for the TIH data | Written, never trained: Qwen2.5-VL QLoRA was chosen (92.76%) | Kept as a lighter option for the future |
 | 10 | `10_soynet_keras_efficientnet` | Jan 2026 | EfficientNetB0/B3 in the Keras SoyNet run | The models did not build; only empty 6 KB files were saved (kept here) | The PyTorch run trained both (93.93%, 93.39%) |
-| 11 | `11_mac_earlier_experiments` | Jun – Jul 2026 | Earlier approaches on the Mac: PlantCaption (knowledge base + Qwen2.5-VL scene captions), four caption sets, 4-VLM and 7-VLM zero-shot benchmarks on MLX | Zero-shot: exact disease match 0–6% (4 VLMs, 16 images), best 23% (7 VLMs, 30 images) | Captions anchored to the label and a cited knowledge base led to the final MLX pipeline (`projects/09`) |
+| 11 | `11_mac_earlier_experiments` | Jun – Jul 2026 | Earlier approaches on the Mac: PlantCaption (knowledge base + Qwen2.5-VL scene captions), four caption sets, 4-VLM and 7-VLM zero-shot benchmarks on MLX | Zero-shot: exact disease match 0–6% (4 VLMs, 16 images), best 23% (7 VLMs, 30 images) | Captions anchored to the label and a cited knowledge base led to the final MLX pipeline (`projects/09_plantdx_mlx_knowledge_grounded`) |
 
 Every number above comes from a report in this repository (`evaluation/`, the project folders, or the
 folders here).
