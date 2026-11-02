@@ -1,5 +1,7 @@
 # 02 · ConvNeXt-Tiny in PyTorch (8 January 2026) — best CNN
 
+> **Handover guide:** [`HANDOVER_GUIDE.md`](HANDOVER_GUIDE.md) (what it does, install, run, evaluate, extend, limitations, on one or two pages)
+
 The same tomato task in PyTorch on the RTX 4500 GPU: ConvNeXt-Tiny from ImageNet weights, fully fine-tuned with
 AdamW (LR 1e-4), mixed precision, batch 64, 10 epochs (about 0.9 min per epoch).
 

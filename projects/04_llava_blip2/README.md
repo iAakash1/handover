@@ -1,5 +1,7 @@
 # 04 · LLaVA-1.6 and BLIP-2 with LoRA (March and June 2026)
 
+> **Handover guide:** [`HANDOVER_GUIDE.md`](HANDOVER_GUIDE.md) (what it does, install, run, evaluate, extend, limitations, on one or two pages)
+
 My first vision-language models. The goal: instead of only a label, write a structured diagnosis for a leaf
 photo ("Plant: Tomato. Condition: Late Blight. Severity: Moderate..."). Both models were fine-tuned with LoRA on
 PlantVillage captions; Qwen2.5-VL (project 06) replaced them in April.

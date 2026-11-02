@@ -1,5 +1,7 @@
 # 10 · TIH tomato: Qwen2.5-VL QLoRA, 11 classes, cross-domain benchmark (Aug–Sep 2026) — ICAIN 2026 paper
 
+> **Handover guide:** [`HANDOVER_GUIDE.md`](HANDOVER_GUIDE.md) (what it does, install, run, evaluate, extend, limitations, on one or two pages)
+
 Qwen2.5-VL-7B-Instruct adapted with 4-bit NF4 QLoRA to name one of 11 classes (leaf and fruit diseases, pests,
 healthy leaf / fruit) in the private TIH `Tomato_12thAug26` images. This is the work in our ICAIN 2026 paper.
 

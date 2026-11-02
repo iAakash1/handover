@@ -1,5 +1,7 @@
 # 03 · Soybean healthy vs diseased — SoyNet (27 January 2026)
 
+> **Handover guide:** [`HANDOVER_GUIDE.md`](HANDOVER_GUIDE.md) (what it does, install, run, evaluate, extend, limitations, on one or two pages)
+
 **Environment:** `soynet` (TensorFlow 2.10 + PyTorch 2.5.1, CUDA 12.1)
 
 **In short:** we trained four CNNs to tell **healthy** from **diseased** soybean leaves with the SoyNet dataset and

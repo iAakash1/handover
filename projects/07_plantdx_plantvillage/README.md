@@ -1,5 +1,7 @@
 # 07 · PlantDx — Qwen2.5-VL on 15 PlantVillage classes (May 2026)
 
+> **Handover guide:** [`HANDOVER_GUIDE.md`](HANDOVER_GUIDE.md) (what it does, install, run, evaluate, extend, limitations, on one or two pages)
+
 The April pipeline rebuilt as a clean, config-driven project (`core/`, `utils/`, `scripts/`, `configs/`) and
 trained on all 15 PlantVillage classes (tomato, potato, pepper). Qwen2.5-VL-7B + LoRA r32, 3 epochs.
 

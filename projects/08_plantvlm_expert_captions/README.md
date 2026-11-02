@@ -1,5 +1,7 @@
 # 08 · PlantVLM — training only on expert-checked captions (August 2026)
 
+> **Handover guide:** [`HANDOVER_GUIDE.md`](HANDOVER_GUIDE.md) (what it does, install, run, evaluate, extend, limitations, on one or two pages)
+
 Can a VLM learn from a small set of captions written and checked by people instead of templates? We fine-tuned
 Qwen2.5-VL-7B (LoRA r16) on 150 expert-revised captions for 30 tomato images (6 diseases × 5 images).
 

@@ -1,5 +1,7 @@
 # 01 · Tomato leaf CNNs in Keras (December 2025 – January 2026)
 
+> **Handover guide:** [`HANDOVER_GUIDE.md`](HANDOVER_GUIDE.md) (what it does, install, run, evaluate, extend, limitations, on one or two pages)
+
 My first models: a small CNN written from scratch for the December TIH tasks, then transfer learning with
 MobileNetV2, EfficientNetB3 and ConvNeXt-Tiny on the 10 PlantVillage tomato classes. The `preprocessing/` package
 is the Week-2 TIH task (training preprocessing, augmentation, image-quality checks), and `validation/` is the

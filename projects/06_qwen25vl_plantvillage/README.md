@@ -1,5 +1,7 @@
 # 06 · Qwen2.5-VL-7B on PlantVillage (April 2026) — the model that worked
 
+> **Handover guide:** [`HANDOVER_GUIDE.md`](HANDOVER_GUIDE.md) (what it does, install, run, evaluate, extend, limitations, on one or two pages)
+
 Qwen2.5-VL-7B-Instruct fine-tuned with LoRA (r32, alpha 64, bf16) on structured PlantVillage captions. It writes
 a full diagnosis: plant, condition, severity, pathogen and visible symptoms.
 

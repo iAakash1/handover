@@ -1,5 +1,7 @@
 # 09 · PlantDx: knowledge-grounded VLM for leaf-disease diagnosis on Apple Silicon (MLX)
 
+> **Handover guide:** [`HANDOVER_GUIDE.md`](HANDOVER_GUIDE.md) (what it does, install, run, evaluate, extend, limitations, on one or two pages)
+
 **TIH IIT Bombay · Chanakya Fellowship · June – July 2026**
 Aakash Trimbak Jawle, Kamaaksha Rajendra Kharul · Faculty mentor: Dr. Santwana Gudadhe (PCCOE Pune) ·
 TIH mentors: Harish Lokawad, Hrishikesh Patil, Rutuja Chavan
